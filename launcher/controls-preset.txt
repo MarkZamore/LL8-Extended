@@ -247,10 +247,6 @@ key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.spread:key.keyboard.unknown
 key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
 
-# --- crashutilities ---
-key_crashutils.copycontainer:key.keyboard.unknown
-key_crashutils.openscreen:key.keyboard.unknown  # was u:CONTROL: debugging aid
-key_crashutils.slottooltips:key.keyboard.unknown
 
 # --- crawl ---
 key_key.crawl:key.keyboard.pause  # was c: the dragon breathes on it now; crawling is rare and never hurried
@@ -619,8 +615,6 @@ key_key.neovitae.open_guide:key.keyboard.unknown
 # --- notes ---
 key_key.openNotes:key.keyboard.unknown  # was n: rare
 
-# --- observable ---
-key_key.observable.profile:key.keyboard.unknown
 
 # --- occultism ---
 key_key.occultism.backpack:key.keyboard.unknown  # was b: the satchel opens by use

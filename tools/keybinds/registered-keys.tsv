@@ -16,9 +16,6 @@ artifacts.key.night_vision_goggles.toggle	artifacts	UNIVERSAL	assumed	key.keyboa
 artifacts.key.scarf_of_invisibility.toggle	artifacts	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Scarf of Invisibility	
 artifacts.key.universal_attractor.toggle	artifacts	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Universal Attractor	Вкл/выкл универсальный магнит
 crafting_on_a_stick.key.open_curios	crafting_on_a_stick	UNIVERSAL	assumed	key.keyboard.v	key.keyboard.unknown	options+defaults	Open Crafting on a Stick	
-crashutils.copycontainer	crashutilities	GUI	bytecode	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Copy Container Class	
-crashutils.openscreen	crashutilities	IN_GAME	bytecode	key.keyboard.u:CONTROL	key.keyboard.unknown	options+defaults	Open the Crash Utilities Screen	
-crashutils.slottooltips	crashutilities	IN_GAME	bytecode	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Show Slot Index Tooltips	
 create.keyinfo.alt_modifier	create	UNIVERSAL	assumed		key.keyboard.right.alt	options	Alt Modifier	
 create.keyinfo.ctrl_modifier	create	UNIVERSAL	assumed		key.keyboard.right.control	options	Ctrl Modifier	
 create.keyinfo.rotate_menu	create	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Block Rotation Menu	Открыть меню вращения блока
@@ -396,7 +393,6 @@ key.neovitae.lex_mode	neovitae	UNIVERSAL	assumed		key.keyboard.unknown	options	L
 key.neovitae.open_guide	neovitae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Scriptura Vitae for Hovered Item	Открыть Scriptura Vitae для шерсти
 key.nextDestination	rftoolsbase	IN_GAME	bytecode	key.keyboard.right.bracket	key.keyboard.unknown	options+defaults	Cycle to next target	
 key.next_item.desc	deepnullreforged	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle to next item in DeepNull	
-key.observable.profile	observable	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Show profiler screen	Показать меню
 key.occultism.backpack	occultism	UNIVERSAL	assumed	key.keyboard.b	key.keyboard.unknown	options+defaults	Open Satchel	Открыть наплечную сумку
 key.occultism.ender_bag	occultism	UNIVERSAL	assumed	key.keyboard.v	key.keyboard.unknown	options+defaults	Open Ender Satchel	Open Ender Satchel
 key.occultism.familiar.bat_familiar	occultism	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Ring Effect: Bat	Переключение эффекта перстня: летучая мышь

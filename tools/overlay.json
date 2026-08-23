@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "1ac4e816615588e3c28d667a3c907e3af739c8537a6594784d4ed8f91e8f6bf8",
+   "sha256": "d9749b7f436984f2929ddfc3afd64d68b9745b7a9cee1795ccf74428831d5a58",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -250,6 +250,42 @@
    "target": "config/smoothswapping.json",
    "sha256": "b7b826c73df3e3a753aeb5ff5494e86e31115d31cd4dd8fc60248d4015e74d36",
    "reason": "Smooth Swapping ships animationSpeed 100, and the slide it draws is distance/10 * speed/100 per frame - across a full inventory that reads as a lag. 220 keeps the movement visible but has an item arrive in well under half the shipped time"
+  },
+  {
+   "source": "tools/overlay/mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
+   "target": "mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
+   "sha256": "016eaec4445863874b51130a146346f1d862b92f1c4168333fbc219aa1e5d328",
+   "reason": "requested addition, kept through pack updates (CreativeCore 2.13.44): the library AmbientSounds requires"
+  },
+  {
+   "source": "tools/overlay/mods/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+   "target": "mods/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+   "sha256": "07ee6fd24d8427ee079e2e376095b0ac92450b0153331f1575f8195e2c9cf90b",
+   "reason": "requested addition, kept through pack updates (AmbientSounds 6.3.8): biome and weather ambience; client only, needs creativecore which ships beside it"
+  },
+  {
+   "source": "tools/overlay/mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+   "target": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+   "sha256": "bddc71ecd4f074a101eb3785599d13c69e64025e1029aa0fd0a28fcf9bccf2ea",
+   "reason": "requested addition, kept through pack updates (Sound Physics Remastered 1.5.1): reverb and occlusion from the room around a sound. The only 1.21.1 NeoForge build published is this alpha; cloth_config and voicechat are optional and the pack has the former"
+  },
+  {
+   "source": "tools/overlay/mods/Drip Sounds-0.5.2+1.21.8-NeoForge.jar",
+   "target": "mods/Drip Sounds-0.5.2+1.21.8-NeoForge.jar",
+   "sha256": "b5d831c16a54ffefa4022f2d56f174a8508e334cfb3b31f91b318deaa9f8c180",
+   "reason": "requested addition, kept through pack updates (Drip Sounds 0.5.2): water dripping in caves. Its file name says 1.21.8 but the jar declares minecraft [1.21,) and needs cloth_config, which the pack has"
+  },
+  {
+   "source": "tools/overlay/mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+   "target": "mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+   "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+   "reason": "requested addition, kept through pack updates (Terralith 2.6.2): overworld biomes and terrain, applied to chunks generated from now on; needs lithostitched [1.7.7,), the pack ships 1.7.13"
+  },
+  {
+   "source": "tools/overlay/mods/tectonic-3.0.26-neoforge-21.1.jar",
+   "target": "mods/tectonic-3.0.26-neoforge-21.1.jar",
+   "sha256": "36aa9b4a8c399c9943460a7a58d91402b6d671c10ab11b099c2ee1d75af232ea",
+   "reason": "requested addition, kept through pack updates (Tectonic 3.0.26): taller mountains, deeper valleys and reshaped rivers for chunks generated from now on"
   }
  ],
  "tomlEdits": [
@@ -334,6 +370,42 @@
   },
   {
    "path": "config/ftbchunks-world.snbt",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "mods/BHMenu-*.jar",
+   "reason": "BisectHosting's partner menu: an advert for server hosting, in a pack that is only ever played over LAN"
+  },
+  {
+   "path": "mods/JCPlugin-*.jar",
+   "reason": "a ModLauncher plugin serving the same hosting partner; nothing in the game asks for it"
+  },
+  {
+   "path": "mods/consolefilter-*.jar",
+   "reason": "two classes that hide lines from the server console - there is no server console here"
+  },
+  {
+   "path": "mods/wits-*.jar",
+   "reason": "one command reporting what is in the server's thread pools; a dedicated-server diagnostic"
+  },
+  {
+   "path": "mods/observable-*.jar",
+   "reason": "a per-entity and per-block profiler, and the second one in the pack"
+  },
+  {
+   "path": "mods/spark-*.jar",
+   "reason": "sampling CPU profiler, tick monitor and heap dumper: admin tooling, and the pack already carried a second profiler"
+  },
+  {
+   "path": "mods/crashutilities-*.jar",
+   "reason": "an admin console for finding and mass-deleting entities and tile entities"
+  },
+  {
+   "path": "config/spark",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "config/observable-client.toml",
    "reason": "configuration of the removed mod"
   }
  ],

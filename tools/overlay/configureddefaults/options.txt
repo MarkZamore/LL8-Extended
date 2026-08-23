@@ -230,7 +230,6 @@ key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 key_key.mekanismadditions.voice:key.keyboard.u
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
-key_key.observable.profile:key.keyboard.unknown
 key_key.ftbultimine:key.keyboard.grave.accent
 key_ftbultimine.change_shape.next:key.keyboard.up
 key_ftbultimine.change_shape.prev:key.keyboard.down
@@ -504,9 +503,6 @@ key_key.bankstorage.lockslot:key.keyboard.left.alt
 key_key.bankstorage.openbankfromkeybind:key.keyboard.unknown
 key_key.bankstorage.enablescroll:key.keyboard.unknown
 key_key.starcatcher.minigame_hit:key.keyboard.space
-key_crashutils.openscreen:key.keyboard.u:CONTROL
-key_crashutils.copycontainer:key.keyboard.unknown
-key_crashutils.slottooltips:key.keyboard.unknown
 key_key.actualladditions.crafting_stick_open.desc:key.keyboard.unknown
 key_key.ars_additions.open_lectern:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_control_left:key.keyboard.unknown
