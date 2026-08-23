@@ -481,6 +481,46 @@
   {
    "path": "config/forgeendertech/Biomes/regions_unexplored$*.cfg",
    "reason": "75 per-biome chimney settings for biomes that no longer exist"
+  },
+  {
+   "path": "mods/Oh-The-Biomes-Weve-Gone-*.jar",
+   "reason": "153 biomes injected through TerraBlender beside Terralith's 308 through lithostitched: two biome sets dividing one overworld, so each appears about half as often as its author drew it. Terralith keeps the map, and Tectonic's terratonic overlay is built for Terralith alone"
+  },
+  {
+   "path": "mods/mcwbyg-*.jar",
+   "reason": "Macaw's furniture for the removed mod's woods; it declares biomeswevegone required"
+  },
+  {
+   "path": "config/biomeswevegone",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/biomeswevegone",
+   "reason": "48 recipes and a structure set in the removed mod's own namespace"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/farmingforblockheads/recipe/market/biomeswevegone",
+   "reason": "44 market entries selling saplings the removed mod owned"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/extradatamodels/data_models/biomes_weve_gone",
+   "reason": "two data models for mobs the removed mod owned"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/dacite.json",
+   "reason": "cobble generator recipe whose only product was a Biomes We've Gone block"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/cobbled_dacite.json",
+   "reason": "cobble generator recipe whose only product was a Biomes We've Gone block"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/rocky_stone.json",
+   "reason": "cobble generator recipe whose only product was a Biomes We've Gone block"
+  },
+  {
+   "path": "config/forgeendertech/Biomes/biomeswevegone$*.cfg",
+   "reason": "55 per-biome chimney settings for biomes that no longer exist"
   }
  ],
  "jsonEdits": [

@@ -297,7 +297,6 @@ ServerEvents.recipes(event => {
   // Regions Unexplored Coarse Dirt to Vanilla Coarse Dirt
 
   // Biomes Weve Gone Lush Dirt to Vanilla Dirt
-  event.shapeless(Item.of('minecraft:dirt'), ['biomeswevegone:lush_dirt']).id('tnp:lush_dirt_to_dirt')
 
   // Temporal Pouch - Edit
   event.remove({id: 'gag:time_sand_pouch'})

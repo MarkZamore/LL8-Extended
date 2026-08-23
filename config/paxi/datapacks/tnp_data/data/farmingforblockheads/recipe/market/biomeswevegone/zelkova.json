@@ -1,8 +1,0 @@
-{
-  "type": "farmingforblockheads:market",
-  "category": "farmingforblockheads:saplings",
-  "preset": "biomeswevegone:saplings",
-  "result": {
-    "item": "biomeswevegone:zelkova_sapling"
-  }
-}
