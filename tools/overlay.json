@@ -378,6 +378,24 @@
    "target": "mods/grotesque_steve-1.4.2-neoforge-1.21.1.jar",
    "sha256": "05813d8b99f573bf540e083595af4ee98e1986997f578700eaef69bfa97d2586",
    "reason": "requested addition, kept through pack updates (Grotesque Steve 1.4.2, saskez's own build and not the CurseForge Safety Edition, which is a different file under the same modId): a very strong Steve that hunts the player, with a manual, a mansion and an ending. Wants NeoForge 21.1.190 against the pack's 21.1.244 and nothing else - GeckoLib stopped being required at 1.4.2. No mixins; 830 classes, none of which opens a socket or starts a process. It registers four keys and the layout has none to give, so all four are named unbound in the preset"
+  },
+  {
+   "source": "tools/overlay/config/agritech/crops_and_soil.json",
+   "target": "config/agritech/crops_and_soil.json",
+   "sha256": "2b8a52c6b9302d6004ad1da3870219dfcf924808bb3a23824125f2198636d81b",
+   "reason": "Agritech's generated soil table with the entries of mods this pack no longer has taken out (Regions Unexplored and Oh The Biomes We've Gone). Every one of them was an error line while the recipe screen was built - about 8,900 of them in one launch - because the block named as a soil does not exist"
+  },
+  {
+   "source": "tools/overlay/config/agritechevolved/plantables.json",
+   "target": "config/agritechevolved/plantables.json",
+   "sha256": "b1bd8c901a5b30a532eb6e83f75e5d8348bd1902643b37d963623d0f556b2a72",
+   "reason": "Agritech's generated soil table with the entries of mods this pack no longer has taken out (Regions Unexplored and Oh The Biomes We've Gone). Every one of them was an error line while the recipe screen was built - about 8,900 of them in one launch - because the block named as a soil does not exist"
+  },
+  {
+   "source": "tools/overlay/config/agritechtrees/saplings_and_soil.json",
+   "target": "config/agritechtrees/saplings_and_soil.json",
+   "sha256": "8f27b824bf4d8b5de37a74b329013daea115423a8ab4d35ee7dbe6913c9b8d37",
+   "reason": "Agritech's generated soil table with the entries of mods this pack no longer has taken out (Regions Unexplored and Oh The Biomes We've Gone). Every one of them was an error line while the recipe screen was built - about 8,900 of them in one launch - because the block named as a soil does not exist"
   }
  ],
  "tomlEdits": [
