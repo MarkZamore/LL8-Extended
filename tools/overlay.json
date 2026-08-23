@@ -220,6 +220,42 @@
    "target": "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
    "sha256": "d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5",
    "reason": "requested addition, kept through pack updates (Distant Horizons 3.2.0-b): renders simplified terrain far past the render distance. Declares itself clientSideOnly with acceptableRemoteVersions \"*\", so a player without it can still join, and it ships its own accessors for C2ME and Iris, both of which this pack has"
+  },
+  {
+   "source": "tools/overlay/mods/blur-neoforge-6.3.1+1.21.1.jar",
+   "target": "mods/blur-neoforge-6.3.1+1.21.1.jar",
+   "sha256": "292f8a8f7bd29589634b574a9e61f9a08f4ed9417d39f32f5b55b2ac6c22156b",
+   "reason": "requested addition, kept through pack updates (Blur+ 6.3.1): blurs the background behind every screen; client only, needs midnightlib which the pack already ships"
+  },
+  {
+   "source": "tools/overlay/mods/lambdynamiclights-4.8.10+1.21.1.jar",
+   "target": "mods/lambdynamiclights-4.8.10+1.21.1.jar",
+   "sha256": "94e955443ce3817f798c74cbbbb4973e7b55c8b6dec12808b9378e74376b2eb9",
+   "reason": "requested addition, kept through pack updates (LambDynamicLights 4.8.10): a held torch lights the world around the player; client only, carries its own runtime jar-in-jar"
+  },
+  {
+   "source": "tools/overlay/mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+   "target": "mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+   "sha256": "ef835ede1d24ba24371f1d77520a66c8010adf8c5f538a54099a14b13ae2e307",
+   "reason": "requested addition, kept through pack updates (Particle Rain 4.0.0-beta.10): weather drawn as particles with biome tints; client only"
+  },
+  {
+   "source": "tools/overlay/mods/smoothgui-neoforge-2.0.5+mc1.21.jar",
+   "target": "mods/smoothgui-neoforge-2.0.5+mc1.21.jar",
+   "sha256": "b1a5258472d8e340c68cab3c424d1e9543150b65a1336647e2d47f02a21aca4c",
+   "reason": "requested addition, kept through pack updates (Smooth Gui 2.0.5): screens fade and slide instead of snapping; client only"
+  },
+  {
+   "source": "tools/overlay/mods/smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
+   "target": "mods/smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
+   "sha256": "c1187b545097df22c528e9339902ab3631bea2da2b94f7b1569faabbc548d041",
+   "reason": "requested addition, kept through pack updates (Smooth Swapping 0.9.3.2): items slide between slots instead of teleporting; client only"
+  },
+  {
+   "source": "tools/overlay/config/smoothswapping.json",
+   "target": "config/smoothswapping.json",
+   "sha256": "b7b826c73df3e3a753aeb5ff5494e86e31115d31cd4dd8fc60248d4015e74d36",
+   "reason": "Smooth Swapping ships animationSpeed 100, and the slide it draws is distance/10 * speed/100 per frame - across a full inventory that reads as a lag. 220 keeps the movement visible but has an item arrive in well under half the shipped time"
   }
  ],
  "tomlEdits": [
