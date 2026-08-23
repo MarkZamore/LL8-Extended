@@ -237,13 +237,6 @@
    "key": "useTickCounter",
    "value": "false",
    "reason": "the tick counter never advanced on this pack, so no backup has ever actually fired; the wall-clock timer does"
-  },
-  {
-   "file": "config/simplebackups-common.toml",
-   "table": "",
-   "key": "timer",
-   "value": "180",
-   "reason": "a full copy of the world every hour is a visible hitch; every three hours keeps six restorable copies without the interruption"
   }
  ],
  "remove": [
