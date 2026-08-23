@@ -48,7 +48,7 @@ def download(url: str, destination: Path) -> None:
     """Downloads beside the target and moves it into place once it is whole."""
     partial = destination.with_suffix(destination.suffix + ".part")
     destination.parent.mkdir(parents=True, exist_ok=True)
-    request = urllib.request.Request(url, headers={"User-Agent": "LL8-pack/1.0 (+github.com/MarkZamore/LL8)"})
+    request = urllib.request.Request(url, headers={"User-Agent": "LL8-Extended-pack/1.0 (+github.com/MarkZamore/LL8-Extended)"})
     with urllib.request.urlopen(request, timeout=120) as response, partial.open("wb") as handle:
         while True:
             block = response.read(CHUNK)

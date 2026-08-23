@@ -12,7 +12,7 @@ the manifest promises.
 Needs the `gh` CLI (authenticated) for the asset listing. Stdlib otherwise.
 
 Usage:
-  python tools/verify_release.py --repo MarkZamore/LL8 --tag pack-latest \
+  python tools/verify_release.py --repo MarkZamore/LL8-Extended --tag pack-latest \
       [--expect-revision SHA] [--sample 5] [--timeout-min 40]
 """
 from __future__ import annotations
@@ -103,7 +103,7 @@ def list_release_assets(repo: str, tag: str) -> dict[str, int]:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Verify the rolling pack release against its manifest.")
-    parser.add_argument("--repo", default="MarkZamore/LL8")
+    parser.add_argument("--repo", default="MarkZamore/LL8-Extended")
     parser.add_argument("--tag", default="pack-latest")
     parser.add_argument("--expect-revision", default=None)
     parser.add_argument("--sample", type=int, default=5,

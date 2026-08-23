@@ -418,4 +418,23 @@ ServerEvents.recipes(event => {
   // Blaze Rod Block Revert
   event.shapeless('9x minecraft:blaze_rod', ['tnp:blaze_rod_block']).id('tnp:blaze_rod_block_revert')
 
+  // Orbital Railgun. The mod ships this very recipe, but under
+  // data/orbital_railgun/recipes/ - the folder name of 1.20. In 1.21 the
+  // directory comes from the recipe registry key, which is the literal
+  // "recipe", so the game never reads that file and the gun cannot be built
+  // at all. Same pattern and ingredients as the mod's own json.
+  event.shaped('orbital_railgun:orbital_railgun', [
+    'GNE',
+    'SBN',
+    'LR '
+  ], {
+    G: 'minecraft:glass_pane',
+    N: 'minecraft:netherite_ingot',
+    E: 'minecraft:emerald',
+    S: 'minecraft:nether_star',
+    B: 'minecraft:netherite_block',
+    L: 'minecraft:lapis_lazuli',
+    R: 'minecraft:redstone'
+  }).id('tnp:orbital_railgun')
+
 });

@@ -54,7 +54,7 @@ import scan_mods  # noqa: E402  (repo-local import, needs sys.path above)
 
 API = "https://api.curseforge.com"
 PROJECT_LL8 = 1027782
-GITHUB_REPO = "MarkZamore/LL8"
+GITHUB_REPO = "MarkZamore/LL8-Extended"
 STATE_FILE = TOOLS_DIR / "ll8-state.json"
 OVERLAY_FILE = TOOLS_DIR / "overlay.json"
 UPDATE_LOG = REPO_ROOT / "UPDATE-LOG.md"
