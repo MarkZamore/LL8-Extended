@@ -408,6 +408,12 @@
    "target": "config/simplebackups-common.toml",
    "sha256": "295c869c953bab2946826ca34032ede8e8e4c0260201072aee50481d6b6e61cb",
    "reason": "hourly backups kept, but incremental: a full archive once a day and only changed files in between (MODIFIED_SINCE_FULL, fullBackupTimer 1440), and Distant Horizons' regenerable LOD databases excluded - they were most of the 862 MB to 1.7 GB per hour the archive grew by, and the hourly full zip ran 35 to 40 seconds during play"
+  },
+  {
+   "source": "tools/overlay/mods/spark-1.10.124-neoforge.jar",
+   "target": "mods/spark-1.10.124-neoforge.jar",
+   "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+   "reason": "requested addition, kept through pack updates (spark 1.10.124): the profiler, back because a question needs it - two 80-second server stalls that could be Distant Horizons generating in the background or the player flying into terrain that does not exist yet, and the logs cannot tell those apart. /spark profiler start names the methods. It costs nothing until somebody runs a command"
   }
  ],
  "tomlEdits": [
@@ -515,16 +521,8 @@
    "reason": "a per-entity and per-block profiler, and the second one in the pack"
   },
   {
-   "path": "mods/spark-*.jar",
-   "reason": "sampling CPU profiler, tick monitor and heap dumper: admin tooling, and the pack already carried a second profiler"
-  },
-  {
    "path": "mods/crashutilities-*.jar",
    "reason": "an admin console for finding and mass-deleting entities and tile entities"
-  },
-  {
-   "path": "config/spark",
-   "reason": "configuration of the removed mod"
   },
   {
    "path": "config/observable-client.toml",
