@@ -390,6 +390,12 @@
    "target": "config/agritechtrees/saplings_and_soil.json",
    "sha256": "8f27b824bf4d8b5de37a74b329013daea115423a8ab4d35ee7dbe6913c9b8d37",
    "reason": "Agritech's generated soil table with the entries of mods this pack no longer has taken out (Regions Unexplored and Oh The Biomes We've Gone). Every one of them was an error line while the recipe screen was built - about 8,900 of them in one launch - because the block named as a soil does not exist"
+  },
+  {
+   "source": "tools/overlay/packs/Stay True 1.21.zip",
+   "target": "resourcepacks/Stay True 1.21.zip",
+   "sha256": "118805104ff39bf48a703ce60f5695d1bf6ac64d570a79c3a03accb4c7fb02ca",
+   "reason": "Stay True with its bushy leaves taken out. The pack drew every leaf block as the cube plus a second crossed model hanging off it - the leaves_cross parent and the _bushy textures - which is the volume that was asked to go, and it is also twice the geometry on the one block a forest is made of. The flat leaf textures the pack ships are kept; the block, blockstate and item models go, so the game falls back to its own and draws them on a plain cube"
   }
  ],
  "tomlEdits": [
