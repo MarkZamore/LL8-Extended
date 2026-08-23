@@ -276,6 +276,18 @@
    "target": "mods/tectonic-3.0.26-neoforge-21.1.jar",
    "sha256": "36aa9b4a8c399c9943460a7a58d91402b6d671c10ab11b099c2ee1d75af232ea",
    "reason": "requested addition, kept through pack updates (Tectonic 3.0.26): taller mountains, deeper valleys and reshaped rivers for chunks generated from now on"
+  },
+  {
+   "source": "tools/overlay/mods/skyrim_skeletons-1.0-neoforge-1.21.1.jar",
+   "target": "mods/skyrim_skeletons-1.0-neoforge-1.21.1.jar",
+   "sha256": "20d4f8c0f15de2b1c41f3719b99a82b9a41a97799eaf42552a7149ebe04b4803",
+   "reason": "requested addition, kept through pack updates (Skyrims Skeleton Meme 1.0): skeletons that scream the Skyrim line"
+  },
+  {
+   "source": "tools/overlay/mods/immersive_portals-6.0.7-all.jar",
+   "target": "mods/immersive_portals-6.0.7-all.jar",
+   "sha256": "a7ec4e0fded029f5ed445b297857e907346591a5805d595f1734a2773c8b403d",
+   "reason": "requested addition, kept through pack updates (Immersive Portals 6.0.7, the NeoForge port by Nick1st over qouteall's mod): portals you see through and walk through without a loading screen. Declares minecraft [1.21.1,1.21.2) and no incompatibility; it ships an Iris compatibility renderer and Distant Horizons ships a mixin for it, so both sides know about each other"
   }
  ],
  "tomlEdits": [
