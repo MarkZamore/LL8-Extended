@@ -336,6 +336,18 @@
    "target": "resourcepacks/Sun & Moon Fusion 2.1.zip",
    "sha256": "0c7cf04168b09497f89250310eb53aca7864f92ca532c39e96ee45e237eb486a",
    "reason": "requested addition, kept through pack updates (Sun & Moon Fusion 2.1): two textures, sun.png and moon_phases.png. It is listed above The Sky Sun and Moon and zazu sun and moon, which draw the same two, so this is the one that shows"
+  },
+  {
+   "source": "tools/overlay/mods/burnt-1.10.2-neoforge-1.21.1.jar",
+   "target": "mods/burnt-1.10.2-neoforge-1.21.1.jar",
+   "sha256": "8f0cc825ef2c545ed82bf7213246a948eea45cfd775b7821970c938cefab532f",
+   "reason": "requested addition, kept through pack updates (Burnt + Additions 1.10.2, which CurseForge lists as Better Vanilla Fire): fire spreads and stays, and what it burns is left charred instead of gone. One jar carrying Burnt Basic 1.10.4.1 and Burnt Additions 0.1.2; needs Cloth Config and GeckoLib 4.8 or newer, both in the pack at 15.0.140 and 4.9.2, and treats Weather2 as optional. Registers no key"
+  },
+  {
+   "source": "tools/overlay/mods/the_backwoods-1.7.0-neoforge-1.21.1.jar",
+   "target": "mods/the_backwoods-1.7.0-neoforge-1.21.1.jar",
+   "sha256": "03443b82204b0cacded8716551ede458b3c2d6c728b35d2818143ddcf44313ca",
+   "reason": "requested addition, kept through pack updates (The Backwoods 1.7.0): a liminal horror adventure with its own entities and five dimensions - backwoods, loss, rotting, the_familiar, the_grain. Wants NeoForge 21.1.190 against the pack's 21.1.244 and nothing else; no mixins, no key. The dimensions are generated the first time somebody goes there, so a world that already exists is untouched until then"
   }
  ],
  "tomlEdits": [
