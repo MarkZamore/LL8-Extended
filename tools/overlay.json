@@ -348,6 +348,12 @@
    "target": "mods/the_backwoods-1.7.0-neoforge-1.21.1.jar",
    "sha256": "03443b82204b0cacded8716551ede458b3c2d6c728b35d2818143ddcf44313ca",
    "reason": "requested addition, kept through pack updates (The Backwoods 1.7.0): a liminal horror adventure with its own entities and five dimensions - backwoods, loss, rotting, the_familiar, the_grain. Wants NeoForge 21.1.190 against the pack's 21.1.244 and nothing else; no mixins, no key. The dimensions are generated the first time somebody goes there, so a world that already exists is untouched until then"
+  },
+  {
+   "source": "tools/overlay/mods/goatman-1.0.1-neoforge-1.21.1.jar",
+   "target": "mods/goatman-1.0.1-neoforge-1.21.1.jar",
+   "sha256": "2a32a338b15d60b7cf4b35423935ea38e7f91497026aa428a5de7c4edc32afc6",
+   "reason": "requested addition, kept through pack updates (The Goatman, Neoforge Edition 1.0.1 by Max92306 over Flamc04's mod; CurseForge names the file goatman-1.0.0.jar): a stalker that follows and leaves, with its own timers for spawning, noise and how long it stays. Wants NeoForge 21.1.219 against the pack's 21.1.244 and nothing else. Its [[mixins]] block is commented out and the jar carries no goatman.mixins.json, so the MixinPathNavigation class in it never applies. It is a reskin of Cave Dweller, which the pack already has, so two of that kind now walk the caves"
   }
  ],
  "tomlEdits": [
