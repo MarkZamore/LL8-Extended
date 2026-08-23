@@ -354,6 +354,30 @@
    "target": "mods/goatman-1.0.1-neoforge-1.21.1.jar",
    "sha256": "2a32a338b15d60b7cf4b35423935ea38e7f91497026aa428a5de7c4edc32afc6",
    "reason": "requested addition, kept through pack updates (The Goatman, Neoforge Edition 1.0.1 by Max92306 over Flamc04's mod; CurseForge names the file goatman-1.0.0.jar): a stalker that follows and leaves, with its own timers for spawning, noise and how long it stays. Wants NeoForge 21.1.219 against the pack's 21.1.244 and nothing else. Its [[mixins]] block is commented out and the jar carries no goatman.mixins.json, so the MixinPathNavigation class in it never applies. It is a reskin of Cave Dweller, which the pack already has, so two of that kind now walk the caves"
+  },
+  {
+   "source": "tools/overlay/mods/grotesque_steve-1.1.1-neoforge-1.21.1.jar",
+   "target": "mods/grotesque_steve-1.1.1-neoforge-1.21.1.jar",
+   "sha256": "ebb78d22c593ee4efe3e6b33a5c4834b279b60b25da38d58e21e1cd7a236935e",
+   "reason": "requested addition, kept through pack updates (Grotesque Steve 1.1.1, saskez's own build rather than the CurseForge Safety Edition): a very strong Steve that hunts the player. Wants NeoForge 21.1.65 against the pack's 21.1.244 and GeckoLib, which the pack has at 4.9.2. No mixins, no key, and nothing in its 99 classes reaches the network or spawns a process. The Safety Edition carries the same modId, so the two can never sit here together"
+  },
+  {
+   "source": "tools/overlay/mods/deimos-1.21.1-neoforge-2.7.jar",
+   "target": "mods/deimos-1.21.1-neoforge-2.7.jar",
+   "sha256": "ee35d4e8967ccb23dee3c1a05b55c8d4ac0e0045bf8d324e215b397869af0573",
+   "reason": "dependency of Server-Side Horror (Deimos 2.7): the library it builds its events on. Nothing else in the pack asks for it"
+  },
+  {
+   "source": "tools/overlay/mods/serversidehorror-1.21.1-neoforge-4.2.jar",
+   "target": "mods/serversidehorror-1.21.1-neoforge-4.2.jar",
+   "sha256": "0c83c5ca1045f069e88a4ca6f61c1c3675b56ccbcea7f80e978cdfd3e5a60359",
+   "reason": "requested addition, kept through pack updates (Server-Side Horror 4.2): ambient horror the server plays at people - sounds, sightings, things moved. Needs Deimos, which comes with it. Registers no key"
+  },
+  {
+   "source": "tools/overlay/mods/SanityRenewed-21.1.1-mc1.21.1-neoforge.jar",
+   "target": "mods/SanityRenewed-21.1.1-mc1.21.1-neoforge.jar",
+   "sha256": "eee5fafaf2e09e32bed0a3725991c2a3b25eb75b91aa4b7dbcca57bb886be026",
+   "reason": "requested addition, kept through pack updates (Sanity: Renewed 21.1.1): the sanity meter from Don't Starve, which the dark and the monsters wear down. Needs Architectury 13 and GeckoLib 4.7; the pack has 13.0.11 and 4.9.2. Registers no key. This one changes how the game is played rather than how it looks"
   }
  ],
  "tomlEdits": [
