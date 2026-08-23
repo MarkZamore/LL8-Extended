@@ -10,8 +10,8 @@
   {
    "source": "tools/overlay/packs/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
    "target": "config/paxi/datapacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
-   "sha256": "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49",
-   "reason": "From The Fog has no NeoForge build for 1.21.1; its own data pack goes in through Global Packs"
+   "sha256": "8a25935584573c30268a529f36069a0cd172de017ff962753f94154a50ea3989",
+   "reason": "From The Fog with the sighting rates slowed down: the pack rolls three kinds of sighting once a second each, so its own \"uncommon\" setting - the one this world uses - meant Herobrine showed up about every 35 seconds. Now common is about every half hour, uncommon about every hour, and rare about every two. The numbers are changed rather than the setting, because the chosen setting lives in the save and the pack cannot reach it"
   },
   {
    "source": "tools/overlay/packs/ll8_pack_rules.zip",
@@ -22,8 +22,8 @@
   {
    "source": "tools/overlay/packs/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
    "target": "config/paxi/resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
-   "sha256": "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49",
-   "reason": "the same pack carries its assets; Global Packs reads it from here"
+   "sha256": "8a25935584573c30268a529f36069a0cd172de017ff962753f94154a50ea3989",
+   "reason": "From The Fog with the sighting rates slowed down: the pack rolls three kinds of sighting once a second each, so its own \"uncommon\" setting - the one this world uses - meant Herobrine showed up about every 35 seconds. Now common is about every half hour, uncommon about every hour, and rare about every two. The numbers are changed rather than the setting, because the chosen setting lives in the save and the pack cannot reach it"
   },
   {
    "source": "tools/overlay/configureddefaults/options.txt",
