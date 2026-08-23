@@ -25,7 +25,7 @@ gamma:0.5052816901408451
 graphicsMode:1
 guiScale:4
 maxFps:250
-mipmapLevels:1
+mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false

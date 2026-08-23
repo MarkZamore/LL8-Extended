@@ -396,6 +396,18 @@
    "target": "resourcepacks/Stay True 1.21.zip",
    "sha256": "118805104ff39bf48a703ce60f5695d1bf6ac64d570a79c3a03accb4c7fb02ca",
    "reason": "Stay True with its bushy leaves taken out. The pack drew every leaf block as the cube plus a second crossed model hanging off it - the leaves_cross parent and the _bushy textures - which is the volume that was asked to go, and it is also twice the geometry on the one block a forest is made of. The flat leaf textures the pack ships are kept; the block, blockstate and item models go, so the game falls back to its own and draws them on a plain cube"
+  },
+  {
+   "source": "tools/overlay/packs/3D Reinforced Armor v1.zip",
+   "target": "resourcepacks/3D Reinforced Armor v1.zip",
+   "sha256": "585d3cacd2691047d498c882af3e2db14924a99178723c1f78b1c1c34f63ca97",
+   "reason": "3D Reinforced Armor with an ImmediatelyFast compatibility declaration added to its pack.mcmeta. The pack overrides two entity shaders for its animated trim effect, and ImmediatelyFast answers any shader-overriding pack by turning its font atlas resizing off for the whole session - which is paid on every text-heavy screen. The declaration says the one feature the shaders cannot break is safe to keep on; nothing else changed"
+  },
+  {
+   "source": "tools/overlay/config/simplebackups-common.toml",
+   "target": "config/simplebackups-common.toml",
+   "sha256": "295c869c953bab2946826ca34032ede8e8e4c0260201072aee50481d6b6e61cb",
+   "reason": "hourly backups kept, but incremental: a full archive once a day and only changed files in between (MODIFIED_SINCE_FULL, fullBackupTimer 1440), and Distant Horizons' regenerable LOD databases excluded - they were most of the 862 MB to 1.7 GB per hour the archive grew by, and the hourly full zip ran 35 to 40 seconds during play"
   }
  ],
  "tomlEdits": [

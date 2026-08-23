@@ -25,3 +25,8 @@ config/arachnomod-common.toml
 
 # How fast an item slides between slots; the mod rewrites this file itself.
 config/smoothswapping.json
+
+# The backup schedule. SimpleBackups rewrites its config on start, so without
+# this claim the incremental schedule shipped here would never reach a player
+# whose instance already exists.
+config/simplebackups-common.toml
