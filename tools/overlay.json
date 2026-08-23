@@ -104,16 +104,6 @@
    "reason": "requested addition, kept through pack updates (crafted-core 1.21-neoforge-5.8.2)"
   },
   {
-   "source": "tools/overlay/mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
-   "target": "mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
-   "sha256": "47f0c8671bb8889e226df2bef41779b1e3cdb9271a8cfe3b216cfe6eaf910420",
-   "forbidGlobs": [
-    "e4steam-*.jar",
-    "e4mc*.jar"
-   ],
-   "reason": "launcher-pinned Steam P2P transport; the launcher rejects any other e4steam/e4mc jar"
-  },
-  {
    "source": "tools/overlay/mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
    "target": "mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
    "sha256": "77a940e37b10e5127b8dfdf237760c20422a0efe5966b1ffb54dbed22d98917b",
@@ -407,6 +397,14 @@
   {
    "path": "config/observable-client.toml",
    "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "mods/e4steam-*.jar",
+   "reason": "the launcher installs the Steam transport into the instance itself, pinned by sha256 and downloaded on demand; a copy inside the pack is a second source of truth"
+  },
+  {
+   "path": "mods/e4mc*.jar",
+   "reason": "the same transport under its older name; the launcher rejects any build but its own"
   }
  ],
  "jsonEdits": [
