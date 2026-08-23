@@ -30,7 +30,7 @@
   },
   "ae2": {
     "part_icon": true,
-    "debug": true,
+    "debug": false,
     "charger": true,
     "part_tooltip": true,
     "grid_node_state": true,

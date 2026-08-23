@@ -249,13 +249,6 @@ key.findme.pull_stack	findme	UNIVERSAL	assumed	key.keyboard.keypad.1	key.keyboar
 key.findme.search	findme	UNIVERSAL	assumed	key.keyboard.y	key.keyboard.keypad.5	options+defaults	Search Nearby Inventories For Items	Поиск предметов в ближайших инвентарях.
 key.fireNobu	mahoutsukai	UNIVERSAL	assumed	key.mouse.left	key.keyboard.unknown	options+defaults	Fire Nobu	Fire Nobu
 key.forward	minecraft	UNIVERSAL	assumed	key.keyboard.w	key.keyboard.w	options+defaults		
-key.ftbchunks.add_waypoint	ftbchunks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Quick Add Waypoint	Быстро добавить путевую точку
-key.ftbchunks.claim_manager	ftbchunks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Claim Manager	Открыть управление захватом
-key.ftbchunks.map	ftbchunks	UNIVERSAL	assumed	key.keyboard.m:CONTROL	key.keyboard.unknown	options+defaults	Open Map	Открыть карту
-key.ftbchunks.minimap.zoomIn	ftbchunks	UNIVERSAL	assumed	key.keyboard.equal	key.keyboard.unknown	options+defaults	Zoom In Minimap	Увеличить масштаб миникарты
-key.ftbchunks.minimap.zoomOut	ftbchunks	UNIVERSAL	assumed	key.keyboard.minus	key.keyboard.unknown	options+defaults	Zoom Out Minimap	Уменьшить масштаб миникарты
-key.ftbchunks.toggle_minimap	ftbchunks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Minimap	Переключить миникарту
-key.ftbchunks.waypoint_manager	ftbchunks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Waypoint Manager	Управление путевыми точками
 key.ftbquests.quests	ftbquests	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Quests	Открыть квесты
 key.ftbteams.open_gui	ftbteams	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Teams GUI	Открыть интерфейс команд
 key.ftbultimine	ftbultimine	UNIVERSAL	assumed	key.keyboard.grave.accent	key.keyboard.grave.accent	options+defaults	FTB Ultimine	FTB Ultimine
@@ -434,8 +427,6 @@ key.openNotes	notes	UNIVERSAL	assumed	key.keyboard.n	key.keyboard.unknown	option
 key.open_deepnull.desc	deepnullreforged	UNIVERSAL	assumed		key.keyboard.unknown	options	Open/close DeepNull in hotbar	
 key.open_menu	minemenu	UNIVERSAL	assumed	key.keyboard.r	key.keyboard.unknown	options+defaults	Open Mine Menu	
 key.open_muffler_gui	extremesoundmuffler	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open sound muffler screen	
-key.oracle_index.open	oracle_index	UNIVERSAL	assumed	key.keyboard.i	key.keyboard.unknown	options+defaults	Open Oracle Index	Открыть Индекс Оракула
-key.oracle_index.search	oracle_index	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Oracle Search	Открыть Поиск Оракула
 key.oritech.augment_screen	oritech	UNIVERSAL	assumed	key.keyboard.g	key.keyboard.unknown	options+defaults	Implant Controls [Hold]	Управление имплантами [Удерживать]
 key.overenchanted.echo_sight	overenchanted	UNIVERSAL	assumed	key.keyboard.r	key.keyboard.unknown	options+defaults	Echo Sight Enchantment Use	Использование чар Зрячего Эха
 key.overenchanted.lumberjack	overenchanted	UNIVERSAL	assumed	key.keyboard.c	key.keyboard.unknown	options+defaults	Lumberjack Enchantment Button	Кнопка Чар Лесоруба

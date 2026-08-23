@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "b1a3960a1e274c7c8cac5e672c8bfee2ac04d7669eba9bb1d4579241577a616d",
+   "sha256": "1ac4e816615588e3c28d667a3c907e3af739c8537a6594784d4ed8f91e8f6bf8",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -196,6 +196,24 @@
    "target": "config/yes_steve_model-client.toml",
    "sha256": "1db8074550d49697f9e04de17e56bc9c29c219864676f7ab598e1623380c5ea4",
    "reason": "YSM never finishes syncing models on the world host and its Loading banner never clears; this ships the mod own switch for the overlay turned off"
+  },
+  {
+   "source": "tools/overlay/config/jade/plugins.json",
+   "target": "config/jade/plugins.json",
+   "sha256": "0f245bd89f869fe4934ba0ad50e86795864e98ec9bb9818d5167e68af7526a8d",
+   "reason": "the AE2 tooltip provider ships with debug on, which dumps grid-node tick times into every Jade tooltip; the whole file is pinned because the overlay's jsonEdits can only reach a top-level key"
+  },
+  {
+   "source": "tools/overlay/config/sdrp-common.json5",
+   "target": "config/sdrp-common.json5",
+   "sha256": "3d79a703ed7ea888306afccca5519d3ad523a0b4148899cac2577e6ef7d9cf1d",
+   "reason": "Discord Rich Presence held an IPC connection open and pushed an update on every screen and dimension change; nobody asked the pack for a Discord status"
+  },
+  {
+   "source": "tools/overlay/kubejs/config/web_server.json",
+   "target": "kubejs/config/web_server.json",
+   "sha256": "4a30c9be3f878a9b2ecf59f5e0ada934c9d7e390f09c232597a46d5b4e929a50",
+   "reason": "KubeJS opens an HTTP and WebSocket server on localhost:61423 for script development; this pack ships finished scripts and never uses it"
   }
  ],
  "tomlEdits": [
@@ -212,6 +230,20 @@
    "key": "parallelResourceLookup",
    "value": "false",
    "reason": "deadlocks the client on this pack: a thread dump on 2026-08-17 showed the render thread and ten workers all parked on one zip filesystem lock, with lightspeed$searchSafeSegment in the stacks - the directory walk inside a jar needs the write lock and never gets it"
+  },
+  {
+   "file": "config/simplebackups-common.toml",
+   "table": "",
+   "key": "useTickCounter",
+   "value": "false",
+   "reason": "the tick counter never advanced on this pack, so no backup has ever actually fired; the wall-clock timer does"
+  },
+  {
+   "file": "config/simplebackups-common.toml",
+   "table": "",
+   "key": "timer",
+   "value": "180",
+   "reason": "a full copy of the world every hour is a visible hitch; every three hours keeps six restorable copies without the interruption"
   }
  ],
  "remove": [
@@ -230,6 +262,50 @@
   {
    "path": "config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins credit.txt",
    "reason": "renamed by this overlay to a valid resource path; the credit text is kept beside it"
+  },
+  {
+   "path": "mods/anvianslib-*.jar",
+   "reason": "telemetry library whose only consumer was Sodium Extra Information; it POSTed mod and loader versions to anvian.net on every launch"
+  },
+  {
+   "path": "mods/SodiumExtraInformation-*.jar",
+   "reason": "every HUD readout it offers is already switched off in its config, so the telemetry call was the only thing it still did; it must go together with anvianslib, whose class it calls unguarded on the first instruction of client init"
+  },
+  {
+   "path": "config/sodiumextrainformation",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "config/sodiumextrainformation.json",
+   "reason": "stale flat copy of the removed mod's config"
+  },
+  {
+   "path": "mods/oracle_index-*.jar",
+   "reason": "29.6 MB of ONNX runtime and a MiniLM embedding model, kept warm on its own thread, to search one mod's wiki; Oritech declares it optional and hides its button without it"
+  },
+  {
+   "path": "mods/better-compatability-checker-*.jar",
+   "reason": "it warns players whose pack version differs from the host's - and the pack also ships NoPackCompatCheck, which exists to suppress exactly that warning; the launcher already syncs every player to the same manifest, so the checker had nothing left to catch"
+  },
+  {
+   "path": "config/bcc-common.toml",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "mods/ftb-chunks-neoforge-*.jar",
+   "reason": "nobody has claimed a chunk in the world and Xaero draws the maps; the one force-loaded chunk belongs to a Mekanism chunk loader, not to this mod"
+  },
+  {
+   "path": "mods/ftb-chunks-modded-*.jar",
+   "reason": "asset-only jar carrying block colours for the removed FTB Chunks map"
+  },
+  {
+   "path": "config/ftbchunks-client.snbt",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "config/ftbchunks-world.snbt",
+   "reason": "configuration of the removed mod"
   }
  ],
  "jsonEdits": [
