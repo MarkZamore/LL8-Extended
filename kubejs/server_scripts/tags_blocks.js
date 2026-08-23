@@ -11,8 +11,6 @@ ServerEvents.tags('block', event => {
   event.add('minecraft:crops', 'mysticalagriculture:entro_crop')
 
   // Tag removed due to dupes
-  event.remove('c:ores/redstone', 'regions_unexplored:raw_redstone_block')
-  event.remove('c:ores', 'regions_unexplored:raw_redstone_block')
 
   // Ores tag to custom Deepslate Black Quartz Ore
   event.add('c:ores', 'actuallyadditions:deepslate_black_quartz_ore')

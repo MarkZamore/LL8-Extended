@@ -293,13 +293,8 @@ ServerEvents.recipes(event => {
   }).id('tnp:comforts_sleeping_bag')
 
   // Regions Unexplored Dirt to Vanilla Dirt
-  event.shapeless(Item.of('minecraft:dirt'), ['regions_unexplored:ashen_dirt']).id('tnp:ashen_dirt_to_dirt')
-  event.shapeless(Item.of('minecraft:dirt'), ['regions_unexplored:peat_dirt']).id('tnp:peat_dirt_to_dirt')
-  event.shapeless(Item.of('minecraft:dirt'), ['regions_unexplored:silt_dirt']).id('tnp:silt_dirt_to_dirt')
 
   // Regions Unexplored Coarse Dirt to Vanilla Coarse Dirt
-  event.shapeless(Item.of('minecraft:coarse_dirt'), ['regions_unexplored:silt_coarse_dirt']).id('tnp:silt_coarse_dirt_to_coarse_dirt')
-  event.shapeless(Item.of('minecraft:coarse_dirt'), ['regions_unexplored:peat_coarse_dirt']).id('tnp:peat_coarse_dirt_to_coarse_dirt')
 
   // Biomes Weve Gone Lush Dirt to Vanilla Dirt
   event.shapeless(Item.of('minecraft:dirt'), ['biomeswevegone:lush_dirt']).id('tnp:lush_dirt_to_dirt')
@@ -320,7 +315,6 @@ ServerEvents.recipes(event => {
   }).id('tnp:temporal_pouch')
 
   // Raw Redstone Block back to 2x Redstone Dust
-  event.shapeless(Item.of('minecraft:redstone', 2), ['regions_unexplored:raw_redstone_block']).id('tnp:raw_redstone_block_back_to_redstone_dust')
 
   // Click Machine - Edit
   event.remove({id: 'clickmachine:click_machine'})

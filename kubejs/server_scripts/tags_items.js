@@ -94,8 +94,6 @@ ServerEvents.tags('item', event => {
   event.remove('c:gems/peridot', 'moremekanismprocessing:gem_peridot')
   event.remove('c:gems/sapphire', 'moremekanismprocessing:gem_sapphire')
 
-  event.remove('c:ores/redstone', 'regions_unexplored:raw_redstone_block')
-  event.remove('minecraft:redstone_ores', 'regions_unexplored:raw_redstone_block')
 
   event.remove('c:gems/peridot', 'irons_jewelry:peridot')
   event.remove('c:gems/ruby', 'irons_jewelry:ruby')

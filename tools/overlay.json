@@ -445,6 +445,42 @@
   {
    "path": "mods/Geophilic*.jar",
    "reason": "it overrides thirty vanilla biome files, and Terralith now owns those biomes; two datapacks rewriting the same jsons means one silently loses. It left no trace in any chunk - zero code classes, zero namespace hits across the whole world - so nothing orphans"
+  },
+  {
+   "path": "mods/regions_unexplored-*.jar",
+   "reason": "182 biomes injected through TerraBlender against Terralith's 308 through lithostitched: two biome sets dividing one overworld, so neither appears as often as its author intended. Terralith keeps the map"
+  },
+  {
+   "path": "mods/energizedpowerru-*.jar",
+   "reason": "the Energized Power bridge for Regions Unexplored - recipes for RU woods and stones; it declares RU required, so it cannot stay behind"
+  },
+  {
+   "path": "config/regions_unexplored",
+   "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/regions_unexplored",
+   "reason": "33 recipes and one advancement in the removed mod's own namespace; without it every one fails to parse on each datapack load"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/farmingforblockheads/recipe/market/regions_unexplored",
+   "reason": "33 market entries selling seeds and saplings the removed mod owned"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/argillite.json",
+   "reason": "cobble generator recipe whose only product was a Regions Unexplored block"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/chalk.json",
+   "reason": "cobble generator recipe whose only product was a Regions Unexplored block"
+  },
+  {
+   "path": "config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/mossy_stone.json",
+   "reason": "cobble generator recipe whose only product was a Regions Unexplored block"
+  },
+  {
+   "path": "config/forgeendertech/Biomes/regions_unexplored$*.cfg",
+   "reason": "75 per-biome chimney settings for biomes that no longer exist"
   }
  ],
  "jsonEdits": [
