@@ -605,6 +605,14 @@
   {
    "path": "config/forgeendertech/Biomes/biomeswevegone$*.cfg",
    "reason": "55 per-biome chimney settings for biomes that no longer exist"
+  },
+  {
+   "path": "mods/Chunky-*.jar",
+   "reason": "pre-generates chunks on command and does nothing otherwise; the saved task in this pack was cancelled at 642 chunks and continueOnRestart was off, so it had been idle ever since. Distant Horizons warns about it on sight - the two fight when Chunky outruns DH's LOD building - and nobody was using it"
+  },
+  {
+   "path": "config/chunky",
+   "reason": "configuration and the cancelled task of the removed mod"
   }
  ],
  "jsonEdits": [
