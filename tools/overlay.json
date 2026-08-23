@@ -192,12 +192,6 @@
    "reason": "the Russian text of the quests: written by us, not by upstream, so an update would delete it; the game hands this table to a player whose language is Russian and falls back to en_us key by key"
   },
   {
-   "source": "tools/overlay/config/yes_steve_model-client.toml",
-   "target": "config/yes_steve_model-client.toml",
-   "sha256": "1db8074550d49697f9e04de17e56bc9c29c219864676f7ab598e1623380c5ea4",
-   "reason": "YSM never finishes syncing models on the world host and its Loading banner never clears; this ships the mod own switch for the overlay turned off"
-  },
-  {
    "source": "tools/overlay/config/jade/plugins.json",
    "target": "config/jade/plugins.json",
    "sha256": "0f245bd89f869fe4934ba0ad50e86795864e98ec9bb9818d5167e68af7526a8d",
