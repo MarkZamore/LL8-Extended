@@ -1,4 +1,7 @@
 tools/__pycache__/
+tools/quests-ru/__pycache__/
+# Portions cut for translation; ru_ru.snbt in tools/overlay is the result.
+tools/quests-ru/work/
 *.pyc
 dist/
 .portable-pack-sync.json

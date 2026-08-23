@@ -184,6 +184,12 @@
    "target": "config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
    "sha256": "771ed8c9ceb93740a29166f8069c75d9bc89e9122254c615fb450ed92fba3be6",
    "reason": "credit note for the coin textures; same reason, the shipped name is not a resource path"
+  },
+  {
+   "source": "tools/overlay/config/ftbquests/quests/lang/ru_ru.snbt",
+   "target": "config/ftbquests/quests/lang/ru_ru.snbt",
+   "sha256": "5a226f37126043a0b6c1440828dc01b01bd7f2479387dfe0155b10a3036567ad",
+   "reason": "the Russian text of the quests: written by us, not by upstream, so an update would delete it; the game hands this table to a player whose language is Russian and falls back to en_us key by key"
   }
  ],
  "tomlEdits": [

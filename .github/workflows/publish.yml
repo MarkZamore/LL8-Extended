@@ -48,6 +48,11 @@ jobs:
         # A layout with a conflict, or one that forgot a mapping, does not ship.
         run: python tools/keybinds/check_preset.py
 
+      - name: Check the Russian quest text
+        # A ru_ru.snbt that does not parse, lacks keys of en_us, or broke a
+        # colour code does not ship either; a stale overlay hash is caught here.
+        run: python tools/quests-ru/ru.py check
+
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
 
