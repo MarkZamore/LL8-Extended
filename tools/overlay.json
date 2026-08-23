@@ -190,6 +190,12 @@
    "target": "config/ftbquests/quests/lang/ru_ru.snbt",
    "sha256": "5a226f37126043a0b6c1440828dc01b01bd7f2479387dfe0155b10a3036567ad",
    "reason": "the Russian text of the quests: written by us, not by upstream, so an update would delete it; the game hands this table to a player whose language is Russian and falls back to en_us key by key"
+  },
+  {
+   "source": "tools/overlay/config/yes_steve_model-client.toml",
+   "target": "config/yes_steve_model-client.toml",
+   "sha256": "1db8074550d49697f9e04de17e56bc9c29c219864676f7ab598e1623380c5ea4",
+   "reason": "YSM never finishes syncing models on the world host and its Loading banner never clears; this ships the mod own switch for the overlay turned off"
   }
  ],
  "tomlEdits": [
