@@ -405,6 +405,10 @@
   {
    "path": "mods/e4mc*.jar",
    "reason": "the same transport under its older name; the launcher rejects any build but its own"
+  },
+  {
+   "path": "mods/Geophilic*.jar",
+   "reason": "it overrides thirty vanilla biome files, and Terralith now owns those biomes; two datapacks rewriting the same jsons means one silently loses. It left no trace in any chunk - zero code classes, zero namespace hits across the whole world - so nothing orphans"
   }
  ],
  "jsonEdits": [
