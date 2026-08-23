@@ -191,6 +191,9 @@ key_key.cataclysm.boots_ability:key.keyboard.unknown  # was v: the main ability 
 key_key.cataclysm.chestplate_ability:key.keyboard.unknown  # was y: the main ability keeps the key; armour pieces are situational
 key_key.cataclysm.helmet_ability:key.keyboard.unknown  # was c: the main ability keeps the key; armour pieces are situational
 
+# --- chesttracker ---
+key_key.chesttracker.open_gui:key.keyboard.unknown  # its own default is the grave accent, which FTB Ultimine holds; the layout has no key left to give, so the memory screen waits for one the player picks - PrintScreen and mouse 6-8 are free
+
 # --- clienttweaks ---
 key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown

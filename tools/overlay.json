@@ -284,12 +284,6 @@
    "reason": "requested addition, kept through pack updates (Skyrims Skeleton Meme 1.0): skeletons that scream the Skyrim line"
   },
   {
-   "source": "tools/overlay/mods/immersive_portals-6.0.7-all.jar",
-   "target": "mods/immersive_portals-6.0.7-all.jar",
-   "sha256": "a7ec4e0fded029f5ed445b297857e907346591a5805d595f1734a2773c8b403d",
-   "reason": "requested addition, kept through pack updates (Immersive Portals 6.0.7, the NeoForge port by Nick1st over qouteall's mod): portals you see through and walk through without a loading screen. Declares minecraft [1.21.1,1.21.2) and no incompatibility; it ships an Iris compatibility renderer and Distant Horizons ships a mixin for it, so both sides know about each other"
-  },
-  {
    "source": "tools/overlay/mods/arachnomod_neoforge_1.21.1-1.8.4.jar",
    "target": "mods/arachnomod_neoforge_1.21.1-1.8.4.jar",
    "sha256": "7ec39ca5bce39306267b07ba034ec2e67b275e5350a506aef238f6373fc300d8",
@@ -312,6 +306,12 @@
    "target": "mods/yazzs_redstone_golem-1.1.1-neoforge-1.21.1.jar",
    "sha256": "e14784a4c68ce1d814bbc72a9d34d4099d98d58b39866421f72b1aaecbbb3d22",
    "reason": "requested addition, kept through pack updates (Yazz's Dungeons and Legends: the Redstone Golem, modId redstonegolem, the only 1.21.1 NeoForge file that project publishes). Needs geckolib, which the pack ships"
+  },
+  {
+   "source": "tools/overlay/mods/chesttracker-2.6.8+1.21.1-neoforge.jar",
+   "target": "mods/chesttracker-2.6.8+1.21.1-neoforge.jar",
+   "sha256": "ef7742dd6f2e262017219482ff0bc30fd6047df973b316c6e6b919aa5a28b98e",
+   "reason": "requested addition, kept through pack updates (Chest Tracker 2.6.8, the unofficial NeoForge port of JackFred's mod): remembers what was in every container you opened and searches that memory, so a chest found once can be found again. Client only, needs YetAnotherConfigLib which the pack already ships, and NeoForge 21.1.233 or newer against the pack's 21.1.244. Its own default key is the grave accent, which FTB Ultimine holds, so the preset hands it no key rather than let the two land on one"
   }
  ],
  "tomlEdits": [

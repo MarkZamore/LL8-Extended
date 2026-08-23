@@ -152,6 +152,7 @@ key.cataclysm.chestplate_ability	cataclysm	UNIVERSAL	assumed	key.keyboard.y	key.
 key.cataclysm.helmet_ability	cataclysm	UNIVERSAL	assumed	key.keyboard.c	key.keyboard.unknown	options+defaults	Cataclysm Helmet Ability	Способности шлема Cataclysm
 key.changeMysticCode	mahoutsukai	UNIVERSAL	assumed	key.keyboard.y	key.keyboard.unknown	options+defaults	Change Mystic Code	Сменить Мистический код
 key.chat	minecraft	UNIVERSAL	assumed	key.keyboard.t	key.keyboard.t	options+defaults		
+key.chesttracker.open_gui	chesttracker	UNIVERSAL	assumed	key.keyboard.grave.accent		jar	Open Chest Tracker GUI	Открыть меню
 key.clienttweaks.disableLogStripping	clienttweaks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Log Stripping	Включить зачистку журнала
 key.clienttweaks.disableStepAssist	clienttweaks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Disable Step Assist	Отключить пошаговую помощь
 key.clienttweaks.hideHands	clienttweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Hide Hands	
