@@ -214,6 +214,12 @@
    "target": "kubejs/config/web_server.json",
    "sha256": "4a30c9be3f878a9b2ecf59f5e0ada934c9d7e390f09c232597a46d5b4e929a50",
    "reason": "KubeJS opens an HTTP and WebSocket server on localhost:61423 for script development; this pack ships finished scripts and never uses it"
+  },
+  {
+   "source": "tools/overlay/mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+   "target": "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+   "sha256": "d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5",
+   "reason": "requested addition, kept through pack updates (Distant Horizons 3.2.0-b): renders simplified terrain far past the render distance. Declares itself clientSideOnly with acceptableRemoteVersions \"*\", so a player without it can still join, and it ships its own accessors for C2ME and Iris, both of which this pack has"
   }
  ],
  "tomlEdits": [
