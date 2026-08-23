@@ -1,0 +1,27 @@
+# Files this pack owns outright.
+#
+# An instance is merged from the pack three ways, and a file that matches
+# neither the pack's old copy nor its new one is taken for the player's work
+# and left alone. That is right for a setting somebody tuned by hand and wrong
+# for a file a mod rewrites on its own - such a file looks edited from the
+# first launch, so nothing shipped here could ever reach it again.
+#
+# Everything listed below is written over instead. What was there is copied
+# into the instance's conflicts folder first, as name.user-file, so a change
+# somebody did mean can be put back. Keep this list to files the pack really
+# decides: anything a player is meant to tune belongs outside it.
+
+# Agritech generates these three from whatever is installed, and it generated
+# them while Regions Unexplored and Oh The Biomes We've Gone were still here.
+# Every line naming a block that no longer exists became an error while the
+# recipe screen was built - about 8,900 of them in one launch - and the mod
+# rewriting its own tables is exactly what made the corrected ones unreachable.
+config/agritech/*.json
+config/agritechevolved/*.json
+config/agritechtrees/*.json
+
+# The spider's visiting hours, set once here and not meant to drift back.
+config/arachnomod-common.toml
+
+# How fast an item slides between slots; the mod rewrites this file itself.
+config/smoothswapping.json
