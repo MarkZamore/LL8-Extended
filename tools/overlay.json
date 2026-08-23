@@ -38,12 +38,6 @@
    "reason": "required by the requested Myths of The Sea (cerbons-api 1.3.0)"
   },
   {
-   "source": "tools/overlay/mods/HatsRenewed-21.1.1-mc1.21.1-neoforge.jar",
-   "target": "mods/HatsRenewed-21.1.1-mc1.21.1-neoforge.jar",
-   "sha256": "1620ba7e2d48fde4fff5d298d0625acc735e09319583c8dfe9c220a927889ab0",
-   "reason": "requested addition, kept through pack updates (hats-renewed 21.1.1-mc1.21.1-neoforge)"
-  },
-  {
    "source": "tools/overlay/mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
    "target": "mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
    "sha256": "af3d28ef549c531c1fc1afce6ddd2f4816c8f42e78643b7edea2dbd1795611b1",
