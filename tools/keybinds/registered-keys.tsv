@@ -253,6 +253,10 @@ key.ftbultimine	ftbultimine	UNIVERSAL	assumed	key.keyboard.grave.accent	key.keyb
 key.fullscreen	minecraft	UNIVERSAL	assumed	key.keyboard.f11	key.keyboard.f11	options+defaults		
 key.gmut.vertical_speed	gmut	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Vertical Speed Modifier Switch	
 key.gravelminer.toggle	gravelminer	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle GravelMiner	
+key.grotesque_steve.configbutton	grotesque_steve	UNIVERSAL	assumed	key.keyboard.u		jar	Config Steve Genetic change	
+key.grotesque_steve.ends	grotesque_steve	UNIVERSAL	assumed	key.keyboard.escape		jar	Song Ended	
+key.grotesque_steve.open_manual	grotesque_steve	UNIVERSAL	assumed	key.keyboard.f8		jar	Open Manual Steve	
+key.grotesque_steve.resistance	grotesque_steve	UNIVERSAL	assumed	key.keyboard.left.shift		jar	Resistance	
 key.gui_primary_action.desc	deepnullreforged	UNIVERSAL	assumed		key.keyboard.unknown	options	DeepNull UI primary button	
 key.gui_secondary_action.desc	deepnullreforged	UNIVERSAL	assumed		key.keyboard.unknown	options	DeepNull UI secondary button	
 key.gui_tertiary_action.desc	deepnullreforged	UNIVERSAL	assumed		key.keyboard.unknown	options	DeepNull UI tertiary button	

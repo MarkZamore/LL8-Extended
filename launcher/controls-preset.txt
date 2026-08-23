@@ -411,6 +411,12 @@ key_key.gmut.vertical_speed:key.keyboard.unknown
 # --- gravelminer ---
 key_key.gravelminer.toggle:key.keyboard.unknown
 
+# --- grotesque_steve ---
+key_key.grotesque_steve.configbutton:key.keyboard.unknown  # was u: Alex's Caves has the equipment ability there
+key_key.grotesque_steve.ends:key.keyboard.unknown  # its own default is Escape, which is the game's menu and belongs to nobody
+key_key.grotesque_steve.open_manual:key.keyboard.unknown  # was f8: Iron Jetpacks runs its engine off that one
+key_key.grotesque_steve.resistance:key.keyboard.unknown  # was left shift: that is sneak, and the jetpack descent already shares it
+
 # --- guideme ---
 key_key.guideme.guide:key.keyboard.unknown  # was g: the AE2 guide is an item and a screen button
 
