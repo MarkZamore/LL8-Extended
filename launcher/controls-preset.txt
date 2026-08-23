@@ -253,7 +253,7 @@ key_crashutils.openscreen:key.keyboard.unknown  # was u:CONTROL: debugging aid
 key_crashutils.slottooltips:key.keyboard.unknown
 
 # --- crawl ---
-key_key.crawl:key.keyboard.pause  # was c: the rifle reloads on it; crawling is rare and never hurried
+key_key.crawl:key.keyboard.pause  # was c: the dragon breathes on it now; crawling is rare and never hurried
 
 # --- create ---
 key_create.keyinfo.alt_modifier:key.keyboard.right.alt  # Alt Modifier
@@ -328,7 +328,7 @@ key_key.draconicevolution.place_item:key.keyboard.unknown  # was p: rare
 key_key.draconicevolution.toggle_flight:key.keyboard.home  # Toggle Flight
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
 key_key.draconicevolution.tool_config:key.keyboard.f6  # Tool Config
-key_key.draconicevolution.tool_modules:key.keyboard.keypad.subtract  # Tool Modules
+key_key.draconicevolution.tool_modules:key.keyboard.unknown  # was keypad.subtract: modules are installed at a bench, never in a hurry; bind it while you do
 
 # --- dynamic_fps ---
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
@@ -386,9 +386,9 @@ key_key.extendedae.viewpattern:key.keyboard.unknown  # was p: rare
 key_key.open_muffler_gui:key.keyboard.unknown
 
 # --- findme ---
-key_key.findme.pull_one:key.keyboard.unknown  # was keypad.0: rare; search remains on keypad 5
-key_key.findme.pull_stack:key.keyboard.unknown  # was keypad.1: rare; search remains on keypad 5
-key_key.findme.search:key.keyboard.keypad.5  # Search Nearby Inventories For Items
+key_key.findme.pull_one:key.keyboard.unknown  # was keypad.0: rare; search remains on Insert
+key_key.findme.pull_stack:key.keyboard.unknown  # was keypad.1: rare; search remains on Insert
+key_key.findme.search:key.keyboard.insert  # Search Nearby Inventories For Items; was keypad.5 - the numpad left the layout
 
 # --- framedblocks ---
 key_framedblocks.key.update_cull:key.keyboard.unknown  # was f9: debugging aid
@@ -410,8 +410,8 @@ key_key.ftbquests.quests:key.keyboard.unknown  # was y: Yes Steve Model picks a 
 key_key.ftbteams.open_gui:key.keyboard.unknown
 
 # --- ftbultimine ---
-key_ftbultimine.change_shape.next:key.keyboard.up  # Cycle to Next Shape
-key_ftbultimine.change_shape.prev:key.keyboard.down  # Cycle to Previous Shape
+key_ftbultimine.change_shape.next:key.keyboard.up  # Cycle to Next Shape; the cycle wraps, so one direction reaches every shape
+key_ftbultimine.change_shape.prev:key.keyboard.unknown  # was down: Up cycles round on its own; Down went to the emote wheel
 key_key.ftbultimine:key.keyboard.grave.accent  # FTB Ultimine
 
 # --- gmut ---
@@ -519,13 +519,13 @@ key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v  # Cast Selected Spell
 
 # --- jade ---
-key_key.jade.config:key.keyboard.keypad.0  # Open Config
+key_key.jade.config:key.keyboard.unknown  # was keypad.0: the mods list opens the same config screen
 key_key.jade.narrate:key.keyboard.unknown  # was keypad.5: screen-reader feature
 key_key.jade.show_details:key.keyboard.left.alt  # Show Details
-key_key.jade.show_overlay:key.keyboard.keypad.1  # Show Overlay
-key_key.jade.show_recipes:key.keyboard.keypad.3  # Show Recipes
-key_key.jade.show_uses:key.keyboard.keypad.4  # Show Uses
-key_key.jade.toggle_liquid:key.keyboard.keypad.2  # Toggle Fluid
+key_key.jade.show_overlay:key.keyboard.unknown  # was keypad.1: hides the overlay; a settings flag, not a reflex
+key_key.jade.show_recipes:key.keyboard.unknown  # was keypad.3: EMI shows recipes in every screen
+key_key.jade.show_uses:key.keyboard.unknown  # was keypad.4: EMI shows uses in every screen
+key_key.jade.toggle_liquid:key.keyboard.unknown  # was keypad.2: cosmetic toggle; rare
 
 # --- justdirethings ---
 key_justdirethings.key.toggle_tool:key.keyboard.unknown  # was v: tools configure in their own screen
@@ -576,14 +576,14 @@ key_key.mechtrowel.toggle_chipped:key.keyboard.unknown
 key_key.mechtrowel.toggle_replace:key.keyboard.unknown  # was v
 
 # --- mekanism ---
-key_key.mekanism.chest_mode:key.keyboard.keypad.8  # Chest Mode Switch
+key_key.mekanism.chest_mode:key.keyboard.unknown  # was keypad.8: module modes are set in the Module Tweaker (\); bind if you fly the MekaSuit daily
 key_key.mekanism.description:key.keyboard.unknown  # was n:SHIFT: duplicate of the details key; needed a modifier combo
 key_key.mekanism.details:key.keyboard.tab  # Show Details
-key_key.mekanism.feet_mode:key.keyboard.keypad.6  # Feet Mode Switch
-key_key.mekanism.head_mode:key.keyboard.keypad.7  # Head Mode Switch
+key_key.mekanism.feet_mode:key.keyboard.unknown  # was keypad.6: module modes are set in the Module Tweaker (\)
+key_key.mekanism.head_mode:key.keyboard.unknown  # was keypad.7: module modes are set in the Module Tweaker (\)
 key_key.mekanism.key_boost:key.keyboard.left.control  # was numpad decimal: back to the mod default, hold sprint to boost in a MekaSuit
 key_key.mekanism.key_hud:key.keyboard.unknown  # was h: MekaSuit HUD toggle; rare
-key_key.mekanism.legs_mode:key.keyboard.keypad.9  # Legs Mode Switch
+key_key.mekanism.legs_mode:key.keyboard.unknown  # was keypad.9: module modes are set in the Module Tweaker (\)
 key_key.mekanism.mode:key.keyboard.unknown  # was n: riding freelook took it, and this pack already switches item modes with sneak + scroll
 key_key.mekanism.module_tweaker:key.keyboard.backslash  # Module Tweaker
 
@@ -601,7 +601,7 @@ key_mininggadgets.text.open_gui:key.keyboard.unknown
 
 # --- modern_industrialization ---
 key_key.modern_industrialization.toggle_3x3:key.keyboard.unknown  # was y: rare
-key_key.modern_industrialization.toggle_flight:key.keyboard.keypad.divide  # Toggle Flight
+key_key.modern_industrialization.toggle_flight:key.keyboard.unknown  # was keypad.divide: toggled once per flight suit, not per flight; bind if you wear one
 
 # --- modernfix ---
 key_key.modernfix.config:key.keyboard.unknown
@@ -650,7 +650,7 @@ key_key.occultism.familiar.headless_familiar:key.keyboard.unknown
 key_key.occultism.familiar.mummy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.otherworld_bird:key.keyboard.unknown
 key_key.occultism.familiar.shub_niggurath_familiar:key.keyboard.unknown
-key_key.occultism.storage_remote:key.keyboard.insert  # Open Storage Accessor
+key_key.occultism.storage_remote:key.keyboard.unknown  # was insert: the remote opens by use; Insert went to the FindMe search
 
 # --- ok_zoomer ---
 key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
@@ -688,8 +688,8 @@ key_placebo.toggleTrails:key.keyboard.unknown  # was keypad.9: supporter cosmeti
 key_placebo.toggleWings:key.keyboard.unknown  # was keypad.8: supporter cosmetics
 
 # --- pneumaticcraft ---
-# unbound: PneumaticCraft armour: only jet boots thrust and the options screen kept keys
-key_pneumaticcraft.armor.options:key.keyboard.keypad.multiply  # Pneumatic Armor General Options
+# unbound: PneumaticCraft armour: only the jet boots thrust kept a key
+key_pneumaticcraft.armor.options:key.keyboard.unknown  # was keypad.multiply: bind it while you wear the armour; it only configures upgrades
 key_pneumaticcraft.armor.upgrade.air_conditioning:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker.module.end_portal:key.keyboard.unknown
@@ -945,7 +945,7 @@ key_key.wildex.open:key.keyboard.unknown  # was b:SHIFT: needed a modifier combo
 key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.unknown  # was z: hold-to-enlarge nicety; Z went to a flight key
-key_gui.xaero_instant_waypoint:key.keyboard.keypad.add  # Quick Waypoint
+key_gui.xaero_instant_waypoint:key.keyboard.unknown  # was keypad.add: a right click on the world map (M) drops a waypoint
 key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown  # was y: reachable from the world map screen
 key_gui.xaero_new_waypoint:key.keyboard.unknown  # was o: the Cobblemon summary took it, and a waypoint is one right-click on the world map
@@ -998,7 +998,7 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m  # Open World Map
 key_gui.xaero_open_settings:key.keyboard.unknown  # was right.bracket: reachable from the world map screen
-key_gui.xaero_quick_confirm:key.keyboard.unknown  # unbound: Num Enter went to the maid voice chat; Enter confirms the same dialogs
+key_gui.xaero_quick_confirm:key.keyboard.unknown  # unbound: Enter confirms the same dialogs
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
 
@@ -1006,8 +1006,8 @@ key_gui.xaero_world_map_server_settings:key.keyboard.unknown
 key_key.xycraft_core.modifier_key:key.keyboard.unknown  # was left.control: held-key on Ctrl
 
 # --- yes_steve_model ---
-key_key.yes_steve_model.player_model.desc:key.keyboard.keypad.decimal  # was y: Y went to the rifle reload
-key_key.yes_steve_model.animation_roulette.desc:key.keyboard.num.lock  # Emote wheel; was z, which flies the pneumatic boots. NumLock is the last key here that does nothing else
+key_key.yes_steve_model.player_model.desc:key.keyboard.unknown  # unbound: a model is picked once and kept; was keypad.decimal, and y before that
+key_key.yes_steve_model.animation_roulette.desc:key.keyboard.down  # Emote wheel; was num.lock - the numpad left the layout, and Down was freed by the Ultimine cycle wrapping
 key_key.yes_steve_model.lock_roulette.desc:key.keyboard.unknown  # unbound: locks the emote wheel open; was l (advancements)
 key_key.yes_steve_model.open_extra_player_render.desc:key.keyboard.unknown  # unbound: a second render window; was p, which the jetpack hovers on
 key_key.yes_steve_model.debug_animation.desc:key.keyboard.unknown  # unbound: the mod's own debug key; was b (backpack)
@@ -1024,5 +1024,5 @@ key_key.yes_steve_model.extra_animation.5.desc:key.keyboard.unknown  # ysm anima
 key_key.yes_steve_model.extra_animation.6.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.7.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.touhou_little_maid.dismount.desc:key.keyboard.delete  # off the maid broom: Delete is TrashSlot only inside a screen, this only in game; they never meet
-key_key.touhou_little_maid.stt_chat.desc:key.keyboard.keypad.enter  # voice chat to a maid: Num Enter, rarely wanted
+key_key.touhou_little_maid.stt_chat.desc:key.keyboard.unknown  # was keypad.enter: rarely wanted; bind it if you talk to a maid by voice
 key_key.touhou_little_maid_spell.open_ender_pocket:key.keyboard.left  # ender pocket: Left arrow, was the tool belt cycle
