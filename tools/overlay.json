@@ -288,6 +288,18 @@
    "target": "mods/immersive_portals-6.0.7-all.jar",
    "sha256": "a7ec4e0fded029f5ed445b297857e907346591a5805d595f1734a2773c8b403d",
    "reason": "requested addition, kept through pack updates (Immersive Portals 6.0.7, the NeoForge port by Nick1st over qouteall's mod): portals you see through and walk through without a loading screen. Declares minecraft [1.21.1,1.21.2) and no incompatibility; it ships an Iris compatibility renderer and Distant Horizons ships a mixin for it, so both sides know about each other"
+  },
+  {
+   "source": "tools/overlay/mods/arachnomod_neoforge_1.21.1-1.8.4.jar",
+   "target": "mods/arachnomod_neoforge_1.21.1-1.8.4.jar",
+   "sha256": "7ec39ca5bce39306267b07ba034ec2e67b275e5350a506aef238f6373fc300d8",
+   "reason": "requested addition, kept through pack updates (Netherite Octoarachnopod 1.8.4): a netherite spider that hunts the player. Needs kotlinforforge [5,), the pack ships 5.12.0"
+  },
+  {
+   "source": "tools/overlay/config/arachnomod-common.toml",
+   "target": "config/arachnomod-common.toml",
+   "sha256": "51d48225930d84ee9372ffadaece9e2e024ee2b5de1217ad0e974efe5f092453",
+   "reason": "the spider visits every 60 to 120 minutes instead of every 5 to 30, and notices the player at 32 blocks instead of 64"
   }
  ],
  "tomlEdits": [

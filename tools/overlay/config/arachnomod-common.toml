@@ -1,0 +1,13 @@
+#The pack's settings for the Netherite Octoarachnopod. Every key not named here
+#is left to the mod: NeoForge fills a missing entry with its own default when it
+#reads this file, so this stays short on purpose.
+
+#How long after one visit the next one may come, in minutes.
+#Shipped as 5 to 30, which on a long evening means it is simply always there.
+spawnMinMinutes = 60.0
+spawnMaxMinutes = 120.0
+
+#How far away it will notice you and start the chase, in blocks.
+#Shipped as 64 - four chunks, further than you can see it coming. Halved, so
+#breaking line of sight and putting a hill between you is worth something.
+chaseDistance = 32.0
