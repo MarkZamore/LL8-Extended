@@ -312,6 +312,30 @@
    "target": "mods/chesttracker-2.6.8+1.21.1-neoforge.jar",
    "sha256": "ef7742dd6f2e262017219482ff0bc30fd6047df973b316c6e6b919aa5a28b98e",
    "reason": "requested addition, kept through pack updates (Chest Tracker 2.6.8, the unofficial NeoForge port of JackFred's mod): remembers what was in every container you opened and searches that memory, so a chest found once can be found again. Client only, needs YetAnotherConfigLib which the pack already ships, and NeoForge 21.1.233 or newer against the pack's 21.1.244. Its own default key is the grave accent, which FTB Ultimine holds, so the preset hands it no key rather than let the two land on one"
+  },
+  {
+   "source": "tools/overlay/mods/windy-1.1.1+1.21-neoforge.jar",
+   "target": "mods/windy-1.1.1+1.21-neoforge.jar",
+   "sha256": "5be5d5b6359dbec76f25a446210aab7bdb31a771e9c4bfb150d2001b3e005620",
+   "reason": "requested addition, kept through pack updates (Windy 1.1.1): wind drifts through the air as particles, softly in clear weather and hard in a storm. Client and server, needs YetAnotherConfigLib which the pack ships, registers no key"
+  },
+  {
+   "source": "tools/overlay/mods/spawnanimations-v1.11.5-mc1.17-26.2.9-mod.jar",
+   "target": "mods/spawnanimations-v1.11.5-mc1.17-26.2.9-mod.jar",
+   "sha256": "996268e024c6fd0fb252400d4528caf5201a69c887b7ce1960b03d6335647df5",
+   "reason": "requested addition, kept through pack updates (Spawn Animations 1.11.5, the mod form rather than the datapack so it holds for every world): a mob rises out of the ground where it spawns instead of appearing whole. MidnightLib and Pehkui are optional and the pack has MidnightLib; registers no key"
+  },
+  {
+   "source": "tools/overlay/mods/minecraft-cursor-neoforge-3.11.3+1.21.1.jar",
+   "target": "mods/minecraft-cursor-neoforge-3.11.3+1.21.1.jar",
+   "sha256": "87888ffccb35e367c47a3e3a35a9adb12d0ab9b414652e183f4d05f63ca58c62",
+   "reason": "requested addition, kept through pack updates (Cursors Extended 3.11.3, modId minecraft_cursor): the mouse pointer becomes a Minecraft cursor and changes shape over buttons and text fields. Client only, no dependencies, registers no key"
+  },
+  {
+   "source": "tools/overlay/packs/Sun & Moon Fusion 2.1.zip",
+   "target": "resourcepacks/Sun & Moon Fusion 2.1.zip",
+   "sha256": "0c7cf04168b09497f89250310eb53aca7864f92ca532c39e96ee45e237eb486a",
+   "reason": "requested addition, kept through pack updates (Sun & Moon Fusion 2.1): two textures, sun.png and moon_phases.png. It is listed above The Sky Sun and Moon and zazu sun and moon, which draw the same two, so this is the one that shows"
   }
  ],
  "tomlEdits": [

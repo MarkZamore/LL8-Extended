@@ -61,6 +61,7 @@ file/Cherry_Creeper_remake(3.0).zip
 file/Only Glass GUI v0.2.zip
 file/The Sky Sun and Moon.zip
 file/zazu sun and moon.zip
+file/Sun & Moon Fusion 2.1.zip
 file/funnyrain.zip
 file/Lilac Jackson.zip
 file/3D Beetroots to Tomatoes.zip
