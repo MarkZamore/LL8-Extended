@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "f3858098982a0ae73958da19401b010585ab364e579749d5362ea8d2461948f1",
+   "sha256": "15bfa13d97b90f14ebf5ce7abb3f6b023daa56ebef8bfbceb7a56f03719b5888",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
