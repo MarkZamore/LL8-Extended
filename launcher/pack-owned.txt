@@ -74,3 +74,10 @@ config/sky_aesthetics.json
 # on. Quark rewrites this file on start, so the switch only reaches an instance
 # that already exists by being claimed.
 config/quark-common.toml
+
+# Ice and Fire draws its own name and version into the corner of the main
+# menu, and customMainMenu is the switch for it. The mod writes this file on
+# first start, so an instance that has already run has one of its own and
+# nothing shipped here would reach it. The two other settings in the file
+# keep the values they had.
+config/iceandfire/iaf-client.json

@@ -153,6 +153,12 @@
    "reason": "Discord Rich Presence held an IPC connection open and pushed an update on every screen and dimension change; nobody asked the pack for a Discord status"
   },
   {
+   "source": "tools/overlay/config/iceandfire/iaf-client.json",
+   "target": "config/iceandfire/iaf-client.json",
+   "sha256": "139c77cbd5c106862de2543f2809de827b8293a0648ec0e786887285ee63ae27",
+   "reason": "Ice and Fire signs the main menu: one gold line with its own name and version, low in the left corner, over a menu this pack draws itself. customMainMenu is the only switch for it, and it also carries the mod's bestiary background and splash list - neither of which is on screen here, because FancyMenu paints this menu from a slideshow and never calls for the vanilla panorama"
+  },
+  {
    "source": "tools/overlay/kubejs/server_scripts/tags_enchantment_repairs.js",
    "target": "kubejs/server_scripts/tags_enchantment_repairs.js",
    "sha256": "3ecc17830b125a3bb781b872f77bfddebaa0e5721ddec9c87d38cd5d59b0446c",
