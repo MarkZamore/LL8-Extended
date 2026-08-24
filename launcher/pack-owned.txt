@@ -20,10 +20,14 @@ config/agritech/*.json
 config/agritechevolved/*.json
 config/agritechtrees/*.json
 
-# Yes Steve Model rewrites its config on start, so the one number this build
-# does set - how fast the server may send models to a player - would never reach
-# an instance that already exists. Every other key in that file stays the mod's:
-# NeoForge fills in what a config does not name.
+# Yes Steve Model rewrites its config on start. This build used to set one
+# number here - how fast the server may send models to a player - and it does
+# not any more: the number was not what ailed the mod, so the file is no longer
+# shipped and the mod writes its own again. The claim stays because that is what
+# takes the old file back out. A file the pack once installed and then stopped
+# shipping is only removed from an instance while the pack still owns it;
+# without this line the launcher would find a file the mod had rewritten, take
+# it for the player's own work, and leave the old number standing.
 config/yes_steve_model-server.toml
 
 # Global Packs writes its own config on start, and this one is what makes the
@@ -43,11 +47,7 @@ config/smoothswapping.json
 
 # The backup schedule. SimpleBackups rewrites its config on start, so without
 # this claim the incremental schedule shipped here would never reach a player
-# whose instance already exists. It also counts the hour between backups in
-# ticks rather than wall time: measured against the clock, an evening away from
-# the game is time owed, and the mod pays it the moment the world opens - which
-# is why a backup ran a minute and a half into the session instead of an hour.
-# Ticks only pass while the world is running, so the hour is an hour played.
+# whose instance already exists.
 config/simplebackups-common.toml
 
 # KubeJS writes this one itself the first time it starts, so the copy shipped
