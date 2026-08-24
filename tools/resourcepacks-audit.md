@@ -29,27 +29,27 @@
 | 15 | **My Monster Girls** | Заменяет модели четырёх мобов на женские: зомби, кадавра (husk), утопленника (вместе с внешним слоем drowned_outer) и эндермена — через CEM .jem с… | [modrinth.com](https://modrinth.com/resourcepack/my-monster-girls) | **1%** | 🟢 оставить |
 | 16 | **Azu's Enhanced Zombie Variants & Fresh Animations** | Разворачивает обычного зомби в 8 CEM-моделей и около сорока текстур-вариантов — шахтёр (minero), ковбой (vaquero), воин (guerrero), болотный… | [modrinth.com](https://modrinth.com/resourcepack/azus-enhanced-zombie-variants-fresh-animations) | **3%** | 🟢 оставить |
 | 17 | **Golems Refreshed** | Полностью переделывает железного голема: 28 CEM-моделей (iron_golem.jem и iron_golem2–17, 20–30) плюс 27 текстур-скинов, которые подставляются по… | [modrinth.com](https://modrinth.com/resourcepack/golems-refreshed) | **8%** | 🟢 оставить |
-| 18 | **Only Glass GUI** | Делает ванильный интерфейс прозрачно-стеклянным: перерисованы весь HUD (сердца, включая хардкорные и мигающие, броня, голод с эффектом отравления,… | [modrinth.com](https://modrinth.com/resourcepack/only-glass-gui) | нет | 🟢 оставить |
-| 19 | **Neco-Arc Cats** | Превращает всех кошек и оцелота в Neco-Arc: заменены все 11 ванильных окрасов кошки (tabby, black, red, siamese, british_shorthair, calico, persian,… | [modrinth.com](https://modrinth.com/resourcepack/neco-arc-cats) | **4%** | 🟢 оставить |
-| 20 | **Anime Paintings** | Заменяет 47 текстур картин на аниме-арты в высоком разрешении — весь обычный ассортимент от старых kebab, aztec, creebet, donkey_kong, burning_skull… | [modrinth.com](https://modrinth.com/resourcepack/anime-paintings) | **2%** | 🟢 оставить |
-| 21 | **LLama Girls** | Полностью заменяет модель и текстуры лам: обычная лама, лама торговца и слой ковра-декора получают кастомные CEM-модели 128x128 с анимациями… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/llama-girls) | **4%** | 🟢 оставить |
-| 22 | **jax** | Превращает эндермена в Джакса (фиолетовый кролик из The Amazing Digital Circus): кастомная CEM-модель enderman.jem со своей текстурой 128x128 —… | — не найдена | нет | 🟢 оставить |
-| 23 | **Slavic Villagers** | Переодевает всех жителей в славянскую одежду разных эпох и регионов — перерисованы все семь биомных текстур (plains, taiga, savanna, swamp, snow,… | [modrinth.com](https://modrinth.com/resourcepack/slavic-villagers) | **88%** | 🟠 спорный |
-| 24 | **Mugget's Standing Cow** | Ставит корову на задние ноги: одна CEM-модель cow.jem разворачивает тело вертикально (поворот body на -90° с компенсацией подмоделей), голова и рога… | [modrinth.com](https://modrinth.com/resourcepack/standing-cow) | **50%** | 🟢 оставить |
-| 25 | **Betty Witch** | Заменяет ванильную ведьму на анимированную девушку-ведьму: CEM-модель assets/minecraft/optifine/cem/witch.jem с процедурными анимациями (моргание,… | [modrinth.com](https://modrinth.com/resourcepack/betty-witch) | нет | 🟢 оставить |
-| 26 | **3D Beetroots to Tomatoes** | Превращает грядку свёклы в объёмный куст помидоров: свои модели block/beetroots_stage0-3 (с листвой, деревянной подпоркой, табличкой и узлом лида) и… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/3d-beetroots-to-tomatoes/)&nbsp;⚠️ | **8%** | 🟢 оставить |
-| 27 | **Cherry-Creeper (remake) — With Animation** | Делает из крипера вишнёвое деревце: CEM-модель optifine/cem/creeper.jem с подмоделями кроны (body_cherry, body_cherry_rotation) и анимацией, текстура… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/cherry-creeper-remake-6321265/)&nbsp;⚠️ | **20%** | 🟢 оставить |
-| 28 | **Skeleton Girlies** | Заменяет три ванильных скелета на женские CEM-модели: skeleton.jem/skeleton.png, wither_skeleton.jem/wither_skeleton.png и стрей сразу двумя слоями —… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/skeleton-girlies) | нет | 🟢 оставить |
-| 29 | **funnyrain (в pack.mcmeta подписан как "Vanilla Tweaks 1.21 / vanillatweaks.net" — это остаточное описание от Vanilla Tweaks, содержимое к VT отношения не имеет)** | Заменяет текстуру дождя и снега (assets/minecraft/textures/environment/rain.png и snow.png — оба файла байт-в-байт одинаковые, 894x2048) на падающие… | — не найдена | нет | 🟢 оставить |
-| 30 | **Breeze Girl** | Полностью переделывает бриза (breeze) в антропоморфную девушку-персонажа: собственная Blockbench-модель assets/minecraft/optifine/cem/breeze.jem с… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/breeze-girl) | **17%** | 🟢 оставить |
-| 31 | **'Thicc' Phantom - Spartan ReTexture (в pack.mcmeta: "Thicc phantom [Optifine] MAKE BY Huge Cat and edited by Spartan on PMC!")** | Меняет фантома: своя Blockbench-модель assets/minecraft/optifine/cem/phantom.jem (textureSize 128x128, тело перестроено в фигуристый силуэт) плюс… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/thicc-phantom-spartan-retexture/) | нет | 🟢 оставить |
-| 32 | **Gigachad Villager** | Превращает железного голема в "гигачада"-жителя из мема: своя Blockbench-модель assets/minecraft/optifine/cem/iron_golem.jem (textureSize 128x128,… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/gigachad-villager) | нет | 🟢 оставить |
-| 33 | **Bad Dream Death** | Заменяет один-единственный звук — смерть игрока (entity.player.death) — на резкий вдох, будто «это был просто плохой сон». Никакой графики в паке… | [modrinth.com](https://modrinth.com/resourcepack/bad-dream-death) | нет | 🟢 оставить |
-| 34 | **Totem of :GAGAGA: 7tv emote** | Заменяет тотем бессмертия на 7tv-эмоцию :GAGAGA: — своя текстура assets/minecraft/textures/item/gagaga.png и переписанная модель… | [modrinth.com](https://modrinth.com/resourcepack/gagaga) | **33%** | 🟢 оставить |
-| 35 | **LET SKELETONS HAVE HANDS (67 edition)** | Через CEM-модель skeleton.jem даёт скелетам настоящие кисти с отдельными пальцами вместо культяпок. Скелет, переименованный биркой в «67», «six… | [modrinth.com](https://modrinth.com/resourcepack/let-skeletons-have-hands-(67-edition)) | **25%** | 🟢 оставить |
-| 36 | **CowGirl** | Полностью перемоделирует ванильную корову в антропоморфную девушку-корову: CEM-модель cow.jem (голова, рога, волосы, тело заново) плюс текстура… | [modrinth.com](https://modrinth.com/resourcepack/cowgirl) | нет | 🟢 оставить |
-| 37 | **Vignette Removed (файлы автор называет "No Vignette")** | Подменяет единственную текстуру assets/minecraft/textures/misc/vignette.png на полностью непрозрачный чёрный квадрат 256×256, из-за чего затемнение… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/vignette-removed) | нет | 🟢 оставить |
-| 38 | **zazu sun & moon** | Меняет светила на фотографию полосатого кота: sun.png (128×128) — цветная кошачья морда на прозрачном фоне, moon_phases.png (1280×640) — сетка 4×2 из… | [modrinth.com](https://modrinth.com/resourcepack/zazu-sun-moon) | нет | 🟢 оставить |
+| 18 | **Neco-Arc Cats** | Превращает всех кошек и оцелота в Neco-Arc: заменены все 11 ванильных окрасов кошки (tabby, black, red, siamese, british_shorthair, calico, persian,… | [modrinth.com](https://modrinth.com/resourcepack/neco-arc-cats) | **4%** | 🟢 оставить |
+| 19 | **Anime Paintings** | Заменяет 47 текстур картин на аниме-арты в высоком разрешении — весь обычный ассортимент от старых kebab, aztec, creebet, donkey_kong, burning_skull… | [modrinth.com](https://modrinth.com/resourcepack/anime-paintings) | **2%** | 🟢 оставить |
+| 20 | **LLama Girls** | Полностью заменяет модель и текстуры лам: обычная лама, лама торговца и слой ковра-декора получают кастомные CEM-модели 128x128 с анимациями… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/llama-girls) | **4%** | 🟢 оставить |
+| 21 | **jax** | Превращает эндермена в Джакса (фиолетовый кролик из The Amazing Digital Circus): кастомная CEM-модель enderman.jem со своей текстурой 128x128 —… | — не найдена | нет | 🟢 оставить |
+| 22 | **Slavic Villagers** | Переодевает всех жителей в славянскую одежду разных эпох и регионов — перерисованы все семь биомных текстур (plains, taiga, savanna, swamp, snow,… | [modrinth.com](https://modrinth.com/resourcepack/slavic-villagers) | **88%** | 🟠 спорный |
+| 23 | **Mugget's Standing Cow** | Ставит корову на задние ноги: одна CEM-модель cow.jem разворачивает тело вертикально (поворот body на -90° с компенсацией подмоделей), голова и рога… | [modrinth.com](https://modrinth.com/resourcepack/standing-cow) | **50%** | 🟢 оставить |
+| 24 | **Betty Witch** | Заменяет ванильную ведьму на анимированную девушку-ведьму: CEM-модель assets/minecraft/optifine/cem/witch.jem с процедурными анимациями (моргание,… | [modrinth.com](https://modrinth.com/resourcepack/betty-witch) | нет | 🟢 оставить |
+| 25 | **3D Beetroots to Tomatoes** | Превращает грядку свёклы в объёмный куст помидоров: свои модели block/beetroots_stage0-3 (с листвой, деревянной подпоркой, табличкой и узлом лида) и… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/3d-beetroots-to-tomatoes/)&nbsp;⚠️ | **8%** | 🟢 оставить |
+| 26 | **Cherry-Creeper (remake) — With Animation** | Делает из крипера вишнёвое деревце: CEM-модель optifine/cem/creeper.jem с подмоделями кроны (body_cherry, body_cherry_rotation) и анимацией, текстура… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/cherry-creeper-remake-6321265/)&nbsp;⚠️ | **20%** | 🟢 оставить |
+| 27 | **Skeleton Girlies** | Заменяет три ванильных скелета на женские CEM-модели: skeleton.jem/skeleton.png, wither_skeleton.jem/wither_skeleton.png и стрей сразу двумя слоями —… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/skeleton-girlies) | нет | 🟢 оставить |
+| 28 | **funnyrain (в pack.mcmeta подписан как "Vanilla Tweaks 1.21 / vanillatweaks.net" — это остаточное описание от Vanilla Tweaks, содержимое к VT отношения не имеет)** | Заменяет текстуру дождя и снега (assets/minecraft/textures/environment/rain.png и snow.png — оба файла байт-в-байт одинаковые, 894x2048) на падающие… | — не найдена | нет | 🟢 оставить |
+| 29 | **Breeze Girl** | Полностью переделывает бриза (breeze) в антропоморфную девушку-персонажа: собственная Blockbench-модель assets/minecraft/optifine/cem/breeze.jem с… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/breeze-girl) | **17%** | 🟢 оставить |
+| 30 | **'Thicc' Phantom - Spartan ReTexture (в pack.mcmeta: "Thicc phantom [Optifine] MAKE BY Huge Cat and edited by Spartan on PMC!")** | Меняет фантома: своя Blockbench-модель assets/minecraft/optifine/cem/phantom.jem (textureSize 128x128, тело перестроено в фигуристый силуэт) плюс… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/thicc-phantom-spartan-retexture/) | нет | 🟢 оставить |
+| 31 | **Gigachad Villager** | Превращает железного голема в "гигачада"-жителя из мема: своя Blockbench-модель assets/minecraft/optifine/cem/iron_golem.jem (textureSize 128x128,… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/gigachad-villager) | нет | 🟢 оставить |
+| 32 | **Bad Dream Death** | Заменяет один-единственный звук — смерть игрока (entity.player.death) — на резкий вдох, будто «это был просто плохой сон». Никакой графики в паке… | [modrinth.com](https://modrinth.com/resourcepack/bad-dream-death) | нет | 🟢 оставить |
+| 33 | **Totem of :GAGAGA: 7tv emote** | Заменяет тотем бессмертия на 7tv-эмоцию :GAGAGA: — своя текстура assets/minecraft/textures/item/gagaga.png и переписанная модель… | [modrinth.com](https://modrinth.com/resourcepack/gagaga) | **33%** | 🟢 оставить |
+| 34 | **LET SKELETONS HAVE HANDS (67 edition)** | Через CEM-модель skeleton.jem даёт скелетам настоящие кисти с отдельными пальцами вместо культяпок. Скелет, переименованный биркой в «67», «six… | [modrinth.com](https://modrinth.com/resourcepack/let-skeletons-have-hands-(67-edition)) | **25%** | 🟢 оставить |
+| 35 | **CowGirl** | Полностью перемоделирует ванильную корову в антропоморфную девушку-корову: CEM-модель cow.jem (голова, рога, волосы, тело заново) плюс текстура… | [modrinth.com](https://modrinth.com/resourcepack/cowgirl) | нет | 🟢 оставить |
+| 36 | **Vignette Removed (файлы автор называет "No Vignette")** | Подменяет единственную текстуру assets/minecraft/textures/misc/vignette.png на полностью непрозрачный чёрный квадрат 256×256, из-за чего затемнение… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/vignette-removed) | нет | 🟢 оставить |
+| 37 | **Sun & Moon Fusion** | Меняет солнце и луну на чистые мультяшные: sun.png и moon_phases.png, вместе 1,5 КБ на две текстуры — весь пак. Стоит выше обоих других паков светил и перерисовывает ровно те же два файла, так что в игре видно только его… | [modrinth.com](https://modrinth.com/resourcepack/sun-moon-fusion) | нет | 🟢 оставить, светила теперь его |
+| 38 | **zazu sun & moon** | Меняет светила на фотографию полосатого кота: sun.png (128×128) — цветная кошачья морда на прозрачном фоне, moon_phases.png (1280×640) — сетка 4×2 из… | [modrinth.com](https://modrinth.com/resourcepack/zazu-sun-moon) | **100%** | 🔴 удалить |
 | 39 | **The Sky, Sun and Moon** | Заменяет ванильные квадратные светила на аккуратные круглые: sun.png 32×32 — мягкий жёлтый диск со свечением, moon_phases.png 128×64 — восемь… | [modrinth.com](https://modrinth.com/resourcepack/the-sky,-sun-and-moon) | **100%** | 🔴 удалить |
 | 40 | **Lilac Jackson** | Перерисовывает ровно один блок — сирень: lilac_top.png и lilac_bottom.png (обе 512×512) собраны из фотографий лица Майкла Джексона, затонированных в… | [modrinth.com](https://modrinth.com/resourcepack/lilac-jackson) | нет | 🟢 оставить |
 | 41 | **Authentic Shadows** | Заменяет ровно одну текстуру: круглую тень под всеми сущностями (assets/minecraft/textures/misc/shadow.png), уменьшая её до 16x16 с жёстким… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/authentic-shadows) | нет | 🟢 оставить |
@@ -57,7 +57,7 @@
 
 ⚠️ — страница похожа на нужную, но подтвердить автора и название по ней не удалось.
 
-## Требуют решения (6)
+## Требуют решения (7)
 
 ### 🟡 Glowing Emissive Ores (GEO)
 
@@ -87,7 +87,13 @@
 
 `The Sky Sun and Moon.zip`
 
-Перекрыт полностью: все 2 его ассетов перерисовывает «zazu sun and moon», который стоит выше. В игре от пака не видно ничего.
+Перекрыт полностью: оба его ассета перерисовывают и «zazu sun and moon», и «Sun & Moon Fusion 2.1», которые стоят выше. В игре от пака не видно ничего.
+
+### 🔴 zazu sun & moon
+
+`zazu sun and moon.zip`
+
+Перекрыт полностью: оба его ассета перерисовывает «Sun & Moon Fusion 2.1», который стоит выше. Светила в сборке рисуют три пака на два файла, и виден только верхний — два нижних можно убрать без единого изменения на экране.
 
 ### 🔴 Moaning Mobs (в архиве — "MOANING MOBS by Gooey", версия 0.1 «Villagers only»)
 
@@ -370,20 +376,7 @@
 - **Вердикт:** 🟢 оставить
 - **Заметки:** PlanetMinecraft отдаёт WebFetch HTTP 403, страницу напрямую прочитать не вышло. Подтверждение косвенное: поиск (в т.ч. с ограничением по домену planetminecraft.com) стабильно даёт этот URL с заголовком «Cherry-Creeper(remake) - With Animation» и авторами poolb + kotisimo — пара авторов в точности совпадает с pack.mcmeta «by Poolb, Kotisimo», а внутри creeper.jem стоит credit «made by Poolb, Kotisimo». Сниппет упоминает апдейт 2.1 от 17.07.2024, у нас на диске 3.0 — вероятно более позднее обновление той же страницы. КОНФЛИКТ: Fresh Animations v1.10.4 тоже содержит optifine/cem/creeper.jem (и creeper_animations.jpm) — победит тот, что выше по списку. ТНТ-модель кастомная и ссылается на свою…
 
-### 20. Only Glass GUI 🟢
-
-- **Файл:** `Only Glass GUI v0.2.zip`
-- **Автор:** Max223210
-- **Что добавляет:** Делает ванильный интерфейс прозрачно-стеклянным: перерисованы весь HUD (сердца, включая хардкорные и мигающие, броня, голод с эффектом отравления, полоса опыта, хотбар с подсветкой и слотами второй руки, прицел с индикатором атаки, подложки эффектов), виджеты (кнопки во всех состояниях, кнопки блокировки, ползунки, скроллер), кнопки книги рецептов и фон инвентаря. Дополнительно заменены все шесть граней панорамы главного меню — из-за них архив и весит 15,5 МБ.
-- **Область:** GUI/HUD ванильной игры: hud-спрайты, widget-спрайты, recipe_book, inventory.png и панорама главного меню
-- **Адресат:** vanilla — только assets/minecraft, мод-неймспейсов нет
-- **Формат:** pack_format 34 без supported_formats — это ровно 1.21/1.21.1, поддержка 1.21 объявлена точно
-- **Нужен формат OptiFine:** нет
-- **Скачать:** https://modrinth.com/resourcepack/only-glass-gui
-- **Вердикт:** 🟢 оставить
-- **Заметки:** Ссылка сверена через поиск Modrinth API: единственный проект с точным названием Only Glass GUI, slug only-glass-gui, автор Max223210 — совпадает с License.txt внутри архива («Only Glass GUI © 2025 by Max223210, CC BY-SA 4.0»). В API есть версия 0.2 с файлом «Only Glass Gui v0.2.zip», у нас он же. Вложенный Readme.txt перечисляет ровно то, что добавили в v0.2: widget-спрайты и панорама. Важная оговорка к названию «весь GUI»: из gui/container заменён только inventory.png — сундуки, печи, верстак и прочие контейнеры остаются ванильными, а GUI 873 модов пак не трогает вовсе. Панорама конфликтует с любым другим паком, меняющим фон главного меню, — порядок паков решает.
-
-### 21. The Sky, Sun and Moon 🔴
+### 20. The Sky, Sun and Moon 🔴
 
 - **Файл:** `The Sky Sun and Moon.zip`
 - **Автор:** Azturax
@@ -393,11 +386,11 @@
 - **Формат:** pack_format 75 плюс supported_formats [34, 42, 46, 55, 63, 64, 69, 75, 84]. 34 в списке есть, то есть 1.21/1.21.1 поддерживается явно — единственный пак из…
 - **Нужен формат OptiFine:** нет
 - **Скачать:** https://modrinth.com/resourcepack/the-sky,-sun-and-moon
-- **Его перерисовывают:** zazu sun and moon (2)
-- **Вердикт:** 🔴 удалить — Перекрыт полностью: все 2 его ассетов перерисовывает «zazu sun and moon», который стоит выше. В игре от пака не видно ничего.
+- **Его перерисовывают:** Sun & Moon Fusion 2.1 (2), zazu sun and moon (2)
+- **Вердикт:** 🔴 удалить — Перекрыт полностью: оба его ассета перерисовывают и «zazu sun and moon», и «Sun & Moon Fusion 2.1», которые стоят выше. В игре от пака не видно ничего.
 - **Заметки:** Проверено фетчем страницы Modrinth: заголовок "The Sky, Sun and Moon", автор Azturax, описание про замену блочных солнца и луны круглыми небесными телами, поддержка 1.21.x. Есть и параллельный проект на CurseForge (curseforge.com/minecraft/texture-packs/the-sky-sun-and-moon) того же автора. Конфликтует с "zazu sun and moon": файлы совпадают один в один, работать будет только один из двух — надо решить, какой ставить выше.
 
-### 22. zazu sun & moon 🟢
+### 21. zazu sun & moon 🔴
 
 - **Файл:** `zazu sun and moon.zip`
 - **Автор:** saopin (на странице подписан как zazu, Instagram @zazubabyman)
@@ -408,8 +401,23 @@
 - **Нужен формат OptiFine:** нет
 - **Скачать:** https://modrinth.com/resourcepack/zazu-sun-moon
 - **Он перерисовывает:** The Sky Sun and Moon (2), Stay True 1.21 (1)
-- **Вердикт:** 🟢 оставить
+- **Его перерисовывают:** Sun & Moon Fusion 2.1 (2)
+- **Вердикт:** 🔴 удалить — Перекрыт полностью: оба его ассета перерисовывает «Sun & Moon Fusion 2.1», который стоит выше. В игре от пака не видно ничего. На момент аудита этого пака ещё не было, и zazu был виден.
 - **Заметки:** Проверено фетчем: проект "zazu sun & moon" на Modrinth, владелец saopin, описание "replaces the sun and moon with a cat named Zazu", 128x, заявлена только 1.20.1 — совпадает с pack_format 15 в архиве. Есть и зеркало на PlanetMinecraft (zazu-sun-and-moon-6356604), но оно отдало 403 и подтвердить его я не смог, поэтому даю Modrinth. Важное: пак конфликтует с "The Sky Sun and Moon" — оба переопределяют ровно эти два файла, победит тот, что выше в списке паков. Луна тяжёлая: 1280×640, то есть 320×320 на фазу.
+
+### 22. Sun & Moon Fusion 🟢
+
+- **Файл:** `Sun & Moon Fusion 2.1.zip`
+- **Автор:** OrkaMC
+- **Что добавляет:** Меняет солнце и луну на чистые мультяшные: sun.png и moon_phases.png — и всё, в архиве больше нет ни одного ассета. Обе текстуры крошечные, 711 и 778 байт, то есть рисунок простой и мелкий по сетке фаз.
+- **Область:** Ванильное окружение (assets/minecraft/textures/environment): только солнце и луна.
+- **Адресат:** vanilla
+- **Формат:** pack_format 10 (1.19), supported_formats нет. Поддержка 1.21 НЕ заявлена — игра пометит пак как устаревший, но оба пути textures/environment/ с 1.19 не менялись, так что он читается.
+- **Нужен формат OptiFine:** нет
+- **Скачать:** https://modrinth.com/resourcepack/sun-moon-fusion
+- **Он перерисовывает:** zazu sun and moon (2), The Sky Sun and Moon (2)
+- **Вердикт:** 🟢 оставить, светила теперь его
+- **Заметки:** Третий пак светил в сборке и единственный, который видно: он стоит выше обоих остальных и переопределяет ровно те же два файла. Пришёл позже аудита, коммитом «Add Windy, Spawn Animations, Cursors Extended and a new sun and moon», и молча погасил zazu, который до него был виден. Ссылка сверена через Modrinth API: единственный проект с этим названием, slug sun-moon-fusion, автор OrkaMC — тот же, что подписан в pack.mcmeta («Retextured Sun & Moon By: OrkaMC»). Держать три пака на два файла смысла нет: два нижних можно убрать, ничего не изменится.
 
 ### 23. funnyrain (в pack.mcmeta подписан как "Vanilla Tweaks 1.21 / vanillatweaks.net" — это остаточное описание от Vanilla Tweaks, содержимое к VT отношения не имеет) 🟢
 
