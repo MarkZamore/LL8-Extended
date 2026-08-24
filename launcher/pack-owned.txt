@@ -43,7 +43,11 @@ config/smoothswapping.json
 
 # The backup schedule. SimpleBackups rewrites its config on start, so without
 # this claim the incremental schedule shipped here would never reach a player
-# whose instance already exists.
+# whose instance already exists. It also counts the hour between backups in
+# ticks rather than wall time: measured against the clock, an evening away from
+# the game is time owed, and the mod pays it the moment the world opens - which
+# is why a backup ran a minute and a half into the session instead of an hour.
+# Ticks only pass while the world is running, so the hour is an hour played.
 config/simplebackups-common.toml
 
 # KubeJS writes this one itself the first time it starts, so the copy shipped
