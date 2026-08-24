@@ -429,6 +429,17 @@ key_key.hats.open_menu:key.keyboard.f9  # Open the hat menu; the jetpack hover l
 # --- hostilenetworks ---
 key_key.hostilenetworks.open_deep_learner:key.keyboard.unknown  # was u: the deep learner opens by use
 
+# --- identity2 ---
+key_key.identity2.identity_menu:key.keyboard.enter  # The shape picker; where the Remorphed menu used to be
+key_key.identity2.primary_ability:key.keyboard.keypad.add  # Shape ability
+key_key.identity2.secondary_ability:key.keyboard.keypad.subtract  # Second shape ability
+key_key.identity2.favorite_morph_1:key.keyboard.unknown  # unbound: the menu covers it
+key_key.identity2.favorite_morph_2:key.keyboard.unknown
+key_key.identity2.favorite_morph_3:key.keyboard.unknown
+key_key.identity2.favorite_save_1:key.keyboard.unknown
+key_key.identity2.favorite_save_2:key.keyboard.unknown
+key_key.identity2.favorite_save_3:key.keyboard.unknown
+
 # --- immersive_aircraft ---
 key_key.immersive_aircraft.boost:key.keyboard.backspace  # Rocket boost; was p, which the jetpack hover now holds
 key_key.immersive_aircraft.dismount:key.keyboard.i  # Dismount
@@ -925,8 +936,8 @@ key_key.universalgrid.switch_wireless_universal_grid_type:key.keyboard.unknown
 # --- walkers ---
 key_key.walkers:key.keyboard.0  # Transform to your other shape; was g (Curios keeps it)
 key_key.walkers_ability:key.keyboard.equal  # Use a shape ability; was r (the spell wheel keeps it)
-key_key.walkers_unlock:key.keyboard.unknown  # unbound: in this pack a shape is unlocked by killing the mob
-key_key.walkers_variants:key.keyboard.unknown  # unbound: the Remorphed menu on Enter has its own variants button
+key_key.walkers_unlock:key.keyboard.keypad.0  # Hold with a mob under the crosshair to take its shape; killing is not involved
+key_key.walkers_variants:key.keyboard.keypad.decimal  # Cycle the variant of the shape already worn; Remorphed's menu is gone
 
 # --- wildex ---
 key_key.wildex.open:key.keyboard.unknown  # was b:SHIFT: needed a modifier combo; rare

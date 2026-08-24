@@ -451,7 +451,19 @@
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
     "sha256": "cabea2db9a397460a7bfa07956c68eb0eb379a2c6ec2c430e408228c57ecf908",
-    "reason": "config/every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
+    "reason": "every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
+   },
+  {
+    "source": "tools/overlay/mods/1.21.1-identity2-neoforge-2.2.1.jar",
+    "target": "mods/1.21.1-identity2-neoforge-2.2.1.jar",
+    "sha256": "d5c356c65a87296765b79fb728ca5a0de03b9b1e14724419c12e954908e7611d",
+    "reason": "requested addition, kept through pack updates (Identity Fix 2.2.1): the shapes ReMorphed used to collect, with a picker to choose them from. Chosen on one property, read in its own bytecode - IdentitySelectionScreen walks the entity registry and constructs nothing, and isMorphableType decides from MobCategory before anything is built. Both of the rifle mod's entity types are registered MobCategory.MISC, so that screen can never construct the projectile whose constructor talks to OpenGL, which is the thing that hung the game through ReMorphed's screen"
+   },
+  {
+    "source": "tools/overlay/mods/gaboulibs-neoforge-1.8.3.jar",
+    "target": "mods/gaboulibs-neoforge-1.8.3.jar",
+    "sha256": "3fac6689b5ce31aa0ad89a9db8358e6632fa90b87ac29d0fae13a8b8f463c741",
+    "reason": "required by Identity Fix, which asks for gaboulibs [1.4,); architectury, its other dependency, was already here at 13.0.11 against a [13.0.8,) range"
    },
   {
     "source": "tools/overlay/mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
