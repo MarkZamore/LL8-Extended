@@ -91,13 +91,7 @@
    "sha256": "9e12468c49e5a95b7adbf22b3b4d05bc55565989b89c40b985cd73bdfe63c3c2",
    "reason": "required by the requested Alex's Caves port (citadel 1.21.1-2.7.6, Raguto's port - the pack had no citadel of its own)"
   },
-  {
-   "source": "tools/overlay/mods/craftedcore-5.8.2.jar",
-   "target": "mods/craftedcore-5.8.2.jar",
-   "sha256": "6bbfe3c0a7c286ca2c34388e3b749d93924a68dd1e89f15c1da47695245f41ed",
-   "reason": "requested addition, kept through pack updates (crafted-core 1.21-neoforge-5.8.2)"
-  },
-  {
+    {
    "source": "tools/overlay/mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
    "target": "mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
    "sha256": "77a940e37b10e5127b8dfdf237760c20422a0efe5966b1ffb54dbed22d98917b",
@@ -110,13 +104,7 @@
    "sha256": "27a7e28452a48cbcbc54b36a52af11312e6965edf893e7e7c92eef6106f47d32",
    "reason": "requested addition, kept through pack updates (jenny's mod, Mine335's NeoForge port 1.1.0-neoforge.1)"
   },
-  {
-   "source": "tools/overlay/mods/walkers-5.8.12.jar",
-   "target": "mods/walkers-5.8.12.jar",
-   "sha256": "72a3d70ad90b2f9656fe346fadc603338bd40ee2ecf235e45a68012e80e50fee",
-   "reason": "requested addition, kept through pack updates (woodwalkers 1.21-neoforge-5.8.12)"
-  },
-  {
+    {
    "source": "tools/overlay/mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
    "target": "mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
    "sha256": "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb",

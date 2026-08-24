@@ -283,8 +283,8 @@ key.identity2.favorite_save_1	identity2	UNIVERSAL	assumed		key.keyboard.unknown	
 key.identity2.favorite_save_2	identity2	UNIVERSAL	assumed		key.keyboard.unknown	options	Save Favorite 2	
 key.identity2.favorite_save_3	identity2	UNIVERSAL	assumed		key.keyboard.unknown	options	Save Favorite 3	
 key.identity2.identity_menu	identity2	UNIVERSAL	assumed		key.keyboard.enter	options	Identity Menu	
-key.identity2.primary_ability	identity2	UNIVERSAL	assumed		key.keyboard.keypad.add	options	Primary Ability	
-key.identity2.secondary_ability	identity2	UNIVERSAL	assumed		key.keyboard.keypad.subtract	options	Secondary Ability	
+key.identity2.primary_ability	identity2	UNIVERSAL	assumed		key.keyboard.0	options	Primary Ability	
+key.identity2.secondary_ability	identity2	UNIVERSAL	assumed		key.keyboard.equal	options	Secondary Ability	
 key.immersive_aircraft.boost	immersive_aircraft	UNIVERSAL	assumed	key.keyboard.j	key.keyboard.backspace	options+defaults	Rocket boost	Разгонные ракеты
 key.immersive_aircraft.dismount	immersive_aircraft	UNIVERSAL	assumed	key.keyboard.left.control	key.keyboard.i	options+defaults	Dismount	Высадиться
 key.immersive_aircraft.fallback_control_backward	immersive_aircraft	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Backward	Назад
@@ -563,10 +563,6 @@ key.universalgrid.open_wireless_universal_grid	universalgrid	UNIVERSAL	assumed	k
 key.universalgrid.switch_wireless_universal_grid_type	universalgrid	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Switch Wireless Universal Grid Type	Switch Wireless Universal Grid Type
 key.unmountVehicle	rftoolsbuilder	IN_GAME	bytecode	key.keyboard.backslash	key.keyboard.unknown	options+defaults	Unmount Vehicle	
 key.use	minecraft	UNIVERSAL	assumed	key.mouse.right	key.mouse.right	options+defaults		
-key.walkers	walkers	UNIVERSAL	assumed		key.keyboard.0	options	Transform to your other shape	
-key.walkers_ability	walkers	UNIVERSAL	assumed		key.keyboard.equal	options	Use an Shape Ability	
-key.walkers_unlock	walkers	UNIVERSAL	assumed		key.keyboard.keypad.0	options	Scan a mob	
-key.walkers_variants	walkers	UNIVERSAL	assumed		key.keyboard.keypad.decimal	options	Open the Variants Menu	
 key.wildex.open	wildex	IN_GAME	bytecode		key.keyboard.unknown	options	Open Wildex	
 key.xycraft_core.modifier_key	xycraft_core	UNIVERSAL	bytecode	key.keyboard.left.control	key.keyboard.unknown	options+defaults	Modifier Key	
 key.yes_steve_model.animation_roulette.desc	yes_steve_model	IN_GAME	bytecode		key.keyboard.num.lock	options	Open Animation Roulette	Открыть рулетку анимаций

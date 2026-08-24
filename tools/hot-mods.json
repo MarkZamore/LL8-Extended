@@ -6,7 +6,6 @@
  "CerbonsAPI-*.jar",
  "citadel-*.jar",
  "Cobblemon-*.jar",
- "craftedcore-*.jar",
  "e4steam-*.jar",
  "entity_model_features-*.jar",
  "entity_texture_features_*.jar",
@@ -23,6 +22,5 @@
  "touhou_little_maid_spell-*.jar",
  "touhoulittlemaid-*.jar",
  "uranus-*.jar",
- "walkers-*.jar",
  "ysm-*.jar"
 ]

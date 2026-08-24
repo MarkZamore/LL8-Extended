@@ -58,7 +58,7 @@
 | **Y** | Reinforced Singularity Rifle: перезарядка |
 | **Z** | Дракон (Ice and Fire): вниз |
 | `` ` `` | FTB Ultimine |
-| **0** · `-` · `=` | Woodwalkers: превращение · Apotheosis: режим радиальной добычи · Woodwalkers: способность облика |
+| **0** · `-` · `=` | Identity: способность облика · Apotheosis: режим радиальной добычи · Identity: вторая способность |
 | `[` `]` | Tool Belt: пояс · Tom's Storage: терминал |
 | `\` | Mekanism: настройка модулей |
 | `;` | Cataclysm: способность |

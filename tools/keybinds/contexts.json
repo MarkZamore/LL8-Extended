@@ -2331,22 +2331,6 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
-  "key.walkers": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.walkers_ability": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.walkers_unlock": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.walkers_variants": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
   "key.wildex.open": {
     "context": "IN_GAME",
     "source": "bytecode"

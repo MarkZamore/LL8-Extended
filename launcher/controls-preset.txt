@@ -431,8 +431,8 @@ key_key.hostilenetworks.open_deep_learner:key.keyboard.unknown  # was u: the dee
 
 # --- identity2 ---
 key_key.identity2.identity_menu:key.keyboard.enter  # The shape picker; where the Remorphed menu used to be
-key_key.identity2.primary_ability:key.keyboard.keypad.add  # Shape ability
-key_key.identity2.secondary_ability:key.keyboard.keypad.subtract  # Second shape ability
+key_key.identity2.primary_ability:key.keyboard.0  # Shape ability; 0 and = were Woodwalkers' two keys for exactly this
+key_key.identity2.secondary_ability:key.keyboard.equal  # Second shape ability
 key_key.identity2.favorite_morph_1:key.keyboard.unknown  # unbound: the menu covers it
 key_key.identity2.favorite_morph_2:key.keyboard.unknown
 key_key.identity2.favorite_morph_3:key.keyboard.unknown
@@ -932,12 +932,6 @@ key_key.twilightforest.zoom:key.keyboard.unknown  # was z: Ok Zoomer zooms
 # --- universalgrid ---
 key_key.universalgrid.open_wireless_universal_grid:key.keyboard.unknown
 key_key.universalgrid.switch_wireless_universal_grid_type:key.keyboard.unknown
-
-# --- walkers ---
-key_key.walkers:key.keyboard.0  # Transform to your other shape; was g (Curios keeps it)
-key_key.walkers_ability:key.keyboard.equal  # Use a shape ability; was r (the spell wheel keeps it)
-key_key.walkers_unlock:key.keyboard.keypad.0  # Hold with a mob under the crosshair to take its shape; killing is not involved
-key_key.walkers_variants:key.keyboard.keypad.decimal  # Cycle the variant of the shape already worn; Remorphed's menu is gone
 
 # --- wildex ---
 key_key.wildex.open:key.keyboard.unknown  # was b:SHIFT: needed a modifier combo; rare
