@@ -47,10 +47,8 @@ file/Anime Paintings 1.0.zip
 file/Totem of GAGAGA 7tv emote 1.0.zip
 file/MOANING MOBS by Gooey 0.1.zip
 file/Fresh Animations v1.10.4.zip
-file/Torturable Healthbars 2.4.3.zip
 file/3D Reinforced Armor v1.zip
 file/Baby Animals Remastered 1.21 v1.3.zip
-file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip
 file/3D Items-Vanillaism-1.21.1.zip
 file/Grays Mob Overhaul v13.zip
 file/Skeletons Hands 67.zip

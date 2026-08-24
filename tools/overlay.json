@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "e71d2e16ae72f05f726103033466d26d149a64d9a13735d8a590cc49ea1e5aad",
+   "sha256": "28d782034a7e1e60961d1093037b73b0b9670d20b537262ddfb6dfc5711d71ad",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -132,12 +132,6 @@
    "target": "resourcepacks/Anime Paintings 1.0.zip",
    "sha256": "9b58ae7ad19f49404770b047a61fa4920768c24606400625f934a8ef444464e0",
    "reason": "requested addition (anime paintings 1.0)"
-  },
-  {
-   "source": "tools/overlay/packs/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip",
-   "target": "resourcepacks/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip",
-   "sha256": "41a1cb8f38e0e654ba86b19e9221213fd58681f6535833b6efa3034d29cbed00",
-   "reason": "requested addition (cute mob models: resource pack 1.2.v5)"
   },
   {
    "source": "tools/overlay/packs/Grays Mob Overhaul v13.zip",
