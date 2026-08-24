@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "a9c6bdee9f38b617f5562b30d263c96ddfb5ef70d4cd15f96fc8378291d258a9",
+   "sha256": "162708e9173e2b157d2b9125c91f6ab5c709659ef343ba237ffa5bd48d28c543",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -450,7 +450,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "eec356d453e7e2dbbc34971af2bc54d150c2a76dabba9776541cebb4c6e561b9",
+    "sha256": "d00d8f726ae1ae86701724056d4b58dce98920bc48ca4cf058b16aea479f3db8",
     "reason": "config/every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
    },
   {

@@ -27,6 +27,14 @@ log_pack_ids = false
 	required = []
 	optional = []
 	enable_builtin = [
+		"mod/iceandfire:resourcepacks/iaf_legacy",
+		"builtin/2d_item_models",
+		"sfm:classic",
+		"more_sniffer_flowers_boring",
+		"mod/lootr:resourcepacks/old_textures",
+		"builtin/builtin_resource_packs/legacy_dead_king_resource_pack",
+		"mod/crittersandcompanions:resourcepacks/friendlyart",
+		"twilightdelight:shader_compatible_fiery",
 		"modularbees:dynamic_assets",
 		"mod/seamless:resourcepacks/default_seamless",
 		"fabric",

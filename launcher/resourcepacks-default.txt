@@ -40,16 +40,35 @@
 # everything and the game keeps it there; the KubeJS packs are rebuilt every
 # launch under names with commas in them, which no list of this shape can hold.
 #
-# What is not here is what a mod offers as an older or plainer version of
-# something the build already draws - programmer art, the two archive looks of
-# the Aether, SFM and Backwoods classic, Lootr's old chests, MEGA's old cell
-# colours, Draconic's 2D models, the Dead King's programmer art, the
-# deliberately boring Sniffer flowers - along with the accessibility variants,
-# which are a different choice rather than a prettier one, and Simply Light's
-# connected textures, which nothing in this build can read. Those stay in
-# Available: a pack inside a mod's jar can only be kept off that screen by the
-# mod itself, and Quark is the only one here that offers the switch.
+# What a mod offers as an older or plainer version of something the build
+# already draws is handled two ways, and which way depends on one measurement:
+# whether every file in it is redrawn by something that would sit above it. A
+# pack where that holds is switched on at the very bottom, where it changes
+# nothing and is gone from Available. A pack that carries even one file nothing
+# above has would be seen there, so no place in this list is low enough - the
+# bottom of the list is not off. That leaves Backwoods classic, Quark's
+# programmer art, Simply Light's connected textures, MEGA's cell colours, the
+# Bumblezone's anti-trypophobia honeycomb and the Touhou legacy sets on offer,
+# along with the packs their mods build at runtime rather than ship as files:
+# the Aether's two archive looks and its colourblind set, and the programmer-art
+# and high-contrast variants from vanilla, Sodium, SpruceUI and Chest Tracker.
+# A pack inside a mod's jar can only be kept off that screen by the mod itself,
+# and Quark is the only one here that offers the switch.#
+# The eight at the very bottom are there to be silent. Each is a mod's own older
+# look, and every file in it is redrawn by that mod's current assets, which sit
+# above. Switched on down here they change nothing, and that is the whole reason
+# they are switched on: it takes them out of Available without touching how the
+# build looks. Anything still on offer up there adds at least one file nothing
+# above carries, so no place in this list would keep it quiet.
 
+mod/iceandfire:resourcepacks/iaf_legacy
+builtin/2d_item_models
+sfm:classic
+more_sniffer_flowers_boring
+mod/lootr:resourcepacks/old_textures
+builtin/builtin_resource_packs/legacy_dead_king_resource_pack
+mod/crittersandcompanions:resourcepacks/friendlyart
+twilightdelight:shader_compatible_fiery
 modularbees:dynamic_assets
 mod/seamless:resourcepacks/default_seamless
 fabric
