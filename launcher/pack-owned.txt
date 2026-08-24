@@ -40,3 +40,11 @@ kubejs/config/web_server.json
 # Immersive Optimization rewrites its config too, and it stamps a version into
 # it, so an instance that has run once has a file that looks edited by hand.
 config/immersive_optimization.json
+
+# Sky Aesthetics generates both of these itself - which is why there are two
+# spellings of one name - so the cleaned copies here would otherwise stop at
+# the sync. Nothing in either file is meant for a player to tune: they name
+# mods and dimensions this pack has, and one of those names was a mod it no
+# longer has.
+config/sky-aesthetics.json
+config/sky_aesthetics.json
