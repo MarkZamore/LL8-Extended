@@ -65,7 +65,8 @@ config/sky-aesthetics.json
 config/sky_aesthetics.json
 
 # Quark is the one mod here that can take its own optional pack off the
-# resource pack screen, and "Generate Programmer Art" is that switch. Quark
-# rewrites this file on start, so the switch only reaches an instance that
-# already exists by being claimed.
+# resource pack screen, and "Generate Programmer Art" is that switch. It is on:
+# the pack is wanted, and a hidden pack cannot be chosen. Quark rewrites this
+# file on start, so whichever way the switch is set, it only reaches an instance
+# that already exists by being claimed.
 config/quark-common.toml

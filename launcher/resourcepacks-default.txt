@@ -97,6 +97,9 @@ enderzoology:dynamically_copied_textures
 builtin/deep_aether_compatibility_client
 the_backwoods_classic
 file/Grays Mob Overhaul v13.zip
+quark_programmer_art
+mod/simplylight:optional_fullblock_ctm
+mod/megacells:optional_cell_colours
 tropicraft_texture_update
 mod/boatiview
 mod/pastel:pastel_style_amethyst

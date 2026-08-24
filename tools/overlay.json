@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "5b1de4ee9606b81d8d511aef459fdf6f103f70e14e5cfd30718c25c72d4ec216",
+   "sha256": "6c5602933b3c92db303aee1d23b0bd163013e0df5b2881fbdee92af8af1220dc",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -163,6 +163,12 @@
    "target": "config/sdrp-common.json5",
    "sha256": "3d79a703ed7ea888306afccca5519d3ad523a0b4148899cac2577e6ef7d9cf1d",
    "reason": "Discord Rich Presence held an IPC connection open and pushed an update on every screen and dimension change; nobody asked the pack for a Discord status"
+  },
+  {
+   "source": "tools/overlay/kubejs/server_scripts/tags_enchantment_repairs.js",
+   "target": "kubejs/server_scripts/tags_enchantment_repairs.js",
+   "sha256": "3ecc17830b125a3bb781b872f77bfddebaa0e5721ddec9c87d38cd5d59b0446c",
+   "reason": "Overenchanted writes four of its own enchantments into vanilla tags with a dot where the colon belongs, and an entry that resolves to nothing does not get skipped - TagLoader throws the whole tag away, every other mod's entries with it. Five tags died and three more followed them. It has to be KubeJS rather than a datapack: a datapack can only touch entries that resolve, and these do not, while KubeJS drops the entry from the raw list before anything tries. kubejs is a managed root, so the script lives here or the next import deletes it"
   },
   {
    "source": "tools/overlay/kubejs/config/web_server.json",
@@ -444,7 +450,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "57b721a6a767c65f82d7fa6ebb108a10fb97576932ea2085571e2f364268f9c4",
+    "sha256": "96c43a26bb1d1ba504c1b24ae09712f6f943f517011074aecad8e8e3ad9db025",
     "reason": "config/every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
    },
   {
