@@ -1,0 +1,11 @@
+{
+    "__comment": "Overenchanted spells these four with a dot where the colon belongs, so they parse as minecraft ids nothing declares and the whole tag is dropped. Removed here and put back correctly.",
+    "remove": [
+        "overenchanted.reflect",
+        "overenchanted.ricochet"
+    ],
+    "values": [
+        "overenchanted:reflect",
+        "overenchanted:ricochet"
+    ]
+}

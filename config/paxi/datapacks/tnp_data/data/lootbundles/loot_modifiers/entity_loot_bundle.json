@@ -1,3 +1,8 @@
 {
-"conditions":[ { "type": "forge:false" } ]
+    "__comment": "TNP switches this modifier off on purpose. The old Forge way of saying so - a lone forge:false condition - is not read by NeoForge any more and cost five errors a launch. A false neoforge:condition is read: the file is skipped before its body is decoded.",
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:false"
+        }
+    ]
 }
