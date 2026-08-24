@@ -1,27 +1,25 @@
-# The resource packs this build decides, and the order they belong in.
+# Every resource pack this build decides, and the order it belongs in.
 #
 # The order is the build. A later line sits above an earlier one where two packs
 # redraw the same thing, so which of two packs is the one seen is decided here
 # and nowhere else. The whole rule: the wider a pack reaches, the lower it sits.
-# Stay True is the base coat for every block and item; Gray's Mob Overhaul is the
-# base coat for every mob; the item and armour packs sit on those; then the packs
-# that redo a family - baby animals, the four monster girls, the villagers, the
-# cats, the llamas - and on top the packs that redo exactly one mob, which is why
-# each of them is seen in full.
+# Stay True is the ground for every vanilla block and item, Gray's Mob Overhaul
+# for every vanilla mob; the mod packs sit on those, because each speaks for one
+# mod and should win where it meets a base coat; then the build's own item,
+# armour and family packs; and on top the packs that redo exactly one thing.
 #
-# A bare name is a pack in config/locked-resourcepacks, which
-# config/global_packs.toml declares a required folder. Global Packs gives those
-# a selection of (required, TOP, fixedPosition), so in the game there is no tick
-# to clear and no handle to drag. Its id for such a pack is the bare file name,
-# not "file/Name.zip" - that is why these lines look different.
-#
-# Naming them here is what gives them their order. Left unnamed they came out
-# alphabetical, because a required pack the selection does not mention is only
-# inserted at its default position; named, they are taken in the order given.
+# Three kinds of line, and all of them are locked in the game itself. A bare
+# file name is a pack in config/locked-resourcepacks; an id with a slash or a
+# colon is a pack that lives inside a mod's jar and is named in the
+# enable_builtin list of config/global_packs.toml. Global Packs gives both the
+# same selection - (required, TOP, fixedPosition) - so the screen offers neither
+# a tick to clear nor a handle to drag. Naming them here is what gives them
+# their order: a required pack the selection does not mention is only inserted
+# at its default position, and they came out alphabetical when it did not.
 #
 # "file/" is a pack that stays an ordinary file in resourcepacks/, and the two
-# marks are the choice this build leaves open. "?" hands an entry's on and off
-# to the player and keeps only its place; "-" is the same thing shipped off.
+# marks are the only choice this build leaves open. "?" hands an entry's on and
+# off to the player and keeps only its place; "-" is the same thing shipped off.
 # That is the villagers: Luigi on, Thicc off, one slot, one tick to swap.
 #
 # The launcher holds all of this: every launch puts these entries back in this
@@ -32,53 +30,32 @@
 # named here; nothing in the build redraws what they do, so their order among
 # themselves does not matter.
 #
-# No line is marked "!". That mark put a pack into the game's own list of
-# incompatible ones, and the game deselects a pack it finds in that list and
-# then judges compatible - which is every pack here, because NeoForge accepts
-# the older pack formats.
-#
-# The block below is what the mods themselves carry: optional sets they ship
-# switched off. They are named first, so they sit at the bottom of the selection.
-
-programmer_art
-high_contrast
-mod/iceandfire:resourcepacks/iaf_legacy
-touhou_little_maid_legacy_resources_pack
-touhou_little_maid_spell_legacy_textures
-mod/cobblemon:resourcepacks/gyaradosjump
-mod/cobblemon:resourcepacks/regionbiasforms
-mod/cobblemon:resourcepacks/uniqueshinyforms
-mod/boatiview
-supplementaries:darker_ropes
-mod/pastel:pastel_style_amethyst
-mod/minecraft_cursor:resourcepacks/cursors_extended
-mod/lootr:resourcepacks/old_textures
-mod/simplylight:optional_fullblock_ctm
-mod/subtle_effects:resourcepacks/biome_color_water_particles
-mod/pneumaticcraft:fusion_integration
-tropicraft_texture_update
-builtin/aether_125_art
-builtin/aether_b173_art
-builtin/aether_colorblind
-builtin/aether_tooltips
-mod/the_bumblezone:resourcepacks/anti_tropophobia
-mod/the_bumblezone:resourcepacks/shader_emissive
-sfm:classic
-mod/cullleaves:resourcepacks/smartleaves
-the_backwoods_classic
-builtin/builtin_resource_packs/legacy_dead_king_resource_pack
-builtin/overrides/deep_aether_additional_assets
-builtin/client/deep_aether_tooltips
-more_sniffer_flowers_boring
-mod/crittersandcompanions:resourcepacks/friendlyart
-naturalist:custom_spawn_eggs
-twilightdelight:shader_compatible_fiery
-builtin/2d_item_models
-mod/megacells:optional_cell_colours
-quark_programmer_art
+# What is not here is what a mod offers as an older or plainer version of
+# something the build already draws - programmer art, the two archive looks of
+# the Aether, SFM and Backwoods classic, Lootr's old chests, MEGA's old cell
+# colours, Draconic's 2D models, the Dead King's programmer art, the
+# deliberately boring Sniffer flowers - along with the accessibility variants,
+# which are a different choice rather than a prettier one, and Simply Light's
+# connected textures, which nothing in this build can read.
 
 Stay True 1.21.zip
 Grays Mob Overhaul v13.zip
+tropicraft_texture_update
+mod/boatiview
+mod/pastel:pastel_style_amethyst
+supplementaries:darker_ropes
+mod/pneumaticcraft:fusion_integration
+mod/cullleaves:resourcepacks/smartleaves
+mod/subtle_effects:resourcepacks/biome_color_water_particles
+mod/the_bumblezone:resourcepacks/shader_emissive
+builtin/overrides/deep_aether_additional_assets
+builtin/client/deep_aether_tooltips
+builtin/aether_tooltips
+mod/cobblemon:resourcepacks/regionbiasforms
+mod/cobblemon:resourcepacks/uniqueshinyforms
+mod/cobblemon:resourcepacks/gyaradosjump
+naturalist:custom_spawn_eggs
+mod/minecraft_cursor:resourcepacks/cursors_extended
 3D Items-Vanillaism-1.21.1.zip
 3D Reinforced Armor v1.zip
 Baby Animals Remastered 1.21 v1.3.zip

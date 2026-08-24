@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "db64c7d2fb847f9418399c4c2a518aed2bcde4945fd00601e55c912802833231",
+   "sha256": "d484014a512a73a05f31b342db89ace1523ce082049b647bf18fb72a1163c86a",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -450,7 +450,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "3bdc899d0e3c914abe98ca88719999ca8330570a56566b77bd2c11ef95c15576",
+    "sha256": "5891f435af3949bc51cfbda789518315b2b56e8626e2c2fd265d41da04846114",
     "reason": "config/locked-resourcepacks is declared here as a required folder, which is what makes the build's resource packs impossible to switch off or reorder in the game"
    },
   {

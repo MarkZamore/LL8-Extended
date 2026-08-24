@@ -14,7 +14,28 @@ log_pack_ids = false
 #With the current config you can place a Datapack into '.minecraft/global_packs/required_data' to force enable a datapack.
 [resourcepacks]
 	required = ["config/paxi/resourcepacks", "config/locked-resourcepacks"]
-	enable_builtin = []
+	#Packs that live inside a mod's jar cannot be put in a required folder, so they
+	#are named here instead: Global Packs gives these the same (required, TOP,
+	#fixedPosition) it gives a forced folder. Their order comes from
+	#launcher/resourcepacks-default.txt, which the launcher writes every launch.
+	enable_builtin = [
+		"tropicraft_texture_update",
+		"mod/boatiview",
+		"mod/pastel:pastel_style_amethyst",
+		"supplementaries:darker_ropes",
+		"mod/pneumaticcraft:fusion_integration",
+		"mod/cullleaves:resourcepacks/smartleaves",
+		"mod/subtle_effects:resourcepacks/biome_color_water_particles",
+		"mod/the_bumblezone:resourcepacks/shader_emissive",
+		"builtin/overrides/deep_aether_additional_assets",
+		"builtin/client/deep_aether_tooltips",
+		"builtin/aether_tooltips",
+		"mod/cobblemon:resourcepacks/regionbiasforms",
+		"mod/cobblemon:resourcepacks/uniqueshinyforms",
+		"mod/cobblemon:resourcepacks/gyaradosjump",
+		"naturalist:custom_spawn_eggs",
+		"mod/minecraft_cursor:resourcepacks/cursors_extended"
+	]
 
 [datapacks]
 	required = ["config/paxi/datapacks"]
