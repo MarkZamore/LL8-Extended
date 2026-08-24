@@ -551,16 +551,48 @@ ANY_WORD = re.compile(r"[A-Za-zА-Яа-яЁё][A-Za-zА-Яа-яЁё'-]*")
 URL = re.compile(r"(?:https?://|www\.)\S+")
 
 
+_NAME_PATTERNS: "dict[str, re.Pattern[str]]" = {}
+
+
+def name_pattern(name: str) -> "re.Pattern[str]":
+    """One compiled pattern per allowed name, kept for the whole run.
+
+    They are the same few thousand patterns for every entry in the file, and
+    rebuilding them per entry was most of what `check` spent its time on: 342
+    seconds of a 570 second CI job.
+    """
+    pattern = _NAME_PATTERNS.get(name)
+    if pattern is None:
+        pattern = re.compile(r"(?<![A-Za-z])" + re.escape(name) + r"(?![A-Za-z])")
+        _NAME_PATTERNS[name] = pattern
+    return pattern
+
+
+def cover_names(text: str, allowed: set[str]) -> list[bool]:
+    """Which characters of the text sit inside an allowed name.
+
+    The plain `in` test before the regex is what makes this cheap: hardly any
+    name occurs in any one entry, and a substring scan settles that far faster
+    than a match with look-arounds. What ends up covered is the same either way.
+    """
+    covered = [False] * len(text)
+    for name in allowed:
+        if name not in text:
+            continue
+        for m in name_pattern(name).finditer(text):
+            covered[m.start():m.end()] = [True] * (m.end() - m.start())
+    return covered
+
+
 def english_left(ru_flat: str, allowed: set[str]) -> str | None:
     """A run of LATIN_RUN Latin words in a row that no allowed name covers.
     Colour codes, {markers} and web addresses are not words; a Russian word
     ends the run."""
     text = MARKER.sub(" ", CODE.sub(" ", URL.sub(" ", ru_flat)))
-    covered = [False] * len(text)
-    for name in allowed:
-        for m in re.finditer(r"(?<![A-Za-z])" + re.escape(name) + r"(?![A-Za-z])", text):
-            for i in range(m.start(), m.end()):
-                covered[i] = True
+    # No Latin at all, so no Latin left behind, and no need to cover anything.
+    if not LATIN_WORD.search(text):
+        return None
+    covered = cover_names(text, allowed)
     run: list[str] = []
     for m in ANY_WORD.finditer(text):
         word = m.group(0)
@@ -577,11 +609,7 @@ def covered_by_names(text: str, allowed: set[str]) -> bool:
     """True when every Latin word of the text sits inside an allowed name -
     a title such as "TNP Limitless 8" is nothing to translate."""
     plain = MARKER.sub(" ", CODE.sub(" ", URL.sub(" ", text)))
-    covered = [False] * len(plain)
-    for name in allowed:
-        for m in re.finditer(r"(?<![A-Za-z])" + re.escape(name) + r"(?![A-Za-z])", plain):
-            for i in range(m.start(), m.end()):
-                covered[i] = True
+    covered = cover_names(plain, allowed)
     return all(any(covered[m.start():m.end()]) for m in LATIN_WORD.finditer(plain))
 
 

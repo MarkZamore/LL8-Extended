@@ -17,9 +17,14 @@ jobs:
     steps:
       # The pack tree (~3 GB) + its shallow .git + dist/assets copy (~3 GB)
       # barely fit the runner's ~14 GB root; drop preinstalled toolchains we
-      # never use to make the job comfortable.
+      # never use to make the job comfortable. Four deletes at once rather than
+      # one after another: it is all unlinking, and the runner has the cores.
       - name: Free runner disk space
-        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+        run: |
+          for path in /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL; do
+            sudo rm -rf "$path" &
+          done
+          wait
 
       - name: Checkout
         uses: actions/checkout@v7
@@ -36,22 +41,18 @@ jobs:
         # would be committed twice: both are pulled here, by hash.
         run: python tools/fetch_remote_files.py
 
-      - name: Scan mods
+      # One step for the three checks that only read the tree. They take about a
+      # second between them now and each one failing stops the job all the same,
+      # so three steps bought nothing but three step setups.
+      - name: Check the build
         run: |
-          if [ -f tools/scan_mods.py ]; then
-            python tools/scan_mods.py --mods mods --fail-on-issues --lenient-ranges
-          else
-            echo "::warning::tools/scan_mods.py not found - skipping mod scan"
-          fi
-
-      - name: Check the controls preset
-        # A layout with a conflict, or one that forgot a mapping, does not ship.
-        run: python tools/keybinds/check_preset.py
-
-      - name: Check the Russian quest text
-        # A ru_ru.snbt that does not parse, lacks keys of en_us, or broke a
-        # colour code does not ship either; a stale overlay hash is caught here.
-        run: python tools/quests-ru/ru.py check
+          set -euo pipefail
+          python tools/scan_mods.py --mods mods --fail-on-issues --lenient-ranges
+          # A layout with a conflict, or one that forgot a mapping, does not ship.
+          python tools/keybinds/check_preset.py
+          # A ru_ru.snbt that does not parse, lacks keys of en_us, or broke a
+          # colour code does not ship either; a stale overlay hash is caught here.
+          python tools/quests-ru/ru.py check
 
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
