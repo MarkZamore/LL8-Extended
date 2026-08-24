@@ -38,13 +38,30 @@
 | 36 | **Tropicraft Texture Update** | Предпоказ новых текстур Tropicraft, от Hexablu и Endergized | везёт мод сборки |
 | 37 | **Gray's Mob Overhaul** | Переделывает модели и текстуры почти всех ванильных мобов: 117 CEM-моделей (.jem) и ~1038 файлов случайных вариантов — больше всего у кошек (262),… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/grays-mob-overhaul) |
 | 38 | **Stay True (файл релиза «Stay True 1.21»)** | Аккуратный ремастер ванильных текстур в исходной палитре: 1104 текстуры блоков (467 семейств) и 140 blockstates с весовыми случайными вариантами —… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/stay-true) |
-| 39 | **tnp_resources** | 749 файлов в 70 неймспейсах модов: недостающие переводы, иконки и правки текстур для самой сборки. В его pack.mcmeta написано «DON'T REMOVE! (Needs to be above Mod Resources!)», и он действительно стоит прямо над Mod Resources | config/paxi/resourcepacks |
-| 40 | **The Brazilian Project** | 379 ассетов по десяткам модовых неймспейсов: сводный набор правок текстур, от L2 и PrincessStellar | config/paxi/resourcepacks |
-| 41 | **From The Fog** | 462 ассета в неймспейсах minecraft и watching: графика и звуки Херобрина, от ☆Lunar Eclipse Studios☆ | config/paxi/resourcepacks |
-| 42 | **Waystones** | 139 ассетов: перерисованные путевые камни, от zozozrob | config/paxi/resourcepacks |
-| 43 | **Pretty X Smart Pipez** | 76 ассетов: трубы мода Pipez в аккуратном виде, от DevDyna и Pyrox645 | config/paxi/resourcepacks |
-| 44 | **EclecticTrove** | Одиннадцать готовых рамок для подсказок мода Legendary Tooltips | config/paxi/resourcepacks |
-| 45 | **Embellished Stone** | Одна текстура: таблички достижений получают вид узорного камня | config/paxi/resourcepacks |
-| 46 | **Authentic Shadows** | Одна текстура: круглая тень под сущностями уменьшена до 16x16 с жёстким краем | config/paxi/resourcepacks |
-| 47 | **Mod Resources** | Ресурсы всех установленных модов: игра сворачивает сюда по одному паку на каждый jar, в последнем запуске их было 1009 | везёт мод сборки |
-| 48 | **Default** | Ванильные текстуры Minecraft: подложка, на которой лежит всё остальное | ваниль |
+| 39 | **Deep Aether Compatibility (client)** | 248 файлов клиентских правок под Deep Aether — переопределения моделей и текстур на стыке двух модов Эфира | везёт мод сборки |
+| 40 | **Ender Zoology — dynamically copied textures** | Пак, который мод собирает на старте: копии ванильных текстур, перекрашенные под его собственных мобов | везёт мод сборки |
+| 41 | **NeoVitae Materials** | Сгенерированные текстуры материалов мода кровавой магии — по одному набору на каждый добавленный им материал | везёт мод сборки |
+| 42 | **Moonlight Dynamic Resources** | Сводные ассеты, которые библиотека Moonlight генерирует за все стоящие на ней моды; сама подписывает пак «Resources for N mods» | везёт мод сборки |
+| 43 | **Quark Emotes** | Иконки эмоций Quark: пак существует только в памяти, его создаёт класс CustomEmoteIconResourcePack | везёт мод сборки |
+| 44 | **Diagonal Blocks — default block models** | Модели диагональных заборов и стен, которые моды DiagonalFences и DiagonalWalls генерируют под каждый ванильный и модовый материал | везёт мод сборки |
+| 45 | **Easy Anvils — default block models** | Модели наковален под переработанную механику мода | везёт мод сборки |
+| 46 | **integratedtunnelscompat** | Ассеты совместимости Integrated Tunnels с остальным семейством Integrated | везёт мод сборки |
+| 47 | **integratedterminalscompat** | То же для Integrated Terminals | везёт мод сборки |
+| 48 | **integrateddynamicscompat** | То же для Integrated Dynamics — основы всего семейства | везёт мод сборки |
+| 49 | **evilcraftcompat** | Ассеты совместимости EvilCraft с семейством Integrated | везёт мод сборки |
+| 50 | **Polymorph+** | Ресурсы мода, который даёт выбрать рецепт, когда их совпало несколько | везёт мод сборки |
+| 51 | **JEI (Too Many Recipe Viewers)** | Сам JEI в сборке не стоит: modId «jei» объявляет Too Many Recipe Viewers, слой, который отвечает на запросы к JEI поверх EMI. Это его ресурсы | везёт мод сборки |
+| 52 | **tnp_resources** | 749 файлов в 70 неймспейсах модов: недостающие переводы, иконки и правки текстур для самой сборки. В его pack.mcmeta написано «DON'T REMOVE! (Needs to be above Mod Resources!)», и он действительно стоит прямо над Mod Resources | resourcepacks/ |
+| 53 | **The Brazilian Project** | 379 ассетов по десяткам модовых неймспейсов: сводный набор правок текстур, от L2 и PrincessStellar | resourcepacks/ |
+| 54 | **From The Fog** | 462 ассета в неймспейсах minecraft и watching: графика и звуки Херобрина, от ☆Lunar Eclipse Studios☆ | resourcepacks/ |
+| 55 | **Waystones** | 139 ассетов: перерисованные путевые камни, от zozozrob | resourcepacks/ |
+| 56 | **Pretty X Smart Pipez** | 76 ассетов: трубы мода Pipez в аккуратном виде, от DevDyna и Pyrox645 | resourcepacks/ |
+| 57 | **EclecticTrove** | Одиннадцать готовых рамок для подсказок мода Legendary Tooltips | resourcepacks/ |
+| 58 | **Embellished Stone** | Одна текстура: таблички достижений получают вид узорного камня | resourcepacks/ |
+| 59 | **Authentic Shadows** | Одна текстура: круглая тень под сущностями уменьшена до 16x16 с жёстким краем | resourcepacks/ |
+| 60 | **Mod Resources** | Ресурсы всех установленных модов: игра сворачивает сюда по одному паку на каждый jar, в последнем запуске их было 1009 | везёт мод сборки |
+| 61 | **Fabric API (forgified)** | Сводный пак ресурсов Fabric-слоя, на котором в сборке работает часть модов; его модули (fabric_rendering_fluids_v1 и прочие) стоят в списке отдельными строками | везёт мод сборки |
+| 62 | **The Built-in Seamless Resources** | 48 файлов: модели блоков без швов на стыках, встроенный пак мода Seamless. Это тот пак, который до сих пор можно было утащить в Available | везёт мод сборки |
+| 63 | **Modular Bees — dynamic assets** | Текстуры и модели пород пчёл, которые мод собирает на старте под каждую скрещенную комбинацию | везёт мод сборки |
+| 64 | **Default** | Ванильные текстуры Minecraft: подложка, на которой лежит всё остальное | ваниль |
+| 65 | **KubeJS (пять паков)** | File Resource Pack [assets] и виртуальные [Before Mods], [After Mods], [Internal], [Last] — KubeJS создаёт их сам на каждом запуске и сам расставляет: один уходит вниз, остальные встают над всем. В именах есть запятые, поэтому списком порядка их не удержать | везёт мод сборки |

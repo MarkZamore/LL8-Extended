@@ -27,10 +27,10 @@ config/agritechtrees/*.json
 config/yes_steve_model-server.toml
 
 # Global Packs writes its own config on start, and this one is what makes the
-# build's resource packs impossible to switch off: it names
-# config/locked-resourcepacks as a required folder. Without this claim the file
-# an instance already has would keep the mod's own list and the lock would never
-# arrive.
+# build's resource packs impossible to switch off or reorder: its enable_builtin
+# list names every pack the build locks, and the two it does not name are the
+# two a player may change. Without this claim the file an instance already has
+# would keep the mod's own empty list and the lock would never arrive.
 config/global_packs.toml
 
 # The spider is back on its own settings, and this claim is how that reaches an
@@ -63,3 +63,9 @@ config/immersive_optimization.json
 # longer has.
 config/sky-aesthetics.json
 config/sky_aesthetics.json
+
+# Quark is the one mod here that can take its own optional pack off the
+# resource pack screen, and "Generate Programmer Art" is that switch. Quark
+# rewrites this file on start, so the switch only reaches an instance that
+# already exists by being claimed.
+config/quark-common.toml

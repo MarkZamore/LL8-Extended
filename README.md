@@ -103,7 +103,7 @@ API и локальной проверенной копии не нашлось.
 
 **From The Fog** — не мод, а датапак: для 1.21.1 у него есть только сборка
 под Forge/Fabric, на NeoForge такой jar не грузится. Его data-resource-pack
-приезжает из оверлея в `config/paxi/datapacks/` и `config/paxi/resourcepacks/`
+приезжает из оверлея в `config/paxi/datapacks/` и `resourcepacks/`
 (их подхватывает Global Packs, см. `config/global_packs.toml`).
 
 **`config/paxi/datapacks/ll8_pack_rules.zip`** (исходник —

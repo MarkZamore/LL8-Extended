@@ -21,14 +21,14 @@
   },
   {
    "source": "tools/overlay/packs/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
-   "target": "config/paxi/resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
+   "target": "resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
    "sha256": "8a25935584573c30268a529f36069a0cd172de017ff962753f94154a50ea3989",
    "reason": "From The Fog with the sighting rates slowed down: the pack rolls three kinds of sighting once a second each, so its own \"uncommon\" setting - the one this world uses - meant Herobrine showed up about every 35 seconds. Now common is about every half hour, uncommon about every hour, and rare about every two. The numbers are changed rather than the setting, because the chosen setting lives in the save and the pack cannot reach it"
   },
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "d484014a512a73a05f31b342db89ace1523ce082049b647bf18fb72a1163c86a",
+   "sha256": "a9c6bdee9f38b617f5562b30d263c96ddfb5ef70d4cd15f96fc8378291d258a9",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -124,13 +124,13 @@
   },
   {
    "source": "tools/overlay/packs/Grays Mob Overhaul v13.zip",
-   "target": "config/locked-resourcepacks/Grays Mob Overhaul v13.zip",
+   "target": "resourcepacks/Grays Mob Overhaul v13.zip",
    "sha256": "06be4f00809d0d2dea767ad61feeda910361a86d79dc03c958f09bfd7d5e3410",
    "reason": "requested addition (gray's mob overhaul v13); last in the enabled list, so it sits above Cute Mob Models where both redraw a mob"
   },
   {
    "source": "tools/overlay/packs/Totem of GAGAGA 7tv emote 1.0.zip",
-   "target": "config/locked-resourcepacks/Totem of GAGAGA 7tv emote 1.0.zip",
+   "target": "resourcepacks/Totem of GAGAGA 7tv emote 1.0.zip",
    "sha256": "51acd5c80c648096e64f6356c9c513d7d7240a945f716e5f0610d81e01e2de50",
    "reason": "requested addition (totem of :GAGAGA: 7tv emote 1.0)"
   },
@@ -298,7 +298,7 @@
   },
   {
    "source": "tools/overlay/packs/Sun & Moon Fusion 2.1.zip",
-   "target": "config/locked-resourcepacks/Sun & Moon Fusion 2.1.zip",
+   "target": "resourcepacks/Sun & Moon Fusion 2.1.zip",
    "sha256": "0c7cf04168b09497f89250310eb53aca7864f92ca532c39e96ee45e237eb486a",
    "reason": "requested addition, kept through pack updates (Sun & Moon Fusion 2.1): two textures, sun.png and moon_phases.png. It is listed above The Sky Sun and Moon and zazu sun and moon, which draw the same two, so this is the one that shows"
   },
@@ -364,13 +364,13 @@
   },
   {
    "source": "tools/overlay/packs/Stay True 1.21.zip",
-   "target": "config/locked-resourcepacks/Stay True 1.21.zip",
+   "target": "resourcepacks/Stay True 1.21.zip",
    "sha256": "118805104ff39bf48a703ce60f5695d1bf6ac64d570a79c3a03accb4c7fb02ca",
    "reason": "Stay True with its bushy leaves taken out. The pack drew every leaf block as the cube plus a second crossed model hanging off it - the leaves_cross parent and the _bushy textures - which is the volume that was asked to go, and it is also twice the geometry on the one block a forest is made of. The flat leaf textures the pack ships are kept; the block, blockstate and item models go, so the game falls back to its own and draws them on a plain cube"
   },
   {
    "source": "tools/overlay/packs/3D Reinforced Armor v1.zip",
-   "target": "config/locked-resourcepacks/3D Reinforced Armor v1.zip",
+   "target": "resourcepacks/3D Reinforced Armor v1.zip",
    "sha256": "585d3cacd2691047d498c882af3e2db14924a99178723c1f78b1c1c34f63ca97",
    "reason": "3D Reinforced Armor with an ImmediatelyFast compatibility declaration added to its pack.mcmeta. The pack overrides two entity shaders for its animated trim effect, and ImmediatelyFast answers any shader-overriding pack by turning its font atlas resizing off for the whole session - which is paid on every text-heavy screen. The declaration says the one feature the shaders cannot break is safe to keep on; nothing else changed"
   },
@@ -450,8 +450,8 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "5891f435af3949bc51cfbda789518315b2b56e8626e2c2fd265d41da04846114",
-    "reason": "config/locked-resourcepacks is declared here as a required folder, which is what makes the build's resource packs impossible to switch off or reorder in the game"
+    "sha256": "eec356d453e7e2dbbc34971af2bc54d150c2a76dabba9776541cebb4c6e561b9",
+    "reason": "config/every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
    },
   {
     "source": "tools/overlay/mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
@@ -688,7 +688,7 @@
    },
    {
     "path": "resourcepacks/No Vignette 1.21.zip",
-    "reason": "moved to config/locked-resourcepacks, where the player cannot switch it off; upstream would put a second copy back into resourcepacks/ and the game would load both"
+    "reason": "moved to config/resourcepacks/ and locked by name, so upstream's own copy would be a second pack drawing the same thing"
    }
  ],
  "jsonEdits": [
