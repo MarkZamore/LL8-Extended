@@ -1,13 +1,10 @@
-#The pack's settings for the Netherite Octoarachnopod. Every key not named here
-#is left to the mod: NeoForge fills a missing entry with its own default when it
-#reads this file, so this stays short on purpose.
-
-#How long after one visit the next one may come, in minutes.
-#Shipped as 5 to 30, which on a long evening means it is simply always there.
-spawnMinMinutes = 60.0
-spawnMaxMinutes = 120.0
-
-#How far away it will notice you and start the chase, in blocks.
-#Shipped as 64 - four chunks, further than you can see it coming. Halved, so
-#breaking line of sight and putting a hill between you is worth something.
-chaseDistance = 32.0
+#The Netherite Octoarachnopod runs on its own settings. This file names none of
+#them on purpose: NeoForge fills every key a config is missing with the mod's
+#own default when it reads it, so an empty file is the mod's defaults - today,
+#and after any update that changes them.
+#
+#It is not deleted, because deleting it would only stop new instances from being
+#tuned. The pack claims this path in launcher/pack-owned.txt, and shipping it
+#empty is what puts an instance that already carries the old numbers - a visit
+#every 60 to 120 minutes instead of the mod's 5 to 30, and a chase starting at
+#32 blocks instead of 64 - back on the defaults.

@@ -20,7 +20,9 @@ config/agritech/*.json
 config/agritechevolved/*.json
 config/agritechtrees/*.json
 
-# The spider's visiting hours, set once here and not meant to drift back.
+# The spider is back on its own settings, and this claim is how that reaches an
+# instance that was tuned earlier: the file ships empty, the launcher writes it
+# over, and the mod fills in its own defaults on the next read.
 config/arachnomod-common.toml
 
 # How fast an item slides between slots; the mod rewrites this file itself.

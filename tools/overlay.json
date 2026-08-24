@@ -280,8 +280,8 @@
   {
    "source": "tools/overlay/config/arachnomod-common.toml",
    "target": "config/arachnomod-common.toml",
-   "sha256": "51d48225930d84ee9372ffadaece9e2e024ee2b5de1217ad0e974efe5f092453",
-   "reason": "the spider visits every 60 to 120 minutes instead of every 5 to 30, and notices the player at 32 blocks instead of 64"
+   "sha256": "419b78a318b84b419678df324c8e6dd3b915f1c604d3076ef939d6053201bd09",
+   "reason": "the pack sets none of this mod's numbers; the file is shipped empty so that NeoForge fills every key with the mod's own default, and so that an instance still carrying the pack's old spawn and chase values is put back on them"
   },
   {
    "source": "tools/overlay/mods/cultofazazelneoforge-1.1.4.12.jar",
