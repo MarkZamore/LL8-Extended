@@ -468,6 +468,18 @@
     "target": "config/sky_aesthetics.json",
     "sha256": "00a4b8d9feb3201fd979760b8e83897227ad9252816415ee8beedca817216c73",
     "reason": "modDisablingCloudRender named distanthorizons and nothing else. The list is for mods that draw their own clouds, so that Sky Aesthetics leaves the sky to them; that mod is not in this pack any more, and the entry was a note about a mod nobody has. Sky Aesthetics 2.0.13-beta rides inside stellaris-1.21-neoforge-1.4.25.jar and writes both spellings of this file, so both are pinned"
+   },
+  {
+    "source": "tools/overlay/mods/rrls-5.0.11+mc1.21.1-forge.jar",
+    "target": "mods/rrls-5.0.11+mc1.21.1-forge.jar",
+    "sha256": "c8341f82ea582a624a2b27b6401bb7dadb64c28535eebc9beb8f9850e29904be",
+    "reason": "requested addition, kept through pack updates (rrls 5.0.11 by dima_dencep): the resource reload runs in the background instead of behind a screen"
+   },
+   {
+    "source": "tools/overlay/mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
+    "target": "mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
+    "sha256": "013feef88a6d60771abba3c63bbea8219ae9db94423d44c66f9df57c9155ec29",
+    "reason": "requested addition, kept through pack updates (packforge 1.3.4-beta.2 by Teenkung123, client only): faster pack reloads and atlas overflow recovery"
    }
  ],
  "tomlEdits": [
