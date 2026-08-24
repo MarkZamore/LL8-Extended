@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "eccf302186d5a38e19a2e857c9c2e69989169c982a2db4352eba3aa635a6a97d",
+   "sha256": "db64c7d2fb847f9418399c4c2a518aed2bcde4945fd00601e55c912802833231",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -102,13 +102,8 @@
    "target": "mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
    "sha256": "77a940e37b10e5127b8dfdf237760c20422a0efe5966b1ffb54dbed22d98917b",
    "reason": "requested addition, kept through pack updates (orbital railgun neoforge 1.21.1 by Nxkoo, 1.4.2-neoforge-beta.2 - the author's newest build)"
-  },
-  {
-   "source": "tools/overlay/mods/remorphed-4.2.jar",
-   "target": "mods/remorphed-4.2.jar",
-   "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3",
-   "reason": "requested addition, kept through pack updates (remorphed 1.21-neoforge-4.2)"
-  },
+  }
+ ,
   {
    "source": "tools/overlay/mods/sexmod-1.1.0-neoforge.1.jar",
    "target": "mods/sexmod-1.1.0-neoforge.1.jar",

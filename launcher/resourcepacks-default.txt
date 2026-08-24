@@ -48,6 +48,34 @@ touhou_little_maid_spell_legacy_textures
 mod/cobblemon:resourcepacks/gyaradosjump
 mod/cobblemon:resourcepacks/regionbiasforms
 mod/cobblemon:resourcepacks/uniqueshinyforms
+mod/boatiview
+supplementaries:darker_ropes
+mod/pastel:pastel_style_amethyst
+mod/minecraft_cursor:resourcepacks/cursors_extended
+mod/lootr:resourcepacks/old_textures
+mod/simplylight:optional_fullblock_ctm
+mod/subtle_effects:resourcepacks/biome_color_water_particles
+mod/pneumaticcraft:fusion_integration
+tropicraft_texture_update
+builtin/aether_125_art
+builtin/aether_b173_art
+builtin/aether_colorblind
+builtin/aether_tooltips
+mod/the_bumblezone:resourcepacks/anti_tropophobia
+mod/the_bumblezone:resourcepacks/shader_emissive
+sfm:classic
+mod/cullleaves:resourcepacks/smartleaves
+the_backwoods_classic
+builtin/builtin_resource_packs/legacy_dead_king_resource_pack
+builtin/overrides/deep_aether_additional_assets
+builtin/client/deep_aether_tooltips
+more_sniffer_flowers_boring
+mod/crittersandcompanions:resourcepacks/friendlyart
+naturalist:custom_spawn_eggs
+twilightdelight:shader_compatible_fiery
+builtin/2d_item_models
+mod/megacells:optional_cell_colours
+quark_programmer_art
 
 Stay True 1.21.zip
 Grays Mob Overhaul v13.zip

@@ -445,7 +445,6 @@ key.refinedstorage.open_wireless_grid	refinedstorage	UNIVERSAL	assumed	key.keybo
 key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid	refinedstorage_quartz_arsenal	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Wireless Crafting Grid	Открыть беспроводный терминал создания
 key.relics.active_abilities_list	relics	UNIVERSAL	assumed	key.keyboard.left.alt	key.mouse.4	options+defaults	Active Abilities Menu	Меню активных способностей
 key.relics.research_relic	relics	UNIVERSAL	assumed	key.keyboard.left.shift	key.keyboard.unknown	options+defaults	Research Relic Under Cursor	Исследовать реликвию под курсором
-key.remorphed_menu	remorphed	UNIVERSAL	assumed		key.keyboard.enter	options	Open menu to choose second shape	
 key.right	minecraft	UNIVERSAL	assumed	key.keyboard.d	key.keyboard.d	options+defaults		
 key.rsrifle.charge_firearm	rsrifle	UNIVERSAL	assumed		key.keyboard.g	options		
 key.rsrifle.reload	rsrifle	UNIVERSAL	assumed		key.keyboard.c	options		

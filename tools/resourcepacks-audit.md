@@ -1,13 +1,3 @@
-# Ресурспаки сборки
-
-Сверху вниз, как их видно в игре: №1 рисуется поверх всех остальных, последний лежит в самом низу и служит подложкой. Где два пака трогают один и тот же файл, побеждает тот, что выше в этой таблице.
-
-Правило порядка одно: чем шире пак, тем ниже он лежит. Поэтому Gray's Mob Overhaul, переделывающий всех ванильных мобов, стоит почти в самом низу и отдаёт наверх ровно тех мобов, для которых выбран отдельный пак; всё остальное рисует он.
-
-**Набор закрыт.** Двадцать паков лежат в `config/locked-resourcepacks`, объявленной обязательной папкой в `config/global_packs.toml`. Мод Global Packs выдаёт таким пакам `PackSelectionConfig(required, TOP, fixedPosition)` — в экране ресурспаков у них нет ни галочки, чтобы снять, ни ручки, чтобы перетащить. Порядок задаёт `launcher/resourcepacks-default.txt`, и лаунчер возвращает его каждый запуск.
-
-Исключение одно и помечено в таблице: жители. Luigi включён, THICC лежит рядом выключенным, оба в одном месте порядка, переключаются одной галочкой.
-
 | № | Пак | Что добавляет | Скачать |
 |---|-----|---------------|---------|
 | 1 | **Bad Dream Death** | Заменяет один-единственный звук — смерть игрока (entity.player.death) — на резкий вдох, будто «это был просто плохой сон». Никакой графики в паке… | [modrinth.com](https://modrinth.com/resourcepack/bad-dream-death) |
@@ -24,52 +14,57 @@
 | 12 | **Betty Witch** | Заменяет ванильную ведьму на анимированную девушку-ведьму: CEM-модель assets/minecraft/optifine/cem/witch.jem с процедурными анимациями (моргание,… | [modrinth.com](https://modrinth.com/resourcepack/betty-witch) |
 | 13 | **LLama Girls** | Полностью заменяет модель и текстуры лам: обычная лама, лама торговца и слой ковра-декора получают кастомные CEM-модели 128x128 с анимациями… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/llama-girls) |
 | 14 | **Neco-Arc Cats** | Превращает всех кошек и оцелота в Neco-Arc: заменены все 11 ванильных окрасов кошки (tabby, black, red, siamese, british_shorthair, calico, persian,… | [modrinth.com](https://modrinth.com/resourcepack/neco-arc-cats) |
-| 15 | **Luigi Villagers** *(можно заменить, см. ниже)* | Перекрашивает всех жителей в Луиджи, а странствующего торговца — в Марио: заменены базовая villager.png, все 13 текстур профессий, 5 значков уровня… | [modrinth.com](https://modrinth.com/resourcepack/luigi-villagers) |
-| 16 | **My Monster Girls** | Заменяет модели четырёх мобов на женские: зомби, кадавра (husk), утопленника (вместе с внешним слоем drowned_outer) и эндермена — через CEM .jem с… | [modrinth.com](https://modrinth.com/resourcepack/my-monster-girls) |
-| 17 | **Baby Animals Remastered** | Даёт детёнышам собственные модели и текстуры вместо ванильных «большеголовых»: отдельные CEM-модели и png для поросёнка (piglet.png), ягнёнка… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/baby-animals-remastered) |
-| 18 | **3D Reinforced Armor** | Заменяет плоские слои брони объёмными CEM-моделями: 26 .jem-файлов на внутренний и внешний слой для игрока (обычная и тонкая модель), стойки для… | [modrinth.com](https://modrinth.com/resourcepack/3d-reinforced-armor) |
-| 19 | **3D Items-Vanillaism** | Переводит 176 ванильных предметов из плоских спрайтов в объёмные модели: еду и напитки, слитки/самородки, сырые руды, все 16 красителей, зелья,… | [modrinth.com](https://modrinth.com/resourcepack/3d-items-vanillaism) |
-| 20 | **Gray's Mob Overhaul** | Переделывает модели и текстуры почти всех ванильных мобов: 117 CEM-моделей (.jem) и ~1038 файлов случайных вариантов — больше всего у кошек (262),… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/grays-mob-overhaul) |
-| 21 | **Stay True (файл релиза «Stay True 1.21»)** | Аккуратный ремастер ванильных текстур в исходной палитре: 1104 текстуры блоков (467 семейств) и 140 blockstates с весовыми случайными вариантами —… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/stay-true) |
-
-## Лежит в сборке, но выключен
-
-### THICC VILLAGERS (в pack.mcmeta — «THICC. (req. EMF)»)
-
-Файл: `Thicc Villagers v1.2.zip`. Занимает то же место в порядке, что и «Luigi Villagers», и включается одной галочкой — включённый, он его заменяет. Это единственные два пака сборки, которые игрок может трогать.
-
-Полностью переделывает модели и текстуры жителей — все 14 профессий, 7 биомных типов, 5 уровней значков — а также детей-жителей, зомби-жителей,…
-
-Скачать: [planetminecraft.com](https://www.planetminecraft.com/texture-pack/thicc-villagers-by-jxrk-1-14-1-20-of-v1-0/)&nbsp;⚠️
-
-## Приезжает отдельно
-
-`config/paxi/resourcepacks` — вторая обязательная папка, тем же механизмом и так же неотключаемая. Эти паки в порядок выше не входят: ни один пак сборки не трогает то, что рисуют они, так что их место в стопке ни на что не влияет.
-
-- **Authentic Shadows** (`Authentic_Shadows_1.21+.zip`) — Заменяет ровно одну текстуру: круглую тень под всеми сущностями (assets/minecraft/textures/misc/shadow.png), уменьшая её до 16x16 с жёстким… [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/authentic-shadows)
-- **tnp_resources** (`tnp_resources` — папка, а не архив) — 749 файлов в 70 неймспейсах модов: недостающие переводы, иконки и правки текстур для самой сборки. В его `pack.mcmeta` написано «DON'T REMOVE! (Needs to be above Mod Resources!)», и он действительно стоит прямо над «Mod Resources». Это тот пак, чьи русские и английские языковые файлы чинились 24 августа.
-- `EclecticTrove-noconfig-1.20.2-1.3.0.zip`
-- `EmbellishedStone-1.19-1.0.0.zip`
-- `From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip`
-- `Pretty X Smart Pipez.zip`
-- `The Brazilian Project [1.21.1-1.3.0].zip`
-- `waystones_1.21.1.zip`
-
-## Чего в этой таблице нет
-
-В игровом экране «Select Resource Packs» выбранных строк заметно больше, и это не пропуск: почти
-всё остальное приносят сами моды, а не сборка.
-
-По последнему запуску активных паков **1066**:
-
-| сколько | что это |
-|---|---|
-| 1009 | по одному на каждый мод: NeoForge показывает ресурсы каждого jar отдельным паком, а экран сворачивает их в одну строку «Mod Resources» |
-| 27 | именованные наборы: ванильные Default, Programmer Art, High Contrast, виртуальные паки KubeJS, наборы Cobblemon, Touhou Little Maid, Ice and Fire, modularbees и прочие |
-| 20 | заперты сборкой — таблица выше |
-| 8 | из `config/paxi/resourcepacks` — список выше |
-| 2 | Luigi и THICC |
-
-Восемь из именованных названы в начале `launcher/resourcepacks-default.txt`: их сборка включает
-намеренно, и потому они лежат ниже всех её собственных паков. Остальные включают их собственные
-моды, и в это сборка не вмешивается.
+| 15 | **THICC VILLAGERS (в pack.mcmeta — «THICC. (req. EMF)») *(лежит в сборке, снят с выбора)*** | Полностью переделывает модели и текстуры жителей — все 14 профессий, 7 биомных типов, 5 уровней значков — а также детей-жителей, зомби-жителей… | [planetminecraft.com](https://www.planetminecraft.com/texture-pack/thicc-villagers-by-jxrk-1-14-1-20-of-v1-0/)&nbsp;⚠️ |
+| 16 | **Luigi Villagers *(можно заменить на THICC VILLAGERS)*** | Перекрашивает всех жителей в Луиджи, а странствующего торговца — в Марио: заменены базовая villager.png, все 13 текстур профессий, 5 значков уровня… | [modrinth.com](https://modrinth.com/resourcepack/luigi-villagers) |
+| 17 | **My Monster Girls** | Заменяет модели четырёх мобов на женские: зомби, кадавра (husk), утопленника (вместе с внешним слоем drowned_outer) и эндермена — через CEM .jem с… | [modrinth.com](https://modrinth.com/resourcepack/my-monster-girls) |
+| 18 | **Baby Animals Remastered** | Даёт детёнышам собственные модели и текстуры вместо ванильных «большеголовых»: отдельные CEM-модели и png для поросёнка (piglet.png), ягнёнка… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/baby-animals-remastered) |
+| 19 | **3D Reinforced Armor** | Заменяет плоские слои брони объёмными CEM-моделями: 26 .jem-файлов на внутренний и внешний слой для игрока (обычная и тонкая модель), стойки для… | [modrinth.com](https://modrinth.com/resourcepack/3d-reinforced-armor) |
+| 20 | **3D Items-Vanillaism** | Переводит 176 ванильных предметов из плоских спрайтов в объёмные модели: еду и напитки, слитки/самородки, сырые руды, все 16 красителей, зелья,… | [modrinth.com](https://modrinth.com/resourcepack/3d-items-vanillaism) |
+| 21 | **Gray's Mob Overhaul** | Переделывает модели и текстуры почти всех ванильных мобов: 117 CEM-моделей (.jem) и ~1038 файлов случайных вариантов — больше всего у кошек (262),… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/grays-mob-overhaul) |
+| 22 | **Stay True (файл релиза «Stay True 1.21»)** | Аккуратный ремастер ванильных текстур в исходной палитре: 1104 текстуры блоков (467 семейств) и 140 blockstates с весовыми случайными вариантами —… | [curseforge.com](https://www.curseforge.com/minecraft/texture-packs/stay-true) |
+| 23 | **Quark Programmer Art** | Текстуры Quark в стиле programmer art | везёт мод сборки |
+| 24 | **MEGA: Classic Cell Colours** | Старые красно-фиолетовые цвета ячеек AE2 и MEGA | везёт мод сборки |
+| 25 | **Draconic Evolution 2D** | Плоские модели инструментов и брони Draconic Evolution | везёт мод сборки |
+| 26 | **Shader Compatible Fiery** | Убирает свечение огненной текстуры, чтобы она не спорила с шейдерами | везёт мод сборки |
+| 27 | **Naturalist 1.21.5+ Spawn Eggs** | Яйца призыва Naturalist в стиле 1.21.5+ | везёт мод сборки |
+| 28 | **Friendly Critter Art** | Дружелюбный к арахнофобам вид прыгающего паука | везёт мод сборки |
+| 29 | **More Sniffer Flowers Boring** | Ванильного вида интерфейсы и модели для More Sniffer Flowers | везёт мод сборки |
+| 30 | **Deep Aether Ability Tooltips** | Необязательные переопределения текстур Deep Aether | везёт мод сборки |
+| 31 | **Deep Aether Additional Assets** | Дополнительная графика Deep Aether от Aethyus | везёт мод сборки |
+| 32 | **Legacy Dead King** | Programmer art для босса Dead King | везёт мод сборки |
+| 33 | **The Backwoods: Classic Reimagined** | Классические текстуры The Backwoods | везёт мод сборки |
+| 34 | **cullleaves/smartleaves** | Делает листву такой же, какой её показывают умные листья OptiFine | везёт мод сборки |
+| 35 | **SFM Classic** | Классические текстуры Super Factory Manager | везёт мод сборки |
+| 36 | **Bumblezone - Shader Emissive** | Эмиссивные текстуры Bumblezone для шейдеров | везёт мод сборки |
+| 37 | **Bumblezone - Anti Trypophobia** | Перерисовывает соты Bumblezone для тех, кому неприятны скопления отверстий | везёт мод сборки |
+| 38 | **Aether Item Tooltips** | Добавляет подсказки о способностях предметов Aether | везёт мод сборки |
+| 39 | **Aether Colorblind Textures** | Текстуры Aether, переделанные под дальтонизм | везёт мод сборки |
+| 40 | **Aether b1.7.3 Textures** | Первоначальный вид Aether из беты 1.7.3 | везёт мод сборки |
+| 41 | **Aether 1.2.5 Textures** | Классический вид Aether из версии 1.2.5 | везёт мод сборки |
+| 42 | **Tropicraft Texture Update** | Предпоказ новых текстур Tropicraft, от Hexablu и Endergized | везёт мод сборки |
+| 43 | **Fusion for PneumaticCraft** | Соединённые текстуры PneumaticCraft через мод Fusion | везёт мод сборки |
+| 44 | **Biome Water Color Particles** | Частицы воды принимают цвет биома | везёт мод сборки |
+| 45 | **Simply Light Full block CTM** | Соединённые текстуры для светящихся блоков Simply Light, в формате OptiFine | везёт мод сборки |
+| 46 | **Lootr - Old Textures** | Сундуки Lootr в том виде, в каком они были раньше | везёт мод сборки |
+| 47 | **Cursors Extended** | Расширенный набор курсоров, перенесённый из более новых версий | везёт мод сборки |
+| 48 | **Pastel-Style Amethyst** | Аметист в стиле мода Pastel | везёт мод сборки |
+| 49 | **Darker Ropes** | Делает верёвки Supplementaries темнее | везёт мод сборки |
+| 50 | **Boat Item View** | Ресурсы мода Boat Item View: показывает, что лежит в лодке | везёт мод сборки |
+| 51 | **Shinies for Magikarp Jump** | Отдельные шайни-текстуры для форм Magikarp Jump | везёт мод сборки |
+| 52 | **Region Bias Forms** | Внешние различия для покемонов с региональным уклоном | везёт мод сборки |
+| 53 | **Gyarados Jump Patterns** | Варианты Гьярадоса из Magikarp Jump | везёт мод сборки |
+| 54 | **Touhou Little Maid: Spell Legacy** | Прежние текстуры предметов-заклинаний Touhou Little Maid | везёт мод сборки |
+| 55 | **TLM Legacy Pack** | Прежний набор ресурсов Touhou Little Maid | везёт мод сборки |
+| 56 | **Ice And Fire Legacy Textures** | Текстуры Ice and Fire до версии IAF-CE 2.0 | везёт мод сборки |
+| 57 | **High Contrast** | Повышенная контрастность интерфейса, для доступности | везёт мод сборки |
+| 58 | **Programmer Art** | Классический вид Minecraft времён ранних версий | везёт мод сборки |
+| 59 | **tnp_resources** | 749 файлов в 70 неймспейсах модов: недостающие переводы, иконки и правки текстур для самой сборки. В его pack.mcmeta написано «DON'T REMOVE! (Needs to be above Mod Resources!)», и он действительно стоит прямо над Mod Resources | config/paxi/resourcepacks |
+| 60 | **The Brazilian Project** | 379 ассетов по десяткам модовых неймспейсов: сводный набор правок текстур, от L2 и PrincessStellar | config/paxi/resourcepacks |
+| 61 | **From The Fog** | 462 ассета в неймспейсах minecraft и watching: графика и звуки Херобрина, от ☆Lunar Eclipse Studios☆ | config/paxi/resourcepacks |
+| 62 | **Waystones** | 139 ассетов: перерисованные путевые камни, от zozozrob | config/paxi/resourcepacks |
+| 63 | **Pretty X Smart Pipez** | 76 ассетов: трубы мода Pipez в аккуратном виде, от DevDyna и Pyrox645 | config/paxi/resourcepacks |
+| 64 | **EclecticTrove** | Одиннадцать готовых рамок для подсказок мода Legendary Tooltips | config/paxi/resourcepacks |
+| 65 | **Embellished Stone** | Одна текстура: таблички достижений получают вид узорного камня | config/paxi/resourcepacks |
+| 66 | **Authentic Shadows** | Одна текстура: круглая тень под сущностями уменьшена до 16x16 с жёстким краем | config/paxi/resourcepacks |
+| 67 | **Mod Resources** | Ресурсы всех установленных модов: игра сворачивает сюда по одному паку на каждый jar, в последнем запуске их было 1009 | везёт мод сборки |
+| 68 | **Default** | Ванильные текстуры Minecraft: подложка, на которой лежит всё остальное | ваниль |

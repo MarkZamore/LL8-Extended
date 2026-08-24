@@ -775,8 +775,6 @@ key_key.relics.research_relic:key.keyboard.f5  # F5, screen only
 # --- reliquary ---
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
 
-# --- remorphed ---
-key_key.remorphed_menu:key.keyboard.enter  # Choose the second shape; was ` (FTB Ultimine keeps it)
 
 # --- rftoolsbase ---
 key_key.nextDestination:key.keyboard.unknown  # was right.bracket: rare
