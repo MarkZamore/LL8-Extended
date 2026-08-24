@@ -457,6 +457,12 @@
     "target": "config/global_packs.toml",
     "sha256": "3bdc899d0e3c914abe98ca88719999ca8330570a56566b77bd2c11ef95c15576",
     "reason": "config/locked-resourcepacks is declared here as a required folder, which is what makes the build's resource packs impossible to switch off or reorder in the game"
+   },
+  {
+    "source": "tools/overlay/mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
+    "target": "mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
+    "sha256": "013feef88a6d60771abba3c63bbea8219ae9db94423d44c66f9df57c9155ec29",
+    "reason": "requested addition, kept through pack updates (packforge 1.3.4-beta.2 by Teenkung123, client only): faster pack reloads and atlas overflow recovery. Taken out once for a Cobblemon atlas crash that Remove Reloading Screen turned out to explain, and put back when that mod went"
    }
  ],
  "tomlEdits": [
