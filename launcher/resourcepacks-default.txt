@@ -1,21 +1,27 @@
-# Every resource pack the pack ships, switched on for a player who has already
-# played. The launcher applies this list once per version of it: the pack's
-# packs go on in this order, what the pack dropped comes off, and the player's
-# own packs are never touched.
+# Every resource pack the pack ships, and the order it belongs in. The launcher
+# holds this list rather than applying it once: every launch puts these entries
+# back in this order and back on. The player's own packs are never touched -
+# not reordered, not switched off - and what the pack dropped comes off.
 #
-# Order is the game's own: a later line sits above an earlier one where two
-# packs redraw the same thing. That is the whole rule this list is built on -
-# the wider a pack reaches, the lower it sits. Stay True is the base coat for
-# every block and item; Gray's Mob Overhaul is the base coat for every mob; the
-# item and armour packs sit on those; then the packs that redo a family - baby
-# animals, the four monster girls, the villagers, the cats, the llamas - and on
-# top the packs that redo exactly one mob, which is why each of them is seen in
-# full. The broad packs give up precisely the mobs somebody picked a
-# replacement for, and nothing else.
+# It is held because the order is the build. A later line sits above an earlier
+# one where two packs redraw the same thing, so which of two packs is the one
+# seen is decided here and nowhere else; a selection dragged about in the game
+# is a different build until the next launch puts it back.
 #
-# A pack shipped but missing from this list is switched off rather than left
-# alone: Thicc Villagers is here in the folder and off in the selection, one
-# tick away for anyone who wants it.
+# The whole rule: the wider a pack reaches, the lower it sits. Stay True is the
+# base coat for every block and item; Gray's Mob Overhaul is the base coat for
+# every mob; the item and armour packs sit on those; then the packs that redo a
+# family - baby animals, the four monster girls, the villagers, the cats, the
+# llamas - and on top the packs that redo exactly one mob, which is why each of
+# them is seen in full. The broad packs give up precisely the mobs somebody
+# picked a replacement for, and nothing else.
+#
+# Two marks hand a choice back. "?" before an entry means its on and off are
+# the player's; the line still says where it sits. "-" is the same thing
+# shipped off. That is the villagers: Luigi is on and Thicc is off, both in the
+# same slot, and swapping them is one tick in the resource pack screen.
+#
+# A pack shipped and not named here is switched off, not left alone.
 #
 # The packs under config/paxi/resourcepacks are not named here: Paxi loads
 # them itself, always and for everyone, under a name without the "file/" in
@@ -49,7 +55,8 @@ file/3D Items-Vanillaism-1.21.1.zip
 file/3D Reinforced Armor v1.zip
 file/Baby Animals Remastered 1.21 v1.3.zip
 file/My Monster Girls.zip
-file/Luigi Villagers.zip
+?file/Luigi Villagers.zip
+-file/Thicc Villagers v1.2.zip
 file/Neco-Arc Cats.zip
 file/LLama Girls.zip
 file/Betty Witch v1.0.zip
