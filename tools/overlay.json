@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "d9749b7f436984f2929ddfc3afd64d68b9745b7a9cee1795ccf74428831d5a58",
+   "sha256": "f3858098982a0ae73958da19401b010585ab364e579749d5362ea8d2461948f1",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -408,7 +408,55 @@
    "target": "mods/spark-1.10.124-neoforge.jar",
    "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
    "reason": "requested addition, kept through pack updates (spark 1.10.124): the profiler, back because a question needs it - two 80-second server stalls that could be Distant Horizons generating in the background or the player flying into terrain that does not exist yet, and the logs cannot tell those apart. /spark profiler start names the methods. It costs nothing until somebody runs a command"
-  }
+  },
+  {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
+    "sha256": "262518d790e11a9236053e487fdbb230edd69f785007afe8fce3d4f6bf1d5efa",
+    "reason": "the mod's own ru_ru.json ends on a trailing comma (line 582), and a language file the parser refuses is skipped whole, not partly - all 581 lines of Russian were lost with it. This is that file with the comma gone; tnp_resources loads at position 1093 of 1105, after every mod, so it wins"
+   },
+   {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json",
+    "sha256": "9bafd7c42b5a32f058feb668f5cf1521c4e7022a19e7eac70a97af450fe8b6c6",
+    "reason": "same trailing comma, line 5 of 6: four lines of Russian for the soul cells"
+   },
+   {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json",
+    "sha256": "0f71996299480a0c9fbbd85091f814118e97c07279c2121d60c5c7e517ef791a",
+    "reason": "same trailing comma, line 568: 541 lines of Russian for the loot tables EMI draws. The mod names eighteen of its keys twice; the repair keeps whichever the parser would have kept"
+   },
+   {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json",
+    "sha256": "f13e9e4fae408802952992940b62767146d782da6bfd9c9bf9c328a626efeef3",
+    "reason": "a comma missing after blockprints.invalid_upload (line 75): 96 lines of Russian"
+   },
+   {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
+    "sha256": "ee975f80b346cb92ee41c01561f2f18a46ae1cca222d8e891beef1d326c8f95b",
+    "reason": "two commas missing (lines 227 and 293) and one too many (line 305): 229 lines of Russian. The log names only the first, because that is where the parser stops"
+   },
+   {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
+    "sha256": "513079224c81d76a9cb71972ef976a83dbec9cf36509579ae7a15e574c3b1081",
+    "reason": "this file is the pack's own, and a trailing comma on line 3 threw it away - which is why the tome is not called \"Eccentric (Akashic) Tome\" in game, the way this pack meant it to be"
+   },
+   {
+    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/neruina/lang/en_us.json",
+    "target": "config/paxi/resourcepacks/tnp_resources/assets/neruina/lang/en_us.json",
+    "sha256": "8f3ad5600782d5e1371b0568f13262638fbe5527944599a31fa815fd5383e5b8",
+    "reason": "the pack's own file again, trailing comma on line 10: nine messages about suspended ticking entities, none of which reached a player"
+   },
+   {
+    "source": "tools/overlay/config/immersive_optimization.json",
+    "target": "config/immersive_optimization.json",
+    "sha256": "854d170091b94210a8035cb85338b6b179c7cec6e890f7f4858deb03f409944e",
+    "reason": "minecraft:ender_dragon was listed twice in \"entities\", once at the top of the list and once at the bottom, with the same value both times. Both copies say false, so nothing about what this pack asks for changes; what changes is that the file is now well-formed JSON"
+   }
  ],
  "tomlEdits": [
   {

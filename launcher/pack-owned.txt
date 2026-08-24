@@ -30,3 +30,13 @@ config/smoothswapping.json
 # this claim the incremental schedule shipped here would never reach a player
 # whose instance already exists.
 config/simplebackups-common.toml
+
+# KubeJS writes this one itself the first time it starts, so the copy shipped
+# here never reached an instance that already existed - and the HTTP and
+# WebSocket server it opens on localhost:61423, which this pack has no use for,
+# went on listening.
+kubejs/config/web_server.json
+
+# Immersive Optimization rewrites its config too, and it stamps a version into
+# it, so an instance that has run once has a file that looks edited by hand.
+config/immersive_optimization.json
