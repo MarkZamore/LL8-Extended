@@ -20,6 +20,13 @@ config/agritech/*.json
 config/agritechevolved/*.json
 config/agritechtrees/*.json
 
+# Global Packs writes its own config on start, and this one is what makes the
+# build's resource packs impossible to switch off: it names
+# config/locked-resourcepacks as a required folder. Without this claim the file
+# an instance already has would keep the mod's own list and the lock would never
+# arrive.
+config/global_packs.toml
+
 # The spider is back on its own settings, and this claim is how that reaches an
 # instance that was tuned earlier: the file ships empty, the launcher writes it
 # over, and the mod fills in its own defaults on the next read.

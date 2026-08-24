@@ -56,7 +56,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","programmer_art","high_contrast","mod/iceandfire:resourcepacks/iaf_legacy","touhou_little_maid_legacy_resources_pack","touhou_little_maid_spell_legacy_textures","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","file/Stay True 1.21.zip","file/Grays Mob Overhaul v13.zip","file/3D Items-Vanillaism-1.21.1.zip","file/3D Reinforced Armor v1.zip","file/Baby Animals Remastered 1.21 v1.3.zip","file/My Monster Girls.zip","file/Luigi Villagers.zip","file/Neco-Arc Cats.zip","file/LLama Girls.zip","file/Betty Witch v1.0.zip","file/Cherry_Creeper_remake(3.0).zip","file/Skeletons Hands 67.zip","file/Breeze Girl v1.0.zip","file/Thicc Phantom.zip","file/Muggets Standing Cow v1.0.zip","file/Gigachad Villager.zip","file/Totem of GAGAGA 7tv emote 1.0.zip","file/Lilac Jackson.zip","file/Sun & Moon Fusion 2.1.zip","file/Authentic Shadows_1.21+.zip","file/No Vignette 1.21.zip","file/Bad Dream Death.zip"]
+resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","programmer_art","high_contrast","mod/iceandfire:resourcepacks/iaf_legacy","touhou_little_maid_legacy_resources_pack","touhou_little_maid_spell_legacy_textures","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","file/Luigi Villagers.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

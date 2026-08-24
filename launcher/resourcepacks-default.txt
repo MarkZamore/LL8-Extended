@@ -1,12 +1,22 @@
-# Every resource pack the pack ships, and the order it belongs in. The launcher
-# holds this list rather than applying it once: every launch puts these entries
-# back in this order and back on. The player's own packs are never touched -
-# not reordered, not switched off - and what the pack dropped comes off.
+# The resource packs the build decides, and the order they belong in. The
+# launcher holds this list rather than applying it once: every launch puts these
+# entries back in this order and back on. The player's own packs are never
+# touched - not reordered, not switched off - and what the pack dropped comes
+# off.
 #
 # It is held because the order is the build. A later line sits above an earlier
 # one where two packs redraw the same thing, so which of two packs is the one
 # seen is decided here and nowhere else; a selection dragged about in the game
 # is a different build until the next launch puts it back.
+#
+# The "# locked:" lines are the packs that moved to config/locked-resourcepacks,
+# which config/global_packs.toml declares a required folder. Global Packs gives
+# every pack in such a folder a selection of (required, TOP, fixedPosition), so
+# the game offers neither a tick to switch it off nor a handle to drag it - the
+# lock is in the game itself now, not only at the next launch. What those packs
+# are called once they are forced is not "file/Name.zip" any more, and they are
+# held here as comments until one launch with log_pack_ids says what it is; then
+# they come back as real entries and the order is the launcher's again.
 #
 # The whole rule: the wider a pack reaches, the lower it sits. Stay True is the
 # base coat for every block and item; Gray's Mob Overhaul is the base coat for
@@ -49,26 +59,25 @@ mod/cobblemon:resourcepacks/gyaradosjump
 mod/cobblemon:resourcepacks/regionbiasforms
 mod/cobblemon:resourcepacks/uniqueshinyforms
 
-file/Stay True 1.21.zip
-file/Grays Mob Overhaul v13.zip
-file/3D Items-Vanillaism-1.21.1.zip
-file/3D Reinforced Armor v1.zip
-file/Baby Animals Remastered 1.21 v1.3.zip
-file/My Monster Girls.zip
+# locked: Stay True 1.21.zip
+# locked: Grays Mob Overhaul v13.zip
+# locked: 3D Items-Vanillaism-1.21.1.zip
+# locked: 3D Reinforced Armor v1.zip
+# locked: Baby Animals Remastered 1.21 v1.3.zip
+# locked: My Monster Girls.zip
 ?file/Luigi Villagers.zip
 -file/Thicc Villagers v1.2.zip
-file/Neco-Arc Cats.zip
-file/LLama Girls.zip
-file/Betty Witch v1.0.zip
-file/Cherry_Creeper_remake(3.0).zip
-file/Skeletons Hands 67.zip
-file/Breeze Girl v1.0.zip
-file/Thicc Phantom.zip
-file/Muggets Standing Cow v1.0.zip
-file/Gigachad Villager.zip
-file/Totem of GAGAGA 7tv emote 1.0.zip
-file/Lilac Jackson.zip
-file/Sun & Moon Fusion 2.1.zip
-file/Authentic Shadows_1.21+.zip
-file/No Vignette 1.21.zip
-file/Bad Dream Death.zip
+# locked: Neco-Arc Cats.zip
+# locked: LLama Girls.zip
+# locked: Betty Witch v1.0.zip
+# locked: Cherry_Creeper_remake(3.0).zip
+# locked: Skeletons Hands 67.zip
+# locked: Breeze Girl v1.0.zip
+# locked: Thicc Phantom.zip
+# locked: Muggets Standing Cow v1.0.zip
+# locked: Gigachad Villager.zip
+# locked: Totem of GAGAGA 7tv emote 1.0.zip
+# locked: Lilac Jackson.zip
+# locked: Sun & Moon Fusion 2.1.zip
+# locked: No Vignette 1.21.zip
+# locked: Bad Dream Death.zip
