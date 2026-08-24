@@ -456,6 +456,18 @@
     "target": "config/immersive_optimization.json",
     "sha256": "854d170091b94210a8035cb85338b6b179c7cec6e890f7f4858deb03f409944e",
     "reason": "minecraft:ender_dragon was listed twice in \"entities\", once at the top of the list and once at the bottom, with the same value both times. Both copies say false, so nothing about what this pack asks for changes; what changes is that the file is now well-formed JSON"
+   },
+  {
+    "source": "tools/overlay/config/sky-aesthetics.json",
+    "target": "config/sky-aesthetics.json",
+    "sha256": "53c36704208b69911f978679b0e66d809558e63017458e3401cb130d49859380",
+    "reason": "modDisablingCloudRender named distanthorizons and nothing else. The list is for mods that draw their own clouds, so that Sky Aesthetics leaves the sky to them; that mod is not in this pack any more, and the entry was a note about a mod nobody has. Sky Aesthetics 2.0.13-beta rides inside stellaris-1.21-neoforge-1.4.25.jar and writes both spellings of this file, so both are pinned"
+   },
+   {
+    "source": "tools/overlay/config/sky_aesthetics.json",
+    "target": "config/sky_aesthetics.json",
+    "sha256": "00a4b8d9feb3201fd979760b8e83897227ad9252816415ee8beedca817216c73",
+    "reason": "modDisablingCloudRender named distanthorizons and nothing else. The list is for mods that draw their own clouds, so that Sky Aesthetics leaves the sky to them; that mod is not in this pack any more, and the entry was a note about a mod nobody has. Sky Aesthetics 2.0.13-beta rides inside stellaris-1.21-neoforge-1.4.25.jar and writes both spellings of this file, so both are pinned"
    }
  ],
  "tomlEdits": [
