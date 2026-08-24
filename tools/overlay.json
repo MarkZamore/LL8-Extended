@@ -463,6 +463,12 @@
     "target": "mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
     "sha256": "013feef88a6d60771abba3c63bbea8219ae9db94423d44c66f9df57c9155ec29",
     "reason": "requested addition, kept through pack updates (packforge 1.3.4-beta.2 by Teenkung123, client only): faster pack reloads and atlas overflow recovery. Taken out once for a Cobblemon atlas crash that Remove Reloading Screen turned out to explain, and put back when that mod went"
+   },
+  {
+    "source": "tools/overlay/config/yes_steve_model-server.toml",
+    "target": "config/yes_steve_model-server.toml",
+    "sha256": "1d86ccd05fd4a17b0c67e4911254d15acd4d9094e84479fcb02e9ad091cfd45f",
+    "reason": "the mod ships a 5 Mbps throttle on sending models to players, written for a public server; this build is one machine or a LAN and the models are 61 MB, so that throttle is over a minute and a half of Loading every session"
    }
  ],
  "tomlEdits": [

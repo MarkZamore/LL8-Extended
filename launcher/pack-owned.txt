@@ -20,6 +20,12 @@ config/agritech/*.json
 config/agritechevolved/*.json
 config/agritechtrees/*.json
 
+# Yes Steve Model rewrites its config on start, so the one number this build
+# does set - how fast the server may send models to a player - would never reach
+# an instance that already exists. Every other key in that file stays the mod's:
+# NeoForge fills in what a config does not name.
+config/yes_steve_model-server.toml
+
 # Global Packs writes its own config on start, and this one is what makes the
 # build's resource packs impossible to switch off: it names
 # config/locked-resourcepacks as a required folder. Without this claim the file
