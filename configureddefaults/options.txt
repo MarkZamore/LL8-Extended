@@ -56,7 +56,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","programmer_art","high_contrast","mod/iceandfire:resourcepacks/iaf_legacy","touhou_little_maid_legacy_resources_pack","touhou_little_maid_spell_legacy_textures","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","file/Luigi Villagers.zip"]
+resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","programmer_art","high_contrast","mod/iceandfire:resourcepacks/iaf_legacy","touhou_little_maid_legacy_resources_pack","touhou_little_maid_spell_legacy_textures","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","Stay True 1.21.zip","Grays Mob Overhaul v13.zip","3D Items-Vanillaism-1.21.1.zip","3D Reinforced Armor v1.zip","Baby Animals Remastered 1.21 v1.3.zip","My Monster Girls.zip","file/Luigi Villagers.zip","Neco-Arc Cats.zip","LLama Girls.zip","Betty Witch v1.0.zip","Cherry_Creeper_remake(3.0).zip","Skeletons Hands 67.zip","Breeze Girl v1.0.zip","Thicc Phantom.zip","Muggets Standing Cow v1.0.zip","Gigachad Villager.zip","Totem of GAGAGA 7tv emote 1.0.zip","Lilac Jackson.zip","Sun & Moon Fusion 2.1.zip","No Vignette 1.21.zip","Bad Dream Death.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
