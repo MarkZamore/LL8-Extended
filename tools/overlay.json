@@ -497,6 +497,14 @@
  ],
  "remove": [
   {
+    "path": "mods/gaze-*.jar",
+    "reason": "its codex screen calls EntityType.create on every entry in the entity registry to find out which are living, and one of the things it builds is the Singularity Rifle's black hole projectile, whose constructor issues raw OpenGL with no thread guard. The same trap hung the game through ReMorphed's shape picker; here one item sprang it. Nothing in the pack depends on this mod"
+   },
+  {
+    "path": "config/gaze-common.toml",
+    "reason": "configuration of the removed mod"
+   },
+  {
    "path": "mods/CrashAssistant-*.jar",
    "reason": "points crash reports at the TNP support channels; this pack has its own report button"
   },
