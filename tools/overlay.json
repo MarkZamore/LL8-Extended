@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "162708e9173e2b157d2b9125c91f6ab5c709659ef343ba237ffa5bd48d28c543",
+   "sha256": "5b1de4ee9606b81d8d511aef459fdf6f103f70e14e5cfd30718c25c72d4ec216",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -135,14 +135,14 @@
    "reason": "requested addition (totem of :GAGAGA: 7tv emote 1.0)"
   },
   {
-   "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt",
-   "target": "config/paxi/resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt",
+   "source": "tools/overlay/resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt",
+   "target": "resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt",
    "sha256": "fa06d9222472f58418b99c6136d0586bab40bf28862e095d3b8efe68375217d0",
    "reason": "credit note for the totem texture; the shipped name has spaces and capitals, which is not a resource path, so the game logs it as invalid on every load"
   },
   {
-   "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
-   "target": "config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
+   "source": "tools/overlay/resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
+   "target": "resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
    "sha256": "771ed8c9ceb93740a29166f8069c75d9bc89e9122254c615fb450ed92fba3be6",
    "reason": "credit note for the coin textures; same reason, the shipped name is not a resource path"
   },
@@ -363,12 +363,6 @@
    "reason": "Agritech's generated soil table with the entries of mods this pack no longer has taken out (Regions Unexplored and Oh The Biomes We've Gone). Every one of them was an error line while the recipe screen was built - about 8,900 of them in one launch - because the block named as a soil does not exist"
   },
   {
-   "source": "tools/overlay/packs/Stay True 1.21.zip",
-   "target": "resourcepacks/Stay True 1.21.zip",
-   "sha256": "118805104ff39bf48a703ce60f5695d1bf6ac64d570a79c3a03accb4c7fb02ca",
-   "reason": "Stay True with its bushy leaves taken out. The pack drew every leaf block as the cube plus a second crossed model hanging off it - the leaves_cross parent and the _bushy textures - which is the volume that was asked to go, and it is also twice the geometry on the one block a forest is made of. The flat leaf textures the pack ships are kept; the block, blockstate and item models go, so the game falls back to its own and draws them on a plain cube"
-  },
-  {
    "source": "tools/overlay/packs/3D Reinforced Armor v1.zip",
    "target": "resourcepacks/3D Reinforced Armor v1.zip",
    "sha256": "585d3cacd2691047d498c882af3e2db14924a99178723c1f78b1c1c34f63ca97",
@@ -387,44 +381,44 @@
    "reason": "requested addition, kept through pack updates (spark 1.10.124): the profiler, back because a question needs it - two 80-second server stalls that could be Distant Horizons generating in the background or the player flying into terrain that does not exist yet, and the logs cannot tell those apart. /spark profiler start names the methods. It costs nothing until somebody runs a command"
   },
   {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
+    "target": "resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
     "sha256": "262518d790e11a9236053e487fdbb230edd69f785007afe8fce3d4f6bf1d5efa",
     "reason": "the mod's own ru_ru.json ends on a trailing comma (line 582), and a language file the parser refuses is skipped whole, not partly - all 581 lines of Russian were lost with it. This is that file with the comma gone; tnp_resources loads at position 1093 of 1105, after every mod, so it wins"
    },
    {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json",
+    "target": "resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json",
     "sha256": "9bafd7c42b5a32f058feb668f5cf1521c4e7022a19e7eac70a97af450fe8b6c6",
     "reason": "same trailing comma, line 5 of 6: four lines of Russian for the soul cells"
    },
    {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json",
+    "target": "resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json",
     "sha256": "0f71996299480a0c9fbbd85091f814118e97c07279c2121d60c5c7e517ef791a",
     "reason": "same trailing comma, line 568: 541 lines of Russian for the loot tables EMI draws. The mod names eighteen of its keys twice; the repair keeps whichever the parser would have kept"
    },
    {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json",
+    "target": "resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json",
     "sha256": "f13e9e4fae408802952992940b62767146d782da6bfd9c9bf9c328a626efeef3",
     "reason": "a comma missing after blockprints.invalid_upload (line 75): 96 lines of Russian"
    },
    {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
+    "target": "resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
     "sha256": "ee975f80b346cb92ee41c01561f2f18a46ae1cca222d8e891beef1d326c8f95b",
     "reason": "two commas missing (lines 227 and 293) and one too many (line 305): 229 lines of Russian. The log names only the first, because that is where the parser stops"
    },
    {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
+    "target": "resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
     "sha256": "513079224c81d76a9cb71972ef976a83dbec9cf36509579ae7a15e574c3b1081",
     "reason": "this file is the pack's own, and a trailing comma on line 3 threw it away - which is why the tome is not called \"Eccentric (Akashic) Tome\" in game, the way this pack meant it to be"
    },
    {
-    "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/neruina/lang/en_us.json",
-    "target": "config/paxi/resourcepacks/tnp_resources/assets/neruina/lang/en_us.json",
+    "source": "tools/overlay/resourcepacks/tnp_resources/assets/neruina/lang/en_us.json",
+    "target": "resourcepacks/tnp_resources/assets/neruina/lang/en_us.json",
     "sha256": "8f3ad5600782d5e1371b0568f13262638fbe5527944599a31fa815fd5383e5b8",
     "reason": "the pack's own file again, trailing comma on line 10: nine messages about suspended ticking entities, none of which reached a player"
    },
@@ -450,7 +444,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "d00d8f726ae1ae86701724056d4b58dce98920bc48ca4cf058b16aea479f3db8",
+    "sha256": "57b721a6a767c65f82d7fa6ebb108a10fb97576932ea2085571e2f364268f9c4",
     "reason": "config/every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
    },
   {

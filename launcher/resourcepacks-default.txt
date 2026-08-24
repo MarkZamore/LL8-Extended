@@ -3,8 +3,9 @@
 # The order is the build. A later line sits above an earlier one where two packs
 # redraw the same thing, so which of two packs is the one seen is decided here
 # and nowhere else. The whole rule: the wider a pack reaches, the lower it sits.
-# Stay True is the ground for every vanilla block and item, Gray's Mob Overhaul
-# for every vanilla mob; the mod packs sit on those, because each speaks for one
+# The Backwoods classic set is the ground for vanilla - blocks, items, entities,
+# interface, particles, even the font - and Gray's Mob Overhaul sits above it for
+# mobs; the mod packs sit on both, because each speaks for one
 # mod and should win where it meets a base coat; then the build's own item,
 # armour and family packs; and on top the packs that redo exactly one thing.
 #
@@ -29,7 +30,7 @@
 # order and back on, except the marked two. The player's own packs are never
 # touched - not reordered, not switched off.
 #
-# The block before Stay True is the ground the build is painted on: what a mod
+# The block before the Backwoods set is what the ground itself is painted on: what a mod
 # generates or switches on for itself, and the packs that redraw only their own
 # mod's blocks. These were the last entries a player could still drag about or
 # switch off. Their order among themselves barely matters - nothing in the build
@@ -94,7 +95,7 @@ moonlight:merged_pack
 neovitae_materials
 enderzoology:dynamically_copied_textures
 builtin/deep_aether_compatibility_client
-file/Stay True 1.21.zip
+the_backwoods_classic
 file/Grays Mob Overhaul v13.zip
 tropicraft_texture_update
 mod/boatiview
