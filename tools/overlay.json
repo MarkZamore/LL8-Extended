@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "28d782034a7e1e60961d1093037b73b0b9670d20b537262ddfb6dfc5711d71ad",
+   "sha256": "00b5f281b94b281c81d3fdefd540be68a269f16faee6a4f704aae4b9382d6386",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -128,22 +128,10 @@
    "reason": "requested addition, kept through pack updates (yes steve model 2.6.5)"
   },
   {
-   "source": "tools/overlay/packs/Anime Paintings 1.0.zip",
-   "target": "resourcepacks/Anime Paintings 1.0.zip",
-   "sha256": "9b58ae7ad19f49404770b047a61fa4920768c24606400625f934a8ef444464e0",
-   "reason": "requested addition (anime paintings 1.0)"
-  },
-  {
    "source": "tools/overlay/packs/Grays Mob Overhaul v13.zip",
    "target": "resourcepacks/Grays Mob Overhaul v13.zip",
    "sha256": "06be4f00809d0d2dea767ad61feeda910361a86d79dc03c958f09bfd7d5e3410",
    "reason": "requested addition (gray's mob overhaul v13); last in the enabled list, so it sits above Cute Mob Models where both redraw a mob"
-  },
-  {
-   "source": "tools/overlay/packs/MOANING MOBS by Gooey 0.1.zip",
-   "target": "resourcepacks/MOANING MOBS by Gooey 0.1.zip",
-   "sha256": "8727fa0ad374b48adc79aab9d5f275b50412238984768f99f2bfb1142f93d601",
-   "reason": "requested addition (moaning mobs 0.1); built for 1.18, so it is listed as incompatible in the seed options - the game plays it anyway"
   },
   {
    "source": "tools/overlay/packs/Totem of GAGAGA 7tv emote 1.0.zip",
@@ -687,6 +675,10 @@
   {
     "path": "resourcepacks/GEO - *.zip",
     "reason": "Glowing Emissive Ores and its Fusion bridge: 33 MB and 22 402 assets to make ores glow, of which only about an eighth address mods this pack has - the rest name three hundred namespaces that are not installed. The bridge is not a pack of its own, it only translates GEO's emissive layers into Fusion's format, so it goes with it"
+   },
+  {
+    "path": "resourcepacks/AE2Blackout-*.zip",
+    "reason": "a dark reskin of Applied Energistics and its addons, 552 files; it came with LL8 and was dropped here, so an update would download it again without this"
    }
  ],
  "jsonEdits": [
