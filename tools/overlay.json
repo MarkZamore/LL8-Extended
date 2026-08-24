@@ -479,8 +479,8 @@
    "file": "config/simplebackups-common.toml",
    "table": "",
    "key": "useTickCounter",
-   "value": "false",
-   "reason": "the tick counter never advanced on this pack, so no backup has ever actually fired; the wall-clock timer does"
+   "value": "true",
+   "reason": "count the hour of play, not the hour on the clock. Wall time keeps running while nobody is playing, so an evening away came back as time owed and the mod paid it the moment the world opened - a backup landing on top of world load, every session. This was tried once before and put back, because nothing was ever backed up: checkForTickCounterConfigUpdate converts the stored timestamp to ticks and then clamps it with Math.max(lastSaved, timerTicks), so with an hour's timer the first backup waits for the world's game time to pass two hours, and these worlds had minutes on them. The conversion only runs when the config and the world's saved data disagree, so the existing worlds were set to agree in advance with lastSaved already in ticks - nothing to convert, nothing to clamp. A world made from now on still meets the clamp once and gets its first backup at two hours"
   }
  ],
  "remove": [
