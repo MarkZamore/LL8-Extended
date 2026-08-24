@@ -76,6 +76,21 @@ def rewrite(path, kept):
     temporary.replace(path)
 
 
+def long_path(path):
+    """The form of a path Windows will still accept past 260 characters.
+
+    A world carries FTB waypoint revisions nested deep enough that copying it
+    into a backup folder - a longer prefix than the world's own - lands over
+    the limit, and shutil gives up partway through with WinError 206. The
+    \\\\?\\ prefix turns that check off. It wants a fully qualified path with
+    no forward slashes, which abspath already returns.
+    """
+    full = os.path.abspath(path)
+    if sys.platform != "win32" or full.startswith("\\\\?\\"):
+        return full
+    return "\\\\?\\" + full
+
+
 def human(size):
     for unit in ("B", "KiB", "MiB", "GiB"):
         if size < 1024 or unit == "GiB":
@@ -115,7 +130,7 @@ def main():
         stamp = time.strftime("%Y%m%d-%H%M%S")
         destination = pathlib.Path(args.backup_root) / f"{world.name}-pre-trim-{stamp}"
         print(f"backup: {destination}")
-        shutil.copytree(world, destination)
+        shutil.copytree(long_path(world), long_path(destination))
 
     total_kept = total_dropped = 0
     freed = 0
