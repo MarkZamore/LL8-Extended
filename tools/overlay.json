@@ -28,7 +28,7 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "15bfa13d97b90f14ebf5ce7abb3f6b023daa56ebef8bfbceb7a56f03719b5888",
+   "sha256": "e71d2e16ae72f05f726103033466d26d149a64d9a13735d8a590cc49ea1e5aad",
    "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
@@ -689,7 +689,11 @@
   {
    "path": "config/chunky",
    "reason": "configuration and the cancelled task of the removed mod"
-  }
+  },
+  {
+    "path": "resourcepacks/GEO - *.zip",
+    "reason": "Glowing Emissive Ores and its Fusion bridge: 33 MB and 22 402 assets to make ores glow, of which only about an eighth address mods this pack has - the rest name three hundred namespaces that are not installed. The bridge is not a pack of its own, it only translates GEO's emissive layers into Fusion's format, so it goes with it"
+   }
  ],
  "jsonEdits": [
   {
