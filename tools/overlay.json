@@ -703,6 +703,19 @@
     "resourcepacks/Skeletons Hands 67.zip",
     "resourcepacks/Thicc Phantom.zip"
    ]
+  },
+  {
+   "reason": "Mods this build added by hand, which upstream's release does not carry. The sync would find them absent from it and delete them, and the overlay holds the other forty-two but not these eight. None replaces a file upstream ships, so keeping them cannot leave two jars of one mod behind - Biolith looks like the exception and is not, because upstream carries 3.0.10 nested inside Quark and this standalone 3.0.14 wins over a nested copy by version, which is why it is here at all.",
+   "paths": [
+    "mods/biolith-neoforge-3.0.14.jar",
+    "mods/entity_model_features-3.2.4-1.21-neoforge.jar",
+    "mods/entity_texture_features_1.21-neoforge-7.1.jar",
+    "mods/iceandfire-2.0.jar",
+    "mods/jupiter-2.3.7-1.21.1-neoforge.jar",
+    "mods/touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar",
+    "mods/touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar",
+    "mods/uranus-2.4.1-1.21.1-neoforge.jar"
+   ]
   }
  ],
  "jsonEdits": [
