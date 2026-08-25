@@ -269,12 +269,6 @@
    "reason": "requested addition, kept through pack updates (Cult of Azazel 1.1.4.12): a mansion-like structure in the Nether. Needs geckolib, which the pack ships"
   },
   {
-   "source": "tools/overlay/mods/yazzs_redstone_golem-1.1.1-neoforge-1.21.1.jar",
-   "target": "mods/yazzs_redstone_golem-1.1.1-neoforge-1.21.1.jar",
-   "sha256": "e14784a4c68ce1d814bbc72a9d34d4099d98d58b39866421f72b1aaecbbb3d22",
-   "reason": "requested addition, kept through pack updates (Yazz's Dungeons and Legends: the Redstone Golem, modId redstonegolem, the only 1.21.1 NeoForge file that project publishes). Needs geckolib, which the pack ships"
-  },
-  {
    "source": "tools/overlay/mods/chesttracker-2.6.8+1.21.1-neoforge.jar",
    "target": "mods/chesttracker-2.6.8+1.21.1-neoforge.jar",
    "sha256": "ef7742dd6f2e262017219482ff0bc30fd6047df973b316c6e6b919aa5a28b98e",
