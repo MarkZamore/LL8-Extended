@@ -472,6 +472,12 @@
     "target": "config/connectivity.json",
     "sha256": "318cd77c740aa1e3967b32e8dd8a00bfff0de854cf8784fe3bd28f6b694d3d57",
     "reason": "the in-game disconnect timeout is five minutes, not one. A guest joining this world is frozen 16 to 56 seconds inside EMI reload while the host hands them the registry of 880 mods, and a keep-alive missed inside that window ends the session with a timeout - which is what it did to both guests on 25 August. The rest of the file is Connectivity own defaults."
+   },
+   {
+    "source": "tools/overlay/config/emi.css",
+    "target": "config/emi.css",
+    "sha256": "43d06cd6998b663cdd54969ef875bf352469fdfabd15c027b9286740abf73e09",
+    "reason": "EMI fills its index from the registry, not from the creative tabs. Filling it from the tabs is what freezes a joining client for 16 to 56 seconds on this pack - \"Reloading item groups on client thread took 31557ms\" - long enough to lose the YSM handover and, before the disconnect timeout went to five minutes, the session itself. The rest of the file is EMI's own defaults; what the registry order costs is the creative-tab grouping and the stacks that live only in a tab, potions and enchanted books among them."
    }
   ],
  "tomlEdits": [
