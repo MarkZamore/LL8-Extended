@@ -466,6 +466,12 @@
     "target": "mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
     "sha256": "013feef88a6d60771abba3c63bbea8219ae9db94423d44c66f9df57c9155ec29",
     "reason": "requested addition, kept through pack updates (packforge 1.3.4-beta.2 by Teenkung123, client only): faster pack reloads and atlas overflow recovery. Taken out once for a Cobblemon atlas crash that Remove Reloading Screen turned out to explain, and put back when that mod went"
+   },
+   {
+    "source": "tools/overlay/config/connectivity.json",
+    "target": "config/connectivity.json",
+    "sha256": "318cd77c740aa1e3967b32e8dd8a00bfff0de854cf8784fe3bd28f6b694d3d57",
+    "reason": "the in-game disconnect timeout is five minutes, not one. A guest joining this world is frozen 16 to 56 seconds inside EMI reload while the host hands them the registry of 880 mods, and a keep-alive missed inside that window ends the session with a timeout - which is what it did to both guests on 25 August. The rest of the file is Connectivity own defaults."
    }
   ],
  "tomlEdits": [
