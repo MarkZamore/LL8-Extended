@@ -681,10 +681,6 @@
   {
     "path": "resourcepacks/Authentic Shadows_1.21+.zip",
     "reason": "the same shadow texture is already forced from config/paxi/resourcepacks/Authentic_Shadows_1.21+.zip; this was a second copy of one pack and the game loaded both"
-   },
-   {
-    "path": "resourcepacks/Luigi Villagers.zip",
-    "reason": "villager textures for the vanilla model and no model of its own, while Gray's Mob Overhaul - locked here too - replaces the villager with a model at 128x128, so Luigi's 64x64 profession overlays landed on the wrong quarter of it. Thicc Villagers does the same job, brings its own model at 64x64 to match its own textures, and sits below Gray's, so that is the pack this build keeps"
    }
  ],
  "jsonEdits": [

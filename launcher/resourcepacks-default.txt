@@ -24,10 +24,13 @@
 # The two marks are still part of this format and nothing uses them now. "?"
 # hands an entry's on and off to the player and keeps only its place; "-" is
 # the same thing shipped off, and both work by being ids left off that list.
-# The villagers were the one slot that used them, and the slot is gone: Luigi
-# drew for the vanilla villager while Gray's Mob Overhaul replaces that model,
-# so it was the pack that broke. Thicc brings a model of its own and is locked
-# on in its place.
+#
+# The villagers were the one slot that used them, and there is no slot left:
+# Gray's Mob Overhaul brings the villager whole - model, textures, and the
+# properties file that deals out its thirty-odd random skins. Nothing here
+# overrides that file, so a second villager pack gets Gray's 128x128 skins on
+# its own model however high it sits. Luigi broke that way and Thicc broke it
+# the same way, so both are gone and the villagers are Gray's alone.
 #
 # The launcher holds all of this: every launch puts these entries back in this
 # order and back on - all of them, while nothing here is marked. The player's own packs are never
@@ -122,7 +125,6 @@ file/3D Items-Vanillaism-1.21.1.zip
 file/3D Reinforced Armor v1.zip
 file/Baby Animals Remastered 1.21 v1.3.zip
 file/My Monster Girls.zip
-file/Thicc Villagers v1.2.zip
 file/Neco-Arc Cats.zip
 file/LLama Girls.zip
 file/Betty Witch v1.0.zip

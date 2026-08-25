@@ -19,10 +19,11 @@ log_pack_ids = false
 	#(required, TOP, fixedPosition) - no tick to clear, no handle to drag.
 	#
 	#Nothing is left off this list any more. The villagers were the one choice
-	#this build left open, and it closed: Luigi Villagers drew for the vanilla
-	#villager model while Gray's Mob Overhaul replaces that model, so the two
-	#never matched. Order comes from launcher/resourcepacks-default.txt, which
-	#the launcher writes every launch.
+	#this build left open, and it closed: Gray's Mob Overhaul owns the villager
+	#outright - model, textures and the properties file that deals out its
+	#random skins - so any second villager pack lands its own model under
+	#Gray's textures. Both that tried are gone. Order comes from
+	#launcher/resourcepacks-default.txt, which the launcher writes every launch.
 	#
 	#required stays empty: a forced folder is the mod's other route to the same
 	#end, and one route is enough.
@@ -86,7 +87,6 @@ log_pack_ids = false
 		"file/3D Reinforced Armor v1.zip",
 		"file/Baby Animals Remastered 1.21 v1.3.zip",
 		"file/My Monster Girls.zip",
-		"file/Thicc Villagers v1.2.zip",
 		"file/Neco-Arc Cats.zip",
 		"file/LLama Girls.zip",
 		"file/Betty Witch v1.0.zip",
