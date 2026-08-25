@@ -680,8 +680,30 @@
    },
   {
     "path": "resourcepacks/Authentic Shadows_1.21+.zip",
-    "reason": "the same shadow texture is already forced from config/paxi/resourcepacks/Authentic_Shadows_1.21+.zip; this was a second copy of one pack and the game loaded both"
+    "reason": "this build ships its own copy as resourcepacks/Authentic_Shadows_1.21+.zip and locks it by that name; upstream's, spelled with a space, was a second copy of one pack and the game loaded both"
    }
+ ],
+ "keep": [
+  {
+   "reason": "Resource packs this build added, which upstream has never had. A managed root is rebuilt from the staged release and whatever the release does not have is deleted, so every one of these went out with the next update. The other way to hold a file is a files entry above, which means committing it twice - once as the source, once as the target - for a pack nobody but us ships. Naming them here says the simpler true thing: ours, never upstream's, leave them where they are. Upstream's own ten are not listed: the release carries them, so the sync finds them and keeps them by itself.",
+   "paths": [
+    "resourcepacks/3D Items-Vanillaism-1.21.1.zip",
+    "resourcepacks/Authentic_Shadows_1.21+.zip",
+    "resourcepacks/Baby Animals Remastered 1.21 v1.3.zip",
+    "resourcepacks/Bad Dream Death.zip",
+    "resourcepacks/Betty Witch v1.0.zip",
+    "resourcepacks/Breeze Girl v1.0.zip",
+    "resourcepacks/Cherry_Creeper_remake(3.0).zip",
+    "resourcepacks/Gigachad Villager.zip",
+    "resourcepacks/Lilac Jackson.zip",
+    "resourcepacks/LLama Girls.zip",
+    "resourcepacks/Muggets Standing Cow v1.0.zip",
+    "resourcepacks/My Monster Girls.zip",
+    "resourcepacks/Neco-Arc Cats.zip",
+    "resourcepacks/Skeletons Hands 67.zip",
+    "resourcepacks/Thicc Phantom.zip"
+   ]
+  }
  ],
  "jsonEdits": [
   {

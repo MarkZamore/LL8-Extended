@@ -4,9 +4,10 @@
 Pulls the requested TNP Limitless 8 release (CurseForge project 1027782) into a
 work directory, stages a complete verified pack tree (manifest downloads plus
 override files plus reuse sources for author-blocked jars), then rewrites the
-managed roots of this checkout to match, applies the local overlay
-(tools/overlay.json), regenerates portable-pack.json, gates on the dependency
-scanner and finally commits/pushes in push-sized slices.
+managed roots of this checkout to match - sparing the paths tools/overlay.json
+lists under "keep", which are this build's own and upstream has never had -
+applies the local overlay (tools/overlay.json), regenerates portable-pack.json,
+gates on the dependency scanner and finally commits/pushes in push-sized slices.
 
 Pipeline (one function per stage, in run order):
   resolve_release -> fetch_client -> index_files -> index_reuse -> stage
@@ -668,15 +669,56 @@ def print_diff(diff: Diff) -> None:
 
 # ---------------------------------------------------------------- sync
 
+def overlay_kept_globs() -> list[str]:
+    """Repo-relative globs the sync must not delete: this build's own files.
+
+    A managed root is rebuilt from the staged release, and whatever the release
+    does not have is deleted. That is right for upstream's files and wrong for
+    the ones this build added itself - a resource pack nobody upstream ships
+    would go out with every update. The other way to save such a file is an
+    overlay files entry, which means committing it twice, once as the source
+    and once as the target. The keep list says the simpler true thing instead:
+    this path is ours, upstream never had it, leave it where it is.
+    """
+    try:
+        overlay = json.loads(OVERLAY_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    globs: list[str] = []
+    for spec in overlay.get("keep", []):
+        globs.extend(str(path) for path in spec.get("paths", []))
+    return globs
+
+
 def sync_managed_roots(staged: Path) -> dict[str, int]:
-    stats = {"copied": 0, "deleted": 0, "kept": 0}
+    stats = {"copied": 0, "deleted": 0, "kept": 0, "ours": 0}
+    keep_globs = overlay_kept_globs()
+
+    def is_ours(path: Path) -> bool:
+        rel = path.relative_to(REPO_ROOT).as_posix()
+        return any(fnmatch.fnmatchcase(rel, glob) for glob in keep_globs)
+
     for root in MANAGED_ROOTS:
         src_root = staged / root
         dst_root = REPO_ROOT / root
         if not src_root.is_dir():
+            # A root the release drops may still hold what this build added, so
+            # it is emptied file by file rather than removed whole.
             if dst_root.is_dir():
-                shutil.rmtree(dst_root)
-                print(f"sync: removed root {root}/ (absent from the release)")
+                for item in list(dst_root.rglob("*")):
+                    if not item.is_file():
+                        continue
+                    if is_ours(item):
+                        stats["ours"] += 1
+                        continue
+                    item.unlink()
+                    stats["deleted"] += 1
+                if any(p.is_file() for p in dst_root.rglob("*")):
+                    print(f"sync: emptied root {root}/ (absent from the release), "
+                          "keeping what this build added")
+                else:
+                    shutil.rmtree(dst_root)
+                    print(f"sync: removed root {root}/ (absent from the release)")
             continue
         src_files = {p.relative_to(src_root).as_posix(): p
                      for p in src_root.rglob("*") if p.is_file()}
@@ -685,6 +727,9 @@ def sync_managed_roots(staged: Path) -> dict[str, int]:
                 if item.is_file():
                     rel = item.relative_to(dst_root).as_posix()
                     if rel not in src_files:
+                        if is_ours(item):
+                            stats["ours"] += 1
+                            continue
                         item.unlink()
                         stats["deleted"] += 1
             # Drop directories emptied by the deletions, deepest first.
@@ -704,7 +749,7 @@ def sync_managed_roots(staged: Path) -> dict[str, int]:
             shutil.copy2(src, dst)
             stats["copied"] += 1
     print(f"sync: copied {stats['copied']}, deleted {stats['deleted']}, "
-          f"kept {stats['kept']}")
+          f"kept {stats['kept']}, ours {stats['ours']}")
     return stats
 
 
