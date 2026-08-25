@@ -173,6 +173,12 @@
    "reason": "Overenchanted writes four of its own enchantments into vanilla tags with a dot where the colon belongs, and an entry that resolves to nothing does not get skipped - TagLoader throws the whole tag away, every other mod's entries with it. Five tags died and three more followed them. It has to be KubeJS rather than a datapack: a datapack can only touch entries that resolve, and these do not, while KubeJS drops the entry from the raw list before anything tries. kubejs is a managed root, so the script lives here or the next import deletes it"
   },
   {
+   "source": "tools/overlay/kubejs/server_scripts/ysm_model_sync.js",
+   "target": "kubejs/server_scripts/ysm_model_sync.js",
+   "sha256": "78f70ab6be8493d811a11fe90a292906a4031c0991df2b58cf9ea0ebb6ed594d",
+   "reason": "Yes Steve Model never hands its models to the client that arrives in the same moment the integrated server does, which is the host, every time. The set is packed and waiting in cache/server and the sending simply does not happen; \"/ysm model reload\" does it, so the server runs that itself ten seconds after the world is up and nobody has to know the command exists"
+  },
+  {
    "source": "tools/overlay/kubejs/config/web_server.json",
    "target": "kubejs/config/web_server.json",
    "sha256": "4a30c9be3f878a9b2ecf59f5e0ada934c9d7e390f09c232597a46d5b4e929a50",
