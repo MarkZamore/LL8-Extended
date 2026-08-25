@@ -175,8 +175,8 @@
   {
    "source": "tools/overlay/kubejs/server_scripts/ysm_model_sync.js",
    "target": "kubejs/server_scripts/ysm_model_sync.js",
-   "sha256": "78f70ab6be8493d811a11fe90a292906a4031c0991df2b58cf9ea0ebb6ed594d",
-   "reason": "Yes Steve Model never hands its models to the client that arrives in the same moment the integrated server does, which is the host, every time. The set is packed and waiting in cache/server and the sending simply does not happen; \"/ysm model reload\" does it, so the server runs that itself ten seconds after the world is up and nobody has to know the command exists"
+   "sha256": "3d9efb4795eb5f4b49a55869d8077c1d4d83ba25c06765e256c045959a5a1fea",
+   "reason": "Yes Steve Model never hands its models to the client that arrives in the same moment the integrated server does, which is the host, every time. The set is packed and waiting in cache/server and the sending simply does not happen; \"/ysm model reload\" does it, so the server runs that itself five seconds after a player joins - the one moment there is certainly somebody to give models to, and forty-eight seconds later than the world loading on this pack"
   },
   {
    "source": "tools/overlay/kubejs/config/web_server.json",
