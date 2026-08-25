@@ -6,8 +6,9 @@ work directory, stages a complete verified pack tree (manifest downloads plus
 override files plus reuse sources for author-blocked jars), then rewrites the
 managed roots of this checkout to match - sparing the paths tools/overlay.json
 lists under "keep", which are this build's own and upstream has never had -
-applies the local overlay (tools/overlay.json), regenerates portable-pack.json,
-gates on the dependency scanner and finally commits/pushes in push-sized slices.
+applies the local overlay (tools/overlay.json: moves, then pins, removals and
+edits), regenerates portable-pack.json, gates on the dependency scanner and
+finally commits/pushes in push-sized slices.
 
 Pipeline (one function per stage, in run order):
   resolve_release -> fetch_client -> index_files -> index_reuse -> stage
@@ -822,6 +823,37 @@ def apply_overlay() -> list[str]:
     except (OSError, ValueError) as exc:
         fail(EXIT_OVERLAY, f"cannot read tools/overlay.json: {exc}")
     summary: list[str] = []
+    # Moves run first: they decide where upstream's own tree lands, and both
+    # the pins and the removals below name it where this build wants it.
+    for spec in overlay.get("moves", []):
+        source = REPO_ROOT / spec["from"]
+        target = REPO_ROOT / spec["to"]
+        if not source.exists():
+            # Already where it belongs - a second overlay pass, or a release
+            # that has started shipping it there itself.
+            if target.exists():
+                summary.append(f"moved nothing: {spec['to']} is already in place")
+                continue
+            # Neither path exists, so the sync deleted what the move was for
+            # and there is nothing to put back. Silence here would ship a pack
+            # with a whole tree missing.
+            fail(EXIT_OVERLAY,
+                 f"overlay move: neither {spec['from']} nor {spec['to']} exists; "
+                 "upstream may have renamed it - resolve manually and update "
+                 "tools/overlay.json")
+        if target.exists():
+            shutil.rmtree(target) if target.is_dir() else target.unlink()
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(source), str(target))
+        # Leave no empty shell where it came from.
+        parent = source.parent
+        while parent != REPO_ROOT:
+            try:
+                parent.rmdir()
+            except OSError:
+                break
+            parent = parent.parent
+        summary.append(f"moved {spec['from']} -> {spec['to']}")
     for spec in overlay.get("files", []):
         source = REPO_ROOT / spec["source"]
         target = REPO_ROOT / spec["target"]

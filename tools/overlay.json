@@ -1,5 +1,13 @@
 {
  "schemaVersion": 1,
+ "moves": [
+  {
+   "from": "config/paxi/resourcepacks/tnp_resources",
+   "to": "resourcepacks/tnp_resources",
+   "reason": "LL8's own resource pack, which upstream loads through paxi and this build loads from resourcepacks/ with everything else - one folder, one order, one list that locks them. The tree is upstream's and every release brings a new one, so it is moved rather than kept: keeping ours would leave upstream's copy beside it and the game would load the pack twice, and keeping nothing would put the layout back the way it was. Moved before the pins below, nine of which are files inside it.",
+   "note": "If a release ever ships it under resourcepacks/ itself, this becomes a no-op and says so; if it disappears from both paths the update stops rather than shipping a pack with the tree missing."
+  }
+ ],
  "files": [
   {
    "source": "tools/overlay/config/alexscaves-general.toml",
@@ -495,11 +503,11 @@
    "reason": "configuration of the removed mod"
   },
   {
-   "path": "config/paxi/resourcepacks/tnp_resources/assets/minecraft/models/item/TOTEM OF UNDYING CREDITS.txt",
+   "path": "resourcepacks/tnp_resources/assets/minecraft/models/item/TOTEM OF UNDYING CREDITS.txt",
    "reason": "renamed by this overlay to a valid resource path; the credit text is kept beside it"
   },
   {
-   "path": "config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins credit.txt",
+   "path": "resourcepacks/tnp_resources/assets/tnp/textures/item/coins credit.txt",
    "reason": "renamed by this overlay to a valid resource path; the credit text is kept beside it"
   },
   {
