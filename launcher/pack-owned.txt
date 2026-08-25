@@ -37,9 +37,10 @@ config/yes_steve_model-server.toml
 # would keep the mod's own empty list and the lock would never arrive.
 config/global_packs.toml
 
-# The spider is back on its own settings, and this claim is how that reaches an
-# instance that was tuned earlier: the file ships empty, the launcher writes it
-# over, and the mod fills in its own defaults on the next read.
+# The Netherite Octoarachnopod is gone and its config no longer ships. The claim
+# stays because that is what takes the old file back out: a file the pack once
+# installed and then stopped shipping is only removed from an instance while
+# the pack still owns it.
 config/arachnomod-common.toml
 
 # How fast an item slides between slots; the mod rewrites this file itself.

@@ -248,19 +248,7 @@
    "sha256": "20d4f8c0f15de2b1c41f3719b99a82b9a41a97799eaf42552a7149ebe04b4803",
    "reason": "requested addition, kept through pack updates (Skyrims Skeleton Meme 1.0): skeletons that scream the Skyrim line"
   },
-  {
-   "source": "tools/overlay/mods/arachnomod_neoforge_1.21.1-1.8.4.jar",
-   "target": "mods/arachnomod_neoforge_1.21.1-1.8.4.jar",
-   "sha256": "7ec39ca5bce39306267b07ba034ec2e67b275e5350a506aef238f6373fc300d8",
-   "reason": "requested addition, kept through pack updates (Netherite Octoarachnopod 1.8.4): a netherite spider that hunts the player. Needs kotlinforforge [5,), the pack ships 5.12.0"
-  },
-  {
-   "source": "tools/overlay/config/arachnomod-common.toml",
-   "target": "config/arachnomod-common.toml",
-   "sha256": "419b78a318b84b419678df324c8e6dd3b915f1c604d3076ef939d6053201bd09",
-   "reason": "the pack sets none of this mod's numbers; the file is shipped empty so that NeoForge fills every key with the mod's own default, and so that an instance still carrying the pack's old spawn and chase values is put back on them"
-  },
-  {
+      {
    "source": "tools/overlay/mods/cultofazazelneoforge-1.1.4.12.jar",
    "target": "mods/cultofazazelneoforge-1.1.4.12.jar",
    "sha256": "e633ff5fd6ecf5dd36eccfdddb8ded606fbb33ba3ea9e5730f11446b18aa351a",
