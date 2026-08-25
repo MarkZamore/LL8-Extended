@@ -21,13 +21,16 @@
 # does not name is only inserted at its default position, and they came out
 # alphabetical back when this file did not name them all.
 #
-# The two marks are the only choice this build leaves open, and they work by
-# being the two ids left off that list. "?" hands an entry's on and off to the
-# player and keeps only its place; "-" is the same thing shipped off. That is
-# the villagers: Luigi on, Thicc off, one slot, one tick to swap.
+# The two marks are still part of this format and nothing uses them now. "?"
+# hands an entry's on and off to the player and keeps only its place; "-" is
+# the same thing shipped off, and both work by being ids left off that list.
+# The villagers were the one slot that used them, and the slot is gone: Luigi
+# drew for the vanilla villager while Gray's Mob Overhaul replaces that model,
+# so it was the pack that broke. Thicc brings a model of its own and is locked
+# on in its place.
 #
 # The launcher holds all of this: every launch puts these entries back in this
-# order and back on, except the marked two. The player's own packs are never
+# order and back on - all of them, while nothing here is marked. The player's own packs are never
 # touched - not reordered, not switched off.
 #
 # The block before the Backwoods set is what the ground itself is painted on: what a mod
@@ -119,8 +122,7 @@ file/3D Items-Vanillaism-1.21.1.zip
 file/3D Reinforced Armor v1.zip
 file/Baby Animals Remastered 1.21 v1.3.zip
 file/My Monster Girls.zip
-?file/Luigi Villagers.zip
--file/Thicc Villagers v1.2.zip
+file/Thicc Villagers v1.2.zip
 file/Neco-Arc Cats.zip
 file/LLama Girls.zip
 file/Betty Witch v1.0.zip
