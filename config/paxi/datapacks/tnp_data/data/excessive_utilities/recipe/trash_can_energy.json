@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:cobblestones/normal"
+    },
+    "R": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "S": {
+      "tag": "c:stones"
+    },
+    "F": {
+      "tag": "c:storage_blocks/flint"
+    }
+  },
+  "pattern": [
+    "SFS",
+    "CRC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "excessive_utilities:trash_can_energy"
+  }
+}

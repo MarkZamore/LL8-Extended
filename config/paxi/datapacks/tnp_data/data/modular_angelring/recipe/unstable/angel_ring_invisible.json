@@ -1,0 +1,42 @@
+{
+  "type": "excessive_utilities:shaped_unstable",
+  "pattern": {
+    "key": {
+      "B": {
+        "type": "neoforge:components",
+        "components": {
+          "excessive_utilities:entity_type": "minecraft:bat"
+        },
+        "items": "excessive_utilities:golden_lasso"
+      },
+      "G": {
+        "tag": "c:glass_blocks"
+      },
+      "H": {
+        "type": "neoforge:components",
+        "components": {
+          "excessive_utilities:entity_type": "minecraft:ghast"
+        },
+        "items": "excessive_utilities:cursed_lasso"
+      },
+      "I": {
+        "tag": "c:ingots/gold"
+      },
+      "S": {
+        "item": "excessive_utilities:ring_of_the_flying_squid"
+      },
+      "U": {
+        "item": "excessive_utilities:unstable_ingot"
+      }
+    },
+    "pattern": [
+      "GIG",
+      "ISI",
+      "BUH"
+    ]
+  },
+  "result": {
+    "count": 1,
+    "id": "modular_angelring:gold_ring"
+  }
+}

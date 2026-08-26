@@ -376,6 +376,354 @@
         "wildex:wildex_book": {
           "displayName": "Wildex",
           "shouldIgnore": false
+        },
+        "minecraft:feather": {
+          "displayName": "Feather",
+          "shouldIgnore": false
+        },
+        "minecraft:chicken": {
+          "displayName": "Raw Chicken",
+          "shouldIgnore": false
+        },
+        "reanimal:butterfly_pollen": {
+          "displayName": "Butterfly Pollen",
+          "shouldIgnore": false
+        },
+        "minecraft:spyglass": {
+          "displayName": "Spyglass",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond": {
+          "displayName": "Diamond",
+          "shouldIgnore": false
+        },
+        "minecraft:anvil": {
+          "displayName": "Anvil",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:angel_ring": {
+          "displayName": "Angel Ring",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:angel_block": {
+          "displayName": "Angel Block",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:creative_destruction_wand": {
+          "displayName": "Creative Destruction Wand",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:peaceful_table": {
+          "displayName": "Peaceful Table",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:tesseract": {
+          "displayName": "Tesseract",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_apple": {
+          "displayName": "Golden Apple",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:item_transfer_node": {
+          "displayName": "Item Transfer Node",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:opinium_core": {
+          "displayName": "Opinium Core (Mediocre)",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:power_manager": {
+          "displayName": "Power Manager",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:item_filter": {
+          "displayName": "Item Filter",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:fluid_filter": {
+          "displayName": "Fluid Filter",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:flat_transfer_node_items": {
+          "displayName": "Flat Transfer Node (Items)",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:flat_transfer_node_fluids": {
+          "displayName": "Flat Transfer Node (Fluids)",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:speed_upgrade": {
+          "displayName": "Speed Upgrade",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:magical_snow_globe": {
+          "displayName": "Magical Snow Globe",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:conveyor_belt": {
+          "displayName": "Conveyor Belt",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_core": {
+          "displayName": "Ender Core",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:depths_portal": {
+          "displayName": "Portal to the Depths",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:last_millennium_portal": {
+          "displayName": "Portal to the Last Millennium",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:mechanical_user": {
+          "displayName": "Mechanical User",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:mechanical_miner": {
+          "displayName": "Mechanical Miner",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:qed": {
+          "displayName": "QED",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:redstone_clock": {
+          "displayName": "Redstone Clock",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:scanner": {
+          "displayName": "Scanner",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:wireless_fe_battery": {
+          "displayName": "Wireless FE Battery",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:wireless_fe_transmitter": {
+          "displayName": "Wireless FE Transmitter",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:resonator": {
+          "displayName": "Resonator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_flux_crystal": {
+          "displayName": "Ender Flux Crystal",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:machine_block": {
+          "displayName": "Machine Block",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:crusher": {
+          "displayName": "Crusher",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:furnace": {
+          "displayName": "Furnace",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:enchanter": {
+          "displayName": "Enchanter",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:quantum_quarry_actuator": {
+          "displayName": "Quantum Quarry Actuator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:quantum_quarry": {
+          "displayName": "Quantum Quarry",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_quarry": {
+          "displayName": "Ender Quarry",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_marker": {
+          "displayName": "Ender Marker",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_quarry_upgrade_base": {
+          "displayName": "Ender Quarry Upgrade Base",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_quarry_fortune_upgrade": {
+          "displayName": "Ender Quarry Fortune I Upgrade",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_quarry_fortune_two_upgrade": {
+          "displayName": "Ender Quarry Fortune II Upgrade",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_quarry_fortune_three_upgrade": {
+          "displayName": "Ender Quarry Fortune III Upgrade",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:slightly_larger_chest": {
+          "displayName": "Slightly Larger Chest",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:filing_cabinet": {
+          "displayName": "Filing Cabinet",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:advanced_filing_cabinet": {
+          "displayName": "Filing Cabinet (Advanced)",
+          "shouldIgnore": false
+        },
+        "biomeswevegone:lush_grass_block": {
+          "displayName": "Lush Grass Block",
+          "shouldIgnore": false
+        },
+        "supplementaries:flint_block": {
+          "displayName": "Block of Flint",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:fluid_transfer_node": {
+          "displayName": "Fluid Transfer Node",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:energy_transfer_node": {
+          "displayName": "Energy Transfer Node",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:item_retrieval_node": {
+          "displayName": "Item Retrieval Node",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:fluid_retrieval_node": {
+          "displayName": "Fluid Retrieval Node",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:energy_retrieval_node": {
+          "displayName": "Energy Retrieval Node",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:potion_generator": {
+          "displayName": "Potions Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:survivalist_generator": {
+          "displayName": "Survivalist Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:furnace_generator": {
+          "displayName": "Furnace Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:magmatic_generator": {
+          "displayName": "Magmatic Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:ender_generator": {
+          "displayName": "Ender Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:heated_redstone_generator": {
+          "displayName": "Heated Redstone Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:culinary_generator": {
+          "displayName": "Culinary Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:explosive_generator": {
+          "displayName": "Explosive Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:pink_generator": {
+          "displayName": "Pink Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:overclocked_generator": {
+          "displayName": "Overclocked Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:nether_star_generator": {
+          "displayName": "Nether Star Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:disenchantment_generator": {
+          "displayName": "Disenchantment Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:slimy_generator": {
+          "displayName": "Slimy Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:frosty_generator": {
+          "displayName": "Frosty Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:halitosis_generator": {
+          "displayName": "Halitosis Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:death_generator": {
+          "displayName": "Death Generator",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:rainbow_generator": {
+          "displayName": "Rainbow Generator!",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:manual_mill": {
+          "displayName": "Manual Mill",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:water_mill": {
+          "displayName": "Water Mill",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:solar_panel": {
+          "displayName": "Solar Panel",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:lunar_panel": {
+          "displayName": "Lunar Panel",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:magnum_torch": {
+          "displayName": "Magnum Torch",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:bag_of_holding": {
+          "displayName": "Bag of Holding",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:portable_scanner": {
+          "displayName": "Portable Scanner",
+          "shouldIgnore": false
+        },
+        "minecraft:chest": {
+          "displayName": "Chest",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:mini_chest": {
+          "displayName": "Mini Chest",
+          "shouldIgnore": false
+        },
+        "synergy:tiny_wooden_chest": {
+          "displayName": "Tiny Wooden Chest",
+          "shouldIgnore": false
+        },
+        "rootsclassic:elderberry": {
+          "displayName": "Elderberry",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:builders_wand": {
+          "displayName": "Builder\u0027s Wand",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:creative_builders_wand": {
+          "displayName": "Creative Builder\u0027s Wand",
+          "shouldIgnore": false
+        },
+        "excessive_utilities:creative_harvest": {
+          "displayName": "Creative Harvest",
+          "shouldIgnore": false
         }
       }
     }

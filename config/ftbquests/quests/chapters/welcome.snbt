@@ -79,19 +79,6 @@
 				}
 				{
 					auto: "no_toast"
-					id: "57ECEA10680C26A3"
-					item: {
-						components: {
-							"minecraft:custom_name": "\"Starter House\""
-						}
-						count: 1
-						id: "prefab:item_house"
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					auto: "no_toast"
 					id: "7EAAC7D9C9864501"
 					item: {
 						components: {
@@ -353,6 +340,49 @@
 						}
 						count: 1
 						id: "eccentrictome:tome"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "51927F619A899BD7"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Wildex Bestiary\""
+						}
+						count: 1
+						id: "wildex:wildex_book"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "57ECEA10680C26A3"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Starter House\""
+						}
+						count: 1
+						id: "prefab:item_house"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "48899B3473DCE56A"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Mob Identifying Spyglass\""
+							"minecraft:lore": [
+								"\"Zoom in on mobs/creatures to identify them!\""
+								"\"Use the Wildex to know more.\""
+							]
+						}
+						count: 1
+						id: "minecraft:spyglass"
 					}
 					team_reward: false
 					type: "item"

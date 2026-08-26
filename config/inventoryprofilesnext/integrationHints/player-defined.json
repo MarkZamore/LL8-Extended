@@ -3068,5 +3068,53 @@
     },
     "com.devdyna.synergy.init.builder.industrial_machines.rock_crusher.RockCrusherScreen": {
         "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.item_filter_menu.ItemFilterScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.fluid_filter_menu.FluidFilterScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.resonator.ResonatorScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.qed.QedScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.crusher.CrusherScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.simple_machine.SimpleMachineScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.enchanter.EnchanterScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.quantum_quarry.QuantumQuarryScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.energy_transfer_node.EnergyTransferNodeScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.fluid_transfer_node.FluidTransferNodeScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.item_transfer_node.ItemTransferNodeScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.single_item_generator.SingleItemGeneratorScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.single_fluid_generator.SingleFluidGeneratorScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.item_fluid_generator.ItemFluidGeneratorScreen": {
+        "playerSideOnly": true
+    },
+    "dev.aaronhowser.mods.excessive_utilities.menu.single_slot.SingleSlotScreen": {
+        "playerSideOnly": true
+    },
+    "com.devdyna.synergy.init.builder.magic.tiny_chests.wooden.WoodenTinyChestScreen": {
+        "playerSideOnly": true
     }
 }

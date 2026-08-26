@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "c:cobblestones/normal"
+    },
+    "S": {
+      "tag": "c:stones"
+    },
+    "F": {
+      "tag": "c:storage_blocks/flint"
+    }
+  },
+  "pattern": [
+    "SFS",
+    "CBC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "excessive_utilities:trash_can_fluid"
+  }
+}

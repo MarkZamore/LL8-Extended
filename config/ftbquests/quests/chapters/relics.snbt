@@ -1038,8 +1038,8 @@
 									duration: 3200
 									id: "tombstone:projectile_reflection"
 									"neoforge:cures": [
-										"milk"
 										"protected_by_totem"
+										"milk"
 									]
 									show_icon: 1b
 								}]

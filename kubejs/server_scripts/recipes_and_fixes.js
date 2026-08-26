@@ -293,10 +293,16 @@ ServerEvents.recipes(event => {
   }).id('tnp:comforts_sleeping_bag')
 
   // Regions Unexplored Dirt to Vanilla Dirt
+  event.shapeless(Item.of('minecraft:dirt'), ['regions_unexplored:ashen_dirt']).id('tnp:ashen_dirt_to_dirt')
+  event.shapeless(Item.of('minecraft:dirt'), ['regions_unexplored:peat_dirt']).id('tnp:peat_dirt_to_dirt')
+  event.shapeless(Item.of('minecraft:dirt'), ['regions_unexplored:silt_dirt']).id('tnp:silt_dirt_to_dirt')
 
   // Regions Unexplored Coarse Dirt to Vanilla Coarse Dirt
+  event.shapeless(Item.of('minecraft:coarse_dirt'), ['regions_unexplored:silt_coarse_dirt']).id('tnp:silt_coarse_dirt_to_coarse_dirt')
+  event.shapeless(Item.of('minecraft:coarse_dirt'), ['regions_unexplored:peat_coarse_dirt']).id('tnp:peat_coarse_dirt_to_coarse_dirt')
 
   // Biomes Weve Gone Lush Dirt to Vanilla Dirt
+  event.shapeless(Item.of('minecraft:dirt'), ['biomeswevegone:lush_dirt']).id('tnp:lush_dirt_to_dirt')
 
   // Temporal Pouch - Edit
   event.remove({id: 'gag:time_sand_pouch'})
@@ -314,6 +320,7 @@ ServerEvents.recipes(event => {
   }).id('tnp:temporal_pouch')
 
   // Raw Redstone Block back to 2x Redstone Dust
+  event.shapeless(Item.of('minecraft:redstone', 2), ['regions_unexplored:raw_redstone_block']).id('tnp:raw_redstone_block_back_to_redstone_dust')
 
   // Click Machine - Edit
   event.remove({id: 'clickmachine:click_machine'})
@@ -410,24 +417,5 @@ ServerEvents.recipes(event => {
 
   // Blaze Rod Block Revert
   event.shapeless('9x minecraft:blaze_rod', ['tnp:blaze_rod_block']).id('tnp:blaze_rod_block_revert')
-
-  // Orbital Railgun. The mod ships this very recipe, but under
-  // data/orbital_railgun/recipes/ - the folder name of 1.20. In 1.21 the
-  // directory comes from the recipe registry key, which is the literal
-  // "recipe", so the game never reads that file and the gun cannot be built
-  // at all. Same pattern and ingredients as the mod's own json.
-  event.shaped('orbital_railgun:orbital_railgun', [
-    'GNE',
-    'SBN',
-    'LR '
-  ], {
-    G: 'minecraft:glass_pane',
-    N: 'minecraft:netherite_ingot',
-    E: 'minecraft:emerald',
-    S: 'minecraft:nether_star',
-    B: 'minecraft:netherite_block',
-    L: 'minecraft:lapis_lazuli',
-    R: 'minecraft:redstone'
-  }).id('tnp:orbital_railgun')
 
 });

@@ -1346,8 +1346,12 @@ def build_parser() -> argparse.ArgumentParser:
                           help="install this exact CurseForge file id")
     parser.add_argument("--allow-beta", action="store_true",
                         help="also consider beta releases")
+    # Derived from the home directory rather than spelled out: the name written
+    # here belonged to no account on the machine that needed it, and the run
+    # died in mkdir three frames deep with a permission error, having said
+    # nothing about what it was trying to make - and still exited 0.
     parser.add_argument("--work", type=Path,
-                        default=Path(r"C:\Users\Oskar\Documents\LL8-work"))
+                        default=Path.home() / "Documents" / "LL8-work")
     parser.add_argument("--reuse", type=Path, action="append", default=[],
                         help="extra pack checkout(s) to source jars from "
                              "(mods/, resourcepacks/, shaderpacks/, "

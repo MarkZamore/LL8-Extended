@@ -4,11 +4,11 @@
 	#Require the Wildex book in the inventory to use the keybind
 	requireBookForKeybind = true
 	#Give the Wildex book once per player when they join a world for the first time.
-	giveBookOnFirstJoin = true
+	giveBookOnFirstJoin = false
 	#Ticks required to discover a mob while continuously aiming with a Spyglass.
 	# Default: 28
 	# Range: 1 ~ 200
-	spyglassDiscoveryChargeTicks = 10
+	spyglassDiscoveryChargeTicks = 4
 	#Maximum distance in blocks at which Spyglass discovery can trigger.
 	# Default: 98.0
 	# Range: 1.0 ~ 512.0
