@@ -1165,10 +1165,25 @@ def changed_paths() -> list[str]:
              "--exclude-standard", "-z", "--", *roots],
             capture_output=True, text=True, encoding="utf-8")
         if ignored.returncode == 0:
+            # ...except the ones that are ignored on purpose because they are
+            # too large for git and CI fetches them by hash instead. Sweeping
+            # those up and force-adding them is how a 122 MiB Cobblemon jar
+            # reached a commit that GitHub then refused outright, leaving the
+            # update committed locally and unpushable.
+            remote_targets = remote_file_targets()
             for record in ignored.stdout.split("\0"):
-                if record:
+                if record and record not in remote_targets:
                     paths.append(record)
     return paths
+
+
+def remote_file_targets() -> set[str]:
+    """Paths tools/remote-files.json owns, which must never enter git."""
+    try:
+        listed = json.loads((TOOLS_DIR / "remote-files.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return set()
+    return {str(entry["target"]) for entry in listed.get("files", []) if entry.get("target")}
 
 
 def repo_git_size_bytes() -> int:
