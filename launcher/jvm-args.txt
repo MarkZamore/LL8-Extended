@@ -1,0 +1,15 @@
+# The Java options this pack asks the launcher to start it with. One per line;
+# blank lines and # comments are ignored, and a line that is not a Java option
+# is left out rather than passed on.
+
+# ModernFix's lazy model loading. Without it the vanilla path holds every model
+# every mod ships live at once, which on a pack this size is the largest thing
+# on the heap that does not need to be there - a player on eight gigabytes of
+# heap ran out before the world had finished loading its data packs.
+#
+# It is here rather than in ModernFix's own config because ModernFix rewrites
+# that file on every launch, so a copy shipped in the pack could never survive
+# to be read. And it is here rather than in the launcher because it is a
+# decision about this pack's mods: the same option takes model loading away from
+# BetterEnd on 1.18.2, and that pack does not start at all.
+-Dmodernfix.config.mixin.perf.dynamic_resources=true
