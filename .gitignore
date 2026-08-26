@@ -4,6 +4,9 @@ tools/quests-ru/__pycache__/
 tools/quests-ru/work/
 *.pyc
 dist/
+# The updater's scratch: caches, the upstream checkout, the staged tree, and
+# manual/ - the files CurseForge refuses to serve to a script, kept between runs.
+.ll8-work/
 .portable-pack-sync.json
 portable-pack-source.json
 

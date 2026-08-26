@@ -1361,12 +1361,16 @@ def build_parser() -> argparse.ArgumentParser:
                           help="install this exact CurseForge file id")
     parser.add_argument("--allow-beta", action="store_true",
                         help="also consider beta releases")
-    # Derived from the home directory rather than spelled out: the name written
-    # here belonged to no account on the machine that needed it, and the run
-    # died in mkdir three frames deep with a permission error, having said
-    # nothing about what it was trying to make - and still exited 0.
-    parser.add_argument("--work", type=Path,
-                        default=Path.home() / "Documents" / "LL8-work")
+    # Inside the checkout, because everything this pack needs belongs to this
+    # pack. It used to sit beside Documents under a name spelled out by hand -
+    # which belonged to no account on the machine that needed it, so the run
+    # died in mkdir three frames deep with a permission error, said nothing
+    # about what it was trying to make, and still exited 0. Deriving it from the
+    # home directory fixed that and left a 1.9 GB folder somewhere nobody would
+    # think to look; deriving it from the repository fixes both. Ignored by git,
+    # and the one thing in it worth keeping - the files CurseForge will not
+    # serve to a script - is kept across runs.
+    parser.add_argument("--work", type=Path, default=REPO_ROOT / ".ll8-work")
     parser.add_argument("--reuse", type=Path, action="append", default=[],
                         help="extra pack checkout(s) to source jars from "
                              "(mods/, resourcepacks/, shaderpacks/, "
