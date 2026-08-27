@@ -494,8 +494,8 @@
    {
     "source": "tools/overlay/config/serversidehorror.json",
     "target": "config/serversidehorror.json",
-    "sha256": "4c32f11c9e35192620094373d9d9f02c215dc980660e853d6d11d19c9a604b5f",
-    "reason": "long_night_enable off. The mod rolls one chance in seventy-five in the world tick, and when it comes up it sets a saved flag and the night stops ending: a player lay down seven times before the sun came up, with nothing to say why. The rest of the file is the mod's own defaults, every other trick it plays included - this is the one that takes an evening away instead of giving somebody a fright."
+    "sha256": "77a893bd2b106f4cfb6c248a801e010158e302df1d3d5347f9339377bacb88f8",
+    "reason": "long_night_enable, replace_torches_enable and break_torches_enable off. The mod rolls one chance in seventy-five in the world tick, and when it comes up it sets a saved flag and the night stops ending: a player lay down seven times before the sun came up, with nothing to say why. The rest of the file is the mod's own defaults, every other trick it plays included - the long night is the one that takes an evening away instead of giving somebody a fright, and the two torch tricks - swapping the torches around a player for redstone ones, or taking them out - are the light going out in a cave rather than a fright at all."
    }
   ],
  "tomlEdits": [
