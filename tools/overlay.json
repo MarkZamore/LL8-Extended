@@ -523,6 +523,10 @@
  ],
  "remove": [
   {
+   "path": "mods/NeoAuth-*.jar",
+   "reason": "a port of AuthMe: a button for signing back into a Microsoft account from inside the game. There is no such account in this build - the launcher issues the identity from a Steam account and signs the session itself - so the button leads nowhere and the mod fails aloud on every multiplayer screen with ForbiddenOperationException. Its other half changes the player's offline name past the launcher, which is what breaks the name-to-UUID registry that hands a guest their own character on somebody else's world. Nothing depends on it"
+  },
+  {
     "path": "mods/gaze-*.jar",
     "reason": "its codex screen calls EntityType.create on every entry in the entity registry to find out which are living, and one of the things it builds is the Singularity Rifle's black hole projectile, whose constructor issues raw OpenGL with no thread guard. The same trap hung the game through ReMorphed's shape picker; here one item sprang it. Nothing in the pack depends on this mod"
    },
