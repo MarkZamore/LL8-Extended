@@ -472,6 +472,12 @@
     "target": "kubejs/server_scripts/recipes_and_fixes.js",
     "sha256": "9c5e6c4497800104478a4775677e78075e9a9cb6c2c557bf6795fcd7ebe537ef",
     "reason": "upstream makes seven recipes out of items this build does not have - the dirt of Regions Unexplored and Oh The Biomes We've Gone, both removed because two biome sets were dividing one overworld with Terralith - and KubeJS fails each one aloud: that is the red \"KubeJS errors found [7]!\" every player is greeted with. This copy is upstream's, with those seven registered through a guard that skips an item that is not there. The rest of the file is upstream's to the byte, so when a release changes it the sha here stops the update and the guard is re-applied by hand rather than lost."
+   },
+   {
+    "source": "tools/overlay/kubejs/server_scripts/recipes_lost_to_the_rename.js",
+    "target": "kubejs/server_scripts/recipes_lost_to_the_rename.js",
+    "sha256": "ecf92b60c09f8bdc366dab3b7da4d81fa170989b0ac44201468a0227acbdf97a",
+    "reason": "Minecraft 1.21 renamed data/<mod>/recipes to data/<mod>/recipe, and a mod that shipped for 1.21 without following ships recipes nothing reads: no error, no warning, an item that simply has no recipe. Sanity Renewed's Garland is one - a ring of eight flowers, in data/sanity_renewed/recipes/garland.json - and this registers it as its author wrote it. Titanium ships three the same way and they stay lost: they are its own test recipes, one of which turns dirt into a diamond."
    }
   ],
  "tomlEdits": [
