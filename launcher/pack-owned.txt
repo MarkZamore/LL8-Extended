@@ -82,3 +82,9 @@ config/quark-common.toml
 # nothing shipped here would reach it. The two other settings in the file
 # keep the values they had.
 config/iceandfire/iaf-client.json
+# the long night, the torches swapped for redstone ones and the torches broken are off in it; the mod writes this file itself on the first launch, so without this line the pack could never change them again
+config/serversidehorror.json
+# its login guard refuses an offline UUID and kicks a late auth challenge - both aimed at somebody else here, where the identity is the launcher's and the lateness is EMI rebuilding its index on the joining client
+config/identity2.json
+# the disconnect timeout is five minutes rather than one, because a guest is frozen up to a minute inside that same EMI reload while the host hands them the registry of 880 mods
+config/connectivity.json
