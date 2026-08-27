@@ -121,8 +121,8 @@
   {
    "source": "tools/overlay/packs/Grays Mob Overhaul v13.zip",
    "target": "resourcepacks/Grays Mob Overhaul v13.zip",
-   "sha256": "4e1f765965a85706f140d59b564326f56076319d72b7eff98b0af70194ac88a5",
-   "reason": "requested addition (gray's mob overhaul v13); last in the enabled list, so it sits above Cute Mob Models where both redraw a mob. The villagers are out of this copy: Grays redraws one whole - its own model, its own 128x128 skins, its own fourteen professions - and the model is not vanilla's at twice the size, every face carries a hand-placed UV and a sheep tail hangs off the body. A mod that adds a profession draws it the vanilla way on a 64x64 sheet, so Homesteads' five landed on whatever sat at those coordinates. 117 files out, 1460 left, each byte for byte the author's"
+   "sha256": "1d4397114910266ba3cdc9ebf5b3a5b49271af8bae9744db42b3919edc442914",
+   "reason": "requested addition (gray's mob overhaul v13); last in the enabled list, so it sits above Cute Mob Models where both redraw a mob. The villagers are out of this copy: Grays redraws one whole - its own model, its own 128x128 skins, its own fourteen professions - and the model is not vanilla's at twice the size, every face carries a hand-placed UV and a sheep tail hangs off the body. A mod that adds a profession draws it the vanilla way on a 64x64 sheet, so Homesteads' five landed on whatever sat at those coordinates. The wolves are out for the same reason: EMF gives a custom model to every entity drawn with the model it replaces, not to one entity type, and Earth Mobs' skeleton wolf and wither skeleton wolf are drawn by the vanilla wolf renderer with their own 64x32 sheets, so they were stretched over geometry Grays drew by hand for a 128x128 one. Model, coats, collar, armour and the eye layer are out with it. 117 files out for the villagers and 96 entries for the wolves - ninety-three files and the three folder records that held them - 1364 left, each byte for byte the author's"
   },
   {
    "source": "tools/overlay/packs/Totem of GAGAGA 7tv emote 1.0.zip",
