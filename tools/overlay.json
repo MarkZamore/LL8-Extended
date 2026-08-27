@@ -490,6 +490,12 @@
     "target": "mods/reanimal-0.6.0.jar",
     "sha256": "0145b3c1a4de69ae2ccc0153fb2581bce029ae6344bfd6a3cb6aaeba1f4dca0d",
     "reason": "Re:Animal replaces vanilla's pathfinding debug broadcast with a packet of its own, and that packet's writer indexes a path with no nodes: \"Failed encoding custom payload the_black_blood:pathfinding_debug: Index -1 out of bounds for length 0\". The encode fails, netty closes the channel, and the player is dropped to the title screen with Connection lost - the host of an empty world included, which is how it was found. This copy is the author's jar with one line gone from reanimal.mixins.json, the DebugPacketsMixin entry; every class, model and sound in it is untouched, and its other mixin still applies. When a release changes the jar the sha here stops the update, and the line is taken out again by hand."
+   },
+   {
+    "source": "tools/overlay/config/serversidehorror.json",
+    "target": "config/serversidehorror.json",
+    "sha256": "4c32f11c9e35192620094373d9d9f02c215dc980660e853d6d11d19c9a604b5f",
+    "reason": "long_night_enable off. The mod rolls one chance in seventy-five in the world tick, and when it comes up it sets a saved flag and the night stops ending: a player lay down seven times before the sun came up, with nothing to say why. The rest of the file is the mod's own defaults, every other trick it plays included - this is the one that takes an evening away instead of giving somebody a fright."
    }
   ],
  "tomlEdits": [
