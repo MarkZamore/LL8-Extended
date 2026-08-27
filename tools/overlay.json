@@ -466,6 +466,12 @@
     "target": "config/connectivity.json",
     "sha256": "318cd77c740aa1e3967b32e8dd8a00bfff0de854cf8784fe3bd28f6b694d3d57",
     "reason": "the in-game disconnect timeout is five minutes, not one. A guest joining this world is frozen 16 to 56 seconds inside EMI reload while the host hands them the registry of 880 mods, and a keep-alive missed inside that window ends the session with a timeout - which is what it did to both guests on 25 August. The rest of the file is Connectivity own defaults."
+   },
+   {
+    "source": "tools/overlay/kubejs/server_scripts/recipes_and_fixes.js",
+    "target": "kubejs/server_scripts/recipes_and_fixes.js",
+    "sha256": "9c5e6c4497800104478a4775677e78075e9a9cb6c2c557bf6795fcd7ebe537ef",
+    "reason": "upstream makes seven recipes out of items this build does not have - the dirt of Regions Unexplored and Oh The Biomes We've Gone, both removed because two biome sets were dividing one overworld with Terralith - and KubeJS fails each one aloud: that is the red \"KubeJS errors found [7]!\" every player is greeted with. This copy is upstream's, with those seven registered through a guard that skips an item that is not there. The rest of the file is upstream's to the byte, so when a release changes it the sha here stops the update and the guard is re-applied by hand rather than lost."
    }
   ],
  "tomlEdits": [
