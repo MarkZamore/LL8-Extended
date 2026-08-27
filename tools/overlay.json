@@ -484,6 +484,12 @@
     "target": "config/identity2.json",
     "sha256": "f72f32ed3ae9102c1bc1a203d9048d72f8c8d8cf5ae84d5e1554ced6b585c777",
     "reason": "Identity2 refuses a login whose UUID is an offline one and kicks a player whose auth challenge is late. Both are aimed at somebody else: the identities here are the launcher's, issued from a Steam account, and the lateness is EMI rebuilding its index for twenty seconds on the joining client - which is the moment the challenge arrives. A guest was thrown out of this world twice in one evening by it. The rest of the file is Identity2's own defaults."
+   },
+   {
+    "source": "tools/overlay/mods/reanimal-0.6.0.jar",
+    "target": "mods/reanimal-0.6.0.jar",
+    "sha256": "0145b3c1a4de69ae2ccc0153fb2581bce029ae6344bfd6a3cb6aaeba1f4dca0d",
+    "reason": "Re:Animal replaces vanilla's pathfinding debug broadcast with a packet of its own, and that packet's writer indexes a path with no nodes: \"Failed encoding custom payload the_black_blood:pathfinding_debug: Index -1 out of bounds for length 0\". The encode fails, netty closes the channel, and the player is dropped to the title screen with Connection lost - the host of an empty world included, which is how it was found. This copy is the author's jar with one line gone from reanimal.mixins.json, the DebugPacketsMixin entry; every class, model and sound in it is untouched, and its other mixin still applies. When a release changes the jar the sha here stops the update, and the line is taken out again by hand."
    }
   ],
  "tomlEdits": [
