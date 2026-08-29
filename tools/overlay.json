@@ -572,6 +572,13 @@
   ],
  "tomlEdits": [
   {
+   "file": "config/lootr-client.toml",
+   "table": "textures",
+   "key": "vanilla_textures",
+   "value": "true",
+   "reason": "Lootr's chests were invisible. The Backwoods classic pack, which this build locks on as the ground under everything, ships an OptiFine CEM model at assets/minecraft/optifine/cem/chest.jem, and Entity Model Features hands that model to every renderer that bakes the vanilla chest layer - Lootr's included, because LootrChestBlockRenderer extends the vanilla ChestRenderer and the Lootr block's own model has no elements at all, so the block-entity renderer draws the whole chest. The classic model is one box whose six faces all read from y=48..64 of the sheet, a band the classic pack fills in for the vanilla chest sprites and which is empty in every Lootr sprite - so the chest was drawn out of transparent pixels. With vanilla_textures on, LootrChestBlockRenderer.getMaterial returns Sheets.chooseMaterial straight away and the chests are drawn from the vanilla sprites the classic pack does fill in. What is lost is Lootr's own look for a chest somebody has already opened; the unopened particles stay, and they are the cue that matters."
+  },
+  {
    "file": "config/simplebackups-common.toml",
    "table": "",
    "key": "backupsToKeep",
