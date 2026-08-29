@@ -73,10 +73,34 @@ jobs:
           git push origin :refs/tags/pack-latest || true
           sleep 5
 
-          gh release create pack-latest \
-            --target "$GITHUB_SHA" \
-            --title "LL8 pack" \
-            --notes "Rolling LL8 pack release. Revision: $GITHUB_SHA"
+          # Retried, because the create is the one step whose failure leaves the
+          # pack with no release at all: the delete above has already happened,
+          # and a launcher asking for pack-latest gets a 404 until somebody
+          # notices. GitHub answered HTTP 500 here twice on 2026-08-29 and the
+          # build was unreachable both times until the run was started again by
+          # hand.
+          created=""
+          for attempt in 1 2 3 4 5; do
+            if gh release create pack-latest \
+              --target "$GITHUB_SHA" \
+              --title "LL8 pack" \
+              --notes "Rolling LL8 pack release. Revision: $GITHUB_SHA"; then
+              created="yes"
+              break
+            fi
+            # It may also have been created and then failed on the way back, in
+            # which case there is nothing left to do.
+            if gh release view pack-latest >/dev/null 2>&1; then
+              created="yes"
+              break
+            fi
+            echo "Release create failed (attempt $attempt/5)" >&2
+            sleep $((attempt * 10))
+          done
+          if [ -z "$created" ]; then
+            echo "pack-latest could not be created after 5 attempts" >&2
+            exit 1
+          fi
 
           upload_batch() {
             local attempt
