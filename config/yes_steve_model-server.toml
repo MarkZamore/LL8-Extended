@@ -1,0 +1,31 @@
+#The pack sets two values here and leaves the rest to the mod: NeoForge fills
+#every key a config is missing with the mod's own default when it reads it, so
+#a short file stays correct across updates instead of freezing today's defaults.
+#
+#This is the file the mod reads. Yes Steve Model registers a SERVER config, and
+#NeoForge keeps those in config/ - a copy under saves/<world>/serverconfig only
+#overrides this one for that world, which is what the readme NeoForge writes in
+#that folder says.
+
+#The default model ID when a player first enters the game.
+#
+#The mod's own "default" is a character of its own, drawn instead of the player:
+#that is why a skin is visible while somebody is still loading and turns into a
+#stranger the moment the model arrives. misc/2_steve is the mod's copy of vanilla
+#Steve, and the mod special-cases it - for misc/2_steve and misc/1_alex, and for
+#no other model, it takes the texture from SkinManager.getInsecureSkin, which is
+#the player's own skin, the one the launcher serves. So the animations stay and
+#everybody keeps their face. Slim arms are misc/1_alex, one click away in the
+#model screen on F4. A player who already has a model keeps it.
+DefaultModelId = "misc/2_steve"
+
+[server_scheduler]
+	#How fast the server may send models to a player, in Mbps.
+	#
+	#The mod ships 5, a throttle written for a public server with many players
+	#joining at once. This build is played on one machine or over a LAN, and the
+	#models are 61 MB: 622 files the mod unpacks out of its own jar on every
+	#start, of which 56 MB is the wine_fox set. At 5 Mbps that is over a minute
+	#and a half of "YSM Model Sync State: Loading" before the first model can
+	#appear, every session, for a transfer that never leaves the machine.
+	BandwidthLimit = 999

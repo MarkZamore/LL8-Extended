@@ -20,15 +20,13 @@ config/agritech/*.json
 config/agritechevolved/*.json
 config/agritechtrees/*.json
 
-# Yes Steve Model's settings are not read from here. It registers a SERVER
-# config, and NeoForge keeps those per world - saves/<world>/serverconfig, seeded
-# from defaultconfigs - so nothing this pack puts under config/ ever reaches the
-# mod. That is why the bandwidth number shipped here in August changed nothing;
-# the file the mod really reads is now defaultconfigs/yes_steve_model-server.toml.
-# The claim stays because it is what takes the dead file back out of an instance:
-# a file the pack once installed and then stopped shipping is only removed while
-# the pack still owns it; without this line the launcher would find a file the mod
-# had rewritten, take it for the player's own work, and leave it standing.
+# Yes Steve Model rewrites its config on start, and this is the file it reads:
+# a SERVER config lives in config/, and a copy under saves/<world>/serverconfig
+# only overrides it for that one world - the readme NeoForge writes into that
+# folder says exactly that. The pack sets the model a player starts on, so the
+# claim has to stay: a file the mod rewrites looks edited from the first launch,
+# and without this line the launcher would take it for the player's own work and
+# never put the pack's copy back.
 config/yes_steve_model-server.toml
 
 # Global Packs writes its own config on start, and this one is what makes the

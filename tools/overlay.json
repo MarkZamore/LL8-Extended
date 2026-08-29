@@ -564,10 +564,10 @@
     "reason": "requested addition, kept through pack updates (Spear Core 2.0.7): the spear-weapon library Avaritia Spear needs. Nothing else in the pack provides it; its only other dependency, punchy, is optional."
    },
    {
-    "source": "tools/overlay/defaultconfigs/yes_steve_model-server.toml",
-    "target": "defaultconfigs/yes_steve_model-server.toml",
-    "sha256": "468a01000692855fa88c9bb0543d82207a516b7cf36a3523417468e19f5c20e0",
-    "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId on misc/2_steve instead of the mod's own character, and BandwidthLimit at 999 instead of 5. YSM registers this as a SERVER config, so NeoForge reads it from saves/<world>/serverconfig and seeds a new world from defaultconfigs - a copy under config/ is never read, which is why the same bandwidth number shipped there in August changed nothing. misc/2_steve and misc/1_alex are the two models the mod special-cases: their texture comes from SkinManager.getInsecureSkin(profile), the player's real skin and the one the launcher's portable identity serves, so the launcher's skins and YSM's animations work together instead of the mod drawing its own character over everyone."
+    "source": "tools/overlay/config/yes_steve_model-server.toml",
+    "target": "config/yes_steve_model-server.toml",
+    "sha256": "23972c7c3ef13e841b0e090ec4ba57c4a7e51a8025f61ee72ee43ca5a072d31f",
+    "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId on misc/2_steve instead of the mod's own character, and BandwidthLimit at 999 instead of 5. misc/2_steve and misc/1_alex are the two models the mod special-cases: their texture comes from SkinManager.getInsecureSkin(profile), the player's real skin and the one the launcher's portable identity serves, so the launcher's skins and YSM's animations work together instead of the mod drawing its own character over everyone. The mod registers this as a SERVER config and NeoForge keeps those in config/, with saves/<world>/serverconfig only overriding per world - the readme NeoForge writes into that folder says so, and the instance here has the file in config/."
    }
   ],
  "tomlEdits": [
