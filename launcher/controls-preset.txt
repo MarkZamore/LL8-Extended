@@ -852,6 +852,10 @@ key_simplemagnets.keys.toggle:key.keyboard.unknown  # was h: the magnet is toggl
 # --- smallships ---
 key_key.smallships.ship_sail:key.keyboard.f10  # Toggle Sail
 
+# --- snatched ---
+key_key.snatched.bb:key.keyboard.unknown  # unbound: the mod ships it on b, where Sophisticated Backpacks opens the backpack
+key_key.snatched.n:key.keyboard.unknown  # unbound: the mod ships it on n, where Cobblemon holds free look while riding
+
 # --- sophisticatedbackpacks ---
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown  # was c: rare
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b  # Open Backpack
