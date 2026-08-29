@@ -63,8 +63,8 @@ lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
-textBackgroundOpacity:0.5
-backgroundForChatOnly:true
+textBackgroundOpacity:0.0
+backgroundForChatOnly:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true

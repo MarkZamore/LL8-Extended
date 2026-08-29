@@ -36,8 +36,8 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "f2cbf238b6d9e840009176780bc708f103266c2d49be6516b8468e0f127ab68f",
-   "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
+   "sha256": "c9396abd8f5581ff952cd1868481eb9d2dce8c33d73d8d370ca623113e3299ed",
+   "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; and there is no plate behind a name. EntityRenderer.renderNameTag takes the plate's alpha from Options.getBackgroundOpacity(0.25F), which returns the 0.25 fallback while backgroundForChatOnly is true and textBackgroundOpacity when it is false - so false plus 0.0 is the one setting that makes the quad fully transparent. It is the only pack-side lever that works on every shaderpack: Iris hands the plate to the entities_translucent program, and only three of the sixteen packs shipped here (Complementary Reimagined, Complementary Unbound, Lumina Lite) declare minecraft:name_tag and correct it themselves; on the other thirteen the plate comes out an opaque black rectangle over the name. The cost is that chat loses its dark backdrop, which is the same option. Refresh this copy when LL8 changes its defaults"
   },
   {
    "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
