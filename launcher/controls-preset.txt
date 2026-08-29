@@ -150,6 +150,14 @@ key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
 
+# --- avaritia ---
+key_key.avaritia.config:key.keyboard.unknown  # unbound: the mod ships it on o, where Cobblemon opens the summary
+key_key.avaritia.filter:key.keyboard.unknown  # unbound: the mod ships it on h, where the singularity rifle charges
+key_key.avaritia.neutron_ring:key.keyboard.unknown  # unbound: the mod ships it on n, where Cobblemon holds free look while riding
+
+# --- avaritia_nirvana ---
+key_key.avaritia_nirvana.tp_recallpearlt:key.keyboard.unknown  # unbound: the mod ships it on g, where the dragon strikes
+
 # --- bankstorage ---
 # unbound: held-key on Alt; Jade owns Alt
 key_key.bankstorage.cyclebuildmode:key.keyboard.unknown

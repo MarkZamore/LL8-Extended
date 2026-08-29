@@ -126,6 +126,10 @@ key.ars_nouveau.qc8	ars_nouveau	UNIVERSAL	assumed	key.keyboard.unknown	key.keybo
 key.ars_nouveau.qc9	ars_nouveau	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Quick Cast Slot 09	Слот быстрого каста 09
 key.ars_nouveau.selection_hud	ars_nouveau	UNIVERSAL	assumed	key.keyboard.v	key.keyboard.unknown	options+defaults	Toggle Selection HUD	Перекл. HUD
 key.attack	minecraft	UNIVERSAL	assumed	key.mouse.left	key.mouse.left	options+defaults		
+key.avaritia.config	avaritia	UNIVERSAL	assumed	key.keyboard.o		jar	Open Avaritia Config	Открыть настройки Avaritia
+key.avaritia.filter	avaritia	UNIVERSAL	assumed	key.keyboard.h		jar	Open filter screen	Открыть экран фильтра
+key.avaritia.neutron_ring	avaritia	UNIVERSAL	assumed	key.keyboard.n		jar	Open Neutron Ring	Открыть нейтронное кольцо
+key.avaritia_nirvana.tp_recallpearlt	avaritia_nirvana	UNIVERSAL	assumed	key.keyboard.g		jar	Tp Recallpearlt	Телепорт жемчугом возврата
 key.back	minecraft	UNIVERSAL	assumed	key.keyboard.s	key.keyboard.s	options+defaults		
 key.bankstorage.cyclebuildmode	bankstorage	IN_GAME	bytecode	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Cycle build mode	
 key.bankstorage.enablescroll	bankstorage	IN_GAME	bytecode	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Enable block selection scroll	

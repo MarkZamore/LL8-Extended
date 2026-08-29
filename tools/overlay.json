@@ -508,6 +508,60 @@
     "target": "config/serversidehorror.json",
     "sha256": "77a893bd2b106f4cfb6c248a801e010158e302df1d3d5347f9339377bacb88f8",
     "reason": "long_night_enable, replace_torches_enable and break_torches_enable off. The mod rolls one chance in seventy-five in the world tick, and when it comes up it sets a saved flag and the night stops ending: a player lay down seven times before the sun came up, with nothing to say why. The rest of the file is the mod's own defaults, every other trick it plays included - the long night is the one that takes an evening away instead of giving somebody a fright, and the two torch tricks - swapping the torches around a player for redstone ones, or taking them out - are the light going out in a cave rather than a fright at all."
+   },
+   {
+    "source": "tools/overlay/mods/Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar",
+    "target": "mods/Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar",
+    "sha256": "d77527818233320d9915b2bfda2304a6c57856a3d73cef5ffc1529a195869273",
+    "reason": "requested addition, kept through pack updates (Re:Avaritia 1.4.1): the Extreme Crafting Table, the neutron collector and compressor, the singularities and the Infinity gear - Nova Committee's rewrite of Avaritia. It declares only minecraft and carries no nested jars. Recipes need no help: the jar ships its own EMI plugin (AvaritiaEmiPlugin, six categories), so the pack's EMI shows them without JEI, and the pack's TooManyRecipeViewers already answers to the modId jei, so a real JEI could not be added beside it."
+   },
+   {
+    "source": "tools/overlay/mods/avaritia_expand-0.3.6.jar",
+    "target": "mods/avaritia_expand-0.3.6.jar",
+    "sha256": "1b95770f8acd8cd26ce5c5600ceacea7ab1d23a4a6d5dd01616b133fe00a26f3",
+    "reason": "requested addition, kept through pack updates (Avaritia:Expand 0.3.6): more Infinity-tier tools and armour on top of Re:Avaritia. Wants neoforge [21.1.209,) against the 21.1.248 the pack runs, avaritia [1.3.9.4,) against the 1.4.1 beside it, and geckolib [4.8.2,) against the 4.9.2 already here."
+   },
+   {
+    "source": "tools/overlay/mods/avaritia_integration-1.0.jar",
+    "target": "mods/avaritia_integration-1.0.jar",
+    "sha256": "b23f1e5e7640a08da8d725efd9c38d3156403f149ba7f1c4df933363ebc2333d",
+    "reason": "requested addition, kept through pack updates (Avaritia:Integration 1.0): recipes that tie Re:Avaritia's materials to the pack's other tech mods. Declares only minecraft and carries no nested jars."
+   },
+   {
+    "source": "tools/overlay/mods/more_avaritia-neo-1.0fix2.jar",
+    "target": "mods/more_avaritia-neo-1.0fix2.jar",
+    "sha256": "5b9642ec28bb02a3dcb38d8b88f4d33ef060d004aa4fb13a91b3cb485dfb0472",
+    "reason": "requested addition, kept through pack updates (MoreAvaritia 1.0fix2): further singularities and cosmic components for Re:Avaritia. Declares only minecraft and carries no nested jars."
+   },
+   {
+    "source": "tools/overlay/mods/avaritia_nirvana-1.2.0-neoforge-1.21.1.jar",
+    "target": "mods/avaritia_nirvana-1.2.0-neoforge-1.21.1.jar",
+    "sha256": "c34387aa1f1460fe0b20a590b268e7d187db0ac12cc4f4eeebd2586108d2cc5c",
+    "reason": "requested addition, kept through pack updates (Avaritia: Nirvana 1.2.0): a tier above Infinity, with the recall pearl on a key of its own. Wants avaritia [0,) and neoforge [21.1.190,)."
+   },
+   {
+    "source": "tools/overlay/mods/PackagedAvaritia-Re-1.21.1-3.0.1.5.jar",
+    "target": "mods/PackagedAvaritia-Re-1.21.1-3.0.1.5.jar",
+    "sha256": "b43a7b5fd43c2e535d5a60f285be45db571563a0283a1dfa914411c7050492c6",
+    "reason": "requested addition, kept through pack updates (PackagedAvaritia 3.0.1.5, the Re build): lets PackagedAuto craft Extreme Crafting recipes through AE2. The author publishes two builds of one version - Neo for the other Avaritia fork and Re for Nova Committee's; this is the Re one, which is the fork the pack now has. Wants packagedauto [4.0.4,) against the 4.0.8.21 already here."
+   },
+   {
+    "source": "tools/overlay/mods/avaritia_delight-1.6.3.jar",
+    "target": "mods/avaritia_delight-1.6.3.jar",
+    "sha256": "c3aafbb845312c18819a15f4cd584af69ac7eb8d3cb1fc0539b16a2ea936b649",
+    "reason": "requested addition, kept through pack updates (Avaritia's Delight 1.6.3): Infinity-tier cooking on top of Farmer's Delight. Wants avaritia and farmersdelight, both present (FarmersDelight 1.3.3)."
+   },
+   {
+    "source": "tools/overlay/mods/AvaritiaSpear-1.21.1-neo-1.3.1.jar",
+    "target": "mods/AvaritiaSpear-1.21.1-neo-1.3.1.jar",
+    "sha256": "2d48784021e7b546e5b9fa9b132499b08e13d980067fe2164a0594150962add0",
+    "reason": "requested addition, kept through pack updates (Avaritia Spear 1.3.1): an Infinity spear. Wants spearcore [2.0.7,), which comes with it in this same change."
+   },
+   {
+    "source": "tools/overlay/mods/spearcore-1.21.1-neo-2.0.7.jar",
+    "target": "mods/spearcore-1.21.1-neo-2.0.7.jar",
+    "sha256": "cdd1f4846960140a44d8ba7794e4b74ad36b6224b84cb6e1951f6686ea71ab76",
+    "reason": "requested addition, kept through pack updates (Spear Core 2.0.7): the spear-weapon library Avaritia Spear needs. Nothing else in the pack provides it; its only other dependency, punchy, is optional."
    }
   ],
  "tomlEdits": [
