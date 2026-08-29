@@ -1,0 +1,32 @@
+# Game settings this build asks for, in options.txt's own key:value form.
+#
+# A plain line is a starting point: it is written into an instance that does
+# not have the key yet, and never touched again. The game writes back every
+# option it knows the first time it saves, so after one session a plain line
+# here can no longer change anything, and what the player set stays set.
+#
+# A line beginning with ! is the build's rather than the player's. The launcher
+# puts it back at every launch, wherever it already stands in the file. Keep
+# that mark for the few settings the build depends on and nothing else.
+
+# No plate behind a nickname, on every shaderpack.
+#
+# The black rectangle over a name is the vanilla name-tag quad, and it is the
+# shaderpack that turns it opaque: Iris hands that quad to the
+# entities_translucent program and offers the entity id minecraft:name_tag so a
+# pack can correct it. Three of the sixteen shipped here do - Complementary
+# Reimagined, Complementary Unbound and Lumina Lite, which pull the alpha to
+# 0.12 and multiply the colour up. On the other thirteen the plate comes out a
+# solid black rectangle over the name.
+#
+# EntityRenderer.renderNameTag takes the plate's alpha from
+# Options.getBackgroundOpacity(0.25F), which returns the 0.25 fallback while
+# backgroundForChatOnly is true and textBackgroundOpacity when it is false. So
+# these two together, and only these two, draw the quad fully transparent
+# whatever pack is loaded. The letters stay.
+#
+# They are held rather than seeded because everybody here has already played:
+# seeded, they would reach a fresh instance and nobody else. The price is that
+# chat loses its own dark backdrop, which is the same option.
+!textBackgroundOpacity:0.0
+!backgroundForChatOnly:false
