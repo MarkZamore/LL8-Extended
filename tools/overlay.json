@@ -131,6 +131,12 @@
    "reason": "this build's own datapack, four files, and it exists because Jenny mod names biomes where it should name tags. Its own neoforge:add_spawns modifiers list vanilla biomes only - plains, forest, taiga, swamp, flower_forest, nether_wastes and a few more - and this pack's overworld is largely Terralith's, so the companions had almost nowhere to appear while their houses, which are placed by the #c:is_overworld tag, were everywhere. These four override the mod's by the same paths and ask by tag: #c:is_overworld for the four overworld companions, #c:is_swamp for the slime and the goblin, #c:is_floral for the bee, #c:is_nether for the manglelie. Each keeps its original biome list beside the tag, so nothing that used to spawn stops."
   },
   {
+   "source": "tools/overlay/config/ftbessentials.snbt",
+   "target": "config/ftbessentials.snbt",
+   "sha256": "1c14c10a84009d311a0e2b7d9827cf78e77224d0cddaecfe744c08838856a9ea",
+   "reason": "no waiting three seconds and standing still to use /home or /tpa. FTB Essentials counts a warmup down before it moves anybody and cancels it if they step off the spot, which is a rule for a public server and noise on a world four friends share. Every warmup in the file is 0, and 0 is not a short wait: WarmupCooldownTeleporter.teleport reads the number and, when it is zero, calls teleportNow instead of queueing a Warmup at all - so nothing is watching the player's position afterwards either. The cooldowns between uses are untouched. The whole file is pinned because it is upstream's and an update would put the threes back"
+  },
+  {
    "source": "tools/overlay/packs/LL8 Mob Fixes.zip",
    "target": "resourcepacks/LL8 Mob Fixes.zip",
    "sha256": "c8238aec1a10b599fb03447baa49098aabdf201825fbbd09491d1093cdc0b68b",
