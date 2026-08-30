@@ -127,8 +127,8 @@
   {
    "source": "tools/overlay/config/paxi/datapacks/LL8 Companion Spawns.zip",
    "target": "config/paxi/datapacks/LL8 Companion Spawns.zip",
-   "sha256": "4e43f4e7eb49646e31624918ed3dcca28027f3c1db958996c3a307d453a38b90",
-   "reason": "this build's own datapack, four files, and it exists because Jenny mod names biomes where it should name tags. Its own neoforge:add_spawns modifiers list vanilla biomes only - plains, forest, taiga, swamp, flower_forest, nether_wastes and a few more - and this pack's overworld is largely Terralith's, so the companions had almost nowhere to appear while their houses, which are placed by the #c:is_overworld tag, were everywhere. These four override the mod's by the same paths and ask by tag: #c:is_overworld for the four overworld companions, #c:is_swamp for the slime and the goblin, #c:is_floral for the bee, #c:is_nether for the manglelie. Each keeps its original biome list beside the tag, so nothing that used to spawn stops."
+   "sha256": "ebcec0d6ce07250ed7a63306c037376df92e30e55b1c38ab46a5772229afd9b9",
+   "reason": "this build's own datapack, seven files, and it exists because Jenny mod names biomes where it should name tags. Four of them replace the mod's own by the same paths and ask by tag instead - #c:is_overworld, #c:is_swamp, #c:is_floral, #c:is_nether - because this pack's overworld is largely Terralith's and the companions had almost nowhere to appear while their houses, placed by tag, were everywhere. A tag is only a valid biome list on its own: one inside a list is what the first version of this pack did, and the world would not open. The other three name the biomes the mod named itself, so nothing that used to spawn stops even where a tag turns out not to hold one"
   },
   {
    "source": "tools/overlay/config/ftbessentials.snbt",
