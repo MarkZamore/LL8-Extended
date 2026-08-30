@@ -119,6 +119,12 @@
    "reason": "requested addition, kept through pack updates (yes steve model 2.6.5)"
   },
   {
+   "source": "tools/overlay/config/xaeroplus.txt",
+   "target": "config/xaeroplus.txt",
+   "sha256": "f14b246ac6187e0e3ba3688597fef2de4b4f2a81648e06465c6196aeaed98d76",
+   "reason": "requested cleanup, kept through pack updates (XaeroPlus): fourteen settings that XaeroPlus 2.35.1 no longer has. The mod reads this file at every start, fails to find them and writes a \"Setting not found\" warning for each - fourteen lines of noise in every log, in the middle of the mod loading, where a real warning would be read past. They are the leftovers of older versions: the Fast Mapping trio, the four Waystone entries, Drawing Opacity, Fix Main Entity Dot, Min WorldMap Zoom, Render Game Behind WorldMap, Show Coords In Right Click Options, Show Waypoint Distances and Transparent Background. Nothing reads them, so nothing changes but the log."
+  },
+  {
    "source": "tools/overlay/packs/LL8 Mob Fixes.zip",
    "target": "resourcepacks/LL8 Mob Fixes.zip",
    "sha256": "c8238aec1a10b599fb03447baa49098aabdf201825fbbd09491d1093cdc0b68b",
