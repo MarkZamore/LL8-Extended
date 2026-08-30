@@ -626,6 +626,10 @@
     "reason": "configuration of the removed mod"
    },
   {
+   "path": "mods/SanityRenewed-*.jar",
+   "reason": "Sanity: Renewed, the Don't Starve sanity meter, asked for: a bar that fills in the dark and empties near monsters, with hallucinations at the bottom of it, on a build nobody chose it for. Removed at the owner's word. Nothing in the build depends on it - it declares architectury and geckolib and is named by no other mod - and the one recipe the pack registered for its garland was already written to register only if the item exists."
+  },
+  {
    "path": "mods/CrashAssistant-*.jar",
    "reason": "points crash reports at the TNP support channels; this pack has its own report button"
   },
