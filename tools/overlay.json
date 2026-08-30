@@ -125,6 +125,12 @@
    "reason": "requested cleanup, kept through pack updates (XaeroPlus): fourteen settings that XaeroPlus 2.35.1 no longer has. The mod reads this file at every start, fails to find them and writes a \"Setting not found\" warning for each - fourteen lines of noise in every log, in the middle of the mod loading, where a real warning would be read past. They are the leftovers of older versions: the Fast Mapping trio, the four Waystone entries, Drawing Opacity, Fix Main Entity Dot, Min WorldMap Zoom, Render Game Behind WorldMap, Show Coords In Right Click Options, Show Waypoint Distances and Transparent Background. Nothing reads them, so nothing changes but the log."
   },
   {
+   "source": "tools/overlay/config/paxi/datapacks/LL8 Companion Spawns.zip",
+   "target": "config/paxi/datapacks/LL8 Companion Spawns.zip",
+   "sha256": "4e43f4e7eb49646e31624918ed3dcca28027f3c1db958996c3a307d453a38b90",
+   "reason": "this build's own datapack, four files, and it exists because Jenny mod names biomes where it should name tags. Its own neoforge:add_spawns modifiers list vanilla biomes only - plains, forest, taiga, swamp, flower_forest, nether_wastes and a few more - and this pack's overworld is largely Terralith's, so the companions had almost nowhere to appear while their houses, which are placed by the #c:is_overworld tag, were everywhere. These four override the mod's by the same paths and ask by tag: #c:is_overworld for the four overworld companions, #c:is_swamp for the slime and the goblin, #c:is_floral for the bee, #c:is_nether for the manglelie. Each keeps its original biome list beside the tag, so nothing that used to spawn stops."
+  },
+  {
    "source": "tools/overlay/packs/LL8 Mob Fixes.zip",
    "target": "resourcepacks/LL8 Mob Fixes.zip",
    "sha256": "c8238aec1a10b599fb03447baa49098aabdf201825fbbd09491d1093cdc0b68b",
