@@ -335,12 +335,6 @@
    "reason": "requested addition, kept through pack updates (The Backwoods 1.7.0): a liminal horror adventure with its own entities and five dimensions - backwoods, loss, rotting, the_familiar, the_grain. Wants NeoForge 21.1.190 against the pack's 21.1.244 and nothing else; no mixins, no key. The dimensions are generated the first time somebody goes there, so a world that already exists is untouched until then"
   },
   {
-   "source": "tools/overlay/mods/goatman-1.0.1-neoforge-1.21.1.jar",
-   "target": "mods/goatman-1.0.1-neoforge-1.21.1.jar",
-   "sha256": "2a32a338b15d60b7cf4b35423935ea38e7f91497026aa428a5de7c4edc32afc6",
-   "reason": "requested addition, kept through pack updates (The Goatman, Neoforge Edition 1.0.1 by Max92306 over Flamc04's mod; CurseForge names the file goatman-1.0.0.jar): a stalker that follows and leaves, with its own timers for spawning, noise and how long it stays. Wants NeoForge 21.1.219 against the pack's 21.1.244 and nothing else. Its [[mixins]] block is commented out and the jar carries no goatman.mixins.json, so the MixinPathNavigation class in it never applies. It is a reskin of Cave Dweller, which the pack already has, so two of that kind now walk the caves"
-  },
-  {
    "source": "tools/overlay/mods/deimos-1.21.1-neoforge-2.7.jar",
    "target": "mods/deimos-1.21.1-neoforge-2.7.jar",
    "sha256": "ee35d4e8967ccb23dee3c1a05b55c8d4ac0e0045bf8d324e215b397869af0573",
@@ -632,6 +626,10 @@
     "path": "config/gaze-common.toml",
     "reason": "configuration of the removed mod"
    },
+  {
+   "path": "mods/goatman-*.jar",
+   "reason": "Goatman, one mob and its spawn egg. Removed at the owner's word. It was this build's own addition rather than upstream's, so the pin that installed it goes with the jar and this line keeps it out; nothing in the build names it - no quest, recipe, script, tag or key mapping - and the config it writes, config/goatman-server.toml, is made by the mod on a first run and was never shipped here."
+  },
   {
    "path": "mods/snatched-*.jar",
    "reason": "Snatched, the mod for tying players up: rope and handcuff armour, a bag over the head, a lasso, and a first-person animation for the bound player. Removed at the owner's word. Nothing depends on it and no quest, recipe, script or tag of the build mentions it; its two key mappings - Escape and Raise hands - left launcher/controls-preset.txt and tools/keybinds/registered-keys.tsv with it, both unbound anyway because the mod ships them on b and n, where Sophisticated Backpacks and Cobblemon already were."
