@@ -869,6 +869,12 @@
  ],
  "jsonEdits": [
   {
+   "file": "config/farsight.json",
+   "key": "maxRenderDistance",
+   "value": {"desc:": "Maximum allowed render distance, requires enableChunkManager enabled. default 64", "maxRenderDistance": 32},
+   "reason": "requested change, kept through pack updates (Farsight): the render and simulation distance sliders stop at the game's own 32 again. Farsight replaces both OptionInstance ranges with (2, maxRenderDistance) in a HEAD injection on Options.load, which runs after C2ME's own cap-raise, so this number - not C2ME's 97 - is what a player's slider actually offers. Since launcher release 272 a shared world is served as far as the furthest player asks, capped at 32, so anything above that is a number the server will never send. It also took the SIMULATION slider to 64, and simulation is the distance that costs tick time - on a host that number becomes the world's. Farsight keeps doing everything else: the chunks a client has already received stay drawn when the server stops sending them."
+  },
+  {
    "file": "config/kerria.json",
    "key": "fastUpload",
    "value": false,
