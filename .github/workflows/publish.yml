@@ -71,60 +71,73 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Recreate the rolling release from scratch. The launcher treats the
-          # release as incomplete until pack-manifest.json is present, so it is
-          # safe to delete and repopulate here.
-          gh release delete pack-latest --yes --cleanup-tag || true
-          git push origin :refs/tags/pack-latest || true
-          sleep 5
+          # The release is updated in place and never deleted. Deleting it first
+          # is what took the pack offline three times in one week: the delete
+          # always works, and the create after it is the call GitHub refuses -
+          # HTTP 500 twice on 2026-08-29, HTTP 403 five times running on
+          # 2026-08-30 - so every launcher asking for pack-latest got a 404 until
+          # somebody started the run again by hand. Nothing here takes anything
+          # away before the thing that replaces it is in place, so a failure
+          # anywhere below leaves the pack that was published last whole and
+          # downloadable.
 
-          # Retried, because the create is the one step whose failure leaves the
-          # pack with no release at all: the delete above has already happened,
-          # and a launcher asking for pack-latest gets a 404 until somebody
-          # notices. GitHub answered HTTP 500 here twice on 2026-08-29 and the
-          # build was unreachable both times until the run was started again by
-          # hand.
-          created=""
-          for attempt in 1 2 3 4 5; do
-            if gh release create pack-latest \
-              --target "$GITHUB_SHA" \
-              --title "LL8 pack" \
-              --notes "Rolling LL8 pack release. Revision: $GITHUB_SHA"; then
-              created="yes"
-              break
-            fi
-            # It may also have been created and then failed on the way back, in
-            # which case there is nothing left to do.
-            if gh release view pack-latest >/dev/null 2>&1; then
-              created="yes"
-              break
-            fi
-            echo "Release create failed (attempt $attempt/5)" >&2
-            sleep $((attempt * 10))
-          done
-          if [ -z "$created" ]; then
-            echo "pack-latest could not be created after 5 attempts" >&2
-            exit 1
-          fi
-
-          upload_batch() {
+          retry() {
+            local what="$1"
+            shift
             local attempt
-            for attempt in 1 2 3; do
-              if gh release upload pack-latest "$@" --clobber; then
+            for attempt in 1 2 3 4 5; do
+              if "$@"; then
                 return 0
               fi
-              echo "Upload batch failed (attempt $attempt/3)" >&2
-              if [ "$attempt" -lt 3 ]; then
-                sleep $((attempt * 15))
-              fi
+              echo "$what failed (attempt $attempt/5)" >&2
+              sleep $((attempt * 10))
             done
-            echo "Upload batch failed after 3 attempts" >&2
+            echo "$what failed after 5 attempts" >&2
             return 1
           }
 
+          # The tag follows this commit; the release keeps its name and every
+          # asset already on it. A tag that will not move is not worth failing a
+          # publish over - it is the assets a launcher reads, not the tag.
+          git tag -f pack-latest "$GITHUB_SHA"
+          git push -f origin refs/tags/pack-latest ||
+            echo "pack-latest tag could not be moved; the release still carries this run's assets" >&2
+
+          if gh release view pack-latest >/dev/null 2>&1; then
+            retry "Release edit" gh release edit pack-latest \
+              --title "LL8 pack" \
+              --notes "Rolling LL8 pack release. Revision: $GITHUB_SHA"
+          else
+            retry "Release create" gh release create pack-latest \
+              --target "$GITHUB_SHA" \
+              --title "LL8 pack" \
+              --notes "Rolling LL8 pack release. Revision: $GITHUB_SHA"
+          fi
+
+          # Every asset is named <kind>-<the first twelve of its sha256>-<file>,
+          # so a name already on the release, whole and the same size, is the
+          # same bytes and does not need sending again. The pack is gigabytes
+          # and an ordinary day changes a few megabytes of it.
+          gh release view pack-latest --json assets \
+            --jq '.assets[] | select(.state == "uploaded") | "\(.name)|\(.size)"' | sort > on-release.txt
+
+          upload_batch() {
+            retry "Upload batch" gh release upload pack-latest "$@" --clobber
+          }
+
+          kept=0
+          sent=0
           batch=()
+          : > wanted.txt
           for f in dist/assets/*; do
+            name="$(basename "$f")"
+            echo "$name" >> wanted.txt
+            if grep -qxF "$name|$(stat -c %s "$f")" on-release.txt; then
+              kept=$((kept + 1))
+              continue
+            fi
             batch+=("$f")
+            sent=$((sent + 1))
             if [ "${#batch[@]}" -eq 40 ]; then
               upload_batch "${batch[@]}"
               batch=()
@@ -134,6 +147,20 @@ jobs:
             upload_batch "${batch[@]}"
           fi
 
-          # The manifest is uploaded LAST: its presence marks the release as
-          # complete and consumable for the launcher.
+          # The manifest goes up last and always: it is what the launcher reads
+          # to know what the pack is, and until it changes the release still
+          # describes, completely, the pack that was there before.
+          echo "pack-manifest.json" >> wanted.txt
           upload_batch dist/pack-manifest.json
+
+          # Only now, with the new manifest live and everything it names beside
+          # it, do the files nothing names any more come off.
+          cut -d'|' -f1 on-release.txt | sort > had.txt
+          sort -o wanted.txt wanted.txt
+          gone=0
+          while IFS= read -r name; do
+            [ -n "$name" ] || continue
+            retry "Asset delete" gh release delete-asset pack-latest "$name" --yes
+            gone=$((gone + 1))
+          done < <(comm -23 had.txt wanted.txt)
+          echo "$kept asset(s) already published, $sent uploaded, $gone removed"
