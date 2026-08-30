@@ -119,6 +119,12 @@
    "reason": "requested addition, kept through pack updates (yes steve model 2.6.5)"
   },
   {
+   "source": "tools/overlay/packs/Deep Aether Tips.zip",
+   "target": "resourcepacks/Deep Aether Tips.zip",
+   "sha256": "855d72d5b0d44e779ae37cb13880420e6b388891c9d8b60316c18601586cf669",
+   "reason": "requested fix, kept through pack updates (Deep Aether tips): five files under assets/aether/tips are written in the shape Tips used before 21.1, with tip and title and no type, so TipManager.apply throws \"Input does not contain a key [type]\" on every resource reload and those five tips never appear. Rewritten as tipsmod:simple with the same translation key and the same blue, which is the format the mod's own eighty-one tips use. Nothing else in the pack is touched; when Deep Aether fixes its files upstream this pack can go."
+  },
+  {
    "source": "tools/overlay/packs/Grays Mob Compatibility.zip",
    "target": "resourcepacks/Grays Mob Compatibility.zip",
    "sha256": "c9ecb9bd1092da635df36e3bb3545f9513cd1a51f180db539c81d188de73eba4",
