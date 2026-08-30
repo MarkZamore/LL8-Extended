@@ -452,8 +452,8 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "cabea2db9a397460a7bfa07956c68eb0eb379a2c6ec2c430e408228c57ecf908",
-    "reason": "every pack the build locks is named here on enable_builtin, which is what makes them impossible to switch off or reorder in the game"
+    "sha256": "81c56df78c308504a7f8fdf63cc8680af292f13dd261ad0d18ec801ff4e923b1",
+    "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {
     "source": "tools/overlay/mods/1.21.1-identity2-neoforge-2.2.1.jar",

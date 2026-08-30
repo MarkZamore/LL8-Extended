@@ -18,15 +18,18 @@ log_pack_ids = false
 	#the pack is and wherever it came from, and gives every match the same
 	#(required, TOP, fixedPosition) - no tick to clear, no handle to drag.
 	#
-	#The two villager packs are deliberately absent, and that absence is the
-	#whole of the choice this build leaves open. Order comes from
-	#launcher/resourcepacks-default.txt, which the launcher writes every launch.
+	#Nothing is left out any more. This list and launcher/resourcepacks-default.txt
+	#name the same packs, and tools/check_pack_locks.py stops a publish where they
+	#do not: a pack the order names and this list does not is put back on every
+	#launch and still draggable in between, which is what three of them were.
+	#Order comes from that file; this one only decides what is held.
 	#
 	#required stays empty: a forced folder is the mod's other route to the same
 	#end, and one route is enough.
 	required = []
 	optional = []
 	enable_builtin = [
+		"mod/eternal_starlight:resourcepacks/starlight_3d_mace",
 		"mod/iceandfire:resourcepacks/iaf_legacy",
 		"builtin/2d_item_models",
 		"sfm:classic",
@@ -39,6 +42,7 @@ log_pack_ids = false
 		"mod/seamless:resourcepacks/default_seamless",
 		"fabric",
 		"mod_resources",
+		"serilum_mod_translations",
 		"file/Authentic_Shadows_1.21+.zip",
 		"file/EclecticTrove-noconfig-1.20.2-1.3.0.zip",
 		"file/EmbellishedStone-1.19-1.0.0.zip",
@@ -82,7 +86,6 @@ log_pack_ids = false
 		"mod/minecraft_cursor:resourcepacks/cursors_extended",
 		"file/3D Items-Vanillaism-1.21.1.zip",
 		"file/3D Reinforced Armor v1.zip",
-		"file/Baby Animals Remastered 1.21 v1.3.zip",
 		"file/My Monster Girls.zip",
 		"file/Neco-Arc Cats.zip",
 		"file/LLama Girls.zip",
@@ -97,7 +100,9 @@ log_pack_ids = false
 		"file/Lilac Jackson.zip",
 		"file/Sun & Moon Fusion 2.1.zip",
 		"file/No Vignette 1.21.zip",
-		"file/Bad Dream Death.zip"
+		"file/Bad Dream Death.zip",
+		"file/Grays Mob Compatibility.zip",
+		"file/Deep Aether Tips.zip"
 	]
 [datapacks]
 	required = ["config/paxi/datapacks"]

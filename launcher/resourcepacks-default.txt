@@ -67,7 +67,17 @@
 # they are switched on: it takes them out of Available without touching how the
 # build looks. Anything still on offer up there adds at least one file nothing
 # above carries, so no place in this list would keep it quiet.
+#
+# Eternal Starlight's 3D mace is a ninth, quiet for a different reason. Its one
+# override is models/item/mace.json, which 3D Items-Vanillaism carries higher up,
+# and the texture it brings of its own is drawn by nothing once that model is
+# beaten. It has always rendered here: this list never named it, so the game left
+# it wherever options.txt happened to have it, which is the floor. Naming it is
+# what keeps it there - a required pack the selection does not name is floated to
+# the top, and locking it without this line would have put a different mace in
+# every hand.
 
+mod/eternal_starlight:resourcepacks/starlight_3d_mace
 mod/iceandfire:resourcepacks/iaf_legacy
 builtin/2d_item_models
 sfm:classic
