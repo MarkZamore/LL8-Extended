@@ -11,8 +11,12 @@ it: the codec reads a list as biomes and nothing else, and answers a tag inside
 one with "Not a JSON object". The four modifiers in LL8 Companion Spawns had it
 the wrong way round and Chebupeli would not open.
 
-Only the datapacks this pack ships are read. What a mod carries inside its own
-jar is the mod author's, and is not ours to fail the build over.
+Only the datapacks this pack ships are read, and only a file the game loads
+through its registries is worth failing a build over: those fail the world.
+A mod's own data - Hostile Neural Networks' data models, say - is read by that
+mod's own reload listener, which logs the file and carries on, so a broken one
+there is said out loud and let through. ExtraDataModels 4.4.2 ships exactly
+that: a stray brace in horse.json, which has never stopped anybody playing.
 """
 import json
 import pathlib
@@ -22,6 +26,9 @@ import zipfile
 DATAPACK_ROOT = pathlib.Path("config/paxi/datapacks")
 # Every registry whose entries name biomes the same way.
 BIOME_FIELDS = ("biomes", "biome")
+# What the game loads before a world opens. A file here that will not parse is
+# a world that will not open; anywhere else it is a mod's own business.
+WORLD_LOADING = ("/neoforge/biome_modifier/", "/worldgen/", "/damage_type/", "/dimension/", "/dimension_type/")
 
 
 def problems_in(name, body):
@@ -57,6 +64,7 @@ def main():
         return 0
 
     problems = []
+    warnings = []
     checked = 0
     for archive_path in sorted(DATAPACK_ROOT.glob("*.zip")):
         try:
@@ -75,11 +83,17 @@ def main():
                 try:
                     body = json.loads(archive.read(entry))
                 except (json.JSONDecodeError, UnicodeDecodeError) as error:
-                    problems.append(f"{where}: not json ({error}).")
+                    complaint = f"{where}: not json ({error})."
+                    if any(part in "/" + entry for part in WORLD_LOADING):
+                        problems.append(complaint)
+                    else:
+                        warnings.append(complaint)
                     continue
                 checked += 1
                 problems.extend(problems_in(where, body))
 
+    for warning in warnings:
+        print("check_datapacks, said and let through: " + warning)
     if problems:
         print("check_datapacks: this would not open a world.")
         for problem in problems:
