@@ -584,6 +584,13 @@
   ],
  "tomlEdits": [
   {
+   "file": "config/c2me.toml",
+   "table": "clientSideConfig.modifyMaxVDConfig",
+   "key": "enabled",
+   "value": "false",
+   "reason": "requested change, kept through pack updates (C2ME): the client's render distance slider stops at the game's own 32 again. C2ME's client-uncapvd raises that cap to 97, which was worth having while the host's own distance was everybody's ceiling - a guest could at least draw further through Farsight's memory. Since launcher release 272 the shared world is served as far as the furthest player asks, capped at 32, so a slider that goes to 97 only offers a number the server will never send: it costs the guest's own frames and gives him nothing. The rest of C2ME is untouched, including the no-tick view distance that makes the served ring affordable."
+  },
+  {
    "file": "config/lootr-client.toml",
    "table": "textures",
    "key": "vanilla_textures",
