@@ -9,15 +9,22 @@
 
 #The default model ID when a player first enters the game.
 #
-#The mod's own "default" is a character of its own, drawn instead of the player:
-#that is why a skin is visible while somebody is still loading and turns into a
-#stranger the moment the model arrives. misc/2_steve is the mod's copy of vanilla
-#Steve, and the mod special-cases it - for misc/2_steve and misc/1_alex, and for
-#no other model, it takes the texture from SkinManager.getInsecureSkin, which is
-#the player's own skin, the one the launcher serves. So the animations stay and
-#everybody keeps their face. Slim arms are misc/1_alex, one click away in the
-#model screen on F4. A player who already has a model keeps it.
-DefaultModelId = "misc/2_steve"
+#Empty on purpose: nobody is given a Yes Steve Model body unless they choose
+#one. The mod then draws nothing for them and the game draws the player itself,
+#which is the one path that shows the skin the launcher serves - proven in game
+#with /ysm model disable, which does the same thing one player at a time.
+#
+#misc/2_steve was tried first, because the mod does special-case it and
+#misc/1_alex: somewhere in it their texture comes from
+#SkinManager.getInsecureSkin, which is the player's own skin. It did not reach
+#the screen. The launcher waits on that method now and the wait was never once
+#asked for in a whole session, so the drawing goes another way and there is no
+#point guessing at which.
+#
+#Anyone who wants a YSM character presses F4 and picks one, and from then on
+#that is what they are. This only decides what a player who never picked gets,
+#and the answer is: themselves.
+DefaultModelId = ""
 
 [server_scheduler]
 	#How fast the server may send models to a player, in Mbps.
