@@ -572,8 +572,8 @@
    {
     "source": "tools/overlay/config/yes_steve_model-server.toml",
     "target": "config/yes_steve_model-server.toml",
-    "sha256": "e35855d56552d3ee1854bc30951c5f3746578261f150c2e28ea92b3d4ea45b0b",
-    "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId is misc/2_steve, the mod's copy of vanilla Steve. The mod special-cases misc/2_steve and misc/1_alex - and no other model - by taking their texture from SkinManager.getInsecureSkin, which is the skin the launcher serves, so a player who never picked a model is himself with the mod's animations, and F4 changes that to any character without a command. It was set to \"\" between 2026-08-29 and 2026-08-30 because the skin did not arrive; the cause was the launcher's own (release 222 stamped the clock into the textures on every read, which made a new SkinManager cache key every time and left getInsecureSkin with the default face), and launcher release 265 fixed it."
+    "sha256": "ffdbd53dd0e79d5f428c0254bfbf3ad699309661d125f1adf6730b62fcccc913",
+    "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId is empty, so nobody is given a model unless they pick one with F4. A player who has one is drawn by the mod rather than the game, and the mod draws only what the model has bones for - the built-in misc/2_steve and misc/1_alex have none for armour, and the only accessory the mod looks for is a Sophisticated Backpack, so full netherite showed as nothing at all. Drawn by the game a player keeps the launcher's skin (fixed in launcher release 265), the armour and the accessories; whoever wants animations picks a model and gives up the armour knowingly."
    },
    {
     "source": "tools/overlay/config/fancymenu/customization/ingame-pause-menu.txt",

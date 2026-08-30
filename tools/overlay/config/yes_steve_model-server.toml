@@ -9,27 +9,24 @@
 
 #The default model ID when a player first enters the game.
 #
-#misc/2_steve is the mod's own copy of vanilla Steve, and the mod special-cases
-#it: for misc/2_steve and misc/1_alex, and for no other model, the texture comes
-#from SkinManager.getInsecureSkin - the player's own skin, which here is the one
-#the launcher serves. So a player who never chose anything is himself, with the
-#mod's animations on top, and a player who presses F4 and picks a character is
-#that character. Slim arms are misc/1_alex, one click away in the same screen.
+#Nobody is given a Yes Steve Model body unless they ask for one, and the reason
+#is armour. A player who has a model is drawn by the mod instead of the game,
+#and the mod draws only what its model has bones for. The built-in misc/2_steve
+#and misc/1_alex have bones for the skin - Hat, Jacket, sleeves, pants, cape -
+#and locators for a held item, an elytra and a backpack, and no armour at all:
+#no helmet, no chestplate, no leggings, no boots. The mod knows whether they are
+#worn - it offers has_helmet, has_leggings and has_boots to a model's animations
+#- and leaves the drawing to the model. Curios are the same story: the only
+#accessory it looks for is a Sophisticated Backpack, for the BackpackLocator.
+#So a player in full netherite looked unarmoured, to himself and to everyone.
 #
-#This was set to nothing for two days because the skin did not arrive, and the
-#reason was the launcher's, not the mod's. Launcher release 222 started
-#rewriting the textures on every read and stamping the clock into them;
-#SkinManager keys its cache on exactly that text, so every read asked for a key
-#nobody had ever seen, missed, and got the default face back. getInsecureSkin is
-#the one caller that re-asks every time - the vanilla player keeps a single
-#answer and polls it - which is why Steve went blank while the plain player did
-#not. Launcher release 265 stamps the skin registry's own time instead, the key
-#holds still, and the face is there. Seen in game before this was written back.
-#
-#A player carrying disabled = true from the days of /ysm model disable is drawn
-#by the game and sees no model at all; /ysm model disable @a false gives them
-#back to the mod.
-DefaultModelId = "misc/2_steve"
+#Empty, the game draws the player, which shows the skin the launcher serves
+#(since launcher release 265, which fixed the cache key that had been hiding
+#it), the armour, the accessories and the elytra. Anyone who wants a character
+#of their own presses F4 and picks one, animations and all, and gives up the
+#armour on their own model knowingly. That is a choice worth offering and not
+#one worth making for everybody.
+DefaultModelId = ""
 
 [server_scheduler]
 	#How fast the server may send models to a player, in Mbps.
