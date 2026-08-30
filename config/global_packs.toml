@@ -102,7 +102,8 @@ log_pack_ids = false
 		"file/No Vignette 1.21.zip",
 		"file/Bad Dream Death.zip",
 		"file/Grays Mob Compatibility.zip",
-		"file/Deep Aether Tips.zip"
+		"file/Deep Aether Tips.zip",
+		"file/LL8 Mob Fixes.zip"
 	]
 [datapacks]
 	required = ["config/paxi/datapacks"]

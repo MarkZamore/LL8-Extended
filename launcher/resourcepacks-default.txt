@@ -61,6 +61,12 @@
 # and high-contrast variants from vanilla, Sodium, SpruceUI and Chest Tracker.
 # A pack inside a mod's jar can only be kept off that screen by the mod itself,
 # and Quark is the only one here that offers the switch.#
+#
+# LL8 Mob Fixes sits at the very top because it is the only pack here that
+# has to beat another pack rather than the ground: a model from one pack and
+# a texture from another, for the skeleton, the cow and the vex. It carries
+# nothing else, and every file in it exists because two packs below disagreed
+# about the size of a sheet.
 # The eight at the very bottom are there to be silent. Each is a mod's own older
 # look, and every file in it is redrawn by that mod's current assets, which sit
 # above. Switched on down here they change nothing, and that is the whole reason
@@ -158,3 +164,4 @@ file/No Vignette 1.21.zip
 file/Bad Dream Death.zip
 file/Grays Mob Compatibility.zip
 file/Deep Aether Tips.zip
+file/LL8 Mob Fixes.zip
