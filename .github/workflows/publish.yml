@@ -53,6 +53,11 @@ jobs:
           # A ru_ru.snbt that does not parse, lacks keys of en_us, or broke a
           # colour code does not ship either; a stale overlay hash is caught here.
           python tools/quests-ru/ru.py check
+          # Two lists decide the resource packs and both have gone quiet on
+          # their own: a pack the order names and the lock does not is
+          # draggable in game, and an edit that never reached the overlay
+          # source is undone by the next update. Neither ships again.
+          python tools/check_pack_locks.py
 
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
