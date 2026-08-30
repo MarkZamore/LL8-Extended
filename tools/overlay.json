@@ -568,6 +568,12 @@
     "target": "config/yes_steve_model-server.toml",
     "sha256": "55ca31ad4b48a20ec0ddc1064163ce6c68962523537ddfe84d4df44933badb78",
     "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId on misc/2_steve instead of the mod's own character, and BandwidthLimit at 999 instead of 5. misc/2_steve and misc/1_alex are the two models the mod special-cases: their texture comes from SkinManager.getInsecureSkin(profile), the player's real skin and the one the launcher's portable identity serves, so the launcher's skins and YSM's animations work together instead of the mod drawing its own character over everyone. The mod registers this as a SERVER config and NeoForge keeps those in config/, with saves/<world>/serverconfig only overriding per world - the readme NeoForge writes into that folder says so, and the instance here has the file in config/."
+   },
+   {
+    "source": "tools/overlay/config/fancymenu/customization/ingame-pause-menu.txt",
+    "target": "config/fancymenu/customization/ingame-pause-menu.txt",
+    "sha256": "e96c75f4cd309c88c1d8a1f9373933f15529233a645b3373c94bcfa975942887",
+    "reason": "requested fix, kept through pack updates (pause menu): the build's own \"Open to LAN\" button is gone from the layout. It is a FancyMenu custom_button with an opengui action on ShareToLanScreen, so it is not the vanilla widget and never turns into the player-report button - its own tooltip in this file admitted as much: \"Do NOT open to LAN again if you've already opened to LAN. Reason: The button won't be removed afterwards.\" The vanilla pause_share_to_lan_button is in the layout already and does the swap by itself, which is what the launcher's one-press publish needs: open the world on the first press, and the button becomes \u0416\u0430\u043b\u043e\u0431\u044b afterwards because the game decides that, not the layout."
    }
   ],
  "tomlEdits": [
