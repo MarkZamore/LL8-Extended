@@ -341,12 +341,6 @@
    "reason": "requested addition, kept through pack updates (Server-Side Horror 4.2): ambient horror the server plays at people - sounds, sightings, things moved. Needs Deimos, which comes with it. Registers no key"
   },
   {
-   "source": "tools/overlay/mods/SanityRenewed-21.1.1-mc1.21.1-neoforge.jar",
-   "target": "mods/SanityRenewed-21.1.1-mc1.21.1-neoforge.jar",
-   "sha256": "eee5fafaf2e09e32bed0a3725991c2a3b25eb75b91aa4b7dbcca57bb886be026",
-   "reason": "requested addition, kept through pack updates (Sanity: Renewed 21.1.1): the sanity meter from Don't Starve, which the dark and the monsters wear down. Needs Architectury 13 and GeckoLib 4.7; the pack has 13.0.11 and 4.9.2. Registers no key. This one changes how the game is played rather than how it looks"
-  },
-  {
    "source": "tools/overlay/mods/grotesque_steve-1.4.2-neoforge-1.21.1.jar",
    "target": "mods/grotesque_steve-1.4.2-neoforge-1.21.1.jar",
    "sha256": "05813d8b99f573bf540e083595af4ee98e1986997f578700eaef69bfa97d2586",
@@ -488,8 +482,8 @@
    {
     "source": "tools/overlay/kubejs/server_scripts/recipes_lost_to_the_rename.js",
     "target": "kubejs/server_scripts/recipes_lost_to_the_rename.js",
-    "sha256": "4632eb8ea3223d4afc4a602b36053f6f7877f4e94830b614d48a4955dc8b4a26",
-    "reason": "Minecraft 1.21 renamed data/<mod>/recipes to data/<mod>/recipe, and a mod that shipped for 1.21 without following ships recipes nothing reads: no error, no warning, an item that simply has no recipe. Sanity Renewed's Garland is one - a ring of eight flowers, in data/sanity_renewed/recipes/garland.json - and this registers it as its author wrote it. Titanium ships three the same way and they stay lost: they are its own test recipes, one of which turns dirt into a diamond."
+    "sha256": "dda5b20444131024aa400d03afffbf12a526a6ec1052e41ab038a2ca7587edb2",
+    "reason": "requested fix, kept through pack updates (recipes lost to the rename): Minecraft 1.21 renamed data/<mod>/recipes to data/<mod>/recipe, and a mod that shipped for 1.21 without following ships recipes nothing reads - no error, no warning, an item that simply has no recipe and reads as uncraftable in EMI. This registers the one that is still real in this build, Orbital Railgun's, exactly as its author wrote it. Titanium's three are its own test recipes and stay lost. Sanity: Renewed's garland was here too until the mod was taken out of the build on 2026-08-30."
    },
    {
     "source": "tools/overlay/config/identity2.json",

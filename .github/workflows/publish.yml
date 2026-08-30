@@ -58,6 +58,10 @@ jobs:
           # draggable in game, and an edit that never reached the overlay
           # source is undone by the next update. Neither ships again.
           python tools/check_pack_locks.py
+          # And that the overlay still describes the tree: a pinned file edited
+          # in the pack instead of in tools/overlay/ is undone by the next
+          # update, quietly, which has happened twice this week.
+          python tools/check_overlay.py
 
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
