@@ -373,7 +373,7 @@
   {
    "source": "tools/overlay/config/simplebackups-common.toml",
    "target": "config/simplebackups-common.toml",
-   "sha256": "6e6a0d9fd476a292f8e3517ef3bca1c8c7b2e1f4efc72e0e2453459dcd9a0053",
+   "sha256": "02da79871c2f4770e9729448aa64ee38642a53c7cab451c06ea7fde838a3b10e",
    "reason": "hourly backups kept, but incremental: a full archive once a day and only changed files in between (MODIFIED_SINCE_FULL, fullBackupTimer 1440), which is what stopped the archive growing by 862 MB to 1.7 GB an hour with the hourly full zip running 35 to 40 seconds during play. ignored_files_regex is empty, the way the mod ships it: it held a pattern for Distant Horizons' LOD databases written as a basic TOML string, where \\. is not a valid escape - NightConfig refused the file whole, so nothing else here reached a player either"
   },
   {
