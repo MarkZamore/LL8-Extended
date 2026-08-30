@@ -62,6 +62,11 @@ jobs:
           # in the pack instead of in tools/overlay/ is undone by the next
           # update, quietly, which has happened twice this week.
           python tools/check_overlay.py
+          # And that a datapack this pack ships is one the game will read.
+          # One malformed json fails its whole registry and the world then
+          # offers to open without its datapacks, which for a modded world
+          # means without the blocks they define. That shipped once.
+          python tools/check_datapacks.py
 
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
