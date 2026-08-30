@@ -137,6 +137,12 @@
    "reason": "no waiting three seconds and standing still to use /home or /tpa. FTB Essentials counts a warmup down before it moves anybody and cancels it if they step off the spot, which is a rule for a public server and noise on a world four friends share. Every warmup in the file is 0, and 0 is not a short wait: WarmupCooldownTeleporter.teleport reads the number and, when it is zero, calls teleportNow instead of queueing a Warmup at all - so nothing is watching the player's position afterwards either. The cooldowns between uses are untouched. The whole file is pinned because it is upstream's and an update would put the threes back"
   },
   {
+   "source": "tools/overlay/config/paxi/datapacks/ExtraDataModels-1.21-4.4.2.zip",
+   "target": "config/paxi/datapacks/ExtraDataModels-1.21-4.4.2.zip",
+   "sha256": "33a234694ef8ab1af95b5414df353675f39679c54ce89eb9a3bc007fb564b572",
+   "reason": "the same datapack with one file mended. data_models/horse.json ships with a stray brace after its conditions block and the key \"type\" written twice in one object, so it is not json at all: Hostile Neural Networks logs it and carries on, and the model has quietly not existed. What the author meant is written the way every other mod in this pack writes it, a neoforge:not with the thing it negates under \"value\". It still does not load here, because it asks for naturalist to be absent and naturalist is installed - the twin file, horse_naturalist.json, is the one that loads. Mending it buys a clean log now and the right model if naturalist ever leaves; mending it by deleting the brace alone would have inverted the condition and loaded both"
+  },
+  {
    "source": "tools/overlay/packs/LL8 Mob Fixes.zip",
    "target": "resourcepacks/LL8 Mob Fixes.zip",
    "sha256": "c8238aec1a10b599fb03447baa49098aabdf201825fbbd09491d1093cdc0b68b",
