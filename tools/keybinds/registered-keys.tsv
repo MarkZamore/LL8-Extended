@@ -500,8 +500,6 @@ key.silentgear.displayTraitDescriptions	silentgear	UNIVERSAL	assumed	key.keyboar
 key.silentgear.openItem	silentgear	UNIVERSAL	assumed	key.keyboard.x	key.keyboard.unknown	options+defaults	Open Item	Открыть предмет
 key.smallships.ship_sail	smallships	UNIVERSAL	assumed	key.keyboard.r	key.keyboard.f10	options+defaults	Toggle Sail	Контроль паруса
 key.smoothCamera	minecraft	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults		
-key.snatched.bb	snatched	UNIVERSAL	assumed		key.keyboard.unknown	options	Escape	Сбежать
-key.snatched.n	snatched	UNIVERSAL	assumed		key.keyboard.unknown	options	Raise hands	Поднять руки
 key.sneak	minecraft	UNIVERSAL	assumed	key.keyboard.left.shift	key.keyboard.left.shift	options+defaults		
 key.socialInteractions	minecraft	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults		
 key.sophisticatedbackpacks.inventory_interaction	sophisticatedbackpacks	UNIVERSAL	assumed	key.keyboard.c	key.keyboard.unknown	options+defaults	Run Inventory Interaction Upgrades	Загрузить или выгрузить содержимое

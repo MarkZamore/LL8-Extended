@@ -498,12 +498,6 @@
     "reason": "Re:Animal replaces vanilla's pathfinding debug broadcast with a packet of its own, and that packet's writer indexes a path with no nodes: \"Failed encoding custom payload the_black_blood:pathfinding_debug: Index -1 out of bounds for length 0\". The encode fails, netty closes the channel, and the player is dropped to the title screen with Connection lost - the host of an empty world included, which is how it was found. This copy is the author's jar with one line gone from reanimal.mixins.json, the DebugPacketsMixin entry; every class, model and sound in it is untouched, and its other mixin still applies. When a release changes the jar the sha here stops the update, and the line is taken out again by hand."
    },
    {
-    "source": "tools/overlay/mods/snatched-1.2.1-neoforge-1.21.1.jar",
-    "target": "mods/snatched-1.2.1-neoforge-1.21.1.jar",
-    "sha256": "d659684d7dc1d810c702d8c9f984e03ebf45bb2e507d617826553140a18b8f67",
-    "reason": "requested addition, kept through pack updates (snatched 1.2.1-neoforge-1.21.1): a rope, a lasso, a sack and handcuffs, so one player can tie another up. This is the mod asked for as Kidnap - the same project by XZX under its later name. Its jars were called kidnap- up to 1.0.1 in November 2024 and snatched- from 1.0.0 in February 2025, and every kidnap-named build is Forge declaring minecraft [1.20.1] or [1.19.2], so none of them can load here. This build declares neoforge [21.1.190,) against the 21.1.248 the pack runs, needs no other mod and carries no nested jars."
-   },
-   {
     "source": "tools/overlay/config/serversidehorror.json",
     "target": "config/serversidehorror.json",
     "sha256": "77a893bd2b106f4cfb6c248a801e010158e302df1d3d5347f9339377bacb88f8",
@@ -619,6 +613,10 @@
     "path": "config/gaze-common.toml",
     "reason": "configuration of the removed mod"
    },
+  {
+   "path": "mods/snatched-*.jar",
+   "reason": "Snatched, the mod for tying players up: rope and handcuff armour, a bag over the head, a lasso, and a first-person animation for the bound player. Removed at the owner's word. Nothing depends on it and no quest, recipe, script or tag of the build mentions it; its two key mappings - Escape and Raise hands - left launcher/controls-preset.txt and tools/keybinds/registered-keys.tsv with it, both unbound anyway because the mod ships them on b and n, where Sophisticated Backpacks and Cobblemon already were."
+  },
   {
    "path": "mods/SanityRenewed-*.jar",
    "reason": "Sanity: Renewed, the Don't Starve sanity meter, asked for: a bar that fills in the dark and empties near monsters, with hallucinations at the bottom of it, on a build nobody chose it for. Removed at the owner's word. Nothing in the build depends on it - it declares architectury and geckolib and is named by no other mod - and the one recipe the pack registered for its garland was already written to register only if the item exists."
