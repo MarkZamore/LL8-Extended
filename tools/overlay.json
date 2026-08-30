@@ -512,8 +512,8 @@
    {
     "source": "tools/overlay/config/serversidehorror.json",
     "target": "config/serversidehorror.json",
-    "sha256": "77a893bd2b106f4cfb6c248a801e010158e302df1d3d5347f9339377bacb88f8",
-    "reason": "long_night_enable, replace_torches_enable and break_torches_enable off. The mod rolls one chance in seventy-five in the world tick, and when it comes up it sets a saved flag and the night stops ending: a player lay down seven times before the sun came up, with nothing to say why. The rest of the file is the mod's own defaults, every other trick it plays included - the long night is the one that takes an evening away instead of giving somebody a fright, and the two torch tricks - swapping the torches around a player for redstone ones, or taking them out - are the light going out in a cave rather than a fright at all."
+    "sha256": "2b757e1fc22fd155a5b4a5fdb78a3aa42909f5e453fc77f681b4f6075e679457",
+    "reason": "requested fix, kept through pack updates (Server Side Horror 4.2): the four events that put a fake player in the world are off - fake_joiner, joining_in_dungeon, herobrine_starer, jumpscare. The mod builds that player without a network connection, so Connection.channel is null, and anything that sends it a packet throws. On 2026-08-30 it did so twice in one evening: CommonClass.getSkin blocked the server thread for forty seconds fetching its skin from api.mojang.com, and spawnFakePlayer -> findValidSpawnPos -> hasLineOfSight woke Artifacts, which asked Accessories, which broadcast to tracking and self - NullPointerException in NetworkRegistry, caught by Neruina, which kicked the host out of her own world and closed it for everyone. Everything else the mod does stays on: signs, lightning, fake mining and steps, traps, the bag."
    },
    {
     "source": "tools/overlay/mods/Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar",
