@@ -9,22 +9,27 @@
 
 #The default model ID when a player first enters the game.
 #
-#Empty on purpose: nobody is given a Yes Steve Model body unless they choose
-#one. The mod then draws nothing for them and the game draws the player itself,
-#which is the one path that shows the skin the launcher serves - proven in game
-#with /ysm model disable, which does the same thing one player at a time.
+#misc/2_steve is the mod's own copy of vanilla Steve, and the mod special-cases
+#it: for misc/2_steve and misc/1_alex, and for no other model, the texture comes
+#from SkinManager.getInsecureSkin - the player's own skin, which here is the one
+#the launcher serves. So a player who never chose anything is himself, with the
+#mod's animations on top, and a player who presses F4 and picks a character is
+#that character. Slim arms are misc/1_alex, one click away in the same screen.
 #
-#misc/2_steve was tried first, because the mod does special-case it and
-#misc/1_alex: somewhere in it their texture comes from
-#SkinManager.getInsecureSkin, which is the player's own skin. It did not reach
-#the screen. The launcher waits on that method now and the wait was never once
-#asked for in a whole session, so the drawing goes another way and there is no
-#point guessing at which.
+#This was set to nothing for two days because the skin did not arrive, and the
+#reason was the launcher's, not the mod's. Launcher release 222 started
+#rewriting the textures on every read and stamping the clock into them;
+#SkinManager keys its cache on exactly that text, so every read asked for a key
+#nobody had ever seen, missed, and got the default face back. getInsecureSkin is
+#the one caller that re-asks every time - the vanilla player keeps a single
+#answer and polls it - which is why Steve went blank while the plain player did
+#not. Launcher release 265 stamps the skin registry's own time instead, the key
+#holds still, and the face is there. Seen in game before this was written back.
 #
-#Anyone who wants a YSM character presses F4 and picks one, and from then on
-#that is what they are. This only decides what a player who never picked gets,
-#and the answer is: themselves.
-DefaultModelId = ""
+#A player carrying disabled = true from the days of /ysm model disable is drawn
+#by the game and sees no model at all; /ysm model disable @a false gives them
+#back to the mod.
+DefaultModelId = "misc/2_steve"
 
 [server_scheduler]
 	#How fast the server may send models to a player, in Mbps.

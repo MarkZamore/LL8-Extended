@@ -572,8 +572,8 @@
    {
     "source": "tools/overlay/config/yes_steve_model-server.toml",
     "target": "config/yes_steve_model-server.toml",
-    "sha256": "55ca31ad4b48a20ec0ddc1064163ce6c68962523537ddfe84d4df44933badb78",
-    "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId on misc/2_steve instead of the mod's own character, and BandwidthLimit at 999 instead of 5. misc/2_steve and misc/1_alex are the two models the mod special-cases: their texture comes from SkinManager.getInsecureSkin(profile), the player's real skin and the one the launcher's portable identity serves, so the launcher's skins and YSM's animations work together instead of the mod drawing its own character over everyone. The mod registers this as a SERVER config and NeoForge keeps those in config/, with saves/<world>/serverconfig only overriding per world - the readme NeoForge writes into that folder says so, and the instance here has the file in config/."
+    "sha256": "e35855d56552d3ee1854bc30951c5f3746578261f150c2e28ea92b3d4ea45b0b",
+    "reason": "requested fix, kept through pack updates (Yes Steve Model): DefaultModelId is misc/2_steve, the mod's copy of vanilla Steve. The mod special-cases misc/2_steve and misc/1_alex - and no other model - by taking their texture from SkinManager.getInsecureSkin, which is the skin the launcher serves, so a player who never picked a model is himself with the mod's animations, and F4 changes that to any character without a command. It was set to \"\" between 2026-08-29 and 2026-08-30 because the skin did not arrive; the cause was the launcher's own (release 222 stamped the clock into the textures on every read, which made a new SkinManager cache key every time and left getInsecureSkin with the default face), and launcher release 265 fixed it."
    },
    {
     "source": "tools/overlay/config/fancymenu/customization/ingame-pause-menu.txt",
