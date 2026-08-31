@@ -97,6 +97,11 @@ config/connectivity.json
 # setting in it is the pack's to decide as well.
 config/ftbessentials.snbt
 
+# Lootr rewrites its client config at every start, the same way FTB
+# Essentials does, so a change shipped here would look like the player's
+# own work from the first launch and never reach them again.
+config/lootr-client.toml
+
 # And the file the launcher seeds that one from when it is missing. It is
 # not read while the live config is there, but it holds the mod's own
 # numbers, and a stale copy of them is the first place to look when the
