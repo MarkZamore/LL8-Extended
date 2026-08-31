@@ -102,6 +102,10 @@ config/ftbessentials.snbt
 # own work from the first launch and never reach them again.
 config/lootr-client.toml
 
+# EMF rewrites its settings file at every start, so the chest models
+# switched off in it have to be written over the same way.
+config/entity_model_features.json
+
 # And the file the launcher seeds that one from when it is missing. It is
 # not read while the live config is there, but it holds the mod's own
 # numbers, and a stale copy of them is the first place to look when the
