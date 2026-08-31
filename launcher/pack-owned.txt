@@ -87,3 +87,12 @@ config/serversidehorror.json
 config/identity2.json
 # the disconnect timeout is five minutes rather than one, because a guest is frozen up to a minute inside that same EMI reload while the host hands them the registry of 880 mods
 config/connectivity.json
+
+# The teleport warmups are zero here: no three second wait before /home or
+# an accepted /tpa, and nothing to cancel by stepping aside. FTB Essentials
+# rewrites this file on start, so an instance that has ever run has one that
+# looks hand-edited and the pack's copy never reached it - the warmups
+# shipped as zero and stayed at three for everybody who already played here.
+# The whole file comes with the claim, which is the trade: every other
+# setting in it is the pack's to decide as well.
+config/ftbessentials.snbt
