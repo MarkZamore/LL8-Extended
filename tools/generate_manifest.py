@@ -270,6 +270,10 @@ def generate(pack: Path, out: Path, revision: str) -> None:
 
     manifest = {
         "schemaVersion": 1,
+        # This pack, and not the one this script was copied from: the same
+        # short name the publish workflow uses. Three repositories carried
+        # this line over unchanged and published manifests calling
+        # themselves LL8.
         "packId": "LL8",
         "revision": revision,
         "generatedAtUtc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
