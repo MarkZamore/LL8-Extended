@@ -96,3 +96,9 @@ config/connectivity.json
 # The whole file comes with the claim, which is the trade: every other
 # setting in it is the pack's to decide as well.
 config/ftbessentials.snbt
+
+# And the file the launcher seeds that one from when it is missing. It is
+# not read while the live config is there, but it holds the mod's own
+# numbers, and a stale copy of them is the first place to look when the
+# live config keeps coming back with the defaults in it.
+defaultconfigs/ftbessentials-server.snbt
