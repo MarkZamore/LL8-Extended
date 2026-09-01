@@ -111,3 +111,13 @@ config/entity_model_features.json
 # numbers, and a stale copy of them is the first place to look when the
 # live config keeps coming back with the defaults in it.
 defaultconfigs/ftbessentials-server.snbt
+
+# AsyncParticles keeps its mixin switches here and stamps the file with the
+# time it last wrote them, so an instance that has started once differs from
+# the pack copy by that single line and looks hand-edited from then on -
+# nothing changed here would ever reach a player again. The switch the claim
+# is for is safeClassInstanceMultiMap: the mod runs animateTick off the main
+# thread, Burnt's grass looks entities up inside it, and ClassInstanceMultiMap
+# cannot be read while the main thread writes it. The game said so in chat on
+# every occurrence; now the map is locked instead.
+config/asyncparticles/asyncparticles-mixin.properties
