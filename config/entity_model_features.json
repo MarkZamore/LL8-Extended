@@ -16,7 +16,8 @@
     "trapped_chest",
     "chest_large",
     "trapped_chest_large",
-    "ender_chest"
+    "ender_chest",
+    "vindicator"
   ],
   "allowEBEModConfigModify": true,
   "animationLODDistance": 20,
