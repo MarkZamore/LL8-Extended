@@ -59,7 +59,7 @@
     "I am from Mars\n \n \n "
   ],
   "random_fake_joiner_chance": 720000,
-  "random_fake_joiner_enable": true,
+  "random_fake_joiner_enable": false,
   "random_fake_joiner_list": [
     "Projekt_M;BAF;wusup;Huh, wrong server;Hello?;I want to play with you;Want to be friends?",
     "MarsThePlanet_;Make a wish;No eyes always watches"
