@@ -341,10 +341,10 @@
    "reason": "requested addition, kept through pack updates (ufo 2.1-fix7). Its own toml asks only for neoforge [21.1.216,) - this pack is on 21.1.248 - but the jar is built on Applied Energistics 2 far past what it declares: 118 classes reach into appeng and six mixins go straight into AE2 internals, CraftingCPUCluster and the CPU selection list among them. Both AE2 and Mekanism, which another 24 classes touch, are in the pack. CurseForge lists LDLib and Applied Mekanistics as required and neither is: Applied Mekanistics is referenced by nothing at all, and LDLib only by three classes under compat/jei, which is a JEI plugin and this pack ships EMI. The same gap means its recipes do not appear in EMI, because it has no EMI integration. The jar is the one CurseForge published, byte for byte. It registers quantum_pattern_hatch_menu twice - through AE2 build(id), which also queues the id, from inside a DeferredRegister that registers it as well - and that is what stopped the pack starting the day it arrived. Launcher release 336 rewrites the call to buildUnregistered as the class loads, so the jar stays as its author made it. The price is that this pack now needs that launcher to start at all: in any other one it dies on Adding duplicate key before the main menu."
   },
   {
-   "source": "tools/overlay/mods/windy-1.1.1+1.21-neoforge.jar",
-   "target": "mods/windy-1.1.1+1.21-neoforge.jar",
-   "sha256": "5be5d5b6359dbec76f25a446210aab7bdb31a771e9c4bfb150d2001b3e005620",
-   "reason": "requested addition, kept through pack updates (Windy 1.1.1): wind drifts through the air as particles, softly in clear weather and hard in a storm. Client and server, needs YetAnotherConfigLib which the pack ships, registers no key"
+   "source": "tools/overlay/mods/windy-neoforge-1.21.1.jar",
+   "target": "mods/windy-neoforge-1.21.1.jar",
+   "sha256": "072051afae24074885d3d9bbcefc221cab0f98e71420d3fd45676cedbc6724f8",
+   "reason": "requested addition, kept through pack updates (Windy 1.2.0): wind drifts through the air as particles, softly in clear weather and hard in a storm. Client and server, registers no key. 1.2.0 dropped the YetAnotherConfigLib requirement 1.1.1 had, so it now asks for nothing but NeoForge. The file name carries no version - CurseForge ships every build as windy-neoforge-1.21.1.jar - so the sha256 below is the only thing that says which one this is"
   },
   {
    "source": "tools/overlay/mods/spawnanimations-v1.11.5-mc1.17-26.2.9-mod.jar",
