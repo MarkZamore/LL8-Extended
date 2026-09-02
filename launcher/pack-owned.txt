@@ -132,3 +132,10 @@ config/asyncparticles/asyncparticles-mixin.properties
 # has one of its own and nothing shipped here would reach it. The whole file
 # comes with the claim; everything else in it is the mod's own default.
 config/projectexpansion/client.toml
+
+# NeoForge rewrites this one itself, so it looks edited from the first launch
+# and nothing shipped could otherwise reach it again. What it carries is the
+# pack's: the early window the loader shows while mods load, which opens
+# maximized rather than at 854 by 480 and then stretching when the game takes
+# the same window over.
+config/fml.toml

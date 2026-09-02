@@ -675,6 +675,13 @@
    "reason": "The switch that makes a Variant Bee wrong, held at off. The Bumblezone spawns sixteen pride-flag variants among ordinary bees, and its own text beside this key says to turn it on \"if Variant Bee's model is messed up by another mod or resourcepack\" - which is exactly what a player saw before Grays Mob Compatibility existed, because Grays Mob Overhaul ships assets/minecraft/optifine/cem/bee.jem and Entity Model Features hands that model to every renderer baking the vanilla bee layer, VariantBeeRenderer included. Turning it on moves the bee onto the_bumblezone:variant_bee#main, a layer no .jem here matches, so it keeps vanilla-layout geometry - and since the compatibility pack redraws all 64 variant textures onto Grays' layout instead, the fix from back then is now the thing that breaks it. Off is the only value that agrees with the packs this build locks on. The file is not pack-owned, so a player who already flipped it keeps their copy: this holds the shipped one, and only that."
   },
   {
+   "file": "config/fml.toml",
+   "table": "",
+   "key": "earlyWindowMaximized",
+   "value": "true",
+   "reason": "requested change, kept through pack updates: the loader's early window opens maximized. NeoForge shows it while the mods load and then hands the same window to the game, so at 1280x768 the player watched a small window sit through the whole load and then stretch when Minecraft took it over. config/ is regenerated from upstream, so this has to be an edit here rather than a value in the tree; the file is claimed in pack-owned.txt as well, because NeoForge rewrites it itself and an instance that already has one would never see the change otherwise"
+  },
+  {
    "file": "config/c2me.toml",
    "table": "clientSideConfig.modifyMaxVDConfig",
    "key": "enabled",
