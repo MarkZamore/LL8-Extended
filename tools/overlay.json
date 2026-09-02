@@ -335,6 +335,12 @@
    "reason": "the jar upstream ships, with one call changed inside the ae2addonlib 1.0.3 it carries. AE2 offers two builders: buildUnregistered(id) makes a MenuType, and build(id) makes it and also queues the id for AE2 to register. ae2addonlib calls build(id) from inside a DeferredRegister supplier, so NeoForge registers the same id as well - and the second one throws. That is what took the pack down the day UFO FUTURE arrived: Adding duplicate key ufo:dimensional_matter_assembler, the whole registry rolled back to vanilla, Diagonal Blocks died rebuilding its walls during the rollback, every mod was marked broken, and the crash report blamed Screenshot Viewer for reading its config on the error screen nobody could show. The call is buildUnregistered here, which is the same method without the queueing, so the menu is registered exactly once. Advanced AE itself never uses MenuRegistry - no class in the jar references it - so nothing but UFO FUTURE's menus changes. The cost is that this pins Advanced AE at 1.6.11: an update from upstream would be written over by this copy and the patch would have to be redone. It comes back out the day the launcher can make the same rewrite at class-load time, which leaves both jars untouched."
   },
   {
+   "source": "tools/overlay/mods/projectexpansion-1.21.1-1.0.6.jar",
+   "target": "mods/projectexpansion-1.21.1-1.0.6.jar",
+   "sha256": "96ef339eed405a4b1257420a6ff19279534de911f966b51fb6f1231fb0ff32f5",
+   "reason": "requested addition, kept through pack updates (projectexpansion 1.21.1-1.0.6). What makes ProjectE reach the rest of a technical pack: EMC links, tiered collectors and condensers, and learning items without holding them. Asks for projecte [1.1.0,) against the 1.1.0 added beside it, and neoforge [21.1.119,) against 21.1.248. Unlike UFO it hides nothing: the only foreign package it touches is mezz.jei, and its integrations for curios, jade, jei, top and wthit are all optional - curios, jade and the TMRV jei stub are here, top and wthit are not and simply do not load. Added knowing the neutron collector still prints EMC; that was the owner's call, not an oversight"
+  },
+  {
    "source": "tools/overlay/mods/ufo-2.1-fix7.jar",
    "target": "mods/ufo-2.1-fix7.jar",
    "sha256": "b7889069b35672e32c58eaf0e3242b95bc68064ec1e2a143435ea3400711ba79",
