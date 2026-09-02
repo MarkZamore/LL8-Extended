@@ -151,7 +151,7 @@
   {
    "source": "tools/overlay/packs/LL8 Mob Fixes.zip",
    "target": "resourcepacks/LL8 Mob Fixes.zip",
-   "sha256": "00bf7bf975639e487db65bda32ce68c9c9b6107e8b1bc74c5abac681e86a1734",
+   "sha256": "49df312c461b2de90df13e75f0aa453b63db6bbde0093fea715c9853af71f83f",
    "reason": "this build's own pack, five mobs whose model and texture came from different packs and did not agree. the marauder and the basher of Illager Invasion both bake the vanilla vindicator model layer, so EMF was giving them Gray's 128-UV vindicator.jem and Gray's compatibility pack was supplying 128px sheets to match - which worked, but what stood in the world was Gray's drawing of them rather than the mod's. vindicator is switched off in EMF now, so all three come back to the vanilla model, and the three 64px sheets they then need are here: the mod's own savager.png and basher.png, and Mojang's vindicator.png. the archivist and the necromancer are on the evoker layer and keep Gray's. and the older three:  skeleton.jem is Gray's skeleton - skull, jaw, ribcage and all - with the finger boxes from Skeletons Hands 67 remapped onto Gray's own 64x64 sheet, because that pack declared a 64x32 sheet and defined only the arms, so the vanilla skull and ribs came back and every arm UV read the wrong half. skeleton2.jem and skeleton.properties keep the joke: a skeleton named 67, six seven or sixseven still gets the second model and its wave, and it is now given sixseven.png by name, which the original never referenced. cow.properties pins the cow to the texture bound to it: Mugget's Standing Cow substitutes a 64x32 model and Gray's nineteen variants are painted for 128x128, so nineteen cows in twenty were scrambled. The two vex textures are The Backwoods classic's own 410x410 pair, put back above Gray's 64x64 pair, because the vex model in play is Backwoods' 410x410 one and Gray's ships no vex.jem to go with its art."
   },
   {
@@ -902,12 +902,14 @@
    ]
   },
   {
-   "reason": "Mods this build added by hand, which upstream's release does not carry. The sync would find them absent from it and delete them, and the overlay holds the other forty-two but not these ten. None replaces a file upstream ships, so keeping them cannot leave two jars of one mod behind - Biolith looks like the exception and is not, because upstream carries 3.0.10 nested inside Quark and this standalone 3.0.14 wins over a nested copy by version, which is why it is here at all. Create Aeronautics and Sable were two of these lines and are out for the moment, while it is settled whether they are what stops water being drawn; when they come back they come back together, because the bundled Aeronautics jar carries aeronautics, offroad and simulated, every one of which requires sable [2.0.0,3.0.0), and does not carry Sable itself.",
+   "reason": "Mods this build added by hand, which upstream's release does not carry. The sync would find them absent from it and delete them, and the overlay holds the other forty-two but not these ten. None replaces a file upstream ships, so keeping them cannot leave two jars of one mod behind - Biolith looks like the exception and is not, because upstream carries 3.0.10 nested inside Quark and this standalone 3.0.14 wins over a nested copy by version, which is why it is here at all. Create Aeronautics and Sable are one entry in two lines: the bundled Aeronautics jar carries aeronautics, offroad and simulated, every one of which requires sable [2.0.0,3.0.0), and it does not carry Sable itself - so losing either path takes the other down with it at load. They were out of the pack for exactly one build, to answer whether they were what stopped water being drawn. They were not.",
    "paths": [
     "mods/biolith-neoforge-3.0.14.jar",
+    "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
     "mods/entity_model_features-3.2.4-1.21-neoforge.jar",
     "mods/entity_texture_features_1.21-neoforge-7.1.jar",
     "mods/iceandfire-2.0.jar",
+    "mods/sable-neoforge-1.21.1-2.0.5.jar",
     "mods/jupiter-2.3.7-1.21.1-neoforge.jar",
     "mods/touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar",
     "mods/touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar",
