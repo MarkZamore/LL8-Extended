@@ -36,6 +36,7 @@ import random
 import re
 import shutil
 import sys
+import pathlib
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -278,6 +279,10 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         "revision": revision,
         "generatedAtUtc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "minecraftVersion": portable.get("minecraftVersion"),
+        # Jars plus what is nested in them. The launcher weighs an
+        # installed pack by that number and an unweighed one by this,
+        # and the estimate moved by up to 3 GB when only one existed.
+        "modCount": count_loaded_mods(pack, shipped),
         "loader": portable.get("loader"),
         "clientJar": client_jar,
         "files": [
@@ -321,6 +326,38 @@ def verify_only(out: Path) -> None:
                  f"got {actual_sha}/{actual_size}")
         print(f"verify ok: {asset['name']}")
     print(f"verified {len(sample)} of {len(assets)} staged assets")
+
+
+
+def count_loaded_mods(pack: pathlib.Path, shipped: list[str]) -> int:
+    """
+    The jars under mods/, plus the mods nested inside them.
+
+    This is the number the launcher works out for an installed pack by opening
+    every jar, and publishing it is what makes the memory estimate it shows
+    before a download match the one it shows after. It cannot be arrived at from
+    the file list alone: across the packs published from this machine the ratio
+    of nested mods to jars runs from 1.18 to 2.79 and follows neither the loader
+    nor the bytes, so a multiplier is wrong by up to three gigabytes of
+    suggested heap. Counting them here costs about a second and a half on the
+    largest pack, on jars this script has already opened to hash.
+    """
+    jars = [rel for rel in shipped
+            if rel.startswith("mods/") and rel.lower().endswith(".jar")]
+    nested = 0
+    for rel in jars:
+        try:
+            with zipfile.ZipFile(pack / rel) as archive:
+                for name in archive.namelist():
+                    lower = name.lower()
+                    if lower.endswith(".jar") and (
+                            lower.startswith("meta-inf/jars/")
+                            or lower.startswith("meta-inf/jarjar/")):
+                        nested += 1
+        except (OSError, zipfile.BadZipFile):
+            # A jar that will not open carries nothing anyone can count.
+            continue
+    return len(jars) + nested
 
 
 def main() -> None:
