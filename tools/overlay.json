@@ -365,6 +365,30 @@
    "reason": "requested addition, kept through pack updates (Sun & Moon Fusion 2.1): two textures, sun.png and moon_phases.png. It is listed above The Sky Sun and Moon and zazu sun and moon, which draw the same two, so this is the one that shows"
   },
   {
+   "source": "tools/overlay/mods/minecolonies-1.1.1376-1.21.1-snapshot.jar",
+   "target": "mods/minecolonies-1.1.1376-1.21.1-snapshot.jar",
+   "sha256": "ac86d034b696d9eaccdc089c67d788dde21681902cfc75ada075fd677b479a6d",
+   "reason": "requested addition, kept through pack updates (MineColonies 1.1.1376): a colony of villagers who build what you plan for them. 1.21.1 has only snapshot builds - that is how this mod ships for a version it is still following - and this is the newest. Its own toml asks for structurize [1.0.832-1.21.1-snapshot,), blockui [1.0.199-1.21.1-snapshot,) and domum_ornamentum [1.0.223-snapshot,); the first two come with it here and the third was already in the pack at 1.0.234, so no upstream jar had to move. JEI is optional at [19.19.6.235,) and the stub TMRV ships answers 19.27.0.343, so its recipes are offered rather than refused. CurseForge also marks Multi-Piston and TownTalk required and the jar declares neither: Multi-Piston is here anyway because the builder calls it, TownTalk is not - fifty megabytes of 2024 voice lines nothing in this jar asks for"
+  },
+  {
+   "source": "tools/overlay/mods/structurize-1.0.832-1.21.1.jar",
+   "target": "mods/structurize-1.0.832-1.21.1.jar",
+   "sha256": "b6ede7635c63a80bd3d034c1ad3e74c648b8478f341f883d7d29c3dcf90b79ce",
+   "reason": "what MineColonies plans, previews and places buildings with, and a builder's tool of its own. MineColonies asks for [1.0.832-1.21.1-snapshot,), which is this build exactly; it in turn wants blockui [1.0.191-1.21.1-snapshot,) and domum_ornamentum [1.0.203-1.21.1-snapshot,), both satisfied here"
+  },
+  {
+   "source": "tools/overlay/mods/blockui-1.0.211-1.21.1-snapshot.jar",
+   "target": "mods/blockui-1.0.211-1.21.1-snapshot.jar",
+   "sha256": "5dfffc80c057b4d36123bd5f5cad9f32f86896a9dd993ea4a3ecad315cabd77e",
+   "reason": "the screen toolkit every MineColonies and Structurize window is drawn with. Asked for at [1.0.199-1.21.1-snapshot,) and [1.0.191-1.21.1-snapshot,); this is 1.0.211, and it needs nothing but NeoForge"
+  },
+  {
+   "source": "tools/overlay/mods/multipiston-1.2.58-1.21.1.jar",
+   "target": "mods/multipiston-1.2.58-1.21.1.jar",
+   "sha256": "7ca26db4648589b7f76694c249d5096c0c0afb7615fe6adf9f638c6c825c15e7",
+   "reason": "how a MineColonies builder moves a block further than a vanilla piston reaches. MineColonies' own toml does not name it, but CurseForge marks it required and the builder calls into it, so it comes along rather than being found missing mid-build. It asks for blockui [1.0.188-1.21.1-snapshot,) and structurize [1.0.751-1.21.1-snapshot,), both here"
+  },
+  {
    "source": "tools/overlay/mods/burnt-1.10.2.4-neoforge-1.21.1.jar",
    "target": "mods/burnt-1.10.2.4-neoforge-1.21.1.jar",
    "sha256": "5e0111c42883a1769b8695e6633bf4429720a245ec458efa1e6cc8166eb93380",
