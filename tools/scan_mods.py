@@ -11,11 +11,23 @@ recursively (shaded/nested jars satisfy dependencies). Then check:
   (d) jars whose declared `neoforge` range excludes the pack loader version
   (e) informational: modIds nothing depends on (orphan candidates)
 
---fail-on-issues exits 1 if any of (a)-(d) fired. With --lenient-ranges the
-range-shaped findings (c)+(d) degrade to warnings: LL8 upstream ships the pack
-exactly as scanned here, so range mismatches are the modpack author's problem,
-while duplicate modIds (a) and missing mandatory deps (b) would break OUR
-tree and stay fatal.
+    (x) jars declaring type="incompatible" against something the pack ships,
+        at a version inside the forbidden range
+
+--fail-on-issues exits 1 if any of (a)-(d) or (x) fired. With --lenient-ranges
+the range-shaped findings (c)+(d) degrade to warnings: LL8 upstream ships the
+pack exactly as scanned here, so range mismatches are the modpack author's
+problem, while duplicate modIds (a) and missing mandatory deps (b) would break
+OUR tree and stay fatal.
+
+(x) is fatal either way, which is why it is kept apart. A range that does not
+line up usually still boots; a mod naming something the pack ships as
+incompatible is NeoForge refusing to load - an error screen instead of a game.
+Twelve such edges exist here today and not one fires, because the shipped
+version sits above the ban: Create by a single patch, Sodium by one beta,
+starcatcher_delight by one patch. Any of those moving backwards, upstream or
+here, is a build that will not start, and under --lenient-ranges it would have
+published with a warning.
 """
 from __future__ import annotations
 
@@ -426,7 +438,12 @@ def main() -> int:
 
     issues_a: list[str] = []  # duplicate modIds
     issues_b: list[str] = []  # unsatisfied mandatory deps
-    issues_c: list[str] = []  # range violations / present incompatibles
+    issues_c: list[str] = []  # range violations
+    # Kept apart from (c) because it states a different kind of fact. A range
+    # that does not line up usually still boots and is the modpack author's
+    # problem; a mod naming something the pack actually ships as incompatible
+    # is NeoForge refusing to load, and that one is ours.
+    issues_x: list[str] = []  # declared incompatible, and the target is here
     issues_d: list[str] = []  # neoforge range excludes loader
     info_e: list[str] = []    # orphans
 
@@ -471,7 +488,7 @@ def main() -> int:
             hits = [p for p in candidates if rng.contains(p.version)]
             if hits:
                 versions = ", ".join(sorted({p.version for p in hits}))
-                issues_c.append(
+                issues_x.append(
                     f"{edge.consumer_jar} ({edge.consumer_mod}) declares `{edge.dep_id}` "
                     f"{edge.version_range or '*'} INCOMPATIBLE, but it is present: {versions} [side={edge.side}]")
             continue
@@ -532,9 +549,12 @@ def main() -> int:
         issues_b = [i for i in issues_b if not excused(i)]
         issues_c = [i for i in issues_c if not excused(i)]
         issues_d = [i for i in issues_d if not excused(i)]
+        issues_x = [i for i in issues_x if not excused(i)]
 
     # Under --lenient-ranges the range-shaped findings are printed as warnings
     # and stop gating --fail-on-issues (see module docstring for the rationale).
+    # (x) is deliberately not among them: a present incompatible is not a
+    # mismatch to shrug at, it is a build that will not launch.
     if arguments.lenient_ranges:
         warnings.extend(issues_c)
         warnings.extend(issues_d)
@@ -556,13 +576,14 @@ def main() -> int:
     emit("(b) unsatisfied mandatory deps", issues_b, "ERROR")
     emit("(c) version-range violations", issues_c, "ERROR")
     emit(f"(d) neoforge range excludes {loader_version}", issues_d, "ERROR")
+    emit("(x) declared incompatible and present", issues_x, "ERROR")
     if warnings:
         emit("warnings", warnings, "WARN")
     print(f"== (e) informational: modIds with no consumers: {len(info_e)}")
     for item in info_e:
         print(f"  [INFO] {item}")
 
-    blocking = len(issues_a) + len(issues_b) + len(issues_c) + len(issues_d)
+    blocking = len(issues_a) + len(issues_b) + len(issues_c) + len(issues_d) + len(issues_x)
     print(f"\nblocking issues: {blocking}")
     if arguments.fail_on_issues and blocking:
         return 1
