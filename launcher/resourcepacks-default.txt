@@ -163,3 +163,4 @@ file/Bad Dream Death.zip
 file/Grays Mob Compatibility.zip
 file/Deep Aether Tips.zip
 file/LL8 Mob Fixes.zip
+file/Cobblemon Translation [RU] 1.5.1.zip

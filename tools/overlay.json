@@ -173,6 +173,12 @@
    "reason": "requested fix, kept through pack updates (Deep Aether tips): five files under assets/aether/tips are written in the shape Tips used before 21.1, with tip and title and no type, so TipManager.apply throws \"Input does not contain a key [type]\" on every resource reload and those five tips never appear. Rewritten as tipsmod:simple with the same translation key and the same blue, which is the format the mod's own eighty-one tips use. Nothing else in the pack is touched; when Deep Aether fixes its files upstream this pack can go."
   },
   {
+   "source": "tools/overlay/packs/Cobblemon Translation [RU] 1.5.1.zip",
+   "target": "resourcepacks/Cobblemon Translation [RU] 1.5.1.zip",
+   "sha256": "296067f21fed25d07198583bdf061655671480b65dc5f2a4ad04c3646f4489e0",
+   "reason": "requested addition, kept through pack updates (Cobblemon Translation [RU] 1.5.1, CC-BY-NC-SA-4.0, kept under its author's own file name): the Pokedex opened in Russian and read English. Cobblemon ships a ru_ru.json, and its 1418 species descriptions are English text sitting under Russian keys - 248 of them carry any Cyrillic at all. Minecraft merges language files rather than replacing them, so this pack supplies the entries it has and the mod's own file answers for the rest: descriptions go from 248 to 1417 of 1418, and the mod outside the Pokedex from 5431 to 6438 of 6616. It also carries the Cobblemon addons this build runs. Last in the order, because nothing should sit above a translation; the only other pack touching cobblemon/lang is The Brazilian Project, which has pt_br alone"
+  },
+  {
    "source": "tools/overlay/packs/Grays Mob Compatibility.zip",
    "target": "resourcepacks/Grays Mob Compatibility.zip",
    "sha256": "6fc30f408e680aee7b6c01c8f6811d4543045e1083a33ccbc195a25c80522ac0",
@@ -530,7 +536,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "0461666fed4503fabf3638ac4e7ce0976944b003ff1f0a997ba454093c731adb",
+    "sha256": "f86e81bc64fbd9908aca7bd4b84667a38b6ad3caa4f4d8df1dc97b6866287cb0",
     "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {
