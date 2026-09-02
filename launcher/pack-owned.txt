@@ -121,3 +121,14 @@ defaultconfigs/ftbessentials-server.snbt
 # cannot be read while the main thread writes it. The game said so in chat on
 # every occurrence; now the map is locked instead.
 config/asyncparticles/asyncparticles-mixin.properties
+
+# Where the EMC readout stands. Project Expansion draws it in the top left by
+# default, which is where Sodium Extra draws the frame rate, so the two sat on
+# top of each other - and it draws over the debug screen as well, because it
+# does not ask whether F3 is up. Moving it to the bottom right settles both
+# without turning anything off: the top corners are the debug screen's, the
+# bottom left is where chat lands, and the bottom right is empty. The mod
+# writes this file itself on the first start, so an instance that has run once
+# has one of its own and nothing shipped here would reach it. The whole file
+# comes with the claim; everything else in it is the mod's own default.
+config/projectexpansion/client.toml
