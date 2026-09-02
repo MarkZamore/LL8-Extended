@@ -329,12 +329,6 @@
    "reason": "what UFO FUTURE's recipe screens are drawn with. Its JEI plugin registers five categories and one of them, MultiblockInfoCategory, is written against com.lowdragmc.lowdraglib2 with no ModList guard around it - so without this the plugin does not lose one screen, it fails to register and all five go. 2.2.28 rather than the newest: every build from 2.2.29 on wants jei [19.39.0.368,), and the JEI here is the 19.27.0.343 stub TooManyRecipeViewers declares, which would be an unsatisfied optional against a present mod - a hard stop in NeoForge, and the pack scanner calls it blocking. 2.2.28 asks for no jei at all and carries all nine lowdraglib2 classes UFO reaches for"
   },
   {
-   "source": "tools/overlay/mods/toomanyrecipeviewers-0.9.0+mc.21.1.jar",
-   "target": "mods/toomanyrecipeviewers-0.9.0+mc.21.1.jar",
-   "sha256": "f9e4ad2912bb67ce5a22aab2d9b07b5babeda476ab9b233bb494782bd7c020fa",
-   "reason": "runs JEI plugins inside EMI, which is what makes UFO FUTURE's recipes visible in this pack: the mod ships a JEI plugin and no EMI integration at all, and this pack has EMI and no JEI. Wants emi [1.1.20,) against the 1.1.24 here, and neoforge [21.1.0-,21.2). Real JEI is deliberately not added instead - two recipe viewers in one pack is worse than none"
-  },
-  {
    "source": "tools/overlay/mods/ufo-2.1-fix7.jar",
    "target": "mods/ufo-2.1-fix7.jar",
    "sha256": "3220ef45399e586581bd351d63db3923f5d66c7fa053cffa207960119ffe491d",
