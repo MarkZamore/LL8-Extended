@@ -896,15 +896,13 @@
    ]
   },
   {
-   "reason": "Mods this build added by hand, which upstream's release does not carry. The sync would find them absent from it and delete them, and the overlay holds the other forty-two but not these ten. None replaces a file upstream ships, so keeping them cannot leave two jars of one mod behind - Biolith looks like the exception and is not, because upstream carries 3.0.10 nested inside Quark and this standalone 3.0.14 wins over a nested copy by version, which is why it is here at all. Aeronautics and Sable are one entry in two lines: the bundled Aeronautics jar carries aeronautics, offroad and simulated, every one of which requires sable [2.0.0,3.0.0), and it does not carry Sable itself - so losing either path takes the other down with it at load.",
+   "reason": "Mods this build added by hand, which upstream's release does not carry. The sync would find them absent from it and delete them, and the overlay holds the other forty-two but not these ten. None replaces a file upstream ships, so keeping them cannot leave two jars of one mod behind - Biolith looks like the exception and is not, because upstream carries 3.0.10 nested inside Quark and this standalone 3.0.14 wins over a nested copy by version, which is why it is here at all. Create Aeronautics and Sable were two of these lines and are out for the moment, while it is settled whether they are what stops water being drawn; when they come back they come back together, because the bundled Aeronautics jar carries aeronautics, offroad and simulated, every one of which requires sable [2.0.0,3.0.0), and does not carry Sable itself.",
    "paths": [
     "mods/biolith-neoforge-3.0.14.jar",
-    "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
     "mods/entity_model_features-3.2.4-1.21-neoforge.jar",
     "mods/entity_texture_features_1.21-neoforge-7.1.jar",
     "mods/iceandfire-2.0.jar",
     "mods/jupiter-2.3.7-1.21.1-neoforge.jar",
-    "mods/sable-neoforge-1.21.1-2.0.5.jar",
     "mods/touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar",
     "mods/touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar",
     "mods/uranus-2.4.1-1.21.1-neoforge.jar"
