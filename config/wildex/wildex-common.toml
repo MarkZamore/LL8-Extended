@@ -8,7 +8,7 @@
 	#Ticks required to discover a mob while continuously aiming with a Spyglass.
 	# Default: 28
 	# Range: 1 ~ 200
-	spyglassDiscoveryChargeTicks = 4
+	spyglassDiscoveryChargeTicks = 3
 	#Maximum distance in blocks at which Spyglass discovery can trigger.
 	# Default: 98.0
 	# Range: 1.0 ~ 512.0
@@ -18,7 +18,7 @@
 	#XP points granted per newly discovered Wildex entry.
 	# Default: 5
 	# Range: > 0
-	newEntryXpAmount = 10
+	newEntryXpAmount = 20
 	#If true, a player that already completed Wildex stays complete even when new mobs are added later.
 	#If false, completion is re-evaluated against the current total mob count.
 	keepCompletionAfterNewMobs = false

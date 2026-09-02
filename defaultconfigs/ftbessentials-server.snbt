@@ -103,7 +103,7 @@
 		   enabled: true
 		   max: 10
 		   only_on_death: false
-		   warmup: 0
+		   warmup: 2
 		}
 		
 		blacklists: {
@@ -114,7 +114,7 @@
 		   cooldown: 10
 		   enabled: true
 		   max: 2
-		   warmup: 0
+		   warmup: 3
 		}
 		
 		jump: {
@@ -131,18 +131,18 @@
 		   max_distance: 100000
 		   max_tries: 150
 		   min_distance: 10000
-		   warmup: 0
+		   warmup: 3
 		}
 		spawn: {
 		   cooldown: 10
 		   enabled: true
-		   warmup: 0
+		   warmup: 3
 		}
 		
 		tpa: {
 		   cooldown: 10
 		   enabled: true
-		   warmup: 0
+		   warmup: 3
 		}
 		
 		tpl: {
@@ -156,7 +156,7 @@
 		warp: {
 		   cooldown: 10
 		   enabled: true
-		   warmup: 0
+		   warmup: 3
 		}
 	}
 }

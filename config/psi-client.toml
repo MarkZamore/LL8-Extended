@@ -5,7 +5,7 @@
 	psiBarOnRight = true
 	#Controls whether the Psi Bar should be hidden if it's full and the player is holding an item that uses Psi.
 	contextSensitiveBar = true
-	#The maximum scale your Psi bar can be. This prevents it from being too large on a bigger GUI scale. This is maximum amount of \"on screen pixels\" each actual pixel can take.
+	#The maximum scale your Psi bar can be. This prevents it from being too large on a bigger GUI scale. This is maximum amount of "on screen pixels" each actual pixel can take.
 	# Default: 3
 	# Range: 1 ~ 5
 	maxPsiBarScale = 3
