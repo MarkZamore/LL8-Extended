@@ -397,8 +397,8 @@
   {
    "source": "tools/overlay/mods/grotesque_steve-1.4.2-neoforge-1.21.1.jar",
    "target": "mods/grotesque_steve-1.4.2-neoforge-1.21.1.jar",
-   "sha256": "05813d8b99f573bf540e083595af4ee98e1986997f578700eaef69bfa97d2586",
-   "reason": "requested addition, kept through pack updates (Grotesque Steve 1.4.2, saskez's own build and not the CurseForge Safety Edition, which is a different file under the same modId): a very strong Steve that hunts the player, with a manual, a mansion and an ending. Wants NeoForge 21.1.190 against the pack's 21.1.244 and nothing else - GeckoLib stopped being required at 1.4.2. No mixins; 830 classes, none of which opens a socket or starts a process. It registers four keys and the layout has none to give, so all four are named unbound in the preset"
+   "sha256": "19f329b424aadb7b86d2ed3bc589c4db81abda481cea9babdb375c8cbfd4531f",
+   "reason": "requested addition, kept through pack updates (Grotesque Steve 1.4.2, saskez's own build and not the CurseForge Safety Edition, which is a different file under the same modId): a very strong Steve that hunts the player, with a manual, a mansion and an ending. Wants NeoForge 21.1.190 against the pack's 21.1.244 and nothing else - GeckoLib stopped being required at 1.4.2. No mixins; 830 classes, none of which opens a socket or starts a process. It registers four keys and the layout has none to give, so all four are named unbound in the preset Shipped here with one call removed. GrotesqueMessageProcedure runs on PlayerLoggedInEvent and writes a hard-coded line across the action bar - Grotesque Steve - in the mod there are items and config press U - every single time anybody joins. There is no setting for it: the string is a literal in the bytecode. The call that shows it is replaced by three pops, which discards the arguments and lets the method carry on, so the two sounds it also plays on login are untouched. The mod was already pinned here, so this costs no freedom it had not already given up."
   },
   {
    "source": "tools/overlay/config/agritech/crops_and_soil.json",
@@ -542,8 +542,8 @@
    {
     "source": "tools/overlay/config/identity2.json",
     "target": "config/identity2.json",
-    "sha256": "f72f32ed3ae9102c1bc1a203d9048d72f8c8d8cf5ae84d5e1554ced6b585c777",
-    "reason": "Identity2 refuses a login whose UUID is an offline one and kicks a player whose auth challenge is late. Both are aimed at somebody else: the identities here are the launcher's, issued from a Steam account, and the lateness is EMI rebuilding its index for twenty seconds on the joining client - which is the moment the challenge arrives. A guest was thrown out of this world twice in one evening by it. The rest of the file is Identity2's own defaults."
+    "sha256": "3a024f3b562d8fbc44044ed475a46fe8117c51fb9976c57770aa7bd666ea1805",
+    "reason": "Identity2 refuses a login whose UUID is an offline one and kicks a player whose auth challenge is late. Both are aimed at somebody else: the identities here are the launcher's, issued from a Steam account, and the lateness is EMI rebuilding its index for twenty seconds on the joining client - which is the moment the challenge arrives. A guest was thrown out of this world twice in one evening by it. The rest of the file is Identity2's own defaults. showDeathMorphRuleWarning is off with it, which is the other line that met every player at every login: To keep your morph after death, use /identity config set deathMorphRule none. It is advice about a setting this pack has already decided, printed to people who cannot change it."
    },
    {
     "source": "tools/overlay/mods/reanimal-0.6.0.jar",

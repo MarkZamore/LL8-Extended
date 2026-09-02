@@ -12,7 +12,7 @@
   "playAmbientSounds": true,
   "hearSelfAmbient": false,
   "enableMorphAbilities": true,
-  "showDeathMorphRuleWarning": true,
+  "showDeathMorphRuleWarning": false,
   "enableFlight": true,
   "hostilityTime": 300,
   "advancementsRequiredForFlight": [],
