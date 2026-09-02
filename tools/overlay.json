@@ -473,6 +473,12 @@
    "reason": "requested addition, kept through pack updates (spark 1.10.124): the profiler, back because a question needs it - two 80-second server stalls that could be Distant Horizons generating in the background or the player flying into terrain that does not exist yet, and the logs cannot tell those apart. /spark profiler start names the methods. It costs nothing until somebody runs a command"
   },
   {
+   "source": "tools/overlay/resourcepacks/tnp_resources/assets/cobblemon/lang/ru_ru.json",
+   "target": "resourcepacks/tnp_resources/assets/cobblemon/lang/ru_ru.json",
+   "sha256": "5f5e3cd6316ab946a9451ab5e08aad37fb1d428b5e6418ab5bc8eeb6685908f1",
+   "reason": "the one Pokedex entry the Russian translation pack does not cover. Cobblemon has two 10% Zygarde forms - zygarde-10 and zygarde-10c, which differ only in the Power Construct ability - and both carry the same English description word for word, and the same form label in the interface. The pack translates the first and not the second, so the second is given the first's Russian rather than a second rendering of one sentence: two entries whose source is identical reading differently would look like a mistake, not a translation. With it every one of the 1418 species descriptions is in Russian"
+  },
+  {
     "source": "tools/overlay/resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
     "target": "resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json",
     "sha256": "262518d790e11a9236053e487fdbb230edd69f785007afe8fce3d4f6bf1d5efa",
