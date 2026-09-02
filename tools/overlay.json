@@ -76,10 +76,10 @@
    "reason": "required by the requested Reinforced Singularity Rifle (rbh 1.1.5)"
   },
   {
-   "source": "tools/overlay/mods/ReinforcedSingularityRifle-1.0.5-1.21.1-neoforge.jar",
-   "target": "mods/ReinforcedSingularityRifle-1.0.5-1.21.1-neoforge.jar",
-   "sha256": "cd3f5efa85955cf4aa51be77d45e17743436d779f56924a35e22da2d1f1e1b9c",
-   "reason": "requested addition, kept through pack updates (rsrifle 1.0.5)"
+   "source": "tools/overlay/mods/rsrifle-1.0.6.jar",
+   "target": "mods/rsrifle-1.0.6.jar",
+   "sha256": "a1340c08f74145cc8e0db17f081d82f155b76734aac665f8076fb03c3fe79201",
+   "reason": "requested addition, kept through pack updates (rsrifle 1.0.6)"
   },
   {
    "source": "tools/overlay/mods/alexscaves-2.0.10.jar",
@@ -239,16 +239,16 @@
    "reason": "requested addition, kept through pack updates (Blur+ 6.3.1): blurs the background behind every screen; client only, needs midnightlib which the pack already ships"
   },
   {
-   "source": "tools/overlay/mods/lambdynamiclights-4.8.10+1.21.1.jar",
-   "target": "mods/lambdynamiclights-4.8.10+1.21.1.jar",
-   "sha256": "94e955443ce3817f798c74cbbbb4973e7b55c8b6dec12808b9378e74376b2eb9",
-   "reason": "requested addition, kept through pack updates (LambDynamicLights 4.8.10): a held torch lights the world around the player; client only, carries its own runtime jar-in-jar"
+   "source": "tools/overlay/mods/lambdynamiclights-4.8.11+1.21.1.jar",
+   "target": "mods/lambdynamiclights-4.8.11+1.21.1.jar",
+   "sha256": "913b0358b1031828f1e060ea0ee361232dc2a1c82464f488a0a920739ce7c763",
+   "reason": "requested addition, kept through pack updates (LambDynamicLights 4.8.11): a held torch lights the world around the player; client only, carries its own runtime jar-in-jar"
   },
   {
-   "source": "tools/overlay/mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
-   "target": "mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
-   "sha256": "ef835ede1d24ba24371f1d77520a66c8010adf8c5f538a54099a14b13ae2e307",
-   "reason": "requested addition, kept through pack updates (Particle Rain 4.0.0-beta.10): weather drawn as particles with biome tints; client only"
+   "source": "tools/overlay/mods/particlerain-4.0.0-beta.11+1.21.1-neoforge.jar",
+   "target": "mods/particlerain-4.0.0-beta.11+1.21.1-neoforge.jar",
+   "sha256": "2e009947634616dfd251532eda14ef1729bcde1ccb482de83d67dffa232d1be0",
+   "reason": "requested addition, kept through pack updates (Particle Rain 4.0.0-beta.11): weather drawn as particles with biome tints; client only"
   },
   {
    "source": "tools/overlay/mods/smoothgui-neoforge-2.0.5+mc1.21.jar",
@@ -365,10 +365,10 @@
    "reason": "requested addition, kept through pack updates (Sun & Moon Fusion 2.1): two textures, sun.png and moon_phases.png. It is listed above The Sky Sun and Moon and zazu sun and moon, which draw the same two, so this is the one that shows"
   },
   {
-   "source": "tools/overlay/mods/burnt-1.10.2-neoforge-1.21.1.jar",
-   "target": "mods/burnt-1.10.2-neoforge-1.21.1.jar",
-   "sha256": "8f0cc825ef2c545ed82bf7213246a948eea45cfd775b7821970c938cefab532f",
-   "reason": "requested addition, kept through pack updates (Burnt + Additions 1.10.2, which CurseForge lists as Better Vanilla Fire): fire spreads and stays, and what it burns is left charred instead of gone. One jar carrying Burnt Basic 1.10.4.1 and Burnt Additions 0.1.2; needs Cloth Config and GeckoLib 4.8 or newer, both in the pack at 15.0.140 and 4.9.2, and treats Weather2 as optional. Registers no key"
+   "source": "tools/overlay/mods/burnt-1.10.2.4-neoforge-1.21.1.jar",
+   "target": "mods/burnt-1.10.2.4-neoforge-1.21.1.jar",
+   "sha256": "5e0111c42883a1769b8695e6633bf4429720a245ec458efa1e6cc8166eb93380",
+   "reason": "requested addition, kept through pack updates (Burnt + Additions 1.10.2.4, which CurseForge lists as Better Vanilla Fire): fire spreads and stays, and what it burns is left charred instead of gone. One jar carrying Burnt Basic 1.10.4.3 and Burnt Additions 0.1.3; it registers as burnt_combined and asks for Cloth Config and GeckoLib at [0,), both in the pack at 15.0.140 and 4.9.2, and treats Weather2 as optional. Registers no key"
   },
   {
    "source": "tools/overlay/mods/the_backwoods-1.7.0-neoforge-1.21.1.jar",
@@ -498,16 +498,16 @@
     "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {
-    "source": "tools/overlay/mods/1.21.1-identity2-neoforge-2.2.1.jar",
-    "target": "mods/1.21.1-identity2-neoforge-2.2.1.jar",
-    "sha256": "d5c356c65a87296765b79fb728ca5a0de03b9b1e14724419c12e954908e7611d",
-    "reason": "requested addition, kept through pack updates (Identity Fix 2.2.1): the shapes ReMorphed used to collect, with a picker to choose them from. Chosen on one property, read in its own bytecode - IdentitySelectionScreen walks the entity registry and constructs nothing, and isMorphableType decides from MobCategory before anything is built. Both of the rifle mod's entity types are registered MobCategory.MISC, so that screen can never construct the projectile whose constructor talks to OpenGL, which is the thing that hung the game through ReMorphed's screen"
+    "source": "tools/overlay/mods/1.21.1-identity2-neoforge-2.2.4.jar",
+    "target": "mods/1.21.1-identity2-neoforge-2.2.4.jar",
+    "sha256": "23c6b8389c186b8a6f5bd61208eaf6ef37d5b46791665dd0dd3c69a30d0cfc54",
+    "reason": "requested addition, kept through pack updates (Identity Fix 2.2.4): the shapes ReMorphed used to collect, with a picker to choose them from. Chosen on one property, read in its own bytecode - IdentitySelectionScreen walks the entity registry and constructs nothing, and isMorphableType decides from MobCategory before anything is built. Both of the rifle mod's entity types are registered MobCategory.MISC, so that screen can never construct the projectile whose constructor talks to OpenGL, which is the thing that hung the game through ReMorphed's screen"
    },
   {
-    "source": "tools/overlay/mods/gaboulibs-neoforge-1.8.3.jar",
-    "target": "mods/gaboulibs-neoforge-1.8.3.jar",
-    "sha256": "3fac6689b5ce31aa0ad89a9db8358e6632fa90b87ac29d0fae13a8b8f463c741",
-    "reason": "required by Identity Fix, which asks for gaboulibs [1.4,); architectury, its other dependency, was already here at 13.0.11 against a [13.0.8,) range"
+    "source": "tools/overlay/mods/gaboulibs-neoforge-1.9.jar",
+    "target": "mods/gaboulibs-neoforge-1.9.jar",
+    "sha256": "d8612146ba3789495cdbef705c9bc2b807a5c00d9b4eb3da53e75809068e0327",
+    "reason": "required by Identity Fix, which asks for gaboulibs [1.9,); architectury, its other dependency, was already here at 13.0.11 against a [13.0.8,) range"
    },
   {
     "source": "tools/overlay/mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar",
