@@ -32,6 +32,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import fnmatch
+import glob
 import hashlib
 import json
 import os
@@ -1415,6 +1416,48 @@ def cmd_publish_only(args) -> None:
         wait_release()
 
 
+
+def snapshot_pack_owned() -> set[str]:
+    """Every concrete path launcher/pack-owned.txt names that exists right now."""
+    listing = REPO_ROOT / "launcher" / "pack-owned.txt"
+    if not listing.is_file():
+        return set()
+    present: set[str] = set()
+    for raw in listing.read_text(encoding="utf-8").splitlines():
+        row = raw.strip()
+        if not row or row.startswith("#"):
+            continue
+        for hit in glob.glob(str(REPO_ROOT / row)):
+            present.add(Path(hit).relative_to(REPO_ROOT).as_posix())
+    return present
+
+
+def check_pack_owned_survived(before: set[str]) -> None:
+    """
+    A file this pack owns has to still be there when the update is done.
+
+    The managed roots are regenerated from upstream LL8, so a file the pack
+    wrote into one of them and did not pin in tools/overlay.json is swept and
+    nothing puts it back. That is what happened to config/projectexpansion's
+    client.toml, which moves the EMC readout out of the corner the frame rate
+    sits in, and to config/entity_model_features.json, which is what hands
+    Grays' models to the renderers that bake the vanilla layers. Both went
+    quietly and stayed gone for a release.
+
+    A path that names nothing is not a loss: pack-owned.txt keeps entries for
+    files the pack has stopped shipping, because that is what takes the old copy
+    out of an instance.
+    """
+    lost = sorted(before - snapshot_pack_owned())
+    if not lost:
+        return
+    fail(EXIT_OVERLAY,
+         "the update removed file(s) this pack owns:\n  " + "\n  ".join(lost) +
+         "\nEverything under a managed root is regenerated from upstream, so a "
+         "pack-authored file that tools/overlay.json does not pin cannot survive "
+         "an update. Pin them in the overlay and run again.")
+
+
 def cmd_update(args) -> None:
     api_key = args.api_key or default_api_key()
     if not api_key:
@@ -1473,8 +1516,10 @@ def cmd_update(args) -> None:
         print(f"\ndry run: staged tree left at {staged}; checkout untouched")
         return
 
+    pack_owned_before = snapshot_pack_owned()
     sync_managed_roots(staged)
     overlay_summary = apply_overlay()
+    check_pack_owned_survived(pack_owned_before)
     fetch_remote_files()
     write_portable_pack(loader_id, manifest["minecraft"]["version"])
     run_scan()

@@ -10,6 +10,18 @@
  ],
  "files": [
   {
+   "source": "tools/overlay/config/projectexpansion/client.toml",
+   "target": "config/projectexpansion/client.toml",
+   "sha256": "c86e3393b93572f289bbbfad0bbcdc59d1e9f2a9db00bcf195839bbb87d8a96d",
+   "reason": "requested change, kept through pack updates: the EMC readout sits in the bottom right corner rather than over the frame rate and the debug screen, and reads as a formatted number with full names. This file was written straight into the tree once and the next pack update swept it - config/ is regenerated from upstream LL8, and projectexpansion is ours, so nothing upstream was ever going to put it back. Pinned now, which is the only thing that survives a regeneration"
+  },
+  {
+   "source": "tools/overlay/config/entity_model_features.json",
+   "target": "config/entity_model_features.json",
+   "sha256": "a6ce2bc91c076a9a220af2d0d1b76597435772929b5507593b4ec11844e18658",
+   "reason": "requested change, kept through pack updates: allowedCEM stays ALL, which is what hands Grays Mob Overhaul's optifine/cem models to the renderers that bake the vanilla layers - the bee among them, and the chest that Lootr draws. Swept by the same update that took the projectexpansion file, and for the same reason: written into config/, which is regenerated, instead of into the overlay"
+  },
+  {
    "source": "tools/overlay/config/alexscaves-general.toml",
    "target": "config/alexscaves-general.toml",
    "sha256": "8bf5203a6bea1432b299add1bc64bc475f3727469f8e6b9a1c383af75a945d1c",
