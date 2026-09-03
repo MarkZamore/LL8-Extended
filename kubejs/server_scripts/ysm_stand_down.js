@@ -31,124 +31,133 @@
 // the choice arrives as a raw packet and is written straight into the attachment
 // - and Jenny fires no event on a scene starting or ending. Twice a second is
 // far more often than either can change and costs one small NBT read per player.
+//
+// Everything below sits inside a function on purpose. KubeJS runs every server
+// script in one shared scope, so a name declared at the top level here is
+// declared for every other script in the folder - and this one collided with
+// ysm_model_sync.js on CHECK_EVERY_TICKS and on ticks, which stopped it loading
+// at all: "redeclaration of const CHECK_EVERY_TICKS". Nothing leaks out now.
 
-const CHECK_EVERY_TICKS = 10 // twice a second
+;(function () {
 
-// YSM's own Steve and Alex, as the model id reads. The id is <pack>_<folder>,
-// and these two live in the builtin "misc" pack. If a future YSM renames them
-// the log line below will say so on the first switch, which is why it is there.
-const PLAIN_PLAYER_MODELS = ['misc_2_steve', 'misc_1_alex']
+  const CHECK_EVERY_TICKS = 10 // twice a second
 
-const YSM_ATTACHMENT = 'yes_steve_model:model_id'
-const COMPANION_CLASS = 'com.trolmastercard.sexmod.entity.CompanionEntity'
-// A scene puts the player at the companion's exact coordinates every tick, so
-// anything further away than a step is not the companion they are in a scene
-// with.
-const SCENE_RADIUS = 4
+  // YSM's own Steve and Alex, as the model id reads. The id is <pack>_<folder>,
+  // and these two live in the builtin "misc" pack. If a future YSM renames them
+  // the log line below will say so on the first switch, which is why it is there.
+  const PLAIN_PLAYER_MODELS = ['misc_2_steve', 'misc_1_alex']
 
-let ticks = 0
-let lookup = null // resolved once, on the first tick that has a server
-let lookupFailed = false
-const lastSeenModel = {} // player name -> the id last written to the log
+  const YSM_ATTACHMENT = 'yes_steve_model:model_id'
+  const COMPANION_CLASS = 'com.trolmastercard.sexmod.entity.CompanionEntity'
+  // A scene puts the player at the companion's exact coordinates every tick, so
+  // anything further away than a step is not the companion they are in a scene
+  // with.
+  const SCENE_RADIUS = 4
 
-// Both of these are looked up by name rather than imported, so that a pack
-// without one of the two mods loads this script and quietly does nothing.
-function resolveLookup() {
-  if (lookup !== null || lookupFailed) return lookup
+  let ticks = 0
+  let lookup = null // resolved once, on the first tick that has a server
+  let lookupFailed = false
+  const lastSeenModel = {} // player name -> the id last written to the log
 
-  try {
-    const registries = Java.loadClass('net.neoforged.neoforge.registries.NeoForgeRegistries')
-    const resourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
-    const attachment = registries.ATTACHMENT_TYPES.get(
-      resourceLocation.fromNamespaceAndPath('yes_steve_model', 'model_id')
-    )
-    if (attachment === null) {
-      console.warn('YSM: no ' + YSM_ATTACHMENT + ' attachment; nothing to stand down')
-      lookupFailed = true
-      return null
-    }
+  // Both of these are looked up by name rather than imported, so that a pack
+  // without one of the two mods loads this script and quietly does nothing.
+  function resolveLookup() {
+    if (lookup !== null || lookupFailed) return lookup
 
-    let companion = null
     try {
-      companion = Java.loadClass(COMPANION_CLASS)
-    } catch (missing) {
-      // Jenny is not here. The armour half still works.
-      console.info('YSM: no companion mod, so only the model rule is in force')
-    }
+      const registries = Java.loadClass('net.neoforged.neoforge.registries.NeoForgeRegistries')
+      const resourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+      const attachment = registries.ATTACHMENT_TYPES.get(
+        resourceLocation.fromNamespaceAndPath('yes_steve_model', 'model_id')
+      )
+      if (attachment === null) {
+        console.warn('YSM: no ' + YSM_ATTACHMENT + ' attachment; nothing to stand down')
+        lookupFailed = true
+        return null
+      }
 
-    lookup = { attachment: attachment, companion: companion }
-  } catch (error) {
-    console.warn('YSM: could not reach the model attachment (' + error + '); standing aside')
-    lookupFailed = true
-  }
+      let companion = null
+      try {
+        companion = Java.loadClass(COMPANION_CLASS)
+      } catch (missing) {
+        // Jenny is not here. The armour half still works.
+        console.info('YSM: no companion mod, so only the model rule is in force')
+      }
 
-  return lookup
-}
-
-// What YSM knows about this player, read through the serialisable interface
-// rather than through the mod's own getters: the class name and its methods are
-// obfuscated and change between releases, while these NBT keys have not.
-function readModelState(player, attachment) {
-  const existing = player.getExistingData(attachment)
-  if (existing === null || !existing.isPresent()) return null
-
-  const nbt = existing.get().serializeNBT(player.level().registryAccess())
-  return { id: nbt.getString('model_id'), disabled: nbt.getBoolean('disabled') }
-}
-
-function isInScene(player, companion) {
-  if (companion === null) return false
-
-  const nearby = player.level().getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
-  for (let index = 0; index < nearby.size(); index++) {
-    const entity = nearby.get(index)
-    if (!companion.isInstance(entity)) continue
-    if (!entity.isInScene()) continue
-
-    const partner = entity.scenePartnerId()
-    if (partner.isPresent() && partner.get().equals(player.getUUID())) return true
-  }
-
-  return false
-}
-
-ServerEvents.tick(event => {
-  ticks++
-  if (ticks % CHECK_EVERY_TICKS !== 0) return
-
-  const resolved = resolveLookup()
-  if (resolved === null) return
-
-  event.server.getPlayerList().getPlayers().forEach(player => {
-    let state
-    try {
-      state = readModelState(player, resolved.attachment)
+      lookup = { attachment: attachment, companion: companion }
     } catch (error) {
-      console.warn('YSM: could not read the model of ' + player.getName().getString() + ' (' + error + ')')
-      return
-    }
-    // Nobody has sent this player a model yet; there is nothing to stand down.
-    if (state === null) return
-
-    const name = player.getName().getString()
-    if (lastSeenModel[name] !== state.id) {
-      lastSeenModel[name] = state.id
-      console.info('YSM: ' + name + ' is on model "' + state.id + '"')
+      console.warn('YSM: could not reach the model attachment (' + error + '); standing aside')
+      lookupFailed = true
     }
 
-    const wantsPlainBody = PLAIN_PLAYER_MODELS.indexOf(state.id) >= 0
-    const shouldStandDown = wantsPlainBody || isInScene(player, resolved.companion)
-    if (shouldStandDown === state.disabled) return
+    return lookup
+  }
 
-    console.info(
-      shouldStandDown
-        ? 'YSM: standing down for ' + name + (wantsPlainBody ? ' (plain player model)' : ' (scene)')
-        : 'YSM: drawing again for ' + name
-    )
-    event.server.runCommandSilent('ysm model disable ' + name + ' ' + shouldStandDown)
+  // What YSM knows about this player, read through the serialisable interface
+  // rather than through the mod's own getters: the class name and its methods are
+  // obfuscated and change between releases, while these NBT keys have not.
+  function readModelState(player, attachment) {
+    const existing = player.getExistingData(attachment)
+    if (existing === null || !existing.isPresent()) return null
+
+    const nbt = existing.get().serializeNBT(player.level().registryAccess())
+    return { id: nbt.getString('model_id'), disabled: nbt.getBoolean('disabled') }
+  }
+
+  function isInScene(player, companion) {
+    if (companion === null) return false
+
+    const nearby = player.level().getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
+    for (let index = 0; index < nearby.size(); index++) {
+      const entity = nearby.get(index)
+      if (!companion.isInstance(entity)) continue
+      if (!entity.isInScene()) continue
+
+      const partner = entity.scenePartnerId()
+      if (partner.isPresent() && partner.get().equals(player.getUUID())) return true
+    }
+
+    return false
+  }
+
+  ServerEvents.tick(event => {
+    ticks++
+    if (ticks % CHECK_EVERY_TICKS !== 0) return
+
+    const resolved = resolveLookup()
+    if (resolved === null) return
+
+    event.server.getPlayerList().getPlayers().forEach(player => {
+      let state
+      try {
+        state = readModelState(player, resolved.attachment)
+      } catch (error) {
+        console.warn('YSM: could not read the model of ' + player.getName().getString() + ' (' + error + ')')
+        return
+      }
+      // Nobody has sent this player a model yet; there is nothing to stand down.
+      if (state === null) return
+
+      const name = player.getName().getString()
+      if (lastSeenModel[name] !== state.id) {
+        lastSeenModel[name] = state.id
+        console.info('YSM: ' + name + ' is on model "' + state.id + '"')
+      }
+
+      const wantsPlainBody = PLAIN_PLAYER_MODELS.indexOf(state.id) >= 0
+      const shouldStandDown = wantsPlainBody || isInScene(player, resolved.companion)
+      if (shouldStandDown === state.disabled) return
+
+      console.info(
+        shouldStandDown
+          ? 'YSM: standing down for ' + name + (wantsPlainBody ? ' (plain player model)' : ' (scene)')
+          : 'YSM: drawing again for ' + name
+      )
+      event.server.runCommandSilent('ysm model disable ' + name + ' ' + shouldStandDown)
+    })
   })
-})
 
-PlayerEvents.loggedOut(event => {
-  delete lastSeenModel[event.player.getName().getString()]
-})
+  PlayerEvents.loggedOut(event => {
+    delete lastSeenModel[event.player.getName().getString()]
+  })
+})()
