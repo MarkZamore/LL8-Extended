@@ -664,7 +664,13 @@
     "target": "config/fancymenu/customization/ingame-pause-menu.txt",
     "sha256": "e52ac7f2bb9725cb0d6bb88e6a1451c98625372d7935679e84473fccfb783305",
     "reason": "requested fix, kept through pack updates (pause menu): the build's own \"Open to LAN\" button is gone and the vanilla pause_share_to_lan_button is unhidden in its place - same anchor, same x, y, width and height, because the custom one had been put exactly over it. The custom button was a FancyMenu custom_button with an opengui action on ShareToLanScreen: it knows nothing about whether the world is open, so it never turns into the player-report button, and its own tooltip said as much - \"Do NOT open to LAN again if you've already opened to LAN. Reason: The button won't be removed afterwards.\" The vanilla widget does the swap itself, which is what the launcher's one-press publish needs."
-   }
+   },
+  {
+   "source": "tools/overlay/kubejs/server_scripts/ysm_stand_down.js",
+   "target": "kubejs/server_scripts/ysm_stand_down.js",
+   "sha256": "f8ea7ebc1d5e7e25df1c39461123ffb454f4d49fe6716a7780d72346e7557005",
+   "reason": "Yes Steve Model cancels RenderPlayerEvent.Pre and draws its own body, which costs the player every vanilla layer - armour, cape, Curios, Icarus - and, in a Jenny scene, leaves a second body standing in the middle of it, because the bus stops at whichever mod cancelled first and that is YSM. The server-side disable flag settles both: it is set while the chosen model is YSM's own Steve or Alex, which have no armour bones and are what a player picks when they want the ordinary body, and while the player is in a scene. YSM broadcasts the flag, so the armour is seen by everyone and not only by its owner"
+  }
   ],
  "tomlEdits": [
   {
