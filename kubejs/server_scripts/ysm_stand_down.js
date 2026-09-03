@@ -40,24 +40,34 @@
 
 ;(function () {
 
-  const CHECK_EVERY_TICKS = 10 // twice a second
+  var CHECK_EVERY_TICKS = 10 // twice a second
 
   // YSM's own Steve and Alex, as the model id reads. The id is <pack>_<folder>,
   // and these two live in the builtin "misc" pack. If a future YSM renames them
   // the log line below will say so on the first switch, which is why it is there.
-  const PLAIN_PLAYER_MODELS = ['misc_2_steve', 'misc_1_alex']
+  var PLAIN_PLAYER_MODELS = ['misc_2_steve', 'misc_1_alex']
 
-  const YSM_ATTACHMENT = 'yes_steve_model:model_id'
-  const COMPANION_CLASS = 'com.trolmastercard.sexmod.entity.CompanionEntity'
+  var YSM_ATTACHMENT = 'yes_steve_model:model_id'
+  var COMPANION_CLASS = 'com.trolmastercard.sexmod.entity.CompanionEntity'
   // A scene puts the player at the companion's exact coordinates every tick, so
   // anything further away than a step is not the companion they are in a scene
   // with.
-  const SCENE_RADIUS = 4
+  var SCENE_RADIUS = 4
 
-  let ticks = 0
-  let lookup = null // resolved once, on the first tick that has a server
-  let lookupFailed = false
-  const lastSeenModel = {} // player name -> the id last written to the log
+  var ticks = 0
+  var lookup = null // resolved once, on the first tick that has a server
+  var lookupFailed = false
+  var lastSeenModel = {} // player name -> the id last written to the log
+
+  // Everything here is declared with var, and that is not carelessness. KubeJS
+  // puts its own bindings in the scope this script runs in, and Rhino refuses a
+  // const or let that shares a name with one of them - anywhere in the file,
+  // including inside a function. It cost this script its whole purpose once:
+  // "redeclaration of var registries" was thrown from the line below, caught by
+  // the guard underneath, and the script stood aside for the rest of the
+  // session while saying so only in the log. var is not checked that way, so a
+  // name this script happens to share with a future KubeJS binding shadows it
+  // instead of killing the file.
 
   // Both of these are looked up by name rather than imported, so that a pack
   // without one of the two mods loads this script and quietly does nothing.
@@ -65,10 +75,10 @@
     if (lookup !== null || lookupFailed) return lookup
 
     try {
-      const registries = Java.loadClass('net.neoforged.neoforge.registries.NeoForgeRegistries')
-      const resourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
-      const attachment = registries.ATTACHMENT_TYPES.get(
-        resourceLocation.fromNamespaceAndPath('yes_steve_model', 'model_id')
+      var ysmRegistries = Java.loadClass('net.neoforged.neoforge.registries.NeoForgeRegistries')
+      var ysmResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+      var attachment = ysmRegistries.ATTACHMENT_TYPES.get(
+        ysmResourceLocation.fromNamespaceAndPath('yes_steve_model', 'model_id')
       )
       if (attachment === null) {
         console.warn('YSM: no ' + YSM_ATTACHMENT + ' attachment; nothing to stand down')
@@ -76,7 +86,7 @@
         return null
       }
 
-      let companion = null
+      var companion = null
       try {
         companion = Java.loadClass(COMPANION_CLASS)
       } catch (missing) {
@@ -85,6 +95,7 @@
       }
 
       lookup = { attachment: attachment, companion: companion }
+      console.info('YSM: reading models through the ' + YSM_ATTACHMENT + ' attachment')
     } catch (error) {
       console.warn('YSM: could not reach the model attachment (' + error + '); standing aside')
       lookupFailed = true
@@ -97,23 +108,23 @@
   // rather than through the mod's own getters: the class name and its methods are
   // obfuscated and change between releases, while these NBT keys have not.
   function readModelState(player, attachment) {
-    const existing = player.getExistingData(attachment)
+    var existing = player.getExistingData(attachment)
     if (existing === null || !existing.isPresent()) return null
 
-    const nbt = existing.get().serializeNBT(player.level().registryAccess())
+    var nbt = existing.get().serializeNBT(player.level().registryAccess())
     return { id: nbt.getString('model_id'), disabled: nbt.getBoolean('disabled') }
   }
 
   function isInScene(player, companion) {
     if (companion === null) return false
 
-    const nearby = player.level().getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
+    var nearby = player.level().getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
     for (let index = 0; index < nearby.size(); index++) {
-      const entity = nearby.get(index)
+      var entity = nearby.get(index)
       if (!companion.isInstance(entity)) continue
       if (!entity.isInScene()) continue
 
-      const partner = entity.scenePartnerId()
+      var partner = entity.scenePartnerId()
       if (partner.isPresent() && partner.get().equals(player.getUUID())) return true
     }
 
@@ -124,11 +135,11 @@
     ticks++
     if (ticks % CHECK_EVERY_TICKS !== 0) return
 
-    const resolved = resolveLookup()
+    var resolved = resolveLookup()
     if (resolved === null) return
 
     event.server.getPlayerList().getPlayers().forEach(player => {
-      let state
+      var state
       try {
         state = readModelState(player, resolved.attachment)
       } catch (error) {
@@ -138,14 +149,14 @@
       // Nobody has sent this player a model yet; there is nothing to stand down.
       if (state === null) return
 
-      const name = player.getName().getString()
+      var name = player.getName().getString()
       if (lastSeenModel[name] !== state.id) {
         lastSeenModel[name] = state.id
         console.info('YSM: ' + name + ' is on model "' + state.id + '"')
       }
 
-      const wantsPlainBody = PLAIN_PLAYER_MODELS.indexOf(state.id) >= 0
-      const shouldStandDown = wantsPlainBody || isInScene(player, resolved.companion)
+      var wantsPlainBody = PLAIN_PLAYER_MODELS.indexOf(state.id) >= 0
+      var shouldStandDown = wantsPlainBody || isInScene(player, resolved.companion)
       if (shouldStandDown === state.disabled) return
 
       console.info(
