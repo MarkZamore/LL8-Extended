@@ -670,6 +670,18 @@
    "target": "kubejs/server_scripts/ysm_stand_down.js",
    "sha256": "e5a7afaabd5f9573bf0ce7f43a68124b02bfe4511099974dc41ea595c2367679",
    "reason": "Yes Steve Model cancels RenderPlayerEvent.Pre and draws its own body, which costs the player every vanilla layer - armour, cape, Curios, Icarus - and, in a Jenny scene, leaves a second body standing in the middle of it, because the bus stops at whichever mod cancelled first and that is YSM. The server-side disable flag settles both: it is set while the chosen model is YSM's own Steve or Alex, which have no armour bones and are what a player picks when they want the ordinary body, and while the player is in a scene. YSM broadcasts the flag, so the armour is seen by everyone and not only by its owner"
+  },
+  {
+   "source": "tools/overlay/config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/depths.json",
+   "target": "config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/depths.json",
+   "sha256": "a1c82efe3ebf4f0c7d66a5108ee20ffc608c6a16c2246021ba6ee3752107dc76",
+   "reason": "Alex's Caves multiplies every biome's creature_spawn_probability by cave_creature_spawn_count_modifier (1.75 here) and spins `while (random.nextFloat() < product)` with no iteration cap, during the SPAWN step of chunk generation. nextFloat() is always below 1, so a product of 1 or more never terminates. These two Undergarden biomes ship 0.9999999, giving 1.7499998 - the only two biomes in all 914 mods at or above the threshold, and the reason an Undergarden portal froze a world for over forty minutes on one tick. Vanilla is unharmed by the 0.9999999 because its own copy of that loop returns early when the CREATURE list is empty, which it is here - the mod's chunk-gen mob sits in a custom MobCategory - so lowering it to 0.5, what every other Undergarden biome uses, changes nothing but the runaway. Copied from the mod and differing in that one field; check it against the jar after an Undergarden update"
+  },
+  {
+   "source": "tools/overlay/config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/puff_mushroom_forest.json",
+   "target": "config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/puff_mushroom_forest.json",
+   "sha256": "45485a374fe70429670b7d45ccc3535148b08df00c667c242d99a6014b9f5e31",
+   "reason": "Alex's Caves multiplies every biome's creature_spawn_probability by cave_creature_spawn_count_modifier (1.75 here) and spins `while (random.nextFloat() < product)` with no iteration cap, during the SPAWN step of chunk generation. nextFloat() is always below 1, so a product of 1 or more never terminates. These two Undergarden biomes ship 0.9999999, giving 1.7499998 - the only two biomes in all 914 mods at or above the threshold, and the reason an Undergarden portal froze a world for over forty minutes on one tick. Vanilla is unharmed by the 0.9999999 because its own copy of that loop returns early when the CREATURE list is empty, which it is here - the mod's chunk-gen mob sits in a custom MobCategory - so lowering it to 0.5, what every other Undergarden biome uses, changes nothing but the runaway. Copied from the mod and differing in that one field; check it against the jar after an Undergarden update"
   }
   ],
  "tomlEdits": [
