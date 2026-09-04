@@ -58,6 +58,7 @@
   var lookup = null // resolved once, on the first tick that has a server
   var lookupFailed = false
   var lastSeenModel = {} // player name -> the id last written to the log
+  var complainedAbout = {} // player name -> already said we could not read them
 
   // Everything here is declared with var, and that is not carelessness. KubeJS
   // puts its own bindings in the scope this script runs in, and Rhino refuses a
@@ -111,14 +112,14 @@
     var existing = player.getExistingData(attachment)
     if (existing === null || !existing.isPresent()) return null
 
-    var nbt = existing.get().serializeNBT(player.level().registryAccess())
+    var nbt = existing.get().serializeNBT(player.level.registryAccess())
     return { id: nbt.getString('model_id'), disabled: nbt.getBoolean('disabled') }
   }
 
   function isInScene(player, companion) {
     if (companion === null) return false
 
-    var nearby = player.level().getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
+    var nearby = player.level.getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
     for (let index = 0; index < nearby.size(); index++) {
       var entity = nearby.get(index)
       if (!companion.isInstance(entity)) continue
@@ -143,7 +144,13 @@
       try {
         state = readModelState(player, resolved.attachment)
       } catch (error) {
-        console.warn('YSM: could not read the model of ' + player.getName().getString() + ' (' + error + ')')
+        // Once per player, not twice a second: the first tick that fails says
+        // everything the hundredth would, and the hundredth buries the log.
+        var who = player.getName().getString()
+        if (!complainedAbout[who]) {
+          complainedAbout[who] = true
+          console.warn('YSM: could not read the model of ' + who + ' (' + error + ')')
+        }
         return
       }
       // Nobody has sent this player a model yet; there is nothing to stand down.
@@ -169,6 +176,8 @@
   })
 
   PlayerEvents.loggedOut(event => {
-    delete lastSeenModel[event.player.getName().getString()]
+    var who = event.player.getName().getString()
+    delete lastSeenModel[who]
+    delete complainedAbout[who]
   })
 })()

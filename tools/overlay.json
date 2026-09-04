@@ -668,7 +668,7 @@
   {
    "source": "tools/overlay/kubejs/server_scripts/ysm_stand_down.js",
    "target": "kubejs/server_scripts/ysm_stand_down.js",
-   "sha256": "04920e5ce5da8a06c0c555ae279a333bc9481d7ee5990e2aa0d5eb010f0fa5d3",
+   "sha256": "e5a7afaabd5f9573bf0ce7f43a68124b02bfe4511099974dc41ea595c2367679",
    "reason": "Yes Steve Model cancels RenderPlayerEvent.Pre and draws its own body, which costs the player every vanilla layer - armour, cape, Curios, Icarus - and, in a Jenny scene, leaves a second body standing in the middle of it, because the bus stops at whichever mod cancelled first and that is YSM. The server-side disable flag settles both: it is set while the chosen model is YSM's own Steve or Alex, which have no armour bones and are what a player picks when they want the ordinary body, and while the player is in a scene. YSM broadcasts the flag, so the armour is seen by everyone and not only by its owner"
   }
   ],
