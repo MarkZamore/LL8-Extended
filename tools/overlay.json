@@ -925,14 +925,6 @@
    "reason": "55 per-biome chimney settings for biomes that no longer exist"
   },
   {
-   "path": "mods/Chunky-*.jar",
-   "reason": "pre-generates chunks on command and does nothing otherwise; the saved task in this pack was cancelled at 642 chunks and continueOnRestart was off, so it had been idle ever since. Distant Horizons warns about it on sight - the two fight when Chunky outruns DH's LOD building - and nobody was using it"
-  },
-  {
-   "path": "config/chunky",
-   "reason": "configuration and the cancelled task of the removed mod"
-  },
-  {
     "path": "resourcepacks/GEO - *.zip",
     "reason": "Glowing Emissive Ores and its Fusion bridge: 33 MB and 22 402 assets to make ores glow, of which only about an eighth address mods this pack has - the rest name three hundred namespaces that are not installed. The bridge is not a pack of its own, it only translates GEO's emissive layers into Fusion's format, so it goes with it"
    },
