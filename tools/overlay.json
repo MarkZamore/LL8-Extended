@@ -193,37 +193,37 @@
   {
    "source": "tools/overlay/packs/RTF Extension 2.7.0 (LL8, no en_us).zip",
    "target": "resourcepacks/RTF Extension 2.7.0 (LL8, no en_us).zip",
-   "sha256": "af4a883e0b6a97aa645386d16f5cb17c69c12f567bcc311a1a515f839e1309b1",
+   "sha256": "68d9197d180defc825a48df4a7e4fc7b2a2ce0d79991b619181cc7d2b5aaa770",
    "reason": "requested addition, kept through pack updates (RTF Extension 2.7.0 by Guardian_50 / Starwine Studios, AGPL-3.0, readme allows any use with credit): the largest community translation - 66575 of its keys match this build's English, 24529 of them keys nothing else translated. Its 34 English-locale files were removed before shipping, because rootsclassic, immersivepetroleum and iris carried Russian text under en_us and this build keeps English playable; LL8-MODIFICATION.txt inside records the change as the licence asks. Contains RTF by Exelerium, MIT."
   },
   {
    "source": "tools/overlay/packs/Rus-For-Mods-1.21-1.1.zip",
    "target": "resourcepacks/Rus-For-Mods-1.21-1.1.zip",
-   "sha256": "c516f2f942b9803c8b680aafc7173364e5a418ae3c53610a479fc112a556fd07",
+   "sha256": "e1097c8c197e839dd3d6275f92cdf4ad87d63038e648e398772c1abacbd2c647",
    "reason": "requested addition, kept through pack updates (Русская локализация для модов 1.21-1.1 by Rushan Mukhutdinov / Deflecta, MIT, kept under its author's own file name): 29 curated files, 1167 keys matching this build; above RTF because it is hand-made and corrects it where they meet."
   },
   {
    "source": "tools/overlay/packs/Mod-Translate-10.0.2.zip",
    "target": "resourcepacks/Mod-Translate-10.0.2.zip",
-   "sha256": "a5664682a86b4fc0a808c8d48cf63d1ac690f66092635f28993c1324f194958d",
+   "sha256": "f3e9ded411576c9ba01a150a56638384ac5cbc2d00cc7019fb80d927d45751f8",
    "reason": "requested addition, kept through pack updates (Перевод Модов 10.0.2 by BizCub, MIT, kept under its author's own file name): 132 hand-made files, 706 keys matching this build."
   },
   {
    "source": "tools/overlay/packs/Not-Enough-Translations-[RU]-a1.0.3.zip",
    "target": "resourcepacks/Not-Enough-Translations-[RU]-a1.0.3.zip",
-   "sha256": "2414be355b86e26b94d6521d0fe1199cd8a6f422f98da33dd340b8a93dc1ea74",
+   "sha256": "55aff60c015799c1956ec7bcc7fa0b32061353dc89ddcea3f672aa1845c5b6da",
    "reason": "requested addition, kept through pack updates (Not Enough Translations [RU] a1.0.3 by Red_Mertvyak, CC BY-NC-SA 4.0, kept under its author's own file name, LICENSE inside): 33 files for mods the other packs skip, Create Aeronautics among them; 294 keys matching this build."
   },
   {
    "source": "tools/overlay/packs/Create_Russified-3.0-universal.zip",
    "target": "resourcepacks/Create_Russified-3.0-universal.zip",
-   "sha256": "721e159919026b5d59977bb1714e9a438db306cdb510db45fccede448d1e4581",
+   "sha256": "b91a72e47d7926982ceb2317c2323682614cee81fbd448ac2dc2ca8ee6acef09",
    "reason": "requested addition, kept through pack updates (Create: Russified 3.0 by G0ludo, CC BY-SA 4.0, kept under its author's own file name, license.txt inside): the Create add-ons in Create's own Russian vocabulary. Its content for 1.21.1 lives in the 1_21_1 overlay directory that pack.mcmeta points the game to, so a file scan of assets/ alone undercounts it. Above the general packs because it keeps штуковина where they invent their own word."
   },
   {
    "source": "tools/overlay/packs/Re-Avaritia RUS.zip",
    "target": "resourcepacks/Re-Avaritia RUS.zip",
-   "sha256": "bdbff68db19910d4e9e82f03cd10a7ed18fd2ef9f365cc3ac14401c2d467f5cf",
+   "sha256": "1f0a2fbfaf9655b54f77d9d37000dd148e1b5c0e666b2437c77e269060449e4e",
    "reason": "requested addition, kept through pack updates (Re:Avaritia Russian Translation 1.0.0 by Tewek, CC0): the only Russian for Re-Avaritia anywhere - 466 keys nothing else translates, 88 item names among them. On top of the general packs as a single-mod pack."
   },
   {
