@@ -1,4 +1,4 @@
 {
-  "apothic_attributes:cooldown_reduction": "Снижение перезарядки",
-  "apothic_attributes:cooldown_reduction.desc": "Снижает перезарядку срабатывающих способностей и эффектов. Перезарядка обозначается символом ⌛."
+  "apothic_attributes:cooldown_reduction": "Сокращение перезарядки",
+  "apothic_attributes:cooldown_reduction.desc": "Сокращает время перезарядки срабатывающих способностей и эффектов. Перезарядка обозначается символом ⌛."
 }

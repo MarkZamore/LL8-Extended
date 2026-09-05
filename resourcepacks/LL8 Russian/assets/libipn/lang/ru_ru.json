@@ -1,0 +1,15 @@
+{
+  "libipn.common.gui.config.advanced_keybind_settings.alt_key_description": "Можно добавить вторую привязку клавиш для той же функции",
+  "libipn.common.gui.config.advanced_keybind_settings.alt_key_label": "Альтернатива %d",
+  "libipn.common.gui.config.advanced_keybind_settings.alt_key_title": "Альтернативные привязки клавиш.",
+  "libipn.common.gui.config.color_picker_dialog": "Выберите цвет",
+  "libipn.common.gui.config.colorpicker.alpha": "Альфа",
+  "libipn.common.gui.config.colorpicker.blue": "Синий",
+  "libipn.common.gui.config.colorpicker.green": "Зелёный",
+  "libipn.common.gui.config.colorpicker.red": "Красный",
+  "libipn.common.gui.config.description.settings_screen.search-box": "Показывает только настройки, подходящие под запрос в поле поиска.",
+  "libipn.common.gui.config.off": "выкл.",
+  "libipn.common.gui.config.on": "вкл.",
+  "libipn.common.gui.config.settings_screen.search-box": "Поиск",
+  "modmenu.descriptionTranslation.libipn": "Библиотека интерфейса для Inventory Profiles Next"
+}

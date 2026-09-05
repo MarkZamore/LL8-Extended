@@ -1,4 +1,17 @@
 {
+  "advancements.animal_pen.entity.minecraft.armadillo.description": "Поймайте броненосца",
+  "advancements.animal_pen.entity.minecraft.armadillo.title": "Маленький клубочек",
+  "advancements.animal_pen.entity.minecraft.armadillo_brush.description": "Почистите броненосца кистью, чтобы собрать щитки",
+  "advancements.animal_pen.entity.minecraft.armadillo_brush.title": "Почешите броненосца",
   "display.animal_pen.count": "%d",
-  "gui.animal_pen.variant_selection_screen.fixed_size": "%d"
+  "display.animal_pen.reached_max": "%1$s §dДостигнут предел числа мобов",
+  "gui.animal_pen.variant_selection_screen.configure.enable_protection.tooltip": "Если включено, другие игроки не смогут взаимодействовать с этим блоком и животными внутри.",
+  "gui.animal_pen.variant_selection_screen.configure.entity_size.disabled": "§cПараметр отключён в конфигурации.",
+  "gui.animal_pen.variant_selection_screen.configure.entity_size.tooltip": "Задаёт, насколько крупным животное выглядит внутри блока.",
+  "gui.animal_pen.variant_selection_screen.configure.minimal_animal_count.tooltip": "Минимальное число животных, которое всегда должно оставаться в блоке. \nНе даёт случайно собрать или забрать животных, если их станет меньше этого числа.",
+  "gui.animal_pen.variant_selection_screen.fixed_size": "%d",
+  "option.animal_pen.block_dispenser_interactions": "Запретить взаимодействие раздатчиков",
+  "option.animal_pen.block_dispenser_interactions.tooltip[0]": "Определяет, запрещено ли раздатчикам",
+  "option.animal_pen.block_dispenser_interactions.tooltip[1]": "взаимодействовать с животными",
+  "option.animal_pen.block_dispenser_interactions.tooltip[2]": "в загонах, птичниках и аквариумах."
 }

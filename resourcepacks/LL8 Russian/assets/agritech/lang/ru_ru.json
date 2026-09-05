@@ -1,15 +1,15 @@
 {
-  "blockentity.agritech.name": "Грядка",
-  "container.agritech.hopping_planter": "Грядка с воронкой",
-  "container.agritech.planter": "Грядка",
+  "blockentity.agritech.name": "Planter",
+  "container.agritech.hopping_planter": "Hopping Planter",
+  "container.agritech.planter": "Planter",
   "jade.agritech.crop_progress": "%s (стадия %d/%d — %d%%)",
   "jade.agritech.crop_ready": "%s (готово к сбору)",
-  "jade.agritech.soil_info": "Почва: %s (скорость %s)",
-  "jei.agritech.planter.tooltip": "Грядки",
+  "jade.agritech.soil_info": "Почва: %s (скорость: %s)",
+  "jei.agritech.planter.tooltip": "Planters",
   "message.agritech.invalid_seed_soil_combination": "Эти семена не растут на такой почве!",
   "message.agritech.invalid_soil": "Этот блок нельзя использовать как почву!",
   "message.agritech.same_farmland": "Эта пашня уже такого типа!",
-  "message.agritech.slots_full": "Грядка заполнена!",
+  "message.agritech.slots_full": "Planter заполнен!",
   "tooltip.agritech.growth_progress": "Прогресс роста",
   "tooltip.agritech.view_recipes": "Нажмите, чтобы посмотреть рецепты"
 }

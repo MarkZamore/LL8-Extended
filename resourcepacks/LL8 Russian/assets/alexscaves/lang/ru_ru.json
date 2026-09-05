@@ -1,4 +1,11 @@
 {
+  "alexscaves.sound.subtitle.licowitch_cast_hex": "Лакричная ведьма насылает порчу",
+  "alexscaves.sound.subtitle.licowitch_cast_peppermint": "Лакричная ведьма бросает мятные леденцы",
+  "alexscaves.sound.subtitle.licowitch_cast_summon": "Лакричная ведьма призывает чудовище",
+  "alexscaves.sound.subtitle.licowitch_celebrate": "Лакричная ведьма ликует",
+  "alexscaves.sound.subtitle.licowitch_death": "Лакричная ведьма кричит",
+  "alexscaves.sound.subtitle.licowitch_hurt": "Лакричная ведьма кряхтит",
+  "alexscaves.sound.subtitle.licowitch_idle": "Лакричная ведьма хихикает",
   "jukebox_song.alexscaves.fusion": "Ninni - Fusion",
   "jukebox_song.alexscaves.tasty": "Ninni - Tasty"
 }

@@ -1,3 +1,17 @@
 {
-  "advancement.dysoncubeproject.root.title": "Dyson Cube Project"
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_100.description": "Запущено 100% парусов. Дневной свет теперь по подписке.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_100.title": "Поздравляем! Дневной свет теперь ваш",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_15.description": "Запущено 15% парусов. Местные фотоны подали жалобу.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_15.title": "Слегка тревожное окружение Солнца",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_25.description": "Запущено 25% парусов. Четверть пути к космическому безумию.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_25.title": "Четверть сферы, полные амбиции",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_5.description": "Запущено 5% парусов. Солнце почти ничего не заметило. Наверное.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_5.title": "Солнце уведомлено",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_50.description": "Запущено 50% парусов. Половина сферы — вдвое больше гордыни.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_50.title": "На полпути к звёздному арендодателю",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_75.description": "Запущено 75% парусов. Солнце официально ищет пути к отступлению.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_75.title": "Солнце заметно нервничает",
+  "advancement.dysoncubeproject.root.description": "СЕГОДНЯ МЫ УКРАДЁМ СОЛНЦЕ!",
+  "advancement.dysoncubeproject.root.title": "Dyson Cube Project",
+  "gui.dysoncubeproject.unsubscribe": "Отключиться от всех сфер (вы вернётесь к своей личной сфере)"
 }

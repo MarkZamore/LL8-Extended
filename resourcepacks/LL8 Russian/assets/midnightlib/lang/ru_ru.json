@@ -1,4 +1,7 @@
 {
+  "midnightconfig.action.color_chooser": "Открыть выбор цвета",
+  "midnightconfig.action.file_chooser": "Открыть выбор файла",
+  "midnightconfig.action.list_index": "Редактирование списка, элемент %s",
   "midnightlib.curseforge": "CurseForge",
   "midnightlib.modrinth": "Modrinth"
 }

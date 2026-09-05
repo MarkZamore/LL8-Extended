@@ -1,3 +1,9 @@
 {
+  "_comment": "Мультиблок",
+  "advancement.colossalchests.large.netherite": "Эпический незеритовый колоссальный сундук",
+  "advancement.colossalchests.large.netherite.desc": "Соберите незеритовый колоссальный сундук размером не меньше 10x10x10",
+  "advancement.colossalchests.netherite": "Незеритовый колоссальный сундук",
+  "advancement.colossalchests.netherite.desc": "Соберите незеритовый колоссальный сундук",
+  "material.colossalchests.netherite": "Незерит",
   "multiblock.colossalchests.error.prefix": "ColossalChests"
 }

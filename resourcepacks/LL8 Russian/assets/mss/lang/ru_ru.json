@@ -1,6 +1,9 @@
 {
+  "modmenu.descriptionTranslation.mss": "Moog's Soaring Structures оживляет ваш мир Minecraft, делает его веселее и разнообразнее, добавляя множество парящих островов с интересными постройками и другими местами для исследования! Изучайте потрясающие новые структуры из ванильных блоков и существ, а по пути находите добычу, врагов и жителей. Мод совместим с любой сборкой, и его можно установить даже только на сервере!",
   "modmenu.nameTranslation.mss": "MSS - Moog's Soaring Structures",
+  "modmenu.summaryTranslation.mss": "Множество потрясающих парящих островов в ванильном стиле, полных добычи, мобов и подземелий, — исследуйте их все!",
   "mss.curseforge": "CurseForge",
   "mss.kofi": "Ko-fi",
-  "mss.modrinth": "Modrinth"
+  "mss.modrinth": "Modrinth",
+  "mss.releases": "Релизы на GitHub"
 }

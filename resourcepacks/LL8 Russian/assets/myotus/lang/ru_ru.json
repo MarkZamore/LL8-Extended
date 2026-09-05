@@ -1,3 +1,19 @@
 {
-  "key.categories.myotus": "Myotus"
+  "error.myotus.mod.loading.version.mismatch": "%s должен соответствовать диапазону версий %s. Текущая версия: %s",
+  "gui.myotus.button.ae2setting": "Настройки терминалов AE2",
+  "gui.myotus.button.bug_report.tooltip": "Сообщить автору мода об ошибке в настройках терминала.",
+  "gui.myotus.checkbox.show_upgrade_panel_button": "Показывать кнопку панели улучшений",
+  "gui.myotus.checkbox.show_view_cell_slots": "Показывать слоты ячеек просмотра",
+  "gui.myotus.checkbox.show_view_cell_slots.only": "(Только для 1.21.1)",
+  "gui.myotus.checkbox.tab.sorting": "Сортировать вкладки по активности",
+  "gui.myotus.config.title": "Настройки Myotus",
+  "gui.myotus.config.toggle_upgrade_terminal_panel": "Переключить панель улучшений терминала",
+  "gui.myotus.config.upgrade_terminal_panel.hide": "Скрыть панель улучшений терминала",
+  "gui.myotus.config.upgrade_terminal_panel.show": "Показать панель улучшений терминала",
+  "gui.myotus.keybinding.listening": "Ожидание нажатия клавиши… Нажмите Esc для отмены.",
+  "gui.myotus.upgrade_slot.empty_tooltip.header": "Доступные улучшения терминала:",
+  "gui.myotus.upgrade_slot.empty_tooltip.none": "Все улучшения терминала уже установлены.",
+  "key.categories.myotus": "Myotus",
+  "key.myotus.open.terminal_setting": "Открыть экран настроек терминала",
+  "key.myotus.toggle.upgrade_terminal_panel": "Переключить панель улучшений терминала"
 }
