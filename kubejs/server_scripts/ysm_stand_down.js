@@ -122,7 +122,9 @@
     var nearby = player.level.getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
     for (let index = 0; index < nearby.size(); index++) {
       var entity = nearby.get(index)
-      if (!companion.isInstance(entity)) continue
+      // Rhino's own instanceof: the loaded class is a script wrapper, and the
+      // Class methods behind it (isInstance among them) are not on the wrapper.
+      if (!(entity instanceof companion)) continue
       if (!entity.isInScene()) continue
 
       var partner = entity.scenePartnerId()
