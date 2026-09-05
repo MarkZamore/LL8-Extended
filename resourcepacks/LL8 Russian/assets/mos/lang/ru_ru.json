@@ -1,9 +1,6 @@
 {
-  "modmenu.descriptionTranslation.mos": "Moog's Ocean Structures вдыхает жизнь, веселье и разнообразие в океаны Minecraft! Ныряйте и исследуйте руины Атлантиды, древние кораблекрушения, океанские храмы и дрейфующие плоты, разбросанные по всем водным биомам. Каждое строение собрано из ванильных блоков и существ, поэтому мод органично вписывается в любую сборку и сохраняет ванильную атмосферу игры.",
   "modmenu.nameTranslation.mos": "MOS - Moog's Ocean Structures",
-  "modmenu.summaryTranslation.mos": "Более 100 океанских строений в ванильном стиле. Ныряйте к руинам Атлантиды, древним кораблекрушениям, океанским храмам и дрейфующим плотам за добычей и приключениями.",
   "mos.curseforge": "CurseForge",
   "mos.kofi": "Ko-fi",
-  "mos.modrinth": "Modrinth",
-  "mos.releases": "Релизы на GitHub"
+  "mos.modrinth": "Modrinth"
 }

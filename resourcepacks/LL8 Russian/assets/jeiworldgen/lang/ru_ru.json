@@ -1,0 +1,13 @@
+{
+  "emi.category.jeiworldgen.world_generation": "Генерация мира",
+  "jeiwg.biome_search": "Поиск биомов",
+  "jeiwg.biome_tooltip.view_more_biomes": " + %s (нажмите, чтобы увидеть весь список)",
+  "jeiwg.biomes": "Биомы:",
+  "jeiwg.loot_info.count": "от %s до %s",
+  "jeiwg.loot_info.fortune": "Увеличивается Удачей",
+  "jeiwg.loot_info.silk_touch": "С Шёлковым касанием",
+  "jeiwg.maxblobsize": "Макс. размер жилы: %s",
+  "jeiwg.no_data": "JEI WorldGen не смог загрузить данные о генерации мира. Скорее всего, вы играете на сервере, где JEI WorldGen не установлен. Установите JEI WorldGen на сервер или сначала зайдите в одиночный мир, чтобы посмотреть данные о генерации.",
+  "jeiwg.spawnattempts": "Макс. попыток появления: %s",
+  "jeiwg.title": "Генерация мира"
+}

@@ -1,0 +1,9 @@
+{
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.error.title": "Ошибка задания сборки",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.failed_only": "Не удалась автосборка: %s",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.mixed": "Запущена автосборка: %s, но не удалась: %s",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.started_only": "Запущена автосборка: %s",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.failed_only": "Автосборка не удалась",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.mixed": "Автосборка удалась частично",
+  "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.started_only": "Автосборка запущена"
+}

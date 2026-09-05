@@ -1,0 +1,6 @@
+{
+  "fishermens_trap.configuration.chance": "Шанс",
+  "fishermens_trap.configuration.enable_full_stack_catch": "Рыбная ловушка ловит целую стопку",
+  "fishermens_trap.configuration.max_ticks": "Минимум тиков",
+  "fishermens_trap.configuration.min_ticks": "Максимум тиков"
+}

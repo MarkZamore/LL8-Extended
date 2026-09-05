@@ -1,0 +1,10 @@
+{
+  "advancements.extrastorage.advanced_exporter.desc": "Гораздо больший экспортер!",
+  "advancements.extrastorage.advanced_importer.desc": "Ещё больше фильтров!",
+  "advancements.extrastorage.iron_crafter.desc": "Следующее поколение сборщиков!",
+  "config.jade.plugin_extrastorage.advanced_crafter": "Включить особое отображение для Продвинутого сборщика",
+  "config.jade.plugin_extrastorage.crafter": "Включить особое отображение для Сборщика",
+  "top.extrastorage.currentSpeed": "Текущая скорость: %sx",
+  "top.extrastorage.limitedSpeed": "Текущая скорость (ограничена %s): %sx",
+  "top.extrastorage.occupiedSpace": "Занято места: %s/%s"
+}

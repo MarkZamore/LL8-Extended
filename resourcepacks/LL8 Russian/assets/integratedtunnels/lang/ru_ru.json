@@ -1,0 +1,10 @@
+{
+  "aspect.aspecttypes.integratedtunnels.boolean.passiveioignorefilter": "Пассивное взаимодействие игнорирует фильтр",
+  "aspect.aspecttypes.integratedtunnels.boolean.passiveioignorefilter.info": "Можно ли всегда помещать в сеть и извлекать из неё что угодно.",
+  "aspect.aspecttypes.integratedtunnels.boolean.world.matchblock": "Сопоставлять блок",
+  "aspect.aspecttypes.integratedtunnels.boolean.world.matchblock.info": "Сопоставлять предметную форму блока вместо выброшенных предметов.",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.export": "Экспорт предметов в слот существ",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.export.info": "Экспортирует предметы в указанный слот существ, на которые направлена часть. -1 — любой слот, -2 и меньше — без слота.",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.import": "Импорт предметов из слота существ",
+  "aspect.integratedtunnels.write.integer.world.entity.item.slot.import.info": "Импортирует предметы из указанного слота существ, на которые направлена часть. -1 — любой слот, -2 и меньше — без слота."
+}

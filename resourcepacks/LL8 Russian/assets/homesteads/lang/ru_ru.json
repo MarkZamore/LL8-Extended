@@ -1,0 +1,22 @@
+{
+  "advancements.place_bee_keeper_work_station.descr": "Поставьте станцию розлива мёда",
+  "advancements.place_bee_keeper_work_station.title": "Дорогая, я поставил штуковину",
+  "advancements.place_flower_workstation.descr": "Поставьте верстак собирателя",
+  "advancements.place_flower_workstation.title": "Букет для вас!",
+  "advancements.place_prospect_bench.descr": "Поставьте верстак старателя",
+  "advancements.place_prospect_bench.title": "Виды на будущее улучшаются",
+  "advancements.place_tanning_rack.descr": "Поставьте дубильную раму",
+  "advancements.place_tanning_rack.title": "Отличный загар!",
+  "advancements.place_wood_work_log.descr": "Поставьте рабочее место лесоруба",
+  "advancements.place_wood_work_log.title": "Дровишки найдутся?",
+  "container.homesteads.forager": "Верстак собирателя",
+  "container.homesteads.honey_bottling_station": "Станция розлива мёда",
+  "container.homesteads.lumber_jack": "Рабочее бревно",
+  "container.homesteads.prospector": "Верстак старателя",
+  "container.homesteads.tanning_rack": "Дубильная рама",
+  "entity.minecraft.villager.homesteads.bee_keeper": "Пчеловод",
+  "entity.minecraft.villager.homesteads.forager": "Собиратель",
+  "entity.minecraft.villager.homesteads.home_steader": "Зверолов",
+  "entity.minecraft.villager.homesteads.lumber_jack": "Лесоруб",
+  "entity.minecraft.villager.homesteads.prospector": "Старатель"
+}

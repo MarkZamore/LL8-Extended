@@ -1,0 +1,14 @@
+{
+  "chat.immersivepetroleum.command.reservoir.inf.flow": "Отдача бесконечного месторождения — %1$smB/t",
+  "chat.immersivepetroleum.command.reservoir.inf.toggle.set": "Месторождение в %1$s: бесконечное.",
+  "chat.immersivepetroleum.command.reservoir.inf.toggle.unset": "Месторождение в %1$s: конечное.",
+  "chat.immersivepetroleum.command.reservoir.infinite": "§dБесконечное§r %1$s",
+  "gui.immersivepetroleum.derrick.status_console.desc": "Консоль состояния буровой вышки",
+  "gui.immersivepetroleum.empty": "Пусто",
+  "gui.immersivepetroleum.hydrotreater.tank.primary": "Первичный бак",
+  "gui.immersivepetroleum.hydrotreater.tank.secondary": "Вторичный бак",
+  "gui.immersivepetroleum.tank.input": "Входной бак",
+  "gui.immersivepetroleum.tank.output": "Выходной бак",
+  "subtitle.immersivepetroleum.gas_generator": "Портативный генератор тарахтит",
+  "subtitle.immersivepetroleum.motorboat_engine": "Моторная лодка булькает?"
+}

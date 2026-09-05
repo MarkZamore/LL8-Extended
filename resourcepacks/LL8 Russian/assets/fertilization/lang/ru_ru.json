@@ -1,0 +1,22 @@
+{
+  "fertilization.configuration.addDropsDirectlyToInventory": "Добавлять выпавшее сразу в инвентарь",
+  "fertilization.configuration.addDropsDirectlyToInventory.tooltip": "Включите, если выпавшее от сжатой костной муки должно попадать сразу в инвентарь игрока.",
+  "fertilization.configuration.addDropsDirectlyToInventoryForFakePlayers": "Добавлять выпавшее сразу в инвентарь машины",
+  "fertilization.configuration.addDropsDirectlyToInventoryForFakePlayers.tooltip": "Включите, если при автоматическом использовании выпавшее от сжатой костной муки должно попадать сразу в инвентарь машины.",
+  "fertilization.configuration.allowBoneMealOnSaplings": "Разрешить костную муку на саженцах",
+  "fertilization.configuration.allowBoneMealOnSaplings.tooltip": "Позволяет крайне сжатой костной муке превращать саженцы в большие пышные деревья.",
+  "fertilization.configuration.allowBoneMealOnSugarCanes": "Разрешить костную муку на сахарном тростнике",
+  "fertilization.configuration.allowBoneMealOnSugarCanes.tooltip": "Позволяет обычной костной муке выращивать сахарный тростник вверх.",
+  "fertilization.configuration.allowBoneMealOnVines": "Разрешить костную муку на лозе",
+  "fertilization.configuration.allowBoneMealOnVines.tooltip": "Позволяет обычной костной муке выращивать лозу вниз.",
+  "fertilization.configuration.compressedBoneMealPower": "Сила сжатой костной муки",
+  "fertilization.configuration.compressedBoneMealPower.tooltip": "Сколько костной муки применяется к растению при использовании сжатой костной муки.",
+  "fertilization.configuration.extremelyCompressedBoneMealPower": "Сила крайне сжатой костной муки",
+  "fertilization.configuration.extremelyCompressedBoneMealPower.tooltip": "Сколько костной муки применяется к растению при использовании крайне сжатой костной муки.",
+  "fertilization.configuration.floristsBoneMealMaxFlowers": "Максимум цветов от костной муки флориста",
+  "fertilization.configuration.floristsBoneMealMaxFlowers.tooltip": "Наибольшее количество цветов, которое может появиться при использовании костной муки флориста на траве.",
+  "fertilization.configuration.floristsBoneMealMaxRange": "Максимальный радиус костной муки флориста",
+  "fertilization.configuration.floristsBoneMealMaxRange.tooltip": "Наибольшее расстояние, на котором могут появиться цветы при использовании костной муки флориста на траве.",
+  "fertilization.configuration.flowerBlocks": "Блоки, дублируемые костной мукой флориста",
+  "fertilization.configuration.flowerBlocks.tooltip": "Список блоков, которые можно дублировать костной мукой флориста."
+}

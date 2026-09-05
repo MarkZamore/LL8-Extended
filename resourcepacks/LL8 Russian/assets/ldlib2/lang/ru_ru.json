@@ -1,0 +1,5 @@
+{
+  "graph.logger.count": "Записей: %s",
+  "graph.logger.level.info": "Информация",
+  "resource.selector.select_resource": "Выбрать ресурс"
+}

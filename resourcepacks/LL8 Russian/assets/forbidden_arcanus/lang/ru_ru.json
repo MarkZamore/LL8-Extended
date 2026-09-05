@@ -1,0 +1,23 @@
+{
+  "attribute.name.generic.aureal_regeneration": "Регенерация ауреала",
+  "enchantment.forbidden_arcanus.soul_looting": "Добыча душ",
+  "entity.forbidden_arcanus.corrupt_lost_soul": "Осквернённая заблудшая душа",
+  "entity.forbidden_arcanus.dark_trader": "Тёмный торговец",
+  "entity.forbidden_arcanus.enchanted_lost_soul": "Зачарованная заблудшая душа",
+  "essence.forbidden_arcanus.aureal": "Ауреал",
+  "essence.forbidden_arcanus.blood": "Кровь",
+  "essence.forbidden_arcanus.experience": "Опыт",
+  "essence.forbidden_arcanus.souls": "Души",
+  "forbidden_arcanus.ponder.forge_building.header": "Постройка кузницы Гефеста",
+  "forbidden_arcanus.ponder.forge_building.text_1": "Соберите основание конструкции",
+  "forbidden_arcanus.ponder.forge_building.text_2": "9x Позолоченный резной полированный тёмный камень",
+  "forbidden_arcanus.ponder.forge_building.text_3": "4x Мистический резной полированный тёмный камень",
+  "forbidden_arcanus.ponder.forge_building.text_4": "45x Полированный тёмный камень",
+  "forbidden_arcanus.ponder.forge_building.text_5": "Поставьте в центре стол кузнеца",
+  "forbidden_arcanus.ponder.forge_building.text_6": "Для превращения эта область должна быть свободна",
+  "forbidden_arcanus.ponder.forge_usage.header": "Использование кузницы Гефеста",
+  "forbidden_arcanus.ponder.forge_usage.text_1": "Пьедесталы из тёмного камня ставятся вот так — на них лежат предметы для ритуала",
+  "forbidden_arcanus.ponder.forge_usage.text_2": "Обелиски из мистического кристалла можно ставить на те же места — они постепенно вырабатывают ауреал",
+  "jei.forbidden_arcanus.hephaestus_smithing.required_essence": "Требуется %s: %s",
+  "modifier.forbidden_arcanus.soulbound": "Привязка к душе"
+}

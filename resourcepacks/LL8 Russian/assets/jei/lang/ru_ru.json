@@ -1,0 +1,18 @@
+{
+  "gui.jei.category.grindstone.experience": "От %s до %s XP",
+  "jei.config.client.lookupHistory": "История просмотров",
+  "jei.config.client.lookupHistory.description": "Настройки показа истории просмотра ингредиентов в JEI",
+  "jei.config.client.lookupHistory.displaySide": "Сторона показа",
+  "jei.config.client.lookupHistory.displaySide.description": "Сторона экрана, на которой показывается наложение истории просмотров.",
+  "jei.config.client.lookupHistory.enabled": "Включено",
+  "jei.config.client.lookupHistory.enabled.description": "Показывать или скрывать наложение истории просмотров.",
+  "jei.config.client.lookupHistory.maxIngredients": "Макс. ингредиентов",
+  "jei.config.client.lookupHistory.maxIngredients.description": "Максимальное число ингредиентов, сохраняемых в истории просмотров.",
+  "jei.config.client.lookupHistory.maxRows": "Макс. строк",
+  "jei.config.client.lookupHistory.maxRows.description": "Максимальное число строк в наложении истории просмотров.",
+  "jei.config.client.tooltips.enableRecipesGuiIngredientsSummary": "Сводка ингредиентов рецепта",
+  "jei.config.client.tooltips.enableRecipesGuiIngredientsSummary.description": "Показывать сводку ингредиентов, нужных для рецепта, в подсказке его результата.",
+  "jei.tooltip.bookmarks.disable": "Скрыть закладки JEI",
+  "jei.tooltip.bookmarks.enable": "Показать закладки JEI",
+  "jei.tooltip.recipe.tooltips.craft.ingredients": "Сводка ингредиентов:"
+}

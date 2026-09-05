@@ -1,16 +1,4 @@
 {
-  "moogs_structures.cloth_required.message": "Для экрана настроек Moog's Structure Lib требуется Cloth Config API. Установите его, чтобы настраивать мод в игре.",
   "moogs_structures.cloth_required.title": "Moog's Structure Lib",
-  "moogs_structures.config.all_of_mod": "Все %s",
-  "moogs_structures.config.category.replace_vanilla": "Замена ванильных структур",
-  "moogs_structures.config.category.structures": "Структуры",
-  "moogs_structures.config.disabled": "Выключено",
-  "moogs_structures.config.enabled": "Включено",
-  "moogs_structures.config.mod_rarity.tooltip": "Умножает расстояние между всеми структурами %s.",
-  "moogs_structures.config.preview": "Предпросмотр",
-  "moogs_structures.config.preview.unavailable": "Предпросмотр недоступен: мод не указал ссылку на предпросмотр (mod_slug).",
-  "moogs_structures.config.reload_notice": "Изменения вступают в силу после перезагрузки мира (выйдите в главное меню и войдите снова или выполните /reload) и затрагивают только новые чанки.",
-  "moogs_structures.config.title": "Moog's Structures",
-  "moogs_structures.config.universal_rarity": "Общая редкость",
-  "moogs_structures.config.universal_rarity.tooltip": "Умножает расстояние между всеми структурами Moog. Больше — реже, меньше — чаще."
+  "moogs_structures.config.title": "Moog's Structures"
 }

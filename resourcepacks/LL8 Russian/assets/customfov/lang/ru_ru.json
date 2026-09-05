@@ -1,25 +1,3 @@
 {
-  "customfov.options.aimingFovEffectScale": "Эффекты поля зрения при прицеливании",
-  "customfov.options.aimingFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения при прицеливании.",
-  "customfov.options.flyingFovEffectScale": "Эффекты поля зрения в полёте",
-  "customfov.options.flyingFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения в полёте.",
-  "customfov.options.fovEffectsMode": "Режим эффектов поля зрения",
-  "customfov.options.fovEffectsMode.all": "Все",
-  "customfov.options.fovEffectsMode.all.tooltip": "Поле зрения могут изменять любые механики.",
-  "customfov.options.fovEffectsMode.moddedOnly": "Моды",
-  "customfov.options.fovEffectsMode.moddedOnly.tooltip": "Поле зрения изменяют только механики из модов.",
-  "customfov.options.fovEffectsMode.none": "Нет",
-  "customfov.options.fovEffectsMode.none.tooltip": "Никакие механики не изменяют поле зрения.",
-  "customfov.options.fovEffectsMode.vanillaOnly": "Ваниль",
-  "customfov.options.fovEffectsMode.vanillaOnly.tooltip": "Поле зрения изменяют только ванильные механики.",
-  "customfov.options.speedFovEffectScale": "Эффекты поля зрения от скорости",
-  "customfov.options.speedFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения из-за эффектов скорости.",
-  "customfov.options.sprintingFovEffectScale": "Эффекты поля зрения при беге",
-  "customfov.options.sprintingFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения при беге.",
-  "customfov.options.submergedFovEffectScale": "Эффекты поля зрения под водой",
-  "customfov.options.submergedFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения под водой.",
-  "key.customfov.category": "Custom FOV",
-  "key.customfov.profile.desc": "Сменить профиль поля зрения",
-  "key.customfov.profile.switch": "Выбран профиль поля зрения %d",
-  "options.fovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения в целом."
+  "key.customfov.category": "Custom FOV"
 }

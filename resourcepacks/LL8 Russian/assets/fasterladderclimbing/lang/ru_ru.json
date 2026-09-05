@@ -1,0 +1,5 @@
+{
+  "fasterladderclimbing.configuration.allowQuickAscension": "Быстрый подъём",
+  "fasterladderclimbing.configuration.allowQuickDescension": "Быстрый спуск",
+  "fasterladderclimbing.configuration.speedModifier": "Множитель скорости"
+}

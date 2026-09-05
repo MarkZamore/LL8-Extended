@@ -1,0 +1,10 @@
+{
+  "attribute.name.icarus.max_stamina": "Максимальная выносливость полёта",
+  "config.icarus.drop_out_of_sky_when_tired": "Прекращать ли полёт, когда заканчивается выносливость или голод",
+  "config.icarus.stamina_amount": "Сколько выносливости тратится во время полёта",
+  "config.icarus.stamina_regen": "Сколько выносливости восстанавливается на земле",
+  "config.icarus.use_stamina_for_flight": "Использовать для полёта выносливость или старую систему голода",
+  "effect.icarus.energized": "Прилив энергии",
+  "effect.icarus.second_wind": "Второе дыхание",
+  "message.icarus.status.no_fly.stamina": "Вы не можете летать, когда устали!"
+}

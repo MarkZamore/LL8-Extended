@@ -1,27 +1,3 @@
 {
-  "advancements.avaritia_expand.infinity_shears.desc": "Никогда тебя не брошу",
-  "advancements.avaritia_expand.infinity_shears.title": "Попались!",
-  "config.avaritia_expand.category.blocks": "Блоки",
-  "config.avaritia_expand.category.tools": "Инструменты",
-  "config.avaritia_expand.infinity_tnt_max_explosion_time": "Время взрыва динамита бесконечности",
-  "config.avaritia_expand.infinity_tnt_max_explosion_time.tooltip": "Рекомендуемое значение — 2000-8000",
-  "config.avaritia_expand.infinity_tnt_max_range": "Макс. радиус динамита бесконечности",
-  "config.avaritia_expand.infinity_tnt_max_range.tooltip": "Эй, не советую ставить значение больше 256",
-  "config.avaritia_expand.neutron_sword_max_range": "Дальность ТП нейтрониевого меча",
-  "config.avaritia_expand.neutron_sword_max_range.tooltip": "Максимальная дальность телепортации нейтрониевого меча",
-  "entity.avaritia_expand.blaze_vindicator": "Поборник-всполох",
-  "entity.avaritia_expand.extreme_wither": "Экстремальный визер",
-  "entity.avaritia_expand.extreme_wither_skull": "Череп экстремального визера",
-  "entity.avaritia_expand.infinity_tnt_entity": "Динамит бесконечности",
-  "entity.avaritia_expand.neutron_minecart": "Нейтрониевая вагонетка",
-  "jei.tooltip.avaritia_expand.blaze_axe": "Нажмите ПКМ по зловещему знамени, чтобы призвать поборника-всполоха",
-  "title.avaritia_expand.config.title": "Avaritia:Expand",
-  "tooltip.avaritia.tool.neutron_mobile_nether": "Незер",
-  "tooltip.avaritia.tool.neutron_mobile_overworld": "Верхний мир",
-  "tooltip.avaritia.tool.neutron_mobile_theend": "Энд",
-  "tooltip.avaritia.tool.range": "Радиус",
-  "tooltip.avaritia_expand.blaze_totem.desc": "Добыча *2",
-  "tooltip.avaritia_expand.infinity_shears.desc": "Вы что, правда их скрафтили? Ну, как знаете.",
-  "tooltip.avaritia_expand.infinity_tnt_block.desc": "§8§oСовсем чуть-чуть…",
-  "tooltip.avaritia_expand.wither_star.desc": "Призывает могущественного врага"
+  "title.avaritia_expand.config.title": "Avaritia:Expand"
 }

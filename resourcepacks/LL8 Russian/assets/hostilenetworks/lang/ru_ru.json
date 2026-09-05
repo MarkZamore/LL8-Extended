@@ -1,0 +1,10 @@
+{
+  "hostilenetworks.fail.buffering": "Выдача модели буферизуется",
+  "hostilenetworks.fail.cannot_train": "Невозможно начать симуляцию\nМодель больше нельзя обучать",
+  "hostilenetworks.gui.mode.inference.desc": "Симуляции дают выдачу,",
+  "hostilenetworks.gui.mode.inference.desc2": "но модели не набирают данные",
+  "hostilenetworks.gui.mode.power": "Расход энергии: %s%%",
+  "hostilenetworks.gui.mode.speed": "Скорость симуляции: %s%%",
+  "hostilenetworks.gui.mode.training.desc": "Симуляции набирают данные модели,",
+  "hostilenetworks.gui.mode.training.desc2": "но не дают выдачи"
+}

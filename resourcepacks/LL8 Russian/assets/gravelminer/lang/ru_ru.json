@@ -1,0 +1,20 @@
+{
+  "gravelminer.configuration.client": "Клиент",
+  "gravelminer.configuration.client.activation": "Активация",
+  "gravelminer.configuration.client.activation.tooltip": "Определяет, когда GravelMiner должен срабатывать: ALWAYS, WHEN_SNEAKING или WHEN_NOT_SNEAKING",
+  "gravelminer.configuration.client.isEnabled": "Включено",
+  "gravelminer.configuration.client.isEnabled.tooltip": "Включён ли сейчас GravelMiner на этом клиенте (переключается горячей клавишей)",
+  "gravelminer.configuration.common": "Общие",
+  "gravelminer.configuration.common.gravelBlocks": "Блоки гравия",
+  "gravelminer.configuration.common.gravelBlocks.tooltip": "Блоки, которые падают и разбиваются на предметы, столкнувшись с несплошным блоком. Формат: modid:name",
+  "gravelminer.configuration.common.isOptIn": "По выбору игрока",
+  "gravelminer.configuration.common.isOptIn.tooltip": "Если включено, GravelMiner будет работать только у тех игроков, кто сам установил мод на свой клиент (для серверов).",
+  "gravelminer.configuration.common.rollFlintChance": "Шанс выпадения кремня",
+  "gravelminer.configuration.common.rollFlintChance.tooltip": "Если включено, гравий, добытый через GravelMiner, может выпасть кремнем (только на стороне сервера).",
+  "gravelminer.configuration.common.triggerOnGravel": "Срабатывать на гравии",
+  "gravelminer.configuration.common.triggerOnGravel.tooltip": "Если включено, мод будет срабатывать и при добыче самого гравия, а не только при добыче негравийного блока под ним.",
+  "gravelminer.toggleOff": "GravelMiner: ВЫКЛ",
+  "gravelminer.toggleOn": "GravelMiner: ВКЛ",
+  "key.categories.gravelminer": "GravelMiner",
+  "key.gravelminer.toggle": "Включить/выключить GravelMiner"
+}

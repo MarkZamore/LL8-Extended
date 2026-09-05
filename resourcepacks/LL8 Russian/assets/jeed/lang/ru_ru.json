@@ -1,0 +1,16 @@
+{
+  "effect.apothic_attributes.flying.description": "Позволяет летать, как в творческом режиме.",
+  "effect.apothic_attributes.grievious.description": "Уменьшает получаемое лечение на 20% за уровень.",
+  "effect.apothic_attributes.vitality.description": "Увеличивает получаемое лечение на 20% за уровень.",
+  "effect.enigmaticlegacy.growing_bloodlust.description": "Со временем отнимает здоровье, но повышает урон и даёт вампиризм. Накладывается, только если носитель проклятия вкусил запретный плод.",
+  "effect.enigmaticlegacy.growing_hunger.description": "Со временем отнимает сытость, но повышает урон и даёт вампиризм.",
+  "effect.goodending.contemporary_immunity.description": "Временный иммунитет снимает один вредный эффект, после чего ослабевает до разбитого иммунитета.",
+  "effect.goodending.shattered_immunity.description": "Разбитый иммунитет снимает один вредный эффект и рассеивается.",
+  "effect.goodending.strong_immunity.description": "Сильный иммунитет снимает один вредный эффект, после чего ослабевает до временного иммунитета.",
+  "effect.mowziesmobs.sunblock.description": "Умвутана защищают своего вождя! Остановите их, пока они не одолели вас!",
+  "effect.mynethersdelight.b_pungent.description": "Наносит урон огнём рядом с источником тепла. Если при этом есть огнестойкость, вместо урона идёт лечение.",
+  "effect.mynethersdelight.g_pungent.description": "Вместе с огнестойкостью лечит рядом с источниками тепла. Без неё вместо лечения наносит урон.",
+  "effect.species.birtd.description": "Оглушает жертву и не даёт ей двигаться, но не мешает отбиваться.",
+  "effect.species.wither_resistance.description": "Даёт иммунитет к эффекту иссушения.",
+  "jeed.tooltip.neutral": "Нейтральный"
+}

@@ -1,0 +1,6 @@
+{
+  "text.extended_industrialization.electric_beacon_beam_obstructed": "Луч перекрыт",
+  "text.extended_industrialization.electric_beacon_eu_cost_tooltip": "Потребление: %s",
+  "text.extended_industrialization.electric_beacon_help": "Расходует зелья и даёт их эффекты всем игрокам поблизости, но вдвое короче, тратя %s на каждый эффект.",
+  "text.extended_industrialization.electric_beacon_remaining_time_tooltip": "Оставшееся время эффекта: %s"
+}

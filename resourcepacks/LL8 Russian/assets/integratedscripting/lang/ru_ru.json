@@ -1,0 +1,5 @@
+{
+  "info_book.integratedscripting.advanced.typescript": "TypeScript",
+  "info_book.integratedscripting.writing.js": "JavaScript",
+  "script.integratedscripting.error.script_missing": "Скрипт «%s» на диске %s не существует"
+}
