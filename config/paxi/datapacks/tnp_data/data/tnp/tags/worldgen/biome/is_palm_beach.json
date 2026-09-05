@@ -4,18 +4,6 @@
     {
       "id": "terralith:gravel_beach",
       "required": false
-    },
-    {
-      "id": "regions_unexplored:grassy_beach",
-      "required": false
-    },
-    {
-      "id": "biomesoplenty:dune_beach",
-      "required": false
-    },
-    {
-      "id": "wythers:sand_dunes",
-      "required": false
     }
   ]
 }
