@@ -179,6 +179,48 @@
    "reason": "requested addition, kept through pack updates (Cobblemon Translation [RU] 1.5.1, CC-BY-NC-SA-4.0, kept under its author's own file name): the Pokedex opened in Russian and read English. Cobblemon ships a ru_ru.json, and its 1418 species descriptions are English text sitting under Russian keys - 248 of them carry any Cyrillic at all. Minecraft merges language files rather than replacing them, so this pack supplies the entries it has and the mod's own file answers for the rest: descriptions go from 248 to 1417 of 1418, and the mod outside the Pokedex from 5431 to 6438 of 6616. It also carries the Cobblemon addons this build runs. Last in the order, because nothing should sit above a translation; the only other pack touching cobblemon/lang is The Brazilian Project, which has pt_br alone"
   },
   {
+   "source": "tools/overlay/packs/MPLOCmods v37 (LL8 gap subset).zip",
+   "target": "resourcepacks/MPLOCmods v37 (LL8 gap subset).zip",
+   "sha256": "b38a98f6cf3d886a2a0213ba97d475f93684810041dcb5515247f95c55bb7197",
+   "reason": "requested addition, kept through pack updates (MPLOCmods v37 by Slava_vas, CC BY-NC-SA 4.0, reduced to a gap subset): the original carries 2144 language files, machine-translated, and would sit on top of every mod's own Russian. This zip keeps only the 20305 keys of 164 namespaces that no mod file, no pack of the build's own and no community pack below translates - strings unchanged, LICENSE-NOTICE.txt inside says what was cut and why - and it stands lowest of the translation packs so anything curated wins over it."
+  },
+  {
+   "source": "tools/overlay/packs/RTF Extension 2.7.0 (LL8, no en_us).zip",
+   "target": "resourcepacks/RTF Extension 2.7.0 (LL8, no en_us).zip",
+   "sha256": "af4a883e0b6a97aa645386d16f5cb17c69c12f567bcc311a1a515f839e1309b1",
+   "reason": "requested addition, kept through pack updates (RTF Extension 2.7.0 by Guardian_50 / Starwine Studios, AGPL-3.0, readme allows any use with credit): the largest community translation - 66575 of its keys match this build's English, 24529 of them keys nothing else translated. Its 34 English-locale files were removed before shipping, because rootsclassic, immersivepetroleum and iris carried Russian text under en_us and this build keeps English playable; LL8-MODIFICATION.txt inside records the change as the licence asks. Contains RTF by Exelerium, MIT."
+  },
+  {
+   "source": "tools/overlay/packs/Rus-For-Mods-1.21-1.1.zip",
+   "target": "resourcepacks/Rus-For-Mods-1.21-1.1.zip",
+   "sha256": "c516f2f942b9803c8b680aafc7173364e5a418ae3c53610a479fc112a556fd07",
+   "reason": "requested addition, kept through pack updates (Русская локализация для модов 1.21-1.1 by Rushan Mukhutdinov / Deflecta, MIT, kept under its author's own file name): 29 curated files, 1167 keys matching this build; above RTF because it is hand-made and corrects it where they meet."
+  },
+  {
+   "source": "tools/overlay/packs/Mod-Translate-10.0.2.zip",
+   "target": "resourcepacks/Mod-Translate-10.0.2.zip",
+   "sha256": "a5664682a86b4fc0a808c8d48cf63d1ac690f66092635f28993c1324f194958d",
+   "reason": "requested addition, kept through pack updates (Перевод Модов 10.0.2 by BizCub, MIT, kept under its author's own file name): 132 hand-made files, 706 keys matching this build."
+  },
+  {
+   "source": "tools/overlay/packs/Not-Enough-Translations-[RU]-a1.0.3.zip",
+   "target": "resourcepacks/Not-Enough-Translations-[RU]-a1.0.3.zip",
+   "sha256": "2414be355b86e26b94d6521d0fe1199cd8a6f422f98da33dd340b8a93dc1ea74",
+   "reason": "requested addition, kept through pack updates (Not Enough Translations [RU] a1.0.3 by Red_Mertvyak, CC BY-NC-SA 4.0, kept under its author's own file name, LICENSE inside): 33 files for mods the other packs skip, Create Aeronautics among them; 294 keys matching this build."
+  },
+  {
+   "source": "tools/overlay/packs/Create_Russified-3.0-universal.zip",
+   "target": "resourcepacks/Create_Russified-3.0-universal.zip",
+   "sha256": "721e159919026b5d59977bb1714e9a438db306cdb510db45fccede448d1e4581",
+   "reason": "requested addition, kept through pack updates (Create: Russified 3.0 by G0ludo, CC BY-SA 4.0, kept under its author's own file name, license.txt inside): the Create add-ons in Create's own Russian vocabulary. Its content for 1.21.1 lives in the 1_21_1 overlay directory that pack.mcmeta points the game to, so a file scan of assets/ alone undercounts it. Above the general packs because it keeps штуковина where they invent their own word."
+  },
+  {
+   "source": "tools/overlay/packs/Re-Avaritia RUS.zip",
+   "target": "resourcepacks/Re-Avaritia RUS.zip",
+   "sha256": "bdbff68db19910d4e9e82f03cd10a7ed18fd2ef9f365cc3ac14401c2d467f5cf",
+   "reason": "requested addition, kept through pack updates (Re:Avaritia Russian Translation 1.0.0 by Tewek, CC0): the only Russian for Re-Avaritia anywhere - 466 keys nothing else translates, 88 item names among them. On top of the general packs as a single-mod pack."
+  },
+  {
    "source": "tools/overlay/packs/Grays Mob Compatibility.zip",
    "target": "resourcepacks/Grays Mob Compatibility.zip",
    "sha256": "6fc30f408e680aee7b6c01c8f6811d4543045e1083a33ccbc195a25c80522ac0",
@@ -542,7 +584,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "f86e81bc64fbd9908aca7bd4b84667a38b6ad3caa4f4d8df1dc97b6866287cb0",
+    "sha256": "b9bdabeac8d5e0a340964275b2ad0b02aa80cccd930a38335077bfcae7905b4f",
     "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {
