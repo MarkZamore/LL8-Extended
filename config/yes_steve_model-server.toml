@@ -1,6 +1,16 @@
-#The pack sets two values here and leaves the rest to the mod: NeoForge fills
+#The pack sets one value here and leaves the rest to the mod: NeoForge fills
 #every key a config is missing with the mod's own default when it reads it, so
 #a short file stays correct across updates instead of freezing today's defaults.
+#
+#BandwidthLimit = 999 used to stand at the bottom of this file, on the belief
+#that the mod's 5 Mbps throttle was what kept "YSM Model Sync State: Loading"
+#on the screen for a minute and a half. It was not: in 2.6.5 nothing reads it.
+#The whole [server_scheduler] section - ThreadCount, BandwidthLimit,
+#PlayerSyncTimeout, AcceptSoundFX - is defined by the config class and read by
+#no other class in the jar (all 933 of them were disassembled and searched), so
+#the value did nothing and the mod's default is back. The wait comes from the
+#handover itself, which kubejs/server_scripts/ysm_model_sync.js repeats once a
+#joining client is awake to receive it.
 #
 #This is the file the mod reads. Yes Steve Model registers a SERVER config, and
 #NeoForge keeps those in config/ - a copy under saves/<world>/serverconfig only
@@ -27,14 +37,3 @@
 #armour on their own model knowingly. That is a choice worth offering and not
 #one worth making for everybody.
 DefaultModelId = ""
-
-[server_scheduler]
-	#How fast the server may send models to a player, in Mbps.
-	#
-	#The mod ships 5, a throttle written for a public server with many players
-	#joining at once. This build is played on one machine or over a LAN, and the
-	#models are 61 MB: 622 files the mod unpacks out of its own jar on every
-	#start, of which 56 MB is the wine_fox set. At 5 Mbps that is over a minute
-	#and a half of "YSM Model Sync State: Loading" before the first model can
-	#appear, every session, for a transfer that never leaves the machine.
-	BandwidthLimit = 999
