@@ -13,10 +13,8 @@
   "entityVanillaHologramOverrides": {},
   "modelsNamesDisabled": [
     "chest",
-    "trapped_chest",
-    "chest_large",
-    "trapped_chest_large",
-    "ender_chest",
+    "double_chest_left",
+    "double_chest_right",
     "vindicator"
   ],
   "allowEBEModConfigModify": true,

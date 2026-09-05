@@ -18,7 +18,7 @@
   {
    "source": "tools/overlay/config/entity_model_features.json",
    "target": "config/entity_model_features.json",
-   "sha256": "a6ce2bc91c076a9a220af2d0d1b76597435772929b5507593b4ec11844e18658",
+   "sha256": "8eb32efdb948f17154029386fdc11cdb07cbde26a300bb192deb49ebbbbcdd54",
    "reason": "requested change, kept through pack updates: allowedCEM stays ALL, which is what hands Grays Mob Overhaul's optifine/cem models to the renderers that bake the vanilla layers - the bee among them, and the chest that Lootr draws. Swept by the same update that took the projectexpansion file, and for the same reason: written into config/, which is regenerated, instead of into the overlay"
   },
   {
@@ -752,7 +752,7 @@
    "file": "config/lootr-client.toml",
    "table": "textures",
    "key": "vanilla_textures",
-   "value": "true",
+   "value": "false",
    "reason": "Lootr's chests were invisible. The Backwoods classic pack, which this build locks on as the ground under everything, ships an OptiFine CEM model at assets/minecraft/optifine/cem/chest.jem, and Entity Model Features hands that model to every renderer that bakes the vanilla chest layer - Lootr's included, because LootrChestBlockRenderer extends the vanilla ChestRenderer and the Lootr block's own model has no elements at all, so the block-entity renderer draws the whole chest. The classic model is one box whose six faces all read from y=48..64 of the sheet, a band the classic pack fills in for the vanilla chest sprites and which is empty in every Lootr sprite - so the chest was drawn out of transparent pixels. With vanilla_textures on, LootrChestBlockRenderer.getMaterial returns Sheets.chooseMaterial straight away and the chests are drawn from the vanilla sprites the classic pack does fill in. What is lost is Lootr's own look for a chest somebody has already opened; the unopened particles stay, and they are the cue that matters."
   },
   {
