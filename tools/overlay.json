@@ -58,6 +58,12 @@
    "reason": "requested addition, kept through pack updates (projecte 1.1.0). It declares itself incompatible with mekanism [,10.7.8]; this pack ships 10.7.19.85, which is above that bound - 19 beats 8 - so the block does not fire, and a pack that ever dropped below it would refuse to start rather than misbehave. Wants neoforge [21.1.119,) and this pack is on 21.1.248"
   },
   {
+   "source": "tools/overlay/mods/ProjectE_Integration-1.21.1-8.3.1.jar",
+   "target": "mods/ProjectE_Integration-1.21.1-8.3.1.jar",
+   "sha256": "e3c3bbfb4cf284aa639a87370cd3b02fdfb20729dae9aaacd9a439382cced951",
+   "reason": "requested addition, kept through pack updates (ProjectE Integration 8.3.1, MIT): ProjectE derives EMC from recipes, and it can only read the recipe types it knows - crafting, the four furnaces, stonecutting, smithing, brewing, plus whatever a mod maps for itself. Mekanism, Re-Avaritia and Ice and Fire do; nothing else in this build does, so 480 recipe types holding about 32,000 recipes were invisible and anything made only in those machines could never be given a value. This mod carries 109 recipe-type mappers for 27 mods, 23 of which are here - Create, Modern Industrialization, Immersive Engineering, Ender IO, Ars Nouveau, Occultism, Mystical Agriculture, Industrial Foregoing, Actually Additions, Farmer's Delight, Farming for Blockheads, Corail Woodcutter, Nature's Aura, PneumaticCraft, Draconic Evolution, EvilCraft, Woot, Psi, Extended Crafting, AE2, Chipped, Touhou Little Maid, Ice and Fire - and covers roughly 9,300 of those recipes, every one of them derived from the recipe the player actually uses. It also ships 90 seed values and 14 conversions for mods here, which is how ProjectE bootstraps items nothing produces (certus quartz, dragon scales); the seven files for mods this build does not have load and match nothing. Requires ProjectE, which is already here; Create, Chipped and Immersive Engineering are optional and all three are present at versions inside its ranges. Its CurseForge page allows redistribution in modpacks, and the jar's own licence is MIT."
+  },
+  {
    "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
    "target": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
    "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
