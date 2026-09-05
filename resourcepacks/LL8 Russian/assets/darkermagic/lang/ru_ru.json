@@ -1,0 +1,20 @@
+{
+  "advancements.darkermagic.full_set_warden_mage.description": "Соберите полный комплект брони боевого мага хранителя.",
+  "advancements.darkermagic.full_set_warden_mage.title": "Единое целое с хранителем",
+  "advancements.darkermagic.spell_book_volume_of_the_deep.description": "Улучшите книгу заклинаний до Тома глубин.",
+  "advancements.darkermagic.spell_book_volume_of_the_deep.title": "Мастер потустороннего",
+  "advancements.darkermagic.whisper_staff_obtain.description": "Создайте Посох шёпота.",
+  "advancements.darkermagic.whisper_staff_obtain.title": "Глубина шепчет в ответ",
+  "entity.darkermagic.summoned_sculk_centipede": "Призванная скалковая многоножка",
+  "entity.darkermagic.summoned_sculk_snapper": "Призванный скалковый кусака",
+  "entity.darkermagic.summoned_shattered": "Призванный расколотый",
+  "entity.darkermagic.summoned_warden": "Призванный хранитель",
+  "spell.darkermagic.summoned_sculk_centipede": "Призыв скалковой многоножки",
+  "spell.darkermagic.summoned_sculk_centipede.guide": "Призывает скалковую многоножку из Изнанки",
+  "spell.darkermagic.summoned_sculk_snapper": "Призыв скалкового кусаки",
+  "spell.darkermagic.summoned_sculk_snapper.guide": "Призывает скалкового кусаку из Изнанки",
+  "spell.darkermagic.summoned_shattered": "Призыв расколотого",
+  "spell.darkermagic.summoned_shattered.guide": "Призывает расколотого из Изнанки",
+  "spell.darkermagic.summoned_warden": "Призыв хранителя",
+  "spell.darkermagic.summoned_warden.guide": "Призывает хранителя из самых глубин"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Ядро автомата: Земледелие",
+  "icon": "advancedperipherals:husbandry_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Ядро автомата: Земледелие",
+      "item": "advancedperipherals:husbandry_automata_core",
+      "text": "Стоит слабому ядру автомата поглотить 3 курицы, 3 коровы и 3 овцы — и оно становится Ядром автомата: Земледелие!$(p)Это не просто более мощная версия слабого ядра: похоже, такая душа ещё и умеет обращаться с животными!"
+    },
+    {
+      "type": "link",
+      "text": "Помимо способностей слабого ядра, это ядро позволяет взаимодействовать с животными и даже прятать их внутрь черепашки!$(p)Но имей в виду: если черепашку сломать, все спрятанные животные пропадут.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/husbandry_automata/",
+      "link_text": "Документация API"
+    }
+  ]
+}

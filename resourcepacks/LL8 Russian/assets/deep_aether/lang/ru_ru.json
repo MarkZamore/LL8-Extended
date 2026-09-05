@@ -1,0 +1,20 @@
+{
+  "config.deep_aether.common.eots_damage_multiplier": "Множитель урона Ока бури",
+  "config.deep_aether.common.flawless.aerwhale_king_flawless_boss_drop": "Безупречная добыча Короля аэрокитов",
+  "config.deep_aether.common.flawless.eots_flawless_boss_drop": "Безупречная добыча Ока бури",
+  "config.deep_aether.common.flawless.slider_flawless_boss_drop": "Безупречная добыча Слайдера",
+  "config.deep_aether.common.flawless.sun_spirit_flawless_boss_drop": "Безупречная добыча Духа солнца",
+  "config.deep_aether.common.flawless.valkyrie_queen_flawless_boss_drop": "Безупречная добыча валькирии",
+  "config.deep_aether.common.gameplay.deep_aether_biome_weight": "Вес биомов Deep Aether",
+  "config.deep_aether.common.gameplay.disable_aerlavenender_field_biomes": "Отключить поля аэролаванды",
+  "config.deep_aether.common.gameplay.disable_golden_heights_biomes": "Отключить Золотые высоты",
+  "config.deep_aether.common.gameplay.disable_roseroot_forest_biomes": "Отключить розокорневые леса",
+  "config.deep_aether.common.gameplay.disable_storm_cloud_and_skyroot_rainforest_biomes": "Отключить облака и дождевые леса",
+  "config.deep_aether.common.gameplay.disable_yagroot_swap_biomes": "Отключить ягокорневые болота",
+  "config.deep_aether.common.gameplay.storm_cloud_biome_weight": "Вес биома облаков",
+  "lore.block.deep_aether.ambrosium_tiki_torch": "Смотрите, факел тики! Выше, лучше и наряднее старого доброго факела.",
+  "lore.block.deep_aether.carved_blue_squash": "Жу-у-уть! Вырежьте синюю тыкву — и получится отличное украшение к Хэллоуину!",
+  "lore.block.deep_aether.carved_green_squash": "Жу-у-уть! Вырежьте зелёную тыкву — и получится отличное украшение к Хэллоуину!",
+  "lore.block.deep_aether.carved_purple_squash": "Жу-у-уть! Вырежьте фиолетовую тыкву — и получится отличное украшение к Хэллоуину!",
+  "lore.block.deep_aether.skyjade_chain": "Похоже, теперь цепи можно делать и из кусочков небесного нефрита! Отличное дополнение к постройкам, особенно в паре с таким же фонарём!"
+}

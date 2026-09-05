@@ -1,0 +1,30 @@
+{
+  "name": "Гео-сканер",
+  "icon": "advancedperipherals:geo_scanner",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Гео-сканер выдаёт сведения о блоках вокруг и о чанке, в котором он стоит. Между сканированиями есть задержка — будь к этому готов.$(p)Полная документация — на $(9)$(l:https://docs.advanced-peripherals.de/peripherals/geo_scanner/)официальной вики$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:geo_scanner"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:geo_scanner"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Подключи гео-сканер к компьютеру — и он готов к работе!"
+    }
+  ]
+}

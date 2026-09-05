@@ -1,0 +1,17 @@
+{
+  "ars_creo.display_link": "Ars Creo: Дисплейный канал",
+  "ars_creo.display_source.for_source_status": "для состояния Истока",
+  "ars_creo.display_source.source_count": "Исток: %s",
+  "ars_creo.display_source.source_jar": "Количество Истока",
+  "ars_creo.display_source.turret": "Заклинание",
+  "ars_creo.display_source.turret.for_turret_status": "для состояния турели",
+  "ars_creo.display_source.turret.no_spell": "Заклинание не задано.",
+  "ars_creo.display_source.turret.not_enough_space": "Недостаточно места ",
+  "ars_creo.display_source.turret.spell_name": "Заклинание: %s",
+  "ars_creo.display_source.turret_target": "Заклинательная турель",
+  "ars_creo.fluid_tank": "Ars Creo: Жидкостный резервуар",
+  "ars_creo.page.behaviors": "Ars Creo добавляет особое поведение на механизмах для блоков из Ars Nouveau, включая заклинательные турели и кувшины с Истоком. Базовая заклинательная турель — выпускает заклинание на механизме при взаимодействии. Таймерная турель — выпускает заклинание с заданным интервалом. Зачарованная заклинательная турель — выпускает заклинание над каждым новым блоком, который проходит. Кувшин с Истоком — может расходоваться турелями на механизме.",
+  "ars_creo.page1.ars_creo.display_link": "Дисплейный канал можно подключить к кувшину с Истоком, чтобы выводить количество Истока в кувшине, или к заклинательной турели, чтобы выводить текущее заклинание на табло.",
+  "ars_creo.page1.ars_creo.fluid_tank": "Зелья можно хранить в жидкостном резервуаре Create и перекачивать между резервуарами по трубам.",
+  "ars_creo.page1.starbuncle_wheel": "Вырабатывает вращение для Create. Если поставить перед колесом золотой блок, RPM возрастёт."
+}

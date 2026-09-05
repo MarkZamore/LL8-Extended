@@ -1,0 +1,20 @@
+{
+  "name": "Ядро автомата: Край",
+  "icon": "advancedperipherals:end_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Ядро автомата: Край",
+      "item": "advancedperipherals:end_automata_core",
+      "text": "Стоит слабому ядру автомата поглотить 10 странников Края — и оно становится Ядром автомата: Край!$(p)Это не просто более мощная версия слабого ядра: похоже, такая душа даёт самой черепашке ограниченную способность телепортироваться."
+    },
+    {
+      "type": "link",
+      "text": "Помимо способностей слабого ядра, эта душа позволяет телепортироваться в пределах одного мира. Похоже, сначала нужно запомнить точки, а потом уже прыгать к ним!$(p)Но имей в виду: если черепашку сломать, все запомненные точки пропадут.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/end_automata/",
+      "link_text": "Документация API"
+    }
+  ]
+}

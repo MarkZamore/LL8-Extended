@@ -1,0 +1,8 @@
+{
+  "buriedwrecks.configuration.generation": "Генерация",
+  "buriedwrecks.configuration.generation.tooltip": "Настройки генерации",
+  "buriedwrecks.configuration.overwriteYLevel": "Переопределять уровень Y",
+  "buriedwrecks.configuration.overwriteYLevel.tooltip": "Заменять стандартный yLevel на уровень Y, указанный в параметре «yLevel»",
+  "buriedwrecks.configuration.yLevel": "Уровень Y",
+  "buriedwrecks.configuration.yLevel.tooltip": "Уровень Y, на котором мод будет пытаться генерировать затонувшие корабли"
+}

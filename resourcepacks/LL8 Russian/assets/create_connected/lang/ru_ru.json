@@ -1,0 +1,16 @@
+{
+  "create_connected.battery.charge": "Заряд:",
+  "create_connected.battery.consumption": "Расход заряда:",
+  "create_connected.battery.powering_belts": "питает конвейеры",
+  "create_connected.ponder.inventory_bridge_filter.text_5": "Фильтры учитываются и при извлечении предметов из хранилищ…",
+  "create_connected.ponder.inventory_bridge_filter.text_6": "…а пустой фильтр отклоняет предметы, подходящие под фильтр другой стороны",
+  "create_connected.ponder.inventory_bridge_filter.text_7": "Отклонённые фильтрами предметы не видны в сетях складских передатчиков",
+  "create_connected.ponder.kinetic_battery.text_3": "При подаче сигнала редстоуна он разряжается, обеспечивая заданный предел нагрузки на фиксированной скорости",
+  "create_connected.ponder.kinetic_battery.text_4": "Но расход заряда зависит от того, какая часть предела нагрузки используется на самом деле",
+  "create_connected.ponder.kinetic_battery.text_5": "Если другие источники вращения дают достаточный предел нагрузки, накопители не разряжаются",
+  "create_connected.ponder.kinetic_battery.text_6": "Даже при нулевой нагрузке на сеть накопители тратят крошечную долю заряда на движение конвейеров, перевозящих предметы",
+  "create_connected.ponder.kinetic_battery.text_9": "Или используйте дисплейный передатчик, чтобы вывести уровень заряда",
+  "create_connected.ponder.kinetic_battery_automation.text_1": "Накопители сохраняют заряд и в виде предмета",
+  "create_connected.ponder.kinetic_battery_automation.text_3": "Если накопитель в режиме зарядки, нажмите по нему ПКМ другим накопителем, чтобы перелить в него заряд",
+  "create_connected.ponder.kinetic_battery_chaining.text_5": "Когда один накопитель получает сигнал редстоуна, активируются все накопители в цепочке"
+}

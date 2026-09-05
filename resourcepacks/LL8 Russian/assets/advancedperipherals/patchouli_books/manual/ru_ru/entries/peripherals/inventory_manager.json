@@ -1,0 +1,30 @@
+{
+  "name": "Диспетчер инвентаря",
+  "icon": "advancedperipherals:inventory_manager",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Диспетчер инвентаря умеет работать с инвентарём игрока. Чтобы им пользоваться, нажми ПКМ с картой памяти в руке и вложи карту в диспетчер.$(p)Полная документация — на $(9)$(l:https://docs.advanced-peripherals.de/peripherals/inventory_manager/)официальной вики$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:inventory_manager"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:inventory_manager"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Подключи диспетчер инвентаря к компьютеру — и он готов к работе!"
+    }
+  ]
+}

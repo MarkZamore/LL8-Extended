@@ -1,0 +1,11 @@
+{
+  "cursors_extended.options.global.deferred_loading.fail": "Не удалось загрузить курсор «%1$s»",
+  "minecraft-cursor.options.compat.imgui.disable_cursor_changes": "Отключить смену курсора в ImGui",
+  "minecraft-cursor.options.compat.mod_loaded": "%1$s загружен",
+  "minecraft-cursor.options.compat.mod_not_loaded": "%1$s не загружен",
+  "minecraft-cursor.options.compat.veil": "Veil",
+  "minecraft-cursor.options.compat.virtual_mode": "Виртуальный режим",
+  "minecraft-cursor.options.compat.virtual_mode.info": "Отрисовывает курсор вручную, а не через GLFW.\n\nВНИМАНИЕ: может исправить одни проблемы, но вызвать другие.",
+  "minecraft-cursor.options.refresh.info": "Перезагрузить курсоры из наборов ресурсов.",
+  "minecraft-cursor.options.restart_to_apply": "Требуется перезапуск игры"
+}

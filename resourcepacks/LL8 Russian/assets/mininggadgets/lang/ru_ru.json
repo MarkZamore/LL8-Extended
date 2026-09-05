@@ -1,0 +1,17 @@
+{
+  "mininggadgets.text.empty_table_helper": "Shift + клик — вставить улучшение из инвентаря,\nили перетащите его на этот экран.\n\nКлик по улучшению — снять его.",
+  "mininggadgets.text.modification_table": "Стол модификаций",
+  "mininggadgets.text.open_gui": "Открыть настройки горного гаджета",
+  "mininggadgets.tooltip.screen.beam_preview": "Предпросмотр луча",
+  "mininggadgets.tooltip.screen.block_break_style": "Стиль разрушения",
+  "mininggadgets.tooltip.screen.blue": "Синий",
+  "mininggadgets.tooltip.screen.green": "Зелёный",
+  "mininggadgets.tooltip.screen.inner_color": "Цвет внутреннего луча",
+  "mininggadgets.tooltip.screen.outer_color": "Цвет внешнего свечения",
+  "mininggadgets.tooltip.screen.red": "Красный",
+  "mininggadgets.tooltip.screen.sizemode.auto": "Автоматически",
+  "mininggadgets.tooltip.screen.sizemode.normal": "Обычный режим",
+  "mininggadgets.tooltip.screen.sizemode.pathway": "2 вниз (проходы)",
+  "tooltop.mininggadgets.paver": "Прокладывает дорожку по мере добычи",
+  "tooltop.mininggadgets.size": "Позволяет копать с большим радиусом добычи"
+}

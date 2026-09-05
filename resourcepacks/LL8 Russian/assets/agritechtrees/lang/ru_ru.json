@@ -1,0 +1,14 @@
+{
+  "blockentity.agritechtrees.name": "Сажалка деревьев",
+  "container.agritechtrees.hopping_planter": "Сажалка деревьев с воронкой",
+  "container.agritechtrees.planter": "Сажалка деревьев",
+  "jade.agritechtrees.soil_info": "Почва: %s (скорость роста %s)",
+  "jade.agritechtrees.tree_progress": "%s: выросло на %d%%",
+  "jade.agritechtrees.tree_ready": "%s: пора собирать!",
+  "jei.agritechtrees.planters.tooltip": "Сажалки деревьев",
+  "message.agritechtrees.invalid_seed_soil_combination": "Этот саженец не растёт на такой почве!",
+  "message.agritechtrees.invalid_soil": "Этот блок нельзя использовать как почву!",
+  "message.agritechtrees.slots_full": "Слоты сажалки заняты!",
+  "tooltip.agritech.growth_progress": "Прогресс роста",
+  "tooltip.agritech.view_recipes": "Нажмите, чтобы посмотреть рецепты"
+}

@@ -1,0 +1,6 @@
+{
+  "blockprints.complete_login": "Завершите вход в браузере.",
+  "blockprints.login_desc": "Block Prints использует Microsoft OAuth, чтобы подтвердить ваш UUID в Minecraft и связывать с ним загруженные и скачанные файлы. Хотите войти?",
+  "blockprints.login_success": "Вход выполнен успешно.",
+  "blockprints.start_login": "Войти"
+}

@@ -1,0 +1,14 @@
+{
+  "effect.avaritia_delight.endest": "Крайнейший",
+  "effect.avaritia_delight.endest.description": "Притягивает существ в радиусе 16 блоков и убивает их, когда они подойдут вплотную",
+  "effect.avaritia_delight.flower_fragrance": "Цветочный аромат",
+  "effect.avaritia_delight.flower_fragrance.description": "Удар по цели накладывает на неё иссушение.\n\nСущества в радиусе 10 блоков следуют за носителем эффекта.\n\nУбийство любого существа поблизости отменяет смерть носителя эффекта",
+  "effect.avaritia_delight.low_gravity": "Низкая гравитация",
+  "effect.avaritia_delight.overweight": "Перегрузка",
+  "farmersdelight.container.extreme_cooking_pot.heated": "Нагрето",
+  "farmersdelight.container.extreme_cooking_pot.not_heated": "Нужен нагрев снизу",
+  "jei.farmersdelight.crop_extractor": "Экстрактор урожая",
+  "jei.farmersdelight.extreme_cooking": "Экстремальная готовка",
+  "jei.farmersdelight.extreme_stove": "Экстремальная плита",
+  "message.avaritia_delight.flower_fragrance": "Вы спасены"
+}

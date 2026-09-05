@@ -1,0 +1,6 @@
+{
+  "modern_industrialization.configuration.transactionCallerName": "Указывать имя вызывающего класса",
+  "modern_industrialization.configuration.transactionCallerName.tooltip": "Если включено, транзакции переноса будут содержать имя класса, который их вызвал. Учтите, что это снижает производительность. Не рекомендуется использовать вне отладки.",
+  "text.modern_industrialization.MachineMultipleRecipes1": "Входные ресурсы подходят сразу под несколько рецептов.",
+  "text.modern_industrialization.MachineMultipleRecipes2": "Заблокируйте все выходные ячейки, причём хотя бы одну — на нужный результат."
+}

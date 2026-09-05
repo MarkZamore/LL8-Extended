@@ -1,0 +1,11 @@
+{
+  "config.jade.plugin_modularbees.grid_node_state": "Состояние сети AE2 (ModularBees)",
+  "config.jade.plugin_modularbees.power_storage": "Состояние энергии AE2 (ModularBees)",
+  "modularbees.gui.energy_bar.amount": "FE: %s/%s",
+  "modularbees.gui.me_export.blacklist": "Режим чёрного списка",
+  "modularbees.gui.me_export.filter_disable": "Фильтр выключен",
+  "modularbees.gui.me_export.filter_enable": "Фильтр включён",
+  "modularbees.gui.me_export.whitelist": "Режим белого списка",
+  "modularbees.gui.me_import.config": "Настройка",
+  "modularbees.gui.me_import.storage": "Хранилище"
+}

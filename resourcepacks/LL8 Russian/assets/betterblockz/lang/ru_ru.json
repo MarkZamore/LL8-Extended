@@ -1,0 +1,7 @@
+{
+  "axis.betterblockz.x": "Горизонтальная (восток — запад)",
+  "axis.betterblockz.y": "Вертикальная",
+  "axis.betterblockz.z": "Горизонтальная (север — юг)",
+  "key.betterblockz.cycle_pillar_axis": "Переключатель BlockZ: сменить ось столба",
+  "message.betterblockz.pillar_axis_set": "Ось столба: %s"
+}

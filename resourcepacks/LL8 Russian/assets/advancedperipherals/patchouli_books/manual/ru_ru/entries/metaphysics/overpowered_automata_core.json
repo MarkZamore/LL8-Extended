@@ -1,0 +1,25 @@
+{
+  "name": "Более мощное ядро автомата",
+  "icon": "advancedperipherals:overpowered_weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Более мощное ядро автомата: Слабое",
+      "item": "advancedperipherals:overpowered_weak_automata_core",
+      "text": "Это твоя первая попытка обойти законы метафизики. Что ж, вышло не так удачно, как ты надеялся.$(p)Наивное сочетание любого ядра автомата со звездой Незера всё-таки дало кое-какой результат…"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:overpowered_weak_automata_core",
+      "recipe2": "advancedperipherals:overpowered_end_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "Более мощные версии ядер автомата не расходуют прочность предметов при использовании.$(p)Но за всё приходится платить. Попробуешь выполнить с этим ядром хоть одну операцию без достаточного запаса топлива — улучшение тут же сломается.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/overpowered_automata/",
+      "link_text": "Документация API"
+    }
+  ]
+}

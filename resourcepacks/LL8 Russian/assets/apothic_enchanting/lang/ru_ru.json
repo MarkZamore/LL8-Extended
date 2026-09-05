@@ -1,0 +1,6 @@
+{
+  "apothic_enchanting:max_eterna": "Максимум этерны",
+  "apothic_enchanting:max_eterna.desc": "Наибольшее количество этерны, которое можно использовать в чародейском столе.",
+  "gui.apothic_enchanting.enchant.eterna.limited": "Ограничено до %s вашим атрибутом «Максимум этерны»",
+  "gui.apothic_enchanting.enchant.eterna.limited.world_tier": "Ограничено до %s вашим уровнем мира (Ctrl + T)"
+}

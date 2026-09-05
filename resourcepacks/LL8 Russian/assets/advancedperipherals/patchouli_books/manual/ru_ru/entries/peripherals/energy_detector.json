@@ -1,0 +1,30 @@
+{
+  "name": "Детектор энергии",
+  "icon": "advancedperipherals:energy_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Детектор энергии отслеживает поток энергии и работает как резистор. Чтобы использовать его как резистор, задай максимальную скорость потока.$(p)Полная документация — на $(9)$(l:https://docs.advanced-peripherals.de/peripherals/energy_detector/)официальной вики$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:energy_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:energy_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Подключи детектор энергии к компьютеру — и он готов к работе!"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "RS-мост",
+  "icon": "advancedperipherals:rs_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "RS-мост умеет взаимодействовать с Refined Storage: забирать предметы из сети, запускать крафт, получать список всего содержимого и многое другое.$(p)За полной документацией загляни на $(9)$(l:https://docs.advanced-peripherals.de/peripherals/rs_bridge/)официальную вики-страницу$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:rs_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:rs_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Подключи RS-мост к компьютеру — и можно пользоваться!"
+    }
+  ]
+}

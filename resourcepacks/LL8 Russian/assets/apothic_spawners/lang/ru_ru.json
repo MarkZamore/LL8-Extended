@@ -1,0 +1,6 @@
+{
+  "misc.apothic_spawners.off": "%s: Выкл.",
+  "misc.apothic_spawners.on": "%s: Вкл.",
+  "stat.apothic_spawners.youthful": "Молодняк",
+  "stat.apothic_spawners.youthful.desc": "Спаунер всегда будет создавать детёныша, когда это возможно"
+}

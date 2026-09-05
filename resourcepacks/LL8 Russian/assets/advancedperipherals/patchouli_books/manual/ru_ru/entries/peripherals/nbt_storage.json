@@ -1,0 +1,30 @@
+{
+  "name": "Хранилище NBT",
+  "icon": "advancedperipherals:nbt_storage",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Хранилище NBT — особый блок, в который можно записывать и из которого можно считывать произвольные данные. Добавлен главным образом ради поддержки ID (Integrated Dynamics).$(p)За полной документацией загляни на $(9)$(l:https://docs.advanced-peripherals.de/peripherals/nbt_storage/)официальную вики-страницу$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:nbt_storage"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:nbt_storage"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Подключи хранилище NBT к компьютеру — и можно пользоваться!"
+    }
+  ]
+}

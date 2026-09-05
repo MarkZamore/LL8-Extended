@@ -118,6 +118,12 @@ file/Mod-Translate-10.0.2.zip
 file/Not-Enough-Translations-[RU]-a1.0.3.zip
 file/Create_Russified-3.0-universal.zip
 file/Re-Avaritia RUS.zip
+
+# The build's own Russian, and the only translation here that is ours: the
+# strings no mod file and no pack above answers for. It sits over the
+# community packs because it is written against this build's glossary, and
+# under everything else because everything else was already decided.
+file/LL8 Russian
 file/Authentic_Shadows_1.21+.zip
 file/EclecticTrove-noconfig-1.20.2-1.3.0.zip
 file/EmbellishedStone-1.19-1.0.0.zip

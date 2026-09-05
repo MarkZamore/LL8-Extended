@@ -1,0 +1,22 @@
+{
+  "effect.cocktailsdelight.arrow_looting.description": "Ваши стрелы действуют как с чарами «Добыча»",
+  "effect.cocktailsdelight.good_omen": "Доброе знамение",
+  "effect.cocktailsdelight.good_omen.description": "Снимает дурное знамение, слабость и медлительность",
+  "effect.cocktailsdelight.hurricane.description": "Урон в ближнем бою +5%, в дождь — +10%, в грозу — +25%",
+  "effect.cocktailsdelight.invigoration": "Живость",
+  "effect.cocktailsdelight.invigoration.description": "Снимает усталость и даёт насыщение",
+  "effect.cocktailsdelight.overdraw.description": "Стрелы наносят на 25% больше урона",
+  "effect.cocktailsdelight.rush": "Порыв",
+  "effect.cocktailsdelight.rush.description": "Скорость передвижения +15%, скорость атаки +15%",
+  "effect.cocktailsdelight.satiation": "Сытость",
+  "effect.cocktailsdelight.satiation.description": "Снимает голод и слабость",
+  "effect.cocktailsdelight.spry": "Резвость",
+  "effect.cocktailsdelight.spry.description": "Скорость передвижения +15%, урон в ближнем бою +0,5",
+  "effect.cocktailsdelight.stout": "Стойкость",
+  "effect.cocktailsdelight.stout.description": "Броня +2, сопротивление отбрасыванию +1",
+  "effect.cocktailsdelight.sweep": "Размах",
+  "effect.cocktailsdelight.sweep.description": "Урон размашистого удара +15%",
+  "effect.cocktailsdelight.vigor": "Бодрость",
+  "effect.cocktailsdelight.vigor.description": "Даёт 1 сердце временного здоровья, урон в ближнем бою +0,5",
+  "effect.cocktailsdelight.wisdom.description": "Вы получаете на 20% больше XP"
+}

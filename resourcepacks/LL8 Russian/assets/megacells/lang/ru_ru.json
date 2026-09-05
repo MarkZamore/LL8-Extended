@@ -1,0 +1,12 @@
+{
+  "gui.tooltips.megacells.CompressionCutoff": "Порог сжатия массовой ячейки",
+  "gui.tooltips.megacells.ContainsTraceUnits": "Содержит остаточные единицы!",
+  "gui.tooltips.megacells.Cutoff": "Порог: %s",
+  "gui.tooltips.megacells.NotInstalled": "%s не установлен.",
+  "gui.tooltips.megacells.NotYetAvailable": "Пока недоступно.",
+  "gui.tooltips.megacells.TraceUnits": "Остаточные единицы: %s (%s)",
+  "gui.tooltips.megacells.WorkbenchCell": "Ячейка:",
+  "gui.tooltips.megacells.WorkbenchConfig": "Конфигурация:",
+  "pack.megacells.ClassicCellColours": "MEGA: классические цвета ячеек",
+  "pack.megacells.ClassicCellColoursDesc": "Старые красно-фиолетовые цвета для ячеек всех уровней AE2 и MEGA."
+}

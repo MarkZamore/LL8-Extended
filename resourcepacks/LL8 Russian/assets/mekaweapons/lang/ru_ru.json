@@ -1,0 +1,6 @@
+{
+  "gui.mekaweapons.render_bow": "Отображать Meka-Лук на спине",
+  "gui.mekaweapons.render_gun": "Отображать Meka-Пушку на спине",
+  "gui.mekaweapons.render_tana": "Отображать Meka-Тану на спине",
+  "tooltip.mekaweapons.gun_heat": "Нагрев: %s"
+}

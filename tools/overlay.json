@@ -584,7 +584,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "b9bdabeac8d5e0a340964275b2ad0b02aa80cccd930a38335077bfcae7905b4f",
+    "sha256": "cd4963490e5e9b86f1d00136d78e66874191e7858c1d379cd947ad4d91a712e9",
     "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {
@@ -993,7 +993,7 @@
  ],
  "keep": [
   {
-   "reason": "Resource packs this build added, which upstream has never had. A managed root is rebuilt from the staged release and whatever the release does not have is deleted, so every one of these went out with the next update. The other way to hold a file is a files entry above, which means committing it twice - once as the source, once as the target - for a pack nobody but us ships. Naming them here says the simpler true thing: ours, never upstream's, leave them where they are. Upstream's own ten are not listed: the release carries them, so the sync finds them and keeps them by itself.",
+   "reason": "Resource packs this build added, which upstream has never had. A managed root is rebuilt from the staged release and whatever the release does not have is deleted, so every one of these went out with the next update. The other way to hold a file is a files entry above, which means committing it twice - once as the source, once as the target - for a pack nobody but us ships. Naming them here says the simpler true thing: ours, never upstream's, leave them where they are. Upstream's own ten are not listed: the release carries them, so the sync finds them and keeps them by itself. The last entry is a folder rather than a zip and holds this build's own Russian, written key by key against the glossary: kept unpacked so a change to one string is a line in a diff, and matched with a glob because the sync tests every file under a managed root one at a time.",
    "paths": [
     "resourcepacks/3D Items-Vanillaism-1.21.1.zip",
     "resourcepacks/Authentic_Shadows_1.21+.zip",
@@ -1006,7 +1006,8 @@
     "resourcepacks/Muggets Standing Cow v1.0.zip",
     "resourcepacks/My Monster Girls.zip",
     "resourcepacks/Neco-Arc Cats.zip",
-    "resourcepacks/Thicc Phantom.zip"
+    "resourcepacks/Thicc Phantom.zip",
+     "resourcepacks/LL8 Russian/*"
    ]
   },
   {

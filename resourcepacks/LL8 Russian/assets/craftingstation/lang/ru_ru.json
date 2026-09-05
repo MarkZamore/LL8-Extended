@@ -1,0 +1,4 @@
+{
+  "text.craftingstation.clear": "Очистить сетку создания",
+  "text.craftingstation.error": "Обнаружен некорректный рецепт %s, подробности в журнале"
+}

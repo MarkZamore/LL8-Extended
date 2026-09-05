@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "supported_formats": [
+      15,
+      48
+    ],
+    "description": "LL8 Extended: русский там, где его нет ни у мода, ни у русификаторов"
+  }
+}

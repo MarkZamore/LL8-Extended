@@ -1,0 +1,9 @@
+{
+  "create_hypertube.ponder.splitter.header": "Разветвитель гипертрубы",
+  "create_hypertube.ponder.splitter.text_1": "Разветвитель гипертрубы соединяет до трёх труб, разделяя одну линию на несколько путей.",
+  "create_hypertube.ponder.splitter.text_2": "Во время полёта вы можете выбирать направление клавишами движения.",
+  "create_hypertube.ponder.splitter.text_3": "Нажмите по нему ПКМ гаечным ключом, чтобы переключать режимы разветвителя.",
+  "create_hypertube.ponder.splitter.text_4": "В режиме «Продолжение» пассажиры всегда следуют дальше по боковым трубам.",
+  "create_hypertube.ponder.splitter.text_5": "В режиме «Центр» пассажиры всегда направляются в переднюю трубу.",
+  "create_hypertube.ponder.splitter.text_6": "Насадка «Редстоун-детектор» позволяет переключаться между обоими принудительными режимами."
+}

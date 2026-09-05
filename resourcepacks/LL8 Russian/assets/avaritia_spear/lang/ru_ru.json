@@ -1,0 +1,11 @@
+{
+  "tooltip.avaritia.blaze_spear_blast.active": "Режим взрыва активен",
+  "tooltip.avaritia.crystal_shatter.active": "Кристальный раскол активен",
+  "tooltip.avaritia.tool.blaze_spear_blast": "Взрыв",
+  "tooltip.avaritia.tool.crystal_shatter": "Кристальный раскол",
+  "tooltip.avaritia.tool.lunge": "Выпад",
+  "tooltip.avaritia_spear.blaze_spear.desc": "Пронзай костяные остовы, испепеляй всё, что осталось.",
+  "tooltip.avaritia_spear.crystal_spear.desc": "Холодный свет не знает границ; удар копья пронзает любого врага.",
+  "tooltip.avaritia_spear.infinity_spear.desc": "Где пронзает свет звёзд, там покоряется космос.",
+  "tooltip.avaritia_spear.infinity_spear_damage.desc": "+ Дополнительный урон бесконечности"
+}

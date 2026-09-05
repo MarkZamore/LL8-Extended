@@ -1,0 +1,7 @@
+{
+  "artifacts.config.client.showArtifactsOnPlayers.description.0": "Отображать ли надетые артефакты на игроках",
+  "artifacts.config.client.showArtifactsOnPlayers.description.1": "Эта настройка работает только на стороне клиента и не влияет на то, что видят другие игроки",
+  "artifacts.config.client.showArtifactsOnPlayers.title": "Показывать артефакты на игроках",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.description": "Будет ли Шарф невидимости скрывать частицы всех эффектов",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.title": "Скрывает частицы эффектов"
+}

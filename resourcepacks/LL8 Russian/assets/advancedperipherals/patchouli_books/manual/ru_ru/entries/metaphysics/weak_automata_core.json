@@ -1,0 +1,27 @@
+{
+  "name": "Ядро автомата: Слабое",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Ядро автомата: Слабое",
+      "item": "advancedperipherals:weak_automata_core",
+      "text": "Слабое ядро автомата — улучшение для черепашки, превращающее её в могучий автомат!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:weak_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "Оно даёт черепашке несколько новых способностей.$(li)Копать блоки инструментом;$(li)Щёлкать по блоку предметом или пустой рукой;$(li)Втягивать предметы вокруг — все или только нужные;$(li)Обнаруживать предметы поблизости;$(li)Обнаруживать блок или черепашку на линии взгляда;$(li)Заряжать черепашку от предмета с RF в инвентаре",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/weak_automata/",
+      "link_text": "Документация API"
+    },
+    {
+      "type": "text",
+      "text": "Но слабое ядро — лишь начало метафизических изысканий! Пустая оболочка готова принять фрагменты душ мобов. Похоже, чтобы получить продвинутые варианты, придётся скармливать душе разных мобов.$(li)$(l:metaphysics/end_automata_core)Ядро автомата: Край$(li)$(l:metaphysics/husbandry_automata_core)Ядро автомата: Земледелие"
+    }
+  ]
+}

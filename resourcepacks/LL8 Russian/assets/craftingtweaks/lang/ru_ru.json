@@ -1,0 +1,20 @@
+{
+  "craftingtweaks.configuration.client": "Клиент",
+  "craftingtweaks.configuration.client.disabledAddons": "Отключённые дополнения",
+  "craftingtweaks.configuration.client.disabledAddons.tooltip": "Укажите здесь ID модов, для которых нужно отключить поддержку Crafting Tweaks.",
+  "craftingtweaks.configuration.client.hideVanillaCraftingGuide": "Скрыть ванильную книгу рецептов",
+  "craftingtweaks.configuration.client.hideVanillaCraftingGuide.tooltip": "Мы оба знаем, что JEI куда лучше. Этот параметр скрывает кнопку ванильной книги рецептов вместо того, чтобы её переносить.",
+  "craftingtweaks.configuration.client.mode": "Режим",
+  "craftingtweaks.configuration.client.mode.tooltip": "«DEFAULT» — включены и кнопки, и горячие клавиши. «BUTTONS» — только кнопки. «HOTKEYS» — только горячие клавиши. «DISABLED» — полностью отключено.",
+  "craftingtweaks.configuration.client.rightClickCraftsStack": "ПКМ создаёт стак",
+  "craftingtweaks.configuration.client.rightClickCraftsStack.tooltip": "Если включено, щелчок ПКМ по ячейке результата в верстаке создаст целый стак.",
+  "craftingtweaks.configuration.client.vanillaCraftingGuideOffsetX": "Смещение книги рецептов по X",
+  "craftingtweaks.configuration.client.vanillaCraftingGuideOffsetX.tooltip": "Отступ справа при переносе кнопки ванильной книги рецептов.",
+  "craftingtweaks.configuration.client.vanillaCraftingGuideOffsetY": "Смещение книги рецептов по Y",
+  "craftingtweaks.configuration.client.vanillaCraftingGuideOffsetY.tooltip": "Отступ сверху при переносе кнопки ванильной книги рецептов.",
+  "craftingtweaks.configuration.common": "Общие",
+  "craftingtweaks.configuration.common.compressDenylist": "Чёрный список совмещения",
+  "craftingtweaks.configuration.common.compressDenylist.tooltip": "Список записей вида modid:name, которые не будут создаваться клавишей совмещения.",
+  "craftingtweaks.configuration.common.compressRequiresCraftingGrid": "Совмещение только в сетке крафта",
+  "craftingtweaks.configuration.common.compressRequiresCraftingGrid.tooltip": "Отключите, если хотите, чтобы совмещение и разложение работали вне окон крафта (в инвентаре игрока это работает, только если мод установлен на сервере)."
+}

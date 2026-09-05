@@ -1,0 +1,13 @@
+{
+  "dimension.backrooms.the_complex": "Комплекс",
+  "effect.backrooms.insanity": "Безумие",
+  "effect.backrooms.sanity": "Рассудок",
+  "entity.backrooms.lifeform": "Форма жизни",
+  "entity.backrooms.still_life": "Застывшая жизнь",
+  "subtitles.backrooms.ambient.the_complex": "Комплекс гудит",
+  "subtitles.backrooms.distant.bang": "Что-то движется, незримое",
+  "subtitles.backrooms.lifeform.attack": "Оно бросается в атаку",
+  "subtitles.backrooms.lifeform.horn": "Вдали звучит гудок",
+  "subtitles.backrooms.still_life.wail": "Искажённый вой",
+  "upgrade.backrooms.remembered_upgrade": "Памятное улучшение"
+}

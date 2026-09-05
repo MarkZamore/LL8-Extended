@@ -1,0 +1,15 @@
+{
+  "name": "Карта памяти",
+  "icon": "advancedperipherals:memory_card",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(9)$(l:items/ar_goggles)AR-очки$(/l)$() работают в паре с $(9)$(l:peripherals/inventory_manager)Диспетчером инвентаря$(/l)$() и дают доступ к инвентарю игрока.$(p)Нажми ПКМ с Картой памяти в руке, чтобы привязать её к себе.$(p)Полная документация — на $(9)$(l:https://docs.advanced-peripherals.de/items/ar_goggles/)странице официальной вики$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:memory_card"
+    }
+  ]
+}
