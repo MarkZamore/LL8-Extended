@@ -724,8 +724,20 @@
    "target": "config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/puff_mushroom_forest.json",
    "sha256": "45485a374fe70429670b7d45ccc3535148b08df00c667c242d99a6014b9f5e31",
    "reason": "Alex's Caves multiplies every biome's creature_spawn_probability by cave_creature_spawn_count_modifier (1.75 here) and spins `while (random.nextFloat() < product)` with no iteration cap, during the SPAWN step of chunk generation. nextFloat() is always below 1, so a product of 1 or more never terminates. These two Undergarden biomes ship 0.9999999, giving 1.7499998 - the only two biomes in all 914 mods at or above the threshold, and the reason an Undergarden portal froze a world for over forty minutes on one tick. Vanilla is unharmed by the 0.9999999 because its own copy of that loop returns early when the CREATURE list is empty, which it is here - the mod's chunk-gen mob sits in a custom MobCategory - so lowering it to 0.5, what every other Undergarden biome uses, changes nothing but the runaway. Copied from the mod and differing in that one field; check it against the jar after an Undergarden update"
+  },
+  {
+   "source": "tools/overlay/mods/ProjectE_Integration-1.21.1-8.3.1.jar",
+   "target": "mods/ProjectE_Integration-1.21.1-8.3.1.jar",
+   "sha256": "e3c3bbfb4cf284aa639a87370cd3b02fdfb20729dae9aaacd9a439382cced951",
+   "reason": "requested addition, kept through pack updates (projecteintegration 8.3.1, MIT). ProjectE prices an item by the cheapest recipe it can read, and it reads 106 recipe types out of the 586 this build ships, so 22,247 recipes are invisible to it and the items they make have no price at all. This maps another 110 machine recipe types in. It also brings 207 fixed prices of its own, and four of them collide with this build: water at 1 EMC per millibucket against ProjectE's own free water, dragon hearts and chaos shards that Hostile Neural Networks can fabricate here, and amethyst at 2048 against ProjectE's 32."
+  },
+  {
+   "source": "tools/overlay/mods/appliede-1.0.8-beta.jar",
+   "target": "mods/appliede-1.0.8-beta.jar",
+   "sha256": "3ce809267def0c3ad2539c34235922c1efefa67667515f81cc02afc87ff958f9",
+   "reason": "requested addition, kept through pack updates (appliede 1.0.8-beta, LGPL-3.0). It makes EMC something an ME network can hold: a Transmutation Module supplies the alchemist's EMC to the network along with an auto-generated crafting pattern for every item he has learned, so autocrafting can build a known item straight out of EMC, and its own interface and buses transmute on every operation. It creates no EMC itself - it removes the manual step, so it multiplies whatever the collectors already make."
   }
-  ],
+],
  "tomlEdits": [
   {
    "file": "config/the_bumblezone/client.toml",
