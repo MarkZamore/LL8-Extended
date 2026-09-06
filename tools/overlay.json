@@ -736,6 +736,24 @@
    "target": "mods/appliede-1.0.8-beta.jar",
    "sha256": "3ce809267def0c3ad2539c34235922c1efefa67667515f81cc02afc87ff958f9",
    "reason": "requested addition, kept through pack updates (appliede 1.0.8-beta, LGPL-3.0). It makes EMC something an ME network can hold: a Transmutation Module supplies the alchemist's EMC to the network along with an auto-generated crafting pattern for every item he has learned, so autocrafting can build a known item straight out of EMC, and its own interface and buses transmute on every operation. It creates no EMC itself - it removes the manual step, so it multiplies whatever the collectors already make."
+  },
+  {
+   "source": "tools/overlay/config/paxi/datapacks/tnp_data/data/tnp/tags/worldgen/biome/is_palm_beach.json",
+   "target": "config/paxi/datapacks/tnp_data/data/tnp/tags/worldgen/biome/is_palm_beach.json",
+   "sha256": "7b5057ee910343154341581d5c95e7d23124913f913d177b735874de867a39fa",
+   "reason": "this build's own tag, which upstream has never had: the beaches a Tropicraft palm may stand on. It names minecraft:beach and, only if Terralith is there, terralith:gravel_beach. Without this pin the next update deletes a file nothing else claims, and the biome modifier below would point at a tag that does not exist."
+  },
+  {
+   "source": "tools/overlay/config/paxi/datapacks/tnp_data/data/tropicraft/neoforge/biome_modifier/overworld_palm_trees.json",
+   "target": "config/paxi/datapacks/tnp_data/data/tropicraft/neoforge/biome_modifier/overworld_palm_trees.json",
+   "sha256": "d37354dd9301d3c2d98270803264ffe807e70e0cd8bd66f303dbaeb1791003aa",
+   "reason": "requested change, kept through pack updates: the palm is placed by the tag above rather than by Tropicraft's own short biome list, so it reaches modded beaches as well as vanilla ones."
+  },
+  {
+   "source": "tools/overlay/config/paxi/datapacks/tnp_data/data/tropicraft/worldgen/placed_feature/trees_palm_overworld.json",
+   "target": "config/paxi/datapacks/tnp_data/data/tropicraft/worldgen/placed_feature/trees_palm_overworld.json",
+   "sha256": "0e0aea2518a58b2e0b91c713afe2e38186235e8773d8a789a0c3f532f16552f7",
+   "reason": "requested change, kept through pack updates: the count weights go from nine-to-one against a tree to five-to-five, because at 0.1 trees per chunk the Tropicraft palm lost every beach to Fish of Thieves at 1.1 and Crabber's Delight at about 1."
   }
 ],
  "tomlEdits": [
