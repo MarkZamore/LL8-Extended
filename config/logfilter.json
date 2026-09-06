@@ -3,6 +3,13 @@
   "enabled": true,
   "rules": [
     {
+      "name": "Suppress EMI search baking failures",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "EMI caught an exception while baking search for .+",
+      "action": "DENY"
+    },
+    {
       "name": "Suppress missing blockstate model variant warnings",
       "enabled": true,
       "type": "MESSAGE_REGEX",
