@@ -83,7 +83,7 @@ config/quark-common.toml
 config/iceandfire/iaf-client.json
 # the long night, the torches swapped for redstone ones and the torches broken are off in it; the mod writes this file itself on the first launch, so without this line the pack could never change them again
 config/serversidehorror.json
-# its login guard refuses an offline UUID and kicks a late auth challenge - both aimed at somebody else here, where the identity is the launcher's and the lateness is EMI rebuilding its index on the joining client
+# 2.2.4 dropped the auth keys this line was added for; what it carries now is enableMorphChargeSystem, false here against the mod's new default of true, and the mod rewrites this file itself on first launch
 config/identity2.json
 # the disconnect timeout is five minutes rather than one, because a guest is frozen up to a minute inside that same EMI reload while the host hands them the registry of 880 mods
 config/connectivity.json
@@ -139,3 +139,10 @@ config/projectexpansion/client.toml
 # maximized rather than at 854 by 480 and then stretching when the game takes
 # the same window over.
 config/fml.toml
+# ProjectE decides what every item in the build is worth, and this file is
+# where a price is set by hand rather than derived. It has to be the same
+# for everyone or two players are playing different economies, and it lived
+# only in one instance until now. ProjectE writes it back itself whenever
+# somebody runs /projecte setemc, so without this claim an instance would
+# look edited from the first launch and the build's copy would never arrive.
+config/projecte/custom_emc.json

@@ -620,7 +620,7 @@
    {
     "source": "tools/overlay/config/identity2.json",
     "target": "config/identity2.json",
-    "sha256": "3a024f3b562d8fbc44044ed475a46fe8117c51fb9976c57770aa7bd666ea1805",
+    "sha256": "3dc05f839563149752edfdd86b6e67a7931c8fc1c5f8753f2c7064c9d7fbb485",
     "reason": "Identity2 refuses a login whose UUID is an offline one and kicks a player whose auth challenge is late. Both are aimed at somebody else: the identities here are the launcher's, issued from a Steam account, and the lateness is EMI rebuilding its index for twenty seconds on the joining client - which is the moment the challenge arrives. A guest was thrown out of this world twice in one evening by it. The rest of the file is Identity2's own defaults. showDeathMorphRuleWarning is off with it, which is the other line that met every player at every login: To keep your morph after death, use /identity config set deathMorphRule none. It is advice about a setting this pack has already decided, printed to people who cannot change it."
    },
    {
@@ -754,6 +754,24 @@
    "target": "mods/ModernChickens-1.21.1-2.6.1-NeoForge.jar",
    "sha256": "2cc359dae5f96f6ffcaa40b099f254caac4f0fa33c4fa71d0d8f928320437887",
    "reason": "requested addition, kept through pack updates (Modern Chickens 2.6.1, MIT). One jar carrying a port of setycz's Chickens and timrwood's Roost: chickens that lay resources instead of eggs, bred up through tiers, and a roost that runs them without an entity in the world. It registers as chickens, which nothing else in this build claims, and asks only for NeoForge and Minecraft."
+  },
+  {
+   "source": "tools/overlay/config/projecte/custom_emc.json",
+   "target": "config/projecte/custom_emc.json",
+   "sha256": "1a93a0cf4e82a238415d1384ff754d62d5e444eecf80143d2172c9d20d273f39",
+   "reason": "requested change, kept through pack updates: ProjectE's own fixed prices, the one file in its config that nobody but this build writes. It loads after every mod's pe_custom_conversions, so a line here beats a price a mod ships, which is what makes it the place to answer a value two mods disagree about. It lived only in the owner's instance until now, which meant no edit to the EMC economy ever reached another player. Empty on arrival; the entries come with the economy pass. mapping.toml, server.toml and common.toml are deliberately not here: ProjectE rewrites the first when a mod adds mappers, and the other two are better served by tomlEdits when a single key moves."
+  },
+  {
+   "source": "tools/overlay/config/fancymenu/customization/loadingscreen.txt",
+   "target": "config/fancymenu/customization/loadingscreen.txt",
+   "sha256": "5572802e77167d7b47bd358991eddcf7a1f0d73466abc7ad8e17917656ce353d",
+   "reason": "requested change, kept through pack updates: the line the loading screen shows while the build boots, in Russian. FancyMenu writes this file itself, so without a pin an update would put the English back."
+  },
+  {
+   "source": "tools/overlay/config/fancymenu/customization/mainmenu.txt",
+   "target": "config/fancymenu/customization/mainmenu.txt",
+   "sha256": "91f8e5b2d24971ae073d8267eaf8e6ca9fa6ce0fc6e05736432ded378a72c3e0",
+   "reason": "requested change, kept through pack updates: the two seasonal greetings on the main menu, in Russian. Same reason as the loading screen above."
   }
 ],
  "tomlEdits": [
