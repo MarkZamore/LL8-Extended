@@ -1,0 +1,46 @@
+{
+	"smoothgui.preview": "Предпросмотр",
+	"smoothgui.stop": "Остановить",
+
+	"smoothgui.configmode.title": "Конфиг SmoothGui",
+	"smoothgui.configmode.screen": "Экран",
+	"smoothgui.configmode.enabled": "Включено",
+	"smoothgui.configmode.default": "По умолчанию",
+	"smoothgui.configmode.on": "Да",
+	"smoothgui.configmode.off": "Нет",
+
+	"smoothgui.config._animation": "Анимация",
+	"smoothgui.config.enableAnimation": "Включена",
+	"smoothgui.config.animationTime": "Длительность анимации",
+	"smoothgui.config.animationScale": "Масштаб анимации",
+	"smoothgui.config.animationStyle": "Стиль плавности",
+	"smoothgui.config.animationDirection": "Направление анимации",
+
+	"smoothgui.config._background": "Фон",
+	"smoothgui.config.modifyBackground": "Включить фон",
+	"smoothgui.config.modifyBackground.tooltip": "Отключите, если есть проблемы совместимости с другим модом и вы не хотите, чтобы этот мод трогал фон.",
+	"smoothgui.config.backgroundOpacity": "Прозрачность фона",
+	"smoothgui.config.backgroundFadeTime": "Длительность затемнения",
+	"smoothgui.config.alwaysBlurBackground": "Всегда размывать",
+	"smoothgui.config.alwaysBlurBackground.tooltip": "Применять эффект размытия позади меню ко всем экранам.",
+
+	"smoothgui.config._screens": "Фильтр экранов",
+	"smoothgui.config.repeatSameScreen": "Повторять при том же экране",
+	"smoothgui.config.repeatSameScreen.tooltip": "Проигрывать анимацию при открытии экрана того же типа. Например при навигации по меню на серверах.",
+	"smoothgui.config.configMode": "Режим конфига",
+	"smoothgui.config.configMode.tooltip": "Включите режим конфига, чтобы выбирать, какие экраны должны иметь анимацию.",
+
+	"smoothgui.config.enum.AnimationDirection.UP": "Вверх",
+	"smoothgui.config.enum.AnimationDirection.DOWN": "Вниз",
+
+	"smoothgui.config.enum.EasingStyle.FLAT": "Flat",
+	"smoothgui.config.enum.EasingStyle.SINE": "Sine",
+	"smoothgui.config.enum.EasingStyle.QUAD": "Quad",
+	"smoothgui.config.enum.EasingStyle.CUBIC": "Cubic",
+	"smoothgui.config.enum.EasingStyle.QUART": "Quart",
+	"smoothgui.config.enum.EasingStyle.QUINT": "Quint",
+	"smoothgui.config.enum.EasingStyle.EXPO": "Expo",
+	"smoothgui.config.enum.EasingStyle.CIRC": "Circ",
+	"smoothgui.config.enum.EasingStyle.BACK": "Back",
+	"smoothgui.config.enum.EasingStyle.ELASTIC": "Elastic"
+}

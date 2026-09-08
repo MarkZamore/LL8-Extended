@@ -1,4 +1,13 @@
 {
+  "gamerule.playersTfPortalCreativeDelay": "Задержка портала в Сумеречный лес для игрока в творческом режиме",
+  "gamerule.playersTfPortalCreativeDelay.description": "Время (в тиках), которое игрок в творческом режиме должен простоять в портале Сумеречного леса перед сменой измерений.",
+  "gamerule.playersTfPortalDefaultDelay": "Задержка портала в Сумеречный лес для игрока в не-творческом режиме",
+  "gamerule.playersTfPortalDefaultDelay.description": "Время (в тиках), которое игрок в не-творческом режиме должен простоять в портале Сумеречного леса перед сменой измерений.",
+  "key.twilightforest.categories.travellers_gear": "Лес Сумерек (Снаряжение путешественника)",
+  "key.twilightforest.item_display_map_cycle": "Циклировать карты дисплея",
+  "key.twilightforest.red_thread_vision": "Видеть красную нить в очках",
+  "key.twilightforest.swap_hotbar": "Сменить хотбар",
+  "key.twilightforest.zoom": "Приближение в очках",
   "twilightforest.tips.alpha_yeti": "Неистовство Альфа-йети вызывает обрушение блоков с потолка. Остерегайтесь падающих сосулек!",
   "twilightforest.tips.anvil_squashing": "Жуки могут быть расплющены с помощью Наковален.",
   "twilightforest.tips.arctic_armor": "Арктическая броня может быть покрашена в любой цвет.",
@@ -89,5 +98,13 @@
   "twilightforest.tips.trollber_ripening": "Убийство тролля заставит созреть ближайший тролльбер.",
   "twilightforest.tips.trophy_pedestal": "Пьедестал для трофеев можно сломать только после того, как он будет активирован.",
   "twilightforest.tips.uncrafting_table": "Разборочный стол умеет не только разбирать предметы. Он также может пересобирать их в другие, чинить инструменты и броню, а ещё — переносить зачарования между снаряжением!",
-  "twilightforest.tips.wrought_iron": "Кованые прутья не имеют стандартного рецепта получения. Их можно добыть только при разборке блоков, созданных из этих прутьев."
+  "twilightforest.tips.wrought_iron": "Кованые прутья не имеют стандартного рецепта получения. Их можно добыть только при разборке блоков, созданных из этих прутьев.",
+  "twilightforest.tips.towerwood": "Доски тёмной башни очень устойчивые, но восприимчивы к огню.",
+  "twilightforest.tips.worldgen_features": "Лес заполнен множеством руин. Некоторые могут даже содержать уникальные предметы.",
+  "twilightforest.tips.ur_ghast": "Древнего гаста можно притянуть вниз с помощью ловушек гаста.",
+  "twilightforest.tips.vanishing_block": "Исчезающие блоки исчезнут навсегда при активации.",
+  "twilightforest.tips.zombie_healing": "Зомби, вызванные скипетром зомби, могут быть исцелены гнилой плотью.",
+  "twilightforest.tips.twilight_portal": "Бросьте алмаз в бассейн с водой, окружённый цветами.",
+  "twilightforest.tips.druid_hut": "В хижинах друидов иногда есть скрытые подвалы.",
+  "twilightforest.tips.yeti": "Йети любят бросать вещи."
 }
