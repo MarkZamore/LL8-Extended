@@ -13,4 +13,5 @@ portable-pack-source.json
 # Listed in tools/remote-files.json: too large for GitHub, fetched by
 # tools/fetch_remote_files.py and verified by hash.
 mods/Cobblemon-*.jar
+mods/divinerpg-*.jar
 resourcepacks/AnimeMemePackv8.1.0.zip

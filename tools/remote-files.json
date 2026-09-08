@@ -8,6 +8,13 @@
       "sha256": "962d75df4fb649d94863a7a7d130d4d2b3de4da9b3cae4c44b1ce90f37ec0ed5",
       "size": 128748941,
       "reason": "requested addition (cobblemon 1.7.3+1.21.1); 122.8 MiB is over GitHub's per-file limit, so it is fetched rather than committed"
+    },
+    {
+      "target": "mods/divinerpg-1.10.9.3.jar",
+      "url": "https://cdn.modrinth.com/data/F3kLpGw6/versions/Pk4lC3aW/divinerpg-1.10.9.3.jar",
+      "sha256": "6e4b4bc9c073de5b7a7de4106c54eedb186cc237b19b6e78848457a298c61fd8",
+      "size": 63014216,
+      "reason": "requested addition (DivineRPG 1.10.9.3): eight dimensions, more than a hundred bosses and mobs, and its own tiers of tools and armour. 63.0 MB, which is why it is fetched rather than committed: in git it would be two copies, the tree and the overlay source, for 126 MB of history that never shrinks. Its neoforge.mods.toml ships with the build placeholders unreplaced, so it declares no loader range at all and loads against any."
     }
   ]
 }

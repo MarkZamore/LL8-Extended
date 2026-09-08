@@ -449,12 +449,6 @@
    "reason": "how a MineColonies builder moves a block further than a vanilla piston reaches. MineColonies' own toml does not name it, but CurseForge marks it required and the builder calls into it, so it comes along rather than being found missing mid-build. It asks for blockui [1.0.188-1.21.1-snapshot,) and structurize [1.0.751-1.21.1-snapshot,), both here"
   },
   {
-   "source": "tools/overlay/mods/burnt-1.10.2.4-neoforge-1.21.1.jar",
-   "target": "mods/burnt-1.10.2.4-neoforge-1.21.1.jar",
-   "sha256": "5e0111c42883a1769b8695e6633bf4429720a245ec458efa1e6cc8166eb93380",
-   "reason": "requested addition, kept through pack updates (Burnt + Additions 1.10.2.4, which CurseForge lists as Better Vanilla Fire): fire spreads and stays, and what it burns is left charred instead of gone. One jar carrying Burnt Basic 1.10.4.3 and Burnt Additions 0.1.3; it registers as burnt_combined and asks for Cloth Config and GeckoLib at [0,), both in the pack at 15.0.140 and 4.9.2, and treats Weather2 as optional. Registers no key"
-  },
-  {
    "source": "tools/overlay/mods/the_backwoods-1.7.0-neoforge-1.21.1.jar",
    "target": "mods/the_backwoods-1.7.0-neoforge-1.21.1.jar",
    "sha256": "03443b82204b0cacded8716551ede458b3c2d6c728b35d2818143ddcf44313ca",
@@ -754,6 +748,12 @@
    "target": "config/paxi/datapacks/tnp_data/data/tropicraft/worldgen/placed_feature/trees_palm_overworld.json",
    "sha256": "0e0aea2518a58b2e0b91c713afe2e38186235e8773d8a789a0c3f532f16552f7",
    "reason": "requested change, kept through pack updates: the count weights go from nine-to-one against a tree to five-to-five, because at 0.1 trees per chunk the Tropicraft palm lost every beach to Fish of Thieves at 1.1 and Crabber's Delight at about 1."
+  },
+  {
+   "source": "tools/overlay/mods/ModernChickens-1.21.1-2.6.1-NeoForge.jar",
+   "target": "mods/ModernChickens-1.21.1-2.6.1-NeoForge.jar",
+   "sha256": "2cc359dae5f96f6ffcaa40b099f254caac4f0fa33c4fa71d0d8f928320437887",
+   "reason": "requested addition, kept through pack updates (Modern Chickens 2.6.1, MIT). One jar carrying a port of setycz's Chickens and timrwood's Roost: chickens that lay resources instead of eggs, bred up through tiers, and a roost that runs them without an entity in the world. It registers as chickens, which nothing else in this build claims, and asks only for NeoForge and Minecraft."
   }
 ],
  "tomlEdits": [
