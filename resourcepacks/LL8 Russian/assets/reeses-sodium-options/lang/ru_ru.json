@@ -1,0 +1,7 @@
+{
+  "rso.options.always_show_action_buttons.name": "Всегда показывать кнопки действий",
+  "rso.options.always_show_action_buttons.tooltip": "Оставляет кнопки сброса и отмены видимыми, когда включено их отображение, и показывает недоступные действия как неактивные.",
+  "rso.options.search_result_limit.name": "Лимит результатов поиска",
+  "rso.options.search_result_limit.tooltip": "Определяет максимальное количество подходящих настроек, возвращаемых поиском.",
+  "rso.options.value.results": "%s результатов"
+}

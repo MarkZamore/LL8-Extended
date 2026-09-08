@@ -1,0 +1,9 @@
+{
+  "sodium.options.quad_splitting.off": "Обычный",
+  "sodium.options.closest_point_entity_sort.default": "По умолчанию",
+  "sodium.options.closest_point_entity_sort.enhanced": "Улучшенная",
+  "sodium.console.corrupt_config.console.config_file_was_reset": "Файл конфигурации сброшен до последних исправных значений по умолчанию.",
+  "sodium.console.corrupt_config.console.title": "Sodium не смог загрузить файл конфигурации",
+  "sodium.console.corrupt_config.message.title": "Не удалось загрузить файл конфигурации",
+  "sodium.console.corrupt_config.message.body": "Произошла ошибка при попытке загрузить файл конфигурации.\nЭто может случиться, если файл был повреждён на диске\nили при попытке отредактировать его вручную.\n\nЕсли вы продолжите, файл конфигурации будет сброшен до последних\nисправных значений по умолчанию, и все изменения, внесённые\nв настройках видео, будут потеряны.\n\nПодробности об ошибке можно найти в файле журнала."
+}
