@@ -1,0 +1,13 @@
+{
+    "name": "Урон холодом",
+    "icon": "minecraft:blue_ice",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Урон холодом$() — дополнительный магический урон при атаках в ближнем бою. Вдобавок он замедляет цель, и тем сильнее, чем выше урон.$(p)Встречается на оружии ближнего боя."
+        }
+	]
+}

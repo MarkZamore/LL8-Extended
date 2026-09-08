@@ -1,0 +1,14 @@
+{
+	"name": "Сеть звёздных врат",
+	"icon": "sgjourney:universe_stargate_chevron",
+	"sortnum": 0,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Приоритетные врата",
+			"type": "patchouli:text",
+			"text": "TODO"
+		}
+	]
+}

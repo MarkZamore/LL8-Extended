@@ -1,0 +1,27 @@
+{
+  "name": "Черепаха",
+  "icon": "minecraft:turtle_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:turtle",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:seagrass",
+      "text": "Кормите черепах морской травой, чтобы они размножались и в загоне их становилось больше. Заодно будут выпадать черепашьи щитки."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по загону для животных убьёт черепах, и с них выпадет добыча."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Примените ведро к загону с черепахами, чтобы собрать яйца. Чем больше черепах, тем больше яиц. [взаимодействие с редстоуном 1]"
+    }
+  ]
+}

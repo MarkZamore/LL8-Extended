@@ -1,0 +1,37 @@
+{
+  "name": "Грибная корова",
+  "icon": "minecraft:mooshroom_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:mooshroom",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wheat",
+      "text": "Кормите грибных коров пшеницей, чтобы они размножались и их число в загоне росло."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Примените к Загону для животных меч или топор — грибная корова погибнет, и с неё выпадет добыча."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Примените ведро к Загону для животных с грибной коровой — и получите ведро молока. [взаимодействие с редстоуном 1]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bowl",
+      "text": "Примените миску к Загону для животных с грибной коровой — и получите грибной суп. [взаимодействие с редстоуном 2]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:poppy",
+      "text": "Примените любой маленький цветок к Загону для животных с коричневой грибной коровой — и следующий суп станет Подозрительным супом."
+    }
+  ]
+}

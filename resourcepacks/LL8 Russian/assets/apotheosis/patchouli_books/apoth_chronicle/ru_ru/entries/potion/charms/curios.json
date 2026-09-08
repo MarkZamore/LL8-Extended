@@ -1,0 +1,13 @@
+{
+    "name": "Curios",
+    "icon": "curios:textures/slot/empty_charm_slot.png",
+    "category": "apotheosis:potion/charms",
+    "flag": "&apotheosis:potion,apotheosis:curiosloaded",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Если установлен $(9)Curios$(), амулеты с эффектом можно надеть в слот $(9)Амулет$().$(p)Работать они будут так же, как в инвентаре."
+        }
+    ]
+}

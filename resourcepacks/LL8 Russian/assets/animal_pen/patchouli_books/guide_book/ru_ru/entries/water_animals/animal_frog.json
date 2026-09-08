@@ -1,0 +1,27 @@
+{
+  "name": "Лягушка",
+  "icon": "minecraft:frog_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:frog",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:slime_ball",
+      "text": "Скормите лягушкам куски слизи — они начнут размножаться, и в загоне их станет больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по загону для животных убьёт лягушку и выбьет из неё добычу."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:magma_block",
+      "text": "Скормите лягушкам магматический блок — и они выдадут лягушкосвет. [взаимодействие с редстоуном 1]"
+    }
+  ]
+}

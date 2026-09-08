@@ -1,0 +1,8 @@
+{
+  "ironfurnaces.update.buttonOptions": "Клик: Журнал изменений, Shift-клик: Скачать! (в браузере)",
+  "ironfurnaces.update.buttons": "[{\"text\":\"[\"},{\"text\":\"Кликните для журнала изменений\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"] [\",\"color\":\"none\"},{\"text\":\"Кликните для скачивания\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"]\",\"color\":\"none\"}]",
+  "ironfurnaces.update.failed": "[{\"text\":\"Проверка обновлений для \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"не удалась! Проверьте логи для подробной информации!\",\"color\":\"none\"}]",
+  "ironfurnaces.update.speech": "[{\"text\":\"Доступно обновление для \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"none\"}]",
+  "ironfurnaces.update.version": "[{\"text\":\"Текущая версия: \"},{\"text\":\"%s\",\"color\":\"dark_red\"},{\"text\":\", новейшая версия: \",\"color\":\"none\"},{\"text\":\"%s\",\"color\":\"dark_green\"}]",
+  "tooltip.ironfurnaces.heater": "Привязано к: "
+}

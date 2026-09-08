@@ -1,0 +1,13 @@
+{
+    "name": "Скорость добычи",
+    "icon": "minecraft:netherite_pickaxe",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Чем выше $(9)Скорость добычи$(), тем быстрее вы ломаете блоки. При базовом значении 1.0 блоки ломаются как обычно.$(p)Встречается на кирках и лопатах."
+        }
+    ]
+}

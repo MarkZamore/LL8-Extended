@@ -1,0 +1,17 @@
+{
+    "name": "Как построить",
+    "icon": "bigreactors:reprocessorcollector",
+    "category": "bigreactors:reprocessor",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Репроцессор — машина 3x3 в основании и 7 блоков в высоту, собранная из блоков корпуса и остальных деталей, по одной каждого вида.$(br)На боковых гранях машины (но не на раме) вместо блоков корпуса можно ставить стекло.$(br2)Где какую деталь разрешено размещать — смотрите на странице соответствующей части репроцессора."
+        },
+        {
+            "type": "zcmultiblock",
+            "multiblock_id": "bigreactors:bookreprocessor"
+        }
+    ]
+}

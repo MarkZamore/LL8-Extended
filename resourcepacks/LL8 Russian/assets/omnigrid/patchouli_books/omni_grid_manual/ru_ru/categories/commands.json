@@ -1,0 +1,6 @@
+{
+  "name": "Командные слоты",
+  "description": "Управляйте ресурсами",
+  "icon": "minecraft:hopper",
+  "sortnum": 6
+}

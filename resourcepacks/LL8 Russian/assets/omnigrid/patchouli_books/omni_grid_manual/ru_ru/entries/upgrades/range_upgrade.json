@@ -1,0 +1,15 @@
+{
+  "name": "Апгрейд дальности",
+
+  "category": "omnigrid:upgrades",
+  "icon": "refinedstorage:range_upgrade",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Увеличивает дальность сканирования команд Collect/Search и позволяет целевым блокам и элементам прокси работать на большем расстоянии."
+
+
+    }
+  ]
+}

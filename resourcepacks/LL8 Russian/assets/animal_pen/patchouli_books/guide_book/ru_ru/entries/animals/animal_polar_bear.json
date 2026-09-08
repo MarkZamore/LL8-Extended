@@ -1,0 +1,17 @@
+{
+  "name": "Белый медведь",
+  "icon": "minecraft:polar_bear_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:polar_bear",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по загону для животных убьёт белого медведя, и с него выпадет добыча."
+    }
+  ]
+}

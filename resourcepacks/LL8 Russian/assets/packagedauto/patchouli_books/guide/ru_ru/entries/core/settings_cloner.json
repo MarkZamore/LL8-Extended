@@ -1,0 +1,25 @@
+{
+	"name": "Копировщик настроек",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:settings_cloner",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(item)Копировщик настроек упаковки/$ умеет копировать и переносить настройки некоторых механизмов упаковки."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "packagedauto:settings_cloner",
+			"link_recipe": true,
+			"title": "Применение",
+			"text": "Чтобы скопировать настройки, нажмите $(thing)$(k:sneak) + $(k:use)/$ $(item)Копировщиком настроек упаковки/$ по подходящему механизму.$(p)Затем нажмите $(thing)$(k:use)/$ по механизму того же типа — настройки перенесутся.$(p)Чтобы стереть сохранённые настройки, нажмите $(thing)$(k:sneak) + $(k:use)/$ по воздуху или по любому блоку, кроме подходящих механизмов."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:settings_cloner",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5
+}

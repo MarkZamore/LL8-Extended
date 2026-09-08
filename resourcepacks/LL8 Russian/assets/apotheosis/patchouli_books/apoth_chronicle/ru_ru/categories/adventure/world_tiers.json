@@ -1,0 +1,7 @@
+{
+    "name": "Мировые уровни",
+    "description": "Чем сильнее становитесь вы, тем сильнее становится и мир вокруг.$(p)Этот раздел посвящён апофеозным мировым уровням: что они меняют, как их открыть и как сменить текущий.",
+    "icon": "apotheosis:textures/gui/book/summit_icon.png",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

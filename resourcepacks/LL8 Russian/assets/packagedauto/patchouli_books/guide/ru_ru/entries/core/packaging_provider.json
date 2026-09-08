@@ -1,0 +1,36 @@
+{
+	"name": "ME-поставщик упаковки",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:packaging_provider",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(item)ME-поставщик упаковки/$ совмещает работу $(l:core/packager)Упаковщика/$ и $(l:core/unpackager)Распаковщика/$.$(p)Механизм обязательно должен быть подключён к $(thing)ME-сети/$ и занимает канал."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "packagedauto:packaging_provider",
+			"link_recipe": true,
+			"title": "Применение",
+			"text": "Положите в $(item)ME-поставщик упаковки/$ записанный $(l:core/recipe_holder)Держатель рецептов пакетов/$ — и механизм начнёт выдавать прямые рецепты, рецепты упаковки и распаковки, смотря что включено в настройках."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Настройки",
+			"text": "$(thing)Напрямую/$: рецепт пакета выдаётся как один большой обрабатывающий рецепт, без шагов упаковки и распаковки.$(p)$(thing)Упаковка/$: выдаются рецепты упаковки, как у $(l:core/packager)Упаковщика/$.$(p)$(thing)Распаковка/$: выдаются рецепты распаковки, как у $(l:core/unpackager)Распаковщика/$."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Копирование настроек",
+			"text": "$(l:core/settings_cloner)Копировщиком настроек упаковки/$ можно скопировать и перенести настройки выдачи вместе с доступными сейчас рецептами.$(p)Чтобы перенести рецепты, у целевого $(item)ME-поставщика упаковки/$ не должно быть рецептов, а у вас в инвентаре должен лежать $(l:core/recipe_holder)Держатель рецептов пакетов/$."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:packaging_provider",
+			"title": "Крафт"
+		}
+	],
+	"flag": "mod:ae2",
+	"read_by_default": true,
+	"sortnum": 10
+}

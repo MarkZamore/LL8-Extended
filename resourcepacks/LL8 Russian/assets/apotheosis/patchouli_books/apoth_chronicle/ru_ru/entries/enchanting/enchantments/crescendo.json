@@ -1,0 +1,13 @@
+{
+    "name": "Крещендо болтов",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)Крещендо болтов$() — мастерские чары для арбалетов.$(p)Каждый уровень чар даёт один дополнительный выстрел за перезарядку.$(p)Дополнительные выстрелы не тратят боеприпасы."
+        }
+	]
+}

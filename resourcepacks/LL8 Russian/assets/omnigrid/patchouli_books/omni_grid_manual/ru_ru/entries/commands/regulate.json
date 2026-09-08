@@ -1,0 +1,16 @@
+{
+  "name": "Регулировать",
+
+  "category": "omnigrid:commands",
+  "icon": "omnigrid:textures/gui/sprites/widget/maintain.png",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пытается поддерживать настраиваемое количество предметов в цели$(br)$(br)Скорость передачи значительно медленнее, чем у Push/Pull"
+
+
+    }
+
+  ]
+}

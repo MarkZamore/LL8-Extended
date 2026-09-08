@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:rituals",
+  "icon": "ars_nouveau:ritual_wilden_summon",
+  "name": "Призвать Дикого",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Без дополнений этот ритуал на короткое время вызывает случайных враждебных существ из диких племён. При наличии шипа дикого, рога дикого и крыла дикого вызывает дикую химеру — сложное и опасное существо. Примечание: вызов химеры разрушит блоки вокруг жаровни."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ars_nouveau:ritual_wilden_summon"
+    }
+  ]
+}

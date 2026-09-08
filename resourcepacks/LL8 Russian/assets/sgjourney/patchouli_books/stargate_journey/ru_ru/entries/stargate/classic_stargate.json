@@ -1,0 +1,21 @@
+{
+	"name": "Классические звёздные врата",
+	"icon": "sgjourney:classic_stargate",
+	"sortnum": 7,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Классические звёздные врата",
+			"type": "patchouli:image",
+			"images": ["sgjourney:textures/gui/patchouli/classic_stargate.png"],
+			"text": "Звёздные врата нулевого поколения с 39 символами."
+		},
+		{
+			"title": "Особенности",
+			"type": "patchouli:text",
+			"text": "Эти врата можно набирать вручную."
+		}
+
+	]
+}

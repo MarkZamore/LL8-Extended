@@ -1,0 +1,13 @@
+{
+    "name": "Уничтожение брони",
+    "icon": "apothic_attributes:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Уничтожение брони$() позволяет при атаке не учитывать часть брони цели в процентах.$(p)$(9)Уничтожение брони$() применяется раньше, чем $(9)Пробитие брони$()."
+        }
+	]
+}

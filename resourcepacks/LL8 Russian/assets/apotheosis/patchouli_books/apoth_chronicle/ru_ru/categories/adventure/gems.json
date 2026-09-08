@@ -1,0 +1,7 @@
+{
+    "name": "Самоцветы и гнёзда",
+    "description": "Блестящий камешек всегда притягивает взгляд.$(p)Ищите апофеозные самоцветы: вставленные в гнёзда предметов с аффиксами, они дают дополнительные бонусы.",
+    "icon": "apotheosis:gem",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

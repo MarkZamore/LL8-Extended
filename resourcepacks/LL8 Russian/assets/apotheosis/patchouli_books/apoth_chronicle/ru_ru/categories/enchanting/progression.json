@@ -1,0 +1,8 @@
+{
+    "name": "Повышение уровня",
+    "description": "В этом разделе в общих чертах рассказано, как улучшать стол зачаровывания.",
+    "icon": "apothic_enchanting:dormant_deepshelf",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting",
+	"sortnum": -1
+}

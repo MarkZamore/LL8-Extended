@@ -1,0 +1,24 @@
+{
+	"name": "Компоненты для крафта",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:package_component",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Базовые компоненты для крафта, которые использует $(#822)PackagedAuto/$."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:package_component",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedauto:me_package_component",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 1
+}

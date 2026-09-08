@@ -1,0 +1,33 @@
+{
+	"name": "Базовое создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedexcrafting:basic_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Базовое создание/$ — тип рецептов, при котором $(item)Базовый упаковочный верстак/$ собирает всё, что можно скрафтить в $(item)Базовом верстаке/$.$(p)Готовые предметы $(item)Базовый упаковочный верстак/$ отправляет в соседние хранилища.$(p)$(item)Базовому упаковочному верстаку/$ нужна энергия."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedexcrafting:basic_crafter",
+			"link_recipe": true,
+			"title": "Интеграция с AE2",
+			"text": "$(item)Базовый упаковочный верстак/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети и отправлять готовые предметы прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedexcrafting:basic_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedexcrafting:basic_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5001
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Корпус",
+    "icon": "bigreactors:energizercasing",
+    "category": "bigreactors:energizer-parts",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:energizercasing",
+            "link_recipe": true,
+            "title" : "Корпус",
+            "text": "Блоки корпуса — строительный материал энерджайзера.$(br2)Из них складываются его каркас и грани, а ещё они идут на крафт остальных деталей."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Casing",
+            "crafting.recipe1": "bigreactors:energizer/casing",
+            "usage.text": "$(l)Mandatory:$() they are required to build the frame and the faces$(br)$(l)Valid positions:$() any$(br)$(l)Graphical interface:$() no"
+        }
+    ]
+}

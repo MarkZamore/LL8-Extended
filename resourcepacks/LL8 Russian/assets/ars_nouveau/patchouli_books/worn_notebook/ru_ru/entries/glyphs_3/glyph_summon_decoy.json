@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_3",
+  "icon": "ars_nouveau:glyph_summon_decoy",
+  "name": "Призвать Приманку",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вызывает Приманку в виде самого себя. При вызове приманка привлечёт всех ближайших мобов, чтобы атаковать её."
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "ars_nouveau:glyph_summon_decoy"
+    }
+  ],
+  "sortnum": 2
+}

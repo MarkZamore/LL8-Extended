@@ -1,0 +1,13 @@
+{
+    "name": "Искушение",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Искушение$() — зачарование для мотыг.$(p)Пока такая мотыга у вас в руках, все животные идут за вами, словно у вас в руках их корм."
+        }
+    ]
+}

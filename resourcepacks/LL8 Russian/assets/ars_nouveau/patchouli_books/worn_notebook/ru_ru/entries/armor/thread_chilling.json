@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_chilling",
+  "name": "item.ars_nouveau.thread_chilling",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта нить замораживает врагов, замедляя их движение и атаки."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_chilling"
+    }
+  ],
+  "sortnum": 99
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Уплотнитель улья",
+  "icon": "modularbees:modular_beehive_stacker",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Уплотнитель улья",
+      "text": "Уплотнитель увеличивает максимальный размер стопки в выходном инвентаре улья: по умолчанию каждый даёт увеличение в 3 раза.$(br)Несколько уплотнителей складывают свои бонусы."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_beehive_stacker"
+    }
+  ]
+}

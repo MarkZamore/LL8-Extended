@@ -1,0 +1,15 @@
+{
+  "name": "Апгрейд скорости",
+
+  "category": "omnigrid:upgrades",
+  "icon": "refinedstorage:speed_upgrade",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Увеличивает скорость обработки команд, переплавки и автокрафта."
+
+
+    }
+  ]
+}

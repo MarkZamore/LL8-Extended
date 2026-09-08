@@ -1,0 +1,22 @@
+{
+  "category": "ars_nouveau:machines",
+  "icon": "ars_nouveau:bookwyrm_charm",
+  "name": "Талисман Книгочея",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Талисманы Книгочея можно использовать на Кафедре хранения, чтобы увеличить количество доступных инвентарей. Дополните Ритуал пробуждения Книгами и Перьями, чтобы получить талисманы. Книгочей можно покрасить белой, чёрной, синей, зелёной, красной или фиолетовой краской."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ars_nouveau:bookwyrm",
+      "text": "В случае их смерти или рассеивания они теряют свои талисманы."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:machines/storage_lectern"
+      ]
+    }
+  ]
+}

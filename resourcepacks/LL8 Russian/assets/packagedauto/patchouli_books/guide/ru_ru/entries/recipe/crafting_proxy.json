@@ -1,0 +1,42 @@
+{
+	"name": "Посредник крафта",
+	"category": "packagedauto:recipe",
+	"icon": "packagedauto:crafting_proxy",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(item)Посредник крафта по пакетам/$ позволяет $(l:core/unpackager)Распаковщикам/$ отправлять предметы в специализированные механизмы для крафта по пакетам, стоящие на расстоянии."
+		},
+		{
+			"type": "packagedauto:spotlight2",
+			"item1": "packagedauto:proxy_marker",
+			"item2": "packagedauto:crafting_proxy",
+			"title": "Применение",
+			"text": "Привяжите $(item)Метку посредника/$ к механизму для крафта по пакетам и положите метку в посредник."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Применение (продолжение)",
+			"text": "Чтобы снять привязку, нажмите $(thing)$(k:sneak) + $(k:use)/$ с привязанной $(item)Меткой посредника/$ в руке или положите её в сетку крафта.$(p)Нажмите $(thing)$(k:sneak) + $(k:use)/$ пустой рукой по $(item)Посреднику крафта по пакетам/$, чтобы увидеть его радиус действия и текущую цель.$(p)А если положить привязанную $(item)Метку посредника/$ в сетку крафта вместе с непривязанными, привязка скопируется на них."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Копирование настроек",
+			"text": "$(l:core/settings_cloner)Копировщиком настроек упаковки/$ можно скопировать и перенести текущую цель $(item)Посредника крафта по пакетам/$.$(p)Чтобы перенести цель, у вас в инвентаре должна лежать пустая $(item)Метка посредника/$."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Интеграция с AE2",
+			"text": "$(item)Посредник крафта по пакетам/$ можно подключить к $(thing)ME-сети/$."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:proxy_marker",
+			"recipe2": "packagedauto:crafting_proxy",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 100
+}

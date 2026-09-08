@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_gliding",
+  "name": "Планирование",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет планировать так, как будто на вас надета Элитра. Должен быть экипирован в слот не ниже 3-го уровня."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_gliding"
+    }
+  ],
+  "sortnum": 99
+}

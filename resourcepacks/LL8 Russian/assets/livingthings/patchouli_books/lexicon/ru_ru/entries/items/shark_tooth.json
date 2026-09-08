@@ -1,0 +1,1 @@
+{"name":"Зуб акулы","icon":"livingthings:shark_tooth","category":"livingthings:item_category","pages":[{"type":"text","text":"$(br)$(bold)Получение:$()$(br)может выпасть из акул"},{"type":"spotlight","item":"livingthings:shark_tooth","text":"$(br)$(bold)Использование:$()$(li)можно использовать для стрел$(li)можно скрафтить костную муку"}]}

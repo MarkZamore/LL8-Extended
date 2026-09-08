@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_drygmy",
+  "name": "Дрыгм",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Дает дополнительный стек Мародерства."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_drygmy"
+    }
+  ],
+  "sortnum": 99
+}

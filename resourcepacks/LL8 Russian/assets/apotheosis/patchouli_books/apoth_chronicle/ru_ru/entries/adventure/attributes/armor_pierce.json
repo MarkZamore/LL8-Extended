@@ -1,0 +1,13 @@
+{
+    "name": "Пробитие брони",
+    "icon": "apothic_attributes:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Пробитие брони$() позволяет при атаке не учитывать фиксированную часть брони цели.$(p)Избыток пробития брони может увести броню цели в минус."
+        }
+	]
+}

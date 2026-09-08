@@ -1,0 +1,17 @@
+{
+    "name": "Глаз шалкера",
+    "icon": "naturesaura:end_city_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Зная о способностях $(item)Ока Края$() и $(l:items/fortress_finder)Глаза ифрита$(), магические ботаники могут собрать третий такой глаз-искатель и замкнуть цепочку измерений. $(item)Глаз шалкера$(), совсем как его собратья из Верхнего и Нижнего мира, при броске отыщет ближайший $(thing)Город Края$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Глаза шалкера$()",
+            "recipe": "naturesaura:end_city_finder"
+        }
+    ]
+}

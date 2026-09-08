@@ -1,0 +1,45 @@
+{
+	"name": "Комбинированное создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedexcrafting:combination_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Комбинированное создание/$ — тип рецептов, при котором $(item)Комбинированный упаковочный верстак/$ собирает всё, что можно скрафтить в $(item)Ядре создания/$."
+		},
+		{
+			"type": "packagedauto:spotlight2",
+			"item1": "packagedexcrafting:combination_crafter",
+			"item2": "packagedexcrafting:marked_pedestal",
+			"title": "Применение",
+			"text": "Чтобы $(item)Комбинированный упаковочный верстак/$ заработал, подведите к нему энергию и расставьте вокруг него $(item)Отмеченные пьедесталы/$ в области 7x7."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Применение (продолжение)",
+			"text": "Нажмите $(thing)$(k:sneak) + $(k:use)/$ пустой рукой по простаивающему $(item)Комбинированному упаковочному верстаку/$ — он покажет, сколько $(item)Отмеченных пьедесталов/$ ему доступно сейчас и сколько нужно.$(p)Готовые предметы $(item)Комбинированный упаковочный верстак/$ отправляет в соседние хранилища."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Интеграция с AE2",
+			"text": "$(item)Комбинированный упаковочный верстак/$ и $(item)Отмеченный пьедестал/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда готовые и оставшиеся предметы отправятся прямо в сеть, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedexcrafting:marked_pedestal",
+			"recipe2": "packagedexcrafting:combination_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedexcrafting:marked_pedestal",
+			"recipe2": "packagedexcrafting:combination_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5007
+}

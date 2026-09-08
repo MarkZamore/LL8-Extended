@@ -1,0 +1,21 @@
+{
+  "name": "Раздатчик",
+  "icon": "minecraft:dispenser",
+  "category": "animal_pen:category_aviary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Часть инструментов можно пускать в ход прямо из раздатчика."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shears",
+      "text": "Ножницы сработают на загоне с пчёлами."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:glass_bottle",
+      "text": "Стеклянная бутылка сработает на загоне с пчёлами."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Курица",
+  "icon": "minecraft:chicken_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:chicken",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wheat_seeds",
+      "text": "Кормите кур семенами пшеницы, чтобы они размножались и в загоне их становилось больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар по Загону для животных мечом или топором убьёт кур и выбьет из них добычу."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Примените ведро к Загону для животных с курами, чтобы собрать яйца. Чем больше кур, тем больше яиц. [redstone interaction 1]"
+    }
+  ]
+}

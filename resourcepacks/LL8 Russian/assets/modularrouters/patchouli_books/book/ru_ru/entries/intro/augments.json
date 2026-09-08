@@ -1,0 +1,19 @@
+{
+  "name": "Улучшения",
+  "icon": "modularrouters:augment_core",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Улучшения/$ похожи на $(l:intro/upgrades)апгрейды/$, но устанавливаются в $(l:intro/modules)модуль/$, а не в $(l:intro/modular_router)модульный маршрутизатор/$. Каждый модуль имеет 4 слота для улучшений (некоторые улучшения можно складывать). Улучшения расширяют или изменяют функциональность модуля различными способами."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/augments.png"
+      ],
+      "text": "$(italic)Модуль вакуума с 6 улучшениями расширения дальности и одним улучшением вакуума XP/$",
+      "border": true
+    }
+  ]
+}

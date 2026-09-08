@@ -1,0 +1,22 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:blank_thread",
+  "name": "Применение особенностей",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Используйте нити для добавления магических особенностей к вашим доспехам."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Каждая нить добавляет уникальный эффект, усиливающий ваши боевые способности."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:armor/alteration_table"
+      ]
+    }
+  ],
+  "sortnum": 2
+}

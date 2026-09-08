@@ -1,0 +1,22 @@
+{
+  "name": "Логические чипы",
+  "icon": "laserio:logic_chip",
+  "sortnum": 0,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Логический чип — главный ингредиент всех рецептов LaserIO. $(br2)Это единственный предмет, который делается из «ванильных» материалов, а во всём остальном чип так или иначе участвует."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Необработанный логический чип",
+      "recipe": "laserio:logic_chip_raw"
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "Логический чип",
+      "recipe": "laserio:logic_chip"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Кровотечение",
+    "icon": "apothic_attributes:textures/mob_effect/bleeding.png",
+    "category": "apotheosis:potion/effects",
+    "flag": "apotheosis:potion",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)Кровотечение$() — отрицательный эффект, который накладывают $(l:apotheosis:village/fletching#broadhead)стрелы с широким наконечником$().$(p)Пока он действует, вы получаете урон каждые две секунды."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Чем выше уровень $(c)Кровотечения$(), тем сильнее урон.$(p)Урон от $(c)Кровотечения$() проходит сквозь броню."
+        }
+    ]
+}

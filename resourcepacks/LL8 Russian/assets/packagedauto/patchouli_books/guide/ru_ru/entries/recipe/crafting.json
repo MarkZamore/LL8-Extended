@@ -1,0 +1,33 @@
+{
+	"name": "Крафт",
+	"category": "packagedauto:recipe",
+	"icon": "packagedauto:crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Крафт/$ — тип рецептов, при котором $(item)Автоверстак для пакетов/$ собирает всё, что можно скрафтить на верстаке.$(p)Готовые предметы $(item)Автоверстак для пакетов/$ отправляет в соседние хранилища.$(p)$(item)Автоверстаку для пакетов/$ нужна энергия."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedauto:crafter",
+			"link_recipe": true,
+			"title": "Интеграция с AE2",
+			"text": "$(item)Автоверстак для пакетов/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети, а готовые предметы отправлять прямо в неё."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedauto:crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedauto:crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 104
+}

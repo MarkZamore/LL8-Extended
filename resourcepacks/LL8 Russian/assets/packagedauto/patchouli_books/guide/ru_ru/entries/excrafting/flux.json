@@ -1,0 +1,38 @@
+{
+	"name": "Флаксовое создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedexcrafting:flux_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Флаксовое создание/$ — тип рецептов, при котором $(item)Флаксовый упаковщик/$ собирает всё, что можно скрафтить в $(item)Эндер-верстаке/$."
+		},
+		{
+			"type": "packagedauto:spotlight2",
+			"item1": "packagedexcrafting:flux_crafter",
+			"item2": "extendedcrafting:flux_alternator",
+			"title": "Применение",
+			"text": "Чтобы $(item)Флаксовый упаковщик/$ заработал, расставьте вокруг него запитанные $(item)Выравниватели потока/$ в области 7x7x7.$(p)Готовые предметы $(item)Флаксовый упаковщик/$ отправляет в соседние хранилища.$(p)Энергия нужна и самому $(item)Флаксовому упаковщику/$."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Интеграция с AE2",
+			"text": "$(item)Флаксовый упаковщик/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети и отправлять готовые предметы прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedexcrafting:flux_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedexcrafting:flux_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5006
+}

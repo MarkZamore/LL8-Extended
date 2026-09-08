@@ -1,0 +1,33 @@
+{
+	"name": "Скалковое создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedavaritia:sculk_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Скалковое создание/$ — тип рецептов, при котором $(item)Скалковый упаковщик/$ собирает всё, что можно скрафтить в $(item)Скалковом верстаке/$.$(p)Готовые предметы $(item)Скалковый упаковщик/$ отправляет в соседние хранилища.$(p)$(item)Скалковому упаковщику/$ нужна энергия."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedavaritia:sculk_crafter",
+			"link_recipe": true,
+			"title": "Интеграция с AE2",
+			"text": "$(item)Скалковый упаковщик/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети и отправлять готовые предметы прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedavaritia:sculk_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedavaritia:sculk_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 1501
+}

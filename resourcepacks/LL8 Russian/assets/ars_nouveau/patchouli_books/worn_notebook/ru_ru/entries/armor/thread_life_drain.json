@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_life_drain",
+  "name": "Вытягивание жизни",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Нанесение урона заклинаниями исцеляет вас на 20%% за уровень от нанесенного урона."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_life_drain"
+    }
+  ],
+  "sortnum": 99
+}

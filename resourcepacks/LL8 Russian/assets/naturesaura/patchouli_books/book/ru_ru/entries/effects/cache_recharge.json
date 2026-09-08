@@ -1,0 +1,17 @@
+{
+    "name": "Естественное накопление",
+    "icon": "naturesaura:aura_cache",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Если $(aura) вокруг набирается столько, что шкала $(l:items/eye)Экологического глаза$() заполняется примерно на половину сверх обычного уровня, начинается $(item)естественное накопление$(): $(l:items/aura_cache)Кэш ауры$() у каждого, кто носит его при себе рядом с насыщенной областью, понемногу $(thing)наполняется$() сам, вытягивая излишки $(aura)."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:cache_powder",
+            "text": "Этот эффект можно подавить $(l:effects/effect_powder)Порошком без хранения$()."
+        }
+    ]
+}

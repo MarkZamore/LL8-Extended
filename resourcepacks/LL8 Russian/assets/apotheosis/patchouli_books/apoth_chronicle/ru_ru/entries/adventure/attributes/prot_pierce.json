@@ -1,0 +1,13 @@
+{
+    "name": "Пробитие защиты",
+    "icon": "apothic_attributes:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Пробитие защиты$() позволяет при атаке не учитывать фиксированное число очков защиты цели.$(p)Избыток пробития защиты не уводит защиту цели в минус."
+        }
+    ]
+}

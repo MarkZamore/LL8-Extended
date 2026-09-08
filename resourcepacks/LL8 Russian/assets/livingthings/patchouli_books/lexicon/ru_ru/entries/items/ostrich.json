@@ -1,0 +1,1 @@
+{"name":"Сырое мясо страуса","icon":"livingthings:ostrich","category":"livingthings:item_category","pages":[{"type":"text","text":"$(br)$(bold)Получение:$()$(br)может выпасть из страусов"},{"type":"spotlight","item":"livingthings:ostrich","text":"$(br)$(bold)Использование:$()$(li)можно съесть$(li)можно переплавить в приготовленное мясо страуса"}]}

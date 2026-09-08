@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:rituals",
+  "icon": "ars_nouveau:ritual_warping",
+  "name": "Варп",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Телепортирует всех находящихся поблизости существ на место, указанное в варп-свитке. Ритуал требует варп-свиток в качестве дополнения."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ars_nouveau:ritual_warping"
+    }
+  ]
+}

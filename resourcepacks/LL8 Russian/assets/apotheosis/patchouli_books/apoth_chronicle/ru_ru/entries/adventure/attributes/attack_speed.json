@@ -1,0 +1,13 @@
+{
+    "name": "Скорость атаки",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Скорость атаки$() определяет, как часто можно наносить удары. Если скорость атаки равна 2, вы бьёте дважды в секунду.$(p)Повысить её могут самые разные предметы."
+        }
+	]
+}

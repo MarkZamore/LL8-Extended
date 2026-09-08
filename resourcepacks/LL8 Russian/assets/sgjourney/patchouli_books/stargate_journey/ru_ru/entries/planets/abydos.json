@@ -1,0 +1,13 @@
+{
+	"name": "Абидос",
+	"icon": "minecraft:sand",
+	"sortnum": 1,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "Пустынная планета во владениях Ра."
+		}
+	]
+}

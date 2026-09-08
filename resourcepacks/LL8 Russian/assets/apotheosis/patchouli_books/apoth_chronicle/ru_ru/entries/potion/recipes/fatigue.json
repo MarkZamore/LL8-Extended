@@ -1,0 +1,19 @@
+{
+    "name": "Утомление",
+    "icon": "minecraft:textures/mob_effect/mining_fatigue.png",
+    "category": "apotheosis:potion/recipes",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)Утомление$() — отрицательный эффект, который обычно накладывают только стражи.$(p)Пока он действует, скорость добычи снижается на 20% за каждый уровень.$(p)Это прямая противоположность $(9)Проворству$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Рецепт варки",
+            "item": "minecraft:fermented_spider_eye",
+            "text": "Это зелье варится из $(9)Зелья проворства$() и маринованного паучьего глаза.$(p)Его можно продлить, усилить или сделать взрывным обычными ингредиентами."
+        }
+    ]
+}

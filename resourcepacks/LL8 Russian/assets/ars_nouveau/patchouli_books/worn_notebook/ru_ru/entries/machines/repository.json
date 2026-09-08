@@ -1,0 +1,22 @@
+{
+  "category": "ars_nouveau:machines",
+  "icon": "ars_nouveau:repository",
+  "name": "Репозиторий",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В репозитории может храниться двойное количество сундуков с предметами. Когда он назван, он будет отображать имя в виде всплывающей подсказки и сохранять его при удалении как элемент. Полезно для создания именованных вкладок инвентаря с помощью Storage Lectern."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ars_nouveau:repository",
+      "recipe2": "ars_nouveau:archwood_chest"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:machines/storage_lectern"
+      ]
+    }
+  ]
+}

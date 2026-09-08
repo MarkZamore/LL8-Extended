@@ -1,0 +1,32 @@
+{
+  "name": "Овца",
+  "icon": "minecraft:sheep_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wheat",
+      "text": "Кормите овец пшеницей, чтобы они размножались и в загоне их становилось больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по загону для животных убьёт овцу, и с неё выпадет добыча."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shears",
+      "text": "Примените ножницы к загону для животных — овцы будут острижены, и с них выпадет шерсть. [взаимодействие с редстоуном 1]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:orange_dye",
+      "text": "Примените к загону для животных любой краситель — и шерсть овец сменит цвет."
+    }
+  ]
+}

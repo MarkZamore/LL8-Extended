@@ -1,0 +1,13 @@
+{
+    "name": "Скорость натяжения",
+    "icon": "minecraft:bow",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Скорость натяжения$() показывает, как быстро вы натягиваете оружие дальнего боя по сравнению с обычной скоростью. 1 = 100%, 2 = 200% и так далее.$(p)Встречается на оружии дальнего боя."
+        }
+	]
+}

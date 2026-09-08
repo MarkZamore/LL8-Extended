@@ -1,0 +1,17 @@
+{
+    "name": "Прочность брони",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Прочность брони$() — характеристика, которая ослабляет действие входящего снижения брони.$(p)Обычно её дают доспехи и щиты."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "Каждое очко прочности брони снижает эффективность пробития и уничтожения брони на 2%, максимум на 60%.$(p)Так работает только в Apotheosis. В ванильном Minecraft прочность брони участвует в снижении урона."
+		}
+	]
+}

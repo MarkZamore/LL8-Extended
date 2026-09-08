@@ -1,0 +1,7 @@
+{
+    "name": "Детали флюидайзера",
+    "description": "Флюидайзер собирается из следующих деталей.$(br2)Все детали обязательны, кроме инжекторов и стекла: стеклом можно заменять блоки корпуса на четырёх боковых гранях машины.$(br2)Тип и число инжекторов в машине определяют её $(l:bigreactors:fluidizer/operational_mode)режим работы$(/l).",
+    "icon": "bigreactors:fluidizercontroller",
+    "parent": "bigreactors:fluidizer",
+    "sortnum": 5
+}

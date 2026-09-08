@@ -1,0 +1,38 @@
+{
+	"name": "Эндер-создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedexcrafting:ender_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Эндер-создание/$ — тип рецептов, при котором $(item)Эндер-упаковочный верстак/$ собирает всё, что можно скрафтить в $(item)Эндер-верстаке/$."
+		},
+		{
+			"type": "packagedauto:spotlight2",
+			"item1": "packagedexcrafting:ender_crafter",
+			"item2": "extendedcrafting:ender_alternator",
+			"title": "Применение",
+			"text": "Чтобы $(item)Эндер-упаковочный верстак/$ заработал, расставьте вокруг него $(item)Эндер-альтернаторы/$ в области 7x7x7.$(p)Готовые предметы $(item)Эндер-упаковочный верстак/$ отправляет в соседние хранилища.$(p)$(item)Эндер-упаковочному верстаку/$ нужна энергия."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Интеграция с AE2",
+			"text": "$(item)Эндер-упаковочный верстак/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети и отправлять готовые предметы прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedexcrafting:ender_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedexcrafting:ender_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5005
+}

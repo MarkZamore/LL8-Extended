@@ -1,0 +1,17 @@
+{
+    "name": "Чаруемость",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "В ванильной игре у всех предметов без явно заданной $(l:apotheosis:enchanting/table/enchantability)чаруемости предмета$() она по умолчанию равна нулю.$(p)Apotheosis меняет значение по умолчанию на единицу.$(p)Побочный эффект: некоторые предметы становятся чаруемыми, хотя так и не задумывалось."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "Эта правка не затрагивает чаруемость предметов, у которых значение задано явно.$(p)Предметы с чаруемостью ноль зачаровать нельзя никогда."
+        }
+	]
+}

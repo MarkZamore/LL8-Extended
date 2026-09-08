@@ -1,0 +1,18 @@
+{
+  "name": "Краски",
+
+  "category": "omnigrid:deco",
+  "icon": "minecraft:blue_dye",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Omni Grid можно окрасить любым ванильным красителем. Все данные на Omni Grid сохранятся при окрашивании"
+    },
+    {
+      "type": "crafting",
+      "recipe": "omnigrid:dye_blue"
+    }
+  ]
+
+}

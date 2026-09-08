@@ -1,0 +1,15 @@
+{
+  "name": "Пополнение толчка",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:pushing_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это пополнение можно добавить только к модулям $(l:modules/extruder_1)Экструдер Mk1/$ и $(l:modules/extruder_2)Экструдер Mk2/$.$(p)Может накладываться; каждое пополнение увеличивает силу отталкивания сущностей при выдавливании модулем блока."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:pushing_augment"
+    }
+  ]
+}

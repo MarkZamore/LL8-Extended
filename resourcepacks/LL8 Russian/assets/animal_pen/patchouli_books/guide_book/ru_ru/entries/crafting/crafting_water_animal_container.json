@@ -1,0 +1,16 @@
+{
+  "name": "Контейнер для водных животных",
+  "icon": "animal_pen:water_animal_container",
+  "category": "animal_pen:category_items",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Контейнером для водных животных можно подобрать любое водное животное Minecraft и поселить его в аквариум. Нажмите пустым контейнером по аквариуму в приседе — и получите половину его обитателей. Чтобы выпустить животных, нажмите в приседе по земле."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animal_pen:water_animal_container"
+    }
+  ]
+}

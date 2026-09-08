@@ -1,0 +1,27 @@
+{
+  "name": "Тропическая рыба",
+  "icon": "minecraft:tropical_fish_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tropical_fish",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:seagrass",
+      "text": "Кормите тропических рыб морской травой или ламинарией, чтобы они размножались и в аквариуме их становилось больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по аквариуму убьёт тропическую рыбу, и с неё выпадет добыча."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:water_bucket",
+      "text": "Тропическую рыбу можно забрать из аквариума ведром с водой."
+    }
+  ]
+}

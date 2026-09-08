@@ -1,0 +1,17 @@
+{
+    "name": "Глаз разбойника",
+    "icon": "naturesaura:outpost_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Кое-что в мире легко отыскать по $(item)картам исследователя$(). Вот только карты найдутся не ко всякой постройке: $(thing)аванпосты разбойников$() таким способом не выследить. Чтобы исправить это упущение, магические ботаники смастерили $(item)Глаз разбойника$() — брошенный, он полетит к ближайшему $(thing)аванпосту разбойников$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Глаза разбойника$()",
+            "recipe": "naturesaura:outpost_finder"
+        }
+    ]
+}

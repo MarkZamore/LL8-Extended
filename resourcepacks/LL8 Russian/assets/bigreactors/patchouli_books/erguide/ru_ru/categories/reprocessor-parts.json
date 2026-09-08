@@ -1,0 +1,7 @@
+{
+    "name": "Части репроцессора",
+    "description": "Репроцессор собирается из следующих частей.$(br2)Все части обязательны, кроме стекла: им можно заменить блоки корпуса на четырёх боковых гранях машины.",
+    "icon": "bigreactors:reprocessorcontroller",
+    "parent": "bigreactors:reprocessor",
+    "sortnum": 5
+}

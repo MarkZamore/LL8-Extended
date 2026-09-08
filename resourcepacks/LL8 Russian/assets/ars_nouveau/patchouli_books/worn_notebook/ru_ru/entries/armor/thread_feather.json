@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_feather",
+  "name": "Перо",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Уменьшает получаемый урон от падения на определенный процент. Стакается с зачарованиями Пера."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_feather"
+    }
+  ],
+  "sortnum": 99
+}

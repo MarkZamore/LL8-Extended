@@ -1,0 +1,23 @@
+{
+  "category": "ars_nouveau:machines",
+  "icon": "ars_nouveau:potion_jar",
+  "name": "Кувшин для зелий",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Резервуар, в котором хранится до 100 зелий. Зелье можно удалить, используя пустой пузырек или фляжку для зелья на резервуаре. Викси будут использовать эти резервуары во время автокрафта зелий. Резервуар можно запереть, используя Жезл Владычества с зажатым shift. Запертые резервуары будут получать от Викси только то зелье, на котором они заперты. Может использоваться с компаратором."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ars_nouveau:potion_jar"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:machines/potion_melder",
+        "ars_nouveau:machines/potion_diffuser",
+        "ars_nouveau:automation/wixie_charm"
+      ]
+    }
+  ]
+}

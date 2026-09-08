@@ -1,0 +1,17 @@
+{
+    "name": "Багровое разрастание",
+    "icon": "naturesaura:nether_grass",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Как уже говорилось в главе о $(l:effects/plant_boost)приросте растительности$(), избыток $(aura) способен перетекать в растения и им подобное. Похожее можно наблюдать и в $(thing)Нижнем мире$(): если $(aura) набралось достаточно, на любом $(item)адском камне$() в округе начнёт прорастать $(item)трава$()."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:nether_grass_powder",
+            "text": "Этот эффект можно подавить $(l:effects/effect_powder)Порошком пустошей$()."
+        }
+    ]
+}

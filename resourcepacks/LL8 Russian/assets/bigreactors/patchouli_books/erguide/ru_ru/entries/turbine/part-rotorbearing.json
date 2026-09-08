@@ -1,0 +1,27 @@
+{
+    "name": "Подшипник ротора",
+    "icon": "bigreactors:reinforced_turbinerotorbearing",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinerotorbearing",
+            "link_recipe": true,
+            "title" : "Подшипник ротора",
+            "text": "Подшипник ротора — основание, с которого начинается $(l:bigreactors:turbine/rotor)ротор$(/l) турбины.$(br2)Его ставят на одну из граней турбины, обычно по центру, а за ним — несколько блоков $(l:bigreactors:turbine/part-rotorshaft)вала ротора$(/l)."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:turbine/basic/bearing",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:turbine/reinforced/bearing"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Обязательная деталь:$() да, нужен ровно один$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

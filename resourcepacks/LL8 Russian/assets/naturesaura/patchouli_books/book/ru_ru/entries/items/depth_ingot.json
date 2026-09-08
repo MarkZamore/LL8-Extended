@@ -1,0 +1,17 @@
+{
+    "name": "Слиток глубин",
+    "icon": "naturesaura:depth_ingot",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Спустя годы после первых опытов магические ботаники наконец нашли новый материал, способный обуздать силу $(aura) невиданным прежде способом, — мистический и неуловимый $(item)Незерит$(). Из него получается материал огромной мощи: $(item)Слитки глубин$(). Их, как и следовало ожидать, тоже можно пустить на $(l:items/depth_armor)броню$() и $(l:items/depth_tools)инструменты$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Слитка глубин$()",
+            "recipe": "naturesaura:depth_ingot_creation"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "PackagedExCrafting",
+	"category": "packagedauto:recipe",
+	"icon": "packagedexcrafting:ultimate_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(#822)PackagedExCrafting/$ добавляет в $(#822)PackagedAuto/$ типы рецептов для крафтов из $(#822)Extended Crafting/$."
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5000,
+	"entry_color": "882222"
+}

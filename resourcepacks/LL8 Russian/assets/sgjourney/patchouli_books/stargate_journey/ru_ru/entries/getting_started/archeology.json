@@ -1,0 +1,25 @@
+{
+	"name": "Археология",
+	"icon": "sgjourney:archeology_table",
+	"sortnum": 1,
+	"category": "sgjourney:getting_started",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "1. Найдите храм гоа'улдов."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "2. Внутри храма гоа'улдов есть комната с Золотой статуэткой — заберите её."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "3. Из Золотой статуэтки сделайте Археологический стол"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "4. Поставьте Археологический стол рядом с жителем, и тот станет археологом"
+		}
+	]
+}

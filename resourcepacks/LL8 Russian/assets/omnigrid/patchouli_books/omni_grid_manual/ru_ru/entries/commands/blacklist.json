@@ -1,0 +1,16 @@
+{
+  "name": "Чёрный список",
+
+  "category": "omnigrid:commands",
+  "icon": "omnigrid:textures/gui/sprites/widget/disable.png",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Запрещает автоматическую вставку этого ресурса в Omni Grid с установленной стороны. Игрок может вставить этот предмет через интерфейс."
+
+
+    }
+
+  ]
+}

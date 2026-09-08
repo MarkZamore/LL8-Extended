@@ -1,0 +1,17 @@
+{
+  "name": "Экспортный люк центрифуги",
+  "icon": "modularbees:modular_centrifuge_export",
+  "read_by_default": true,
+  "category": "modularbees:centrifuge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Экспортный люк центрифуги",
+      "text": "Посредник ядра для логистики: сам отправляет предметы и жидкости в сундук или резервуар, на который смотрит."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_centrifuge_export"
+    }
+  ]
+}

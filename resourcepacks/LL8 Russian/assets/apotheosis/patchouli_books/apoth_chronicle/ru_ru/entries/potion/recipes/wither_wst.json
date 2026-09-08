@@ -1,0 +1,19 @@
+{
+    "name": "Иссушение",
+    "icon": "minecraft:textures/mob_effect/wither.png",
+    "category": "apotheosis:potion/recipes",
+    "flag": "&apotheosis:potion,apotheosis:wstloaded",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)Иссушение$() — враждебный эффект, который обычно нельзя сварить.$(p)Пока он действует, вы получаете урон каждый тик.$(p)В отличие от Отравления, этот урон может убить."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Рецепт варки",
+            "item": "wstweaks:fragment",
+            "text": "Это зелье варится из мутного зелья и фрагмента черепа визер-скелета.$(p)Его можно продлить, усилить или сделать взрывным обычными ингредиентами."
+        }
+    ]
+}

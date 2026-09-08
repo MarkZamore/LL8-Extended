@@ -1,0 +1,20 @@
+{
+    "name": "Трезубцы",
+    "icon": "minecraft:trident",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Помимо новых чар, на трезубцы теперь можно наложить $(9)Остроту$(), $(9)Добычу$() и $(9)Пронзающую стрелу$().$(p)Острота и Добыча работают так же, как на мечах.$(p)С Пронзающей стрелой брошенный трезубец может поразить нескольких врагов подряд."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "Создание трезубцев",
+			"item": "apothic_enchanting:inert_trident",
+			"link_recipe": true,
+            "text": "Apotheosis также добавляет способ создать трезубец.$(p)Просто сделайте $(9)Инертный трезубец$() и улучшите его через $(l:apotheosis:enchanting/table/infusion)чары наполнения$()."
+        }
+	]
+}

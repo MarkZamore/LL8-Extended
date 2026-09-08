@@ -1,0 +1,23 @@
+{
+  "category": "ars_nouveau:machines",
+  "icon": "ars_nouveau:potion_diffuser",
+  "name": "Распылитель зелий",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Потребляет зелье и применяет его к близлежащим существам, значительно продлевая срок действия зелья. Для использования, привяжите Кувшин для зелий к Распылителю с помощью Жезла Владычества. Каждые 10 минут Распылитель будет потреблять одно зелье и применять его каждые несколько секунд."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:potion_diffuser"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:machines/potion_jar",
+        "ars_nouveau:machines/potion_melder",
+        "ars_nouveau:automation/wixie_charm"
+      ]
+    }
+  ]
+}

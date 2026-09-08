@@ -1,0 +1,17 @@
+{
+  "name": "Экстрактор пчёл",
+  "icon": "modularbees:bee_extractor",
+  "read_by_default": true,
+  "category": "modularbees:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Экстрактор пчёл",
+      "text": "Экстрактор пчёл — переделанная разливочная машина: он извлекает ген пчелы прямо в бутылку."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:bee_extractor"
+    }
+  ]
+}

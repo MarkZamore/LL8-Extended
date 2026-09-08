@@ -1,0 +1,22 @@
+{
+  "name": "Панда",
+  "icon": "minecraft:panda_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:panda",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bamboo",
+      "text": "Кормите панд бамбуком, чтобы они размножались и их число в загоне росло."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Примените к Загону для животных меч или топор — панда погибнет, и с неё выпадет добыча."
+    }
+  ]
+}

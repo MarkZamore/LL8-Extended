@@ -1,0 +1,17 @@
+{
+    "name": "Неразрушимые амулеты",
+    "icon": "minecraft:enchanting_table",
+    "category": "apotheosis:potion/charms",
+    "flag": "&apotheosis:potion,apotheosis:enchanting",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "С помощью $(l:apotheosis:enchanting/table/infusion)чар наполнения$() амулет можно сделать неразрушимым.$(p)Так любой эффект зелья станет бесконечным."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Рецепт наполнения для неразрушимых амулетов довольно сложен.$(p)Чтобы его выполнить, нужно хорошо разобраться в $(l:apotheosis:enchanting/table/stats)характеристиках зачарования$()."
+        }
+    ]
+}

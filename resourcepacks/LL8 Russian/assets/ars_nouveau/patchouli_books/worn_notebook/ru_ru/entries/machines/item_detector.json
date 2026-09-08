@@ -1,0 +1,30 @@
+{
+  "category": "ars_nouveau:machines",
+  "icon": "ars_nouveau:item_detector",
+  "name": "Витрина",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Витрина может быть настроена на вывод сигнала красного камня при достижении определенного уровня запасов. Для установки предмета на отслеживание используйте предмет на кейсе. Взаимодействуйте с блоком, чтобы увеличить счет, и ударьте, чтобы уменьшить. Чтобы связать инвентарь, Dominion Wand инвентарь к витрине. Блуждание во время подкрадывания инвертируется, если выходной сигнал ниже или выше установленного количества."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если в витрине находится свиток фильтра, он будет учитывать все предметы, соответствующие фильтру."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ars_nouveau:item_detector"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:machines/bookwyrm_charm",
+        "ars_nouveau:machines/storage_lectern",
+        "ars_nouveau:automation/dominion_wand",
+        "ars_nouveau:automation/deny_scroll",
+        "ars_nouveau:automation/mimic_scroll",
+        "ars_nouveau:automation/allow_scroll"
+      ]
+    }
+  ]
+}

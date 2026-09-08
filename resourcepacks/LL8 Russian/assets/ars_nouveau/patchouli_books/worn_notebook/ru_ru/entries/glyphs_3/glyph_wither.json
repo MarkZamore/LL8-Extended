@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_3",
+  "icon": "ars_nouveau:glyph_wither",
+  "name": "Иссушение",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Накладывает дебафф Иссушение."
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "ars_nouveau:glyph_wither"
+    }
+  ],
+  "sortnum": 2
+}

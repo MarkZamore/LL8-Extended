@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_kindling",
+  "name": "Разжигание",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Повреждающие эффекты заставляют цель гореть в течение короткого времени, прежде чем эффект пропадёт. Время горения увеличивается на 5 секунд за уровень."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_kindling"
+    }
+  ],
+  "sortnum": 99
+}

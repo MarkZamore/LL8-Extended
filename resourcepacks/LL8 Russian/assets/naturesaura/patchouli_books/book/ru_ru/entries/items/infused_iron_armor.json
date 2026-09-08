@@ -1,0 +1,26 @@
+{
+    "name": "Броня ботаника",
+    "icon": "naturesaura:infused_iron_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Помимо $(l:items/infused_iron_tools)инструментов$() ботаник может обзавестись и защитой — $(item)Бронёй ботаника$(). Держит она удар примерно как железная, а растраченную прочность восполняет, если присесть, имея при себе $(l:items/aura_cache)Кэш ауры$(), — точно так же, как и инструменты того же рода. Вдобавок у брони есть $(thing)бонус за комплект$(), который срабатывает, когда надеты сразу все её части."
+        },
+        {
+            "type": "text",
+            "text": "Тогда напавший на владельца моб получит короткое $(item)Иссушение$() и станет терять здоровье примерно как от чар «Шипы».$(br)Кроме того, $(l:items/shockwave_creator)Амулет гнева$(), пущенный в ход в полном комплекте брони, тоже ненадолго накладывает Иссушение на всех мобов, задетых его волной."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_helmet",
+            "recipe2": "naturesaura:infused_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_pants",
+            "recipe2": "naturesaura:infused_shoes"
+        }
+    ]
+}

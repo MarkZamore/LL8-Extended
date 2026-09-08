@@ -1,0 +1,15 @@
+{
+  "name": "Апгрейд стека",
+
+  "category": "omnigrid:upgrades",
+  "icon": "refinedstorage:stack_upgrade",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Увеличивает количество ресурсов, обрабатываемых одновременно"
+
+
+    }
+  ]
+}

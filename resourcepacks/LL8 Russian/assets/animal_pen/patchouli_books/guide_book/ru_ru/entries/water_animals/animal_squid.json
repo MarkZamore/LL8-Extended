@@ -1,0 +1,22 @@
+{
+  "name": "Кальмар",
+  "icon": "minecraft:squid_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:squid",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cod",
+      "text": "Кормите кальмаров любой рыбой, чтобы они размножались и в аквариуме их становилось больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по аквариуму убьёт кальмара, и с него выпадет добыча."
+    }
+  ]
+}

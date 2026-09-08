@@ -1,0 +1,20 @@
+{
+	"name": "Классический DHD",
+	"icon": "sgjourney:classic_dhd",
+	"sortnum": 8,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Классический DHD",
+			"type": "patchouli:crafting",
+			"recipe": "sgjourney:classic_dhd",
+			"text": "Из всех DHD классический — самый простой и дешёвый в изготовлении."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Классический DHD не работает с улучшенными кристаллами, зато обычные кристаллы ему подходят."
+		}
+
+	]
+}

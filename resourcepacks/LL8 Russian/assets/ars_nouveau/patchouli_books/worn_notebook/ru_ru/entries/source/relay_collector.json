@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:source",
+  "icon": "ars_nouveau:relay_collector",
+  "name": "Сборщик реле Источника",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Работает как реле Источника, но автоматически извлекает Источник из всех кувшинов в пределах 5 блоков, не требуя связи. Смотрите инструкции к реле Источника."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:relay_collector"
+    }
+  ]
+}

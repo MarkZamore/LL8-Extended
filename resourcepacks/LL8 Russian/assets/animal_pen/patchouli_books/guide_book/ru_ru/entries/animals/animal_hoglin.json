@@ -1,0 +1,22 @@
+{
+  "name": "Хоглин",
+  "icon": "minecraft:hoglin_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:hoglin",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:crimson_fungus",
+      "text": "Кормите хоглинов багровыми грибами, чтобы они размножались и их число в загоне росло."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Примените к Загону для животных меч или топор — хоглин погибнет, и с него выпадет добыча."
+    }
+  ]
+}

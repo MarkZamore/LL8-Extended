@@ -1,0 +1,13 @@
+{
+    "name": "Бензопила",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)Бензопила$() — мастерские чары для топоров.$(p)Стоит сломать одно бревно, как дерево будет срублено целиком.$(p)Прочность топора при этом расходуется."
+        }
+	]
+}

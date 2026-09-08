@@ -1,0 +1,17 @@
+{
+  "name": "Модульный альвеарий",
+  "icon": "modularbees:modular_beehive_alveary",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Модульный альвеарий",
+      "text": "Само ядро улья пчёл не вмещает, так что для их поселения нужны альвеарии.$(br)В каждый альвеарий помещается 5 пчёл; заселяют его с помощью пчелиных клеток.$(br)Совет: нажмите ПКМ по альвеарию пчелиной клеткой, чтобы посадить пчелу или забрать её."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_alveary"
+    }
+  ]
+}

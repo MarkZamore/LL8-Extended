@@ -1,0 +1,20 @@
+{
+	"name": "Звёздные врата Вселенной",
+	"icon": "sgjourney:universe_stargate",
+	"sortnum": 1,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Звёздные врата Вселенной",
+			"type": "patchouli:image",
+			"images": ["sgjourney:textures/gui/patchouli/universe_stargate.png"],
+			"text": "Звёздные врата первого поколения с 36 символами."
+		},
+		{
+			"title": "Особенности",
+			"type": "patchouli:text",
+			"text": "При наборе врата всегда вращаются целиком. Эти врата можно набирать вручную."
+		}
+	]
+}

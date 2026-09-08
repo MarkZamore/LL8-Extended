@@ -1,0 +1,33 @@
+{
+	"name": "Элитное создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedexcrafting:elite_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Элитное создание/$ — тип рецептов, при котором $(item)Элитный упаковочный верстак/$ собирает всё, что можно скрафтить в $(item)Элитном верстаке/$.$(p)Готовые предметы $(item)Элитный упаковочный верстак/$ отправляет в соседние хранилища.$(p)$(item)Элитному упаковочному верстаку/$ нужна энергия."
+		},
+		{
+			"type": "spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedexcrafting:elite_crafter",
+			"link_recipe": true,
+			"title": "Интеграция с AE2",
+			"text": "$(item)Элитный упаковочный верстак/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети и отправлять готовые предметы прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedexcrafting:elite_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedexcrafting:elite_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 5003
+}

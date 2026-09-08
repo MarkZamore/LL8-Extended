@@ -1,0 +1,13 @@
+{
+    "name": "Сила атаки",
+    "icon": "minecraft:diamond_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Сила атаки$() — атрибут, который определяет, сколько урона наносят ваши атаки.$(p)Как правило, эту характеристику даёт оружие."
+        }
+	]
+}

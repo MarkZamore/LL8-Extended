@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_3",
+  "icon": "ars_nouveau:glyph_split",
+  "name": "Расщепление",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вызывает одновременный каст нескольких снарядов. Каждый снаряд применяет определённый набор эффектов."
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "ars_nouveau:glyph_split"
+    }
+  ],
+  "sortnum": 3
+}

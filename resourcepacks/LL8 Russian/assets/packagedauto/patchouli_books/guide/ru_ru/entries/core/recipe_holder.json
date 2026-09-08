@@ -1,0 +1,25 @@
+{
+	"name": "Держатель рецептов пакетов",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:recipe_holder",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(item)Держатели рецептов пакетов/$ хранят данные о рецептах для механизмов — эти данные записывают в $(l:core/encoder)Кодировщике рецептов пакетов/$.$(p)Чтобы стереть запись, нажмите $(thing)$(k:sneak) + $(k:use)/$ с записанным $(item)Держателем рецептов пакетов/$ в руке или положите его в сетку крафта.$(p)А если положить записанный $(item)Держатель рецептов пакетов/$ в сетку крафта вместе с пустыми, запись скопируется на них."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "&mod:jei,!mod:emi",
+			"item": "packagedauto:recipe_holder",
+			"title": "Интеграция с JEI",
+			"text": "Нажмите $(thing)$(k:jei.showUses)/$ на записанном $(item)Держателе рецептов пакетов/$, чтобы увидеть подробный список записанных в нём рецептов."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:recipe_holder",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 4
+}

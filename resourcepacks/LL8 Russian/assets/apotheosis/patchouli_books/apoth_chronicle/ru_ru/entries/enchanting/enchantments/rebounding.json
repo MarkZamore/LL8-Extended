@@ -1,0 +1,13 @@
+{
+    "name": "Отталкивание",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Отталкивание$() — зачарование для нагрудников и поножей.$(p)Всякий, кто ударит владельца в ближнем бою, отлетает прочь.$(p)Чем выше уровень, тем дальше."
+        }
+    ]
+}

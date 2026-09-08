@@ -1,0 +1,13 @@
+{
+	"name": "Лантея",
+	"icon": "sgjourney:pegasus_stargate",
+	"sortnum": 6,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "Океаническая планета, на которой с древних времён покоится город Атлантида."
+		}
+	]
+}

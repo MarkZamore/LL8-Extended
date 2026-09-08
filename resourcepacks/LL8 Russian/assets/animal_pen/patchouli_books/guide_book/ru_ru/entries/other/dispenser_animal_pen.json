@@ -1,0 +1,27 @@
+{
+  "name": "Раздатчик",
+  "icon": "minecraft:dispenser",
+  "category": "animal_pen:category_animal_pen",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Часть инструментов можно пускать в ход прямо из раздатчика."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shears",
+      "text": "Ножницы сработают на загоне с овцами."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Ведро сработает на загоне с курами, коровами или козами."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bowl",
+      "text": "Миска сработает на загоне с грибной коровой."
+    }
+  ]
+}

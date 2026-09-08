@@ -1,0 +1,13 @@
+{
+	"name": "Единство",
+	"icon": "sgjourney:sulfur_sand",
+	"sortnum": 3,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "Планета, сплошь покрытая пустыней из серного песка."
+		}
+	]
+}

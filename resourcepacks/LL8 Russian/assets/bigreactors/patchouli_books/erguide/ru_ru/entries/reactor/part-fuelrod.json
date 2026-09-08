@@ -1,0 +1,31 @@
+{
+    "name": "Топливный стержень",
+    "icon": "bigreactors:reinforced_reactorfuelrod",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorfuelrod",
+            "link_recipe": true,
+            "title" : "Топливный стержень",
+            "text": "Топливные стержни ставят внутрь реактора длинными горизонтальными или вертикальными колоннами. Они служат хранилищем для реагентов — топлива, отходов или их смеси — и, пока реактор работает, облучаются и вырабатывают тепло, которое можно превратить в энергию или пустить на испарение охлаждающей жидкости."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Первый топливный стержень в каждой колонне должен примыкать к $(l:bigreactors/part-casing)блоку корпуса$(/l), а за последним топливным стержнем должен идти $(l:bigreactors/part-controlrod)стержень управления$(/l). Колонны топливных стержней можно расположить либо вертикально (вдоль оси Y), либо горизонтально (вдоль оси X или Z), но смешивать направления нельзя. Именно поэтому все стержни управления оказываются на одной грани реактора."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:reactor/basic/fuelrod_ingots_yellorium",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:reactor/reinforced/fuelrod_ingots_yellorium"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Обязательная деталь:$() да$(br)$(l)Допустимые позиции:$() внутри реактора$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

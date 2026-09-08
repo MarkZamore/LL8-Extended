@@ -1,0 +1,22 @@
+{
+  "name": "Лама торговца",
+  "icon": "minecraft:trader_llama_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:trader_llama",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wheat",
+      "text": "Кормите лам торговца пшеницей, чтобы они размножались и в загоне их становилось больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по загону для животных убьёт ламу торговца, и с неё выпадет добыча."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_immolation",
+  "name": "Сожжение",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если игрок горит или стоит в огне, огонь погаснет при использовании заклинания, и игрок получит эффект Сожжение. Огненные заклинания наносят дополнительный урон и действуют дольше для каждого уровня Сожжения."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_immolation"
+    }
+  ],
+  "sortnum": 99
+}

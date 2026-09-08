@@ -1,0 +1,13 @@
+{
+	"name": "Кавум Тенебрэ",
+	"icon": "minecraft:deepslate_diamond_ore",
+	"sortnum": 5,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "Планета, раздавленная приливными силами: её орбита проходит опасно близко к чёрной дыре."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Энергоячейка",
+  "icon": "bigreactors:energizercell",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:energizercell",
+      "link_recipe": true,
+      "title" : "Энергоячейка",
+      "text": "Энергоячейки — накопители энергии в энерджайзере; ими нужно полностью заполнить внутренний объём машины."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Energy Cell",
+      "crafting.recipe1": "bigreactors:energizer/energizercell",
+      "usage.text": "$(l)Mandatory:$() yes$(br)$(l)Valid positions:$() inside the Energizer$(br)$(l)Graphical interface:$() no"
+    }
+  ]
+}

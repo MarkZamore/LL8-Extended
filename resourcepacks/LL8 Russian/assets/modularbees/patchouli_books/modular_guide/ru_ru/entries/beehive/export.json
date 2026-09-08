@@ -1,0 +1,17 @@
+{
+  "name": "Выходной люк улья",
+  "icon": "modularbees:modular_export",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Выходной люк улья",
+      "text": "Посредник ядра для логистики: сам отправляет продукцию и мёд в сундук или резервуар, на который смотрит."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_export"
+    }
+  ]
+}

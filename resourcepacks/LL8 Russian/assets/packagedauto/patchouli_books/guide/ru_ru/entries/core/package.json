@@ -1,0 +1,24 @@
+{
+	"name": "Пакет рецепта",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:package",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(item)Пакеты рецептов/$ собирают $(l:core/packager)Упаковщики/$, а вскрыть их целым набором можно в $(l:core/unpackager)Распаковщиках/$.$(p)Нажмите $(thing)$(k:sneak) + $(k:use)/$ с $(item)Пакетом рецепта/$ в руке, чтобы вскрыть его вручную."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "packagedauto:package",
+			"link_recipe": true
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "&mod:jei,!mod:emi",
+			"title": "Интеграция с JEI",
+			"text": "Нажмите $(thing)$(k:jei.showUses)/$ на $(item)Пакете рецепта/$, чтобы увидеть его содержимое и то, что должен собрать весь набор пакетов."
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 2
+}

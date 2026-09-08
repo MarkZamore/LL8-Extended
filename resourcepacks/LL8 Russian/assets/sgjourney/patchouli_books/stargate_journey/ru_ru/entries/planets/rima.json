@@ -1,0 +1,13 @@
+{
+	"name": "Рима",
+	"icon": "minecraft:coarse_dirt",
+	"sortnum": 4,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "С виду мёртвая планета, но в трещинах её поверхности прячется жизнь. Часть владений Апофиса."
+		}
+	]
+}

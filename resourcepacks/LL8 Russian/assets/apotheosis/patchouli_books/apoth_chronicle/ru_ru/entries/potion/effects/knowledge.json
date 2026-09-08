@@ -1,0 +1,17 @@
+{
+    "name": "Древние знания",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:potion/effects",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Зелье $(9)Древних знаний$() даёт положительный эффект.$(p)Пока он действует, весь опыт с убитых вами мобов умножается."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "На уровне I опыт с мобов увеличивается вчетверо.$(p)На уровне II — в восемь раз."
+        }
+    ]
+}

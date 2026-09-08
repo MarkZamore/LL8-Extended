@@ -1,0 +1,17 @@
+{
+    "name": "Знак Эйр",
+    "icon": "naturesaura:break_prevention",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Мало что огорчает сильнее, чем любимый $(thing)инструмент$(), сломавшийся в самый нужный момент: чинить уже нечего, и все труды по зачарованию идут прахом. Спасение от этой напасти — $(item)Знак Эйр$(): его можно совместить с любым инструментом на $(thing)наковальне$(). Инструмент со знаком не рассыплется, когда прочность дойдёт до нуля, — он просто $(thing)перестанет работать$()."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Создание $(item)Знака Эйр$() с помощью $(l:practices/tree_ritual)Ритуала леса$()",
+            "recipe": "naturesaura:break_prevention"
+        }
+    ]
+}

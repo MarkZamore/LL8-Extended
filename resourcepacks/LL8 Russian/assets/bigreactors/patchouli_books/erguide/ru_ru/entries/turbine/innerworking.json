@@ -1,0 +1,17 @@
+{
+    "name": "Принцип работы",
+    "icon": "bigreactors:basic_turbinerotorbearing",
+    "category": "bigreactors:turbine",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Как турбина вырабатывает энергию?$(br2)Вращая свой $(l:bigreactors/rotor)ротор$(/l).$(br2)Жидкость из бака пара турбины закачивается в камеру $(l:bigreactors/rotor)ротора$(/l) с той скоростью, которую вы задали в графическом интерфейсе $(l:bigreactors/part-controller)контроллера$(/l).$(br2)Каждая $(l:bigreactors/part-rotorblade)лопасть ротора$(/l) захватывает немного пара, и $(l:bigreactors/rotor)ротор$(/l) начинает вращаться."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Когда $(l:bigreactors/coils)индукционные катушки$(/l) $(l:bigreactors/part-controller)включены$(/l), количество вырабатываемой энергии зависит от скорости $(l:bigreactors/rotor)ротора$(/l) и от усреднённых характеристик всех блоков катушек — таких как эффективность и сопротивление.$(br2)$(italic)Учтите: этого описания достаточно, чтобы строить лучшие турбины, но на самом деле внутри турбины всё устроено куда сложнее.$()"
+        }
+    ]
+}

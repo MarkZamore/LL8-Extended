@@ -1,0 +1,16 @@
+{
+  "name": "Раздатчик",
+  "icon": "minecraft:dispenser",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Часть инструментов можно пускать в ход прямо из раздатчика."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Ведро сработает на загоне с черепахой."
+    }
+  ]
+}

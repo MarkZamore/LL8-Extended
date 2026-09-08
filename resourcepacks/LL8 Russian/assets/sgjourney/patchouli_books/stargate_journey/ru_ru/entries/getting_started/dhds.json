@@ -1,0 +1,28 @@
+{
+	"name": "Устройства DHD",
+	"icon": "sgjourney:milky_way_dhd",
+	"sortnum": 4,
+	"category": "sgjourney:getting_started",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "DHD — это сокращение от Dial Home Device, то есть наборного устройства. Его можно дистанционно подключить к звёздным вратам, чтобы управлять ими, а заодно и снабжать их энергией без проводов."
+		},
+		{
+			"title": "Набор адреса",
+			"type": "patchouli:text",
+			"text": "TODO"
+		},
+		{
+			"title": "Энергия",
+			"type": "patchouli:text",
+			"text": "TODO"
+		},
+		{
+			"title": "Кристаллические технологии",
+			"type": "patchouli:text",
+			"text": "TODO"
+		}
+	]
+}

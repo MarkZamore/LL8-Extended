@@ -1,0 +1,32 @@
+{
+    "name": "Уровни 80 — 100",
+    "icon": "apothic_enchanting:endshelf",
+    "category": "apotheosis:enchanting/progression",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+		{
+            "type": "patchouli:spotlight",
+			"title": "Путь к уровню 90",
+			"item": "apothic_enchanting:infused_breath",
+			"text": "Для предпоследней ступени нужен стол уровня 80 и $(9)дыхание дракона$().$(p)Из него получается $(9)наполненное драконье дыхание$() — основа $(9)книжных полок края$()."
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "Путь к уровню 90",
+			"recipe": "apothic_enchanting:endshelf",
+			"recipe2": "apothic_enchanting:pearl_endshelf"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title": "Путь к уровню 100",
+			"item": "minecraft:dragon_head",
+			"text": "Предел чародейского стола — уровень 100, но столько силы даёт лишь одна полка.$(p)Чтобы её создать, придётся отправиться на внешние острова Энда за $(9)головой дракона$()."
+		},
+		{
+            "type": "patchouli:crafting",
+			"title": "Путь к уровню 100",
+			"recipe": "apothic_enchanting:draconic_endshelf",
+			"text": "Одной $(9)дракониевой книжной полки края$() хватает, чтобы поднять стол с уровня 90 до 100.$(p)Правда, других бонусов к показателям она не даёт."
+		}
+	]
+}

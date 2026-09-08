@@ -1,0 +1,13 @@
+{
+	"name": "Улучшенный кристальный интерфейс",
+	"icon": "sgjourney:advanced_crystal_interface",
+	"sortnum": 3,
+	"category": "sgjourney:interfacing",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "TODO"
+		}
+	]
+}

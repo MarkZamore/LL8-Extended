@@ -1,0 +1,27 @@
+{
+  "name": "Аксолотль",
+  "icon": "minecraft:axolotl_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:tropical_fish_bucket",
+      "text": "Аксолотли принимают только ведро с тропической рыбой — его и подавайте в загон для животных."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по загону для животных убьёт аксолотля."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:water_bucket",
+      "text": "Забрать аксолотля из загона можно ведром воды."
+    }
+  ]
+}

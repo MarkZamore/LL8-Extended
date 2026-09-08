@@ -1,0 +1,19 @@
+{
+    "name": "Проворство",
+    "icon": "minecraft:textures/mob_effect/haste.png",
+    "category": "apotheosis:potion/recipes",
+    "flag": "apotheosis:potion",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Проворство$() — ещё один полезный эффект, у которого в ванили нет рецепта.$(p)Каждый уровень даёт +20% к скорости добычи."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Рецепт варки",
+            "item": "minecraft:mushroom_stew",
+            "text": "Это зелье варится из невзрачного зелья и тушёных грибов.$(p)Его можно продлить, усилить или сделать взрывным обычными ингредиентами."
+        }
+    ]
+}

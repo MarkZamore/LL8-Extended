@@ -1,0 +1,19 @@
+{
+    "name": "Сокровищные чары",
+    "icon": "apothic_enchanting:treasure_shelf",
+    "category": "apotheosis:enchanting/utility",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Сокровищные чары — особые чары, которые обычно не выпадают в столе зачаровывания.$(p)Впрочем, это поправимо: поможет $(9)Глубинная книжная полка тайных сокровищ$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apothic_enchanting:treasure_shelf",
+            "title": "Тайные сокровища",
+            "text": "Поставьте эту полку там, где засчитывается обычная книжная полка, и сокровищные чары начнут появляться при зачаровании.$(p)Имейте в виду: большинство $(4)проклятий$() — тоже сокровищные чары."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Кража жизни",
+    "icon": "apothic_attributes:textures/mob_effect/bleeding.png",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Кража жизни$() — это доля нанесённого вами физического урона, которая напрямую прибавляется к вашему здоровью.$(p)Как правило, эту характеристику даёт только оружие."
+        }
+    ]
+}

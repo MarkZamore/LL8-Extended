@@ -1,0 +1,31 @@
+{
+    "name": "Порт зарядки Forge",
+    "icon": "bigreactors:reinforced_reactorchargingportfe",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorchargingportfe",
+            "link_recipe": true,
+            "title" : "Порт зарядки Forge",
+            "text": "Порт зарядки Forge позволяет тратить энергию, накопленную в $(l:bigreactors/passive)пассивно охлаждаемом$(/l) реакторе, на зарядку предметов, которые работают от $(l:bigreactors/powersystem)энергосистемы$(/l) Forge Energy. $(br2) Откройте графический интерфейс порта и положите предмет, который хотите зарядить, во входной слот в центре."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Как только буфер энергии предмета заполнится, предмет автоматически переместится в выходной слот интерфейса — останется только забрать его. $(br2) Если зарядку по какой-то причине нужно прервать, нажмите кнопку извлечения: предмет сразу же окажется в выходном слоте."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:reactor/basic/chargingfe",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:reactor/reinforced/chargingfe"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() есть"
+        }
+    ]
+}

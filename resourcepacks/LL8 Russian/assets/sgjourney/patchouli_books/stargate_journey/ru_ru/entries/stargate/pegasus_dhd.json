@@ -1,0 +1,18 @@
+{
+	"name": "DHD Пегаса",
+	"icon": "sgjourney:pegasus_dhd",
+	"sortnum": 5,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "DHD Пегаса",
+			"type": "patchouli:crafting",
+			"recipe": "sgjourney:pegasus_dhd"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "DHD Пегаса работает с улучшенными кристаллами, а вот обычные ему не подходят."
+		}
+	]
+}

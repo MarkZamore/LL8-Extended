@@ -1,0 +1,30 @@
+{
+	"name": "Наполнитель пакетов жидкостью",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:fluid_package_filler",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(item)Наполнитель пакетов жидкостью/$ создаёт $(l:core/volume_package)Объёмные пакеты/$ с жидкостью внутри.$(p)Механизму нужна энергия."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "packagedauto:fluid_package_filler",
+			"link_recipe": true,
+			"title": "Применение",
+			"text": "Поставьте $(item)Наполнитель пакетов жидкостью/$ вплотную к ёмкости с жидкостью, а внутрь положите ёмкость-образец.$(p)После этого укажите, сколько жидкости должно оказаться в создаваемом $(l:core/volume_package)Объёмном пакете/$."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Применение (продолжение)",
+			"text": "Наконец, подайте на механизм сигнал редстоуна — и пакет будет создан.$(p)Готовый пакет отправится в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:fluid_package_filler",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 11
+}

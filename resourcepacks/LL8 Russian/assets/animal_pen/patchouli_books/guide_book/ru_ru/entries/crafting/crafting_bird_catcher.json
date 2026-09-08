@@ -1,0 +1,16 @@
+{
+  "name": "Ловец птиц",
+  "icon": "animal_pen:bird_catcher",
+  "category": "animal_pen:category_items",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ловцом птиц можно подобрать любое летающее животное Minecraft и поселить его в вольер. Приручённых животных и детёнышей поймать нельзя. Нажмите пустым ловцом по вольеру в приседе — и получите половину его обитателей. Чтобы выпустить животных, нажмите в приседе по земле."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animal_pen:bird_catcher"
+    }
+  ]
+}

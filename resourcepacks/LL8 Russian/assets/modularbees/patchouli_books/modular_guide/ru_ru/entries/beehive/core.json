@@ -1,0 +1,57 @@
+{
+  "name": "Ядро модульного улья",
+  "icon": "modularbees:modular_beehive_core",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Ядро модульного улья",
+      "text": "Контроллер многоблочной структуры «Модульный улей» — куба 3×3×3.$(br)Любой структурный блок улья можно заменить функциональной частью и тем самым улучшить улей.$(br)Общих блоков у двух модульных ульев быть не может."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Модульный улей",
+      "multiblock": {
+        "pattern": [
+          [
+            "XXX",
+            "XXX",
+            "XXX"
+          ],
+          [
+            "XXX",
+            "X0X",
+            "XCX"
+          ],
+          [
+            "XXX",
+            "XXX",
+            "XXX"
+          ]
+        ],
+        "mapping": {
+          "X": "modularbees:modular_beehive_part",
+          "0": "modularbees:modular_beehive_part",
+          "C": "modularbees:modular_beehive_core[facing=east]"
+        },
+        "symmetrical": true
+      },
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Особенности",
+      "text": "В модульный улей встроено улучшение-симулятор, поэтому пчёлы из него не вылетают.$(br)Ради производительности пчёлы в модульном улье не размножаются и не выполняют рецепты превращения блоков в мире — зато с улучшениями они делают соты и мёд с невероятной скоростью."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_beehive_core",
+      "recipe2": "modularbees:modular_beehive_part"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:scented_plank"
+    }
+  ]
+}

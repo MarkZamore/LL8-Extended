@@ -1,0 +1,22 @@
+{
+  "name": "Дельфин",
+  "icon": "minecraft:dolphin_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:dolphin",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cod",
+      "text": "Скормите дельфинам любую рыбу — они начнут размножаться, и в аквариуме их станет больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар мечом или топором по аквариуму убьёт дельфина и выбьет из него добычу."
+    }
+  ]
+}

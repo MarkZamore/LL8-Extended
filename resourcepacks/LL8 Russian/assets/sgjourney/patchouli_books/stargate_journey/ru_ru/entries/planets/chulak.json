@@ -1,0 +1,13 @@
+{
+	"name": "Чулак",
+	"icon": "sgjourney:matok",
+	"sortnum": 2,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "Лесная планета во владениях Апофиса."
+		}
+	]
+}

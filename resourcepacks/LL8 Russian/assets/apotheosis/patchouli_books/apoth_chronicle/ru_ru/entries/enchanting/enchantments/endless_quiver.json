@@ -1,0 +1,17 @@
+{
+    "name": "Бесконечный колчан",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)Бесконечный колчан$() — мастерские чары для луков.$(p)При стрельбе из лука стрелы не расходуются, какими бы они ни были.$(p)По сути, это прямое улучшение $(9)Бесконечности$()."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "Бесконечными должны становиться даже стрелы из других модов."
+        }
+	]
+}

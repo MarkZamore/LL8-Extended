@@ -1,0 +1,20 @@
+{
+	"name": "Звёздные врата Пегаса",
+	"icon": "sgjourney:pegasus_stargate",
+	"sortnum": 4,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Звёздные врата Пегаса",
+			"type": "patchouli:image",
+			"images": ["sgjourney:textures/gui/patchouli/pegasus_stargate.png"],
+			"text": "Звёздные врата третьего поколения с 36 символами."
+		},
+		{
+			"title": "Особенности",
+			"type": "patchouli:text",
+			"text": "Эти врата нельзя набирать вручную. И хотя на кольце показаны всего 36 символов, сами врата могут набирать 48 символов."
+		}
+	]
+}

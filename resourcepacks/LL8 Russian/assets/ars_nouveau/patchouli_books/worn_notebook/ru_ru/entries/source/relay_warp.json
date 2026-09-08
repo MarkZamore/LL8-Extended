@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:source",
+  "icon": "ars_nouveau:relay_warp",
+  "name": "Транслятор реле Источника",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Работает как разветвитель реле Источника, но может телепортировать Источник на любое расстояние между другими трансляторами. При расстоянии более 30 блоков часть Источника может быть потеряна при телепортации."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:relay_warp"
+    }
+  ]
+}

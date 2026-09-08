@@ -1,0 +1,22 @@
+{
+    "name": "Пассивный порт питания FE",
+    "icon": "bigreactors:energizerpowerport_fe",
+    "category": "bigreactors:energizer-parts",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:energizerpowerport_fe",
+            "link_recipe": true,
+            "title": "Пассивный порт питания FE",
+            "text": "Через пассивный порт питания FE можно как подавать энергию в энерджайзер, так и забирать её оттуда.$(br2)К пассивному порту питания FE подключается любой кабель или машина, совместимые с Forge Energy. Но забирать или подавать энергию подключённый блок должен сам."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Passive FE Power Port",
+            "crafting.recipe1": "bigreactors:energizer/powerport_fe",
+            "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes"
+        }
+    ]
+}

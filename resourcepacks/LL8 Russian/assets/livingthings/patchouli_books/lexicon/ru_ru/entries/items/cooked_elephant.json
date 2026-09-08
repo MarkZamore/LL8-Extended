@@ -1,0 +1,1 @@
+{"name":"Варёное слоновье мясо","icon":"livingthings:cooked_elephant","category":"livingthings:item_category","pages":[{"type":"text","text":"$(br)$(bold)Получение:$()$(br)можно получить плавкой Сырого слоновьего мяса"},{"type":"spotlight","item":"livingthings:cooked_elephant","text":"$(br)$(bold)Использование:$()$(li)можно съесть"}]}

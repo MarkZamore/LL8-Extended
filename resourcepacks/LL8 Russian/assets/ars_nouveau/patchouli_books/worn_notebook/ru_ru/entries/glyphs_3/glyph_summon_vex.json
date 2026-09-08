@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_3",
+  "icon": "ars_nouveau:glyph_summon_vex",
+  "name": "Призвать Векса",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вызывает трёх союзников — Вексов, которые атакуют враждебных существ поблизости. Эти Вексы живут недолго, пока не получат урон, но это время можно продлить с помощью дополнения Продление времени."
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "ars_nouveau:glyph_summon_vex"
+    }
+  ],
+  "sortnum": 2
+}

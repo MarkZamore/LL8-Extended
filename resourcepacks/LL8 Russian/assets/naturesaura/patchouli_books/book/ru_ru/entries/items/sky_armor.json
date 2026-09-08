@@ -1,0 +1,22 @@
+{
+    "name": "Броня искателя небес",
+    "icon": "naturesaura:sky_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "В $(thing)броне искателя небес$() ботаник может почувствовать себя богом. Её не только чинят так же, как $(l:items/infused_iron_armor)броню ботаника$(), — у неё есть и $(thing)бонус за комплект$(): если надеть все части сразу (или заменить нагрудник на $(item)элитры$()), $(thing)скорость передвижения$() владельца вырастет. Вдобавок ему станет проще $(thing)подниматься$() на блоки, так что прыгать придётся куда реже."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:sky_helmet",
+            "recipe2": "naturesaura:sky_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:sky_pants",
+            "recipe2": "naturesaura:sky_shoes"
+        }
+    ]
+}

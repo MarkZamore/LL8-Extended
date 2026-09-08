@@ -1,0 +1,13 @@
+{
+    "name": "Ледяные шипы",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Ледяные шипы$() — чары для нагрудников.$(p)Накладывают «Замедление» на тех, кто вас атакует. Длительность и сила эффекта растут с уровнем чар.$(p)Несовместимы с $(9)Шипами$()."
+        }
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Обуздание ауры",
+    "description": "Собирая $(aura) из мира, всякий человек невольно задаётся вопросом: $(italic)«А как этим воспользоваться?»$() Записи этого раздела как раз об этом и рассказывают.",
+    "icon": "naturesaura:textures/gui/patchouli/categories/using.png",
+    "sortnum": 15
+}

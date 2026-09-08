@@ -1,0 +1,23 @@
+{
+  "category": "ars_nouveau:machines",
+  "icon": "ars_nouveau:potion_melder",
+  "name": "Связыватель Зелий",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Преобразует три дозы зелья из двух кувшинов с зельями и выдает зелье с объединенными эффектами. Используйте Жезл Владычества от кувшина с зельем на Связыватель, чтобы соединить с кувшином для употребления. Подсоедините два кувшина с зельями к связывателю. Затем используйте жезл на Связывателе, а затем на третьей банке, чтобы установить выход. Связыватель Зелий требует Источник для каждой смеси."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:potion_melder"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "ars_nouveau:machines/potion_jar",
+        "ars_nouveau:machines/potion_diffuser",
+        "ars_nouveau:automation/wixie_charm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Подношение богам",
+    "icon": "naturesaura:offering_table",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:infused_materials",
+    "turnin": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)Инфузионное железо$() — вещь хорошая, природной силы в нём достаточно для самых разных дел. Но для механизмов посложнее нужен металл покрепче. Ради него — и ради многого другого — понадобится $(item)Подношение богам$().$(br)Боги издавна остаются сильнейшими и могущественнейшими из существ, а значит, и металлы у них крепче всех, что известны человеку."
+        },
+        {
+            "type": "text",
+            "text": "Чтобы дозваться до самих богов, поставьте $(item)Стол подношения$() и обложите его цветами так, как показано на следующей странице. Для начала обряда положите в чашу на столе любое количество предметов, которые хотите принести в дар, а затем бросьте рядом со столом то, что и призовёт богов, — чаще всего это $(item)Дух призыва$().$(br)Если повезёт, просимое прольётся дождём прямо с неба."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "Подготовка $(item)Подношения богам$(). Годятся цветы любого вида."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Стола подношения$()",
+            "recipe": "naturesaura:offering_table"
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Духов призыва$()",
+            "recipe": "naturesaura:calling_spirit"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Просьба о $(item)Слитках небес$() — могучем металле, напоённом божественной силой.",
+            "recipe": "naturesaura:sky_ingot"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Если просить $(item)Слитки небес$() с $(item)Заражённым золотом$(), их выпадет больше.",
+            "recipe": "naturesaura:sky_ingot_from_gold"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обмен $(item)Знака радости$() на куда более сильный $(item)Знак эйфории$()",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обмен $(item)Знака страха$() на куда более сильный $(item)Знак террора$()",
+            "recipe": "naturesaura:token_terror",
+            "anchor": "terror"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обмен $(item)Знака гнева$() на куда более сильный $(item)Знак ярости$()",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Обмен $(item)Знака скорби$() на куда более сильный $(item)Знак горя$()",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

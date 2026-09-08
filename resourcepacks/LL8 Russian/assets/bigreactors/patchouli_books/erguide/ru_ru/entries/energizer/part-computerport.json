@@ -1,0 +1,22 @@
+{
+    "name": "Порт компьютера",
+    "icon": "bigreactors:energizercomputerport",
+    "category": "bigreactors:energizer-parts",
+    "read_by_default": true,
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:energizercomputerport",
+            "link_recipe": true,
+            "title" : "Порт компьютера",
+            "text": "Порт компьютера позволяет подключить энерджайзер к компьютеру и получать сведения о его состоянии.$(br2)Подключённому компьютеру доступен стандартный набор методов — с их помощью можно запрашивать состояние энерджайзера."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Computer Port",
+            "crafting.recipe1": "bigreactors:energizer/computerport",
+            "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Внешний поджигатель",
+    "icon": "naturesaura:furnace_heater",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Рано или поздно понимаешь, что $(item)Печь$() слишком медлительна и прожорлива, чтобы работать всерьёз.$(br)$(item)Внешний поджигатель$() ускоряет $(item)Печь$(), к любой стороне которой он приставлен, и сам даёт ей жар, нужный для переплавки чего угодно. Учтите: расходуя на это $(aura), он может увести её природный уровень в минус, а это грозит $(l:intro/aura)убывающей отдачей$()."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Создание $(item)Внешнего поджигателя$() с помощью $(l:practices/tree_ritual)Ритуала леса$()",
+            "recipe": "naturesaura:furnace_heater"
+        }
+    ]
+}

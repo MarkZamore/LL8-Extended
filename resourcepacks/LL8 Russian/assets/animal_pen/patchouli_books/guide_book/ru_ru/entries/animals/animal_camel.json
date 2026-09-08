@@ -1,0 +1,22 @@
+{
+  "name": "Верблюд",
+  "icon": "minecraft:camel_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:camel",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cactus",
+      "text": "Кормите верблюдов кактусом, чтобы они размножались и в загоне их становилось больше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Удар по Загону для животных мечом или топором убьёт верблюда и выбьет из него добычу."
+    }
+  ]
+}

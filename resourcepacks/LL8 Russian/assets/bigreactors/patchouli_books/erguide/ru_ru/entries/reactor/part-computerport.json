@@ -1,0 +1,26 @@
+{
+    "name": "Порт компьютера",
+    "icon": "bigreactors:reinforced_reactorcomputerport",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorcomputerport",
+            "link_recipe": true,
+            "title" : "Порт компьютера",
+            "text": "Порт компьютера позволяет подключить реактор к компьютеру для сложной автоматизации.$(br2)Подключённому компьютеру доступен стандартный набор методов — с их помощью можно запрашивать состояние реактора и управлять его работой."
+        },
+        {
+            "type": "crafting-text",
+            "text": "Чтобы пользоваться портом компьютера, нужен сторонний мод, добавляющий в игру программируемые компьютеры.$(br2)Сейчас единственный такой мод, который поддерживается (и вообще существует), — CC.",
+            "title": "Усиленный",
+            "recipe": "bigreactors:reactor/reinforced/computerport"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Варианты:$() усиленный$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

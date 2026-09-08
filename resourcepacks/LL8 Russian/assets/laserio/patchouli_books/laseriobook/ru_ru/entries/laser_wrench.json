@@ -1,0 +1,26 @@
+{
+  "name": "Лазерный гаечный ключ",
+  "icon": "laserio:laser_wrench",
+  "sortnum": 1,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Лазерный гаечный ключ нужен прежде всего для того, чтобы соединять блоки между собой.$(br2)$(l:laserio:laser_node)Узлы$(/l) и $(l:laserio:laser_connector)коннекторы$(/l) связываются так: Shift + ПКМ по первому блоку, чтобы выбрать его, а затем ПКМ по второму — связь готова.$(br2)Дальность связи — не больше 8 блоков."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Лазерный гаечный ключ",
+      "images": [
+        "laserio:textures/book/entries/laser_wrench.png"
+      ],
+      "border": true,
+      "text": "Выбранный блок подсвечен зелёным."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Лазерный гаечный ключ",
+      "recipe": "laserio:laser_wrench"
+    }
+  ]
+}

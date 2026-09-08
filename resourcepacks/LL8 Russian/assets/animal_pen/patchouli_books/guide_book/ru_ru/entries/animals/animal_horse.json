@@ -1,0 +1,22 @@
+{
+  "name": "Лошадь",
+  "icon": "minecraft:horse_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:horse",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wheat",
+      "text": "Кормите лошадей пшеницей, чтобы они размножались и их число в загоне росло."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Примените к Загону для животных меч или топор — лошадь погибнет, и с неё выпадет добыча."
+    }
+  ]
+}

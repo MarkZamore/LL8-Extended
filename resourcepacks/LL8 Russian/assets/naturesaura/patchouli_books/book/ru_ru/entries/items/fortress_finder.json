@@ -1,0 +1,17 @@
+{
+    "name": "Глаз ифрита",
+    "icon": "naturesaura:fortress_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Отыскать $(thing)Крепости$() помогает $(item)Око Края$(): брошенное, оно неспешно летит к ближайшей такой постройке и тем самым указывает дорогу. Точно так же ведёт себя и $(item)Глаз ифрита$(), только ищет он не крепости, а ближайшую $(thing)Адскую крепость$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Глаза ифрита$()",
+            "recipe": "naturesaura:fortress_finder"
+        }
+    ]
+}

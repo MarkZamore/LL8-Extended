@@ -1,0 +1,33 @@
+{
+	"name": "Незеровое создание",
+	"category": "packagedauto:recipe",
+	"icon": "packagedavaritia:nether_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Незеровое создание/$ — тип рецептов, при котором $(item)Незеровый упаковщик/$ собирает всё, что можно скрафтить в $(item)Незерском верстаке/$.$(p)Готовые предметы $(item)Незеровый упаковщик/$ отправляет в соседние хранилища.$(p)$(item)Незеровому упаковщику/$ нужна энергия."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedavaritia:nether_crafter",
+			"link_recipe": true,
+			"title": "Интеграция с AE2",
+			"text": "$(item)Незеровый упаковщик/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда он будет брать энергию из сети и отправлять готовые предметы прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedavaritia:nether_crafter",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedavaritia:nether_crafter_ae",
+			"title": "Крафт"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 1502
+}

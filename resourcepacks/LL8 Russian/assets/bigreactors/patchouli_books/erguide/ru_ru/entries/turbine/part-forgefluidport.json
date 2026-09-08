@@ -1,0 +1,34 @@
+{
+    "name": "Порт жидкости Forge",
+    "icon": "bigreactors:reinforced_turbinefluidport_forge_passive",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinefluidport_forge_passive",
+            "link_recipe": true,
+            "title" : "Порт жидкости Forge",
+            "text": "Через порт жидкости Forge в турбину можно закачивать жидкости и откачивать их обратно.$(br2)Порт принимает и отдаёт ванильные жидкости, но только допустимые $(l:bigreactors:misc/coolantsystem)охлаждающие жидкости и пары$(/l).$(br2)$(l:bigreactors:misc/wrench)Гаечным ключом$(/l) порт переключается из режима входа в режим выхода и обратно."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Passive)",
+            "recipe1": "bigreactors:turbine/basic/passivefluidport_forge",
+            "title2": "Reinforced (Passive)",
+            "recipe2": "bigreactors:turbine/reinforced/passivefluidport_forge"
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Active)",
+            "recipe1": "bigreactors:turbine/basic/activefluidport_forge",
+            "title2": "Reinforced (Active)",
+            "recipe2": "bigreactors:turbine/reinforced/activefluidport_forge"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Гаечный ключ:$() режим порта переключается $(l:bigreactors:misc/wrench)гаечным ключом$(/l)"
+        }
+    ]
+}

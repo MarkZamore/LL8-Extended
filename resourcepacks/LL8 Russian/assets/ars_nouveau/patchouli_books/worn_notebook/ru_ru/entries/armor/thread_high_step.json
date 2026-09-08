@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_high_step",
+  "name": "Высокий шаг",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Увеличивает высоту шага на один для каждого уровня."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_high_step"
+    }
+  ],
+  "sortnum": 99
+}

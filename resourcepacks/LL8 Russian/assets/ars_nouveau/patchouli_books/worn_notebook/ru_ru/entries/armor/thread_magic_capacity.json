@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_nouveau:thread_magic_capacity",
+  "name": "Магическая емкость",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Увеличивает максимальное количество маны пользователя на 10%% за уровень."
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:thread_magic_capacity"
+    }
+  ],
+  "sortnum": 99
+}

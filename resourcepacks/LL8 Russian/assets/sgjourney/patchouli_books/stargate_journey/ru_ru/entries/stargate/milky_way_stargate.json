@@ -1,0 +1,20 @@
+{
+	"name": "Звёздные врата Млечного пути",
+	"icon": "sgjourney:milky_way_stargate",
+	"sortnum": 2,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Звёздные врата Млечного пути",
+			"type": "patchouli:image",
+			"images": ["sgjourney:textures/gui/patchouli/milky_way_stargate.png"],
+			"text": "Звёздные врата второго поколения с 39 символами."
+		},
+		{
+			"title": "Особенности",
+			"type": "patchouli:text",
+			"text": "Эти врата можно набирать вручную."
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Модуль вытягивателя Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:puller_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот модуль пытается вытянуть первый подходящий предмет из соседнего инвентаря в указанном для модуля $(l:intro/modules#direction)направлении/$ в буфер маршрутизатора. Если буфер полон или содержит предмет, который не может быть сложен ни с каким предметом в инвентаре, ничего не будет вытянуто."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:puller_module_1"
+    }
+  ]
+}

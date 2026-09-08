@@ -1,0 +1,71 @@
+{
+  "name": "Мультиблок деления",
+  "icon": "alchemistry:reactor_casing",
+  "category": "alchemistry:reactor_category",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Мультиблок деления",
+      "multiblock": {
+        "pattern": [
+          [
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "CCCCC"
+          ],
+          [
+            "CGGGC",
+            "G   G",
+            "G F G",
+            "G   G",
+            "CGGGC"
+          ],
+          [
+            "CGGGC",
+            "G   G",
+            "G F G",
+            "G   G",
+            "CGGGC"
+          ],
+          [
+            "CGGGC",
+            "G   G",
+            "G F X",
+            "G   G",
+            "CGGGC"
+          ],
+          [
+            "CCCCC",
+            "CCCCI",
+            "CC0CE",
+            "CCCCO",
+            "CCCCC"
+          ]
+        ],
+        "mapping": {
+          "X": "alchemistry:fission_chamber_controller[facing=east]",
+          "F": "alchemistry:fission_core",
+          "0": "alchemistry:reactor_casing",
+          "E": "alchemistry:reactor_energy[facing=east]",
+          "I": "alchemistry:reactor_input[facing=east]",
+          "O": "alchemistry:reactor_output[facing=east]",
+          "C": "alchemistry:reactor_casing",
+          "G": "alchemistry:reactor_glass"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": "Необходимые блоки",
+      "text": " 1x Контроллер камеры деления $(br) 3x Ядро деления $(br) 1x Энерговвод реактора $(br) 1x Ввод предметов реактора $(br) 1x Вывод предметов реактора $(br) 62x Корпус реактора $(br) 36x Стекло реактора"
+    },
+    {
+      "type": "text",
+      "title": "Необязательные блоки",
+      "text": "Энерговвод и блоки ввода и вывода предметов можно ставить в любое место, где нужен корпус реактора, но не туда, где стоит стекло реактора.$(br2)Стекло реактора необязательно: везде, где оно требуется, сгодится и корпус реактора. Оформляйте реактор как душе угодно."
+    }
+  ]
+}

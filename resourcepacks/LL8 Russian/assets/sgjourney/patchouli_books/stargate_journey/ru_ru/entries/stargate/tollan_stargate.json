@@ -1,0 +1,20 @@
+{
+	"name": "Толланские звёздные врата",
+	"icon": "sgjourney:tollan_stargate",
+	"sortnum": 6,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "Толланские звёздные врата",
+			"type": "patchouli:image",
+			"images": ["sgjourney:textures/gui/patchouli/tollan_stargate.png"],
+			"text": "Звёздные врата второго поколения без единого видимого символа."
+		},
+		{
+			"title": "Особенности",
+			"type": "patchouli:text",
+			"text": "Диафрагму на эти врата не поставить — она не помещается внутрь кольца. Набирать их вручную тоже нельзя. И хотя на кольце не видно ни одного символа, сами врата могут набирать 39 символов."
+		}
+	]
+}

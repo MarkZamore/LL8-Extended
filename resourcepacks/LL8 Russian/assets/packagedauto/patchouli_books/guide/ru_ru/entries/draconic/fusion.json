@@ -1,0 +1,55 @@
+{
+	"name": "Крафт слиянием",
+	"category": "packagedauto:recipe",
+	"icon": "packageddraconic:fusion_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Крафт слиянием/$ — тип рецептов, при котором $(item)Fusion Package Crafter/$ собирает всё, что можно скрафтить в $(item)Ядре слияния/$."
+		},
+		{
+			"type": "packagedauto:spotlight2",
+			"item1": "packageddraconic:fusion_crafter",
+			"item2": "packageddraconic:marked_draconium_injector,packageddraconic:marked_wyvern_injector,packageddraconic:marked_draconic_injector,packageddraconic:marked_chaotic_injector",
+			"title": "Применение",
+			"text": "Чтобы $(item)Fusion Package Crafter/$ заработал, расставьте достаточно $(item)Marked Injectors/$ подходящего уровня: не ближе 3 блоков, лицом к механизму, без препятствий на пути и с подведённой энергией.$(p)Самому $(item)Fusion Package Crafter/$ энергия тоже нужна."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Применение (продолжение)",
+			"text": "Нажмите $(thing)$(k:sneak) + $(k:use)/$ пустой рукой по $(item)Fusion Package Crafting Altar/$, пока тот простаивает, — и он покажет, сколько $(item)Marked Injectors/$ и какого уровня доступно сейчас и сколько нужно.$(p)Готовые предметы $(item)Fusion Package Crafter/$ отправляет в соседние хранилища."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Интеграция с AE2",
+			"text": "$(item)Fusion Package Crafter/$ и $(item)Marked Injectors/$ можно подключить к $(thing)ME-сети/$.$(p)Тогда механизм будет брать энергию из сети, а готовые и оставшиеся предметы и он, и инжекторы отправят прямо в неё, а не в соседние хранилища."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packageddraconic:marked_draconium_injector",
+			"recipe2": "packageddraconic:marked_wyvern_injector",
+			"title": "Крафт"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packageddraconic:marked_draconic_injector",
+			"recipe2": "packageddraconic:marked_chaotic_injector",
+			"title": "Крафт"
+		},
+		{
+			"type": "packagedauto:draconic/fusion_recipe",
+			"flag": "!mod:ae2",
+			"recipe": "packageddraconic:fusion_crafter",
+			"title": "Крафт слиянием"
+		},
+		{
+			"type": "packagedauto:draconic/fusion_recipe",
+			"flag": "mod:ae2",
+			"recipe": "packageddraconic:fusion_crafter_ae",
+			"title": "Крафт слиянием"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 4001
+}

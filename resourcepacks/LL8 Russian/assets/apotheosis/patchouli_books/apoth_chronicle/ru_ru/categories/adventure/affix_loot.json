@@ -1,0 +1,7 @@
+{
+    "name": "Добыча с аффиксами",
+    "description": "В странствиях вам будут попадаться предметы с самыми разными бонусами.$(p)Это предметы с аффиксами — реликвии прошлого, сила которых бывает очень разной.",
+    "icon": "minecraft:chest",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

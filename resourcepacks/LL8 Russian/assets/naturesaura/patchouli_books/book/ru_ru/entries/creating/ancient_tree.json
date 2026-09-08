@@ -1,0 +1,26 @@
+{
+    "name": "Древние деревья",
+    "icon": "naturesaura:ancient_leaves",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Простой способ восполнить $(aura) в округе — $(item)Древние деревья$(). Созданный $(item)Древний саженец$() растёт как обычное дерево, но его листья понемногу поднимают уровень $(aura) обратно к норме.$(br)Самому дереву при этом приходится несладко: $(aura) уходит из листьев в мир, и они начинают отмирать — если вытянуть достаточно, дерево останется голым."
+        },
+        {
+            "type": "text",
+            "text": "Стоит отметить и другое: как бы красиво это дерево ни смотрелось в адских краях мира, где его расцветка приходится точно к месту, оно $(italic)не работает$() за пределами $(thing)обычного мира$() — только там растения способны развиваться как должно."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Создание $(item)Древнего саженца$() с помощью $(l:practices/tree_ritual)Ритуала леса$()",
+            "recipe": "naturesaura:ancient_sapling"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:ancient_planks",
+            "recipe2": "naturesaura:ancient_stick"
+        }
+    ]
+}

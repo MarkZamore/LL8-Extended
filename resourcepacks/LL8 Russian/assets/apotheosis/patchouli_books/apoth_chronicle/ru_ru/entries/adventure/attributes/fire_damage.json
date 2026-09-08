@@ -1,0 +1,13 @@
+{
+    "name": "Урон огнём",
+    "icon": "minecraft:blaze_powder",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Урон огнём$() — дополнительный магический урон при атаках в ближнем бою. Вдобавок он ненадолго поджигает цель: чем выше урон, тем дольше она горит.$(p)Встречается на оружии ближнего боя."
+        }
+	]
+}

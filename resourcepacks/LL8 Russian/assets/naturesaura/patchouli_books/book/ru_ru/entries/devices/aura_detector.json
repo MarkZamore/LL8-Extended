@@ -1,0 +1,17 @@
+{
+    "name": "Детектор ауры",
+    "icon": "naturesaura:aura_detector",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Работая с $(aura), порой полезно знать её уровень в той или иной области, не наведываясь туда лично. $(item)Детектор ауры$() выдаёт $(thing)редстоун$()-сигнал в зависимости от того, сколько $(aura) в ближайшей округе, — нужно лишь пристроить к нему $(item)Компаратор$(). Охват у него примерно такой же, как у $(l:items/eye)Экологического глаза$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Детектора ауры$()",
+            "recipe": "naturesaura:aura_detector"
+        }
+    ]
+}

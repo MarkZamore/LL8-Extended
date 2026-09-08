@@ -1,0 +1,17 @@
+{
+  "name": "Модульная кормушка",
+  "icon": "modularbees:modular_beehive_feeder",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Модульная кормушка",
+      "text": "Пчёлы модульного улья ищут цветы только в модульной кормушке, а в неё помещается 9 видов цветов.$(br)Если пчеле нужен жидкий «цветок», положите в кормушку ведро или резервуар с нужной жидкостью."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_feeder"
+    }
+  ]
+}

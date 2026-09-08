@@ -1,0 +1,17 @@
+{
+    "name": "Сокровищница ауры",
+    "icon": "naturesaura:aura_trove",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Когда $(aura) начинает требоваться в таких количествах, что $(l:items/aura_cache)Кэш ауры$() приходится пополнять слишком уж часто, на помощь приходит $(item)Сокровищница ауры$() — старшая ступень $(item)Кэша ауры$(), вмещающая втрое больше."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Сокровищницы ауры$()",
+            "recipe": "naturesaura:aura_trove"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Функции звёздных врат Млечного Пути",
+	"icon": "sgjourney:milky_way_stargate",
+	"sortnum": 5,
+	"category": "sgjourney:interfacing",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "TODO"
+		}
+	]
+}

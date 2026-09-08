@@ -1,0 +1,6 @@
+{
+  "name": "Ядра и утилиты",
+  "description": "Добавляйте, улучшайте или модифицируйте функции вашей Omni Grid",
+  "icon": "omnigrid:command_core_housing",
+  "sortnum": 2
+}

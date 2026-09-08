@@ -1,0 +1,7 @@
+{
+    "name": "Апофеозные мобы",
+    "description": "Apotheosis добавляет в ваш мир несколько новых разновидностей мобов.$(p)В этом разделе рассказано, какие они бывают и где их искать.",
+    "icon": "apotheosis:boss_summoner",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

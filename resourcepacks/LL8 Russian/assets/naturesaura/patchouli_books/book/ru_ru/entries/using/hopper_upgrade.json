@@ -1,0 +1,17 @@
+{
+    "name": "Улучшенная воронка",
+    "icon": "naturesaura:hopper_upgrade",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Собирать предметы $(item)Воронками$() удобно, но не всегда: особенно когда площадь сбора велика. Тут и выручит $(item)Улучшенная воронка$() — поставьте её сверху на любую $(item)Воронку$(), и радиус подбора предметов вырастет примерно на $(thing)семь$() блоков.$(br)На каждый подобранный предмет уходит немного $(aura)."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание $(item)Улучшенной воронки$()",
+            "recipe": "naturesaura:hopper_upgrade"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Стекло",
+    "icon": "bigreactors:reprocessorglass",
+    "category": "bigreactors:reprocessor-parts",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reprocessorglass",
+            "link_recipe": true,
+            "title": "Стекло",
+            "text": "Стекло — декоративный блок, который ставится вместо блока корпуса, чтобы было видно, что творится внутри репроцессора."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Glass",
+            "crafting.recipe1": "bigreactors:reprocessor/glass",
+            "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no"
+        }
+    ]
+}

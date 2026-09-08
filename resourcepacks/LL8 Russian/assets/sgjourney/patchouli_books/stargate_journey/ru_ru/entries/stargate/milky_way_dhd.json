@@ -1,0 +1,18 @@
+{
+	"name": "DHD Млечного пути",
+	"icon": "sgjourney:milky_way_dhd",
+	"sortnum": 3,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "DHD Млечного пути",
+			"type": "patchouli:crafting",
+			"recipe": "sgjourney:milky_way_dhd"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "DHD Млечного пути работает и с обычными кристаллами, и с улучшенными."
+		}
+	]
+}
