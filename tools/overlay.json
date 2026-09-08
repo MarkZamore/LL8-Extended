@@ -82,10 +82,10 @@
    "reason": "requested addition, kept through pack updates (patpat 1.3.1+1.21.1+neoforge)"
   },
   {
-   "source": "tools/overlay/mods/ReinforcedBlackHoles-1.1.5.jar",
-   "target": "mods/ReinforcedBlackHoles-1.1.5.jar",
-   "sha256": "f43d8432b349499e0eaf152064efbbdbba230dd45e8ec066f075b0e398ea2f86",
-   "reason": "required by the requested Reinforced Singularity Rifle (rbh 1.1.5)"
+   "source": "tools/overlay/mods/ReinforcedBlackHoles-1.1.6.jar",
+   "target": "mods/ReinforcedBlackHoles-1.1.6.jar",
+   "sha256": "9e7e30747cf66b3e2e47978df0095b72581f79f0808c2f15271f6661300b8a4f",
+   "reason": "required by the requested Reinforced Singularity Rifle (rbh 1.1.6)"
   },
   {
    "source": "tools/overlay/mods/rsrifle-1.0.6.jar",
@@ -431,10 +431,10 @@
    "reason": "requested addition, kept through pack updates (MineColonies 1.1.1376): a colony of villagers who build what you plan for them. 1.21.1 has only snapshot builds - that is how this mod ships for a version it is still following - and this is the newest. Its own toml asks for structurize [1.0.832-1.21.1-snapshot,), blockui [1.0.199-1.21.1-snapshot,) and domum_ornamentum [1.0.223-snapshot,); the first two come with it here and the third was already in the pack at 1.0.234, so no upstream jar had to move. JEI is optional at [19.19.6.235,) and the stub TMRV ships answers 19.27.0.343, so its recipes are offered rather than refused. CurseForge also marks Multi-Piston and TownTalk required and the jar declares neither: Multi-Piston is here anyway because the builder calls it, TownTalk is not - fifty megabytes of 2024 voice lines nothing in this jar asks for"
   },
   {
-   "source": "tools/overlay/mods/structurize-1.0.832-1.21.1.jar",
-   "target": "mods/structurize-1.0.832-1.21.1.jar",
-   "sha256": "b6ede7635c63a80bd3d034c1ad3e74c648b8478f341f883d7d29c3dcf90b79ce",
-   "reason": "what MineColonies plans, previews and places buildings with, and a builder's tool of its own. MineColonies asks for [1.0.832-1.21.1-snapshot,), which is this build exactly; it in turn wants blockui [1.0.191-1.21.1-snapshot,) and domum_ornamentum [1.0.203-1.21.1-snapshot,), both satisfied here"
+   "source": "tools/overlay/mods/structurize-1.0.833-1.21.1-snapshot.jar",
+   "target": "mods/structurize-1.0.833-1.21.1-snapshot.jar",
+   "sha256": "08818309e064013e3b2c825eff2d94e790eabb7c07d7cfbf347a4647ff113473",
+   "reason": "what MineColonies plans, previews and places buildings with, and a builder's tool of its own. MineColonies asks for [1.0.832-1.21.1-snapshot,) and this is 1.0.833, one build above it; it in turn wants blockui [1.0.191-1.21.1-snapshot,) and domum_ornamentum [1.0.203-1.21.1-snapshot,), both satisfied here, and 1.0.833 asks for the same two ranges 1.0.832 did. 1.0.833 is three class bodies and nothing else: no registry, data, lang or mixin entry moved. Utils.getSafePackName now also refuses an empty name, a lone dot and two dots, and ClientStructurePackLoader runs a server-sent pack name through it before making a folder under blueprints/, so a hostile server cannot name its pack out of that directory"
   },
   {
    "source": "tools/overlay/mods/blockui-1.0.211-1.21.1-snapshot.jar",
@@ -621,7 +621,7 @@
     "source": "tools/overlay/config/identity2.json",
     "target": "config/identity2.json",
     "sha256": "3dc05f839563149752edfdd86b6e67a7931c8fc1c5f8753f2c7064c9d7fbb485",
-    "reason": "Identity2 refuses a login whose UUID is an offline one and kicks a player whose auth challenge is late. Both are aimed at somebody else: the identities here are the launcher's, issued from a Steam account, and the lateness is EMI rebuilding its index for twenty seconds on the joining client - which is the moment the challenge arrives. A guest was thrown out of this world twice in one evening by it. The rest of the file is Identity2's own defaults. showDeathMorphRuleWarning is off with it, which is the other line that met every player at every login: To keep your morph after death, use /identity config set deathMorphRule none. It is advice about a setting this pack has already decided, printed to people who cannot change it."
+    "reason": "Identity2 2.2.4 turns its morph charge system on by default: enableMorphChargeSystem is iconst_1 in IdentitySettings' static initializer, where 2.2.1 had iconst_0. This copy holds it false, and that one line is now the whole reason the file is pinned - every other value here was read field by field against that same initializer and is 2.2.4's own default. Left at the default it would not block a morph, because dontRequireChargeForMorphing stays true and tryConsumeMorphCharge returns before it spends anything, but MorphChargeManager would start writing a charge per identity kill into every player's NBT and taking one back on every death: an economy this world never asks for and no screen shows. The mod rewrites this file on every start - IdentityConfigManager.init calls load and then save, and save reflects over the fields it has - so the keys here are exactly the set 2.2.4 writes. The offline-UUID kick and the death-morph rule warning this pin was first written for are gone from the mod: 2.2.3 removed all five auth fields and showDeathMorphRuleWarning, and e76eed7 took the dead keys out of the file."
    },
    {
     "source": "tools/overlay/mods/reanimal-0.6.0.jar",
