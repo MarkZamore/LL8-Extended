@@ -856,6 +856,18 @@
    "target": "mods/thavma-neoforge-1.21.1-0.12.4.jar",
    "sha256": "0c72c4dda9ae12d5cc1d8ffe393ff8d7523a08173601574dfa68117ae7fed456",
    "reason": "requested addition, kept through pack updates (Thavma 0.12.4, Modified CoFH Don't Be a Jerk v2). A rewrite of Thaumcraft for modern versions: 35 aspects, scanning, a research table and its book, twelve wands, four foci, arcane workbench, crucible, infusion, aura nodes, goggles of revealing, greatwood and silverwood. No golems, no flux, no taint, no warp, so the price magic used to carry is absent. Asked for after it turned out that Thaumcraft itself has no 1.21.1 port at all: the version named in the request exists only as a local file in one developer's build script. Its geckolib [4.8.2,) and kotlinforforge [5.10.0,) are met here by 4.9.2 and 5.12.0."
+  },
+  {
+   "source": "tools/overlay/config/tipsmod.json",
+   "target": "config/tipsmod.json",
+   "sha256": "516e457a8e6b43cc08bbe3b4bebd503786cd5d95dbfb5b421cea3fa9c99e43b8",
+   "reason": "requested change, kept through pack updates: the ninety-nine Twilight Forest tips are switched back on. Upstream lists every one of them in ignored_tip_ids, so a dimension with its own bosses, mazes and rules said nothing at all on a loading screen. All ninety-nine already have Russian in this build's own resource pack, so they come up translated. The starcatcher and tipsmod entries upstream turned off are left as they are; only the twilightforest ones are removed."
+  },
+  {
+   "source": "tools/overlay/config/projecte/mapping.toml",
+   "target": "config/projecte/mapping.toml",
+   "sha256": "e479ea6ec38392808fc9539a0843d03e435505adfdb3ab1c8415ce474ee4ab34",
+   "reason": "every player gets the same EMC. ProjectE works out what an item is worth by walking the recipes through 147 mappers, and which of them run decides every price in the build; left to each machine's own generated file, two players could sit at the same table with different economies. The file is shipped as it should be, with one mapper held off - see the toml edit for IceAndFireDragonForgeMapper, which threw a NoSuchFieldError and took the whole mapping down with it. The edit stays beside this file on purpose: ProjectE rewrites the file when a mod adds mappers, and the edit is what puts the value back."
   }
 ],
  "tomlEdits": [
@@ -921,8 +933,15 @@
    "key": "scalingDrops",
    "value": "false",
    "reason": "a roost stops multiplying every drop by 64. Modern Chickens arrived with this build and a wooden roost consumes nothing at all - RoostBlockEntity.requiredSeedsForDrop returns iconst_0 and isFullOfSeeds is true unconditionally at zero - while RoostBlockEntity passes ChickensConfigValues.isScalingDropsEnabled() into ChickenContainerEntry.createLay, which at true calls ChickenStats.scaleOutput and setCount(outputCount()), and outputCount is the table 1,3,6,10,16,23,31,41,52,64 over gain 1 to 10. Sixteen bred chickens at gain 10 therefore lay 64 items a drop, and the timer never answers for it: getAddedTime is min(2048, chickens x growth) and does not look at the stack. Against ProjectE's prices a dimensionalShardChicken - Quartz x Ender, no boss anywhere in it - comes to 2.28e9 EMC an hour on a roost of planks and a chest, and eight times that on a mechanical one. Modern Chickens declares the lay rates, ProjectE declares the prices, and nobody declared this. At false a drop is the chicken's own lay item, one item, which divides that by 64 and leaves 2.85e8 EMC an hour against the 1.34e8 this build already accepts from Re:Avaritia's Densest Neutron Collector; roostSpeed would halve it again and is deliberately left alone, because twice the accepted rate is not the ten times over that the owner set as the line. The file in config/ is the mod's own defaultconfigs/chickens.toml out of the jar, byte for byte with this one value changed: TomlConfigBridge.ensureResource returns at once when config/chickens.toml is already there, so the mod reads this copy and writes nothing back over it"
+  },
+  {
+   "file": "config/projecte/mapping.toml",
+   "table": "mappers.Crafting-Mapper.IceAndFireDragonForgeMapper",
+   "key": "enabled",
+   "value": "false",
+   "reason": "ProjectE Integration 8.3.1 was built against a different Ice and Fire than this build carries, and its dragon forge mapper is the proof: IAFDragonForgeMapper.canHandle asks IafRecipes for a field DRAGON_FORGE_TYPE that the installed version does not have. The NoSuchFieldError comes out of CraftingMapper.addMappings, which aborts EMC mapping for the WHOLE pack - on 5 September ProjectE registered 25475 values in 4.7 seconds, and on 9 September it registered none at all and logged \"Error calculating EMC values\" while the player was joining the world. Held off here rather than by dropping the integration, because the other 140 mappers work and are the reason it is here. Turn it back on if a later Ice and Fire or a later integration lines the two up again."
   }
- ],
+],
  "remove": [
   {
    "path": "mods/NeoAuth-*.jar",
