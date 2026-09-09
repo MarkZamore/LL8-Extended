@@ -1120,8 +1120,12 @@
   {
    "path": "mods/toomanyrecipeviewers-*.jar",
    "reason": "the shim that let JEI plugins draw into EMI. It declares a second [[mods]] block with modId jei at version 19.27.0.343, so it cannot sit beside the real JEI pinned above - that is one modId claimed by two jars, and the pack does not start. It is also what part-loaded 66 of the 246 plugins: JEIPluginManager.dispatch skips the registerRecipes, catalyst, advanced, transfer, gui, alias, mod-info and runtime phases for any plugin whose namespace already has an EMI plugin. Nothing in the pack declares a dependency on it."
+  },
+  {
+   "path": "mods/v_slab_compat-*.jar",
+   "reason": "held out while a world that would not load is diagnosed. Upstream 1.71.1 swapped DoubleSlabs for this, and the first world load after that swap died on IllegalStateException: Adding duplicate key 'minecraft:loot_table / minecraft:empty'. No file in any of the 939 jars or in any datapack declares that table, so it is being made at runtime, and this mod is the one new thing here that generates loot tables: it builds a datapack through Moonlight's DynamicResourcePack.addLootTable from a template/loot_table.json, and Moonlight itself moved 3.5.2 to 3.6.0 in the same release. Vertical slabs are cosmetic and nothing in the world is made of them yet. If the world loads without it, this is upstream's bug to report and this line stays until they fix it; if it does not, the line comes straight back out."
   }
- ],
+],
  "keep": [
   {
    "reason": "Resource packs this build added, which upstream has never had. A managed root is rebuilt from the staged release and whatever the release does not have is deleted, so every one of these went out with the next update. The other way to hold a file is a files entry above, which means committing it twice - once as the source, once as the target - for a pack nobody but us ships. Naming them here says the simpler true thing: ours, never upstream's, leave them where they are. Upstream's own ten are not listed: the release carries them, so the sync finds them and keeps them by itself. The last entry is a folder rather than a zip and holds this build's own Russian, written key by key against the glossary: kept unpacked so a change to one string is a line in a diff, and matched with a glob because the sync tests every file under a managed root one at a time.",
