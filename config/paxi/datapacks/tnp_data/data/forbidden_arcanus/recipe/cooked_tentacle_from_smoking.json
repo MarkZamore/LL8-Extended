@@ -1,10 +1,11 @@
 {
-    "type": "minecraft:smoking",
-    "ingredient": {
-        "item": "forbidden_arcanus:tentacle"
-    },
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "forbidden_arcanus:tentacle"
+  },
   "result": {
-    "id": "forbidden_arcanus:cooked_tentacle",
-    "experience": 0.35,
-    "cookingtime": 100
+    "id": "forbidden_arcanus:cooked_tentacle"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
 }
