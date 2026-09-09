@@ -14,4 +14,13 @@ portable-pack-source.json
 # tools/fetch_remote_files.py and verified by hash.
 mods/Cobblemon-*.jar
 mods/divinerpg-*.jar
+mods/Pastel*.jar
+mods/AmbientSounds_NEOFORGE*.jar
+mods/alexscaves*.jar
+mods/L_Ender's Cataclysm*.jar
+mods/the_bumblezone*.jar
+mods/ysm*.jar
+mods/eternalstarlight*.jar
+mods/deep_aether*.jar
+mods/The_Undergarden*.jar
 resourcepacks/AnimeMemePackv8.1.0.zip

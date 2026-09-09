@@ -94,12 +94,6 @@
    "reason": "requested addition, kept through pack updates (rsrifle 1.0.6)"
   },
   {
-   "source": "tools/overlay/mods/alexscaves-2.0.10.jar",
-   "target": "mods/alexscaves-2.0.10.jar",
-   "sha256": "6fad35bf07fcb977aaa32d3fe05bf122150c6a30ed16b057385040207a3b788f",
-   "reason": "requested addition, kept through pack updates (alex's caves unofficial port 2.0.10)"
-  },
-  {
    "source": "tools/overlay/mods/backrooms-2.0.0.jar",
    "target": "mods/backrooms-2.0.0.jar",
    "sha256": "e0277f1a00bddb5a55313dc3daaa25e4d8c9fa170eb0c24f7c1b77aa4b70d7c4",
@@ -129,12 +123,6 @@
    "target": "mods/sexmod-1.1.0-neoforge.1.jar",
    "sha256": "27a7e28452a48cbcbc54b36a52af11312e6965edf893e7e7c92eef6106f47d32",
    "reason": "requested addition, kept through pack updates (jenny's mod, Mine335's NeoForge port 1.1.0-neoforge.1)"
-  },
-    {
-   "source": "tools/overlay/mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
-   "target": "mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
-   "sha256": "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb",
-   "reason": "requested addition, kept through pack updates (yes steve model 2.6.5)"
   },
   {
    "source": "tools/overlay/config/xaeroplus.txt",
@@ -333,12 +321,6 @@
    "target": "mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
    "sha256": "016eaec4445863874b51130a146346f1d862b92f1c4168333fbc219aa1e5d328",
    "reason": "requested addition, kept through pack updates (CreativeCore 2.13.44): the library AmbientSounds requires"
-  },
-  {
-   "source": "tools/overlay/mods/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
-   "target": "mods/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
-   "sha256": "07ee6fd24d8427ee079e2e376095b0ac92450b0153331f1575f8195e2c9cf90b",
-   "reason": "requested addition, kept through pack updates (AmbientSounds 6.3.8): biome and weather ambience; client only, needs creativecore which ships beside it"
   },
   {
    "source": "tools/overlay/mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
