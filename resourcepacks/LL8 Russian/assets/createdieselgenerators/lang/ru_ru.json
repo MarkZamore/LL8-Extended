@@ -1,4 +1,6 @@
 {
   "createdieselgenerators.hint.distiller_full": "Похоже, выходной бак этой _Ректификационной колонны_ заполнен. Убедитесь, что в каждом _Баке_ достаточно места для продуктов перегонки.",
-  "createdieselgenerators.hint.distiller_full.title": "Выходной бак заполнен"
+  "createdieselgenerators.hint.distiller_full.title": "Выходной бак заполнен",
+  "createdieselgenerators.display_source.pumpjack_oil_amount": "Объём нефти",
+  "createdieselgenerators.actionbar.distillation_controller.too_short": "Ректификационная колонна слишком низкая! Минимальная высота: %s"
 }

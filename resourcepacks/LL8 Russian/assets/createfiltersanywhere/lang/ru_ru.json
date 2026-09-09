@@ -1,4 +1,24 @@
 {
   "create.item_attributes.apoth_gem_id": "является самоцветом «%1$s»",
-  "create.item_attributes.is_item": "— это %1$s"
+  "create.item_attributes.is_item": "— это %1$s",
+  "create.item_attributes.apoth_has_affix": "имеет аффикс «%1$s»",
+  "create.item_attributes.apoth_socket_count_empty.inverted": "имеет менее %1$s пустых гнёзд",
+  "create.item_attributes.is_uncharged.inverted": "заряжен",
+  "create.item_attributes.apoth_socket_count_empty": "имеет как минимум %1$s пустых гнёзд",
+  "create.item_attributes.is_item.inverted": "это не %1$s",
+  "create.item_attributes.is_fully_charged": "полностью заряжен",
+  "create.item_attributes.apoth_gem_id.inverted": "это не «%1$s»",
+  "create.item_attributes.apoth_loot_rarity": "имеет редкость «%1$s»",
+  "create.item_attributes.apoth_socket_count.inverted": "имеет менее %1$s гнёзд",
+  "create.item_attributes.has_data_component": "имеет компонент данных «%1$s»",
+  "create.item_attributes.apoth_has_rarity.inverted": "не имеет редкости Apotheosis",
+  "create.item_attributes.is_uncharged": "не заряжен",
+  "create.item_attributes.can_be_charged.inverted": "нельзя зарядить",
+  "create.item_attributes.apoth_has_affix.inverted": "не имеет аффикса «%1$s»",
+  "create.item_attributes.is_fully_charged.inverted": "заряжен не полностью",
+  "create.item_attributes.has_data_component.inverted": "не имеет компонента данных «%1$s»",
+  "create.item_attributes.can_be_charged": "можно зарядить",
+  "create.item_attributes.apoth_loot_rarity.inverted": "не имеет редкости «%1$s»",
+  "create.item_attributes.apoth_socket_count": "имеет как минимум %1$s гнёзд",
+  "create.item_attributes.apoth_has_rarity": "имеет редкость Apotheosis"
 }

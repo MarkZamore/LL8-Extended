@@ -106,5 +106,8 @@
   "twilightforest.tips.worldgen_features": "Лес заполнен множеством руин. Некоторые могут даже содержать уникальные предметы.",
   "twilightforest.tips.wrought_iron": "Кованые прутья не имеют стандартного рецепта получения. Их можно добыть только при разборке блоков, созданных из этих прутьев.",
   "twilightforest.tips.yeti": "Йети любят бросать вещи.",
-  "twilightforest.tips.zombie_healing": "Зомби, вызванные скипетром зомби, могут быть исцелены гнилой плотью."
+  "twilightforest.tips.zombie_healing": "Зомби, вызванные скипетром зомби, могут быть исцелены гнилой плотью.",
+  "config.twilightforest.first_person_glove_overlay.tooltip": "Позволяет перчаткам путешественника отображаться на вашей руке при виде от первого лица.",
+  "subtitles.twilightforest.entity.deer.eat": "Олень ест",
+  "config.twilightforest.first_person_glove_overlay": "Наложение перчатки от первого лица"
 }

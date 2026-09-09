@@ -1,0 +1,10 @@
+{
+  "create_simple_generator.configuration.can_charge_item_in_entity.tooltip": "§eНеобходимо заново зайти в мир",
+  "create_simple_generator.configuration.can_charge_item_in_block.tooltip": "§eНеобходимо заново зайти в мир",
+  "create_simple_generator.configuration.generator_generates_energy_multiplier.tooltip": "§eНеобходимо заново зайти в мир",
+  "create_simple_generator.configuration.generator_consumption_stress_multiplier.tooltip": "§eНеобходимо заново зайти в мир",
+  "create_simple_generator.configuration.can_charge_item_in_entity": "Зарядка предметов в инвентаре мобов",
+  "create_simple_generator.configuration.can_charge_item_entity": "Зарядка лежащих предметов",
+  "create_simple_generator.configuration.can_charge_item_entity.tooltip": "§eНеобходимо заново зайти в мир",
+  "create_simple_generator.configuration.can_charge_item_in_block": "Зарядка предметов в инвентаре блока"
+}
