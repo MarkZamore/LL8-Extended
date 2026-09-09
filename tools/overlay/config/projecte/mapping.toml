@@ -546,7 +546,7 @@ logFoundExploits = true
 		#ProjectE-Integration Recipe Mapper for Psi Trick Mapper. Required Mods: [psi]
 		[mappers.Crafting-Mapper.PsiTrickMapper]
 			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
+			enabled = false
 
 		#ProjectE-Integration Recipe Mapper for Chipped Workbench Mapper. Required Mods: [chipped]
 		[mappers.Crafting-Mapper.ChippedWorkbenchMapper]
