@@ -8,13 +8,13 @@
     "surfaceRange": 100
   },
   "sound": {
-    "rainVolume": 0.20,
+    "rainVolume": 0.2,
     "snowVolume": 0.1,
     "windVolume": 0.1
   },
   "wind": {
     "strength": 0.03,
-    "gustFrequency": 0.14,
+    "gustFrequency": 0.15,
     "modulationSpeed": 0.1,
     "yLevelAdjustment": true
   },

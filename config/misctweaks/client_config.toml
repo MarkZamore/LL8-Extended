@@ -1,7 +1,6 @@
 # Don't change this! Version used to track needed updates.
 version = 1
-lowerShield = true
-shields = [
-    "minecraft:shield"
-]
-offset = -4.0
+lowerShield = false
+shields = [  ]
+raiseHotbarPixels = 0
+perDimensionBrightness = [  ]

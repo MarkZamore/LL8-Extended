@@ -302,11 +302,16 @@ event.remove({id: 'quark:building/crafting/furnaces/deepslate_furnace'})
 
 event.remove({id: 'excessive_utilities:last_millennium_portal'})
 event.remove({id: 'excessive_utilities:depths_portal'})
+event.remove({id: 'excessive_utilities:unstable/depths_portal'})
 event.remove({id: 'excessive_utilities:magnum_torch'})
+event.remove({id: 'excessive_utilities:qed/magnum_torch'})
 
 event.remove({id: 'quark:building/crafting/compressed/vanilla_nether_wart_block_4x4'})
 
 event.remove({id: 'utilitarian:utility/nether_wart'})
+
+event.remove({id: 'neovitae:materials/smelting_coal_dust'})
+event.remove({id: 'neovitae:materials/blasting_coal_dust'})
 
 event.remove({id: 'excessive_utilities:angel_block'})
 event.remove({id: 'excessive_utilities:angel_ring_conversion_invisible'})

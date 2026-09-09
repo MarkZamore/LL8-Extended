@@ -1,5 +1,86 @@
 # LL8 update log
 
+## 1.71.1 — 2026-09-09 (CurseForge file 8816233, manifest sha256 a2bbb8a01436a066adb91cb8f61090fadb8f4eed05b9d5f47b897c09ca0597b3)
+
+- mods: 939 total (+22 / −15 / ~0)
+- resourcepacks: 10, shaderpacks: 16, paxi datapacks: 1
+- added: anvianslib-neoforge-1.21-1.4.2.jar (anvianslib 1.4.2)
+- added: better-compatability-checker-neoforge-21.1.8.jar (bcc 21.1.8)
+- added: BHMenu-NeoForge-1.21-2.4.4.jar (bhmenu 2.4.4)
+- added: Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar (biomeswevegone 2.6.0)
+- added: consolefilter-neoforge-1.7.0.jar (consolefilter 1.7.0)
+- added: CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar (crash_assistant 1.11.12)
+- added: crashutilities-9.0.4.jar (crashutilities 9.0.4)
+- added: energizedpowerru-3.0.0+1.21.1-neoforge.jar (energizedpowerru 3.0.0+1.21.1-neoforge)
+- added: ftb-chunks-neoforge-2101.1.20.jar (ftbchunks 2101.1.20)
+- added: ftb-chunks-modded-1.20+1.1.9.jar (ftbchunks_modded 1.1.9)
+- added: gaze-1.1.7.1.jar (gaze 1.1.7.1)
+- added: Geophilic v3.6.mod.jar (geophilic 3.6)
+- added: toomanyrecipeviewers-0.9.0+mc.21.1.jar (jei 19.27.0.343)
+- added: mcwbyg-neoforge-1.21.1-1.6.jar (mcwbyg 1.21.1-1.6)
+- added: NeoAuth-1.21.1-1.0.1.jar (neo_auth 1.0.1)
+- added: observable-5.4.4.jar (observable 5.4.4)
+- added: oracle_index-neoforge-1.3.1.jar (oracle_index 1.3.1)
+- added: regions_unexplored-neoforge-1.21.1-0.5.9.jar (regions_unexplored 0.5.9)
+- added: SodiumExtraInformation-neoforge-2.7.0.jar (sodiumextrainformation 2.7.0)
+- added: starcatcher-3.1.2-NEOFORGE-1.21.1.jar (starcatcher 3.1.2-NEOFORGE-1.21.1)
+- added: toomanyrecipeviewers-0.9.0+mc.21.1.jar (toomanyrecipeviewers 0.9.0+mc.21.1)
+- added: wits-neoforge-1.3.1.jar (wits 1.3.1)
+- removed: create-aeronautics-bundled-1.21.1-1.3.2.jar (aeronautics_bundled 1.3.2)
+- removed: alexscaves-2.0.10.jar (alexscaves 2.0.10)
+- removed: AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar (ambientsounds 6.3.8)
+- removed: biolith-neoforge-3.0.14.jar (biolith 3.0.14)
+- removed: Cobblemon-neoforge-1.7.3+1.21.1.jar (cobblemon 1.7.3+1.21.1)
+- removed: divinerpg-1.10.9.3.jar (divinerpg 1.10.9.2)
+- removed: entity_model_features-3.2.4-1.21-neoforge.jar (entity_model_features 3.2.4)
+- removed: entity_texture_features_1.21-neoforge-7.1.jar (entity_texture_features 7.1)
+- removed: iceandfire-2.0.jar (iceandfire 2.0)
+- removed: jupiter-2.3.7-1.21.1-neoforge.jar (jupiter 2.3.7)
+- removed: sable-neoforge-1.21.1-2.0.5.jar (sable 2.0.5)
+- removed: touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar (touhou_little_maid 1.5.3-neoforge+mc1.21.1)
+- removed: touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar (touhou_little_maid_spell 1.8.4-neoforge)
+- removed: uranus-2.4.1-1.21.1-neoforge.jar (uranus 2.4.1)
+- removed: ysm-2.6.5-neoforge+mc1.21.1-release.jar (yes_steve_model 2.6.5-neoforge+mc1.21.1)
+- added: resourcepacks/AE2Blackout-V1.2.8.zip
+- added: resourcepacks/Authentic Shadows_1.21+.zip
+- added: resourcepacks/GEO - v1.111.0 - Fusion.zip
+- added: resourcepacks/GEO - v1.111.0.zip
+- removed: resourcepacks/3D Items-Vanillaism-1.21.1.zip
+- removed: resourcepacks/3D Reinforced Armor v1.zip
+- removed: resourcepacks/AE2 Guide [RU] 2026-03-22.zip
+- removed: resourcepacks/Authentic_Shadows_1.21+.zip
+- removed: resourcepacks/Bad Dream Death.zip
+- removed: resourcepacks/Betty Witch v1.0.zip
+- removed: resourcepacks/Breeze Girl v1.0.zip
+- removed: resourcepacks/Cobblemon Translation [RU] 1.5.1.zip
+- removed: resourcepacks/Create_Russified-3.0-universal.zip
+- removed: resourcepacks/Deep Aether Tips.zip
+- removed: resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip
+- removed: resourcepacks/Gigachad Villager.zip
+- removed: resourcepacks/Grays Mob Compatibility.zip
+- removed: resourcepacks/Grays Mob Overhaul v13.zip
+- removed: resourcepacks/LL8 Mob Fixes.zip
+- removed: resourcepacks/LLama Girls.zip
+- removed: resourcepacks/Lilac Jackson.zip
+- removed: resourcepacks/MPLOCmods v37 (LL8 gap subset).zip
+- removed: resourcepacks/Mod-Translate-10.0.2.zip
+- removed: resourcepacks/Muggets Standing Cow v1.0.zip
+- removed: resourcepacks/My Monster Girls.zip
+- removed: resourcepacks/Neco-Arc Cats.zip
+- removed: resourcepacks/Not-Enough-Translations-[RU]-a1.0.3.zip
+- removed: resourcepacks/RTF Extension 2.7.0 (LL8, no en_us).zip
+- removed: resourcepacks/Re-Avaritia RUS.zip
+- removed: resourcepacks/Rus-For-Mods-1.21-1.1.zip
+- removed: resourcepacks/Sun & Moon Fusion 2.1.zip
+- removed: resourcepacks/Thicc Phantom.zip
+- removed: resourcepacks/Totem of GAGAGA 7tv emote 1.0.zip
+- removed: config/paxi/datapacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip
+- removed: config/paxi/datapacks/LL8 Companion Spawns.zip
+- removed: config/paxi/datapacks/ll8_pack_rules.zip
+- overlay: moved config/paxi/resourcepacks/tnp_resources -> resourcepacks/tnp_resources; pinned config/projectexpansion/client.toml; pinned config/entity_model_features.json; pinned config/alexscaves-general.toml; pinned config/paxi/datapacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip; pinned config/paxi/datapacks/ll8_pack_rules.zip; pinned resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip; pinned configureddefaults/options.txt; pinned mods/ProjectE-1.21.1-PE1.1.0.jar; pinned mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar; pinned mods/MOTS-NeoForge-1.21.1-1.3.0.jar; pinned mods/OtakoMod-1.21.1.jar; pinned mods/PatPat-1.3.1+1.21.1+neoforge.jar; pinned mods/ReinforcedBlackHoles-1.1.6.jar; pinned mods/rsrifle-1.0.6.jar; pinned mods/backrooms-2.0.0.jar; pinned mods/cave_dweller-1.3b.jar; pinned mods/citadel-1.21.1-2.7.6.jar; pinned mods/orbital_railgun-1.4.2-neoforge-beta.2.jar; pinned mods/sexmod-1.1.0-neoforge.1.jar; pinned config/xaeroplus.txt; pinned config/paxi/datapacks/LL8 Companion Spawns.zip; pinned config/ftbessentials.snbt; pinned config/paxi/datapacks/ExtraDataModels-1.21-4.4.2.zip; pinned resourcepacks/LL8 Mob Fixes.zip; pinned resourcepacks/Deep Aether Tips.zip; pinned resourcepacks/Cobblemon Translation [RU] 1.5.1.zip; pinned resourcepacks/MPLOCmods v37 (LL8 gap subset).zip; pinned resourcepacks/RTF Extension 2.7.0 (LL8, no en_us).zip; pinned resourcepacks/Rus-For-Mods-1.21-1.1.zip; pinned resourcepacks/Mod-Translate-10.0.2.zip; pinned resourcepacks/Not-Enough-Translations-[RU]-a1.0.3.zip; pinned resourcepacks/Create_Russified-3.0-universal.zip; pinned resourcepacks/Re-Avaritia RUS.zip; pinned resourcepacks/Grays Mob Compatibility.zip; pinned resourcepacks/Grays Mob Overhaul v13.zip; pinned resourcepacks/Totem of GAGAGA 7tv emote 1.0.zip; pinned resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt; pinned resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt; pinned config/ftbquests/quests/lang/ru_ru.snbt; pinned config/jade/plugins.json; pinned config/sdrp-common.json5; pinned config/iceandfire/iaf-client.json; pinned kubejs/server_scripts/tags_enchantment_repairs.js; pinned kubejs/server_scripts/ysm_model_sync.js; pinned kubejs/config/web_server.json; pinned mods/blur-neoforge-6.3.1+1.21.1.jar; pinned mods/lambdynamiclights-4.8.11+1.21.1.jar; pinned mods/particlerain-4.0.0-beta.11+1.21.1-neoforge.jar; pinned mods/smoothgui-neoforge-2.0.5+mc1.21.jar; pinned mods/smoothswapping-0.9.3.2-1.21.1-neoforge.jar; pinned config/smoothswapping.json; pinned mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar; pinned mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar; pinned mods/Drip Sounds-0.5.2+1.21.8-NeoForge.jar; pinned mods/Terralith_1.21.1_v2.6.2_Neoforge.jar; pinned mods/tectonic-3.0.26-neoforge-21.1.jar; pinned mods/skyrim_skeletons-1.0-neoforge-1.21.1.jar; pinned mods/cultofazazelneoforge-1.1.4.12.jar; pinned mods/chesttracker-2.6.8+1.21.1-neoforge.jar; pinned mods/ldlib2-neoforge-1.21.1-2.2.39.a-all.jar; pinned mods/projectexpansion-1.21.1-1.0.6.jar; pinned mods/ufo-2.1-fix7.jar; pinned mods/windy-neoforge-1.21.1.jar; pinned mods/spawnanimations-v1.11.5-mc1.17-26.2.9-mod.jar; pinned mods/minecraft-cursor-neoforge-3.11.3+1.21.1.jar; pinned resourcepacks/Sun & Moon Fusion 2.1.zip; pinned mods/minecolonies-1.1.1381-1.21.1-snapshot.jar; pinned mods/structurize-1.0.833-1.21.1-snapshot.jar; pinned mods/blockui-1.0.211-1.21.1-snapshot.jar; pinned mods/multipiston-1.2.58-1.21.1.jar; pinned mods/the_backwoods-1.7.0-neoforge-1.21.1.jar; pinned mods/deimos-1.21.1-neoforge-2.7.jar; pinned mods/serversidehorror-1.21.1-neoforge-4.2.jar; pinned mods/grotesque_steve-1.4.2-neoforge-1.21.1.jar; pinned config/agritech/crops_and_soil.json; pinned config/agritechevolved/plantables.json; pinned config/agritechtrees/saplings_and_soil.json; pinned resourcepacks/3D Reinforced Armor v1.zip; pinned config/simplebackups-common.toml; pinned mods/spark-1.10.124-neoforge.jar; pinned resourcepacks/tnp_resources/assets/cobblemon/lang/ru_ru.json; pinned resourcepacks/tnp_resources/assets/stoneworks/lang/ru_ru.json; pinned resourcepacks/tnp_resources/assets/soulplied_energistics/lang/ru_ru.json; pinned resourcepacks/tnp_resources/assets/emi_loot/lang/ru_ru.json; pinned resourcepacks/tnp_resources/assets/blockprints/lang/ru_ru.json; pinned resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json; pinned resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json; pinned resourcepacks/tnp_resources/assets/neruina/lang/en_us.json; pinned config/immersive_optimization.json; pinned config/sky-aesthetics.json; pinned config/sky_aesthetics.json; pinned config/global_packs.toml; pinned mods/1.21.1-identity2-neoforge-2.2.4.jar; pinned mods/gaboulibs-neoforge-1.9.jar; pinned mods/packforge-neoforge-1.3.4-beta.2-mc1.21.1.jar; pinned config/connectivity.json; pinned kubejs/server_scripts/recipes_and_fixes.js; pinned kubejs/server_scripts/recipes_lost_to_the_rename.js; pinned config/identity2.json; pinned mods/reanimal-0.6.0.jar; pinned config/serversidehorror.json; pinned mods/Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar; pinned mods/avaritia_expand-0.3.6.jar; pinned mods/avaritia_integration-1.0.jar; pinned mods/more_avaritia-neo-1.0fix2.jar; pinned mods/avaritia_nirvana-1.2.0-neoforge-1.21.1.jar; pinned mods/PackagedAvaritia-Re-1.21.1-3.0.1.5.jar; pinned mods/avaritia_delight-1.6.3.jar; pinned mods/AvaritiaSpear-1.21.1-neo-1.3.1.jar; pinned mods/spearcore-1.21.1-neo-2.0.7.jar; pinned config/yes_steve_model-server.toml; pinned config/fancymenu/customization/ingame-pause-menu.txt; pinned kubejs/server_scripts/ysm_stand_down.js; pinned config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/depths.json; pinned config/paxi/datapacks/tnp_data/data/undergarden/worldgen/biome/puff_mushroom_forest.json; pinned mods/ProjectE_Integration-1.21.1-8.3.1.jar; pinned mods/appliede-1.0.8-beta.jar; pinned config/paxi/datapacks/tnp_data/data/tnp/tags/worldgen/biome/is_palm_beach.json; pinned config/paxi/datapacks/tnp_data/data/tropicraft/neoforge/biome_modifier/overworld_palm_trees.json; pinned config/paxi/datapacks/tnp_data/data/tropicraft/worldgen/placed_feature/trees_palm_overworld.json; pinned mods/ModernChickens-1.21.1-2.6.1-NeoForge.jar; pinned config/projecte/custom_emc.json; pinned config/fancymenu/customization/loadingscreen.txt; pinned config/fancymenu/customization/mainmenu.txt; pinned mods/jei-1.21.1-neoforge-19.52.0.423.jar; pinned mods/ae2jeiintegration-1.2.1.jar; pinned mods/PastelJEI-21.1.8.jar; pinned mods/refinedstorage-jei-integration-neoforge-1.0.0.jar; pinned mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar; pinned mods/UniversalEnchantmentInfo-1.21.1-neoforge-1.3.0.jar; pinned mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar; pinned resourcepacks/AE2 Guide [RU] 2026-03-22.zip; pinned mods/IC2CRE_0.3_4f-dev_NeoForge_1.21.1.jar; pinned mods/Advanced.Solar.Panels-0.3_4f-dev.jar; pinned mods/Energy.Control-0.3_4f-dev.jar; pinned mods/Gravitation.Suite-0.3_4f-dev.jar; pinned mods/Iridium.Source-0.3_4f-dev.jar; pinned mods/thavma-neoforge-1.21.1-0.12.4.jar; pinned config/tipsmod.json; pinned config/projecte/mapping.toml; removed mods/NeoAuth-*.jar (1 path(s)); removed mods/gaze-*.jar (1 path(s)); removed config/gaze-common.toml (1 path(s)); removed nothing for mods/goatman-*.jar - upstream may have renamed it; removed nothing for mods/snatched-*.jar - upstream may have renamed it; removed nothing for mods/SanityRenewed-*.jar - upstream may have renamed it; removed mods/CrashAssistant-*.jar (1 path(s)); removed config/crash_assistant (1 path(s)); removed resourcepacks/tnp_resources/assets/minecraft/models/item/TOTEM OF UNDYING CREDITS.txt (1 path(s)); removed resourcepacks/tnp_resources/assets/tnp/textures/item/coins credit.txt (1 path(s)); removed mods/anvianslib-*.jar (1 path(s)); removed mods/SodiumExtraInformation-*.jar (1 path(s)); removed config/sodiumextrainformation (1 path(s)); removed config/sodiumextrainformation.json (1 path(s)); removed mods/oracle_index-*.jar (1 path(s)); removed mods/better-compatability-checker-*.jar (1 path(s)); removed config/bcc-common.toml (1 path(s)); removed mods/ftb-chunks-neoforge-*.jar (1 path(s)); removed mods/ftb-chunks-modded-*.jar (1 path(s)); removed config/ftbchunks-client.snbt (1 path(s)); removed config/ftbchunks-world.snbt (1 path(s)); removed mods/BHMenu-*.jar (1 path(s)); removed mods/JCPlugin-*.jar (1 path(s)); removed mods/consolefilter-*.jar (1 path(s)); removed mods/wits-*.jar (1 path(s)); removed mods/observable-*.jar (1 path(s)); removed mods/crashutilities-*.jar (1 path(s)); removed nothing for config/observable-client.toml - upstream may have renamed it; removed mods/Geophilic*.jar (1 path(s)); removed mods/regions_unexplored-*.jar (1 path(s)); removed mods/energizedpowerru-*.jar (1 path(s)); removed config/regions_unexplored (1 path(s)); removed config/paxi/datapacks/tnp_data/data/regions_unexplored (1 path(s)); removed config/paxi/datapacks/tnp_data/data/farmingforblockheads/recipe/market/regions_unexplored (1 path(s)); removed config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/argillite.json (1 path(s)); removed config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/chalk.json (1 path(s)); removed config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/mossy_stone.json (1 path(s)); removed config/forgeendertech/Biomes/regions_unexplored$*.cfg (71 path(s)); removed mods/Oh-The-Biomes-Weve-Gone-*.jar (1 path(s)); removed mods/mcwbyg-*.jar (1 path(s)); removed config/biomeswevegone (1 path(s)); removed config/paxi/datapacks/tnp_data/data/biomeswevegone (1 path(s)); removed config/paxi/datapacks/tnp_data/data/farmingforblockheads/recipe/market/biomeswevegone (1 path(s)); removed config/paxi/datapacks/tnp_data/data/extradatamodels/data_models/biomes_weve_gone (1 path(s)); removed config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/dacite.json (1 path(s)); removed config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/cobbled_dacite.json (1 path(s)); removed config/paxi/datapacks/tnp_data/data/cobblegengalore/recipe/blockgen/rocky_stone.json (1 path(s)); removed config/forgeendertech/Biomes/biomeswevegone$*.cfg (55 path(s)); removed resourcepacks/GEO - *.zip (2 path(s)); removed resourcepacks/AE2Blackout-*.zip (1 path(s)); removed resourcepacks/Authentic Shadows_1.21+.zip (1 path(s)); removed mods/toomanyrecipeviewers-*.jar (1 path(s)); removed mods/starcatcher-3.1.2-*.jar (1 path(s)); config/the_bumblezone/client.toml: useBackupModelForVariantBee already false; config/fml.toml: earlyWindowMaximized false -> true; config/c2me.toml: enabled "default" -> false; config/lootr-client.toml: vanilla_textures already false; config/simplebackups-common.toml: backupsToKeep already 6; config/lightspeed-common.toml: parallelResourceLookup true -> false; config/simplebackups-common.toml: useTickCounter already true; config/projectexpansion/server.toml: enableCollectorOptimizations already true; config/chickens.toml: scalingDrops already false; config/projecte/mapping.toml: enabled already false; config/farsight.json: maxRenderDistance {'desc:': 'Maximum allowed render distance, requires enableChunkManager enabled. default 64', 'maxRenderDistance': 64} -> {'desc:': 'Maximum allowed render distance, requires enableChunkManager enabled. default 64', 'maxRenderDistance': 32}; config/kerria.json: fastUpload True -> False
+- world check: skipped (--world not given)
+- git history before commit: 2.54 GiB (squash threshold 3.0 GiB)
+
 ## 1.70.0 — 2026-09-02 (CurseForge file 8755975, manifest sha256 d33f30f969deaab19073f009e3d95e7eae6fd02d48cb3b14ac66ccbe392e32bd)
 
 - mods: 914 total (+37 / −12 / ~65)

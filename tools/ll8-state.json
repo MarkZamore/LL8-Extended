@@ -1,15 +1,17 @@
 {
   "schemaVersion": 1,
-  "version": "1.70.0",
-  "clientFileId": 8755975,
-  "serverFileId": 8756049,
-  "updatedAtUtc": "2026-09-02T16:31:10Z",
-  "manifestSha256": "d33f30f969deaab19073f009e3d95e7eae6fd02d48cb3b14ac66ccbe392e32bd",
+  "version": "1.71.1",
+  "clientFileId": 8816233,
+  "serverFileId": 8816379,
+  "updatedAtUtc": "2026-09-09T21:22:48Z",
+  "manifestSha256": "a2bbb8a01436a066adb91cb8f61090fadb8f4eed05b9d5f47b897c09ca0597b3",
   "blockedFiles": [
     "Authentic Shadows_1.21+.zip",
     "DnDesires-1.21.1-2.2c-BETA.jar",
     "DrDestens MinecraftShaders v2.1.5.zip",
     "GEO - v1.111.0 - Fusion.zip",
+    "KeybindAtlas-v1.4.0-mc1.21.1-neoforge.jar",
+    "MossyLib-1.5.0+1.21.1+neoforge.jar",
     "No Vignette 1.21.zip",
     "Nostalgia_v5.1.zip",
     "Pretty X Smart Pipez.zip",
@@ -35,13 +37,14 @@
     "nopackcompatcheck-0.1.0-neoforge-mc1.21+.jar",
     "notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
     "overenchanted-1.21.1-0.0.7.jar",
+    "simplymore-forge-1.3.0_alpha.jar",
     "tombstone-neoforge-1.21.1-9.5.5.jar",
     "totw_modded-neoforge-1.21-1.0.9.jar",
     "tower_of_chambers-42.55 Release-neoforge-1.21.1.jar",
     "wildex-3.0.0.jar"
   ],
   "counts": {
-    "mods": 869,
+    "mods": 879,
     "resourcepacks": 10,
     "shaderpacks": 16,
     "datapacks": 1

@@ -768,36 +768,6 @@
    "reason": "what draws Applied Energistics recipes now that EMI is gone (ae2jeiintegration 1.2.1, LGPL-3.0). AE2 itself ships an EMI plugin and not one class that references mezz.jei, so without this its pages have nowhere to be drawn. Its @JeiPlugin adds seven categories - Transform, Condenser, Inscriber, Charger, Attunement, Certus Growth and Entropy Manipulator - plus item subtypes, catalysts, the crafting-terminal and pattern-encoding transfer handlers, the facade registry and the AE2 screen handlers. It is also a library four AE2 addons already in this pack compile against and could not reach until now: ExtendedAE files its own recipes into ChargerCategory and InscriberRecipeCategory, Applied Mekanistics and Applied Experienced register ingredient converters through IngredientConverters, and expandedae mixes into this very plugin class, all four gated on ModList.isLoaded(\"ae2jeiintegration\"). Asks for ae2 [19.0.22-beta,) against 19.2.17 and jei [19.19.3,) against 19.52.0.423. It does not carry the storage cell upgrade recipes: those are CustomRecipe subclasses whose isSpecial() returns true, and no viewer can show them."
   },
   {
-   "source": "tools/overlay/mods/PastelJEI-21.1.8.jar",
-   "target": "mods/PastelJEI-21.1.8.jar",
-   "sha256": "01d8a7787c007f56be3b7cfe2b67b79ade797f8d5b9b42e34dcb81a98f765141",
-   "reason": "what draws Pastel's recipes now that EMI is gone (pasteljei 21.1.8, LGPL-3.0-only). Pastel ships an EMI plugin and no JEI one; this adds 24 categories against EMI's 21, with 38 catalysts, 14 transfer handlers, 14 subtype interpreters and two recipe click areas. It carries JEIDrawables 21.1.5 (MIT) as a nested jar and nothing else in the pack provides that modId. The first thing its plugin does is check ModList.isLoaded(\"emi\") and log \"PastelJEI is disabled with EMI as Pastel has native EMI support\" before returning - which is why it would have been inert before this change and is live after it. Asks for pastel [1.1.5,) against 1.1.5.5, jei * and jeidrawables *, and marks emi and rei discouraged."
-  },
-  {
-   "source": "tools/overlay/mods/refinedstorage-jei-integration-neoforge-1.0.0.jar",
-   "target": "mods/refinedstorage-jei-integration-neoforge-1.0.0.jar",
-   "sha256": "e1721529412de7be9087702c46acbe1c4d1d594418df73a2bbebe3780396fb79",
-   "reason": "the Refined Storage bridge, in place of the EMI one it replaces (refinedstorage_jei_integration 1.0.0, MIT, same authors). Neither edition registers a category: what they carry is the wiring that makes a recipe usable from a grid, and this one has more of it - four transfer handlers for the crafting, processing, stonecutter and smithing pattern grids, one universal handler, two ghost-ingredient handlers, the search aliases and the grid exclusion zones. 33 classes against the EMI edition's 20. Asks for refinedstorage 2.0.0-beta.1 against the 2.0.9 here and jei [19.20.0,)."
-  },
-  {
-   "source": "tools/overlay/mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
-   "target": "mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
-   "sha256": "b34d6bb434d507874a6ebe49d40169c26f7cad8f51c9ffea615eedb153746696",
-   "reason": "what replaces EMI Professions, written by the same author (justenoughprofessions 4.0.5, MIT): one category, justenoughprofessions:professions, walking BuiltInRegistries.VILLAGER_PROFESSION past NONE and giving each profession its job site, catalysed by an emerald and a villager spawn egg. Asks for jei [19.3.1.22,), neoforge [21.0.76-beta,) and minecraft [1.21,1.22)."
-  },
-  {
-   "source": "tools/overlay/mods/UniversalEnchantmentInfo-1.21.1-neoforge-1.3.0.jar",
-   "target": "mods/UniversalEnchantmentInfo-1.21.1-neoforge-1.3.0.jar",
-   "sha256": "c50b206ead2fe0cbf35edd310f793e869f28b1d12200d3a96885a9e02cfd6d86",
-   "reason": "what replaces EMI Enchanting, and more than replaces it (uei 1.3.0, MIT): one category, uei:ench_info, whose page carries an enchantment's description, rarity, maximum level, and whether it is treasure, tradeable, a curse, discoverable or offered by an enchanting table, along with what it applies to and what it excludes. It ships an Apothic compat class, which matters here because the pack has apothic_enchanting. jei, emi and rei are all optional to it, and its one EMI mixin is @Pseudo, so the EMI half goes quiet rather than failing."
-  },
-  {
-   "source": "tools/overlay/mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar",
-   "target": "mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar",
-   "sha256": "6f44f14ffe4e426c5c4dcdddc462e303cd2dd8962851d00f998ed73ad6e2b807",
-   "reason": "Starcatcher moved off upstream's 3.0.6 because of this change: 3.0.6's JEI plugin has no registerVanillaCategoryExtensions and 3.1.3's does, and StarcatcherJeiSmithingCategoryExtension is what draws the fishing-rod upgrade on the smithing table - without it that recipe has no page under real JEI. The extension extends JEI's own mezz.jei.library.plugins.vanilla.anvil.SmithingCategoryExtension and feeds its constructor from Services.PLATFORM, both of which 19.52.0.423 still has. Same dependency block as 3.0.6 - neoforge [21.1.233,), minecraft [1.21.1,1.21.2), and starcatcher_delight optional [3.0,) with incompatible [,3.0) against the 3.0.1 the pack ships - so no new mod comes with it. Its nested jars carry Selling Bin 1.6 and tiny-multiblock-lib 4.0.0, which is the version the standalone jar already provides, so JarJar no longer has three copies to choose between. MIT."
-  },
-  {
    "source": "tools/overlay/resourcepacks/AE2 Guide [RU] 2026-03-22.zip",
    "target": "resourcepacks/AE2 Guide [RU] 2026-03-22.zip",
    "sha256": "64da28b881f05c8f049a0fcec06c60c9a9ea9e22864cf2cae4fde25a8860021b",
@@ -1038,14 +1008,6 @@
    "reason": "configuration of the removed mod"
   },
   {
-   "path": "mods/e4steam-*.jar",
-   "reason": "the launcher installs the Steam transport into the instance itself, pinned by sha256 and downloaded on demand; a copy inside the pack is a second source of truth"
-  },
-  {
-   "path": "mods/e4mc*.jar",
-   "reason": "the same transport under its older name; the launcher rejects any build but its own"
-  },
-  {
    "path": "mods/Geophilic*.jar",
    "reason": "it overrides thirty vanilla biome files, and Terralith now owns those biomes; two datapacks rewriting the same jsons means one silently loses. It left no trace in any chunk - zero code classes, zero namespace hits across the whole world - so nothing orphans"
   },
@@ -1138,44 +1100,8 @@
     "reason": "this build ships its own copy as resourcepacks/Authentic_Shadows_1.21+.zip and locks it by that name; upstream's, spelled with a space, was a second copy of one pack and the game loaded both"
    },
   {
-   "path": "mods/emi-1.1.24*.jar",
-   "reason": "EMI, the recipe viewer this build replaced with real JEI, which arrives in the same change. The choice was made on how many recipes are visible in game: EMI behind TooManyRecipeViewers lost at least 690 entries across six mods - all 35 Kiln recipes of Instrumentus, every recipe of Iron's Jewelry's station, 47 of Iron's Spellbooks' alchemist cauldron, Mekanism Tools' anvil pages, LaserIO's runtime hook and Some Assembly Required's search aliases - and part-loaded 66 of 246 JEI plugins. JEI alone loses 265 entries and not one of them is a mod's main mechanic. The glob names the version so that it cannot also swallow emi-qol-tweaks, which is removed on a line of its own."
-  },
-  {
    "path": "mods/toomanyrecipeviewers-*.jar",
    "reason": "the shim that let JEI plugins draw into EMI. It declares a second [[mods]] block with modId jei at version 19.27.0.343, so it cannot sit beside the real JEI pinned above - that is one modId claimed by two jars, and the pack does not start. It is also what part-loaded 66 of the 246 plugins: JEIPluginManager.dispatch skips the registerRecipes, catalyst, advanced, transfer, gui, alias, mod-info and runtime phases for any plugin whose namespace already has an EMI plugin. Nothing in the pack declares a dependency on it."
-  },
-  {
-   "path": "mods/emi_loot-*.jar",
-   "reason": "EMI Loot: it declares emi required [1.0.0,) and carries no mezz.jei class at all, so it cannot follow the pack to JEI. The tables themselves stay - Simple Loot Viewer's own @JeiPlugin registers a category per loot type, all eight switched on in config/simplelootviewer.json, and Just Enough Resources is here too. What goes with it is EMI Loot's presentation: decimal chances and loot-condition lines."
-  },
-  {
-   "path": "mods/emi_enchanting-*.jar",
-   "reason": "four classes and emi required [1.0.0,). Universal Enchantment Info is pinned above in its place, with the same page and more on it."
-  },
-  {
-   "path": "mods/EMIProfessions-*.jar",
-   "reason": "the EMI port of Just Enough Professions: emi required [1.1.10,) and not one mezz.jei class. Just Enough Professions 4.0.5 is pinned above in its place - same author, same walk over the villager profession registry."
-  },
-  {
-   "path": "mods/emi-qol-tweaks-*.jar",
-   "reason": "modId emiaddon: emi required [0,), and six of its twelve mixins go into dev.emi.emi in a config marked required. Its FTB Quests half is covered by ftb-xmod-compat, whose own @JeiPlugin registers the Quests and Loot Crate categories and which reached the viewer only through the shim until now. What is lost with it is its Share Hovered Item key and the chat links that key made."
-  },
-  {
-   "path": "mods/emirecipesharing-*.jar",
-   "reason": "emi required [1.1.20+1.21.1,), with client.RecipeDisplayMixin and client.EmiRenderHelperMixin going into EMI in a config marked required. Just Enough Recipe Sharing is pinned above in its place."
-  },
-  {
-   "path": "mods/refinedstorage-emi-integration-*.jar",
-   "reason": "emi required [1.1.7,). The JEI edition of the same bridge, by the same authors and with more transfer handlers, is pinned above in its place."
-  },
-  {
-   "path": "mods/starcatcher-3.0.*.jar",
-   "reason": "upstream's Starcatcher, replaced by the 3.1.3 pinned above, whose JEI plugin has the smithing-table extension 3.0.6's lacks. The glob does not reach starcatcher_delight-3.0.1: that name has an underscore where this one has a dash. Pins run before removals, so 3.1.3 is already written when this line is read, and this glob does not match it."
-  },
-  {
-   "path": "mods/distraction_free_recipes-*.jar",
-   "reason": "its two JEI mixins are switched on for the first time by this change and cannot work. MixinPlugin.shouldApplyMixin applies a mixin whose name contains JEI only when jei is loaded and emi is not, which was never true while EMI was here; JEICombinedInputHandlerMixin targets mezz.jei.gui.overlay.IngredientGridWithNavigation$UserInputHandler and JEIIngredientListOverlayMixin reaches for mezz.jei.gui.overlay.ScreenPropertiesCache, and JEI 19.52.0.423 has neither - the grid moved to gui/overlay/ingredients/ and the cache is now GuiPropertiesCache. mixins.distraction_free_recipes.json is required with injectors.defaultRequire 1, so the best case is Mixin logging the missing target and dropping them and the worst is a MixinInitialisationError before the title screen. 1.2.2 is the newest 1.21.1 build that exists, and with EMI gone its EMI mixins fall silent as well, so there is nothing left for it to do."
   }
  ],
  "keep": [

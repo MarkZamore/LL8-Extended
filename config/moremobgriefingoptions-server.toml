@@ -4124,39 +4124,6 @@
 		#luggage:ender_luggage mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"luggage:ender_luggage" = "DEFAULT"
-		#moresnifferflowers:bobling mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:bobling" = "DEFAULT"
-		#moresnifferflowers:dragonfly mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:dragonfly" = "DEFAULT"
-		#moresnifferflowers:corrupted_slime_ball mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:corrupted_slime_ball" = "DEFAULT"
-		#moresnifferflowers:mod_corrupted_boat mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:mod_corrupted_boat" = "DEFAULT"
-		#moresnifferflowers:mod_corrupted_chest_boat mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:mod_corrupted_chest_boat" = "DEFAULT"
-		#moresnifferflowers:mod_vivicus_boat mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:mod_vivicus_boat" = "DEFAULT"
-		#moresnifferflowers:mod_vivicus_chest_boat mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:mod_vivicus_chest_boat" = "DEFAULT"
-		#moresnifferflowers:jar_of_acid mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:jar_of_acid" = "DEFAULT"
-		#moresnifferflowers:salt_bubble mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:salt_bubble" = "DEFAULT"
-		#moresnifferflowers:salt_projectile mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:salt_projectile" = "DEFAULT"
-		#moresnifferflowers:gluing_gum_entity mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"moresnifferflowers:gluing_gum_entity" = "DEFAULT"
 		#gag:time_accelerator mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"gag:time_accelerator" = "DEFAULT"
@@ -5477,3 +5444,393 @@
 		#sophisticatedstorageinmotion:storage_boat mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"sophisticatedstorageinmotion:storage_boat" = "DEFAULT"
+		#simplyswords:battlestandard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:battlestandard" = "DEFAULT"
+		#simplyswords:battlestandarddark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:battlestandarddark" = "DEFAULT"
+		#simplyswords:simplybeeentity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:simplybeeentity" = "DEFAULT"
+		#simplyswords:watcher_bat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:watcher_bat" = "DEFAULT"
+		#simplyswords:skeleton_minion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:skeleton_minion" = "DEFAULT"
+		#simplyswords:wolf_minion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:wolf_minion" = "DEFAULT"
+		#simplyswords:goat_stampede mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:goat_stampede" = "DEFAULT"
+		#simplyswords:falling_sniffer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:falling_sniffer" = "DEFAULT"
+		#simplyswords:simplyaxolotlentity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:simplyaxolotlentity" = "DEFAULT"
+		#simplyswords:thrown_sword mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:thrown_sword" = "DEFAULT"
+		#simplyswords:frostfall_entity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:frostfall_entity" = "DEFAULT"
+		#simplyswords:livyatan_entity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:livyatan_entity" = "DEFAULT"
+		#simplyswords:spear_entity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:spear_entity" = "DEFAULT"
+		#simplyswords:runic_entity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:runic_entity" = "DEFAULT"
+		#simplyswords:dancing_blade_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dancing_blade_visual" = "DEFAULT"
+		#simplyswords:frostfall_ice_spike_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:frostfall_ice_spike_visual" = "DEFAULT"
+		#simplyswords:soulrender_mark_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soulrender_mark_visual" = "DEFAULT"
+		#simplyswords:revival_candle_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:revival_candle_visual" = "DEFAULT"
+		#simplyswords:soulkeeper_lantern_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soulkeeper_lantern_visual" = "DEFAULT"
+		#simplyswords:flame_seed_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:flame_seed_visual" = "DEFAULT"
+		#simplyswords:whisperwind_slash_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:whisperwind_slash_visual" = "DEFAULT"
+		#simplyswords:dreadwhisper_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dreadwhisper_visual" = "DEFAULT"
+		#simplyswords:runic_slash_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:runic_slash_projectile" = "DEFAULT"
+		#simplyswords:twisted_blade_crescendo_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:twisted_blade_crescendo_visual" = "DEFAULT"
+		#simplyswords:death_knell_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:death_knell_visual" = "DEFAULT"
+		#simplyswords:emberlash_smoulder_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:emberlash_smoulder_visual" = "DEFAULT"
+		#simplyswords:implicit_status_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:implicit_status_visual" = "DEFAULT"
+		#simplyswords:shadowsting_afterimage_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:shadowsting_afterimage_visual" = "DEFAULT"
+		#simplyswords:stars_edge_constellation_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:stars_edge_constellation_visual" = "DEFAULT"
+		#simplyswords:icewhisper_comet_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:icewhisper_comet_visual" = "DEFAULT"
+		#simplyswords:magispear_firmament_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:magispear_firmament_visual" = "DEFAULT"
+		#simplyswords:magispear_falling_spear_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:magispear_falling_spear_visual" = "DEFAULT"
+		#simplyswords:brimstone_claymore_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:brimstone_claymore_visual" = "DEFAULT"
+		#simplyswords:stormscale_rod_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:stormscale_rod_visual" = "DEFAULT"
+		#simplyswords:ionbound_stormscale_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:ionbound_stormscale_visual" = "DEFAULT"
+		#simplyswords:devourer_mass_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:devourer_mass_visual" = "DEFAULT"
+		#simplyswords:devourer_tendril_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:devourer_tendril_visual" = "DEFAULT"
+		#simplyswords:devourer_reprisal_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:devourer_reprisal_visual" = "DEFAULT"
+		#simplyswords:wraithmaw_cutlass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:wraithmaw_cutlass" = "DEFAULT"
+		#simplyswords:gloampiercer_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:gloampiercer_spear" = "DEFAULT"
+		#simplyswords:gloampiercer_clone_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:gloampiercer_clone_visual" = "DEFAULT"
+		#simplyswords:soulstalker_stride mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soulstalker_stride" = "DEFAULT"
+		#simplyswords:soulstalker_cleave mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soulstalker_cleave" = "DEFAULT"
+		#simplyswords:soulstalker_tentacle_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soulstalker_tentacle_visual" = "DEFAULT"
+		#simplyswords:dawnquiver_bow_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dawnquiver_bow_visual" = "DEFAULT"
+		#simplyswords:dawnquiver_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dawnquiver_arrow" = "DEFAULT"
+		#simplyswords:dawnquiver_impact_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dawnquiver_impact_visual" = "DEFAULT"
+		#simplyswords:riftmane_charger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:riftmane_charger" = "DEFAULT"
+		#simplyswords:riftmane_rift_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:riftmane_rift_visual" = "DEFAULT"
+		#simplyswords:chain_lightning_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:chain_lightning_visual" = "DEFAULT"
+		#simplyswords:lightning_phenomenon_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:lightning_phenomenon_visual" = "DEFAULT"
+		#simplyswords:atmospheric_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:atmospheric_visual" = "DEFAULT"
+		#simplyswords:furnace_chain_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:furnace_chain_visual" = "DEFAULT"
+		#simplyswords:bramble_root_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:bramble_root_visual" = "DEFAULT"
+		#simplyswords:dragon_wing_buffet_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dragon_wing_buffet_visual" = "DEFAULT"
+		#simplyswords:dragon_maw_head_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dragon_maw_head_visual" = "DEFAULT"
+		#simplyswords:magiblade_warden_head_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:magiblade_warden_head_visual" = "DEFAULT"
+		#simplyswords:dragon_maw_breath_cloud mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:dragon_maw_breath_cloud" = "DEFAULT"
+		#simplyswords:verdant_trail_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:verdant_trail_visual" = "DEFAULT"
+		#simplyswords:faultline_spike_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:faultline_spike_visual" = "DEFAULT"
+		#simplyswords:livyatan_wave_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:livyatan_wave_visual" = "DEFAULT"
+		#simplyswords:bloodwake_blade_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:bloodwake_blade_visual" = "DEFAULT"
+		#simplyswords:blood_plague_spread_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:blood_plague_spread_visual" = "DEFAULT"
+		#simplyswords:blood_stain_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:blood_stain_visual" = "DEFAULT"
+		#simplyswords:molten_rupture_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:molten_rupture_visual" = "DEFAULT"
+		#simplyswords:caelestis_breach_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:caelestis_breach_visual" = "DEFAULT"
+		#simplyswords:soul_pyre_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soul_pyre_visual" = "DEFAULT"
+		#simplyswords:soul_pyre_wisp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:soul_pyre_wisp" = "DEFAULT"
+		#simplyswords:caelestis_riftling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:caelestis_riftling" = "DEFAULT"
+		#simplyswords:caelestis_hollow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:caelestis_hollow" = "DEFAULT"
+		#simplyswords:caelestis_dreadglare mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:caelestis_dreadglare" = "DEFAULT"
+		#simplyswords:caelestis_tentacle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:caelestis_tentacle" = "DEFAULT"
+		#simplyswords:waxweaver_wax_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:waxweaver_wax_visual" = "DEFAULT"
+		#simplyswords:creeper_head mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplyswords:creeper_head" = "DEFAULT"
+		#simplybows:homing_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:homing_arrow" = "DEFAULT"
+		#simplybows:homing_spectral_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:homing_spectral_arrow" = "DEFAULT"
+		#simplybows:vine_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:vine_arrow" = "DEFAULT"
+		#simplybows:bubble_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bubble_arrow" = "DEFAULT"
+		#simplybows:bubble_pain_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bubble_pain_arrow" = "DEFAULT"
+		#simplybows:bee_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bee_arrow" = "DEFAULT"
+		#simplybows:blossom_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:blossom_arrow" = "DEFAULT"
+		#simplybows:earth_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:earth_arrow" = "DEFAULT"
+		#simplybows:echo_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:echo_arrow" = "DEFAULT"
+		#simplybows:cosmic_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:cosmic_arrow" = "DEFAULT"
+		#simplybows:cosmic_orbit_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:cosmic_orbit_visual" = "DEFAULT"
+		#simplybows:cosmic_strike_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:cosmic_strike_visual" = "DEFAULT"
+		#simplybows:cosmic_tether_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:cosmic_tether_visual" = "DEFAULT"
+		#simplybows:cosmic_bounty_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:cosmic_bounty_visual" = "DEFAULT"
+		#simplybows:shoulder_bow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:shoulder_bow" = "DEFAULT"
+		#simplybows:earth_spike_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:earth_spike_visual" = "DEFAULT"
+		#simplybows:ice_chaos_wall_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:ice_chaos_wall_visual" = "DEFAULT"
+		#simplybows:echo_chaos_black_hole_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:echo_chaos_black_hole_visual" = "DEFAULT"
+		#simplybows:vine_flower_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:vine_flower_visual" = "DEFAULT"
+		#simplybows:bee_hive_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bee_hive_visual" = "DEFAULT"
+		#simplybows:bee_grace_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bee_grace_visual" = "DEFAULT"
+		#simplybows:bubble_bounty_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bubble_bounty_visual" = "DEFAULT"
+		#simplybows:bubble_grace_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bubble_grace_visual" = "DEFAULT"
+		#simplybows:bubble_chaos_wave_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:bubble_chaos_wave_visual" = "DEFAULT"
+		#simplybows:koi_fish_visual mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplybows:koi_fish_visual" = "DEFAULT"
+		#simplymore:crow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:crow" = "DEFAULT"
+		#simplymore:cannonball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:cannonball" = "DEFAULT"
+		#simplymore:ghost_falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:ghost_falling_block" = "DEFAULT"
+		#simplymore:great_slither_fang mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:great_slither_fang" = "DEFAULT"
+		#simplymore:volcanic_vent mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:volcanic_vent" = "DEFAULT"
+		#simplymore:icewall mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:icewall" = "DEFAULT"
+		#simplymore:lightbeam mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:lightbeam" = "DEFAULT"
+		#simplymore:blizzard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:blizzard" = "DEFAULT"
+		#simplymore:lava mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:lava" = "DEFAULT"
+		#simplymore:aura_of_purity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:aura_of_purity" = "DEFAULT"
+		#simplymore:aura_of_corruption mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:aura_of_corruption" = "DEFAULT"
+		#simplymore:eruption mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:eruption" = "DEFAULT"
+		#simplymore:soul_fragment mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:soul_fragment" = "DEFAULT"
+		#simplymore:lightning_point mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:lightning_point" = "DEFAULT"
+		#simplymore:earthquake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:earthquake" = "DEFAULT"
+		#simplymore:light_orb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:light_orb" = "DEFAULT"
+		#simplymore:statue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:statue" = "DEFAULT"
+		#simplymore:dug_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:dug_block" = "DEFAULT"
+		#simplymore:jetstream mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:jetstream" = "DEFAULT"
+		#simplymore:rift mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"simplymore:rift" = "DEFAULT"
+		#moresnifferflowers:bobling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:bobling" = "DEFAULT"
+		#moresnifferflowers:dragonfly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:dragonfly" = "DEFAULT"
+		#moresnifferflowers:corrupted_slime_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:corrupted_slime_ball" = "DEFAULT"
+		#moresnifferflowers:mod_corrupted_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:mod_corrupted_boat" = "DEFAULT"
+		#moresnifferflowers:mod_corrupted_chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:mod_corrupted_chest_boat" = "DEFAULT"
+		#moresnifferflowers:mod_vivicus_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:mod_vivicus_boat" = "DEFAULT"
+		#moresnifferflowers:mod_vivicus_chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:mod_vivicus_chest_boat" = "DEFAULT"
+		#moresnifferflowers:jar_of_acid mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:jar_of_acid" = "DEFAULT"
+		#moresnifferflowers:salt_bubble mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:salt_bubble" = "DEFAULT"
+		#moresnifferflowers:salt_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:salt_projectile" = "DEFAULT"
+		#moresnifferflowers:gluing_gum_entity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"moresnifferflowers:gluing_gum_entity" = "DEFAULT"
