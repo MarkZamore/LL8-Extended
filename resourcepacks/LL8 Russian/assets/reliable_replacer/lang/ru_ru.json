@@ -1,0 +1,4 @@
+{
+  "config.reliable_replacer.option.enable_retrogen": "Включить ретро-генерацию",
+  "config.reliable_replacer.option.enable_retrogen.tooltip": "Переключает ретро-генерацию глобально"
+}

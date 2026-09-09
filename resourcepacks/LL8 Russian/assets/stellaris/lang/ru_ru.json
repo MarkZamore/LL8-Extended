@@ -1,0 +1,17 @@
+{
+  "biome.stellaris.space": "Космос",
+  "biome.stellaris.venus": "Венерианское пространство",
+  "config.stellaris.enableCannedFoodSystem": "Включить систему консервированной пищи",
+  "config.stellaris.enableCannedFoodSystem.desc": "Если включено, в космосе можно будет есть только консервированную пищу. Отключите эту опцию, если хотите есть любую пищу в космосе.",
+  "config.stellaris.enableOxygenSystem": "Включить систему кислорода",
+  "config.stellaris.enableOxygenSystem.desc": "Включить (истинно) или отключить (ложно) систему кислорода. По умолчанию: истинно.",
+  "config.stellaris.landerExplodeWhenTooFast": "Взрыв посадочного модуля при быстрой посадке",
+  "config.stellaris.landerExplodeWhenTooFast.desc": "Если включено, посадочный модуль взорвётся при слишком быстрой посадке.",
+  "config.stellaris.maxOxygenRoomSize": "Макс. размер комнаты с кислородом",
+  "config.stellaris.maxOxygenRoomSize.desc": "Максимальный размер комнаты, которая может быть заполнена кислородом. По умолчанию: 32 блока.",
+  "config.stellaris.oxygenCheckInterval": "Интервал проверки кислорода",
+  "config.stellaris.oxygenCheckInterval.desc": "Интервал в тиках, с которым выполняется проверка кислорода. По умолчанию: 20 тиков (1 секунда).",
+  "config.stellaris.oxygenConfig": "Конфигурация кислорода",
+  "config.stellaris.radiationCheckInterval": "Интервал проверки радиации",
+  "config.stellaris.radiationCheckInterval.desc": "Интервал в тиках, с которым выполняется проверка радиации. По умолчанию: 100 тиков (5 секунд)."
+}

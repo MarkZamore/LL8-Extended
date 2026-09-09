@@ -1,0 +1,19 @@
+{
+  "gui.sophisticateditemactions.status.deposited_items_from_backpacks": "Разгружено %s предмет(ов) в хранилище из рюкзаков",
+  "gui.sophisticateditemactions.status.deposited_items_from_inventory_and_backpacks": "Разгружено %s предмет(ов) из инвентаря и %s предмет(ов) из рюкзаков в хранилище",
+  "gui.sophisticateditemactions.status.restocked_items_to_backpacks": "Загружено %s предмет(ов) из хранилища в рюкзаки",
+  "gui.sophisticateditemactions.status.restocked_items_to_inventory_and_backpacks": "Загружено %s предмет(ов) в инвентарь и %s предмет(ов) в рюкзаки из хранилища",
+  "sophisticateditemactions.configuration.checkIntervalTicks": "Интервал проверки",
+  "sophisticateditemactions.configuration.client": "Клиент",
+  "sophisticateditemactions.configuration.debugLogging": "Отладочное логирование",
+  "sophisticateditemactions.configuration.depositActionThreshold": "Разгрузок до подсказки",
+  "sophisticateditemactions.configuration.depositEnabled": "Включить подсказку разгрузки",
+  "sophisticateditemactions.configuration.discoveryNudges": "Подсказки об открытиях",
+  "sophisticateditemactions.configuration.enabled": "Включено",
+  "sophisticateditemactions.configuration.globalCooldownTicks": "Общая задержка",
+  "sophisticateditemactions.configuration.highlightActionThreshold": "Открытий до подсказки подсветки",
+  "sophisticateditemactions.configuration.highlightEnabled": "Включить подсказку подсветки",
+  "sophisticateditemactions.configuration.maxNudgesPerSession": "Максимум подсказок за сессию",
+  "sophisticateditemactions.configuration.restockActionThreshold": "Загрузок до подсказки",
+  "sophisticateditemactions.configuration.restockEnabled": "Включить подсказку загрузки"
+}

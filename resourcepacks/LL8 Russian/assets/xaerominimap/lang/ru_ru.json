@@ -1,0 +1,22 @@
+{
+  "gui.xaero_box_discovered_waystone_waypoints": "Автоматически отображать найденные вехи (из модов Waystones и Wraith Waystones) как метки. В Wraith Waystones только активированные вехи считаются открытыми.",
+  "gui.xaero_box_further_zoomout": "Экспериментальная! \n По умолчанию отключено из-за возможных проблем с производительностью, но будет включено в будущем после оптимизации.",
+  "gui.xaero_box_minimap_undiscovered_opacity": "Прозрачность чёрных неоткрытых областей карты относительно основной прозрачности.",
+  "gui.xaero_box_other_waystone_waypoints": "Автоматически отображать другие типы вех (из модов Waystones и Wraith Waystones) как метки. При поддержке (1.20.4+) это включает sharestones в оригинальном Waystones. В Wraith Waystones включены неактивированные глобальные вехи.",
+  "gui.xaero_box_showing_third_party_deleted_waypoints": "Показывать сторонние метки, которые вы «удалили», например метки из вех.",
+  "gui.xaero_brown": "Коричневый",
+  "gui.xaero_default_waystone_name": "Веха",
+  "gui.xaero_deleted": "удалено",
+  "gui.xaero_discovered_waystone_waypoints": "Найденные метки вех",
+  "gui.xaero_further_zoomout": "Дополнительное отдаление",
+  "gui.xaero_light_blue": "Светло-голубой",
+  "gui.xaero_lime": "Салатовый",
+  "gui.xaero_magenta": "Пурпурный",
+  "gui.xaero_minimap_undiscovered_opacity": "Прозрачность неоткрытых областей",
+  "gui.xaero_other_waystone_waypoints": "Прочие метки вех",
+  "gui.xaero_pink": "Розовый",
+  "gui.xaero_showing_third_party_deleted_waypoints": "Показывать удалённые сторонние метки",
+  "gui.xaero_waypoint_distance_in_menu": "Расстояние метки в меню",
+  "gui.xaero_waypoint_filter_box": "Фильтр меток",
+  "gui.xaero_waypoint_filter_box_suggestion": "Фильтр…"
+}

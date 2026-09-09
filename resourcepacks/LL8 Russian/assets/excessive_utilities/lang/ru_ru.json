@@ -290,6 +290,7 @@
   "tooltip.excessive_utilities.item_filter.inverted_on": "Инверсия: ВКЛ",
   "tooltip.excessive_utilities.item_filter.use_tags_off": "Использовать теги: ВЫКЛ",
   "tooltip.excessive_utilities.item_filter.use_tags_on": "Использовать теги: ВКЛ",
+  "tooltip.excessive_utilities.lasso.entity_with_name": "%s (%s)",
   "tooltip.excessive_utilities.magical_snow_globe_1": "Целый мир, заключённый в маленький стеклянный шар.",
   "tooltip.excessive_utilities.magical_snow_globe_2": "Быть может, и наша вселенная не так уж отличается?",
   "tooltip.excessive_utilities.magical_snow_globe_instructions": "Чтобы активировать шар, побывайте с ним в любых %d из следующих типов биомов:",

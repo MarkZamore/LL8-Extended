@@ -1,0 +1,6 @@
+{
+  "gui.scannable.block_module.list": "Блоки",
+  "gui.scannable.entity_module.list": "Сущности",
+  "message.scannable.no_free_slots": "Нет свободных ячеек.",
+  "tooltip.scannable.list_item": "§7- §f%s§r"
+}

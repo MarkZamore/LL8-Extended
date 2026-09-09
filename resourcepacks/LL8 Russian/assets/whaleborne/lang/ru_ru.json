@@ -1,0 +1,19 @@
+{
+  "jukebox_song.whaleborne.the_plank": "Ninni - the plank",
+  "subtitles.entity.hullback.sing": "Судноспин поёт",
+  "subtitles.whaleborne.entity.anchor.extend": "Якорь опускается",
+  "subtitles.whaleborne.entity.anchor.finish": "Якорь упал",
+  "subtitles.whaleborne.entity.anchor.retract": "Якорь поднимается",
+  "subtitles.whaleborne.entity.cannon.no_fuel": "Пушка щёлкает вхолостую",
+  "subtitles.whaleborne.entity.cannon.shoot": "Пушка стреляет",
+  "subtitles.whaleborne.entity.cannon.shoot_fail": "Пушка даёт осечку",
+  "subtitles.whaleborne.entity.helm.turn": "Штурвал поворачивается",
+  "subtitles.whaleborne.entity.helm.turn_fail": "Штурвал заклинило",
+  "subtitles.whaleborne.entity.sail.clean": "Парус очищен",
+  "subtitles.whaleborne.entity.sail.color": "Парус покрашен",
+  "subtitles.whaleborne.entity.sail.wind": "Парус развевается",
+  "subtitles.whaleborne.entity.widget.break": "Оборудование сломано",
+  "subtitles.whaleborne.entity.widget.hit": "Удар по оборудованию",
+  "subtitles.whaleborne.entity.widget.place": "Оборудование установлено",
+  "subtitles.whaleborne.entity.widget.ride": "Катание на оборудовании"
+}

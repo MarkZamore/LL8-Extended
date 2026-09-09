@@ -1,0 +1,14 @@
+{
+  "advancements.spider_overhaul.break_webbed.description": "Вырвитесь из эффекта паутины до его окончания",
+  "advancements.spider_overhaul.break_webbed.title": "Мрмф-мхехф!!",
+  "advancements.spider_overhaul.kill_all_spiders.description": "Убейте каждый переработанный вариант паука хотя бы один раз",
+  "advancements.spider_overhaul.kill_all_spiders.title": "Шарлотта мертва",
+  "advancements.spider_overhaul.kill_mod_spider.description": "Убейте один из переработанных вариантов пауков",
+  "advancements.spider_overhaul.kill_mod_spider.title": "Очень паук, очень Overhaul",
+  "advancements.spider_overhaul.root.description": "Пауки выбрались из стен",
+  "advancements.spider_overhaul.root.title": "Spider Overhaul",
+  "advancements.spider_overhaul.use_spider_pollen.description": "Используйте паучью пыльцу на бамбуке, чтобы вырастить гигантский бамбук",
+  "advancements.spider_overhaul.use_spider_pollen.title": "Смотри, я расту",
+  "config.spider_overhaul.hide_spider_legs": "Скрывать лапки пауков",
+  "config.spider_overhaul.hide_spider_legs.tooltip": "Скрывает лапки на всех моделях пауков, они не будут видны. Предназначено для игроков с арахнофобией."
+}

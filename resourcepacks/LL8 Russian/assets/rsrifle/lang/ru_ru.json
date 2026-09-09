@@ -1,0 +1,14 @@
+{
+  "battery.charge_level": "Уровень энергии",
+  "death.attack.hole_hit.0": "%1$s был разобран на атомы",
+  "death.attack.hole_hit.1": "%1$s стал частью чёрной дыры",
+  "death.attack.hole_hit.2": "%1$s не имел шансов",
+  "death.attack.hole_hit.attacker_0": "%1$s был разобран на атомы %2$s",
+  "death.attack.hole_hit.attacker_1": "%1$s стал частью чёрной дыры %2$s",
+  "death.attack.hole_hit.attacker_2": "%1$s не имел шансов перед чёрной дырой %2$s",
+  "key.reinforcedsingularityrifle.category": "Reinforced Singularity Rifle",
+  "rifle.bat1_charge": "Мощность батареи 1",
+  "rifle.bat2_charge": "Мощность батареи 2",
+  "rifle.charge_level": "Уровень заряда",
+  "rsrifle.creativetab.tab": "Reinforced Singularity Rifle"
+}

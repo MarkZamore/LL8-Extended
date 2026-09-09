@@ -1,0 +1,9 @@
+{
+  "sounds.config.iceStress.option": "Напряжение льда",
+  "sounds.config.iceStress.option.description": "Звуковой эффект, который воспроизводится, когда вы прыгаете на лёд. Изначально из мода Icebreak для WinterJam 2024.",
+  "sounds.config.option.description.enableVerboseSoundTypeLogging": "Должен ли мод Sounds записывать подробную информацию о типах звуков блоков в консоль? Это полезно для отладки.",
+  "sounds.config.option.enableVerboseSoundTypeLogging": "Включить подробное логирование типов звуков",
+  "sounds.config.swordSwoosh.option": "Взмах меча",
+  "sounds.config.swordSwoosh.option.description": "Звуковой эффект, который воспроизводится при атаке мечом.",
+  "sounds.subtitle.sword_swoosh": "Взмахи меча"
+}

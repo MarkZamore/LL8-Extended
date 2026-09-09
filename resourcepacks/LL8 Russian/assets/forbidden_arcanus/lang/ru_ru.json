@@ -19,5 +19,6 @@
   "forbidden_arcanus.ponder.forge_usage.text_1": "Пьедесталы из тёмного камня ставятся вот так — на них лежат предметы для ритуала",
   "forbidden_arcanus.ponder.forge_usage.text_2": "Обелиски из мистического кристалла можно ставить на те же места — они постепенно вырабатывают ауреал",
   "jei.forbidden_arcanus.hephaestus_smithing.required_essence": "Требуется %s: %s",
-  "modifier.forbidden_arcanus.soulbound": "Привязка к душе"
+  "modifier.forbidden_arcanus.soulbound": "Привязка к душе",
+  "tooltip.forbidden_arcanus.essence.storage_format": "%s / %s"
 }

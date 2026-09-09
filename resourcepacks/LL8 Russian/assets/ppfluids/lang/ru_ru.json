@@ -1,0 +1,6 @@
+{
+  "info.ppfluids.limit_buckets_off": "Милливедро(е)",
+  "info.ppfluids.limit_buckets_on": "Ведро(е)",
+  "info.ppfluids.limited_amount": "Максимум:",
+  "info.prettypipes.fluid_limiter_module": "Ограничивает количество жидкости, входящей в соседний бак\nАвтоматически предотвращает отправку сверх лимита"
+}

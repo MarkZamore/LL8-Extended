@@ -1,0 +1,13 @@
+{
+  "modmenu.description.rspolymorph": "Отдельный выбор рецепта для крафта Refined Storage и сеток рецептов.",
+  "rspolymorph.button.clear": "Очистить выбор",
+  "rspolymorph.button.select": "Выбрать рецепт",
+  "rspolymorph.gui.click_to_select": "Нажмите, чтобы выбрать рецепт",
+  "rspolymorph.gui.multiple_recipes_warning": "Есть несколько подходящих рецептов — выберите нужный, чтобы избежать неправильного крафта",
+  "rspolymorph.gui.recipe_selection": "Выбор рецепта",
+  "rspolymorph.tutorial.dismiss": "Нажмите ЛКМ или Space для закрытия",
+  "rspolymorph.tutorial.line1": "Некоторые предметы имеют одинаковые ингредиенты для крафта.",
+  "rspolymorph.tutorial.line2": "Используйте кнопку рецепта рядом с сеткой, чтобы выбрать, какой из них создавать.",
+  "rspolymorph.tutorial.line3": "Ваш выбор сохраняется для каждой сетки.",
+  "rspolymorph.tutorial.title": "RS Polymorph — Выбор рецепта"
+}

@@ -1,3 +1,8 @@
 {
-  "gui.integratedterminals.terminal_storage.step.back": "Назад"
+  "gui.integratedterminals.terminal_storage.crafting.filter.type.all_craftable_first": "§aОба: крафтируемые первыми",
+  "gui.integratedterminals.terminal_storage.no_tab_selected": "Нажмите на вкладку выше, чтобы просмотреть содержимое сети.",
+  "gui.integratedterminals.terminal_storage.no_tabs": "Вкладки недоступны. Подключите хранилище к этой сети через интерфейс.",
+  "gui.integratedterminals.terminal_storage.step.back": "Назад",
+  "gui.integratedterminals.terminal_storage.tooltip.crafting": "Крафтится: %s",
+  "info_book.integratedterminals.storage_terminal.autocrafting.text5": "Ингредиенты, производимые активным заданием на крафт, отмечены индикатором вращения в &lТерминале хранения&r. Цвет индикатора показывает статус задания на крафт. Эта информация также отображается при наведении на ингредиент, вместе с количеством, которое ещё предстоит скрафтить."
 }

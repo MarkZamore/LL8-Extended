@@ -1,0 +1,11 @@
+{
+  "twilight_lootr.advancements.1boss_chest.description": "Откройте сундук Boss Chest из Twilight Lootr!",
+  "twilight_lootr.advancements.1boss_chest.title": "На уровне босса",
+  "twilight_lootr.boss_chest.ineligible": "Вы не можете открыть этот контейнер.",
+  "twilight_lootr.configuration.decay_time": "Время распада",
+  "twilight_lootr.configuration.decay_time.tooltip": "Время (в тиках) от появления сундука Boss Chest до его распада.",
+  "twilight_lootr.configuration.enable_decay": "Включить распад",
+  "twilight_lootr.configuration.enable_decay.tooltip": "При включении сундуки Boss Chest начнут распадаться сразу же после появления. После истечения времени распада они будут уничтожены.",
+  "twilight_lootr.configuration.general": "Общие",
+  "twilight_lootr.configuration.title": "Twilight Lootr"
+}

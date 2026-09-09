@@ -1,0 +1,17 @@
+{
+  "battery.charge_level": "Уровень мощности",
+  "key.reinforcedblackholes.category": "Усиленные чёрные дыры",
+  "rbh.creativetab.tab": "Усиленные чёрные дыры",
+  "rbh.slider.color_b": "Синий",
+  "rbh.slider.color_g": "Зелёный",
+  "rbh.slider.color_r": "Красный",
+  "rbh.slider.effect_size": "Размер эффекта",
+  "rbh.slider.exponent": "Показатель",
+  "rbh.slider.height": "Смещение",
+  "rbh.slider.size": "Размер",
+  "rbh.slider.stretch": "Растяжение",
+  "rifle.bat1_charge": "Мощность батареи 1",
+  "rifle.bat2_charge": "Мощность батареи 2",
+  "rifle.charge_level": "Уровень заряда",
+  "screen.rbh.hole_showcase": "Black Hole Tester"
+}

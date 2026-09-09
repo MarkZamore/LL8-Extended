@@ -4,6 +4,7 @@
   "gui.bigreactors.energizer.active": "Энергизатор АКТИВЕН",
   "gui.bigreactors.energizer.controller.capacity.tooltip.body": "Максимальное количество энергии, которое может хранить этот энергизатор",
   "gui.bigreactors.energizer.controller.capacity.tooltip.title": "Ёмкость хранилища",
+  "gui.bigreactors.energizer.controller.capacity.tooltip.value": "  %1$s",
   "gui.bigreactors.energizer.controller.energybar.tooltip.body": "Это может занять некоторое время…",
   "gui.bigreactors.energizer.controller.input.tooltip.body": "Количество энергии, поступающей в энергизатор",
   "gui.bigreactors.energizer.controller.input.tooltip.title": "Поступление энергии",

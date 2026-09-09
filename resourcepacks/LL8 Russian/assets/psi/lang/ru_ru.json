@@ -1,0 +1,12 @@
+{
+  "attribute.psi.regen": "Регенерация пси",
+  "attribute.psi.total_psi": "Всего пси",
+  "psi.spellerror.disabled_piece": "Элемент %s отключён",
+  "psi.spellerror.locked_piece": "Элемент %s заблокирован",
+  "psi.spellerror.script": "Ошибка скрипт-элемента %s: %s",
+  "psi.spellerror.script_return_type": "Скрипт-элемент %s вернул %s, ожидалось %s",
+  "psi.spellpiece.trick_conjure_circle": "Трюк: Созданный круг",
+  "psi.spellpiece.trick_conjure_circle.desc": "Создаёт круг заклинания в указанной позиции",
+  "psimisc.disabled_piece": "Ошибка импорта: элемент %s отключён.",
+  "psimisc.locked_piece": "Ошибка импорта: элемент %s заблокирован."
+}

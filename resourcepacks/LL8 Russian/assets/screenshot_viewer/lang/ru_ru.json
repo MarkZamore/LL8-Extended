@@ -1,0 +1,6 @@
+{
+  "config.screenshot_viewer.pause_menu_button_vertical_offset": "Вертикальное смещение кнопки в меню паузы",
+  "config.screenshot_viewer.pause_menu_button_vertical_offset.desc": "Вертикальное смещение в пикселях кнопки менеджера снимков экрана, если она показывается в меню паузы.",
+  "config.screenshot_viewer.title_screen_button_horizontal_offset": "Горизонтальное смещение кнопки в главном меню",
+  "config.screenshot_viewer.title_screen_button_horizontal_offset.desc": "Горизонтальное смещение в пикселях кнопки менеджера снимков экрана, если она показывается в главном меню."
+}

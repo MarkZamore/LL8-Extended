@@ -1,0 +1,16 @@
+{
+  "info.prettypipes.emit_redstone.description": "Позволяет отправлять сигнал красного камня, когда все предметы для крафта поступили\nЕсли модуль настроен на вставку предметов по одному или партиями, сигнал красного камня отправляется для каждого набора предметов, необходимых для одной операции крафта\n§oРекомендуется использовать с Crafter",
+  "info.prettypipes.emit_redstone_off": "§4§mR",
+  "info.prettypipes.emit_redstone_on": "§2R",
+  "info.prettypipes.insert_unstacked.description": "Предметы вставляются по одному, а не стопками, чтобы они распределялись в контейнерах\n§oРекомендуется использовать с Crafter",
+  "info.prettypipes.insert_unstacked_off": "§4§mO",
+  "info.prettypipes.insert_unstacked_on": "§2O",
+  "info.prettypipes.insertion_type.all": "Все",
+  "info.prettypipes.insertion_type.all.description": "Модуль запрашивает все предметы, необходимые для полного запроса крафта сразу, даже если запрос состоит из нескольких операций крафта",
+  "info.prettypipes.insertion_type.per_craft": "По крафтам",
+  "info.prettypipes.insertion_type.per_craft.description": "Модуль запрашивает все предметы для одной операции крафта сразу",
+  "info.prettypipes.insertion_type.per_item": "По одному",
+  "info.prettypipes.insertion_type.per_item.description": "Модуль запрашивает предметы поодиночке, чтобы они вставлялись в порядке их появления во входных слотах\n§oРекомендуется использовать с Crafter",
+  "info.prettypipes.million": "%sM",
+  "info.prettypipes.thousand": "%sk"
+}

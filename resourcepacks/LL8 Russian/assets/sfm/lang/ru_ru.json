@@ -1,4 +1,14 @@
 {
+  "chat.sfm.manager.cable_network_rebuild.failed_fallback": "Не удалось перестроить сетку кабелей менеджера %s; все сетки кабелей очищены",
+  "chat.sfm.manager.cable_network_rebuild.success": "Сетка кабелей менеджера %s перестроена",
+  "gui.sfm.text_editor.v1.title": "Редактор текста",
+  "gui.sfm.text_editor.v2.title": "Редактор текста",
   "key.sfm.label_gun.open_gui": "Открыть GUI пистолета меток",
-  "key.sfm.text_editor.accept_intellisense": "Текстовый редактор — принять предложение"
+  "key.sfm.text_editor.accept_intellisense": "Текстовый редактор — принять предложение",
+  "log.sfm.statement.tick.io.move_to.extracted_nothing": "ничего не извлечено, слот входа отмечен как завершённый",
+  "program.sfm.warnings.no_slots": "Выражение не совпадает ни с одним слотом: выражение \"%s\" в %s",
+  "program.sfm.warnings.no_viable_input_slots": "Ни один слот не поддерживает извлечение: выражение \"%s\" в %s",
+  "program.sfm.warnings.no_viable_output_slots": "Ни один слот не поддерживает вставку: выражение \"%s\" в %s",
+  "sfm.command.bust_cable_network_cache.success": "Кэш сетки кабелей успешно очищен.",
+  "sfm.command.bust_water_network_cache.success": "Кэш водяной сетки успешно очищен."
 }

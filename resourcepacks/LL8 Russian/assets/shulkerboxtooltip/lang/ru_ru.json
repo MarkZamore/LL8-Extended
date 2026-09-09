@@ -1,0 +1,5 @@
+{
+  "shulkerboxtooltip.colors.shulkerboxtooltip.default.generic_container": "Обычный контейнер",
+  "shulkerboxtooltip.config.option.preview.generic_container_preview": "Предпросмотр обычного контейнера",
+  "shulkerboxtooltip.config.option.preview.generic_container_preview.tooltip": "Если включено, предметы неподдерживаемых контейнеров\nбудут показывать предпросмотр,\nкак шалкеровые ящики."
+}

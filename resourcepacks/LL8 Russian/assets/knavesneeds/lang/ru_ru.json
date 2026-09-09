@@ -1,0 +1,3 @@
+{
+  "_comment_translucent_tooltip": "Подсказка прозрачных мечей специально использует ключи из мода Soulslike Weaponry — tooltip.soulsweapons.transparent / .show_item_info, чтобы текст, цвета и переводы совпадали в точности. Это обязательная зависимость, поэтому ключи всегда разрешаются. Подробнее см. KnavesTooltips."
+}

@@ -1,0 +1,15 @@
+{
+  "chat.toms_trading_network.vending_machine.trade_error.machine_missing_input": "Недостаточно предметов в торговом автомате",
+  "chat.toms_trading_network.vending_machine.trade_error.machine_no_space": "Недостаточно места в торговом автомате",
+  "chat.toms_trading_network.vending_machine.trade_error.trader_missing_input": "Недостаточно предметов в вашем инвентаре",
+  "chat.toms_trading_network.vending_machine.trade_error.trader_no_space": "Недостаточно места в вашем инвентаре",
+  "narrator.toms_trading_network.vending_machine.creative_mode": "Креативный режим торговли",
+  "tooltip.toms_trading_network.creative_mode.off": "Креативный режим торговли выкл.",
+  "tooltip.toms_trading_network.creative_mode.on": "Креативный режим торговли вкл.",
+  "tooltip.toms_trading_network.side_config.input": "Только вставка",
+  "tooltip.toms_trading_network.side_config.io": "Вставка и извлечение",
+  "tooltip.toms_trading_network.side_config.off": "Нет доступа",
+  "tooltip.toms_trading_network.side_config.output": "Только извлечение",
+  "tooltip.toms_trading_network.side_config_auto.off": "Автоввод/вывод выкл. (Shift)",
+  "tooltip.toms_trading_network.side_config_auto.on": "Автоввод/вывод вкл. (Shift)"
+}

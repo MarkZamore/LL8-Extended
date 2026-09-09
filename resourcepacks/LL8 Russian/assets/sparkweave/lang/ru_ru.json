@@ -1,0 +1,19 @@
+{
+  "argument.sparkweave.debug.dump_recipes.type_not_found": "Тип рецепта не найден: %s",
+  "argument.sparkweave.registry.not_found": "Реестр не найден: %s",
+  "chat.sparkweave.open_folder": "Нажмите для просмотра в Проводнике",
+  "commands.sparkweave.debug.dump_recipes.multi_success": "Успешно экспортированы рецепты для %s типов",
+  "commands.sparkweave.debug.dump_recipes.multi_success_path": "Успешно экспортированы рецепты для %s типов в %s",
+  "commands.sparkweave.debug.dump_recipes.success": "Успешно экспортированы рецепты для типа %s",
+  "commands.sparkweave.debug.dump_recipes.success_path": "Успешно экспортированы рецепты для типа %s в %s",
+  "commands.sparkweave.debug.dump_registries.multi_success": "Успешно экспортированы %s реестров",
+  "commands.sparkweave.debug.dump_registries.multi_success_path": "Успешно экспортированы %s реестров в %s",
+  "commands.sparkweave.debug.dump_registries.success": "Успешно экспортирован реестр %s",
+  "commands.sparkweave.debug.dump_registries.success_path": "Успешно экспортирован реестр %s в %s",
+  "commands.sparkweave.debug.dump_tags.multi_success": "Успешно экспортированы теги для %s реестров",
+  "commands.sparkweave.debug.dump_tags.multi_success_path": "Успешно экспортированы теги для %s реестров в %s",
+  "commands.sparkweave.debug.dump_tags.success": "Успешно экспортированы теги для реестра %s",
+  "commands.sparkweave.debug.dump_tags.success_path": "Успешно экспортированы теги для реестра %s в %s",
+  "commands.sparkweave.error.io_exception": "Ошибка ввода-вывода при выполнении команды: %s",
+  "screen.sparkweave.consent.title": "Требуется согласие"
+}

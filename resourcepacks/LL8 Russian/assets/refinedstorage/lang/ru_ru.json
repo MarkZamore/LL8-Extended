@@ -1,0 +1,10 @@
+{
+  "gui.refinedstorage.crafting_grid.press_shift_cmd_to_only_show_items_used_in_crafting": "Нажмите SHIFT + CMD, чтобы показать только предметы, используемые в рецепте.",
+  "gui.refinedstorage.grid.cmd_click_to_autocraft": "CMD + ЛКМ для автокрафта",
+  "gui.refinedstorage.priority.storage_help.alt_click_to_modify_extract_priority": "Нажмите ALT + ЛКМ, чтобы изменить приоритет извлечения.",
+  "gui.refinedstorage.priority.storage_help.click_to_modify_insert_extract_priority": "Нажмите, чтобы изменить приоритет вставки/извлечения.",
+  "gui.refinedstorage.priority.storage_help.cmd_click_to_modify_insert_priority": "Нажмите CMD + ЛКМ, чтобы изменить приоритет вставки.",
+  "gui.refinedstorage.priority.storage_help.ctrl_click_to_modify_insert_priority": "Нажмите CTRL + ЛКМ, чтобы изменить приоритет вставки.",
+  "text.autoconfig.refinedstorage.option.requireEnergy": "Требовать энергию",
+  "text.autoconfig.refinedstorage.option.requireEnergy.tooltip": "Требуют ли сети и предметы энергию для работы. Если отключено, сети не нуждаются в Контроллёре."
+}

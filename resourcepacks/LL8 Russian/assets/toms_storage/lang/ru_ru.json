@@ -1,0 +1,7 @@
+{
+  "tooltip.toms_storage.item_sync_error": "Ошибка синхронизации стека предметов",
+  "tooltip.toms_storage.slots_used": "Использовано слотов: %d",
+  "tooltip.toms_storage.sorting_id": "Сортировать по ID предмета",
+  "tooltip.toms_storage.sorting_space_efficiency": "Сортировать по эффективности пространства",
+  "tooltip.toms_storage.sorting_type": "Сортировать по типу предмета"
+}

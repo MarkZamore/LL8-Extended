@@ -1,3 +1,10 @@
 {
+  "argument.sable.cannot_find_sub_level": "Не удалось найти подуровень",
+  "argument.sable.invalid_selector": "Неправильный селектор подуровня",
+  "argument.sable.invalid_uuid": "Неправильный UUID",
+  "commands.sable.forceload.query.count": "Найдено %s билетов принудительной загрузки для %s подуровней в %s:",
+  "commands.sable.forceload.query.none": "Билеты принудительной загрузки не найдены в %s",
+  "commands.sable.forceload.sub_level_name": "%s:",
+  "commands.sable.forceload.ticket": "    %s",
   "key.veil.editor": "Переключить редактор"
 }

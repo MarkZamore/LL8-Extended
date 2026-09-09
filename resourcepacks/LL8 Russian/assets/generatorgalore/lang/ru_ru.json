@@ -1,0 +1,7 @@
+{
+  "generatorgalore.recipe.burn_rate": "Скорость горения: %smB/т",
+  "generatorgalore.recipe.burn_time": "Время горения: %s",
+  "generatorgalore.recipe.rate": "Скорость выработки: %sFE/т",
+  "generatorgalore.recipe.total": "Всего: %sFE",
+  "generatorgalore.recipe.total_bucket": "Всего: %sFE/B"
+}

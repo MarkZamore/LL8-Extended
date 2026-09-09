@@ -1,0 +1,18 @@
+{
+  "painting.shetiphiancore.tomkins_bros.author": "Fruzstrated",
+  "painting.shetiphiancore.tomkins_bros.title": "Fruzstrated & Tomti-LaBan",
+  "shetiphiancore.configuration.bonemeal_flower_fix": "Исправление цветов костной муки",
+  "shetiphiancore.configuration.bonemeal_flower_fix.tooltip": "Использование костной муки на травяных блоках также создаёт цветы из модов",
+  "shetiphiancore.configuration.bonemeal_restores_bark": "Костная мука восстанавливает кору",
+  "shetiphiancore.configuration.bonemeal_restores_bark.tooltip": "Использование костной муки на очищённом бревне восстанавливает кору",
+  "shetiphiancore.configuration.carpet_passthrough": "Проход сквозь коврики",
+  "shetiphiancore.configuration.carpet_passthrough.tooltip": "Коврики на строительных лесах можно проходить сквозь них, как снег",
+  "shetiphiancore.configuration.color_blend_mode": "Режим смешивания цветов",
+  "shetiphiancore.configuration.color_blend_mode.tooltip": "Выберите способ смешивания красителей RGB16\nRYB — смешивание\n > Добавляет краситель к существующему цвету, как при смешивании краски\n > Shift + ПКМ: установить цвет красителя\n\nRGB — прямое изменение значений\n > ПКМ: увеличить, Shift + ПКМ: уменьшить\n\nRYB удобнее, RGB точнее",
+  "shetiphiancore.configuration.core_edits": "Правки основной игры",
+  "shetiphiancore.configuration.core_edits.tooltip": "Изменения базовых функций игры",
+  "shetiphiancore.configuration.thin_block_handler": "Обработчик тонких блоков",
+  "shetiphiancore.configuration.thin_block_handler.tooltip": "Изменяет проверку коллизий существ для работы с более тонкими блоками",
+  "shetiphiancore.configuration.tool_mode_change": "Изменение режима инструмента",
+  "shetiphiancore.configuration.tool_mode_change.tooltip": "Режимы инструмента можно менять удерживая Shift и прокручивая колесо мыши, либо используя комбинацию клавиш (по умолчанию PageUp/PageDown)"
+}

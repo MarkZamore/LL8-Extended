@@ -1,5 +1,7 @@
 {
   "action.irons_jewelry.apply_damage.description": "(%s %s урона)",
+  "action.irons_jewelry.apply_effect.description": "(%s %s, %s)",
+  "action.irons_jewelry.apply_effect.description_instantaneous": "(%s %s)",
   "bonus_parameter.irons_jewelry.action": "Действие",
   "bonus_parameter.irons_jewelry.attribute": "Характеристика",
   "bonus_parameter.irons_jewelry.empty": "Пусто",

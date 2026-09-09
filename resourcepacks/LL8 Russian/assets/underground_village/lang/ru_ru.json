@@ -1,0 +1,13 @@
+{
+  "config.common.enableInGameMessage": "Показывать приветственное сообщение",
+  "config.common.enableInGameMessage.tooltip": "Показывает приветственное сообщение со ссылками на Discord, GitHub и поддержку при первом входе. Требует перезагрузки игры.",
+  "config.common.maxDistanceFromCenter": "Максимальное расстояние подземной деревни от центра",
+  "config.common.maxDistanceFromCenter.tooltip": "Максимальное расстояние, на котором части конструкции могут генерироваться от центра деревни.",
+  "config.common.structureSize": "Размер структуры подземной деревни",
+  "config.common.structureSize.tooltip": "Определяет общий размер структур подземных деревень.",
+  "config.common.title": "Параметры подземных деревень",
+  "config.common.waterMaxDistanceFromCenter": "Максимальное расстояние подводной деревни от центра",
+  "config.common.waterMaxDistanceFromCenter.tooltip": "Максимальное расстояние, на котором водные части конструкции могут генерироваться от центра.",
+  "config.common.waterStructureSize": "Размер структуры подводной деревни",
+  "config.common.waterStructureSize.tooltip": "Определяет размер структур водных подземных деревень."
+}

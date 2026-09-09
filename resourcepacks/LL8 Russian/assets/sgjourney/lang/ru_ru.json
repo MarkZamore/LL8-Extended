@@ -1,0 +1,9 @@
+{
+  "gui.sgjourney.universe_dhd_button_layout": "Раскладка Universe DHD",
+  "point_of_origin.sgjourney.andromeda": "Andromeda",
+  "screen.sgjourney.crystal_computer.select_crystal_in_computer.too_many": "Слишком много выбираемых кристаллов в компьютере",
+  "screen.sgjourney.crystal_computer.select_crystal_in_hand.too_many": "Слишком много выбираемых кристаллов в руке",
+  "tooltip.sgjourney.crystallizer.energy_slot.description": "Вмещает предметы, дающие энергию",
+  "tooltip.sgjourney.interface.energy_slot.description": "Вмещает предметы, дающие энергию",
+  "tooltip.sgjourney.liquidizer.energy_slot.description": "Вмещает предметы, дающие энергию"
+}

@@ -1,0 +1,12 @@
+{
+  "gui.trophy.jei.any_item": "Здесь может находиться любой предмет",
+  "gui.trophy.jei.item_trophy": "Предметный трофей",
+  "gui.trophy.offset": "Смещение по Y: %s",
+  "gui.trophy.pose": "Поза: %s",
+  "gui.trophy.pose.flying": "Полёт",
+  "gui.trophy.pose.sitting": "Сидение",
+  "gui.trophy.pose.standing": "Стояние",
+  "gui.trophy.rotation": "%s: %s°",
+  "gui.trophy.size": "Размер: %s",
+  "trophymanager.trophy.name": "Трофей %s"
+}

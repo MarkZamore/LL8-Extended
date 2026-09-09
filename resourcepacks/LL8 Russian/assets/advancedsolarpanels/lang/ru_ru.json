@@ -1,0 +1,16 @@
+{
+  "advancedsolarpanels.gui.energy_per_operation": "Энергия:",
+  "advancedsolarpanels.gui.energy_per_tick": "Ввод EU:",
+  "advancedsolarpanels.gui.generating": "Генерирует: %s EU/t",
+  "advancedsolarpanels.gui.input": "Ввод:",
+  "advancedsolarpanels.gui.max": "Макс",
+  "advancedsolarpanels.gui.max_output": "Максимум вывода: %s EU/t",
+  "advancedsolarpanels.gui.output": "Вывод:",
+  "advancedsolarpanels.gui.progress": "Прогресс:",
+  "advancedsolarpanels.gui.storage": "Хранилище: %s/%s EU",
+  "advancedsolarpanels.gui.tier": "Уровень:",
+  "advancedsolarpanels.jei.energy": "Энергия: %s",
+  "advancedsolarpanels.jei.input": "Ввод:",
+  "advancedsolarpanels.jei.output": "Вывод:",
+  "mod.advancedsolarpanels.name": "Advanced Solar"
+}

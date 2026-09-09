@@ -1,0 +1,19 @@
+{
+  "config.tectonic.alternate_noise_scaling": "Альтернативное масштабирование шума",
+  "config.tectonic.alternate_noise_scaling.tooltip": "Эти параметры улучшают рельеф рядом с горами и океанами при больших масштабах местности.\n\n§cНесовместимо с аппаратным ускорением C2ME!",
+  "config.tectonic.biome_noises": "Шумы биомов",
+  "config.tectonic.caves": "Пещеры",
+  "config.tectonic.continents": "Континенты",
+  "config.tectonic.erosion": "Эрозия",
+  "config.tectonic.experimental": "Экспериментальное",
+  "config.tectonic.general": "Общие",
+  "config.tectonic.global_terrain": "Глобальный ландшафт",
+  "config.tectonic.islands": "Острова",
+  "config.tectonic.oceans": "Океаны",
+  "config.tectonic.option.multiplier": "Множитель",
+  "config.tectonic.option.offset": "Смещение",
+  "config.tectonic.option.scale": "Масштаб",
+  "config.tectonic.ridges": "Хребты",
+  "config.tectonic.temperature": "Температура",
+  "config.tectonic.vegetation": "Растительность"
+}

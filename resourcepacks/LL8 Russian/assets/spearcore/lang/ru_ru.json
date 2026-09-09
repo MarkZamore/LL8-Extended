@@ -1,0 +1,9 @@
+{
+  "attribute.spearcore.spear_charge_multiplier": "Урон от заряженного удара",
+  "attribute.spearcore.spear_stab_multiplier": "Урон от колющего удара",
+  "death.attack.spear": "%1$s был пронзен копьём",
+  "death.attack.spear.item": "%1$s был пронзен %2$s при помощи %3$s",
+  "death.attack.spear.player": "%1$s был пронзен %2$s",
+  "enchantment.spearcore.lunge": "Выпад",
+  "enchantment.spearcore.lunge.description": "Толкает вперёд при колющем ударе."
+}

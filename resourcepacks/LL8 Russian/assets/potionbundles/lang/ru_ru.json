@@ -1,0 +1,6 @@
+{
+  "config.potionbundles.allowLingeringPotion": "Разрешить создание связок зелий из зелий длительного действия (требует перезагрузки мира).",
+  "config.potionbundles.allowSplashPotion": "Разрешить создание связок зелий из взрывных зелий (требует перезагрузки мира).",
+  "config.potionbundles.durabilityBarColor": "Цвет полосы износа связки зелий. Установите значение -1, чтобы не отображать полосу износа.",
+  "config.potionbundles.returnString": "Возвращать ли веревку при опустошении связки зелий."
+}

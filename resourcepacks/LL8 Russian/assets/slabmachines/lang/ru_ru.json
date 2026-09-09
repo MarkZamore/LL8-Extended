@@ -1,0 +1,10 @@
+{
+  "slabmachines.config.title": "Конфигурация Slab Machines",
+  "slabmachines:container.blast_furnace": "Blast Furnace Slab",
+  "slabmachines:container.cartography": "Cartography Slab",
+  "slabmachines:container.chest": "Chest Slab",
+  "slabmachines:container.crafting": "Crafting Slab",
+  "slabmachines:container.furnace": "Furnace Slab",
+  "slabmachines:container.loom": "Loom Slab",
+  "slabmachines:container.smoker": "Smoker Slab"
+}

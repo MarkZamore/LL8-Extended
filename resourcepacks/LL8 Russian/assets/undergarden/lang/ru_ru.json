@@ -1,0 +1,8 @@
+{
+  "config.undergarden.toggle_utheric_infection_number_display": "Переключить отображение числа утеритовой инфекции",
+  "config.undergarden.toggle_utheric_infection_overlay": "Переключить оверлей утеритовой инфекции",
+  "tooltip.undergarden.forgotten_weapon": "Наносит в 1,5 раза больше урона врагам Подземного Сада (кроме боссов).",
+  "tooltip.undergarden.froststeel_weapon": "Замедляет цели.",
+  "tooltip.undergarden.slingshot_ammo": "Может использоваться как боеприпас для праща.",
+  "tooltip.undergarden.utherium_weapon": "Наносит в 1,5 раза больше урона Rotspawn."
+}

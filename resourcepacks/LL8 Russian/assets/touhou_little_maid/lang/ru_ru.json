@@ -1,0 +1,6 @@
+{
+  "ai.touhou_little_maid.chat.download_url": "Адрес: ",
+  "ai.touhou_little_maid.chat.llm.deepseek_secret_key_missing": "Ключ API DeepSeek не настроен. Перейдите по ссылке ниже, чтобы зарегистрировать учётную запись и приобрести услугу, затем заполните Secret Key в настройках сайта LLM.",
+  "config.touhou_little_maid.global_ai.maid_history_compress_token_limit": "Лимит сжатия истории чата горничной (K)",
+  "config.touhou_little_maid.global_ai.maid_history_compress_token_limit.tooltip": "Когда предыдущий запрос чата AI горничной достигнет этого использования токенов, сожмите контекст перед следующим сообщением чата игрока. Единица: K токенов, 1K = 1024 токенов"
+}

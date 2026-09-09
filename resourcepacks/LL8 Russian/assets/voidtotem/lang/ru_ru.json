@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.voidtotem.option.BLOCKLISTED_DIMENSIONS": "Заблокированные измерения",
+  "text.autoconfig.voidtotem.option.IS_INVERTED_BLOCKLIST": "Инвертировать чёрный список",
+  "text.autoconfig.voidtotem.option.TELEPORT_HEIGHT_OFFSET": "Смещение высоты телепортации",
+  "text.autoconfig.voidtotem.option.USE_TOTEM_FROM_INVENTORY": "Использовать тотем из инвентаря"
+}
