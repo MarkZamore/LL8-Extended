@@ -1,0 +1,51 @@
+{
+  "name": "Силовая ячейка",
+  "icon": "rftoolspower:cell1",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:cell1": 0,
+    "rftoolspower:cell2": 0,
+    "rftoolspower:cell3": 0,
+    "rftoolspower:power_core1": 0,
+    "rftoolspower:power_core2": 0,
+    "rftoolspower:power_core3": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Силовые ячейки$() вмещают огромное количество энергии. Их можно размещать по одной или рядом друг с другом, создавая многоблочную конструкцию. Силовые ячейки автоматически распределяют RF между собой и соседними ячейками и объединяются в многоблочную структуру независимо от уровня."
+    },
+    {
+      "type": "text",
+      "text": "Силовые ячейки не имеют интерфейса, но их можно настроить на приём, передачу или игнорирование энергии, ударив нужную сторону с помощью $(l:rftoolsbase:tools/smartwrench)умного ключа$() в режиме $(thing)Ключ$(). Синий — вход, жёлтый — выход, пустая сторона — ничего."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core1",
+      "recipe2": "rftoolspower:cell1"
+    },
+    {
+      "type": "text",
+      "text": "По умолчанию $(item)Силовая ячейка (низкий уровень)$() вмещает 500 000 RF."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core2",
+      "recipe2": "rftoolspower:cell2"
+    },
+    {
+      "type": "text",
+      "text": "По умолчанию $(item)Силовая ячейка (средний уровень)$() вмещает 4 000 000 RF."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core3",
+      "recipe2": "rftoolspower:cell3"
+    },
+    {
+      "type": "text",
+      "text": "По умолчанию $(item)Силовая ячейка (высокий уровень)$() вмещает 20 000 000 RF. Это действительно много энергии!"
+    }
+  ]
+}

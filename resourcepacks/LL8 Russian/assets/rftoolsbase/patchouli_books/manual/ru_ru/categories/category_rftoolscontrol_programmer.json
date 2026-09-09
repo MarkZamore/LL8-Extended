@@ -1,0 +1,7 @@
+{
+  "name": "Программер",
+  "description": "Программер — это основной блок, в котором вы пишете программы",
+  "parent": "rftoolsbase:category_rftoolscontrol",
+  "icon": "rftoolscontrol:programmer",
+  "sortnum": 10
+}

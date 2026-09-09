@@ -1,0 +1,7 @@
+{
+  "name": "Генерация энергии",
+  "description": "Машины для генерации энергии.",
+  "parent": "rftoolsbase:category_rftoolspower",
+  "icon": "rftoolspower:coalgenerator",
+  "sortnum": 10
+}

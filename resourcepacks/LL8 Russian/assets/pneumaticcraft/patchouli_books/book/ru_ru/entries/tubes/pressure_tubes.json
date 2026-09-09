@@ -1,0 +1,44 @@
+{
+  "name": "Трубы давления",
+  "icon": "pneumaticcraft:pressure_tube",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:root",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Трубы давления — основной способ транспортировки сжатого воздуха между компрессорами и машинами в $(pncr).$(p)Несоединённые трубы будут пропускать воздух! Однако стороны трубы можно открывать и закрывать щелчком правой кнопки с использованием $(l:tools/pneumatic_wrench)пневматического ключа/$. Ключи из других модов также могут работать."
+    },
+    {
+      "type": "image",
+      "title": "Трубы!",
+      "text": "$(italic)Две трубы давления с $(l:tubes/pressure_gauge_module)манометром/$ $(italic), соединяющие $(l:compressors/air_compressor)компрессор воздуха/$ $(italic)и $(l:machines/air_cannon)пушку воздуха/$",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pressure_tubes.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "text",
+      "text": "Трубы давления можно оснащать $(l:tubes/tube_modules)модулями труб/$, подключаемыми компонентами, которые добавляют различные типы функциональности к трубе. Дополнительную информацию см. на отдельных страницах каждого модуля.$(p)Трубы давления можно скрывать с помощью $(l:tools/camo_applicator)аппликатора камуфляжа/$."
+    },
+    {
+      "type": "text",
+      "text": "Существуют три $(l:base_concepts/pressure_tiers)уровня/$ труб:$(br)$(li)Трубы уровня 1 могут содержать до 5 бар давления и имеют ёмкость 1000 мL воздуха.$(li)Трубы уровня 1.5 (усиленные) могут выдерживать до 10 бар давления и также имеют ёмкость 1000 мL.$(li)Трубы уровня 2 (продвинутые) могут выдерживать до 20 бар давления и имеют ёмкость 4000 мL воздуха."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт трубы давления",
+      "recipe": "pneumaticcraft:pressure_tube"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/reinforced_pressure_tube"
+    },
+    {
+      "anchor": "advanced",
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/advanced_pressure_tube"
+    }
+  ]
+}

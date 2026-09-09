@@ -147,5 +147,11 @@
   "Is the sound of villagers snoring annoying to you? You can turn it off in the @Subtle Effects config! (Same place for player snoring.)": "Звук храпа Villagers раздражает? Отключите в @Subtle Effects config! (То же для храпа игрока.)",
   "The @Xaero's Minimap waypoint manager can be opened by clicking U by default. New waypoints can be made by pressing O!": "@Xaero's Minimap менеджер путевых точек открывается U. Новые — клавиша O!",
   "If you see this I hope you have a wonderful and blessed day. You are important!": "Если вы видите это, желаю вам чудесного дня. Вы важны!",
-  "The Wood Work Log allows Villagers to sell an emerald for only 10 sticks!": "Wood Work Log позволяет Villagers продавать изумруд за 10 палок!"
+  "The Wood Work Log allows Villagers to sell an emerald for only 10 sticks!": "Wood Work Log позволяет Villagers продавать изумруд за 10 палок!",
+  "info.tnp.chemlib_elements": "Уплотните 16 element items в compactor Alchemistry, чтобы создать пластину или пыль.",
+  "info.tnp.displaydelight_display": "Положить продукт на тарелку с едой, крадучись, чтобы создать блок-дисплей",
+  "info.tnp.mahoutsukai_scrolls": "Нарисуйте магический круг на ткани для заклинаний и положите на него растёртые катализаторы, чтобы создать свиток магии.",
+  "info.tnp.chipped": "Используйте Chisel на верстаке, чтобы преобразовать материалы в декоративные блоки.",
+  "info.tnp.other": "Этот предмет крафтится или получается из разных модов, но рецепта здесь не видно. Проверьте документацию мода или путеводитель.",
+  "info.tnp.blocks": "Создавайте блоки по рецептам на верстаке или машинах. Размещайте для постройки конструкций и украшения мира."
 }

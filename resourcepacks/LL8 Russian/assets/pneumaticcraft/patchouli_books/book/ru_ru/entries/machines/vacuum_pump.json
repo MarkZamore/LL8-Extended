@@ -1,0 +1,38 @@
+{
+  "name": "Вакуумный насос",
+  "icon": "pneumaticcraft:vacuum_pump",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Вакуумный насос/$ — это машина, используемая для создания... вакуума. Для этого машина потребляет $(l:base_concepts/pressure)сжатый воздух/$. $(p)Положительное давление должно быть приложено на сторону $(#0c0)«+»/$; когда достигается минимальное рабочее давление, $(item)Вакуумный насос/$ начинает откачку и давление на стороне $(#c00)«—»/$ падает до минимума -1,0 бара, что является вакуумом."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/vacuum_pump.png"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Применение",
+      "text": "Следующее использование существует для отрицательного (вакуумного) давления: $(li)Снятие чар: поместите $(item)зачарованный предмет/$ или $(item)Зачарованную книгу/$ с более чем одним чаром и ванильную $(item)Книгу/$ в $(l:manufacturing/pressure_chamber)Камеру давления/$ и дайте камере достаточное отрицательное давление. Случайное чар переместится из предмета в книгу. $(li)Когда $(l:tubes/air_grate_module)Модуль воздушной решётки/$ получит отрицательное давление, он будет притягивать к себе сущности."
+    },
+    {
+      "type": "text",
+      "title": "Применение (продолжение)",
+      "text": "$(li)Как $(l:spawning/vacuum_trap)Вакуумная ловушка/$, так и $(l:spawning/spawner_extractor)Экстрактор спаунера/$, устройства, необходимые для создания и использования $(l:spawning/pressurized_spawner)Спаунеров под давлением/$, требуют отрицательного давления для работы."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание вакуумного насоса",
+      "recipe": "pneumaticcraft:vacuum_pump"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "header": "Вакуумное снятие чар",
+      "recipe": "pneumaticcraft:pressure_chamber/pressure_chamber_disenchanting"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Фильтр меток",
+  "icon": "pneumaticcraft:tag_filter",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Смотрите $(l:machines/tag_workbench)стол для меток/$."
+    }
+  ]
+}

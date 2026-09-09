@@ -1,0 +1,23 @@
+{
+  "name": "Многосекционный резервуар",
+  "icon": "rftoolscontrol:tank",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:tank": 1
+  },
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Многосекционный резервуар хранит несколько жидкостей в одном блоке. Он полезен как компактный буфер жидкостей для программ Процессора."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:tank"
+    },
+    {
+      "type": "text",
+      "text": "GUI показывает каждую хранящуюся в резервуаре жидкость и её количество. Программы могут использовать операции для работы с жидкостями через подключённые резервуары и узлы."
+    }
+  ]
+}

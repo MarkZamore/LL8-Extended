@@ -1,0 +1,27 @@
+{
+  "name": "Генератор Ифритов",
+  "icon": "rftoolspower:blazing_generator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_generator": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Генератор Ифритов сжигает стержни Ифритов для получения FE. Обычные стержни Ифрита должны быть сначала обработаны в $(l:rftoolsbase:powergeneration/blazingagitator)Возбудителе Ифритов$(/l)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_generator"
+    },
+    {
+      "type": "text",
+      "text": "Стержень Ифритов имеет два важных параметра: мощность и длительность. Стержни лучшего качества производят больше FE/t, а стержни с большей длительностью дольше поддерживают работу генератора."
+    },
+    {
+      "type": "text",
+      "text": "Генератор может использовать до четырёх стержней и работает лучше при непрерывной работе. Ему требуется время на разогрев перед тем, как достичь полного потенциала вставленных стержней."
+    }
+  ]
+}

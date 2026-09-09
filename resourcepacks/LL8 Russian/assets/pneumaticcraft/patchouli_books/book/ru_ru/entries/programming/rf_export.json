@@ -1,0 +1,19 @@
+{
+  "name": "Виджет экспорта FE",
+  "icon": "pneumaticcraft:textures/progwidgets/rf_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дроны/$ располагают внутренним буфером в 100 000 FE (Forge Energy). С помощью этого виджета можно экспортировать энергию из хранилища дрона на блок-источник энергии (например, на $(item)Thermal Expansion Energy Cell/$ или $(item)Immersive Engineering Capacitor/$).$(p)$(italic)Несмотря на название, виджет экспортирует именно FE (Forge Energy), а не RF (Redstone Flux). Это историческое наследие./$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/rf_export_piece.png"
+      ],
+      "text": "$(italic)Виджет экспорта FE/$"
+    }
+  ]
+}

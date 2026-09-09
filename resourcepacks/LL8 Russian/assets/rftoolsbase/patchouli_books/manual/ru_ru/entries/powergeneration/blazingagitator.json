@@ -1,0 +1,27 @@
+{
+  "name": "Возбудитель Ифритов",
+  "icon": "rftoolspower:blazing_agitator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_agitator": 0
+  },
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Возбудитель Ифритов готовит стержни Ифритов для $(l:rftoolsbase:powergeneration/blazinggenerator)Генератора Ифритов$(/l). Он использует небольшое количество FE, чтобы превратить обычные стержни в стержни Ифритов."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_agitator"
+    },
+    {
+      "type": "text",
+      "text": "Соседние стержни в сетке входа улучшают друг друга. Лучшие стержни готовятся быстрее и достигают лучшего качества мощности, поэтому имеет смысл держать в сетке несколько мощных стержней."
+    },
+    {
+      "type": "text",
+      "text": "Девять кнопок блокировки предотвращают перемещение готовых стержней на выход. Используйте их, чтобы оставить мощные стержни в сетке — они будут усиливать новые."
+    }
+  ]
+}

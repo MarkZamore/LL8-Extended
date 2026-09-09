@@ -1,0 +1,5 @@
+{
+  "name": "Измерения RFTools",
+  "description": "RFTools Dimensions позволяет создавать пользовательские измерения, которые работают на энергии",
+  "icon": "rftoolsdim:realized_dimension_tab"
+}

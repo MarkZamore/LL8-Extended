@@ -1,0 +1,20 @@
+{
+  "name": "Набиратель каналов",
+  "icon": "rftoolsutility:dialing_device",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:dialing_device": 0,
+    "rftoolsutility:simple_dialer": 0,
+    "rftoolsutility:destination_analyzer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Набирателем каналов вы можете связать $(l:rftoolsbase:machines/matter_transmitter)Передатчик материи$(/l) с $(l:rftoolsbase:machines/matter_receiver)Приёмником материи$(/l). Передатчик материи должен находиться рядом, а приёмник может быть очень далеко (даже в другом измерении).$(br2)$(5)Усиление$() машины снижает потребление энергии."
+    },
+    {
+      "type": "text",
+      "text": "Сначала выберите Передатчик материи. Если рядом только один, он будет выбран автоматически. Затем выберите Приёмник материи (в нижнем списке) и нажмите либо «Установить», либо «Один раз». При «Один раз» соединение разорвётся сразу же, когда кто-то телепортируется."
+    }
+  ]
+}

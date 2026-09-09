@@ -1,0 +1,33 @@
+{
+  "name": "Дрон-сборщик",
+  "icon": "pneumaticcraft:harvesting_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Дрон-сборщик/$ — это специализированный непрограммируемый тип $(l:tools/drone)Дрона/$, который выполняет $(l:programming/harvest)сбор урожая и спил деревьев/$ в кубе 17×17×17 вокруг точки развёртывания. Дрон $(italic)не/$ собирает выпавшие предметы."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и все дроны, эти требуют $(l:base_concepts/pressure)давления/$ для работы и автоматически ищут $(l:tools/drone#charging)Зарядную станцию с модулем раздачи/$, если заканчивается воздух."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:harvesting_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "title": "Использование инструментов",
+      "text": "Если развернуть $(item)Дрона-сборщика/$ клавишей $(thing)Shift + ПКМ/$ по блоку с инвентарём, содержащему только $(item)мотыгу/$, дрон будет использовать её для автоматической пересадки урожая и не будет работать без мотыги. Если перепосадка не нужна, разверните дрона обычным способом."
+    },
+    {
+      "type": "crafting",
+      "text": "Кстати, дроны-сборщики научились валить деревья мотыгой вместо топора; они хитрые такие.",
+      "recipe": "pneumaticcraft:harvesting_drone"
+    }
+  ]
+}

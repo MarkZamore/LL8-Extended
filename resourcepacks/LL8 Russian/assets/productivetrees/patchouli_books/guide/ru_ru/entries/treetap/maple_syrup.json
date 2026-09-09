@@ -1,0 +1,18 @@
+{
+    "name": "Кленовый сироп",
+    "icon": "productivetrees:maple_syrup",
+    "category": "productivetrees:treetap",
+    "flag": "mod:treetap",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivetrees:maple_sap_bucket",
+            "text": "Из сахарного клёна можно добыть кленовый сок."
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "productivetrees:maple_syrup",
+            "text": "Кленовый сок превращается в кленовый сироп — он просто восхитителен, просто восхитителен!"
+        }
+    ]
+}

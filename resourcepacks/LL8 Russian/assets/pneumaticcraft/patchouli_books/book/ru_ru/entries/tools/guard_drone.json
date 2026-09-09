@@ -1,0 +1,45 @@
+{
+  "name": "Боевой дрон",
+  "icon": "pneumaticcraft:guard_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Боевой дрон/$ — это специализированный непрограммируемый тип $(l:tools/drone)Дрона/$, предназначенный для защиты. Его нужно развернуть против блока с инвентарём, он возьмёт оттуда оружие и атакует враждебных мобов."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и все дроны, эти требуют $(l:base_concepts/pressure)давления/$ для работы и автоматически ищут $(l:tools/drone#charging)Зарядную станцию с модулем раздачи/$, если заканчивается воздух."
+    },
+    {
+      "type": "text",
+      "title": "Дальность",
+      "text": "$(thing)Боевой дрон/$ атакует враждебных мобов на расстоянии 16 блоков в горизонтальном направлении, 8 блоков вверх и 5 блоков вниз.$(p)Меньшая вертикальная дальность нужна, чтобы не атаковать мобов глубоко в пещерах, так как это тратит воздух на дальние полёты и теряет дрон."
+    },
+    {
+      "type": "spotlight",
+      "title": "Оружие",
+      "item": "minecraft:netherite_sword",
+      "text": "$(thing)Боевой дрон/$ не разборчив в оружии, но лучше положить что-то действительно полезное. Когда оружие сломается и других нет в инвентаре, дрон будет драться кулаками — очень неэффективно."
+    },
+    {
+      "type": "spotlight",
+      "title": "Дальняя борьба",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "Вместо этого дрон можно оснастить $(l:base_concepts/upgrades#minigun)модулем минипушки/$. В этом случае положите в инвентарь $(l:tools/minigun_ammo)боеприпасы/$ вместо оружия."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:guard_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт Боевого дрона",
+      "recipe": "pneumaticcraft:guard_drone"
+    }
+  ]
+}

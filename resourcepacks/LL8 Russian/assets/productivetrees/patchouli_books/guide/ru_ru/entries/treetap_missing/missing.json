@@ -1,0 +1,14 @@
+{
+    "name": "Tree Tap — просто лучший",
+    "icon": "minecraft:barrier",
+    "category": "productivetrees:treetap_missing",
+    "flag": "!mod:treetap",
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/treetap",
+            "link_text": "Исправить",
+            "text": "У вас не установлен мод Tree Tap :sadge:"
+        }
+    ]
+}

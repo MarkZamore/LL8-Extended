@@ -1,0 +1,19 @@
+{
+    "name": "Пыльца",
+    "icon": "productivetrees:pollen",
+    "category": "productivetrees:stuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "flag": "mod:productivebees",
+            "item": "productivetrees:pollen",
+            "text": "Пыльцу, собранную пчёлами, можно использовать для ручного опыления листвы и получения новых видов деревьев. Проверьте в JEI, какие деревья совместимы, и узнайте, какую пыльцу использовать на каких листьях."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "flag": "!mod:productivebees",
+            "item": "productivetrees:pollen",
+            "text": "Пыльцу, собранную отсеивателями пыльцы, можно использовать для ручного опыления листвы и получения новых видов деревьев. Проверьте в JEI, какие деревья совместимы, и узнайте, какую пыльцу использовать на каких листьях."
+        }
+    ]
+}

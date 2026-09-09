@@ -1,0 +1,23 @@
+{
+  "name": "Верстак",
+  "icon": "rftoolscontrol:workbench",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:workbench": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Верстак используется программами, ориентированными на крафт, как управляемый программой инвентарь для крафта. Он даёт Процессору место для подготовки ингредиентов и результатов."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:workbench"
+    },
+    {
+      "type": "text",
+      "text": "Используйте операции верстака, когда программе нужно подготовить ингредиенты, отправить предметы на крафт или обработать результаты крафта."
+    }
+  ]
+}

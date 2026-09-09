@@ -1,0 +1,19 @@
+{
+  "name": "Карта жидкости",
+  "icon": "rftoolsbuilder:shape_card_liquid",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_liquid": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Карта жидкости заставляет Строителя заполнять жидкостью выбранную форму. Подавайте жидкость через резервуар, подключённый к Строителю."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_liquid"
+    }
+  ]
+}

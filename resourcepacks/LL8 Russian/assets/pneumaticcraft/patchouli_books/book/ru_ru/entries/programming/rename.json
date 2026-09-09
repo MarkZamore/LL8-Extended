@@ -1,0 +1,24 @@
+{
+  "name": "Виджет переименования",
+  "icon": "pneumaticcraft:textures/progwidgets/rename_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот виджет переименовывает $(l:tools/drone)Дрон/$, как если бы вы $(thing)щелкнули ПКМ/$ по нему с помощью $(item)Бирки/$ для переименования. Имя вводится в присоединённом виджете $(l:programming/text)Текст/$."
+    },
+    {
+      "type": "text",
+      "title": "Переменные",
+      "text": "Вы также можете вставить значение $(l:programming/variables)переменной/$, включив $(thing)${<var_name>}/$ в текст, например$(p)  $(formula)Счётчик: ${counter}/$$(p)будет развёрнуто в $(thing)Счётчик: 1, 2, 3/$ если переменная $(thing)counter/$ установлена на $(thing)x=1,y=2,z=3/$. Здесь также могут использоваться $(l:programming/variables#special)специальные/$ и $(l:programming/variables#global)глобальные переменные/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/rename_piece.png"
+      ],
+      "text": "$(italic)Кто ты снова?/$"
+    }
+  ]
+}

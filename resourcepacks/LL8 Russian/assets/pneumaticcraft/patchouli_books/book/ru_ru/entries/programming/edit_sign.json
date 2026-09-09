@@ -1,0 +1,24 @@
+{
+  "name": "Виджет редактирования знака",
+  "icon": "pneumaticcraft:textures/progwidgets/edit_sign_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот виджет отредактирует все $(item)Таблички/$ и/или $(l:machines/aphorism_tile)Плитки апоризма/$ в связанной $(l:programming/area)Области/$, установив текст, указанный подключённым виджетом $(l:programming/text)Текста/$.$(p)Каждый подключённый виджет $(thing)Текста/$ представляет одну строку; подключив несколько виджетов $(thing)Текста/$, вы можете установить многострочное сообщение."
+    },
+    {
+      "type": "text",
+      "title": "Переменные",
+      "text": "Вы также можете вставить значение $(l:programming/variables)переменной/$, включив $(thing)${<var_name>}/$ в текст, например:$(p)  $(formula)Счётчик: ${counter}/$$(p)будет развёрнуто в $(thing)Счётчик: 1, 2, 3/$ если переменная $(thing)counter/$ установлена на $(thing)x=1,y=2,z=3/$. $(l:programming/variables#special)Специальные переменные/$ и $(l:programming/variables#global)глобальные переменные/$ также могут использоваться здесь."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/edit_sign_piece.png"
+      ],
+      "text": "$(italic)Виджет редактирования знака/$"
+    }
+  ]
+}

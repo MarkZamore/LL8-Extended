@@ -1,0 +1,14 @@
+{
+  "name": "Датчик",
+  "icon": "rftoolsutility:sensor",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:sensor": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Датчик может обнаруживать различные объекты прямо перед входом (на расстоянии 1, 3 или 5 блоков). Он может обнаруживать размещение блоков, уровень роста урожая, количество существ и многое другое."
+    }
+  ]
+}

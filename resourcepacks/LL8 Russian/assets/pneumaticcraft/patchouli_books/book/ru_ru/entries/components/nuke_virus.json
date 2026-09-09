@@ -1,0 +1,17 @@
+{
+  "name": "Вирус-нюк",
+  "icon": "pneumaticcraft:nuke_virus",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это специальный компонент, используемый только при попытке взлома $(l:machines/security_station)Станций безопасности/$. Его нельзя создать, его можно найти только в добыче подземелий или (редко) в торговле с жителями."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:nuke_virus",
+      "text": "Применение $(thing)вируса-нюка/$ к узлу во время взлома мгновенно его взломает. Учтите, что вирус-нюк имеет задержку 3 секунды между использованиями."
+    }
+  ]
+}

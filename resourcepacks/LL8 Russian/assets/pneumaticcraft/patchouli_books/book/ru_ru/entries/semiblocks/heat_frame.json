@@ -1,0 +1,25 @@
+{
+  "name": "Тепловая рама",
+  "icon": "pneumaticcraft:heat_frame",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот предмет можно поставить на любой $(thing)инвентарь/$. При нагреве соседним $(l:base_concepts/heat)источником тепла/$ он будет плавить любой предмет в инвентаре (или замораживать его при охлаждении). Это удастся, только если в инвентаре будет место для полученного предмета. Чем больше тепла, тем быстрее процесс плавления, до максимума 1 предмета в секунду. Аналогично, чем больше охлаждение, тем быстрее замерзают предметы."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)Тепловая рама/$ поддерживает $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ для охлаждения (плавление просто использует обычные рецепты $(item)печи/$): рецепты можно добавлять и удалять. Следуйте ссылке ниже для подробной информации.",
+      "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Heat_Frame_Cooling/",
+      "link_text": "CraftTweaker документация"
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт тепловой рамы",
+      "recipe": "pneumaticcraft:heat_frame"
+    }
+  ]
+}

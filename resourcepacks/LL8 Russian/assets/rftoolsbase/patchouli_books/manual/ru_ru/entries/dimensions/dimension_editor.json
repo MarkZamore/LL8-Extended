@@ -1,0 +1,23 @@
+{
+  "name": "Редактор измерений",
+  "icon": "rftoolsdim:dimension_editor",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:dimension_editor": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Редактор измерений изменяет существующие реализованные вкладки измерений. Вставьте вкладку и поддерживаемый диметр, чтобы изменить дескриптор, сохранённый на вкладке."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:dimension_editor"
+    },
+    {
+      "type": "text",
+      "text": "Редактирование требует FE и времени. Используйте его до или после создания, когда нужно отрегулировать измерение без полной пересборки вкладки с нуля."
+    }
+  ]
+}

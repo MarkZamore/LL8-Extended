@@ -1,0 +1,19 @@
+{
+  "name": "Модуль удалённого доступа",
+  "icon": "rftoolsstorage:storage_module6",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_module6": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Модуль удалённого хранилища в этой версии — это устаревший/внутренний модуль и не входит в обычную прогрессию."
+    },
+    {
+      "type": "text",
+      "text": "Для обычного удалённого доступа используйте $(l:rftoolsbase:scanner/modules)модуль управления хранилищем$(/l), связанный со сканером хранилищ, и установите его на планшет."
+    }
+  ]
+}

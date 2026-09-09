@@ -1,0 +1,16 @@
+{
+  "name": "Omni Regulator",
+
+  "category": "omnigrid:misc",
+  "icon": "omnigrid:omni_regulator",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text":
+      "Устанавливает ограничение количества конкретного ресурса в хранилище Omni Grid, блокируя его удаление или добавление, если это нарушит ограничение. $(br)$(br)$ Нажмите Shift + ПКМ, держа Omni Regulator, чтобы изменить тип ограничения."
+
+    }
+
+  ]
+}

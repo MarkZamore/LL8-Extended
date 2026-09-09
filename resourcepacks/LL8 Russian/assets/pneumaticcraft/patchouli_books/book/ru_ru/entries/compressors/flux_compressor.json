@@ -1,0 +1,17 @@
+{
+  "name": "Компрессор потока",
+  "icon": "pneumaticcraft:flux_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Компрессор потока/$ преобразует $(thing)Forge Energy/$ (совместим с $(thing)Redstone Flux/$ и энергетическими системами различных других модов) в $(l:base_concepts/pressure)сжатый воздух/$. Он потребляет базовое значение 40 FE/тик, но может быть улучшен через установку $(l:base_concepts/upgrades#speed)Ускоряющих улучшений/$.$(p)Компрессор потока имеет ёмкость 100,000 FE и принимает FE с удвоенной скоростью его потребления."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание $(item)Компрессора потока/$(p)Этот генератор требует $(l:base_concepts/heat)охлаждения/$, так как его производительность падает с ростом температуры, вплоть до полной остановки производства воздуха.",
+      "recipe": "pneumaticcraft:flux_compressor"
+    }
+  ]
+}

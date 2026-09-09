@@ -1,0 +1,18 @@
+{
+  "name": "Передатчик Redstone",
+  "icon": "rftoolsutility:redstone_transmitter",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_transmitter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот блок беспроводно отправляет сигнал красного камня на определённый канал при получении сигнала. Используйте его вместе с блоком приёмника красного камня. При размещении блока создаётся канал. Вы также можете привязать этот передатчик к существующим каналам, щёлкнув ПКМ по другому передатчику или приёмнику."
+    },
+    {
+      "type": "text",
+      "text": "Используйте $(l:rftoolsbase:logic/redstone_receiver)Приёмник Redstone$(/l) для получения сигналов.$(br2)В интерфейсе этого блока вы можете дать каналу имя, что облегчит его распознавание."
+    }
+  ]
+}

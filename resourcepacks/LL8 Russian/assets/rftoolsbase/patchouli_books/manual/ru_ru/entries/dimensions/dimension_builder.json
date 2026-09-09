@@ -1,0 +1,27 @@
+{
+  "name": "Конструктор измерений",
+  "icon": "rftoolsdim:dimension_builder",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:dimension_builder": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Конструктор измерений превращает $(l:rftoolsbase:dimensions/dimension_tabs)реализованную вкладку измерения$(/l) в настоящее измерение. Вставьте вкладку и подайте достаточно FE для создания."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:dimension_builder"
+    },
+    {
+      "type": "text",
+      "text": "После создания конструктор продолжит питать это измерение энергией. Если энергия кончится, измерение станет небезопасным и непригодным для использования, пока конструктор не получит питание снова."
+    },
+    {
+      "type": "text",
+      "text": "Берегите реализованную вкладку измерения — она хранит дескриптор, прогресс, затраты и ID созданного измерения."
+    }
+  ]
+}

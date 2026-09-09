@@ -1,0 +1,23 @@
+{
+  "name": "Датчик активности",
+  "icon": "rftoolsdim:activity_probe",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:activity_probe": 0
+  },
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Датчики активности помечают измерение RFTools как намеренно активное. Разместите их внутри измерения, когда нужно, чтобы механизмы остались полезными и куски мира продолжали загружаться."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:activity_probe"
+    },
+    {
+      "type": "text",
+      "text": "Измерение отслеживает количество размещённых датчиков. Разрушение датчика уменьшает этот счётчик."
+    }
+  ]
+}

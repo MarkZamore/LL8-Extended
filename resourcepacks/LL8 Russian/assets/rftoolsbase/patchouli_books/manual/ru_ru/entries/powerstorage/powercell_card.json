@@ -1,0 +1,23 @@
+{
+  "name": "Карта силовой ячейки",
+  "icon": "rftoolspower:powercell_card",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:powercell_card": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Эта карта связывает $(l:rftoolsbase:powerstorage/dimensionalcell)Многомерные ячейки$(/l) между собой. Новая карта начинает без связи. Вставьте её в Многомерную ячейку, чтобы создать или скопировать связь."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:powercell_card"
+    },
+    {
+      "type": "text",
+      "text": "Используйте связанную карту на других Многомерных ячейках, чтобы подключить их к одной и той же удалённой сети хранилища."
+    }
+  ]
+}

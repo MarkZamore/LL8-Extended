@@ -1,0 +1,27 @@
+{
+  "name": "Процессор",
+  "icon": "rftoolscontrol:processor",
+  "category": "rftoolsbase:category_rftoolscontrol_processor",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:processor": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Процессор запускает Карты программ. Ему нужна FE, как минимум одно ядро CPU, достаточно RAM и Карта программы в одном из слотов для карт."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:processor"
+    },
+    {
+      "type": "text",
+      "text": "Верхние слоты для карт содержат программы. Слоты расширения содержат CPU, RAM, сетевые и графические карты. Буферные слоты — это универсальное хранилище для операций программы."
+    },
+    {
+      "type": "text",
+      "text": "Программы можно включать через GUI Процессора. Ошибки во время выполнения отображаются в GUI, чтобы вы могли вернуться к Программисту и исправить карту."
+    }
+  ]
+}

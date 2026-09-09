@@ -1,0 +1,19 @@
+{
+  "name": "Виджет перемещения в локацию",
+  "icon": "pneumaticcraft:textures/progwidgets/goto_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Перемещение в локацию/$ — это простая команда: $(l:tools/drone)Дрон/$ переместится в ближайшую доступную локацию в пределах указанной $(l:programming/area)Области/$. $(p)Виджет считается завершённым $(ttcolor)$(t:You can configure the widget to be 'done' immediately; right-click for the setup GUI)когда Дрон достигает области/$, или когда область недоступна."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/goto_piece.png"
+      ],
+      "text": "$(italic)Виджет перемещения в локацию/$"
+    }
+  ]
+}

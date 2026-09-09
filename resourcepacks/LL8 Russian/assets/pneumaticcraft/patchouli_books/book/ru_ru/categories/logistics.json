@@ -1,0 +1,6 @@
+{
+  "name": "Логистика",
+  "description": "Система логистики — мощный способ перемещения предметов и жидкостей и поддержания запасов в инвентарях и танках.",
+  "icon": "pneumaticcraft:logistics_drone[pneumaticcraft:air=120000]",
+  "sortnum": 8
+}

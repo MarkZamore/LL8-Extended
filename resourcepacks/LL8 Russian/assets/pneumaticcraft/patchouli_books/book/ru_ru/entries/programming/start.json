@@ -1,0 +1,19 @@
+{
+  "name": "Виджет старта",
+  "icon": "pneumaticcraft:textures/progwidgets/start_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Виджет $(thing)Старт/$ — это первый виджет в программе, и именно с него начинается $(l:programming/flow_control)выполнение программы/$. $(p)Он $(italic)должен/$ существовать, и может быть только один."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/start_piece.png"
+      ],
+      "text": "$(italic)Называй меня Макклауд/$"
+    }
+  ]
+}

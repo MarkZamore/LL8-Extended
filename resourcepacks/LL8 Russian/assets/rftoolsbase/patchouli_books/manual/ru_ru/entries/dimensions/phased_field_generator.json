@@ -1,0 +1,23 @@
+{
+  "name": "Генератор фазного поля",
+  "icon": "rftoolsdim:phased_field_generator",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:phased_field_generator": 0
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Генератор фазного поля — это заряженный предмет защиты для измерений RFTools. Держите его на панели быстрого доступа перед входом в нестабильные или непитаемые измерения."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:phased_field_generator"
+    },
+    {
+      "type": "text",
+      "text": "Он накапливает FE и расходует эту энергию, когда требуется защита. Перезаряжайте его перед длительными путешествиями."
+    }
+  ]
+}

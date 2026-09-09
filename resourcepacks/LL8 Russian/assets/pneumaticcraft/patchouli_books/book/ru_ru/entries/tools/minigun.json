@@ -1,0 +1,22 @@
+{
+  "name": "Минипушка",
+  "icon": "pneumaticcraft:minigun[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Минипушка/$ — это ручное оружие, работающее на $(l:base_concepts/pressure)сжатом воздухе/$ и $(l:tools/minigun_ammo)боеприпасах/$. Боеприпасы нужно загрузить в $(l:tools/minigun_ammo#magazine)магазин минипушки/$ — они не будут взяты из инвентаря.$(p)Чтобы открыть огонь, просто держите $(thing)ПКМ/$. Ствол начнёт вращаться и откроет огонь, когда разойдётся на нужную скорость."
+    },
+    {
+      "type": "text",
+      "title": "Улучшения",
+      "text": "Множество характеристик $(item)Минипушки/$ можно улучшить в $(l:machines/charging_station)Зарядной станции/$: скорость разгона ствола, дальность, вероятность применения зелий и другие.$(p)Полная документация по каждому модулю и его эффектам доступна в окне улучшений Зарядной станции."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт Минипушки",
+      "recipe": "pneumaticcraft:minigun"
+    }
+  ]
+}

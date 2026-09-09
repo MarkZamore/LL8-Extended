@@ -1,0 +1,47 @@
+{
+  "name": "Печатные платы",
+  "icon": "pneumaticcraft:printed_circuit_board",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Печатные платы/$ (ПП) — это важные компоненты, используемые во многих машинах и инструментах более высокого уровня. Создание $(item)ПП/$ требует нескольких этапов. $(p)Сначала создайте $(item)пустую ПП/$ в $(l:manufacturing/pressure_chamber)Камере давления/$ как показано справа. Затем есть два способа продолжить (см. дальше)."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/empty_pcb"
+    },
+    {
+      "type": "text",
+      "title": "Способ №1",
+      "text": "Этот способ — единственный доступный вначале, и без дополнительной автоматизации и инфраструктуры отопления он довольно медленный: вы можете разработать $(item)ПП/$ химически, поместив её в $(l:manufacturing/uv_light_box)УФ-ящик/$ и затем поместив облученную $(item)пустую ПП/$ в $(l:manufacturing/etching_tank)Ванну травления/$, чтобы превратить её в $(item)неассемблированную ПП/$."
+    },
+    {
+      "type": "blasting",
+      "title": "Переработка неудачных ПП",
+      "recipe": "pneumaticcraft:empty_pcb_from_failed_pcb",
+      "text": "Процесс травления имеет вероятность отказа, если $(item)пустая ПП/$ не была на 100% облучена в $(l:manufacturing/uv_light_box)УФ-ящике/$; вы можете переработать $(item)неудачные ПП/$ в $(item)Печи взрыва/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "Способ №2",
+      "item": "pneumaticcraft:assembly_controller",
+      "text": "Как только вы сможете создать $(l:manufacturing/assembly_system)Систему сборки/$, вы можете использовать её для преобразования $(item)пустых ПП/$ непосредственно в $(item)неассемблированные ПП/$ с помощью $(item)Программы сборки: Лазер/$. В этом случае нет необходимости облучать её в $(item)УФ-ящике/$ или использовать $(item)Ванну травления/$."
+    },
+    {
+      "type": "text",
+      "title": "Способ №2 (продолжение)",
+      "text": "$(p)Система сборки — очень удобный и разумно быстрый способ производства $(item)неассемблированных ПП/$; однако при достаточной автоматизации и инфраструктуре охлаждения комбинация $(thing)УФ-ящик/Ванна травления/$ может быть намного быстрее, особенно если вам нужно массово производить ПП."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/unassembled_pcb"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:printed_circuit_board",
+      "text": "Наконец, вы можете добавить несколько $(l:components/capacitor)Конденсаторов/$ и $(l:components/transistor)Транзисторов/$, чтобы собрать готовую $(item)печатную плату/$!"
+    }
+  ]
+}

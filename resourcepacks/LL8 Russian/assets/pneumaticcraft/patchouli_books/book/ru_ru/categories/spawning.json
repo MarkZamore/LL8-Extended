@@ -1,0 +1,6 @@
+{
+  "name": "Спаун мобов",
+  "description": "Различные машины и устройства для управляемого спауна мобов.",
+  "icon": "pneumaticcraft:pressurized_spawner",
+  "sortnum": 12
+}

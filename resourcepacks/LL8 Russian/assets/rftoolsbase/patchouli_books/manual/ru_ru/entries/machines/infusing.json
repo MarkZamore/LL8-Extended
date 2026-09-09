@@ -1,0 +1,49 @@
+{
+  "name": "Инфузирование",
+  "icon": "rftoolsbase:machine_infuser",
+  "category": "rftoolsbase:category_machines",
+  "extra_recipe_mappings": {
+    "rftoolsbase:machine_infuser": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Инфузор$() использует $(l:rftoolsbase:basics/dimensional_shards)Осколки размерности$() для $(thing)повышения эффективности$() множества машин. В большинстве случаев инфузирование снижает потребление энергии. Некоторые устройства получают дополнительные преимущества от инфузирования. $(br2)$(thing)Инфузирование$() самого инфузора приводит к снижению его потребления энергии."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:machine_infuser",
+      "text": "Дополнительные применения инфузора смотрите на следующей странице в зависимости от установленных модов."
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsutility",
+      "title": "RFTools Utility",
+      "text": "$(li)$(l:rftoolsutility:machines/environmental)Контроллер окружающей среды$() $(li)$(l:rftoolsutility:machines/dialing_device)Устройство набора номера$() $(li)$(l:rftoolsutility:machines/matter_receiver)Приёмник материи$() $(li)$(l:rftoolsutility:machines/matter_transmitter)Передатчик материи$() (+Скорость) $(li)$(l:rftoolsutility:machines/spawner)Спаунер$() $(li)$(l:rftoolsutility:machines/matter_beamer)Луч материи$() (+Скорость, -Требуемые предметы) $(li)$(l:rftoolsutility:machines/screen_controller)Контроллер экрана$() (+Дальнобойность) $(li)$(l:rftoolsutility:machines/crafter)Крафтер$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsstorage",
+      "title": "RFTools Storage",
+      "text": "$(li)$(l:rftoolsstorage:scanner/scanner)Сканер хранилища$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolspower",
+      "title": "RFTools Power",
+      "text": "$(li)$(l:rftoolspower:powergeneration/coalgenerator)Генератор угля$() $(li)$(l:rftoolspower:powergeneration/endergenic)Endergenic$() (+Производство энергии, меньше потерь при удержании жемчуга) $(li)$(l:rftoolspower:powerstorage/dimensionalcell)Батарея размерности$() (-Стоимость извлечения RF на дальнее расстояние, +RF/t выход) $(li)$(l:rftoolspower:powergeneration/blazingagitator)Возбудитель пламени$() (+Качество стержня пламени) $(li)$(l:rftoolspower:powergeneration/blazinggenerator)Генератор пламени$() (+Производство энергии)"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsdim",
+      "title": "RFTools Dimensions",
+      "text": "$(li)$(l:rftoolsdim:dimlets/researcher)Исследователь$() (+Скорость) $(li)$(l:rftoolsdim:dimensions/dimension_builder)Строитель размерности$() (+Скорость)"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsbuilder",
+      "title": "RFTools Builder",
+      "text": "$(li)$(l:rftoolsbuilder:shield/shield_intro)Проектор щита$() (+Урон) $(li)$(l:rftoolsbuilder:builder/builder_intro)Строитель$() (+Скорость)"
+    }
+  ]
+}

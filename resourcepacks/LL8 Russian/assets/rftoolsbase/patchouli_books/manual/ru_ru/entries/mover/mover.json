@@ -1,0 +1,15 @@
+{
+  "name": "Перемещатель",
+  "icon": "rftoolsbuilder:mover",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Перемещатель отмечает позицию, куда может переместиться транспортное средство.$(br2)Используйте $(l:rftoolsbase:mover/mover_controller)Контроллер перемещения$(/l) для обнаружения и подключения перемещателей в сеть перемещений."
+    }
+  ]
+}

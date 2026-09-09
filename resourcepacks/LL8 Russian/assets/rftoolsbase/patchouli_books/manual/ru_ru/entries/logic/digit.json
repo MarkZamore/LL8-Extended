@@ -1,0 +1,19 @@
+{
+  "name": "Цифровой дисплей",
+  "icon": "rftoolsutility:digit",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:digit": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот блок просто отображает цифру от 0 до F (шестнадцатеричная система) в соответствии с силой входного сигнала."
+    },
+    {
+      "type": "crafting",
+      "heading": "Digit",
+      "recipe": "rftoolsutility:digit"
+    }
+  ]
+}

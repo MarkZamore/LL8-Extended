@@ -1,0 +1,15 @@
+{
+  "name": "Введение",
+  "icon": "minecraft:experience_bottle",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:builder": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Строитель — универсальный блок, который может добывать, строить, качать, собирать XP и предметы и многое другое. Используйте одну из карт форм для управления тем, что нужно делать"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Верстак Dimlet",
+  "icon": "rftoolsdim:dimlet_workbench",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimlets",
+  "extra_recipe_mappings": {
+    "rftoolsdim:dimlet_workbench": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Верстак Dimlet создаёт готовые dimlets из пустых dimlets, компонентов, эссенций и открытых знаний. Разместите рядом с ним хотя бы один $(l:rftoolsbase:dimlets/knowledge_holder)Хранилище знаний$(/l)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:dimlet_workbench"
+    },
+    {
+      "type": "text",
+      "text": "Выберите известный рецепт диmllet в интерфейсе. Недостающие ингредиенты отображаются из узора диmllet, включая компоненты энергии, компоненты памяти, осколки и эссенции."
+    }
+  ]
+}

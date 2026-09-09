@@ -1,0 +1,28 @@
+{
+  "name": "Карта помпы",
+  "icon": "rftoolsbuilder:shape_card_pump",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_pump": 1,
+    "rftoolsbuilder:shape_card_pump_clear": 2
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Карта помпы заставляет Строителя собирать жидкость из выбранной области. Откачанную жидкость необходимо хранить в резервуаре, подключённом к Строителю."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_pump"
+    },
+    {
+      "type": "text",
+      "text": "Обычная карта помпы заменяет откачанную жидкость настроенным заполнителем. Вариант очистки оставляет пустое пространство."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_pump_clear"
+    }
+  ]
+}

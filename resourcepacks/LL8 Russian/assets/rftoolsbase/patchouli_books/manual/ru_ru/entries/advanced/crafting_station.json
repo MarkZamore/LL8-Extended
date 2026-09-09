@@ -1,0 +1,23 @@
+{
+  "name": "Станция крафта",
+  "icon": "rftoolscontrol:craftingstation",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:craftingstation": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Станция крафта отображает доступные предметы для крафта и активные запросы на крафт. Это интерфейс, через который игрок взаимодействует с системой автоматизации крафта RFTools Control."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:craftingstation"
+    },
+    {
+      "type": "text",
+      "text": "Используйте GUI для поиска предметов для крафта, запроса их создания и отмены выбранных запросов. Программы могут обслуживать эти запросы через операции крафта."
+    }
+  ]
+}

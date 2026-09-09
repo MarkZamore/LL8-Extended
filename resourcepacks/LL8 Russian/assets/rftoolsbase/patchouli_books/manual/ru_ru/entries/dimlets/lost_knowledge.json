@@ -1,0 +1,26 @@
+{
+  "name": "Потерянные знания",
+  "icon": "rftoolsdim:common_lost_knowledge",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimlets",
+  "extra_recipe_mappings": {
+    "rftoolsdim:common_lost_knowledge": 0,
+    "rftoolsdim:uncommon_lost_knowledge": 0,
+    "rftoolsdim:rare_lost_knowledge": 0,
+    "rftoolsdim:legendary_lost_knowledge": 0
+  },
+  "sortnum": 70,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Потерянные знания — это неизученные знания о dimlets. Их можно найти как добычу, а затем исследовать с помощью Исследователя."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:uncommon_lost_knowledge"
+    },
+    {
+      "type": "text",
+      "text": "После исследования сохраняйте открытые знания в Хранилище знаний рядом с Верстаком Dimlet. Знания более высокой редкости открывают доступ к более редким dimlets."
+    }
+  ]
+}

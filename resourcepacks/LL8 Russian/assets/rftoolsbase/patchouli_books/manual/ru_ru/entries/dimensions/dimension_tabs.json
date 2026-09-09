@@ -1,0 +1,24 @@
+{
+  "name": "Вкладки измерений",
+  "icon": "rftoolsdim:realized_dimension_tab",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:empty_dimension_tab": 0,
+    "rftoolsdim:realized_dimension_tab": 0
+  },
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пустая вкладка измерения — это пустой предмет, используемый гравером. Добавьте в неё диметры, чтобы превратить её в реализованную вкладку измерения."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:empty_dimension_tab"
+    },
+    {
+      "type": "text",
+      "text": "Реализованная вкладка измерения хранит дескриптор измерения, прогресс создания, затраты и ID созданного измерения. Конструктор измерений использует её для создания и поддержки измерения."
+    }
+  ]
+}

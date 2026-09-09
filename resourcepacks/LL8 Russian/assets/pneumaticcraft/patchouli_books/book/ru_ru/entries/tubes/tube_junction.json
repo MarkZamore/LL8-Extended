@@ -1,0 +1,17 @@
+{
+  "name": "Перекрёстная муфта",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Перекрёстная муфта/$ — это очень простое устройство, которое позволяет двум $(l:tubes/pressure_tubes)трубам давления/$ (любого $(l:base_concepts/pressure_tiers)уровня давления/$) пересекаться друг с другом без соединения."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт перекрёстной муфты",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

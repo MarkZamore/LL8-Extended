@@ -1,0 +1,23 @@
+{
+  "name": "Монитор измерений",
+  "icon": "rftoolsdim:dimension_monitor",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:dimension_monitor": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Монитор измерений показывает состояние энергии измерения RFTools. Используйте его, чтобы проверить, хватает ли измерению энергии для сохранения активности."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:dimension_monitor"
+    },
+    {
+      "type": "text",
+      "text": "Подсказка изменяется в зависимости от сохранённых данных измерения. Всегда держите под рукой при тестировании новых измерений или диагностике потери энергии."
+    }
+  ]
+}

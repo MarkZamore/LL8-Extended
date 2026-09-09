@@ -1,0 +1,17 @@
+{
+    "name": "Станок для снятия коры",
+    "icon": "productivetrees:stripper",
+    "category": "productivetrees:stuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivetrees:stripper",
+            "text": "Снимает кору с дерева, оставляя его гладким. Требует топора для работы."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivetrees:stripper",
+            "text": ""
+        }
+    ]
+}

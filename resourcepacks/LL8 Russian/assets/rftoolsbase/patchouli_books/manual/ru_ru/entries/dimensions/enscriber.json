@@ -1,0 +1,23 @@
+{
+  "name": "Гравер",
+  "icon": "rftoolsdim:enscriber",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:enscriber": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Гравер объединяет диметры в $(l:rftoolsbase:dimensions/dimension_tabs)реализованную вкладку измерения$(/l). Положите пустую вкладку измерения в слот для вкладок и расположите диметры, чтобы описать измерение."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:enscriber"
+    },
+    {
+      "type": "text",
+      "text": "Диметры управляют рельефом, биомами, блоками, жидкостями, структурами, временем, небом и другими свойствами. Получившуюся вкладку можно передать конструктору измерений."
+    }
+  ]
+}

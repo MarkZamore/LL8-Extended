@@ -1,0 +1,7 @@
+{
+  "name": "Создание измерений",
+  "description": "Для создания измерений вам потребуются гравер и конструктор измерений",
+  "parent": "rftoolsbase:category_rftoolsdimensions",
+  "icon": "rftoolsdim:dimension_builder",
+  "sortnum": 20
+}

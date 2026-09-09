@@ -1,0 +1,23 @@
+{
+  "name": "Хранилище знаний",
+  "icon": "rftoolsdim:knowledge_holder",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimlets",
+  "extra_recipe_mappings": {
+    "rftoolsdim:knowledge_holder": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Хранилище знаний сохраняет исследованные знания. Разместите его рядом с Верстаком Dimlet, чтобы верстак мог создавать dimlets для открытых вами знаний."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:knowledge_holder"
+    },
+    {
+      "type": "text",
+      "text": "Используйте Исследователя, чтобы определить Потерянные знания, затем переместите результат в хранилище. Более крупные установки могут использовать несколько хранилищ рядом с верстаком."
+    }
+  ]
+}

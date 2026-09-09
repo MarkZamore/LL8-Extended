@@ -1,0 +1,15 @@
+{
+  "name": "Сведения о палате",
+  "icon": "rftoolsbuilder:space_chamber_controller",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber_controller": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Экран сведений о палате показывает, что находится внутри выбранной пространственной палаты.$(br2)Нажмите ПКМ с картой пространства, чтобы открыть обзор всех блоков и существ, которые находятся в той палате."
+    }
+  ]
+}

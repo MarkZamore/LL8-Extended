@@ -1,0 +1,7 @@
+{
+  "name": "Строитель",
+  "description": "Строитель — универсальный блок для постройки, добычи или сбора",
+  "parent": "rftoolsbase:category_rftoolsbuilder",
+  "icon": "rftoolsbuilder:builder",
+  "sortnum": 20
+}

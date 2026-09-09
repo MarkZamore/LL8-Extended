@@ -1,0 +1,16 @@
+{
+  "name": "Crafting Patterns",
+
+  "category": "omnigrid:misc",
+  "icon": "refinedstorage:pattern",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text":
+      "Omni Grid может выполнять задачи автокрафта, используя Crafting Patterns из Refined Storage 2, помещённые в слоты для утилит. $(br)$(br)$ Processing Patterns должны быть помещены в Core Cartridge с установленным местоположением для использования"
+
+    }
+
+  ]
+}

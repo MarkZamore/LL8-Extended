@@ -1,0 +1,37 @@
+{
+  "name": "Пространственные палаты",
+  "icon": "rftoolsbuilder:space_chamber_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber": 1,
+    "rftoolsbuilder:space_chamber_controller": 2,
+    "rftoolsbuilder:space_chamber_card": 3
+  },
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пространственная палата помечает объём, который Строитель или Строитель транспортных средств может копировать или перемещать. Используйте блоки палаты и один контроллер для определения палаты."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_controller"
+    },
+    {
+      "type": "text",
+      "text": "Нажмите ПКМ со сдвигом на контроллер с картой пространства, чтобы сохранить его канал. Нажмите ПКМ на карту в воздухе, чтобы проверить содержимое палаты."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_card"
+    },
+    {
+      "type": "text",
+      "text": "Блоки поддержки — это временные вспомогательные блоки, используемые для сканирования и строительства. Они намеренно лёгкие и могут быть удалены, когда они больше не нужны."
+    }
+  ]
+}

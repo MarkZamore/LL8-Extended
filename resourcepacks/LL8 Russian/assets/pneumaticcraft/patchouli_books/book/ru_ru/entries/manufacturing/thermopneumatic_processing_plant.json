@@ -1,0 +1,31 @@
+
+{
+  "name": "Термопневматическая обрабатывающая установка",
+  "icon": "pneumaticcraft:thermopneumatic_processing_plant",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:refinery",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Термопневматическая обрабатывающая установка/$ использует $(l:base_concepts/pressure)давление/$ и/или $(l:base_concepts/heat)тепло/$ для обработки материалов. У неё несколько применений:$(li)100 мл $(thing)СНГ/$ и 1 кусок $(item)угля/$ делают 1000 мл $(l:components/plastic)пластика/$. Это требует тепла, но не требует давления.$(li)1000 мл $(thing)дизеля/$ и 1 кусок $(item)красной пыли/$ делают 1000 мл $(l:components/lubricant)смазки/$. Опять же, это требует тепла, но не требует давления."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(item)Термопневматическая обрабатывающая установка/$ может использоваться для переработки более тяжёлых топлив, производимых $(l:manufacturing/refinery)очистной установкой/$, в более лёгкие топлива с коэффициентом возврата 80%:$(li)Дизель → Керосин$(li)Керосин → Бензин$(li)Бензин → СНГ$(p)Это требует как тепла, так и давления."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)Термопневматическая обрабатывающая установка/$ имеет поддержку $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$: рецепты можно добавлять и удалять. Нажмите на ссылку ниже для получения дополнительной информации.",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/ThermoPlant",
+      "link_text": "Документация CraftTweaker"
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт термопневматической обрабатывающей установки",
+      "recipe": "pneumaticcraft:thermopneumatic_processing_plant"
+    }
+  ]
+}
+

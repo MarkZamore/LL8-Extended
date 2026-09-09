@@ -1,0 +1,23 @@
+{
+  "name": "Исследователь",
+  "icon": "rftoolsdim:researcher",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimlets",
+  "extra_recipe_mappings": {
+    "rftoolsdim:researcher": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Исследователь определяет Потерянные знания и превращает их в пригодные для использования образцы знаний. Он также может исследовать dimlets и предметы эссенции."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:researcher"
+    },
+    {
+      "type": "text",
+      "text": "Исследование — это мост между добычей и изготовлением. Когда знание известно и сохранено, Верстак Dimlet может создавать соответствующие dimlets."
+    }
+  ]
+}

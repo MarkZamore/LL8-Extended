@@ -1,0 +1,29 @@
+{
+  "name": "Луч материи",
+  "icon": "rftoolsutility:matter_beamer",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_beamer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Луч материи отправляет предметы в $(l:rftoolsbase:machines/spawner)Спавнер$(/l). Имеет один входной слот, потребляет FE при активности и отправляет предметы только когда связанный спавнер может их использовать."
+    },
+    {
+      "type": "crafting",
+      "heading": "Matter Beamer",
+      "recipe": "rftoolsutility:matter_beamer"
+    },
+    {
+      "type": "text",
+      "title": "Привязка",
+      "text": "Используйте гаечный ключ на Луче материи, затем используйте его на целевом Спавнере. Используйте гаечный ключ на выбранном луче снова, чтобы очистить пункт назначения."
+    },
+    {
+      "type": "text",
+      "title": "Операция",
+      "text": "Подайте на луч сигнал красного камня и поместите материалы, необходимые для рецепта спавнера. $(5)Усиление$() отправляет больше предметов за импульс и снижает затраты FE."
+    }
+  ]
+}

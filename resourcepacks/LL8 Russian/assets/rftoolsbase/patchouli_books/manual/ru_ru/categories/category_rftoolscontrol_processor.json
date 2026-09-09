@@ -1,0 +1,7 @@
+{
+  "name": "Процессор",
+  "description": "Процессор — это устройство, которое на самом деле выполняет ваши программы",
+  "parent": "rftoolsbase:category_rftoolscontrol",
+  "icon": "rftoolscontrol:processor",
+  "sortnum": 20
+}

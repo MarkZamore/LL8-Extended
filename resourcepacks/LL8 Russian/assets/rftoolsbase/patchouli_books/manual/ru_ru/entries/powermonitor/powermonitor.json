@@ -1,0 +1,20 @@
+{
+  "name": "Монитор мощности",
+  "icon": "rftoolspower:power_monitor",
+  "category": "rftoolsbase:category_rftoolspower_monitor",
+  "extra_recipe_mappings": {
+    "rftoolspower:power_monitor": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Логический блок, устанавливаемый входящей стороной к $(thing)энергоблоку$(). Имеет интерфейс, позволяющий установить диапазон мощности для передачи $(thing)редстон-сигнала$(). $(br2)Редстон-сигнал передаётся, когда уровень энергии выше минимального процента и ниже максимального процента. "
+    },
+    {
+      "type": "crafting",
+      "heading": "Power Monitor",
+      "recipe": "rftoolspower:power_monitor"
+    }
+  ]
+}

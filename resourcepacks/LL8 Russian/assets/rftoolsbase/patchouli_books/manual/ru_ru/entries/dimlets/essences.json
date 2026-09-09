@@ -1,0 +1,21 @@
+{
+  "name": "Эссенции",
+  "icon": "rftoolsdim:common_essence",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimlets",
+  "extra_recipe_mappings": {
+    "rftoolsdim:common_essence": 0,
+    "rftoolsdim:rare_essence": 0,
+    "rftoolsdim:legendary_essence": 0
+  },
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Обычная, Редкая и Легендарная Эссенция — ингредиенты для изготовления dimlets и компонентов dimlets более высокого уровня. Они отражают стоимость редкости dimlet."
+    },
+    {
+      "type": "text",
+      "text": "Верстак Dimlet показывает, какую эссенцию нужен выбранный dimlet. Абсорберы также могут производить данные, похожие на эссенцию, для dimlets блоков, жидкостей, биомов и структур."
+    }
+  ]
+}

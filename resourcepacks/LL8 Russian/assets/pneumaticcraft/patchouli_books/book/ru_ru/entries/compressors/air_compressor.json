@@ -1,0 +1,17 @@
+{
+  "name": "Воздушный компрессор",
+  "icon": "pneumaticcraft:air_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Воздушный компрессор/$ — это простой генератор, который может производить $(l:base_concepts/pressure)сжатый воздух/$. Он сжигает любое твёрдое топливо, которое принимает ванильная $(item)Печь/$, для производства $(ttcolor)$(t:This can be increased by installing Speed Upgrades)базовых/$ 10 мл воздуха/тик.$(p)Он $(italic)не/$ будет принимать $(item)Вёдра лавы/$ или другие ведра с жидким топливом; используйте $(l:compressors/liquid_compressor)Жидкостный компрессор/$ для этого."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание $(item)Воздушного компрессора/$",
+      "recipe": "pneumaticcraft:air_compressor"
+    }
+  ]
+}

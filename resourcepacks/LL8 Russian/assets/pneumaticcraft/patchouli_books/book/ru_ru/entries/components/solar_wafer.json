@@ -1,0 +1,16 @@
+{
+  "name": "Солнечная пластина",
+  "icon": "pneumaticcraft:solar_wafer",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:assembly_controller",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Солнечная пластина/$ — вспомогательный компонент крафта для $(l:components/solar_cell)солнечной ячейки/$."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/solar_wafer"
+    }
+  ]
+}

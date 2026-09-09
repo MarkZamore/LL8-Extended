@@ -1,0 +1,62 @@
+{
+  "name": "Пневматический перфоратор",
+  "icon": "pneumaticcraft:jackhammer[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jackhammer",
+      "text": "$(item)Пневматический перфоратор/$ — это универсальный инструмент для добычи, способный эффективно ломать любые блоки, используя $(l:base_concepts/pressure)давление/$. Его скорость и вместимость воздуха можно улучшить в $(l:machines/charging_station)Зарядной станции/$ с помощью $(l:base_concepts/upgrades#speed)Модулей скорости/$ и $(l:base_concepts/upgrades#volume)Модулей объёма/$ соответственно."
+    },
+    {
+      "type": "text",
+      "title": "Буровые коронки",
+      "text": "Новый перфоратор идёт без $(thing)буровой коронки/$, поэтому не совсем полезен. Нужно установить коронку. Кликните ПКМ по перфоратору, откройте окно настроек и положите коронку в верхний правый слот.$(p)Есть четыре типа коронок в порядке возрастания мощности и стоимости:$(li)Железная/$$(li)Сжатая железная/$$(li)Алмазная/$$(li)Незеритовая/$"
+    },
+    {
+      "type": "text",
+      "title": "Режимы копания",
+      "text": "Перфоратор поддерживает несколько режимов копания, включая функции $(thing)veinminer/$ для быстрого копания больших площадей. Доступные режимы зависят от типа $(thing)коронки/$. Лучшие коронки открывают больше режимов и копают быстрее.$(p)Чтобы выбрать режим, откройте окно перфоратора и используйте кнопку в нижнем правом углу (см. напротив)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/jackhammer_gui.png"
+      ],
+      "text": "$(italic)Окно перфоратора с установленной незеритовой коронкой и режимом копания 3×3/$"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Зачарование",
+      "text": "Перфоратор нельзя зачаровать в обычном $(thing)столе зачарования/$, но вы можете вставить книгу с зачарованиями $(thing)Шёлковое касание/$ или $(thing)Удача/$ через окно. Книга в слоте книг (сверху в центре) передаст своё зачарование перфоратору."
+    },
+    {
+      "type": "text",
+      "title": "Зачарование (продолжение)",
+      "text": "Удобно то, что вы можете легко менять книги в зависимости от нужд.$(p)Если сложно найти нужные книги (обычное зачарование очень случайно), помните, что $(l:manufacturing/pressure_chamber)Камера давления/$ может снимать зачарования с инструментов и помещать их на книги."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт Перфоратора",
+      "recipe": "pneumaticcraft:jackhammer"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/iron_drill_bit"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/compressed_iron_drill_bit"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/diamond_drill_bit"
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/netherite_drill_bit"
+    }
+  ]
+}

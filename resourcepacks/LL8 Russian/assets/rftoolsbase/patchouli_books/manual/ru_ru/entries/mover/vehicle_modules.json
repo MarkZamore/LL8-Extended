@@ -1,0 +1,41 @@
+{
+  "name": "Модули транспортных средств",
+  "icon": "rftoolsbuilder:vehicle_control_module",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_control_module": 1,
+    "rftoolsbuilder:vehicle_status_module": 2,
+    "rftoolsbuilder:mover_control": 3,
+    "rftoolsbuilder:mover_control2": 3,
+    "rftoolsbuilder:mover_control3": 3,
+    "rftoolsbuilder:mover_control4": 3,
+    "rftoolsbuilder:mover_status": 4
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Модули транспортных средств — это модули экрана для взаимодействия с контроллером перемещения. Используйте модуль на контроллере перемещения, чтобы привязать его."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_control_module"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_status_module"
+    },
+    {
+      "type": "text",
+      "text": "Модуль управления может отправить транспортное средство на выбранный перемещатель. Модуль состояния отображает информацию о транспортном средстве на экране RFTools."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:mover_control"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:mover_status"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Расширенные",
+  "description": "Узлы, крафт, модули и вспомогательные блоки",
+  "parent": "rftoolsbase:category_rftoolscontrol",
+  "icon": "rftoolscontrol:workbench",
+  "sortnum": 30
+}

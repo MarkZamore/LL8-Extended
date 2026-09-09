@@ -1,0 +1,49 @@
+{
+  "name": "Многомерная ячейка",
+  "icon": "rftoolspower:dimensionalcell",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:dimensionalcell_simple": 0,
+    "rftoolspower:dimensionalcell": 0,
+    "rftoolspower:dimensionalcell_advanced": 0,
+    "rftoolspower:dimensionalcell_creative": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Многомерная ячейка — многомерное хранилище энергии. Как $(l:rftoolsbase:powerstorage/powercell)Силовая ячейка$(/l), она сохраняет и передаёт FE, но связанные ячейки могут делиться энергией на расстоянии."
+    },
+    {
+      "type": "text",
+      "text": "Многомерные ячейки связываются с помощью $(l:rftoolsbase:powerstorage/powercell_card)Карты силовой ячейки$(/l). Вставьте несвязанную карту в ячейку, чтобы создать связь, или скопируйте уже существующую связь на другую карту."
+    },
+    {
+      "type": "text",
+      "text": "Интерфейс содержит слоты для связи и копирования карт, слот зарядки для предметов с FE, полосу сетевого хранилища, кнопки режимов сторон и кнопку Статистика для просмотра входящей/исходящей энергии."
+    },
+    {
+      "type": "text",
+      "text": "Режимы Не трогать, Вход и Выход устанавливают для всех сторон игнорирование, приём или передачу FE. Отдельные стороны можно менять с помощью $(l:rftoolsbase:tools/smartwrench)Умного ключа$(/l): синий — вход, жёлтый — выход, пустая — отключена."
+    },
+    {
+      "type": "text",
+      "text": "Однако у Многомерных ячеек есть недостаток: в режиме $(thing)Выхода$() есть небольшие потери при передаче энергии с удаления. Это обычно всего несколько процентов, но они накапливаются. К счастью, Многомерные ячейки можно $(l:rftoolsbase:machines/infusing)Заряжать$(), чтобы снизить эти потери."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_simple",
+      "text": "Ячейка начального уровня вмещает 250 000 RF и может принимать или отдавать до 1 250 RF/тик. Эта скорость может быть увеличена через $(l:rftoolsbase:machines/infusing)Зарядку$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell",
+      "text": "Ячейка среднего уровня вмещает 1 000 000 RF и может принимать или отдавать до 5 000 RF/тик. Эта скорость может быть увеличена через $(l:rftoolsbase:machines/infusing)Зарядку$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_advanced",
+      "text": "Ячейка высокого уровня вмещает 4 000 000 RF и может принимать или отдавать до 20 000 RF/тик. Эта скорость может быть увеличена через $(l:rftoolsbase:machines/infusing)Зарядку$()."
+    }
+  ]
+}

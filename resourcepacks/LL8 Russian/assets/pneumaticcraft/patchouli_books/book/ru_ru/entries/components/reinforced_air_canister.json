@@ -1,0 +1,21 @@
+{
+  "name": "Усиленный резервуар воздуха",
+  "icon": "pneumaticcraft:reinforced_air_canister",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Как и его младший брат $(l:components/air_canister)резервуар воздуха/$, $(thing)усиленный резервуар воздуха/$ хранит воздух и может заряжаться и разряжаться в $(l:machines/charging_station)зарядной станции/$. Однако его объём составляет 6000 мл, и он может заряжаться до 20 бар (не взорвётся)."
+    },
+    {
+      "type": "text",
+      "text": "Интересное применение для $(thing)усиленного резервуара воздуха/$ — использование его как хранилища воздуха в больших количествах, вместе с инвентарём, например сундуком, и $(l:tubes/pressure_tubes)трубой давления/$ с $(l:tubes/charging_module)модулем зарядки/$. Это может стать ещё интереснее с помощью $(l:machines/aerial_interface)воздушного интерфейса/$ и $(thing)эндер-сундука/$ (ванильный блок)..."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт усиленного резервуара воздуха",
+      "recipe": "pneumaticcraft:reinforced_air_canister"
+    }
+  ]
+}

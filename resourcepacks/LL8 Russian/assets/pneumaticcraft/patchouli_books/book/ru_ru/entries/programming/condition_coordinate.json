@@ -1,0 +1,25 @@
+
+{
+  "name": "Условие: виджет координаты",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)условие/$. $(p)Виджет $(thing)условие: координата/$ сравнивает две $(l:programming/coordinate)координаты/$. Различные тесты могут быть выполнены на этих координатах, и более конкретно на каждой оси (X/Y/Z) координаты. Вы можете проверить, совпадает ли только одна ось обеих координат, или две, или все три."
+    },
+    {
+      "type": "text",
+      "text": "Оси, которые будут сравниваться, определяются флажками в интерфейсе виджета. Аналогично, условие сравнения ('=', '>=') определяется радиокнопками в интерфейсе.$(p)Ваше сравнение координат также отображается текстово в интерфейсе (например, $(thing)x1 <= x2 и z1 <= z2/$)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png"
+      ],
+      "text": "$(italic)Условие: виджет координаты/$"
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "Провод",
+  "icon": "rftoolsutility:wire",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:wire": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Провод$() просто передаёт $(thing)входной сигнал$() на $(thing)выход$(). Просто, понятно, без лагов. Однако может идти только прямыми линиями. $(br2)С другой стороны, как и все остальные блоки, созданные с использованием $(l:rftoolsbase:basics/machine_bases)Базовых машин$(), его можно размещать на стенах и потолках."
+    },
+    {
+      "type": "crafting",
+      "heading": "Wire",
+      "recipe": "rftoolsutility:wire"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Создание диметров",
+  "description": "Создание диметров можно выполнить с помощью Dimlet Workbench и Knowledge Holder",
+  "parent": "rftoolsbase:category_rftoolsdimensions",
+  "icon": "rftoolsdim:empty_dimlet",
+  "sortnum": 10
+}

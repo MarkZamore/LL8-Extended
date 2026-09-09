@@ -1,0 +1,23 @@
+{
+  "name": "Генератор угля",
+  "icon": "rftoolspower:coalgenerator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:coalgenerator": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Генератор угля — это простой ранний генератор FE. Загрузите уголь или блоки угля, и он сжигает их для питания соседних машин или подключённых кабелей."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:coalgenerator"
+    },
+    {
+      "type": "text",
+      "text": "У него внутренний буфер, поэтому он продолжает гореть при временной блокировке выхода. Блоки угля удобны для долгой работы без присмотра."
+    }
+  ]
+}

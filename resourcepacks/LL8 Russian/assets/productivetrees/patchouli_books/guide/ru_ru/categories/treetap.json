@@ -1,0 +1,6 @@
+{
+  "name": "Совместимость Tree Tap",
+  "description": "Этот мод совместим с модом Tree Tap, позволяя получать дополнительные древесные продукты.",
+  "icon": "treetap:tap",
+  "flag": "mod:treetap"
+}

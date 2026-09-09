@@ -1,0 +1,20 @@
+{
+  "name": "Счётчик",
+  "icon": "rftoolsutility:counter",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:counter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Счётчик — простой блок, считающий импульсы редстоуна и выдающий сигнал редстоуна при достижении определённого числа. Затем отсчёт начинается заново. $(br2)Его интерфейс имеет два значения — 'Counter' (максимальное число для отсчёта) и 'Current' (текущее число)."
+    },
+    {
+      "type": "crafting",
+      "heading": "Counter",
+      "recipe": "rftoolsutility:counter",
+      "text": "Когда значение Current равно Counter, выдаётся сигнал редстоуна. Следующий импульс редстоуна отключит сигнал и сбросит Counter на 0."
+    }
+  ]
+}
