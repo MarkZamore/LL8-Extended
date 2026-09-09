@@ -1,0 +1,7 @@
+{
+  "obe.config.category.cushions": "Подушки",
+  "obe.config.option.cushion_ao": "Глобальное затенение подушек",
+  "obe.config.option.custom_skulls": "Оптимизация некоторых нестандартных голов",
+  "obe.config.option.optimised_cushions": "Оптимизация подушек",
+  "obe.config.option.optimised_models": "Оптимизация моделей"
+}

@@ -164,6 +164,8 @@
   "fancymenu.actions.screens.move_action_up.desc": "Перемещает выбранный элемент вверх по\nсписку, чтобы он выполнялся раньше.\nЭто точнее, чем перемещение\nс помощью перетаскивания.",
   "fancymenu.actions.screens.remove_action": "Удалить",
   "fancymenu.actions.script_editor.cancel_warning": "Ты уверен?\n\nТы действительно хочешь отменить редактирование скрипта?\n\n§xЭто отменит всё, что ты здесь сделал!",
+  "fancymenu.actions.script_editor.empty_hint": "Нажми здесь ПКМ, чтобы добавить действия",
+  "fancymenu.actions.script_editor.shortcuts.a": "A",
   "fancymenu.actions.script_editor.shortcuts.shift_arrow_down": "Shift + Вниз",
   "fancymenu.actions.script_editor.shortcuts.shift_arrow_up": "Shift + Вверх",
   "fancymenu.actions.select_file": "Выбрать файл с компьютера",
@@ -1151,10 +1153,12 @@
   "fancymenu.listeners.manage": "Управление слушателями",
   "fancymenu.listeners.manage.add": "Добавить слушателя",
   "fancymenu.listeners.manage.cancel_warning": "Уверены?\n\nВы действительно хотите отменить?\n\n§xЭто отменит все изменения, сделанные здесь!",
+  "fancymenu.listeners.manage.delete_warning": "Ты уверен?\n\nТы и правда хочешь §xудалить§r этот листенер?\n\n§xОтменить это действие будет нельзя!",
   "fancymenu.listeners.manage.desc": "Слушатели — это очень мощная функция, которая позволяет\nвыполнять скрипт действий при определённых событиях,\nнапример, когда пользователь печатает на клавиатуре, кликает мышью\nили даже когда что-то происходит в мирах, например, смерть игрока.\n\nСлушатели не привязаны к экранам, они постоянно\nотслеживают события, даже если никакой экран не открыт,\nнапример, во время игры в одиночном мире или на сервере.",
   "fancymenu.listeners.manage.description.actions": "Скрипт действий",
   "fancymenu.listeners.manage.description.listener_desc": "Тип слушателя",
   "fancymenu.listeners.manage.edit": "Редактировать действия",
+  "fancymenu.listeners.manage.quick_edit_tip": "Кликни ПКМ по листенеру, чтобы быстро отредактировать его действия.",
   "fancymenu.listeners.manage.remove": "Удалить слушателя",
   "fancymenu.listeners.manage.rename_tip": "Переименовывай слушателей, дважды щёлкнув по их имени.",
   "fancymenu.listeners.on_block_broke": "При разрушении блока",
@@ -2132,9 +2136,5 @@
   "fancymenu.widgetified_screens.title_screen.forge.top.example.line2": "Используется для отображения предупреждений о бета-сборках и прочего.",
   "fancymenu.widgetified_screens.title_screen.logo": "Логотип Minecraft",
   "fancymenu.widgetified_screens.title_screen.realmsnotification": "Иконки уведомлений Realms",
-  "fancymenu.widgetified_screens.title_screen.splash": "Ванильный сплэш-текст",
-  "fancymenu.actions.script_editor.shortcuts.a": "A",
-  "fancymenu.listeners.manage.quick_edit_tip": "Кликни ПКМ по листенеру, чтобы быстро отредактировать его действия.",
-  "fancymenu.listeners.manage.delete_warning": "Ты уверен?\n\nТы и правда хочешь §xудалить§r этот листенер?\n\n§xОтменить это действие будет нельзя!",
-  "fancymenu.actions.script_editor.empty_hint": "Щёлкни правой кнопкой здесь, чтобы добавить действия"
+  "fancymenu.widgetified_screens.title_screen.splash": "Ванильный сплэш-текст"
 }

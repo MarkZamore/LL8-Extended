@@ -1,0 +1,4 @@
+{
+  "mod.nostructureoverlap.description": "Не даёт ограничивающим рамкам структур перекрываться при генерации мира",
+  "mod.nostructureoverlap.name": "No Structure Overlap"
+}
