@@ -1123,7 +1123,7 @@
   },
   {
    "path": "mods/v_slab_compat-*.jar",
-   "reason": "held out while a world that would not load is diagnosed. Upstream 1.71.1 swapped DoubleSlabs for this, and the first world load after that swap died on IllegalStateException: Adding duplicate key 'minecraft:loot_table / minecraft:empty'. No file in any of the 939 jars or in any datapack declares that table, so it is being made at runtime, and this mod is the one new thing here that generates loot tables: it builds a datapack through Moonlight's DynamicResourcePack.addLootTable from a template/loot_table.json, and Moonlight itself moved 3.5.2 to 3.6.0 in the same release. Vertical slabs are cosmetic and nothing in the world is made of them yet. If the world loads without it, this is upstream's bug to report and this line stays until they fix it; if it does not, the line comes straight back out."
+   "reason": "Vertical Slab Compat is out, and this is the verdict rather than the test it started as. Upstream 1.71.1 swapped DoubleSlabs for it; the first world load after that swap died on IllegalStateException, adding duplicate key minecraft:loot_table / minecraft:empty, and so did creating a new world. Nothing in any of the 939 jars, their nested jars, any datapack or the instance tree declares that table, so it was being made at run time - this mod builds a datapack through Moonlight's DynamicResourcePack.addLootTable, and Moonlight went 3.5.2 to 3.6.0 in the same release. With the jar held out the world loads. What is lost is vertical slabs, which are decoration and which nothing in the world is built of. It goes back in when upstream or the author fixes it."
   }
 ],
  "keep": [
