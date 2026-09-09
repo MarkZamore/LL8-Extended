@@ -810,12 +810,6 @@
    "reason": "what replaces EMI Enchanting, and more than replaces it (uei 1.3.0, MIT): one category, uei:ench_info, whose page carries an enchantment's description, rarity, maximum level, and whether it is treasure, tradeable, a curse, discoverable or offered by an enchanting table, along with what it applies to and what it excludes. It ships an Apothic compat class, which matters here because the pack has apothic_enchanting. jei, emi and rei are all optional to it, and its one EMI mixin is @Pseudo, so the EMI half goes quiet rather than failing."
   },
   {
-   "source": "tools/overlay/mods/justenoughrecipesharing-neoforge-1.21.1-1.0.1.jar",
-   "target": "mods/justenoughrecipesharing-neoforge-1.21.1-1.0.1.jar",
-   "sha256": "d43dbb2b42abb0bbd6c6f30f59e005f371e6200d5e6ff696c3930dce2c662def",
-   "reason": "what replaces EMI Recipe Sharing (justenoughrecipesharing 1.0.1, MIT): a button on a recipe page that posts it into chat for the other players to open. It registers no category - one addRecipeButtonFactory inside registerAdvanced - and it is needed on both sides, so it is not client-only. Asks for jei [19.27.0.336,), neoforge [21.1.200,) and minecraft [1.21.1,)."
-  },
-  {
    "source": "tools/overlay/mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar",
    "target": "mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar",
    "sha256": "6f44f14ffe4e426c5c4dcdddc462e303cd2dd8962851d00f998ed73ad6e2b807",
