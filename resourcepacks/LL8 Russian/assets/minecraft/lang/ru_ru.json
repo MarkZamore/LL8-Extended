@@ -482,5 +482,6 @@
   "resourcePack.iceandfire.legacy.name": "Ice And Fire — Старые текстуры",
   "resourcePack.iceandfire.legacy.description": "Текстуры до Ice And Fire 2.0",
   "resourcePack.tropicraft.texture_update": "Обновление текстур Tropicraft",
-  "resourcePack.tropicraft.texture_update.description": "Предпросмотр! Авторы: Hexablu и Endergized."
+  "resourcePack.tropicraft.texture_update.description": "Предпросмотр! Авторы: Hexablu и Endergized.",
+  "info.tnp.music_discs": "Найти музыкальные диски в добыче из структур и сундуков или получить от мобов."
 }
