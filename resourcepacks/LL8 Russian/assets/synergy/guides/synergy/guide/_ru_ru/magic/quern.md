@@ -14,7 +14,7 @@ item_ids:
 
 Функциональный блок, который позволяет измельчать предметы
 
-Может содержать только один стек предметовck at time
+Может содержать только один стек предметов at time
 
 To insert on it items you need to right click with it
 

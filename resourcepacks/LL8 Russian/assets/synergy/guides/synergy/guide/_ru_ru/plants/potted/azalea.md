@@ -29,9 +29,9 @@ Can be obtained using an <ItemLink id="synergy:azalea_seeds" /> to an empty flow
   <Block x="0" z="1" id="synergy:azalea" p:age="7"/>
 </GameScene>
 
-### Plant attributes
+### Атрибуты растения
 
-| RightClick Harvest | Bonemealeable | Can Spread | Light Level | Spawn Location |
+| Сбор правым кликом | Можно удобрять | Может распространяться | Уровень света | Место появления |
 | ------------------ | ------------- | ---------- | ----------- | -------------- |
 | <Color color="#00ff00">True</Color>               | <Color color="#00ff00">True</Color>          | <Color color="#ff0000">False</Color>      | <Color color="#ffff00">NaN</Color>         | <Color color="#ffff00">NaN</Color>            |
 |                    |               |            |             |                |

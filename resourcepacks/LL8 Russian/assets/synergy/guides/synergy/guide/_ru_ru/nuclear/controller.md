@@ -14,7 +14,7 @@ item_ids:
 
 Ядро квантовых реакторов
 
-Производит тепло и энергию на основе топливных элементов, когдаn actived with a redstone signal
+Производит тепло и энергию на основе топлива Cells when actived with a redstone signal
 
 It has an AOE to define all valid blocks
 

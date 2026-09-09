@@ -24,9 +24,9 @@ item_ids:
 
 Может собирать:
 
-- any crop mono-block
-- any type of tree and nether fungus
-- any tall-crop (<ItemLink id="minecraft:sugar_cane"/> , <ItemLink id="minecraft:cactus"/> , <ItemLink id="minecraft:bamboo"/>)
+- любой монолитный урожай
+- любой тип дерева и грибов Нижнего мира
+- любой высокий урожай (<ItemLink id="minecraft:sugar_cane"/> , <ItemLink id="minecraft:cactus"/> , <ItemLink id="minecraft:bamboo"/>)
 - <ItemLink id="minecraft:cocoa_beans"/>
 - <ItemLink id="minecraft:melon"/> and <ItemLink id="minecraft:pumpkin"/>
 - <ItemLink id="minecraft:sweet_berries"/>
@@ -74,11 +74,11 @@ item_ids:
 <Block x="7" y="1" z="6" id="synergy:azalea" p:age="1"/>
 
   <BoxAnnotation color="#00FF00" min="1.0 1.0 1.0" max="10.0 2.0 10.0">
-       Area of Effect (9x9) <br/> Can be unlocked in-game using a <ItemImage id="synergy:configurator" scale="0.75"/> <ItemLink id="synergy:configurator"/>
+       Зона действия (9x9) <br/> Можно разблокировать в игре с помощью <ItemImage id="synergy:configurator" scale="0.75"/> <ItemLink id="synergy:configurator"/>
   </BoxAnnotation>
 
 </GameScene>
 
 <RecipeFor id="synergy:harvester" />
 
-_Also Сборщик урожая include an entire custom API to allow other mods to add support without need to use mixin_
+_Сборщик урожая также включает полный пользовательский API, чтобы позволить другим модам добавлять поддержку без необходимости использовать миксины_

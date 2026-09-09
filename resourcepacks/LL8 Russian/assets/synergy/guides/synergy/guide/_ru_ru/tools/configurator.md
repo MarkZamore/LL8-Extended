@@ -14,7 +14,7 @@ item_ids:
 
 Инструмент, который показывает отладочные рендеры машин
 
-Может показать зону действия (like Сборщик урожая)
+Может показать зону действия of Effect (like Сборщик урожая)
 
 To link at a machine/block you need to click on it to save the BlockPos and it will directly select the correct mode
 

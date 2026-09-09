@@ -12,13 +12,13 @@ item_ids:
 
 # Дикий рис
 
-Куст, который может появиться в Надземном мире и выбросить <ItemLink id="synergy:rice_seed"/>>
+Куст, который может появиться в Надземном мире и выбросить <ItemLink id="synergy:rice_seed"/>
 
 <BlockImage id="synergy:wild_rice" scale="4.0"/>
 
-### Plant attributes
+### Атрибуты растения
 
-| RightClick Harvest | Bonemealeable | Can Spread | Light Level | Spawn Location |
+| Сбор правым кликом | Можно удобрять | Может распространяться | Уровень света | Место появления |
 | ------------------ | ------------- | ---------- | ----------- | -------------- |
 | <Color color="#ff0000">False</Color>              | <Color color="#ff0000">False</Color>         | <Color color="#ff0000">False</Color>      | <Color color="#ffff00">NaN</Color>         | Any Jungle     |
 |                    |               |            |             | Any Swamp      |

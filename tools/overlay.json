@@ -383,22 +383,22 @@
    "reason": "requested addition, kept through pack updates (Chest Tracker 2.6.8, the unofficial NeoForge port of JackFred's mod): remembers what was in every container you opened and searches that memory, so a chest found once can be found again. Client only, needs YetAnotherConfigLib which the pack already ships, and NeoForge 21.1.233 or newer against the pack's 21.1.244. Its own default key is the grave accent, which FTB Ultimine holds, so the preset hands it no key rather than let the two land on one"
   },
   {
-   "source": "tools/overlay/mods/ldlib2-neoforge-1.21.1-2.2.28-all.jar",
-   "target": "mods/ldlib2-neoforge-1.21.1-2.2.28-all.jar",
-   "sha256": "269bfece040f306babd375895d00abc4661f0fb950e6ff9c3ffcaa94ca91f835",
-   "reason": "what UFO FUTURE's recipe screens are drawn with. Its JEI plugin registers five categories and one of them, MultiblockInfoCategory, is written against com.lowdragmc.lowdraglib2 with no ModList guard around it - so without this the plugin does not lose one screen, it fails to register and all five go. 2.2.28 rather than the newest: every build from 2.2.29 on wants jei [19.39.0.368,), and the JEI here is the 19.27.0.343 stub TooManyRecipeViewers declares, which would be an unsatisfied optional against a present mod - a hard stop in NeoForge, and the pack scanner calls it blocking. 2.2.28 asks for no jei at all and carries all nine lowdraglib2 classes UFO reaches for"
+   "source": "tools/overlay/mods/ldlib2-neoforge-1.21.1-2.2.39.a-all.jar",
+   "target": "mods/ldlib2-neoforge-1.21.1-2.2.39.a-all.jar",
+   "sha256": "cbb3a0ef0f807071789eac52febfd0e383de4e7a757d43f3ff258914c764d0dc",
+   "reason": "what UFO FUTURE's recipe screens are drawn with. Its JEI plugin registers five categories and one of them, MultiblockInfoCategory, is written against com.lowdragmc.lowdraglib2 with no ModList guard around it - so without this the plugin does not lose one screen, it fails to register and all five go. 2.2.39.a rather than the 2.2.28 pinned here before, and this half of the JEI switch is not optional: 2.2.28's ItemSlot$JEISupport and Scene$JEISupport both link straight against mezz.jei.library.ingredients.itemStacks.TypedItemStack, and that whole package is gone from JEI 19.52.0.423 - a direct code reference in an inner class, not a mixin, so there is no soft-fail path and opening an LDLib2 slot or scene would be a NoClassDefFoundError. It worked only while the pack's jei was the 19.27-shaped stub TooManyRecipeViewers embedded. 2.2.39.a makes 40 mezz.jei references and every one resolves against 19.52.0.423, and it asks for jei [19.51.0.417,) optional - which the real JEI satisfies and no stub ever could, which is the whole reason 2.2.28 was pinned in the first place. UFO's own 24 lowdraglib2 references resolve against both builds, so nothing it draws changes."
   },
   {
    "source": "tools/overlay/mods/projectexpansion-1.21.1-1.0.6.jar",
    "target": "mods/projectexpansion-1.21.1-1.0.6.jar",
    "sha256": "96ef339eed405a4b1257420a6ff19279534de911f966b51fb6f1231fb0ff32f5",
-   "reason": "requested addition, kept through pack updates (projectexpansion 1.21.1-1.0.6). What makes ProjectE reach the rest of a technical pack: EMC links, tiered collectors and condensers, and learning items without holding them. Asks for projecte [1.1.0,) against the 1.1.0 added beside it, and neoforge [21.1.119,) against 21.1.248. Unlike UFO it hides nothing: the only foreign package it touches is mezz.jei, and its integrations for curios, jade, jei, top and wthit are all optional - curios, jade and the TMRV jei stub are here, top and wthit are not and simply do not load. Added knowing the neutron collector still prints EMC; that was the owner's call, not an oversight"
+   "reason": "requested addition, kept through pack updates (projectexpansion 1.21.1-1.0.6). What makes ProjectE reach the rest of a technical pack: EMC links, tiered collectors and condensers, and learning items without holding them. Asks for projecte [1.1.0,) against the 1.1.0 added beside it, and neoforge [21.1.119,) against 21.1.248. Unlike UFO it hides nothing: the only foreign package it touches is mezz.jei, and its integrations for curios, jade, jei, top and wthit are all optional - curios, jade and jei are here, top and wthit are not and simply do not load. Added knowing the neutron collector still prints EMC; that was the owner's call, not an oversight"
   },
   {
    "source": "tools/overlay/mods/ufo-2.1-fix7.jar",
    "target": "mods/ufo-2.1-fix7.jar",
    "sha256": "3220ef45399e586581bd351d63db3923f5d66c7fa053cffa207960119ffe491d",
-   "reason": "requested addition, kept through pack updates (ufo 2.1-fix7). Its own toml asks only for neoforge [21.1.216,) - this pack is on 21.1.248 - but the jar is built on Applied Energistics 2 far past what it declares: 118 classes reach into appeng and six mixins go straight into AE2 internals, CraftingCPUCluster and the CPU selection list among them. Both AE2 and Mekanism, which another 24 classes touch, are in the pack. CurseForge lists LDLib and Applied Mekanistics as required and neither is: Applied Mekanistics is referenced by nothing at all, and LDLib only by three classes under compat/jei, which is a JEI plugin and this pack ships EMI. The same gap means its recipes do not appear in EMI, because it has no EMI integration. The jar is the one CurseForge published, byte for byte. It registers quantum_pattern_hatch_menu twice - through AE2 build(id), which also queues the id, from inside a DeferredRegister that registers it as well - and that is what stopped the pack starting the day it arrived. Launcher release 336 rewrites the call to buildUnregistered as the class loads, so the jar stays as its author made it. The price is that this pack now needs that launcher to start at all: in any other one it dies on Adding duplicate key before the main menu."
+   "reason": "requested addition, kept through pack updates (ufo 2.1-fix7). Its own toml asks only for neoforge [21.1.216,) - this pack is on 21.1.248 - but the jar is built on Applied Energistics 2 far past what it declares: 118 classes reach into appeng and six mixins go straight into AE2 internals, CraftingCPUCluster and the CPU selection list among them. Both AE2 and Mekanism, which another 24 classes touch, are in the pack. CurseForge lists LDLib and Applied Mekanistics as required and neither is: Applied Mekanistics is referenced by nothing at all, and LDLib only by three classes under compat/jei. That is its JEI plugin, and since this build now runs real JEI it is the one thing that draws UFO's recipes at all - the jar has no EMI integration, so while EMI was the viewer they were invisible. That is why ldlib2 is pinned beside it. The jar is the one CurseForge published, byte for byte. It registers quantum_pattern_hatch_menu twice - through AE2 build(id), which also queues the id, from inside a DeferredRegister that registers it as well - and that is what stopped the pack starting the day it arrived. Launcher release 336 rewrites the call to buildUnregistered as the class loads, so the jar stays as its author made it. The price is that this pack now needs that launcher to start at all: in any other one it dies on Adding duplicate key before the main menu."
   },
   {
    "source": "tools/overlay/mods/windy-neoforge-1.21.1.jar",
@@ -425,10 +425,10 @@
    "reason": "requested addition, kept through pack updates (Sun & Moon Fusion 2.1): two textures, sun.png and moon_phases.png. It is listed above The Sky Sun and Moon and zazu sun and moon, which draw the same two, so this is the one that shows"
   },
   {
-   "source": "tools/overlay/mods/minecolonies-1.1.1376-1.21.1-snapshot.jar",
-   "target": "mods/minecolonies-1.1.1376-1.21.1-snapshot.jar",
-   "sha256": "ac86d034b696d9eaccdc089c67d788dde21681902cfc75ada075fd677b479a6d",
-   "reason": "requested addition, kept through pack updates (MineColonies 1.1.1376): a colony of villagers who build what you plan for them. 1.21.1 has only snapshot builds - that is how this mod ships for a version it is still following - and this is the newest. Its own toml asks for structurize [1.0.832-1.21.1-snapshot,), blockui [1.0.199-1.21.1-snapshot,) and domum_ornamentum [1.0.223-snapshot,); the first two come with it here and the third was already in the pack at 1.0.234, so no upstream jar had to move. JEI is optional at [19.19.6.235,) and the stub TMRV ships answers 19.27.0.343, so its recipes are offered rather than refused. CurseForge also marks Multi-Piston and TownTalk required and the jar declares neither: Multi-Piston is here anyway because the builder calls it, TownTalk is not - fifty megabytes of 2024 voice lines nothing in this jar asks for"
+   "source": "tools/overlay/mods/minecolonies-1.1.1381-1.21.1-snapshot.jar",
+   "target": "mods/minecolonies-1.1.1381-1.21.1-snapshot.jar",
+   "sha256": "2543c77ace4de637c3d185627a43ee53a25688b3e199ae9a5e795de3a8db8d80",
+   "reason": "requested addition, kept through pack updates (MineColonies 1.1.1381): a colony of villagers who build what you plan for them. 1.21.1 has only snapshot builds - that is how this mod ships for a version it is still following - and this is the newest. Its own toml asks for structurize [1.0.832-1.21.1-snapshot,), blockui [1.0.199-1.21.1-snapshot,) and domum_ornamentum [1.0.223-snapshot,); the first two come with it here and the third was already in the pack at 1.0.234, so no upstream jar had to move. JEI is optional at [19.19.6.235,) and the pack's JEI is 19.52.0.423, so its recipes are offered rather than refused. CurseForge also marks Multi-Piston and TownTalk required and the jar declares neither: Multi-Piston is here anyway because the builder calls it, TownTalk is not - fifty megabytes of 2024 voice lines nothing in this jar asks for"
   },
   {
    "source": "tools/overlay/mods/structurize-1.0.833-1.21.1-snapshot.jar",
@@ -578,7 +578,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "cd4963490e5e9b86f1d00136d78e66874191e7858c1d379cd947ad4d91a712e9",
+    "sha256": "f3036e2e0060dd65643ef973eab5003160d991eaec978f4e5fd10014fad639f0",
     "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {
@@ -639,7 +639,7 @@
     "source": "tools/overlay/mods/Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
     "target": "mods/Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
     "sha256": "abb5b3dbaf7c9aef73673041851a3246ac6c3f18a2e2b2aa329e57e927c25df1",
-    "reason": "requested addition, kept through pack updates (Re:Avaritia 1.4.1): the Extreme Crafting Table, the neutron collector and compressor, the singularities and the Infinity gear - Nova Committee's rewrite of Avaritia. It declares only minecraft and carries no nested jars. Recipes need no help: the jar ships its own EMI plugin (AvaritiaEmiPlugin, six categories), so the pack's EMI shows them without JEI, and the pack's TooManyRecipeViewers already answers to the modId jei, so a real JEI could not be added beside it."
+    "reason": "requested addition, kept through pack updates (Re:Avaritia 1.4.1): the Extreme Crafting Table, the neutron collector and compressor, the singularities and the Infinity gear - Nova Committee's rewrite of Avaritia. It declares only minecraft and carries no nested jars. Recipes need no help under either viewer: the jar ships both plugins, AvaritiaEmiPlugin and AvaritiaJeiPlugin, and each registers the same six categories - so the move from EMI to real JEI left its pages exactly where they were."
    },
    {
     "source": "tools/overlay/mods/avaritia_expand-0.3.6.jar",
@@ -772,6 +772,96 @@
    "target": "config/fancymenu/customization/mainmenu.txt",
    "sha256": "91f8e5b2d24971ae073d8267eaf8e6ca9fa6ce0fc6e05736432ded378a72c3e0",
    "reason": "requested change, kept through pack updates: the two seasonal greetings on the main menu, in Russian. Same reason as the loading screen above."
+  },
+  {
+   "source": "tools/overlay/mods/jei-1.21.1-neoforge-19.52.0.423.jar",
+   "target": "mods/jei-1.21.1-neoforge-19.52.0.423.jar",
+   "sha256": "b766ef1516c106e36256e3f2fb8854f675dcd7534bc42781a211de3824aef4ff",
+   "reason": "requested addition, kept through pack updates (Just Enough Items 19.52.0.423, MIT): the recipe viewer this build now runs, in place of EMI and the TooManyRecipeViewers shim that used to answer to the modId jei. The switch was decided on how many recipes are visible in game - EMI behind the shim loses at least 690 entries across six mods and part-loads 66 of 246 plugins, JEI alone loses 265 and not one of those is a mod's main mechanic. Every one of the 49 jei dependency edges the pack declares is satisfied by this build: the highest lower bound is ldlib2's [19.51.0.417,), and the only upper bounds anywhere are [19.0.0,20.0.0) and [19.5,20). Wants neoforge [21.1.238,) against the pack's 21.1.248. Its own minecraft range reads [1.21, 1.21.1), which excludes the version it is built for; forty-five jars in this pack declare the same shape and tools/scan_mods.py already downgrades it to a warning, naming jei in the comment. It has to arrive in the same change that removes toomanyrecipeviewers, which declares a second [[mods]] block with modId jei at 19.27.0.343: two jars claiming one modId is a duplicate and the pack does not start."
+  },
+  {
+   "source": "tools/overlay/mods/ae2jeiintegration-1.2.1.jar",
+   "target": "mods/ae2jeiintegration-1.2.1.jar",
+   "sha256": "2989c5d762d3f14a58b4db6519daaff81e719dff3445a2b39328948ac23e548b",
+   "reason": "what draws Applied Energistics recipes now that EMI is gone (ae2jeiintegration 1.2.1, LGPL-3.0). AE2 itself ships an EMI plugin and not one class that references mezz.jei, so without this its pages have nowhere to be drawn. Its @JeiPlugin adds seven categories - Transform, Condenser, Inscriber, Charger, Attunement, Certus Growth and Entropy Manipulator - plus item subtypes, catalysts, the crafting-terminal and pattern-encoding transfer handlers, the facade registry and the AE2 screen handlers. It is also a library four AE2 addons already in this pack compile against and could not reach until now: ExtendedAE files its own recipes into ChargerCategory and InscriberRecipeCategory, Applied Mekanistics and Applied Experienced register ingredient converters through IngredientConverters, and expandedae mixes into this very plugin class, all four gated on ModList.isLoaded(\"ae2jeiintegration\"). Asks for ae2 [19.0.22-beta,) against 19.2.17 and jei [19.19.3,) against 19.52.0.423. It does not carry the storage cell upgrade recipes: those are CustomRecipe subclasses whose isSpecial() returns true, and no viewer can show them."
+  },
+  {
+   "source": "tools/overlay/mods/PastelJEI-21.1.8.jar",
+   "target": "mods/PastelJEI-21.1.8.jar",
+   "sha256": "01d8a7787c007f56be3b7cfe2b67b79ade797f8d5b9b42e34dcb81a98f765141",
+   "reason": "what draws Pastel's recipes now that EMI is gone (pasteljei 21.1.8, LGPL-3.0-only). Pastel ships an EMI plugin and no JEI one; this adds 24 categories against EMI's 21, with 38 catalysts, 14 transfer handlers, 14 subtype interpreters and two recipe click areas. It carries JEIDrawables 21.1.5 (MIT) as a nested jar and nothing else in the pack provides that modId. The first thing its plugin does is check ModList.isLoaded(\"emi\") and log \"PastelJEI is disabled with EMI as Pastel has native EMI support\" before returning - which is why it would have been inert before this change and is live after it. Asks for pastel [1.1.5,) against 1.1.5.5, jei * and jeidrawables *, and marks emi and rei discouraged."
+  },
+  {
+   "source": "tools/overlay/mods/refinedstorage-jei-integration-neoforge-1.0.0.jar",
+   "target": "mods/refinedstorage-jei-integration-neoforge-1.0.0.jar",
+   "sha256": "e1721529412de7be9087702c46acbe1c4d1d594418df73a2bbebe3780396fb79",
+   "reason": "the Refined Storage bridge, in place of the EMI one it replaces (refinedstorage_jei_integration 1.0.0, MIT, same authors). Neither edition registers a category: what they carry is the wiring that makes a recipe usable from a grid, and this one has more of it - four transfer handlers for the crafting, processing, stonecutter and smithing pattern grids, one universal handler, two ghost-ingredient handlers, the search aliases and the grid exclusion zones. 33 classes against the EMI edition's 20. Asks for refinedstorage 2.0.0-beta.1 against the 2.0.9 here and jei [19.20.0,)."
+  },
+  {
+   "source": "tools/overlay/mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+   "target": "mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+   "sha256": "b34d6bb434d507874a6ebe49d40169c26f7cad8f51c9ffea615eedb153746696",
+   "reason": "what replaces EMI Professions, written by the same author (justenoughprofessions 4.0.5, MIT): one category, justenoughprofessions:professions, walking BuiltInRegistries.VILLAGER_PROFESSION past NONE and giving each profession its job site, catalysed by an emerald and a villager spawn egg. Asks for jei [19.3.1.22,), neoforge [21.0.76-beta,) and minecraft [1.21,1.22)."
+  },
+  {
+   "source": "tools/overlay/mods/UniversalEnchantmentInfo-1.21.1-neoforge-1.3.0.jar",
+   "target": "mods/UniversalEnchantmentInfo-1.21.1-neoforge-1.3.0.jar",
+   "sha256": "c50b206ead2fe0cbf35edd310f793e869f28b1d12200d3a96885a9e02cfd6d86",
+   "reason": "what replaces EMI Enchanting, and more than replaces it (uei 1.3.0, MIT): one category, uei:ench_info, whose page carries an enchantment's description, rarity, maximum level, and whether it is treasure, tradeable, a curse, discoverable or offered by an enchanting table, along with what it applies to and what it excludes. It ships an Apothic compat class, which matters here because the pack has apothic_enchanting. jei, emi and rei are all optional to it, and its one EMI mixin is @Pseudo, so the EMI half goes quiet rather than failing."
+  },
+  {
+   "source": "tools/overlay/mods/justenoughrecipesharing-neoforge-1.21.1-1.0.1.jar",
+   "target": "mods/justenoughrecipesharing-neoforge-1.21.1-1.0.1.jar",
+   "sha256": "d43dbb2b42abb0bbd6c6f30f59e005f371e6200d5e6ff696c3930dce2c662def",
+   "reason": "what replaces EMI Recipe Sharing (justenoughrecipesharing 1.0.1, MIT): a button on a recipe page that posts it into chat for the other players to open. It registers no category - one addRecipeButtonFactory inside registerAdvanced - and it is needed on both sides, so it is not client-only. Asks for jei [19.27.0.336,), neoforge [21.1.200,) and minecraft [1.21.1,)."
+  },
+  {
+   "source": "tools/overlay/mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar",
+   "target": "mods/starcatcher-3.1.3-NEOFORGE-1.21.1.jar",
+   "sha256": "6f44f14ffe4e426c5c4dcdddc462e303cd2dd8962851d00f998ed73ad6e2b807",
+   "reason": "Starcatcher moved off upstream's 3.0.6 because of this change: 3.0.6's JEI plugin has no registerVanillaCategoryExtensions and 3.1.3's does, and StarcatcherJeiSmithingCategoryExtension is what draws the fishing-rod upgrade on the smithing table - without it that recipe has no page under real JEI. The extension extends JEI's own mezz.jei.library.plugins.vanilla.anvil.SmithingCategoryExtension and feeds its constructor from Services.PLATFORM, both of which 19.52.0.423 still has. Same dependency block as 3.0.6 - neoforge [21.1.233,), minecraft [1.21.1,1.21.2), and starcatcher_delight optional [3.0,) with incompatible [,3.0) against the 3.0.1 the pack ships - so no new mod comes with it. Its nested jars carry Selling Bin 1.6 and tiny-multiblock-lib 4.0.0, which is the version the standalone jar already provides, so JarJar no longer has three copies to choose between. MIT."
+  },
+  {
+   "source": "tools/overlay/resourcepacks/AE2 Guide [RU] 2026-03-22.zip",
+   "target": "resourcepacks/AE2 Guide [RU] 2026-03-22.zip",
+   "sha256": "64da28b881f05c8f049a0fcec06c60c9a9ea9e22864cf2cae4fde25a8860021b",
+   "reason": "requested addition, kept through pack updates: the AE2 guide in Russian, and thirteen of its addons with it - 233 pages across ae2, extendedae, advanced_ae, appflux, arseng, megacells, ae2wtlib, expandedae, enderdrives, merequester and three more. GuideME looks for a translated page at _<lang>/<the same path>, which is exactly how this pack is laid out, and it is the only Russian one for these guides that may be shipped: CurseForge project 1493046 by BlackMouse74, MIT, allowModDistribution true. The rival packs for the same guides are all rights reserved or write over the English files instead."
+  },
+  {
+   "source": "tools/overlay/mods/IC2CRE_0.3_4f-dev_NeoForge_1.21.1.jar",
+   "target": "mods/IC2CRE_0.3_4f-dev_NeoForge_1.21.1.jar",
+   "sha256": "6784db6ca3a104004955598be91bdb9dac65309d83756900ac8fee272e812e4f",
+   "reason": "requested addition, kept through pack updates (IC2: Community Reconstruction Edition 0.3_4f, MIT). IndustrialCraft rebuilt for 1.21.1: EU, machines, ore processing, the reactor. It is on neither CurseForge nor Modrinth and ships only as a GitHub release asset of BigFish520/IC2-CRE, which is why a search for it comes back empty. Declares only neoforge [21.1.233,) and minecraft 1.21.1 as required and bundles no jar-in-jar; its three optional integrations - Mekanism, Jade and TerraBlender 4.1.0.8 - are all already here. The build is marked dev by its author."
+  },
+  {
+   "source": "tools/overlay/mods/Advanced.Solar.Panels-0.3_4f-dev.jar",
+   "target": "mods/Advanced.Solar.Panels-0.3_4f-dev.jar",
+   "sha256": "262ac6deba47bd959ca731476bace1986fc43143bac9c48f1bac07ccd10cf1b9",
+   "reason": "requested addition, kept through pack updates (Advanced Solar Panels 0.3_4f): the tiered solar panels of the IC2 line. Needs ic2cre and nothing else."
+  },
+  {
+   "source": "tools/overlay/mods/Energy.Control-0.3_4f-dev.jar",
+   "target": "mods/Energy.Control-0.3_4f-dev.jar",
+   "sha256": "fde1aed4e43c95afddafc9c61abac2fb7514f2a235de0a81100dc396194848bf",
+   "reason": "requested addition, kept through pack updates (Energy Control 0.3_4f): panels and sensor kits that read a machine and put the numbers on a wall. Needs ic2cre and nothing else."
+  },
+  {
+   "source": "tools/overlay/mods/Gravitation.Suite-0.3_4f-dev.jar",
+   "target": "mods/Gravitation.Suite-0.3_4f-dev.jar",
+   "sha256": "258ac0754a37b951a943d7b3f3b71620f12691201dc52320de8e4cf11f288bcc",
+   "reason": "requested addition, kept through pack updates (Gravitation Suite 0.3_4f): the flight and movement armour of the IC2 line. Needs ic2cre and nothing else."
+  },
+  {
+   "source": "tools/overlay/mods/Iridium.Source-0.3_4f-dev.jar",
+   "target": "mods/Iridium.Source-0.3_4f-dev.jar",
+   "sha256": "6eee9211db65923e048b1817bec02495e00875e48ddcac9968243d14a3f2060d",
+   "reason": "requested addition, kept through pack updates (Iridium Source 0.3_4f): a way to get iridium without waiting on a dungeon chest. Needs ic2cre and nothing else."
+  },
+  {
+   "source": "tools/overlay/mods/thavma-neoforge-1.21.1-0.12.4.jar",
+   "target": "mods/thavma-neoforge-1.21.1-0.12.4.jar",
+   "sha256": "0c72c4dda9ae12d5cc1d8ffe393ff8d7523a08173601574dfa68117ae7fed456",
+   "reason": "requested addition, kept through pack updates (Thavma 0.12.4, Modified CoFH Don't Be a Jerk v2). A rewrite of Thaumcraft for modern versions: 35 aspects, scanning, a research table and its book, twelve wands, four foci, arcane workbench, crucible, infusion, aura nodes, goggles of revealing, greatwood and silverwood. No golems, no flux, no taint, no warp, so the price magic used to carry is absent. Asked for after it turned out that Thaumcraft itself has no 1.21.1 port at all: the version named in the request exists only as a local file in one developer's build script. Its geckolib [4.8.2,) and kotlinforforge [5.10.0,) are met here by 4.9.2 and 5.12.0."
   }
 ],
  "tomlEdits": [
@@ -823,6 +913,20 @@
    "key": "useTickCounter",
    "value": "true",
    "reason": "count the hour of play, not the hour on the clock. Wall time keeps running while nobody is playing, so an evening away came back as time owed and the mod paid it the moment the world opened - a backup landing on top of world load, every session. This was tried once before and put back, because nothing was ever backed up: checkForTickCounterConfigUpdate converts the stored timestamp to ticks and then clamps it with Math.max(lastSaved, timerTicks), so with an hour's timer the first backup waits for the world's game time to pass two hours, and these worlds had minutes on them. The conversion only runs when the config and the world's saved data disagree, so the existing worlds were set to agree in advance with lastSaved already in ticks - nothing to convert, nothing to clamp. A world made from now on still meets the clamp once and gets its first backup at two hours"
+  },
+  {
+   "file": "config/projectexpansion/server.toml",
+   "table": "",
+   "key": "enableCollectorOptimizations",
+   "value": "true",
+   "reason": "closes the Watch of Flowing Time's nineteenfold on Project Expansion collectors and costs the honest rate nothing. BlockEntityCollector.tickServer reads this key first: at false there is no game-time gate at all and the method falls straight through to updateEmc, at true it gates on getGameTime() % 20 == Util.mod(hashCode(), 20) and returns on every other tick. updateEmc compensates exactly - getCollectorOutputForTicks(optimizations ? 20 : 1), the bipush 20 / iconst_1 branch at offsets 19-28 - so the EMC per second is the same either way. What the gate turns away is ProjectE's TimeWatch.provideBonusTicks, which calls the block entity's ticker directly without advancing the game clock: with the switch off, a collector under a Watch pedestal ran its EMC path nineteen extra times a tick and was paid for every one. Both halves are their own authors' defaults - Config$Server define(\"enableCollectorOptimizations\", false), iconst_0 at offset 455, against ProjectE's enableTimeWatch = true - and neither author saw the other, which is what makes this one this build's to close rather than the mod's to declare. Power Flowers were never touched by it: they gate on game time unconditionally. The price is the one the mod's own comment names, a collector upgrading at most one item a second. Project Expansion writes this file itself and upstream ships none, so the copy in config/ is this build's - held by the keep entry below, claimed in pack-owned.txt, and put back to true by this line if the mod or a release ever rewrites it"
+  },
+  {
+   "file": "config/chickens.toml",
+   "table": "general",
+   "key": "scalingDrops",
+   "value": "false",
+   "reason": "a roost stops multiplying every drop by 64. Modern Chickens arrived with this build and a wooden roost consumes nothing at all - RoostBlockEntity.requiredSeedsForDrop returns iconst_0 and isFullOfSeeds is true unconditionally at zero - while RoostBlockEntity passes ChickensConfigValues.isScalingDropsEnabled() into ChickenContainerEntry.createLay, which at true calls ChickenStats.scaleOutput and setCount(outputCount()), and outputCount is the table 1,3,6,10,16,23,31,41,52,64 over gain 1 to 10. Sixteen bred chickens at gain 10 therefore lay 64 items a drop, and the timer never answers for it: getAddedTime is min(2048, chickens x growth) and does not look at the stack. Against ProjectE's prices a dimensionalShardChicken - Quartz x Ender, no boss anywhere in it - comes to 2.28e9 EMC an hour on a roost of planks and a chest, and eight times that on a mechanical one. Modern Chickens declares the lay rates, ProjectE declares the prices, and nobody declared this. At false a drop is the chicken's own lay item, one item, which divides that by 64 and leaves 2.85e8 EMC an hour against the 1.34e8 this build already accepts from Re:Avaritia's Densest Neutron Collector; roostSpeed would halve it again and is deliberately left alone, because twice the accepted rate is not the ten times over that the owner set as the line. The file in config/ is the mod's own defaultconfigs/chickens.toml out of the jar, byte for byte with this one value changed: TomlConfigBridge.ensureResource returns at once when config/chickens.toml is already there, so the mod reads this copy and writes nothing back over it"
   }
  ],
  "remove": [
@@ -1037,7 +1141,47 @@
   {
     "path": "resourcepacks/Authentic Shadows_1.21+.zip",
     "reason": "this build ships its own copy as resourcepacks/Authentic_Shadows_1.21+.zip and locks it by that name; upstream's, spelled with a space, was a second copy of one pack and the game loaded both"
-   }
+   },
+  {
+   "path": "mods/emi-1.1.24*.jar",
+   "reason": "EMI, the recipe viewer this build replaced with real JEI, which arrives in the same change. The choice was made on how many recipes are visible in game: EMI behind TooManyRecipeViewers lost at least 690 entries across six mods - all 35 Kiln recipes of Instrumentus, every recipe of Iron's Jewelry's station, 47 of Iron's Spellbooks' alchemist cauldron, Mekanism Tools' anvil pages, LaserIO's runtime hook and Some Assembly Required's search aliases - and part-loaded 66 of 246 JEI plugins. JEI alone loses 265 entries and not one of them is a mod's main mechanic. The glob names the version so that it cannot also swallow emi-qol-tweaks, which is removed on a line of its own."
+  },
+  {
+   "path": "mods/toomanyrecipeviewers-*.jar",
+   "reason": "the shim that let JEI plugins draw into EMI. It declares a second [[mods]] block with modId jei at version 19.27.0.343, so it cannot sit beside the real JEI pinned above - that is one modId claimed by two jars, and the pack does not start. It is also what part-loaded 66 of the 246 plugins: JEIPluginManager.dispatch skips the registerRecipes, catalyst, advanced, transfer, gui, alias, mod-info and runtime phases for any plugin whose namespace already has an EMI plugin. Nothing in the pack declares a dependency on it."
+  },
+  {
+   "path": "mods/emi_loot-*.jar",
+   "reason": "EMI Loot: it declares emi required [1.0.0,) and carries no mezz.jei class at all, so it cannot follow the pack to JEI. The tables themselves stay - Simple Loot Viewer's own @JeiPlugin registers a category per loot type, all eight switched on in config/simplelootviewer.json, and Just Enough Resources is here too. What goes with it is EMI Loot's presentation: decimal chances and loot-condition lines."
+  },
+  {
+   "path": "mods/emi_enchanting-*.jar",
+   "reason": "four classes and emi required [1.0.0,). Universal Enchantment Info is pinned above in its place, with the same page and more on it."
+  },
+  {
+   "path": "mods/EMIProfessions-*.jar",
+   "reason": "the EMI port of Just Enough Professions: emi required [1.1.10,) and not one mezz.jei class. Just Enough Professions 4.0.5 is pinned above in its place - same author, same walk over the villager profession registry."
+  },
+  {
+   "path": "mods/emi-qol-tweaks-*.jar",
+   "reason": "modId emiaddon: emi required [0,), and six of its twelve mixins go into dev.emi.emi in a config marked required. Its FTB Quests half is covered by ftb-xmod-compat, whose own @JeiPlugin registers the Quests and Loot Crate categories and which reached the viewer only through the shim until now. What is lost with it is its Share Hovered Item key and the chat links that key made."
+  },
+  {
+   "path": "mods/emirecipesharing-*.jar",
+   "reason": "emi required [1.1.20+1.21.1,), with client.RecipeDisplayMixin and client.EmiRenderHelperMixin going into EMI in a config marked required. Just Enough Recipe Sharing is pinned above in its place."
+  },
+  {
+   "path": "mods/refinedstorage-emi-integration-*.jar",
+   "reason": "emi required [1.1.7,). The JEI edition of the same bridge, by the same authors and with more transfer handlers, is pinned above in its place."
+  },
+  {
+   "path": "mods/starcatcher-3.0.*.jar",
+   "reason": "upstream's Starcatcher, replaced by the 3.1.3 pinned above, whose JEI plugin has the smithing-table extension 3.0.6's lacks. The glob does not reach starcatcher_delight-3.0.1: that name has an underscore where this one has a dash. Pins run before removals, so 3.1.3 is already written when this line is read, and this glob does not match it."
+  },
+  {
+   "path": "mods/distraction_free_recipes-*.jar",
+   "reason": "its two JEI mixins are switched on for the first time by this change and cannot work. MixinPlugin.shouldApplyMixin applies a mixin whose name contains JEI only when jei is loaded and emi is not, which was never true while EMI was here; JEICombinedInputHandlerMixin targets mezz.jei.gui.overlay.IngredientGridWithNavigation$UserInputHandler and JEIIngredientListOverlayMixin reaches for mezz.jei.gui.overlay.ScreenPropertiesCache, and JEI 19.52.0.423 has neither - the grid moved to gui/overlay/ingredients/ and the cache is now GuiPropertiesCache. mixins.distraction_free_recipes.json is required with injectors.defaultRequire 1, so the best case is Mixin logging the missing target and dropping them and the worst is a MixinInitialisationError before the title screen. 1.2.2 is the newest 1.21.1 build that exists, and with EMI gone its EMI mixins fall silent as well, so there is nothing left for it to do."
+  }
  ],
  "keep": [
   {
@@ -1071,6 +1215,13 @@
     "mods/touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar",
     "mods/touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar",
     "mods/uranus-2.4.1-1.21.1-neoforge.jar"
+   ]
+  },
+  {
+   "reason": "Two config files this build ships for mods that write their own and upstream ships neither. A managed root is rebuilt from the release, so without this line the next update deletes both - and the two tomlEdits above would then have nothing to edit, which update_ll8.py answers by refusing to finish rather than by losing the setting quietly. They are kept rather than pinned because only one line in each is ours: everything else in them is the mod's own default, taken from the file the mod writes itself (Project Expansion) and from defaultconfigs/chickens.toml inside the jar (Modern Chickens). If a release ever starts shipping one of these paths, its copy lands over ours and the tomlEdit puts our line back on top of it, which is what a pin could not do.",
+   "paths": [
+    "config/projectexpansion/server.toml",
+    "config/chickens.toml"
    ]
   }
  ],

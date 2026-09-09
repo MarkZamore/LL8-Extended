@@ -16,7 +16,7 @@ item_ids:
 
 Блок, который позволяет извлекать и вставлять предметы между контейнерами
 
-It can be extended using <ItemLink id="synergy:pipe" />
+Может быть расширенd using <ItemLink id="synergy:pipe" />
 
 <BlockImage id="synergy:item_transfer_node" scale="4.0" p:north="false" p:south="false" p:east="false" p:west="false" p:up="false"/>
 

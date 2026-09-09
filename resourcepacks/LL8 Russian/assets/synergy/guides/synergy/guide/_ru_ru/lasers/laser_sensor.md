@@ -12,7 +12,7 @@ item_ids:
 
 # Лазерный датчик
 
-Обнаруживает наличие лазерного луча на этой конкретной позиции блока, возвращая redstone signal as output
+Обнаруживает наличие лазерного луча на этой конкретной позиции блока redstone signal as output
 
 Right click can rotate the block
 

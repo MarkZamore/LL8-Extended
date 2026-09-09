@@ -16,9 +16,9 @@ item_ids:
 
 <BlockImage id="synergy:wild_cave_wheat" scale="4.0"/>
 
-### Plant attributes
+### Атрибуты растения
 
-| RightClick Harvest | Bonemealeable | Can Spread | Light Level | Spawn Location          |
+| Сбор правым кликом | Можно удобрять | Может распространяться | Уровень света | Место появления          |
 | ------------------ | ------------- | ---------- | ----------- | ----------------------- |
 | <Color color="#ff0000">False</Color>              | <Color color="#ff0000">False</Color>         | <Color color="#ff0000">False</Color>      | <Color color="#ffff00">NaN</Color>         | Overworld (Underground) |
 |                    |               |            |             |                         |

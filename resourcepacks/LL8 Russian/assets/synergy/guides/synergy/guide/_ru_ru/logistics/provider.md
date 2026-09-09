@@ -15,13 +15,13 @@ item_ids:
 
 Блок, который позволяет генерировать ресурсы на основе паттернов блоков
 
-It can be extended the result output using <ItemLink id="synergy:pipe" />
+Может быть расширен вывод результата с помощью <ItemLink id="synergy:pipe" />
 
 <BlockImage id="synergy:item_provider_node" scale="4.0" p:north="false" p:south="false" p:east="false" p:west="false" p:up="false"/>
 
 ## Example #1 : Cobblestone gen
 
-A simple example of how to generate cobblestone
+Простой пример того, как генерировать cobblestone
 
 <GameScene zoom="4" interactive={true}>
   <Block x="-1" id="minecraft:water"/>
@@ -42,7 +42,7 @@ A simple example of how to generate cobblestone
 
 ## Example #2 : Basalt gen
 
-A simple example of how to generate basalt
+Простой пример того, как генерировать basalt
 
 <GameScene zoom="4" interactive={true}>
   <Block x="-1" id="minecraft:blue_ice"/>
@@ -68,11 +68,11 @@ A simple example of how to generate basalt
 
 ## Example #3 : Mixed gen
 
-On this example there is a broken basalt gen with other blocks that maybe will hide a cobblestone gen
+В этом примере есть нарушенный basalt gen with other blocks that maybe will hide a cobblestone gen
 
-It can find <ItemImage id="minecraft:lava_bucket" scale="0.75" /> and <ItemImage id="minecraft:soul_soil" scale="0.75" /> but cannot find <ItemImage id="minecraft:basalt" scale="0.75" /> and <ItemImage id="minecraft:blue_ice" scale="0.75" /> so it still incomplete
+Может найти <ItemImage id="minecraft:lava_bucket" scale="0.75" /> and <ItemImage id="minecraft:soul_soil" scale="0.75" /> но не может найти <ItemImage id="minecraft:basalt" scale="0.75" /> and <ItemImage id="minecraft:blue_ice" scale="0.75" /> поэтому это ещё неполно
 
-However it has found <ItemImage id="minecraft:water_bucket" scale="0.75" /> and <ItemImage id="minecraft:cobblestone" scale="0.75" /> so it will produce <ItemImage id="minecraft:cobblestone" scale="0.75" />
+Однако он нашёл <ItemImage id="minecraft:water_bucket" scale="0.75" /> and <ItemImage id="minecraft:cobblestone" scale="0.75" /> поэтому он произведёт <ItemImage id="minecraft:cobblestone" scale="0.75" />
 
 <GameScene zoom="4" interactive={true}>
   <Block x="-1" id="minecraft:water"/>

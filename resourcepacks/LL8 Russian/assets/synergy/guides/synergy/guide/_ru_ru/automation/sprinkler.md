@@ -55,7 +55,7 @@ item_ids:
 <Block x="7" y="1" z="6" id="synergy:azalea" p:age="1"/>
 
   <BoxAnnotation color="#00FF00" min="1.0 1.0 1.0" max="10.0 4.0 10.0">
-       Area of Effect (9x9) <br/> Can be unlocked in-game using a <ItemImage id="synergy:configurator" scale="0.75"/> <ItemLink id="synergy:configurator"/>
+       Зона действия (9x9) <br/> Можно разблокировать в игре с помощью <ItemImage id="synergy:configurator" scale="0.75"/> <ItemLink id="synergy:configurator"/>
   </BoxAnnotation>
 
 </GameScene>

@@ -14,7 +14,7 @@ item_ids:
 
 Ядро квантовых реакторов
 
-Обрабатывает предметы, отправляя тепло и энергию в любой квантntum Reactor Контроллер connected
+Обрабатывает предметы, отправляя тепло и энергию at any Quantum Reactor Контроллер connected
 
 When insered an item it will directly store and will release only when fully processed
 

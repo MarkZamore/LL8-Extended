@@ -123,6 +123,7 @@ file/Re-Avaritia RUS.zip
 # strings no mod file and no pack above answers for. It sits over the
 # community packs because it is written against this build's glossary, and
 # under everything else because everything else was already decided.
+file/AE2 Guide [RU] 2026-03-22.zip
 file/LL8 Russian
 file/Authentic_Shadows_1.21+.zip
 file/EclecticTrove-noconfig-1.20.2-1.3.0.zip
