@@ -111,7 +111,10 @@ serilum_mod_translations
 # has and the one below for the rest. Lowest is the machine-made gap subset,
 # then the big community pack, then the small curated ones, then the single-mod
 # packs - the better the hand behind it, the higher it stands.
-file/MPLOCmods v37 (LL8 gap subset).zip
+file/MPLOCmods v37 full.zip
+file/Mods Russian by 35 [RU].zip
+file/Translations For Mods [RU].zip
+file/Avaritia Delight [RU].zip
 file/RTF Extension 2.7.0 (LL8, no en_us).zip
 file/Rus-For-Mods-1.21-1.1.zip
 file/Mod-Translate-10.0.2.zip
