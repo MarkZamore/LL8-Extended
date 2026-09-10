@@ -116,7 +116,14 @@
     return { id: nbt.getString('model_id'), disabled: nbt.getBoolean('disabled') }
   }
 
-  function isInScene(player, companion) {
+  // The companion names its partner by UUID, and the player cannot be asked for
+  // its own: getUUID is not a name Rhino finds on the wrapper KubeJS hands out,
+  // and the call threw a TypeError on every tick a scene was running - which is
+  // to say on every tick this function was ever meant to answer true, so the
+  // stand-down never once happened. The server turns the UUID into a player
+  // instead, and the two are matched by the name the sibling script has read
+  // since the day it was written.
+  function isInScene(player, companion, server) {
     if (companion === null) return false
 
     var nearby = player.level.getEntities(player, player.getBoundingBox().inflate(SCENE_RADIUS))
@@ -128,7 +135,9 @@
       if (!entity.isInScene()) continue
 
       var partner = entity.scenePartnerId()
-      if (partner.isPresent() && partner.get().equals(player.getUUID())) return true
+      if (!partner.isPresent()) continue
+      var who = server.getPlayerList().getPlayer(partner.get())
+      if (who !== null && who.getName().getString() === player.getName().getString()) return true
     }
 
     return false
@@ -165,7 +174,20 @@
       }
 
       var wantsPlainBody = PLAIN_PLAYER_MODELS.indexOf(state.id) >= 0
-      var shouldStandDown = wantsPlainBody || isInScene(player, resolved.companion)
+      var inScene
+      try {
+        inScene = isInScene(player, resolved.companion, event.server)
+      } catch (error) {
+        // Whatever this was, it is not worth the whole tick handler - which is
+        // what the last one cost. Said once per player, then the armour half of
+        // the rule carries on by itself.
+        if (!complainedAbout[name + ' scene']) {
+          complainedAbout[name + ' scene'] = true
+          console.warn('YSM: could not tell whether ' + name + ' is in a scene (' + error + ')')
+        }
+        inScene = false
+      }
+      var shouldStandDown = wantsPlainBody || inScene
       if (shouldStandDown === state.disabled) return
 
       console.info(
@@ -181,5 +203,15 @@
     var who = event.player.getName().getString()
     delete lastSeenModel[who]
     delete complainedAbout[who]
+    delete complainedAbout[who + ' scene']
+  })
+
+  // disabled is written into the player's own data and outlives the session, so
+  // a crash or a kill in the middle of a scene would leave somebody without
+  // their model for good and nothing on screen to say why. Every join starts
+  // from drawing; the poll above puts the flag back within half a second if it
+  // is still wanted.
+  PlayerEvents.loggedIn(event => {
+    event.server.runCommandSilent('ysm model disable ' + event.player.getName().getString() + ' false')
   })
 })()
