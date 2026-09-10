@@ -1,4 +1,4 @@
-package com.ll8.guifit.mixin;
+package com.ll8.patches.mixin;
 
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import org.spongepowered.asm.mixin.Mixin;

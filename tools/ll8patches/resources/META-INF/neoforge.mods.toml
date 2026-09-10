@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/MarkZamore/LANMinecraft/issues"
+
+[[mixins]]
+config = "ll8patches.mixins.json"
+
+# Held apart on purpose, and not required: a pack without FapCraft loads this
+# jar and quietly applies one mixin instead of two, rather than failing.
+[[mixins]]
+config = "ll8patches-fapcraft.mixins.json"
+
+[[mods]]
+modId = "ll8patches"
+version = "1.1.0"
+displayName = "LL8 Patches"
+authors = "LL8 Extended"
+description = '''
+Two small corrections this build makes to what it ships.
+
+The inventory player preview is drawn at three quarters of the vanilla scale,
+so this build's three-dimensional armour fits inside the panel it is clipped to
+instead of being cut off at the top.
+
+FapCraft hides every scene prop bone it has no branch for. Two of them carry
+real textured geometry - the items on Ellie dressed and the egg the kobold
+carries - and are shown again.
+'''
+
+[[dependencies.ll8patches]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.ll8patches]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "CLIENT"
