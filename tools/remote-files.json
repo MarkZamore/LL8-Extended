@@ -52,6 +52,13 @@
       "reason": "The Bumblezone 7.15.3, 66.4 MiB. Upstream's, and one of the ten files that account for a third of what this repository weighs."
     },
     {
+      "target": "mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
+      "url": "https://cdn.modrinth.com/data/86xjpqqS/versions/HZWaR0LY/ysm-2.6.5-neoforge%2Bmc1.21.1-release.jar",
+      "sha256": "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb",
+      "size": 63463229,
+      "reason": "Yes Steve Model 2.6.5, 60.5 MiB, added by this build and pinned twice in git for 121 MiB. Its sounds are the reason it is this size and they are not negotiable, so the file moves out instead."
+    },
+    {
       "target": "mods/eternalstarlight-0.9.0+1.21.1+neoforge.jar",
       "url": "https://cdn.modrinth.com/data/XvcfUGfB/versions/zPYks5bS/eternalstarlight-0.9.0%2B1.21.1%2Bneoforge.jar",
       "sha256": "73e1b5e0f07c4e7962351250c2e597e735930df6e9161cd366469f8603146f38",
