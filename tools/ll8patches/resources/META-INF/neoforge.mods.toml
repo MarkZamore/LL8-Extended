@@ -13,7 +13,7 @@ config = "ll8patches-fapcraft.mixins.json"
 
 [[mods]]
 modId = "ll8patches"
-version = "1.1.0"
+version = "1.2.0"
 displayName = "LL8 Patches"
 authors = "LL8 Extended"
 description = '''
@@ -26,6 +26,11 @@ instead of being cut off at the top.
 FapCraft hides every scene prop bone it has no branch for. Two of them carry
 real textured geometry - the items on Ellie dressed and the egg the kobold
 carries - and are shown again.
+
+And a companion now wears its alternate model for the length of a scene. The
+outfit is what picks the model file, the port never changed it, so a scene ran
+with whatever the companion was standing in - and the default is the dressed
+one. Whatever it wore before is put back however the scene ends.
 '''
 
 [[dependencies.ll8patches]]
