@@ -146,3 +146,19 @@ config/fml.toml
 # somebody runs /projecte setemc, so without this claim an instance would
 # look edited from the first launch and the build's copy would never arrive.
 config/projecte/custom_emc.json
+
+# Neruina turns an exception in an entity's tick into a suspended entity instead
+# of a crash, and for a mob or a machine that is the right trade. For a player it
+# is not: the connection ticks on, so walking, chat and inventories work, while
+# everything in the player's own tick is dead - a broken block comes back, items
+# are not picked up, hunger stops falling. The flag is a byte written onto the
+# player in playerdata, so it outlives rejoins and world transfers: NuII carried
+# it in Chebupeli from 5 September 2026 until it was found on the 12th, and
+# anuvenn carried it through August. kill_players_instead is the switch for
+# exactly that case - the player dies once and comes back with a working tick,
+# and keepInventory is on in these worlds, so the death costs nothing. Mobs and
+# block entities are still suspended rather than taking the world down with them,
+# which is the half of the mod worth keeping. It writes this file itself on start,
+# so an instance that has run once has one of its own and nothing shipped here
+# would otherwise reach it.
+config/neruina.json5
