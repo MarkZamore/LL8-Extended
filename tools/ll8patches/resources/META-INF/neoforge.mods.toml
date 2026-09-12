@@ -13,7 +13,7 @@ config = "ll8patches-fapcraft.mixins.json"
 
 [[mods]]
 modId = "ll8patches"
-version = "1.2.0"
+version = "1.3.0"
 displayName = "LL8 Patches"
 authors = "LL8 Extended"
 description = '''
@@ -31,6 +31,13 @@ And a companion now wears its alternate model for the length of a scene. The
 outfit is what picks the model file, the port never changed it, so a scene ran
 with whatever the companion was standing in - and the default is the dressed
 one. Whatever it wore before is put back however the scene ends.
+
+Two details it hid that the original did not are shown again: Manglelie's
+nipple bones, for which the original model class carries no rule at all, and
+Galath's futa bones, which the original showed by default under a global
+command switch rather than by appearance variant. Five other hidden groups
+were checked against the original and left alone, because each turned out to
+be hiding something for a reason.
 '''
 
 [[dependencies.ll8patches]]
