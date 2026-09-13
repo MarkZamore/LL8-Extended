@@ -11,9 +11,17 @@ config = "ll8patches.mixins.json"
 [[mixins]]
 config = "ll8patches-fapcraft.mixins.json"
 
+# EMI's JEI bridge and Just Dire Things: each optional, so a pack without
+# the target mod loads this jar and applies the rest.
+[[mixins]]
+config = "ll8patches-emi.mixins.json"
+
+[[mixins]]
+config = "ll8patches-jdt.mixins.json"
+
 [[mods]]
 modId = "ll8patches"
-version = "1.3.0"
+version = "1.4.0"
 displayName = "LL8 Patches"
 authors = "LL8 Extended"
 description = '''
@@ -38,6 +46,14 @@ Galath's futa bones, which the original showed by default under a global
 command switch rather than by appearance variant. Five other hidden groups
 were checked against the original and left alone, because each turned out to
 be hiding something for a reason.
+
+EMI's bridge to JEI now implements the two IRecipeSlotBuilder methods JEI
+19.51 made abstract, so plugins that place a slot by alignment stop failing
+inside it and their recipes reach the viewer.
+
+Just Dire Things no longer reads its server config from an item attribute
+hook before that config exists; the abilities are skipped until it loads,
+and the energy branch that does not need it still runs.
 '''
 
 [[dependencies.ll8patches]]
