@@ -23,6 +23,12 @@
 | Not Enough Translations [RU] a1.0.3 | Red_Mertvyak | CC BY-NC-SA 4.0 | https://modrinth.com/resourcepack/not-enough-translations-ru |
 | Create: Russified 3.0 | G0ludo | CC BY-SA 4.0 | https://modrinth.com/resourcepack/create-russified |
 | Re:Avaritia Russian Translation 1.0.0 | Tewek | CC0 1.0 | https://modrinth.com/resourcepack/reavaritia-russian-translation |
+| Translation into Russian by Kastik404 V6 (LL8 gap subset) | Kastik404 | GNU GPL v3 | https://www.curseforge.com/minecraft/texture-packs/translation-into-russian-by-kastik404 |
+| Russian Ars Nouveau 1.0.0 (LL8 gap subset) | necromancer777 | MIT | https://modrinth.com/resourcepack/ars-nouveau-ru-translation |
+| Create: Essential Russian 1.1 (LL8 gap subset) | zilibobiksus | AGPL-3.0-or-later | https://modrinth.com/resourcepack/create-essential-russian |
+| Russian Delight 1.0 (LL8 gap subset) | nazarbatrider | MIT | https://modrinth.com/resourcepack/russian-delight |
+| Starcatcher-RU 2.3.5.1 (LL8 gap subset) | Worvib | MIT | https://modrinth.com/resourcepack/starcatcher-ru |
+| Upstream Russian - Mekanism, MI, Chest Tracker (LL8 gap subset) | xGronox (Mekanism PR #8565); команда Modern Industrialization (2.5.8); переводчики Chest Tracker на Crowdin | MIT; LGPL-3.0-only (Chest Tracker) | https://github.com/mekanism/Mekanism/pull/8565, https://modrinth.com/mod/modern-industrialization, https://github.com/JackFred2/ChestTracker |
 
 RTF Extension содержит переводы **RTF** © Exelerium, MIT —
 https://modrinth.com/resourcepack/rtf
@@ -56,6 +62,23 @@ Create: Russified 252, Not Enough Translations 130, Re:Avaritia 0.
 Внутри — `LICENSE-NOTICE.txt` с тем же объяснением. Пак стоит ниже всех
 переводов, поэтому любая ручная работа его перекрывает.
 
+**Выжимки 14 сентября 2026.** Шесть паков внизу таблицы с самого начала
+собраны только из ключей, которых в сборке нет ни у одного мода и ни у одного
+другого пака: всего 2463 строки. Ars Nouveau 337 строк (всё Ars Elemental),
+Create Essential 279 (Dragons Plus и Create Connected), Russian Delight 150
+(Fright's Delight), Kastik404 17, Starcatcher-RU 2 и 1678 из репозиториев самих
+модов. Эти 1678 строк ещё не вошли в версии модов, которые стоят в сборке:
+Mekanism из закрытого PR #8565, Modern Industrialization из релиза 2.5.8 и
+Chest Tracker из ветки Crowdin. Целиком не годился ни один: каждый переписал бы
+собственный перевод мода, от 5 строк у Russian Delight до 1374 у Kastik404,
+а Starcatcher-RU ещё и сделан под старую версию мода. Готовый перевод лучше
+написанного сборкой, поэтому 1464 строки LL8 Russian (Mekanism 1451, Create
+Connected 13) убраны и теперь приходят из выжимок. Исключение Kastik404: это
+машинный перевод под 1.20.1, он только заполняет пустоты и строк сборки не
+заменяет. Когда Mekanism, Modern Industrialization или Chest Tracker выпустят
+эти строки сами, выжимку «Upstream Russian» надо урезать заново, иначе она
+перекроет перевод мода.
+
 ## Чего здесь нет
 
 Ещё четыре пака закрывали бы вместе меньше сотни строк, и все четыре на
@@ -71,6 +94,16 @@ Modrinth помечены «все права защищены», то есть 
 
 `Mods RU / ru_ru` (Proxwian, WTFPL) не взят: из всей сборки он закрывает одно
 название и сделан под формат ресурспаков 1.18–1.19.
+
+Проверка 14 сентября 2026 отклонила ещё несколько. Лицензия не позволяет:
+`RQB V2.1` (все права защищены, к тому же машинный), `TrueToRu 2.7` для ProjectE
+(лицензия прямо запрещает сборки и заимствование строк), `Translate RU v1.1`
+(все права защищены), `Linggango Russian Translation` от SaloEater (лицензии нет),
+`ribbits.ru` (все права защищены), правки русского Immersive Engineering из PR
+#6317 и #6390 (лицензия IE запрещает распространять без разрешения автора).
+Закрыть нечего: `ReRT v3`, `rftools-1.20_RU`, новый перевод Mekanism с Crowdin
+(всё полезное уже есть в PR #8565) и MPLOCmods v40.1, который добавил бы к v37
+всего 12 строк.
 
 ## Как это обновлять
 

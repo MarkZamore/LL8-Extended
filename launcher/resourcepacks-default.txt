@@ -112,6 +112,8 @@ serilum_mod_translations
 # then the big community pack, then the small curated ones, then the single-mod
 # packs - the better the hand behind it, the higher it stands.
 file/MPLOCmods v37 full.zip
+file/Translation into Russian by Kastik404 V6 (LL8 gap subset).zip
+file/Russian Ars Nouveau 1.0.0 (LL8 gap subset).zip
 file/Mods Russian by 35 [RU].zip
 file/Translations For Mods [RU].zip
 file/Avaritia Delight [RU].zip
@@ -121,6 +123,10 @@ file/Mod-Translate-10.0.2.zip
 file/Not-Enough-Translations-[RU]-a1.0.3.zip
 file/Create_Russified-3.0-universal.zip
 file/Re-Avaritia RUS.zip
+file/Create Essential Russian 1.1 (LL8 gap subset).zip
+file/Russian Delight 1.0 (LL8 gap subset).zip
+file/Starcatcher-RU 2.3.5.1 (LL8 gap subset).zip
+file/Upstream Russian - Mekanism, MI, Chest Tracker (LL8 gap subset).zip
 
 # The build's own Russian, and the only translation here that is ours: the
 # strings no mod file and no pack above answers for. It sits over the
