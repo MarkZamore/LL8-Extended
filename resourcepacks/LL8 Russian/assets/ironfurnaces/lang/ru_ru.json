@@ -3,5 +3,8 @@
   "tooltip.ironfurnaces.gui_hold_shift": "Удерживайте ",
   "tooltip.ironfurnaces.hold": "Удерживайте ",
   "ironfurnaces.update.buttonOptions": "Клик: изменения, Shift-Клик: скачать! (В браузере)",
-  "ironfurnaces.update.failed": "[{\"text\":\"Проверка обновлений для \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"не удалась! Смотрите логи для подробностей!\",\"color\":\"none\"}]"
+  "ironfurnaces.update.failed": "[{\"text\":\"Проверка обновлений для \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"не удалась! Смотрите логи для подробностей!\",\"color\":\"none\"}]",
+  "ironfurnaces.update.speech": "[{\"text\":\"Доступно обновление для \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"none\"}]",
+  "ironfurnaces.update.version": "[{\"text\":\"Текущая версия: \"},{\"text\":\"%s\",\"color\":\"dark_red\"},{\"text\":\", новая версия: \",\"color\":\"none\"},{\"text\":\"%s\",\"color\":\"dark_green\"}]",
+  "ironfurnaces.update.buttons": "[{\"text\":\"[\"},{\"text\":\"Посмотреть изменения\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"] [\",\"color\":\"none\"},{\"text\":\"Скачать\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"]\",\"color\":\"none\"}]"
 }

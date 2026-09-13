@@ -1,0 +1,282 @@
+{
+  "name": "book.entries.twilight.portals",
+  "category": "divinerpg:twilight",
+  "icon": "divinerpg:eden_block",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.divinerpg.entry.twilight.portals.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "clock",
+      "text": "book.divinerpg.entry.twilight.portals.2"
+    },
+    {
+      "type": "crafting",
+      "recipe": "divinerpg:shaped/eden_block",
+      "text": "book.divinerpg.entry.twilight.eden_portal.1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "0",
+            "_",
+            "P"
+          ],
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "P": "divinerpg:eden_block"
+        }
+      },
+      "name": "Портал рая",
+      "text": "book.divinerpg.entry.twilight.portals.3"
+    },
+    {
+      "type": "crafting",
+      "recipe": "divinerpg:shaped/wildwood_block",
+      "text": "book.divinerpg.entry.twilight.wildwood_portal.1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "0",
+            "_",
+            "P"
+          ],
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "P": "divinerpg:wildwood_block"
+        }
+      },
+      "name": "Портал дикого леса",
+      "text": "book.divinerpg.entry.twilight.portals.3"
+    },
+    {
+      "type": "crafting",
+      "recipe": "divinerpg:shaped/apalachia_block",
+      "text": "book.divinerpg.entry.twilight.apalachia_portal.1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "0",
+            "_",
+            "P"
+          ],
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "P": "divinerpg:apalachia_block"
+        }
+      },
+      "name": "Портал Апалачии",
+      "text": "book.divinerpg.entry.twilight.portals.3"
+    },
+    {
+      "type": "crafting",
+      "recipe": "divinerpg:shaped/skythern_block",
+      "text": "book.divinerpg.entry.twilight.skythern_portal.1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "0",
+            "_",
+            "P"
+          ],
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "P": "divinerpg:skythern_block"
+        }
+      },
+      "name": "Портал небесного царства",
+      "text": "book.divinerpg.entry.twilight.portals.3"
+    },
+    {
+      "type": "crafting",
+      "recipe": "divinerpg:shaped/mortum_block",
+      "text": "book.divinerpg.entry.twilight.mortum_portal.1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "0",
+            "_",
+            "P"
+          ],
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "P": "divinerpg:mortum_block"
+        }
+      },
+      "name": "Портал смерти",
+      "text": "book.divinerpg.entry.twilight.portals.3"
+    }
+  ]
+}

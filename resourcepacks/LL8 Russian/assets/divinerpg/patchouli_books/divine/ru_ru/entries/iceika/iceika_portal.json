@@ -1,0 +1,62 @@
+{
+  "name": "book.entries.iceika.iceika_portal",
+  "category": "divinerpg:iceika",
+  "icon": "divinerpg:snow_globe",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "divinerpg:shaped/snow_globe",
+      "title": "block.divinerpg.iceika_portal",
+      "text": "book.divinerpg.entry.iceika.iceika_portal.1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "_",
+            "_",
+            "P"
+          ],
+          [
+            "P",
+            "0",
+            "_",
+            "P"
+          ],
+          [
+            "_",
+            "P",
+            "P",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "P": "snow_block",
+          "0": "divinerpg:icy_fire"
+        }
+      },
+      "name": "Портал ледяной земли"
+    }
+  ]
+}
