@@ -52,6 +52,5 @@
   "windy.config.weather_aware": "Учёт погоды",
   "windy.config.weather_aware.tooltip": "Наружные частицы исчезают во время дождя и грозы.",
   "windy.config.wisps": "Призраки порыва",
-  "windy.config.wisps.tooltip": "Бледные полосы, скачущие на ветру во время порыва.",
-  "windy.configuration.title": "%s"
+  "windy.config.wisps.tooltip": "Бледные полосы, скачущие на ветру во время порыва."
 }

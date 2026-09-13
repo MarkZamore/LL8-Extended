@@ -38,5 +38,8 @@
   "scylla_music_disc.sub": "Играет оригинальная тема Сциллы",
   "scylla_roar.sub": "Сцилла воет",
   "super_lightning_strike.sub": "Удар молнии",
-  "the_cataclysmfarer.sub": "Играет «The Cataclysmfarer»"
+  "the_cataclysmfarer.sub": "Играет «The Cataclysmfarer»",
+  "item.cataclysm.music_disc_the_leviathan.desc": "Yuri_0 - Хищник Бездны",
+  "item.cataclysm.music_disc_ancient_remnant.desc": "Yuri_O - Самое сухое чудовище",
+  "key.categories.cataclysm": "Cataclysm — управление"
 }

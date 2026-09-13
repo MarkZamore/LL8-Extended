@@ -3,6 +3,6 @@
   "advancements.quark.tatami_gaeshi.title": "ТАТАМИ ГАЕШИ!",
   "config.jade.plugin_quark.oretoise_eating_cooldown": "Перезарядка питания Oretoise",
   "quark.jade.eating_cooldown": "Перезарядка питания: %ds",
-  "quark.jei.hint.preamble": "[Quark]\n",
-  "quark.misc.totem_darksouls": "Вы почувствовали зловещее предчувствие — предыдущий Тотем хранения разбился"
+  "quark.misc.totem_darksouls": "Вы почувствовали зловещее предчувствие — предыдущий Тотем хранения разбился",
+  "____comment": "Цвета в #RRGGBB формате"
 }

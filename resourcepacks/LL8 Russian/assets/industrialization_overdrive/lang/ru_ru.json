@@ -1,5 +1,4 @@
 {
-  "key.categories.industrialization_overdrive": "Industrialization Overdrive",
   "key.industrialization_overdrive.terminal_mode_switch": "Переключить режим строителя мультиблоков",
   "text.industrialization_overdrive.multiblock_builder_block_cannot_be_replaced": "Блок в позиции %s не является частью мультиблока и не может быть заменён.",
   "text.industrialization_overdrive.multiblock_builder_block_not_part": "Блок в позиции %s не является частью мультиблока",
@@ -19,7 +18,6 @@
   "text.industrialization_overdrive.multiblock_builder_mode_tear_down": "Разборка",
   "text.industrialization_overdrive.multiblock_builder_no_template": "В строителе мультиблоков нет сохранённого шаблона.",
   "text.industrialization_overdrive.multiblock_builder_paste_success": "Структура мультиблока успешно вставлена.",
-  "text.industrialization_overdrive.multiblock_builder_required_item": "- %sx %s",
   "text.industrialization_overdrive.multiblock_builder_required_items": "Требуемые предметы:",
   "text.industrialization_overdrive.multiblock_builder_template_copied": "Шаблон скопирован из позиции %s, %s, %s"
 }

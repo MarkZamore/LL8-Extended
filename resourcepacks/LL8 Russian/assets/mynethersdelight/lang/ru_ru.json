@@ -1,6 +1,4 @@
 {
-  "effect.mynethersdelight.b_pungent.desc": "Вспыхивает от жара; на безопасном расстоянии пламя гаснет само.",
-  "effect.mynethersdelight.g_pungent.desc": "Даёт естественную регенерацию вблизи источников жара.",
   "mynethersdelight.configuration.blazierCookingTimeMultiplier": "Множитель времени готовки в жаровне",
   "mynethersdelight.configuration.blazierCookingTimeMultiplier.tooltip": "Умножает время готовки во всех режимах жаровни, сохраняя исходное соотношение 6 / 3 / 1 / 6. Чем больше значение, тем дольше готовка.",
   "mynethersdelight.configuration.crafting": "Крафт",

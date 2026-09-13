@@ -6,9 +6,6 @@
   "chat.asyncparticles.warn.get_entities_off_main_thread": "Обращение к сущности вне главного потока! Подробности — в latest.log.\nВозможно, нужно включить «%s». Настоятельно рекомендуем сообщить об этой проблеме автору мода, чтобы получить более точный совет.",
   "config.asyncparticles.category.mixin": "Миксины",
   "config.asyncparticles.category.mobile": "Мобильные устройства",
-  "config.asyncparticles.category.mod-compat.create": "Create",
-  "config.asyncparticles.category.mod-compat.sable": "Create: Aeronautics (Sable)",
-  "config.asyncparticles.category.mod-compat.valkyrienskies": "Valkyrien Skies",
   "config.asyncparticles.deprecated": "Устарело.",
   "config.asyncparticles.enum.CompatibilityTryIt": "Совместимость: попробуйте!",
   "config.asyncparticles.enum.CompatibilityTryIt.CUSTOM": "Своя",
@@ -59,6 +56,5 @@
   "config.asyncparticles.tick.gpuOnlyAsyncParticleTick": "Асинхронный тик только GPU-частиц",
   "config.asyncparticles.tick.gpuOnlyAsyncParticleTick.tooltip": "Если включено, асинхронно будут обновляться только GPU-частицы.\nРаботает только при включённом «Асинхронном тике частиц».",
   "config.asyncparticles.tick.particleAsyncMode": "Асинхронный тик частиц",
-  "config.asyncparticles.tick.particleAsyncMode.tooltip": "Как частицы обновляются асинхронно.\n«Последовательно» — вся очередь обновляется асинхронно без разбиения.\n«С разбиением» — очередь частиц делится на части, и каждая обновляется асинхронно и параллельно,\nно это может конфликтовать с другими модами.",
-  "gui.asyncparticles": "Async Particles"
+  "config.asyncparticles.tick.particleAsyncMode.tooltip": "Как частицы обновляются асинхронно.\n«Последовательно» — вся очередь обновляется асинхронно без разбиения.\n«С разбиением» — очередь частиц делится на части, и каждая обновляется асинхронно и параллельно,\nно это может конфликтовать с другими модами."
 }

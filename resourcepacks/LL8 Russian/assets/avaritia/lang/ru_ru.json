@@ -1,5 +1,4 @@
 {
-  "config.avaritia.category.emc": "EMC",
   "config.avaritia.enable_projecte_singularity_count_boost": "Сингулярности ×10 ингредиентов с ProjectE",
   "config.avaritia.enable_projecte_singularity_count_boost.tooltip": "Если загружен ProjectE, поднимает число ингредиентов в рецептах сингулярностей до 10 000 там, где оно меньше. Требуется перезагрузка рецептов.",
   "container.avaritia.infinity_bucket": "Ведро бесконечности",
@@ -101,7 +100,6 @@
   "gui.avaritia.neutron_ring.rename": "Переименовать",
   "gui.avaritia.neutron_ring.reset_view": "Сброс",
   "gui.avaritia.neutron_ring.select": "Выбрать",
-  "gui.avaritia.neutron_ring.size": "%s: %s",
   "gui.avaritia.neutron_ring.title": "Места нейтронного кольца",
   "gui.avaritia.portable.actions": "Действия",
   "gui.avaritia.portable.confirm": "Подтвердить",
@@ -123,9 +121,6 @@
   "message.avaritia.neutron_ring.place_preview": "Предпросмотр размещения установлен. Используйте кольцо для высвобождения.",
   "message.avaritia.neutron_ring.placed": "Место высвобождено.",
   "message.avaritia.neutron_ring.saved": "Сохранено: %s.",
-  "title.avaritia.config.title": "Re：Avaritia",
-  "tooltip.avaritia.crafting": "%s: %s x %s",
-  "tooltip.avaritia.infinity_bucket.creature": "%s (%s)",
   "tooltip.avaritia.infinity_bucket.message_creature": "Текущее существо: %s",
   "tooltip.avaritia.infinity_bucket.selected": "[Выбрано]",
   "tooltip.avaritia.neutron_ring.desc": "Хранит куб 16×16×16 и размещает его в другом месте.",

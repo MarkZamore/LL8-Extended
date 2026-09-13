@@ -12,7 +12,6 @@
   "jei.ufo.stellar_simulation.field": "Генератор поля: Mk.%s",
   "jei.ufo.stellar_simulation.fuel": "Топливо: %s AE",
   "jei.ufo.stellar_simulation.time": "Время: %s",
-  "key.category.ufo": "Мод UFO",
   "key.ufo.cycle_mode": "Изменить режим инструмента",
   "key.ufo.cycle_tool_backward": "Предыдущий инструмент",
   "key.ufo.cycle_tool_forward": "Следующий инструмент",

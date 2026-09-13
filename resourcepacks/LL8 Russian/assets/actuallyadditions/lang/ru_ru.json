@@ -1,3 +1,7 @@
 {
-  "key.actuallyadditions.category": "Actually Additions"
+  "misc.actuallyadditions.energy_name": "Кристаллический флюкс",
+  "misc.actuallyadditions.power_long": "%s/%s Кристаллический флюкс",
+  "misc.actuallyadditions.power_single": "%s Кристаллический флюкс",
+  "misc.actuallyadditions.power_double": "%s / %s Кристаллический флюкс",
+  "misc.actuallyadditions.power_name_long": "Кристаллический флюкс"
 }

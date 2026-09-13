@@ -31,7 +31,6 @@
   "gui.stepcrafter.step_requester_manager.search_mode.step_requester_manager_names": "Имена Step Requester",
   "gui.stepcrafter.step_requester_manager.search_mode.step_requester_manager_names.help": "Поиск в названиях Step Requester.",
   "gui.stepcrafter.stepcrafting_preview.title": "Пошаговый крафтинг",
-  "mod.stepcrafter": "Step Crafter",
   "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults": "Параметры конфигурации ресурсов по умолчанию",
   "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultBatchSize": "Размер партии по умолчанию",
   "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultBatchSize.tooltip": "Размер партии по умолчанию для новых ресурсов.",

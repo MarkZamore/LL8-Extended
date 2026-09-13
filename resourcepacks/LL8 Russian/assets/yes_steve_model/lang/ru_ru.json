@@ -43,7 +43,6 @@
   "message.yes_steve_model.model.disable.true": "§6§l[§aYSM§6§l] §rМодель YSM отключена для игрока '%s'",
   "message.yes_steve_model.model.reload.start": "§6§l【§aYSM§6§l】§eНачинаю перезагрузку…",
   "modmenu.descriptionTranslation.yes_steve_model": "Этот мод позволяет заменить модель игрока по умолчанию и свободно изменять внешний вид и анимации. Поддерживает форматы моделей и анимаций Bedrock Edition.",
-  "modmenu.nameTranslation.yes_steve_model": "Yes Steve Model",
   "modmenu.summaryTranslation.yes_steve_model": "Изменение внешнего вида и анимаций игрока",
   "top.yes_steve_model.model_info.id": "Модель YSM: "
 }

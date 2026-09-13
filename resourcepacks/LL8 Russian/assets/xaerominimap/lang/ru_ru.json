@@ -18,5 +18,6 @@
   "gui.xaero_showing_third_party_deleted_waypoints": "Показывать удалённые сторонние метки",
   "gui.xaero_waypoint_distance_in_menu": "Расстояние метки в меню",
   "gui.xaero_waypoint_filter_box": "Фильтр меток",
-  "gui.xaero_waypoint_filter_box_suggestion": "Фильтр…"
+  "gui.xaero_waypoint_filter_box_suggestion": "Фильтр…",
+  "gui.xaero_ui_scale_mc": "Майнкрафт"
 }

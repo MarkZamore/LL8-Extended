@@ -8,5 +8,8 @@
   "psi.spellpiece.trick_conjure_circle": "Трюк: Созданный круг",
   "psi.spellpiece.trick_conjure_circle.desc": "Создаёт круг заклинания в указанной позиции",
   "psimisc.disabled_piece": "Ошибка импорта: элемент %s отключён.",
-  "psimisc.locked_piece": "Ошибка импорта: элемент %s заблокирован."
+  "psimisc.locked_piece": "Ошибка импорта: элемент %s заблокирован.",
+  "psi.book.page.ebonyIvory.4": "Безумие тьмы. Путь Ворона",
+  "psi.book.subsec.circleBullet.6": "Синхронизация кругов",
+  "psi.book.subsec.circleBullet.8": "20-битная башня"
 }

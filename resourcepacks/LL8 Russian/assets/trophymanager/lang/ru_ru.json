@@ -6,7 +6,6 @@
   "gui.trophy.pose.flying": "Полёт",
   "gui.trophy.pose.sitting": "Сидение",
   "gui.trophy.pose.standing": "Стояние",
-  "gui.trophy.rotation": "%s: %s°",
   "gui.trophy.size": "Размер: %s",
   "trophymanager.trophy.name": "Трофей %s"
 }

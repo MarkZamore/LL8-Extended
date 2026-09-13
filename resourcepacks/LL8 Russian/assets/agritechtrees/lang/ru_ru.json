@@ -1,14 +1,8 @@
 {
-  "blockentity.agritechtrees.name": "Tree Planter",
-  "container.agritechtrees.hopping_planter": "Hopping Tree Planter",
-  "container.agritechtrees.planter": "Tree Planter",
   "jade.agritechtrees.soil_info": "Почва: %s (скорость роста %s)",
   "jade.agritechtrees.tree_progress": "%s: рост %d%%",
   "jade.agritechtrees.tree_ready": "%s: можно собирать урожай!",
-  "jei.agritechtrees.planters.tooltip": "Tree Planters",
   "message.agritechtrees.invalid_seed_soil_combination": "Это семя не вырастет на такой почве!",
   "message.agritechtrees.invalid_soil": "Этот блок нельзя использовать как почву!",
-  "message.agritechtrees.slots_full": "Ячейки Tree Planter заполнены!",
-  "tooltip.agritech.growth_progress": "Прогресс роста",
-  "tooltip.agritech.view_recipes": "Нажмите, чтобы посмотреть рецепты"
+  "message.agritechtrees.slots_full": "Ячейки Tree Planter заполнены!"
 }

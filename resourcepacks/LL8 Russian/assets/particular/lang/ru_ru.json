@@ -1,6 +1,5 @@
 {
   "neoforge.configuration.uitext.section": "Раздел: %s",
-  "neoforge.configuration.uitext.sectiontext": "Открыть",
   "particular.configuration.accelChangeChance": "Вероятность изменения ускорения",
   "particular.configuration.accelChangeChance.tooltip": "Обратная вероятность изменения ускорения частиц пыли\n\nБольшие значения = редкие изменения\n180 означает 1 к 180 шанс за тик",
   "particular.configuration.advancedSettings": "Продвинутые настройки",

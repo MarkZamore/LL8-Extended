@@ -14,17 +14,11 @@
   "attribute.omnigrid.health_regen": "к восстановлению здоровья в минуту",
   "attribute.omnigrid.ore_luck": "% шанса на дополнительную руду",
   "curios.modifiers.refinedstorage_curios_integration": "В слоте Curios из RS2:",
-  "entity.omnigrid.refined_golem": "Refined Golem",
   "gui.omnigrid.crafting_grid.move.inventory": "Переместить предметы в инвентарь",
   "gui.omnigrid.crafting_grid.move.network": "Переместить предметы в дисковое хранилище",
   "gui.omnigrid.crafting_grid.move.spread": "Равномерно распределить предметы по сетке",
   "gui.omnigrid.omnigrid.filter": "Где Omni Grid!? Ну где же он!?",
   "key.omnigrid.open_omni_grid": "Открыть Omni Grid",
-  "mod.omnigrid": "Omni Grid",
-  "omnigrid.configuration.section.omnigrid.common.toml": "Omni Grid",
-  "omnigrid.configuration.section.omnigrid.common.toml.title": "Omni Grid",
-  "omnigrid.configuration.title": "Omni Grid",
-  "text.autoconfig.omnigrid.option.omnigrid": "Omni Grid",
   "text.autoconfig.omnigrid.option.omnigrid.clearMatrixEnergyUsage": "Расход энергии на очистку матрицы",
   "text.autoconfig.omnigrid.option.omnigrid.clearMatrixEnergyUsage.tooltip": "Расход энергии на очистку матрицы крафта в Omni Grid.",
   "text.autoconfig.omnigrid.option.omnigrid.craftingEnergyUsage": "Расход энергии на крафт",
@@ -37,6 +31,5 @@
   "text.autoconfig.omnigrid.option.omnigrid.openEnergyUsage.tooltip": "Расход энергии на открытие Omni Grid.",
   "text.autoconfig.omnigrid.option.omnigrid.recipeTransferEnergyUsage": "Расход энергии на перенос рецепта",
   "text.autoconfig.omnigrid.option.omnigrid.recipeTransferEnergyUsage.tooltip": "Расход энергии на перенос рецепта в Omni Grid.",
-  "text.autoconfig.omnigrid.option.omnigrid.tooltip": "Настройки Omni Grid.",
-  "text.autoconfig.omnigrid.title": "Omni Grid"
+  "text.autoconfig.omnigrid.option.omnigrid.tooltip": "Настройки Omni Grid."
 }

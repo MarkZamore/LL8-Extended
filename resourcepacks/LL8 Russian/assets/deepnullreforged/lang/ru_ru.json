@@ -136,7 +136,6 @@
   "jei.deepnullreforged.desc4": "Алмазный DeepNull (MK V) — 5-й уровень: 45 ячеек и до 32 стопок в каждой.",
   "jei.deepnullreforged.desc5": "Изумрудный DeepNull (MK VI) — высший уровень: 54 ячейки и до 2,14 млрд предметов в каждой.",
   "jei.deepnullreforged.transfer.missing": "Не хватает ингредиентов в инвентаре и DeepNull.",
-  "key.categories.deepnullreforged": "DeepNull",
   "key.cycle_stone_generator.desc": "Сменить тип камня DampNull",
   "key.gui_primary_action.desc": "Основная кнопка интерфейса DeepNull",
   "key.gui_secondary_action.desc": "Вторая кнопка интерфейса DeepNull",

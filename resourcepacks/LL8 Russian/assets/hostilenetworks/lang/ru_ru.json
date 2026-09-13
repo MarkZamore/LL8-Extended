@@ -6,5 +6,7 @@
   "hostilenetworks.gui.mode.power": "Расход энергии: %s%%",
   "hostilenetworks.gui.mode.speed": "Скорость симуляции: %s%%",
   "hostilenetworks.gui.mode.training.desc": "Симуляции набирают данные модели,",
-  "hostilenetworks.gui.mode.training.desc2": "но не дают выдачи"
+  "hostilenetworks.gui.mode.training.desc2": "но не дают выдачи",
+  "itemGroup.hostilenetworks": "Враждебные нейронные сети",
+  "hostilenetworks.color_text.hud": "интерфейс"
 }

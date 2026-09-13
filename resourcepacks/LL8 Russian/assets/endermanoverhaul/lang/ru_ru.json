@@ -1,10 +1,4 @@
 {
-  "config.endermanoverhaul.client.title": "Клиент Enderman Overhaul",
-  "config.endermanoverhaul.clientConfig": "Клиентские настройки",
-  "config.endermanoverhaul.description": "Enderman Overhaul добавляет эндерменов для разных биомов!",
-  "config.endermanoverhaul.flashScreen": "Вспышка экрана",
-  "config.endermanoverhaul.replaceMekanismBabyEnderman": "Заменить малышей-эндерменов из Mekanism",
-  "config.endermanoverhaul.title": "Enderman Overhaul",
   "subtitles.endermanoverhaul.entity.flower_fields_enderman.ambient": "Эндермен цветочных полей вопит",
   "subtitles.endermanoverhaul.entity.flower_fields_enderman.death": "Эндермен цветочных полей умирает",
   "subtitles.endermanoverhaul.entity.flower_fields_enderman.hurt": "Эндермен цветочных полей ранен",

@@ -19,7 +19,5 @@
   "gravitationsuite.mode.treetap": "Краник",
   "gravitationsuite.mode.wrench": "Гаечный ключ",
   "gravitationsuite.tooltip.energy": "Энергия: %s / %s EU",
-  "key.categories.gravitationsuite": "GraviSuite",
-  "key.gravitationsuite.flight": "Переключение полёта Gravi",
-  "mod.gravitationsuite.name": "GraviSuite"
+  "key.gravitationsuite.flight": "Переключение полёта Gravi"
 }

@@ -1,0 +1,7 @@
+{
+  "tooltip.ironfurnaces.heater": "Привязано к: ",
+  "tooltip.ironfurnaces.gui_hold_shift": "Удерживайте ",
+  "tooltip.ironfurnaces.hold": "Удерживайте ",
+  "ironfurnaces.update.buttonOptions": "Клик: изменения, Shift-Клик: скачать! (В браузере)",
+  "ironfurnaces.update.failed": "[{\"text\":\"Проверка обновлений для \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"не удалась! Смотрите логи для подробностей!\",\"color\":\"none\"}]"
+}

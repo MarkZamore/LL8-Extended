@@ -32,9 +32,5 @@
   "config.betterarcheology.tunnelingEnabled": "Эффекты «Туннелирования»",
   "config.betterarcheology.tunnelingTolerance": "«Туннелирование»: допуск по прочности",
   "config.betterarcheology.wolfFossilEffectsEnabled": "Эффекты останков волка",
-  "config.notify.disabled": "Эта функция отключена в настройках!",
-  "entity.betterarcheology.bombentity": "Ржавая бомба",
-  "entity.minecraft.villager.betterarcheology.archeologist": "Археолог",
-  "filled_map.catacombs": "Карта катакомб",
-  "filled_map.light": "Карта храма света"
+  "entity.minecraft.villager.betterarcheology.archeologist": "Археолог"
 }

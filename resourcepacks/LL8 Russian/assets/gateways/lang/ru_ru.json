@@ -7,5 +7,6 @@
   "subtitle.gateways.gate_end": "Врата закрываются",
   "subtitle.gateways.gate_start": "Врата открываются",
   "subtitle.gateways.gate_warp": "Врата порождают объект",
-  "text.gateways.errored_gate_pearl": "Неизвестные Врата: %s"
+  "text.gateways.errored_gate_pearl": "Неизвестные Врата: %s",
+  "itemGroup.gateways": "Врата в вечность"
 }

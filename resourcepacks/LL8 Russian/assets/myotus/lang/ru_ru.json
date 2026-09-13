@@ -13,7 +13,6 @@
   "gui.myotus.keybinding.listening": "Ожидание нажатия клавиши… Нажмите Esc для отмены.",
   "gui.myotus.upgrade_slot.empty_tooltip.header": "Доступные улучшения терминала:",
   "gui.myotus.upgrade_slot.empty_tooltip.none": "Все улучшения терминала уже установлены.",
-  "key.categories.myotus": "Myotus",
   "key.myotus.open.terminal_setting": "Открыть экран настроек терминала",
   "key.myotus.toggle.upgrade_terminal_panel": "Переключить панель улучшений терминала"
 }

@@ -12,5 +12,6 @@
   "config.dynamic_fps.ignore_initial_click_disabled": "Отключено",
   "config.dynamic_fps.ignore_initial_click_in_world": "В мире",
   "config.dynamic_fps.ignore_initial_click_tooltip": "Не учитывать случайный ввод при клике по окну игры, когда оно не в фокусе.",
-  "toast.dynamic_fps.http_error": "Не удалось загрузить библиотеку"
+  "toast.dynamic_fps.http_error": "Не удалось загрузить библиотеку",
+  "config.dynamic_fps.idle_condition_vanilla": "Ваниль"
 }

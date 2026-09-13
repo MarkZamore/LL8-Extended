@@ -18,8 +18,6 @@
   "customfov.options.sprintingFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения при беге.",
   "customfov.options.submergedFovEffectScale": "Эффекты поля зрения под водой",
   "customfov.options.submergedFovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения под водой.",
-  "key.customfov.category": "Custom FOV",
   "key.customfov.profile.desc": "Сменить профиль поля зрения",
-  "key.customfov.profile.switch": "Выбран профиль поля зрения %d",
-  "options.fovEffectScale.tooltip": "Определяет, насколько сильно может изменяться поле зрения в целом."
+  "key.customfov.profile.switch": "Выбран профиль поля зрения %d"
 }

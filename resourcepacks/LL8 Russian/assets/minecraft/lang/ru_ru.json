@@ -479,9 +479,8 @@
   "pack.nitrogen_internals.mod.description": "Ресурсы Nitrogen",
   "pack.touhou_little_maid_spell.legacy_textures.desc": "Использовать старые текстуры",
   "pack.touhou_little_maid_spell.legacy_textures.title": "Touhou Little Maid: Spell — Старые текстуры",
-  "resourcePack.iceandfire.legacy.name": "Ice And Fire — Старые текстуры",
-  "resourcePack.iceandfire.legacy.description": "Текстуры до Ice And Fire 2.0",
   "resourcePack.tropicraft.texture_update": "Обновление текстур Tropicraft",
   "resourcePack.tropicraft.texture_update.description": "Предпросмотр! Авторы: Hexablu и Endergized.",
-  "info.tnp.music_discs": "Найти музыкальные диски в добыче из структур и сундуков или получить от мобов."
+  "info.tnp.music_discs": "Найти музыкальные диски в добыче из структур и сундуков или получить от мобов.",
+  "item.minecraft.music_disc_relic.desc": "Аарон Шероф — Relic"
 }

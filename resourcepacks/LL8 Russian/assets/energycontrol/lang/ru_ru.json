@@ -37,9 +37,6 @@
   "message.energycontrol.thermometer": "Тепло реактора: %s",
   "message.energycontrol.thermometer_digital": "Тепло: %s; предупреждение: %s; опасность: %s",
   "message.energycontrol.thermometer_no_energy": "Цифровому термометру нужно 50 EU",
-  "mod.energycontrol.name": "Energy Control",
   "tooltip.energycontrol.electric_tier": "Уровень энергии: %s",
-  "tooltip.energycontrol.energy": "EU: %s / %s",
-  "tooltip.energycontrol.target": "%s: %s, %s, %s",
   "tooltip.energycontrol.target_unset": "Нажмите Shift + ПКМ по блоку, чтобы установить цель"
 }

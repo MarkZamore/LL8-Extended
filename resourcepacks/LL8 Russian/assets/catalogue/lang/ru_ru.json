@@ -1,22 +1,4 @@
 {
-  "catalogue.gui.advanced_search.info": "Расширённый поиск будет игнорировать все активные фильтры",
-  "catalogue.gui.favourite": "Добавить в избранное",
-  "catalogue.gui.filters": "Фильтры",
-  "catalogue.gui.filters.configs_only": "Моды с конфигами",
-  "catalogue.gui.filters.favourites": "Только избранное",
-  "catalogue.gui.filters.updates_only": "Моды с обновлениями",
-  "catalogue.gui.hide_libraries": "Скрыть библиотеки",
-  "catalogue.gui.library_count": "%s библиотек",
-  "catalogue.gui.mod_count": "%s модов",
-  "catalogue.gui.no_mods": "Нет модов...",
-  "catalogue.gui.options": "Параметры",
-  "catalogue.gui.remove_favourite": "Удалить из избранного",
-  "catalogue.gui.show_dependencies": "Показать зависимости",
-  "catalogue.gui.show_dependents": "Показать зависимые моды",
-  "catalogue.gui.sort": "Сортировка",
-  "catalogue.gui.sort.alphabetically": "От А к Я",
-  "catalogue.gui.sort.alphabetically_reverse": "От Я к А",
-  "catalogue.gui.sort.favourites_first": "Избранное в начале",
   "catalogue.gui.submit_bug": "Сообщить баг",
   "catalogue.gui.website": "Веб-сайт"
 }

@@ -34,6 +34,5 @@
   "text.autoconfig.chococraft.option.spawning.@Tooltip": "Настройки появления",
   "text.autoconfig.chococraft.option.spawning.chocoboPackSizeMax.@Tooltip": "Задаёт максимальный размер стаи чокобо [По умолчанию: 3]",
   "text.autoconfig.chococraft.option.spawning.chocoboPackSizeMin.@Tooltip": "Задаёт минимальный размер стаи чокобо [По умолчанию: 1]",
-  "text.autoconfig.chococraft.option.spawning.chocoboSpawnWeight.@Tooltip": "Задаёт вес появления чокобо в мире [По умолчанию: 10]",
-  "text.autoconfig.chococraft.title": "ChocoCraft 4"
+  "text.autoconfig.chococraft.option.spawning.chocoboSpawnWeight.@Tooltip": "Задаёт вес появления чокобо в мире [По умолчанию: 10]"
 }

@@ -4,5 +4,6 @@
   "tooltip.undergarden.forgotten_weapon": "Наносит в 1,5 раза больше урона врагам Подземного Сада (кроме боссов).",
   "tooltip.undergarden.froststeel_weapon": "Замедляет цели.",
   "tooltip.undergarden.slingshot_ammo": "Может использоваться как боеприпас для праща.",
-  "tooltip.undergarden.utherium_weapon": "Наносит в 1,5 раза больше урона Rotspawn."
+  "tooltip.undergarden.utherium_weapon": "Наносит в 1,5 раза больше урона Rotspawn.",
+  "itemGroup.undergarden_group": "Подземный Сад"
 }
