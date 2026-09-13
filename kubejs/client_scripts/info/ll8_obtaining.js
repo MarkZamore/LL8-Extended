@@ -676,13 +676,6 @@ RecipeViewerEvents.addInformation('item', (event) => {
         },
         {
             filter: [
-                'pastel:tilled_shale_clay',
-                'pastel:tilled_slush'
-            ],
-            text: [Text.translate('ll8.info.pastel.till_with_hoe')]
-        },
-        {
-            filter: [
                 'pastel:budding_moonstone'
             ],
             text: [Text.translate('ll8.info.pastel.mine_budding_with_resonance')]
@@ -1499,12 +1492,6 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'aether:skyroot_tropical_fish_bucket'
             ],
             text: [Text.translate('ll8.info.aether.scoop_mob_with_skyroot_bucket')]
-        },
-        {
-            filter: [
-                'aether:aether_farmland'
-            ],
-            text: [Text.translate('ll8.info.aether.till_with_hoe')]
         },
         {
             filter: [
