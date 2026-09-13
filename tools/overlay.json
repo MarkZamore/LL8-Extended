@@ -265,8 +265,8 @@
   {
    "source": "tools/overlay/kubejs/server_scripts/ysm_model_sync.js",
    "target": "kubejs/server_scripts/ysm_model_sync.js",
-   "sha256": "44b2f2f06cef6a7c340aa51c2cdd6e64774113d62e9fddefd852b2fc5448434a",
-   "reason": "Yes Steve Model never hands its models to the client that arrives in the same moment the integrated server does, which is the host, every time, and it loses the handover for a guest whose client is busy elsewhere - anuvenn's was 31 seconds deep in an EMI reload when the models went out on 26 August. \"/ysm model reload\" does the sending, so the server runs it itself once a joining client has proven it is awake by moving, and runs it again every 90 seconds while it has not"
+   "sha256": "879fdb89bcde5a92b04226e73861a4b7b5f2a3bb18929eec6b755d928ce65baa",
+   "reason": "Yes Steve Model never hands its models to the client that arrives in the same moment the integrated server does, which is the host, every time, and it loses the handover for a guest whose client is busy elsewhere - anuvenn's was 31 seconds deep in an EMI reload when the models went out on 26 August. \"/ysm model reload\" does the sending, so the server runs it itself once a joining client has proven it is awake by moving, and runs it again every 90 seconds while it has not Since 13 September it no longer runs /ysm model reload, which rereads the whole model set and sends it to every player online: retried for one late client that cost everybody, ten reloads in one session and a 3.6 second server stall. It calls the method YSM itself calls after the handshake, O0Ooo000O0ooO00Oooo00oOO.oOo0OO0O0o000OO0O000oo0o(ServerPlayer, Consumer), which sends to one player and reports the outcome, and only to players whose connection negotiated yes_steve_model:2_6_0, checked with NetworkRegistry.hasChannel. All of those names were read out of YSM 2.6.5 and NeoForge 21.1.248 before it shipped."
   },
   {
    "source": "tools/overlay/kubejs/config/web_server.json",
@@ -826,6 +826,12 @@
    "target": "config/paxi/datapacks/ll8_stone_blobs_off.zip",
    "sha256": "76c7bd8578be41d1031c1020c71920a139133a93c250d451b0a93c4861fc8a93",
    "reason": "Terralith turns the vanilla granite, diorite and andesite blobs off with count 0 and no height_range, and JEI World Gen logs 1088 warnings and 2176 info lines for that shape on every server start. minecraft:no_op keeps them off exactly as before and has no OreConfiguration, so JEI World Gen skips it silently. World generation does not change and neither does the ore tab: those three stones were never shown there."
+  },
+  {
+   "source": "tools/overlay/config/paxi/datapacks/ll8_pe_absent_mods.zip",
+   "target": "config/paxi/datapacks/ll8_pe_absent_mods.zip",
+   "sha256": "7a8bc36d81b1e81acb271a1ebd89aa6a5c803b90af1c9beec320d26d49e29341",
+   "reason": "ProjectE Integration 8.3.1 ships pe_custom_conversions for industrialupgrade, allthemodium and blue_skies, none of which this build has: 74 ERROR lines on every EMC mapping and no price at all, since lenient keys and INVALID conversions drop them. The vanilla pack filter clears exactly those three files from the resource stack before CustomConversionMapper reads it, anchored so knavesneeds and the rest are untouched. Remove it if any of the three mods is ever added, or their ProjectE Integration prices will be hidden without a word."
   },
   {
    "source": "tools/overlay/config/projecte/mapping.toml",
