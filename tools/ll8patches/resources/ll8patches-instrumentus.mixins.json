@@ -7,8 +7,6 @@
     "defaultRequire": 0
   },
   "client": [
-    "JemiSlotPlacementMixin",
-    "JemiTextPlacementMixin",
-    "JemiChemicalStackMixin"
+    "InstrumentusFiringIdMixin"
   ]
 }

@@ -19,9 +19,12 @@ config = "ll8patches-emi.mixins.json"
 [[mixins]]
 config = "ll8patches-jdt.mixins.json"
 
+[[mixins]]
+config = "ll8patches-instrumentus.mixins.json"
+
 [[mods]]
 modId = "ll8patches"
-version = "1.4.0"
+version = "1.5.0"
 displayName = "LL8 Patches"
 authors = "LL8 Extended"
 description = '''
@@ -54,6 +57,17 @@ inside it and their recipes reach the viewer.
 Just Dire Things no longer reads its server config from an item attribute
 hook before that config exists; the abilities are skipped until it loads,
 and the energy branch that does not need it still runs.
+
+Instrumentus kiln recipes get an id built from the output's registry key
+rather than its translated name, so a Russian client no longer loses all 35 of
+them in EMI. EMI's bridge text widget now implements the aligned setPosition
+JEI 19.51 made abstract, so those recipes keep their arrow and flame.
+
+Mekanism chemicals on mekagenjei's JEI pages reach EMI as Mekanism's own EMI
+stacks: EMI skips Mekanism's JEI plugin, which is where the chemical type is
+registered, so a small JEI plugin here registers the type with no ingredients
+and the bridge hands EMI the stack Mekanism already indexes. Nine pages of
+gas burning, turbine steam, radioactive gases and fusion fuel come back.
 '''
 
 [[dependencies.ll8patches]]
