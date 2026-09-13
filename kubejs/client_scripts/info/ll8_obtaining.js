@@ -2235,6 +2235,2489 @@ RecipeViewerEvents.addInformation('item', (event) => {
         },
         {
             filter: [
+                'chemlib:cobalt_plate',
+                'chemlib:osmium_plate',
+                'chemlib:zinc_plate'
+            ],
+            text: [Text.translate('ll8.info.chemlib.press_plate_in_ie_metal_press')]
+        },
+        {
+            filter: [
+                'modern_industrialization:steam_cracked_heavy_fuel_bucket',
+                'modern_industrialization:steam_cracked_light_fuel_bucket',
+                'modern_industrialization:steam_cracked_naphtha_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.steam_crack_in_chemical_reactor')]
+        },
+        {
+            filter: [
+                'modern_industrialization:creosote_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.coke_oven_byproduct')]
+        },
+        {
+            filter: [
+                'modern_industrialization:liquid_air_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.compress_air_intake')]
+        },
+        {
+            filter: [
+                'modern_industrialization:deuterium_bucket',
+                'modern_industrialization:heavy_water_bucket',
+                'modern_industrialization:tritium_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.centrifuge_heavy_isotopes')]
+        },
+        {
+            filter: [
+                'modern_industrialization:purified_platinum_sulfuric_solution_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.centrifuge_platinum_solution')]
+        },
+        {
+            filter: [
+                'modern_industrialization:plant_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.centrifuge_compostables')]
+        },
+        {
+            filter: [
+                'quark:cut_vine'
+            ],
+            text: [Text.translate('ll8.info.quark.shear_vine_in_place')]
+        },
+        {
+            filter: [
+                'productivemetalworks:molten_aluminum_bucket',
+                'productivemetalworks:molten_amethyst_bucket',
+                'productivemetalworks:molten_ancient_debris_bucket',
+                'productivemetalworks:molten_blaze_bucket',
+                'productivemetalworks:molten_carbon_bucket',
+                'productivemetalworks:molten_copper_bucket',
+                'productivemetalworks:molten_diamond_bucket',
+                'productivemetalworks:molten_emerald_bucket',
+                'productivemetalworks:molten_ender_bucket',
+                'productivemetalworks:molten_glass_bucket',
+                'productivemetalworks:molten_glowstone_bucket',
+                'productivemetalworks:molten_gold_bucket',
+                'productivemetalworks:molten_heavy_core_bucket',
+                'productivemetalworks:molten_iridium_bucket',
+                'productivemetalworks:molten_iron_bucket',
+                'productivemetalworks:molten_lapis_bucket',
+                'productivemetalworks:molten_lead_bucket',
+                'productivemetalworks:molten_nickel_bucket',
+                'productivemetalworks:molten_osmium_bucket',
+                'productivemetalworks:molten_platinum_bucket',
+                'productivemetalworks:molten_quartz_bucket',
+                'productivemetalworks:molten_redstone_bucket',
+                'productivemetalworks:molten_shulker_shell_bucket',
+                'productivemetalworks:molten_silver_bucket',
+                'productivemetalworks:molten_slime_bucket',
+                'productivemetalworks:molten_tin_bucket',
+                'productivemetalworks:molten_uranium_bucket',
+                'productivemetalworks:molten_wax_bucket',
+                'productivemetalworks:molten_zinc_bucket'
+            ],
+            text: [Text.translate('ll8.info.productivemetalworks.melt_in_foundry_bucket_from_drain')]
+        },
+        {
+            filter: [
+                'grotesque_steve:manualbook'
+            ],
+            text: [Text.translate('ll8.info.grotesque_steve.given_on_first_join')]
+        },
+        {
+            filter: [
+                'eternal_starlight:mana_crystal_shard'
+            ],
+            text: [Text.translate('ll8.info.eternal_starlight.drop_while_fighting')]
+        },
+        {
+            filter: [
+                'ars_nouveau:blank_glyph'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.quest_reward')]
+        },
+        {
+            filter: [
+                'naturalist:anglerfish_bucket',
+                'naturalist:bass_bucket',
+                'naturalist:blobfish_bucket',
+                'naturalist:catfish_bucket',
+                'naturalist:giant_isopod_bucket',
+                'naturalist:jellyfish_bucket',
+                'naturalist:piranha_bucket',
+                'naturalist:ray_bucket',
+                'naturalist:starfish_bucket'
+            ],
+            text: [Text.translate('ll8.info.naturalist.fill_bucket_from_water_mob')]
+        },
+        {
+            filter: [
+                'naturalist:duck_bucket'
+            ],
+            text: [Text.translate('ll8.info.naturalist.empty_bucket_on_duckling')]
+        },
+        {
+            filter: [
+                'naturalist:music_disc_wild_ones'
+            ],
+            text: [Text.translate('ll8.info.naturalist.drop_from_fox_holding_disc')]
+        },
+        {
+            filter: [
+                'naturalist:music_disc_death_by_hogs'
+            ],
+            text: [Text.translate('ll8.info.naturalist.drop_when_boar_kills_player')]
+        },
+        {
+            filter: [
+                'relics:chef_hat',
+                'relics:hunting_belt'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_village')]
+        },
+        {
+            filter: [
+                'relics:rider_flute'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_village_or_cave')]
+        },
+        {
+            filter: [
+                'relics:piglin_mask'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_bastion')]
+        },
+        {
+            filter: [
+                'relics:ghostly_mantle',
+                'relics:reflective_necklace',
+                'relics:ring_of_the_seven_deadly_sins',
+                'relics:shield_of_retaliation',
+                'relics:sphere_of_self_sacrifice'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_nether')]
+        },
+        {
+            filter: [
+                'relics:chorus_staff',
+                'relics:clot_of_time',
+                'relics:glitchy_mantle',
+                'relics:kinetic_belt',
+                'relics:midnight_mantle'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_end')]
+        },
+        {
+            filter: [
+                'relics:roller_skate'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_overworld_any')]
+        },
+        {
+            filter: [
+                'relics:experience_disperser'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_any')]
+        },
+        {
+            filter: [
+                'deeperdarker:black_sculk_transmitter',
+                'deeperdarker:blue_sculk_transmitter',
+                'deeperdarker:brown_sculk_transmitter',
+                'deeperdarker:cyan_sculk_transmitter',
+                'deeperdarker:gray_sculk_transmitter',
+                'deeperdarker:green_sculk_transmitter',
+                'deeperdarker:light_blue_sculk_transmitter',
+                'deeperdarker:light_gray_sculk_transmitter',
+                'deeperdarker:lime_sculk_transmitter',
+                'deeperdarker:magenta_sculk_transmitter',
+                'deeperdarker:orange_sculk_transmitter',
+                'deeperdarker:pink_sculk_transmitter',
+                'deeperdarker:purple_sculk_transmitter',
+                'deeperdarker:red_sculk_transmitter',
+                'deeperdarker:white_sculk_transmitter',
+                'deeperdarker:yellow_sculk_transmitter'
+            ],
+            text: [Text.translate('ll8.info.deeperdarker.dye_in_crafting_grid')]
+        },
+        {
+            filter: [
+                'immersiveengineering:potion_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.fill_potion_from_tank')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:crudeoil_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.fill_from_tank_crude_oil')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:petcoke_dust'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.crusher_petcoke')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:survey_result'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.seismic_survey_shot')]
+        },
+        {
+            filter: [
+                'evilcraft:broom'
+            ],
+            text: [Text.translate('ll8.info.evilcraft.chest_loot_broom')]
+        },
+        {
+            filter: [
+                'evilcraft:condensed_blood'
+            ],
+            text: [Text.translate('ll8.info.evilcraft.chest_loot_condensed_blood')]
+        },
+        {
+            filter: [
+                'evilcraft:origins_of_darkness'
+            ],
+            text: [Text.translate('ll8.info.evilcraft.spirit_portal_book_or_chest')]
+        },
+        {
+            filter: [
+                'evilcraft:bucket_blood'
+            ],
+            text: [Text.translate('ll8.info.evilcraft.fill_bucket_from_tank')]
+        },
+        {
+            filter: [
+                'ufo:gelid_cryotheum_bucket',
+                'ufo:neutron_star_fragment_bucket',
+                'ufo:pulsar_fragment_bucket',
+                'ufo:white_dwarf_fragment_bucket'
+            ],
+            text: [Text.translate('ll8.info.ufo.fill_from_dma_tank')]
+        },
+        {
+            filter: [
+                'enderio:cloud_seed_bucket',
+                'enderio:cloud_seed_concentrated_bucket',
+                'enderio:fire_water_bucket',
+                'enderio:hootch_bucket',
+                'enderio:liquid_darkness_bucket',
+                'enderio:liquid_sunshine_bucket',
+                'enderio:nutrient_distillation_bucket',
+                'enderio:rocket_fuel_bucket'
+            ],
+            text: [Text.translate('ll8.info.enderio.fill_from_vat')]
+        },
+        {
+            filter: [
+                'enderio:location_printout'
+            ],
+            text: [Text.translate('ll8.info.enderio.coordinate_selector_with_paper')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:enchanted_ichor_bottle'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.first_ichor_bottle_from_chest')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:enchanted_astral_fruit'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.end_city_chest_while_cursed')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:cursed_ring'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.quest_reward')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:soul_crystal'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.drop_on_death_cursed')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:storage_crystal'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.drop_on_death_with_amulet')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:enigmatic_eye_active'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.awaken_enigmatic_eye')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:etherium_core_active'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.charge_core_with_starlight_pearl')]
+        },
+        {
+            filter: [
+                'framedblocks:framing_saw_pattern'
+            ],
+            text: [Text.translate('ll8.info.framedblocks.encode_in_framing_saw')]
+        },
+        {
+            filter: [
+                'malum:umbral_spirit'
+            ],
+            text: [Text.translate('ll8.info.malum.weeping_well_rejection')]
+        },
+        {
+            filter: [
+                'malum:geas'
+            ],
+            text: [Text.translate('ll8.info.malum.soul_binding_brazier')]
+        },
+        {
+            filter: [
+                'malum:soul_of_a_scythe',
+                'malum:soul_of_the_anchor'
+            ],
+            text: [Text.translate('ll8.info.malum.thrown_weapon_placeholder')]
+        },
+        {
+            filter: [
+                'mekanism:brine_bucket'
+            ],
+            text: [Text.translate('ll8.info.mekanism.thermal_evaporation_plant')]
+        },
+        {
+            filter: [
+                'mekanism:heavy_water_bucket'
+            ],
+            text: [Text.translate('ll8.info.mekanism.electric_pump_filter')]
+        },
+        {
+            filter: [
+                'mekanism:nutritional_paste_bucket'
+            ],
+            text: [Text.translate('ll8.info.mekanism.nutritional_liquifier')]
+        },
+        {
+            filter: [
+                'the_backwoods:faded_apple',
+                'the_backwoods:faded_beetroot',
+                'the_backwoods:faded_dried_kelp',
+                'the_backwoods:faded_enchanted_golden_apple',
+                'the_backwoods:faded_golden_apple'
+            ],
+            text: [Text.translate('ll8.info.the_backwoods.fade_in_loss_inventory')]
+        },
+        {
+            filter: [
+                'twilightforest:magic_painting'
+            ],
+            text: [Text.translate('ll8.info.twilightforest.break_lich_tower_gallery_painting')]
+        },
+        {
+            filter: [
+                'frightsdelight:cobweb_ring_candy',
+                'frightsdelight:ghasttear_ring_candy',
+                'frightsdelight:rotten_flesh_ring_candy',
+                'frightsdelight:slimeapple_ring_candy',
+                'frightsdelight:soul_berry_ring_candy',
+                'frightsdelight:spidereye_ring_candy',
+                'frightsdelight:wither_berry_ring_candy'
+            ],
+            text: [Text.translate('ll8.info.frightsdelight.ring_candy_mold_harden')]
+        },
+        {
+            filter: [
+                'rftoolsdim:attribute_dimlet',
+                'rftoolsdim:biome_category_dimlet',
+                'rftoolsdim:biome_controller_dimlet',
+                'rftoolsdim:biome_dimlet',
+                'rftoolsdim:block_dimlet',
+                'rftoolsdim:feature_dimlet',
+                'rftoolsdim:fluid_dimlet',
+                'rftoolsdim:sky_dimlet',
+                'rftoolsdim:structure_dimlet',
+                'rftoolsdim:tag_dimlet',
+                'rftoolsdim:terrain_dimlet',
+                'rftoolsdim:time_dimlet'
+            ],
+            text: [Text.translate('ll8.info.rftoolsdim.craft_in_dimlet_workbench')]
+        },
+        {
+            filter: [
+                'stellaris:oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.stellaris.bucket_from_oil_lake_or_pumpjack')]
+        },
+        {
+            filter: [
+                'stellaris:moon_berries'
+            ],
+            text: [Text.translate('ll8.info.stellaris.pick_from_moon_vines')]
+        },
+        {
+            filter: [
+                'ars_elemental:firenando_familiar',
+                'ars_elemental:flashjack_familiar',
+                'ars_elemental:siren_familiar'
+            ],
+            text: [Text.translate('ll8.info.ars_elemental.ritual_of_binding_familiar')]
+        },
+        {
+            filter: [
+                'ars_elemental:mermaid_rock'
+            ],
+            text: [Text.translate('ll8.info.ars_elemental.siren_charm_on_prismarine')]
+        },
+        {
+            filter: [
+                'extended_industrialization:canned_food'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.canning_machine_food')]
+        },
+        {
+            filter: [
+                'extended_industrialization:nyano_helmet',
+                'extended_industrialization:nyano_quantum_helmet'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.cat_upgrade_nano_helmet')]
+        },
+        {
+            filter: [
+                'oritech:still_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.bucket_from_oil_spring')]
+        },
+        {
+            filter: [
+                'wildernature:guild_commission'
+            ],
+            text: [Text.translate('ll8.info.wildernature.accept_commission_at_board')]
+        },
+        {
+            filter: [
+                'apothic_compats:adorned_boots',
+                'apothic_compats:back_plate',
+                'apothic_compats:body_chain',
+                'apothic_compats:embellished_curio',
+                'apothic_compats:fancy_charm',
+                'apothic_compats:flashy_bracelet',
+                'apothic_compats:florid_belt',
+                'apothic_compats:head_cover',
+                'apothic_compats:ornamented_necklace',
+                'apothic_compats:ornate_ring',
+                'apothic_compats:showy_gloves'
+            ],
+            text: [Text.translate('ll8.info.apothic_compats.apotheosis_affix_loot')]
+        },
+        {
+            filter: [
+                'justdirethings:xp_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.fill_from_experience_holder')]
+        },
+        {
+            filter: [
+                'justdirethings:goosoil_tier4'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.till_dirt_eclipse_alloy_hoe')]
+        },
+        {
+            filter: [
+                'justdirethings:time_crystal_budding_block'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.goo_converts_budding_amethyst')]
+        },
+        {
+            filter: [
+                'netherdepthsupgrade:blazefish_bucket',
+                'netherdepthsupgrade:bonefish_bucket',
+                'netherdepthsupgrade:eyeball_fish_bucket',
+                'netherdepthsupgrade:fortress_grouper_bucket',
+                'netherdepthsupgrade:glowdine_bucket',
+                'netherdepthsupgrade:lava_pufferfish_bucket',
+                'netherdepthsupgrade:magmacubefish_bucket',
+                'netherdepthsupgrade:obsidianfish_bucket',
+                'netherdepthsupgrade:searing_cod_bucket',
+                'netherdepthsupgrade:soulsucker_bucket',
+                'netherdepthsupgrade:wither_bonefish_bucket'
+            ],
+            text: [Text.translate('ll8.info.netherdepthsupgrade.scoop_live_fish_with_lava_bucket')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.scoop_oil_lake')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:memory_essence_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.store_player_xp')]
+        },
+        {
+            filter: [
+                'thavma:eye_of_warden'
+            ],
+            text: [Text.translate('ll8.info.thavma.drop_from_warden')]
+        },
+        {
+            filter: [
+                'thavma:book'
+            ],
+            text: [Text.translate('ll8.info.thavma.wand_on_bookshelf')]
+        },
+        {
+            filter: [
+                'create_enchantment_industry:experience_bucket'
+            ],
+            text: [Text.translate('ll8.info.create_enchantment_industry.fill_bucket_from_tank')]
+        },
+        {
+            filter: [
+                'create_enchantment_industry:crystal_essence_bucket'
+            ],
+            text: [Text.translate('ll8.info.create_enchantment_industry.mix_gem_dust_fill_bucket')]
+        },
+        {
+            filter: [
+                'create_enchantment_industry:infused_dragon_breath_bucket'
+            ],
+            text: [Text.translate('ll8.info.create_enchantment_industry.infuse_or_drain_breath_fill_bucket')]
+        },
+        {
+            filter: [
+                'create_enchantment_industry:grindstone_drain'
+            ],
+            text: [Text.translate('ll8.info.create_enchantment_industry.place_grindstone_on_item_drain')]
+        },
+        {
+            filter: [
+                'mcwholidays:bat_awake'
+            ],
+            text: [Text.translate('ll8.info.mcwholidays.toggle_sleeping_bat')]
+        },
+        {
+            filter: [
+                'mcwholidays:happy_ghost',
+                'mcwholidays:haunting_ghost'
+            ],
+            text: [Text.translate('ll8.info.mcwholidays.toggle_ghost')]
+        },
+        {
+            filter: [
+                'sgjourney:falcon_helmet'
+            ],
+            text: [Text.translate('ll8.info.sgjourney.drop_from_abydos_jaffa')]
+        },
+        {
+            filter: [
+                'starbunclemania:mixer_wixie_cauldron',
+                'starbunclemania:smelting_wixie_cauldron',
+                'starbunclemania:stonecutting_wixie_cauldron'
+            ],
+            text: [Text.translate('ll8.info.starbunclemania.wixie_charm_on_vanilla_block')]
+        },
+        {
+            filter: [
+                'starbunclemania:cooking_pot_wixie_cauldron',
+                'starbunclemania:cutting_wixie_cauldron'
+            ],
+            text: [Text.translate('ll8.info.starbunclemania.wixie_charm_on_farmersdelight_block')]
+        },
+        {
+            filter: [
+                'touhou_little_maid:photo'
+            ],
+            text: [Text.translate('ll8.info.touhou_little_maid.camera_shot_of_maid')]
+        },
+        {
+            filter: [
+                'ascended_quark:blue_swet_in_a_bucket',
+                'ascended_quark:blue_swet_in_a_skyroot_bucket',
+                'ascended_quark:golden_swet_in_a_bucket',
+                'ascended_quark:golden_swet_in_a_skyroot_bucket',
+                'ascended_quark:slime_in_a_skyroot_bucket'
+            ],
+            text: [Text.translate('ll8.info.ascended_quark.scoop_mob_with_bucket')]
+        },
+        {
+            filter: [
+                'draconicevolution:mob_soul'
+            ],
+            text: [Text.translate('ll8.info.draconicevolution.reaper_kill_drop')]
+        },
+        {
+            filter: [
+                'earthmobsmod:teacup_pig_pot'
+            ],
+            text: [Text.translate('ll8.info.earthmobsmod.capture_teacup_pig')]
+        },
+        {
+            filter: [
+                'earthmobsmod:tropical_slime_bucket'
+            ],
+            text: [Text.translate('ll8.info.earthmobsmod.capture_tiny_tropical_slime')]
+        },
+        {
+            filter: [
+                'actuallyadditions:water_bowl'
+            ],
+            text: [Text.translate('ll8.info.actuallyadditions.bowl_on_water')]
+        },
+        {
+            filter: [
+                'actuallyadditions:coffee_cup'
+            ],
+            text: [Text.translate('ll8.info.actuallyadditions.coffee_machine')]
+        },
+        {
+            filter: [
+                'apotheosis:music_disc_flash',
+                'apotheosis:music_disc_glimmer',
+                'apotheosis:music_disc_shimmer'
+            ],
+            text: [Text.translate('ll8.info.apotheosis.drop_from_invader_boss')]
+        },
+        {
+            filter: [
+                'ars_additions:enchanting_wixie_cauldron'
+            ],
+            text: [Text.translate('ll8.info.ars_additions.convert_apparatus_with_wixie_charm')]
+        },
+        {
+            filter: [
+                'ars_additions:imbued_spell_parchment'
+            ],
+            text: [Text.translate('ll8.info.ars_additions.imbue_spell_parchment')]
+        },
+        {
+            filter: [
+                'ars_additions:nexus_warp_scroll'
+            ],
+            text: [Text.translate('ll8.info.ars_additions.take_from_warp_nexus')]
+        },
+        {
+            filter: [
+                'butchercraft:cow_skull_head'
+            ],
+            text: [Text.translate('ll8.info.butchercraft.place_skull_from_cow_head')]
+        },
+        {
+            filter: [
+                'endersdelight:stuffed_shulker_bowl'
+            ],
+            text: [Text.translate('ll8.info.endersdelight.serve_from_stuffed_shulker_feast')]
+        },
+        {
+            filter: [
+                'energizedpower:dirty_water_bucket'
+            ],
+            text: [Text.translate('ll8.info.energizedpower.fill_dirty_water_in_fluid_filler')]
+        },
+        {
+            filter: [
+                'reanimal:kiwi_egg',
+                'reanimal:ostrich_egg',
+                'reanimal:penguin_egg',
+                'reanimal:pigeon_egg',
+                'reanimal:vulture_egg'
+            ],
+            text: [Text.translate('ll8.info.reanimal.bird_lays_egg_over_time')]
+        },
+        {
+            filter: [
+                'rusticdelight:potted_wild_bell_peppers',
+                'rusticdelight:potted_wild_coffee',
+                'rusticdelight:potted_wild_cotton',
+                'rusticdelight:potted_wild_dark_bell_peppers',
+                'rusticdelight:potted_wild_pale_bell_peppers'
+            ],
+            text: [Text.translate('ll8.info.rusticdelight.plant_in_flower_pot')]
+        },
+        {
+            filter: [
+                'securitycraft:taser_powered'
+            ],
+            text: [Text.translate('ll8.info.securitycraft.charge_taser_with_redstone')]
+        },
+        {
+            filter: [
+                'create_connected:andesite_encased_cross_connector',
+                'create_connected:brass_encased_cross_connector'
+            ],
+            text: [Text.translate('ll8.info.create_connected.encase_with_casing')]
+        },
+        {
+            filter: [
+                'mobflowutilities:life_catalyst'
+            ],
+            text: [Text.translate('ll8.info.mobflowutilities.drop_from_bosses_and_mobs')]
+        },
+        {
+            filter: [
+                'mobflowutilities:gene_sample_vial'
+            ],
+            text: [Text.translate('ll8.info.mobflowutilities.sample_mob_with_empty_vial')]
+        },
+        {
+            filter: [
+                'spider_overhaul:bottle_of_spider_pollen'
+            ],
+            text: [Text.translate('ll8.info.spider_overhaul.bottle_jungle_spider_puddle')]
+        },
+        {
+            filter: [
+                'arsdelight:bowl_of_honey_glazed_chimera'
+            ],
+            text: [Text.translate('ll8.info.arsdelight.serve_from_chimera_feast')]
+        },
+        {
+            filter: [
+                'crittersandcompanions:dumbo_octopus_bucket',
+                'crittersandcompanions:koi_fish_bucket',
+                'crittersandcompanions:sea_bunny_bucket'
+            ],
+            text: [Text.translate('ll8.info.crittersandcompanions.bucket_water_mob')]
+        },
+        {
+            filter: [
+                'irons_jewelry:garnet',
+                'irons_jewelry:moonstone',
+                'irons_jewelry:onyx'
+            ],
+            text: [Text.translate('ll8.info.irons_jewelry.chest_loot_and_jeweler_trade')]
+        },
+        {
+            filter: [
+                'livingthings:ancient_helmet'
+            ],
+            text: [Text.translate('ll8.info.livingthings.drop_from_ancient_blaze')]
+        },
+        {
+            filter: [
+                'livingthings:ostrich_egg'
+            ],
+            text: [Text.translate('ll8.info.livingthings.take_from_ostrich_nest')]
+        },
+        {
+            filter: [
+                'livingthings:seahorse_bucket'
+            ],
+            text: [Text.translate('ll8.info.livingthings.bucket_seahorse')]
+        },
+        {
+            filter: [
+                'advanced_ae:quantum_infusion_bucket'
+            ],
+            text: [Text.translate('ll8.info.advanced_ae.fill_bucket_from_reaction_chamber')]
+        },
+        {
+            filter: [
+                'twilightdelight:plate_of_fiery_snakes',
+                'twilightdelight:plate_of_lily_chicken',
+                'twilightdelight:plate_of_meef_wellington'
+            ],
+            text: [Text.translate('ll8.info.twilightdelight.serve_from_feast_block')]
+        },
+        {
+            filter: [
+                'buildinggadgets2:template'
+            ],
+            text: [Text.translate('ll8.info.buildinggadgets2.save_in_template_manager')]
+        },
+        {
+            filter: [
+                'extradelight:egg_yolk'
+            ],
+            text: [Text.translate('ll8.info.extradelight.separate_egg_in_mixing_bowl')]
+        },
+        {
+            filter: [
+                'rootsclassic:staff'
+            ],
+            text: [Text.translate('ll8.info.rootsclassic.imbue_stick_with_spell_powder')]
+        },
+        {
+            filter: [
+                'waystones:bound_scroll'
+            ],
+            text: [Text.translate('ll8.info.waystones.bind_blank_scroll_on_waystone')]
+        },
+        {
+            filter: [
+                'amendments:dye_bottle'
+            ],
+            text: [Text.translate('ll8.info.amendments.fill_bottle_from_dye_cauldron')]
+        },
+        {
+            filter: [
+                'brewinandchewin:fiery_fondue'
+            ],
+            text: [Text.translate('ll8.info.brewinandchewin.serve_from_placed_pot')]
+        },
+        {
+            filter: [
+                'create_mechanical_chicken:chicken_nutrient_bucket'
+            ],
+            text: [Text.translate('ll8.info.create_mechanical_chicken.fill_bucket_with_nutrient_fluid')]
+        },
+        {
+            filter: [
+                'ironfurnaces:rainbow_coal'
+            ],
+            text: [Text.translate('ll8.info.ironfurnaces.explode_million_furnace')]
+        },
+        {
+            filter: [
+                'appmek:chemical_p2p_tunnel'
+            ],
+            text: [Text.translate('ll8.info.appmek.attune_p2p_with_chemical_tank')]
+        },
+        {
+            filter: [
+                'powah:binding_card_dim'
+            ],
+            text: [Text.translate('ll8.info.powah.binding_card_on_enderman')]
+        },
+        {
+            filter: [
+                'piglinproliferation:buckler'
+            ],
+            text: [Text.translate('ll8.info.piglinproliferation.bastion_chest_or_brute')]
+        },
+        {
+            filter: [
+                'oceansdelight:bowl_of_guardian_soup'
+            ],
+            text: [Text.translate('ll8.info.oceansdelight.serve_feast_with_bowl')]
+        },
+        {
+            filter: [
+                'rftoolspower:blazing_rod'
+            ],
+            text: [Text.translate('ll8.info.rftoolspower.blazing_agitator')]
+        },
+        {
+            filter: [
+                'ribbits:maraca'
+            ],
+            text: [Text.translate('ll8.info.ribbits.ribbit_merchant_trade')]
+        },
+        {
+            filter: [
+                'refurbished_furniture:package'
+            ],
+            text: [Text.translate('ll8.info.refurbished_furniture.send_via_post_box')]
+        },
+        {
+            filter: [
+                'rftoolsstorage:tablet_scanner'
+            ],
+            text: [Text.translate('ll8.info.rftoolsstorage.install_storage_module_in_tablet')]
+        },
+        {
+            filter: [
+                'shrink:shrink_bottle'
+            ],
+            text: [Text.translate('ll8.info.shrink.bottle_shrunk_mob')]
+        },
+        {
+            filter: [
+                'silentgems:cup_of_coffee'
+            ],
+            text: [Text.translate('ll8.info.silentgems.rabbit_drops_coffee')]
+        },
+        {
+            filter: [
+                'utilitarian:slime_bucket'
+            ],
+            text: [Text.translate('ll8.info.utilitarian.bucket_a_small_slime')]
+        },
+        {
+            filter: [
+                'whaleborne:music_disc_the_plank'
+            ],
+            text: [Text.translate('ll8.info.whaleborne.axe_off_whale_underside')]
+        },
+        {
+            filter: [
+                'fishofthieves:ancientscale_bucket',
+                'fishofthieves:battlegill_bucket',
+                'fishofthieves:devilfish_bucket',
+                'fishofthieves:islehopper_bucket',
+                'fishofthieves:plentifin_bucket',
+                'fishofthieves:pondie_bucket',
+                'fishofthieves:splashtail_bucket',
+                'fishofthieves:stormfish_bucket',
+                'fishofthieves:wildsplash_bucket',
+                'fishofthieves:wrecker_bucket'
+            ],
+            text: [Text.translate('ll8.info.fishofthieves.bucket_live_fish')]
+        },
+        {
+            filter: [
+                'fishofthieves:great_mouth_pottery_sherd',
+                'fishofthieves:kraken_pottery_sherd',
+                'fishofthieves:megalodon_pottery_sherd',
+                'fishofthieves:stormfish_pottery_sherd'
+            ],
+            text: [Text.translate('ll8.info.fishofthieves.brush_ocean_ruin_suspicious_block')]
+        },
+        {
+            filter: [
+                'fishofthieves:half_pineapple'
+            ],
+            text: [Text.translate('ll8.info.fishofthieves.eat_pineapple')]
+        },
+        {
+            filter: [
+                'create:andesite_encased_cogwheel',
+                'create:andesite_encased_large_cogwheel',
+                'create:andesite_encased_shaft',
+                'create:brass_encased_cogwheel',
+                'create:brass_encased_large_cogwheel',
+                'create:brass_encased_shaft'
+            ],
+            text: [Text.translate('ll8.info.create.encase_with_casing')]
+        },
+        {
+            filter: [
+                'dungeonsdelight:polterghast_pizza_slice'
+            ],
+            text: [Text.translate('ll8.info.dungeonsdelight.slice_pizza_with_knife')]
+        },
+        {
+            filter: [
+                'dungeonsdelight:candied_silverfish_sucker'
+            ],
+            text: [Text.translate('ll8.info.dungeonsdelight.hit_silverfish_with_rock_candy')]
+        },
+        {
+            filter: [
+                'spelunkers_charm:mining_helmet'
+            ],
+            text: [Text.translate('ll8.info.spelunkers_charm.wandering_trader_rare_trade')]
+        },
+        {
+            filter: [
+                'undergarden:gwibling_bucket'
+            ],
+            text: [Text.translate('ll8.info.undergarden.bucket_gwibling')]
+        },
+        {
+            filter: [
+                'undergarden:music_disc_gloomper_secret'
+            ],
+            text: [Text.translate('ll8.info.undergarden.use_anthem_disc_on_gloomper')]
+        },
+        {
+            filter: [
+                'dndesires:chocolate_milkshake_bucket',
+                'dndesires:glowberry_milkshake_bucket',
+                'dndesires:pumpkin_milkshake_bucket',
+                'dndesires:strawberry_milkshake_bucket',
+                'dndesires:vanilla_milkshake_bucket'
+            ],
+            text: [Text.translate('ll8.info.dndesires.spout_fill_bucket')]
+        },
+        {
+            filter: [
+                'mysticalagradditions:molten_imperium_bucket',
+                'mysticalagradditions:molten_inferium_bucket',
+                'mysticalagradditions:molten_prudentium_bucket',
+                'mysticalagradditions:molten_supremium_bucket',
+                'mysticalagradditions:molten_tertium_bucket'
+            ],
+            text: [Text.translate('ll8.info.mysticalagradditions.melt_in_pmw_foundry')]
+        },
+        {
+            filter: [
+                'modern_industrialization:caprolactam_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.caprolactam')]
+        },
+        {
+            filter: [
+                'modern_industrialization:synthetic_rubber_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.synthetic_rubber')]
+        },
+        {
+            filter: [
+                'modern_industrialization:diesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.diesel')]
+        },
+        {
+            filter: [
+                'modern_industrialization:boosted_diesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.boosted_diesel')]
+        },
+        {
+            filter: [
+                'modern_industrialization:heavy_water_steam_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.heavy_water_steam')]
+        },
+        {
+            filter: [
+                'immersiveengineering:creosote_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.creosote')]
+        },
+        {
+            filter: [
+                'immersiveengineering:plantoil_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.plantoil')]
+        },
+        {
+            filter: [
+                'immersiveengineering:ethanol_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.ethanol')]
+        },
+        {
+            filter: [
+                'immersiveengineering:herbicide_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.herbicide')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:wormhole_potion'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.wormhole')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:twisted_potion'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.twisted')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:bless_potion'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.purification')]
+        },
+        {
+            filter: [
+                'justdirethings:polymorphic_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.polymorphic')]
+        },
+        {
+            filter: [
+                'justdirethings:unstable_portal_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.unstable_portal')]
+        },
+        {
+            filter: [
+                'mynethersdelight:plate_of_stuffed_hoglin_snout'
+            ],
+            text: [Text.translate('ll8.info.mynethersdelight.snout')]
+        },
+        {
+            filter: [
+                'mynethersdelight:plate_of_stuffed_hoglin_ham'
+            ],
+            text: [Text.translate('ll8.info.mynethersdelight.ham')]
+        },
+        {
+            filter: [
+                'touhou_little_maid:favorability_tool_add',
+                'touhou_little_maid:favorability_tool_full',
+                'touhou_little_maid:favorability_tool_reduce',
+                'touhou_little_maid:monster_list',
+                'touhou_little_maid:owner_conversion_tool',
+                'touhou_little_maid:substitute_jizo'
+            ],
+            text: [Text.translate('ll8.info.touhou_little_maid.loot_bundle_random_roll')]
+        },
+        {
+            filter: [
+                'farmersdelight:gleaming_salad',
+                'farmersdelight:honey_glazed_ham',
+                'farmersdelight:roast_chicken',
+                'farmersdelight:shepherds_pie',
+                'farmersdelight:stuffed_pumpkin'
+            ],
+            text: [Text.translate('ll8.info.farmersdelight.serving_from_feast_block')]
+        },
+        {
+            filter: [
+                'herbalbrews:black_tea_leaf_block'
+            ],
+            text: [Text.translate('ll8.info.herbalbrews.from_dried_green')]
+        },
+        {
+            filter: [
+                'herbalbrews:dried_out_green_tea_leaf_block'
+            ],
+            text: [Text.translate('ll8.info.herbalbrews.from_green')]
+        },
+        {
+            filter: [
+                'herbalbrews:oolong_tea_leaf_block'
+            ],
+            text: [Text.translate('ll8.info.herbalbrews.from_mixed')]
+        },
+        {
+            filter: [
+                'reliquified_ars_nouveau:architects_staff',
+                'reliquified_ars_nouveau:archmage_glove',
+                'reliquified_ars_nouveau:ballistarian_bracer',
+                'reliquified_ars_nouveau:cloak_of_concealment',
+                'reliquified_ars_nouveau:emblem_of_assault',
+                'reliquified_ars_nouveau:emblem_of_defense',
+                'reliquified_ars_nouveau:emblem_of_devotion',
+                'reliquified_ars_nouveau:flaming_bracer',
+                'reliquified_ars_nouveau:horn_of_the_wild_hunter',
+                'reliquified_ars_nouveau:illusionists_mantle',
+                'reliquified_ars_nouveau:mana_ring',
+                'reliquified_ars_nouveau:quantum_bubble',
+                'reliquified_ars_nouveau:ring_of_last_will',
+                'reliquified_ars_nouveau:ring_of_thrift',
+                'reliquified_ars_nouveau:spiked_cloak',
+                'reliquified_ars_nouveau:staff_of_the_spectral_walker',
+                'reliquified_ars_nouveau:whirling_broom',
+                'reliquified_ars_nouveau:whirlisprig_petals',
+                'reliquified_ars_nouveau:wing_of_the_wild_stalker'
+            ],
+            text: [Text.translate('ll8.info.reliquified_ars_nouveau.kill_mimic')]
+        },
+        {
+            filter: [
+                'stellaris:diesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.stellaris.diesel_from_fuel_refinery')]
+        },
+        {
+            filter: [
+                'stellaris:hydrogen_bucket'
+            ],
+            text: [Text.translate('ll8.info.stellaris.hydrogen_from_water_separator')]
+        },
+        {
+            filter: [
+                'actuallyadditions:canola_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.actuallyadditions.fill_from_press_or_barrel')]
+        },
+        {
+            filter: [
+                'actuallyadditions:refined_canola_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.actuallyadditions.refined_from_fermenting_barrel')]
+        },
+        {
+            filter: [
+                'actuallyadditions:crystallized_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.actuallyadditions.crystallized')]
+        },
+        {
+            filter: [
+                'actuallyadditions:empowered_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.actuallyadditions.empowered')]
+        },
+        {
+            filter: [
+                'advanced_ae:adv_processing_pattern'
+            ],
+            text: [Text.translate('ll8.info.advanced_ae.encode_in_adv_pattern_encoder')]
+        },
+        {
+            filter: [
+                'ae2:item_p2p_tunnel',
+                'ae2:light_p2p_tunnel',
+                'ae2:redstone_p2p_tunnel'
+            ],
+            text: [Text.translate('ll8.info.ae2.p2p_attunement')]
+        },
+        {
+            filter: [
+                'ae2:name_press'
+            ],
+            text: [Text.translate('ll8.info.ae2.cut_with_quartz_knife')]
+        },
+        {
+            filter: [
+                'ae2:smithing_table_pattern',
+                'ae2:stonecutting_pattern'
+            ],
+            text: [Text.translate('ll8.info.ae2.encode_in_pattern_terminal')]
+        },
+        {
+            filter: [
+                'ae2netanalyser:tick_analyser'
+            ],
+            text: [Text.translate('ll8.info.ae2netanalyser.loot_bundle_random_pick')]
+        },
+        {
+            filter: [
+                'alexscaves:spawn_egg_boundroid',
+                'alexscaves:spawn_egg_caniac',
+                'alexscaves:spawn_egg_caramel_cube',
+                'alexscaves:spawn_egg_corrodent',
+                'alexscaves:spawn_egg_deep_one',
+                'alexscaves:spawn_egg_deep_one_knight',
+                'alexscaves:spawn_egg_ferrouslime',
+                'alexscaves:spawn_egg_gingerbread_man',
+                'alexscaves:spawn_egg_gossamer_worm',
+                'alexscaves:spawn_egg_gum_worm',
+                'alexscaves:spawn_egg_gumbeeper',
+                'alexscaves:spawn_egg_gummy_bear',
+                'alexscaves:spawn_egg_hullbreaker',
+                'alexscaves:spawn_egg_lanternfish',
+                'alexscaves:spawn_egg_licowitch',
+                'alexscaves:spawn_egg_luxtructosaurus',
+                'alexscaves:spawn_egg_magnetron',
+                'alexscaves:spawn_egg_mine_guardian',
+                'alexscaves:spawn_egg_notor',
+                'alexscaves:spawn_egg_radgill',
+                'alexscaves:spawn_egg_sea_pig',
+                'alexscaves:spawn_egg_sweetish_fish',
+                'alexscaves:spawn_egg_teletor',
+                'alexscaves:spawn_egg_trilocaris',
+                'alexscaves:spawn_egg_tripodfish'
+            ],
+            text: [Text.translate('ll8.info.alexscaves.gm_chicken_swab_spawn_egg')]
+        },
+        {
+            filter: [
+                'apotheosis:sigil_of_supremacy'
+            ],
+            text: [Text.translate('ll8.info.apotheosis.endless_invader_gateway')]
+        },
+        {
+            filter: [
+                'ars_elemental:air_caster_tome',
+                'ars_elemental:anima_caster_tome',
+                'ars_elemental:earth_caster_tome',
+                'ars_elemental:fire_caster_tome',
+                'ars_elemental:manipulation_caster_tome',
+                'ars_elemental:water_caster_tome'
+            ],
+            text: [Text.translate('ll8.info.ars_elemental.dungeon_chest_loot')]
+        },
+        {
+            filter: [
+                'ars_elemental:anima_essence'
+            ],
+            text: [Text.translate('ll8.info.ars_elemental.imbue_source_gem')]
+        },
+        {
+            filter: [
+                'ars_nouveau:alakarkinos_se'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.mob_swab_gm_chicken')]
+        },
+        {
+            filter: [
+                'ars_nouveau:drygmy_se'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.capturing_drygmy_egg')]
+        },
+        {
+            filter: [
+                'ars_nouveau:drygmy_stone',
+                'ars_nouveau:whirlisprig_flower',
+                'ars_nouveau:wixie_cauldron'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.charm_converts_block')]
+        },
+        {
+            filter: [
+                'ars_nouveau:familiar_amethyst_golem'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.ritual_of_binding_golem')]
+        },
+        {
+            filter: [
+                'ars_nouveau:music_disc_aria_biblio',
+                'ars_nouveau:music_disc_firel_the_wild_hunt',
+                'ars_nouveau:music_disc_thistle_the_sound_of_glass'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.dungeon_chest_rare_loot')]
+        },
+        {
+            filter: [
+                'ars_nouveau:starby_gift'
+            ],
+            text: [Text.translate('ll8.info.ars_nouveau.gift_starbuncle_gold_nugget')]
+        },
+        {
+            filter: [
+                'ars_technica:runic_spanner'
+            ],
+            text: [Text.translate('ll8.info.ars_technica.enchanting_apparatus_wrench')]
+        },
+        {
+            filter: [
+                'arsdelight:bowl_of_wilden_salad',
+                'arsdelight:horn_roll'
+            ],
+            text: [Text.translate('ll8.info.arsdelight.serve_from_wilden_salad_feast')]
+        },
+        {
+            filter: [
+                'arseng:source_p2p_tunnel',
+                'arseng:spell_p2p_tunnel'
+            ],
+            text: [Text.translate('ll8.info.arseng.attune_p2p_tunnel')]
+        },
+        {
+            filter: [
+                'ascended_quark:phoenix_flamerang'
+            ],
+            text: [Text.translate('ll8.info.ascended_quark.aether_dungeon_chest')]
+        },
+        {
+            filter: [
+                'ascended_quark:valkyrie_pickarang'
+            ],
+            text: [Text.translate('ll8.info.ascended_quark.valkyrie_loot_quest')]
+        },
+        {
+            filter: [
+                'bigreactors:blutonium_bucket',
+                'bigreactors:cyanite_bucket',
+                'bigreactors:magentite_bucket',
+                'bigreactors:yellorium_bucket'
+            ],
+            text: [Text.translate('ll8.info.bigreactors.fluidizer_melt_ingot')]
+        },
+        {
+            filter: [
+                'bigreactors:cryomisi_bucket'
+            ],
+            text: [Text.translate('ll8.info.bigreactors.cryomisi')]
+        },
+        {
+            filter: [
+                'bigreactors:redfrigium_bucket'
+            ],
+            text: [Text.translate('ll8.info.bigreactors.redfrigium')]
+        },
+        {
+            filter: [
+                'bigreactors:rossinite_bucket'
+            ],
+            text: [Text.translate('ll8.info.bigreactors.reactor_waste_from_verderium')]
+        },
+        {
+            filter: [
+                'bigreactors:tangerium_bucket'
+            ],
+            text: [Text.translate('ll8.info.bigreactors.tangerium')]
+        },
+        {
+            filter: [
+                'bigreactors:verderium_bucket'
+            ],
+            text: [Text.translate('ll8.info.bigreactors.verderium')]
+        },
+        {
+            filter: [
+                'butchercraft:chicken_head'
+            ],
+            text: [Text.translate('ll8.info.butchercraft.chicken')]
+        },
+        {
+            filter: [
+                'butchercraft:cow_head',
+                'butchercraft:goat_head',
+                'butchercraft:pig_head',
+                'butchercraft:sheep_head'
+            ],
+            text: [Text.translate('ll8.info.butchercraft.livestock')]
+        },
+        {
+            filter: [
+                'chemlib:phosphorus_dust'
+            ],
+            text: [Text.translate('ll8.info.chemlib.mine_with_ie_excavator')]
+        },
+        {
+            filter: [
+                'chickens:gas_egg'
+            ],
+            text: [Text.translate('ll8.info.chickens.loot_bundle_random_pick')]
+        },
+        {
+            filter: [
+                'crabbersdelight:coconut_helmet'
+            ],
+            text: [Text.translate('ll8.info.crabbersdelight.coconut_falls_on_head')]
+        },
+        {
+            filter: [
+                'crabbersdelight:crab_bucket'
+            ],
+            text: [Text.translate('ll8.info.crabbersdelight.bucket_crab')]
+        },
+        {
+            filter: [
+                'create:chest_minecart_contraption'
+            ],
+            text: [Text.translate('ll8.info.create.wrench_pickup_chest_cart')]
+        },
+        {
+            filter: [
+                'create:elevator_contact'
+            ],
+            text: [Text.translate('ll8.info.create.convert_contact_by_elevator')]
+        },
+        {
+            filter: [
+                'create:shopping_list'
+            ],
+            text: [Text.translate('ll8.info.create.shop_table_cloth')]
+        },
+        {
+            filter: [
+                'create_connected:music_disc_elevator',
+                'create_connected:music_disc_interlude'
+            ],
+            text: [Text.translate('ll8.info.create_connected.creeper_killed_by_skeleton')]
+        },
+        {
+            filter: [
+                'create_enchantment_industry:apotheotic_essence_bucket'
+            ],
+            text: [Text.translate('ll8.info.create_enchantment_industry.mix_apotheosis_materials_fill_bucket')]
+        },
+        {
+            filter: [
+                'createaddition:bioethanol_bucket'
+            ],
+            text: [Text.translate('ll8.info.createaddition.bioethanol')]
+        },
+        {
+            filter: [
+                'createaddition:seed_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.createaddition.seed_oil')]
+        },
+        {
+            filter: [
+                'divinerpg:smoldering_tar_bucket'
+            ],
+            text: [Text.translate('ll8.info.divinerpg.fill_bucket_from_tar_lake')]
+        },
+        {
+            filter: [
+                'draconicevolution:p2p_dislocator',
+                'draconicevolution:player_dislocator'
+            ],
+            text: [Text.translate('ll8.info.draconicevolution.bind_unbound_dislocator')]
+        },
+        {
+            filter: [
+                'dungeonsdelight:guardian_angel',
+                'dungeonsdelight:monster_mousse',
+                'dungeonsdelight:ossobuco',
+                'dungeonsdelight:silverfish_and_chips'
+            ],
+            text: [Text.translate('ll8.info.dungeonsdelight.serve_from_feast_block')]
+        },
+        {
+            filter: [
+                'earthmobsmod:horn_flute'
+            ],
+            text: [Text.translate('ll8.info.earthmobsmod.horned_sheep_rams_block')]
+        },
+        {
+            filter: [
+                'enderio:silicon'
+            ],
+            text: [Text.translate('ll8.info.enderio.mystical_silicon_essence')]
+        },
+        {
+            filter: [
+                'enderio:xp_juice_bucket'
+            ],
+            text: [Text.translate('ll8.info.enderio.fill_from_xp_tank')]
+        },
+        {
+            filter: [
+                'energizedpower:liquid_xp_bucket'
+            ],
+            text: [Text.translate('ll8.info.energizedpower.fill_liquid_xp_in_fluid_filler')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:hell_blade_charm'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.nether_chest_after_low_health_combat')]
+        },
+        {
+            filter: [
+                'enigmaticlegacyplus:redemption_ring'
+            ],
+            text: [Text.translate('ll8.info.enigmaticlegacyplus.use_bless_stone_in_hardcore')]
+        },
+        {
+            filter: [
+                'eternal_starlight:budding_thioquartz'
+            ],
+            text: [Text.translate('ll8.info.eternal_starlight.mine_with_resonance')]
+        },
+        {
+            filter: [
+                'extended_industrialization:blazing_essence_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.blast_furnace')]
+        },
+        {
+            filter: [
+                'extended_industrialization:composted_manure_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.composter')]
+        },
+        {
+            filter: [
+                'extended_industrialization:distilled_water_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.distillery')]
+        },
+        {
+            filter: [
+                'extended_industrialization:honey_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.honey')]
+        },
+        {
+            filter: [
+                'extended_industrialization:manure_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.waste_collector')]
+        },
+        {
+            filter: [
+                'extended_industrialization:phosphoric_acid_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.react_phosphoric_acid')]
+        },
+        {
+            filter: [
+                'extended_industrialization:potassium_chloride_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.react_potassium_chloride')]
+        },
+        {
+            filter: [
+                'extended_industrialization:potassium_hydroxide_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.react_potassium_hydroxide')]
+        },
+        {
+            filter: [
+                'extended_industrialization:npk_fertilizer_bucket'
+            ],
+            text: [Text.translate('ll8.info.extended_industrialization.chemical_reactor')]
+        },
+        {
+            filter: [
+                'extendedae:package'
+            ],
+            text: [Text.translate('ll8.info.extendedae.pack_device_with_tape')]
+        },
+        {
+            filter: [
+                'forbidden_arcanus:boss_catcher'
+            ],
+            text: [Text.translate('ll8.info.forbidden_arcanus.boss_catcher')]
+        },
+        {
+            filter: [
+                'forbidden_arcanus:whirlwind_prism'
+            ],
+            text: [Text.translate('ll8.info.forbidden_arcanus.whirlwind_prism')]
+        },
+        {
+            filter: [
+                'frightsdelight:cobweb_lollipop',
+                'frightsdelight:ghasttear_lollipop',
+                'frightsdelight:rotten_flesh_lollipop',
+                'frightsdelight:slimeapple_lollipop',
+                'frightsdelight:soul_berry_lollipop',
+                'frightsdelight:spidereye_lollipop',
+                'frightsdelight:wither_berry_lollipop'
+            ],
+            text: [Text.translate('ll8.info.frightsdelight.lollipop_mold_harden')]
+        },
+        {
+            filter: [
+                'gag:energized_hearthstone'
+            ],
+            text: [Text.translate('ll8.info.gag.lightning_strikes_dropped_hearthstone')]
+        },
+        {
+            filter: [
+                'grotesque_steve:bloodline',
+                'grotesque_steve:bloodlineleft',
+                'grotesque_steve:camera',
+                'grotesque_steve:grotesque_song_banjo',
+                'grotesque_steve:itemgrotesquesteveguitab',
+                'grotesque_steve:jeffreyshirt',
+                'grotesque_steve:mailpaper',
+                'grotesque_steve:meatpeak',
+                'grotesque_steve:meatpicks_2',
+                'grotesque_steve:nullblock',
+                'grotesque_steve:nullitem',
+                'grotesque_steve:spawn',
+                'grotesque_steve:tv_2',
+                'grotesque_steve:tv_3',
+                'grotesque_steve:tv_4',
+                'grotesque_steve:tvfly',
+                'grotesque_steve:tvisabelle',
+                'grotesque_steve:tvscream',
+                'grotesque_steve:year_1shirt'
+            ],
+            text: [Text.translate('ll8.info.grotesque_steve.loot_bundle_random_roll')]
+        },
+        {
+            filter: [
+                'immersiveengineering:acetaldehyde_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.acetaldehyde')]
+        },
+        {
+            filter: [
+                'immersiveengineering:biodiesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.biodiesel')]
+        },
+        {
+            filter: [
+                'immersiveengineering:high_power_biodiesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.high_cetane')]
+        },
+        {
+            filter: [
+                'immersiveengineering:logic_circuit'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.circuit_table')]
+        },
+        {
+            filter: [
+                'immersiveengineering:phenolic_resin_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.phenolic_resin')]
+        },
+        {
+            filter: [
+                'immersiveengineering:shader_bag_common',
+                'immersiveengineering:shader_bag_uncommon'
+            ],
+            text: [Text.translate('ll8.info.immersiveengineering.outfitter_trade_or_downgrade')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:diesel_sulfur_bucket',
+                'immersivepetroleum:kerosene_bucket',
+                'immersivepetroleum:lubricant_bucket',
+                'immersivepetroleum:naphtha_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.distillation')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:benzol_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.benzol')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:diesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.hydrotreater')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:petroleum_gas_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.petroleum_gas')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:gasoline_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.gasoline')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:molotov_lit'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.light_with_flint_and_steel')]
+        },
+        {
+            filter: [
+                'immersivepetroleum:napalm_bucket'
+            ],
+            text: [Text.translate('ll8.info.immersivepetroleum.napalm')]
+        },
+        {
+            filter: [
+                'integrateddynamics:bucket_menril_resin'
+            ],
+            text: [Text.translate('ll8.info.integrateddynamics.fill_bucket_from_squeezer')]
+        },
+        {
+            filter: [
+                'integrateddynamics:bucket_liquid_chorus'
+            ],
+            text: [Text.translate('ll8.info.integrateddynamics.liquid_chorus')]
+        },
+        {
+            filter: [
+                'justdirethings:refined_t2_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.t2')]
+        },
+        {
+            filter: [
+                'justdirethings:refined_t3_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.t3')]
+        },
+        {
+            filter: [
+                'justdirethings:refined_t4_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.t4')]
+        },
+        {
+            filter: [
+                'justdirethings:unrefined_t2_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.blaze_ember')]
+        },
+        {
+            filter: [
+                'justdirethings:unrefined_t3_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.voidflame')]
+        },
+        {
+            filter: [
+                'justdirethings:unrefined_t4_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.justdirethings.eclipse_ember')]
+        },
+        {
+            filter: [
+                'mcwholidays:couple_blue_stockings',
+                'mcwholidays:couple_brown_stockings',
+                'mcwholidays:couple_green_stockings',
+                'mcwholidays:couple_red_stockings',
+                'mcwholidays:couple_white_stockings'
+            ],
+            text: [Text.translate('ll8.info.mcwholidays.toggle_stocking_pair')]
+        },
+        {
+            filter: [
+                'mekanism:chlorine_bucket',
+                'mekanism:ethene_bucket',
+                'mekanism:hydrofluoric_acid_bucket',
+                'mekanism:hydrogen_chloride_bucket',
+                'mekanism:oxygen_bucket',
+                'mekanism:sodium_bucket',
+                'mekanism:steam_bucket',
+                'mekanism:sulfur_dioxide_bucket',
+                'mekanism:sulfur_trioxide_bucket',
+                'mekanism:sulfuric_acid_bucket',
+                'mekanism:superheated_sodium_bucket',
+                'mekanism:uranium_hexafluoride_bucket',
+                'mekanism:uranium_oxide_bucket'
+            ],
+            text: [Text.translate('ll8.info.mekanism.rotary_condense_to_bucket')]
+        },
+        {
+            filter: [
+                'mekanismgenerators:deuterium_bucket',
+                'mekanismgenerators:fusion_fuel_bucket',
+                'mekanismgenerators:tritium_bucket'
+            ],
+            text: [Text.translate('ll8.info.mekanismgenerators.fill_from_rotary_condensentrator')]
+        },
+        {
+            filter: [
+                'minecolonies:santa_hat'
+            ],
+            text: [Text.translate('ll8.info.minecolonies.bee_queen_christmas_trade')]
+        },
+        {
+            filter: [
+                'mob_grinding_utils:fluid_xp_bucket'
+            ],
+            text: [Text.translate('ll8.info.mob_grinding_utils.fill_bucket_from_xp_tank')]
+        },
+        {
+            filter: [
+                'mobflowutilities:glimmer_sprout',
+                'mobflowutilities:gloom_spore'
+            ],
+            text: [Text.translate('ll8.info.mobflowutilities.drop_from_mobs_and_chests')]
+        },
+        {
+            filter: [
+                'modern_industrialization:acetylene_bucket',
+                'modern_industrialization:benzene_bucket',
+                'modern_industrialization:butadiene_bucket',
+                'modern_industrialization:ethylbenzene_bucket',
+                'modern_industrialization:ethylene_bucket',
+                'modern_industrialization:methane_bucket',
+                'modern_industrialization:propene_bucket',
+                'modern_industrialization:toluene_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.distill_cracked_fractions')]
+        },
+        {
+            filter: [
+                'modern_industrialization:acrylic_acid_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.acrylic_acid')]
+        },
+        {
+            filter: [
+                'modern_industrialization:acrylic_glue_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.acrylic_glue')]
+        },
+        {
+            filter: [
+                'modern_industrialization:argon_bucket',
+                'modern_industrialization:nitrogen_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.liquid_air')]
+        },
+        {
+            filter: [
+                'modern_industrialization:biodiesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.biodiesel')]
+        },
+        {
+            filter: [
+                'modern_industrialization:chlorine_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.chlorine')]
+        },
+        {
+            filter: [
+                'modern_industrialization:chromium_hydrochloric_solution_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.chromium_solution')]
+        },
+        {
+            filter: [
+                'modern_industrialization:crude_oil_bucket',
+                'modern_industrialization:shale_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.drill_in_oil_rig')]
+        },
+        {
+            filter: [
+                'modern_industrialization:cryofluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.freeze_into_cryofluid')]
+        },
+        {
+            filter: [
+                'modern_industrialization:diethyl_ether_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.diethyl_ether')]
+        },
+        {
+            filter: [
+                'modern_industrialization:ethanol_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.ethanol')]
+        },
+        {
+            filter: [
+                'modern_industrialization:heavy_fuel_bucket',
+                'modern_industrialization:light_fuel_bucket',
+                'modern_industrialization:naphtha_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.hydrotreat_in_chemical_reactor')]
+        },
+        {
+            filter: [
+                'modern_industrialization:helium_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.helium')]
+        },
+        {
+            filter: [
+                'modern_industrialization:helium_3_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.helium_3')]
+        },
+        {
+            filter: [
+                'modern_industrialization:helium_plasma_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.fusion_reactor_plasma')]
+        },
+        {
+            filter: [
+                'modern_industrialization:high_pressure_heavy_water_bucket',
+                'modern_industrialization:high_pressure_heavy_water_steam_bucket',
+                'modern_industrialization:high_pressure_steam_bucket',
+                'modern_industrialization:high_pressure_water_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.pressurizer')]
+        },
+        {
+            filter: [
+                'modern_industrialization:hydrochloric_acid_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.hydrochloric_acid')]
+        },
+        {
+            filter: [
+                'modern_industrialization:hydrogen_bucket',
+                'modern_industrialization:oxygen_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.water')]
+        },
+        {
+            filter: [
+                'modern_industrialization:lubricant_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.lubricant')]
+        },
+        {
+            filter: [
+                'modern_industrialization:manganese_sulfuric_solution_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.manganese_solution')]
+        },
+        {
+            filter: [
+                'modern_industrialization:molten_redstone_bucket',
+                'modern_industrialization:soldering_alloy_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.melt')]
+        },
+        {
+            filter: [
+                'modern_industrialization:nylon_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.nylon')]
+        },
+        {
+            filter: [
+                'modern_industrialization:platinum_sulfuric_solution_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.platinum_solution')]
+        },
+        {
+            filter: [
+                'modern_industrialization:polyethylene_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.polyethylene')]
+        },
+        {
+            filter: [
+                'modern_industrialization:polyvinyl_chloride_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.polyvinyl_chloride')]
+        },
+        {
+            filter: [
+                'modern_industrialization:raw_biodiesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.raw_biodiesel')]
+        },
+        {
+            filter: [
+                'modern_industrialization:raw_synthetic_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.raw_synthetic_oil')]
+        },
+        {
+            filter: [
+                'modern_industrialization:sodium_hydroxide_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.sodium_hydroxide')]
+        },
+        {
+            filter: [
+                'modern_industrialization:styrene_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.styrene')]
+        },
+        {
+            filter: [
+                'modern_industrialization:styrene_butadiene_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.styrene_butadiene')]
+        },
+        {
+            filter: [
+                'modern_industrialization:styrene_butadiene_rubber_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.styrene_butadiene_rubber')]
+        },
+        {
+            filter: [
+                'modern_industrialization:sugar_solution_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.sugar_solution')]
+        },
+        {
+            filter: [
+                'modern_industrialization:sulfuric_acid_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.sulfuric_acid')]
+        },
+        {
+            filter: [
+                'modern_industrialization:sulfuric_heavy_fuel_bucket',
+                'modern_industrialization:sulfuric_light_fuel_bucket',
+                'modern_industrialization:sulfuric_naphtha_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.distill_crude_oil')]
+        },
+        {
+            filter: [
+                'modern_industrialization:sulfuric_crude_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.distill_shale_oil')]
+        },
+        {
+            filter: [
+                'modern_industrialization:synthetic_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.synthetic_oil')]
+        },
+        {
+            filter: [
+                'modern_industrialization:uu_matter_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.uu_matter')]
+        },
+        {
+            filter: [
+                'modern_industrialization:vinyl_chloride_bucket'
+            ],
+            text: [Text.translate('ll8.info.modern_industrialization.vinyl_chloride')]
+        },
+        {
+            filter: [
+                'mynethersdelight:roast_ear'
+            ],
+            text: [Text.translate('ll8.info.mynethersdelight.knife_on_stuffed_hoglin')]
+        },
+        {
+            filter: [
+                'mythsandlegends:gargoyle_effigy'
+            ],
+            text: [Text.translate('ll8.info.mythsandlegends.assemble_in_stone_sanctum')]
+        },
+        {
+            filter: [
+                'naturalist:butterfly',
+                'naturalist:caterpillar',
+                'naturalist:crab',
+                'naturalist:scorpion',
+                'naturalist:snail'
+            ],
+            text: [Text.translate('ll8.info.naturalist.catch_with_capture_net')]
+        },
+        {
+            filter: [
+                'naturalist:hedgehog',
+                'naturalist:rat'
+            ],
+            text: [Text.translate('ll8.info.naturalist.tame_then_catch_with_net')]
+        },
+        {
+            filter: [
+                'oritech:still_heavy_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.refinery')]
+        },
+        {
+            filter: [
+                'oritech:still_diesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.refinery_diesel')]
+        },
+        {
+            filter: [
+                'oritech:still_silicon_wash_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.centrifuge')]
+        },
+        {
+            filter: [
+                'oritech:still_mineral_slurry_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.centrifuge_mineral_slurry')]
+        },
+        {
+            filter: [
+                'oritech:still_molten_adamant_bucket',
+                'oritech:still_molten_biosteel_bucket',
+                'oritech:still_molten_duratium_bucket',
+                'oritech:still_molten_energite_bucket',
+                'oritech:still_molten_fluxite_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.melt_in_metalworks_foundry')]
+        },
+        {
+            filter: [
+                'oritech:still_steam_bucket'
+            ],
+            text: [Text.translate('ll8.info.oritech.fill_from_steam_boiler')]
+        },
+        {
+            filter: [
+                'packagedauto:package'
+            ],
+            text: [Text.translate('ll8.info.packagedauto.made_in_packager')]
+        },
+        {
+            filter: [
+                'packagedauto:volume_package'
+            ],
+            text: [Text.translate('ll8.info.packagedauto.made_in_fluid_package_filler')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:biodiesel_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.fill_from_fluid_mixer')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:diesel_bucket',
+                'pneumaticcraft:gasoline_bucket',
+                'pneumaticcraft:kerosene_bucket',
+                'pneumaticcraft:lpg_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.fill_from_refinery')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:ethanol_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.ethanol')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:lubricant_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.lubricant')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:vegetable_oil_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.vegetable_oil')]
+        },
+        {
+            filter: [
+                'pneumaticcraft:yeast_culture_bucket'
+            ],
+            text: [Text.translate('ll8.info.pneumaticcraft.brew_yeast_culture')]
+        },
+        {
+            filter: [
+                'potionbundles:lingering_potion_bundle',
+                'potionbundles:potion_bundle',
+                'potionbundles:splash_potion_bundle'
+            ],
+            text: [Text.translate('ll8.info.potionbundles.craft_special_bundle')]
+        },
+        {
+            filter: [
+                'productivebees:spawn_egg_collector_bee',
+                'productivebees:spawn_egg_dye_bee',
+                'productivebees:spawn_egg_lumber_bee'
+            ],
+            text: [Text.translate('ll8.info.productivebees.beekeeper_master_trade')]
+        },
+        {
+            filter: [
+                'productivemetalworks:molten_brass_bucket',
+                'productivemetalworks:molten_bronze_bucket',
+                'productivemetalworks:molten_constantan_bucket',
+                'productivemetalworks:molten_electrum_bucket',
+                'productivemetalworks:molten_enderium_bucket',
+                'productivemetalworks:molten_invar_bucket',
+                'productivemetalworks:molten_lumium_bucket',
+                'productivemetalworks:molten_magma_cream_bucket',
+                'productivemetalworks:molten_netherite_bucket',
+                'productivemetalworks:molten_refined_glowstone_bucket',
+                'productivemetalworks:molten_refined_obsidian_bucket',
+                'productivemetalworks:molten_signalum_bucket',
+                'productivemetalworks:molten_steel_bucket'
+            ],
+            text: [Text.translate('ll8.info.productivemetalworks.alloy')]
+        },
+        {
+            filter: [
+                'productivemetalworks:molten_obsidian_bucket'
+            ],
+            text: [Text.translate('ll8.info.productivemetalworks.obsidian')]
+        },
+        {
+            filter: [
+                'productivetrees:cork'
+            ],
+            text: [Text.translate('ll8.info.productivetrees.strip_cork_oak_log')]
+        },
+        {
+            filter: [
+                'psi:flash_ring_active'
+            ],
+            text: [Text.translate('ll8.info.psi.program_flash_ring')]
+        },
+        {
+            filter: [
+                'psi:spell_bullet_active',
+                'psi:spell_bullet_charge_active',
+                'psi:spell_bullet_circle_active',
+                'psi:spell_bullet_grenade_active',
+                'psi:spell_bullet_loop_active',
+                'psi:spell_bullet_mine_active',
+                'psi:spell_bullet_projectile_active'
+            ],
+            text: [Text.translate('ll8.info.psi.program_bullet_at_spell_programmer')]
+        },
+        {
+            filter: [
+                'quark:cloud'
+            ],
+            text: [Text.translate('ll8.info.quark.fill_bottle_in_cloud_layer')]
+        },
+        {
+            filter: [
+                'relics:cut_glass_boot'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_water_biome')]
+        },
+        {
+            filter: [
+                'relics:leafy_mantle'
+            ],
+            text: [Text.translate('ll8.info.relics.chest_loot_forest_biome')]
+        },
+        {
+            filter: [
+                'relics:pet_bone'
+            ],
+            text: [Text.translate('ll8.info.relics.drop_from_dead_pet')]
+        },
+        {
+            filter: [
+                'reliquary:potion',
+                'reliquary:splash_potion'
+            ],
+            text: [Text.translate('ll8.info.reliquary.boil_in_apothecary_cauldron')]
+        },
+        {
+            filter: [
+                'reliquary:potion_essence'
+            ],
+            text: [Text.translate('ll8.info.reliquary.grind_in_apothecary_mortar')]
+        },
+        {
+            filter: [
+                'rftoolsutility:tablet_redstone',
+                'rftoolsutility:tablet_screen'
+            ],
+            text: [Text.translate('ll8.info.rftoolsutility.install_module_in_tablet')]
+        },
+        {
+            filter: [
+                'securitycraft:bucket_f_lava',
+                'securitycraft:bucket_f_water'
+            ],
+            text: [Text.translate('ll8.info.securitycraft.brew_in_brewing_stand')]
+        },
+        {
+            filter: [
+                'securitycraft:colored_lens'
+            ],
+            text: [Text.translate('ll8.info.securitycraft.craft_from_stained_panes')]
+        },
+        {
+            filter: [
+                'sfm:form'
+            ],
+            text: [Text.translate('ll8.info.sfm.anvil_on_iron_block')]
+        },
+        {
+            filter: [
+                'silentgear:paint'
+            ],
+            text: [Text.translate('ll8.info.silentgear.made_in_paint_mixer')]
+        },
+        {
+            filter: [
+                'snowyspirit:sled_birch'
+            ],
+            text: [Text.translate('ll8.info.snowyspirit.runtime_generated_recipe')]
+        },
+        {
+            filter: [
+                'sophisticatedcore:xp_bucket'
+            ],
+            text: [Text.translate('ll8.info.sophisticatedcore.fill_bucket_from_xp_tank')]
+        },
+        {
+            filter: [
+                'stevescarts:modularcart'
+            ],
+            text: [Text.translate('ll8.info.stevescarts.cart_assembler')]
+        },
+        {
+            filter: [
+                'thavma:node_jar'
+            ],
+            text: [Text.translate('ll8.info.thavma.contain_aura_node')]
+        },
+        {
+            filter: [
+                'thavma:research_scroll'
+            ],
+            text: [Text.translate('ll8.info.thavma.click_book_entry')]
+        },
+        {
+            filter: [
+                'the_bumblezone:music_disc_a_last_first_last',
+                'the_bumblezone:music_disc_bee_ware_of_the_temple',
+                'the_bumblezone:music_disc_beenna_box',
+                'the_bumblezone:music_disc_drowning_in_despair',
+                'the_bumblezone:music_disc_knowing_renren',
+                'the_bumblezone:music_disc_life_renren',
+                'the_bumblezone:music_disc_radiance_renren'
+            ],
+            text: [Text.translate('ll8.info.the_bumblezone.music_disc_sources')]
+        },
+        {
+            filter: [
+                'the_bumblezone:music_disc_rivers_of_honey_moserao'
+            ],
+            text: [Text.translate('ll8.info.the_bumblezone.music_disc_rivers_of_honey_sources')]
+        },
+        {
+            filter: [
+                'touhou_little_maid:garage_kit'
+            ],
+            text: [Text.translate('ll8.info.touhou_little_maid.roast_tiny_statue')]
+        },
+        {
+            filter: [
+                'touhou_little_maid_spell:hairpin'
+            ],
+            text: [Text.translate('ll8.info.touhou_little_maid_spell.hidden_retreat_barrel')]
+        },
+        {
+            filter: [
+                'ufo:astral_nexus_boots',
+                'ufo:astral_nexus_helmet',
+                'ufo:astral_nexus_leggings',
+                'ufo:reality_ripper',
+                'ufo:scar'
+            ],
+            text: [Text.translate('ll8.info.ufo.open_loot_bundle')]
+        },
+        {
+            filter: [
+                'ufo:stable_coolant_bucket'
+            ],
+            text: [Text.translate('ll8.info.ufo.fill_from_me_network')]
+        },
+        {
+            filter: [
+                'umbral_skies:phantom_gloves'
+            ],
+            text: [Text.translate('ll8.info.umbral_skies.knight_phantom_boss_loot')]
+        },
+        {
+            filter: [
+                'undergarden:music_disc_limax_maximus'
+            ],
+            text: [Text.translate('ll8.info.undergarden.trade_stoneborn')]
+        },
+        {
+            filter: [
+                'undergarden:virulent_mix_bucket'
+            ],
+            text: [Text.translate('ll8.info.undergarden.fill_bucket_virulent_mix')]
+        },
+        {
+            filter: [
+                'waystones:attuned_shard'
+            ],
+            text: [Text.translate('ll8.info.waystones.attune_on_warp_plate')]
+        },
+        {
+            filter: [
+                'wildernature:blunderbuss'
+            ],
+            text: [Text.translate('ll8.info.wildernature.blunderbuss')]
+        },
+        {
+            filter: [
+                'wildernature:field_guide'
+            ],
+            text: [Text.translate('ll8.info.wildernature.guild_commission_explore_reward')]
+        },
+        {
+            filter: [
+                'wildernature:stylin_purple_hat'
+            ],
+            text: [Text.translate('ll8.info.wildernature.stylin_purple_hat')]
+        },
+        {
+            filter: [
+                'wildernature:fur_cloak'
+            ],
+            text: [Text.translate('ll8.info.wildernature.fur_cloak')]
+        },
+        {
+            filter: [
+                'woot_revived:enchanted_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.woot_revived.enchanted')]
+        },
+        {
+            filter: [
+                'woot_revived:mob_tears_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.woot_revived.mob_tears')]
+        },
+        {
+            filter: [
+                'woot_revived:pure_dye_fluid_bucket'
+            ],
+            text: [Text.translate('ll8.info.woot_revived.pure_dye')]
+        },
+        {
+            filter: [
                 'createcasing:andesite_encased_acacia_cogwheel',
                 'createcasing:andesite_encased_acacia_large_cogwheel',
                 'createcasing:andesite_encased_acacia_shaft',
