@@ -1,11 +1,11 @@
 {
   "category": "ars_nouveau:armor",
   "icon": "ars_nouveau:sorcerer_robes",
-  "name": "Магические доспехи",
+  "name": "ars_nouveau.page.armor",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Волшебные доспехи усиливают мага, предоставляя защиту и бонусы к магии."
+      "text": "ars_nouveau.page1.armor"
     },
     {
       "type": "patchouli:crafting",
@@ -13,7 +13,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Каждый набор доспехов состоит из четырёх предметов, которые работают лучше вместе.",
+      "text": "ars_nouveau.page.threads",
       "title": "Нити и комплекты"
     },
     {
@@ -24,7 +24,7 @@
         "ars_nouveau:textures/gui/entries/arcanist_thread_diagram.png",
         "ars_nouveau:textures/gui/entries/battlemage_diagram.png"
       ],
-      "text": "Расположение нитей определяет эффекты и бонусы доспехов.",
+      "text": "ars_nouveau.page.layout_desc",
       "title": "Расположение нитей"
     },
     {

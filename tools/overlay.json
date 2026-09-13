@@ -239,6 +239,18 @@
    "reason": "requested addition, kept through pack updates (Russian from the mods' own repositories, not yet in the versions this build carries by xGronox (Mekanism and Mekanism: Additions, pull request #8565); the Modern Industrialization team (ru_ru.json of release 2.5.8); Chest Tracker's Crowdin translators (branch 1.21.1), MIT (Mekanism, Modern Industrialization), LGPL-3.0-only (Chest Tracker)): 1678 Russian keys nothing else in this build answers, 1451 of them in place of lines LL8 Russian had written itself. Cut to those keys and unedited; see LL8-MODIFICATION.txt inside and TRANSLATIONS-RU.md."
   },
   {
+   "source": "tools/overlay/packs/Occultism Russian by Heimdallr-1 (LL8 gap subset).zip",
+   "target": "resourcepacks/Occultism Russian by Heimdallr-1 (LL8 gap subset).zip",
+   "sha256": "457cdf44e5b3d74f80369a60a52827d1418abd85c2acc1424c65b3b38d6cb88c",
+   "reason": "requested addition, kept through pack updates (Occultism Russian translation (pull request klikli-dev/occultism #1473) by Heimdallr-1 (https://boosty.to/heimdallr-1), MIT (offered to the MIT-licensed Occultism repository)): 1323 Russian keys nothing else in this build answers. Cut to those keys and unedited; see LL8-MODIFICATION.txt inside and TRANSLATIONS-RU.md."
+  },
+  {
+   "source": "tools/overlay/packs/Draconic Evolution Russian by Ocle42 (LL8 gap subset).zip",
+   "target": "resourcepacks/Draconic Evolution Russian by Ocle42 (LL8 gap subset).zip",
+   "sha256": "a625cde2de3411ebb32b830f24aab7947cee2758095ca2e5ef56dd35c16a3551",
+   "reason": "requested addition, kept through pack updates (Draconic Evolution Russian translation (pull request Draconic-Inc/Draconic-Evolution #1914) by Ocle42, CoFH \"Don't Be a Jerk\" licence of Draconic Evolution, which allows redistribution in mod packs): 10 Russian keys nothing else in this build answers. Cut to those keys and unedited; see LL8-MODIFICATION.txt inside and TRANSLATIONS-RU.md."
+  },
+  {
    "source": "tools/overlay/packs/Grays Mob Compatibility.zip",
    "target": "resourcepacks/Grays Mob Compatibility.zip",
    "sha256": "6fc30f408e680aee7b6c01c8f6811d4543045e1083a33ccbc195a25c80522ac0",
@@ -590,7 +602,7 @@
   {
     "source": "tools/overlay/config/global_packs.toml",
     "target": "config/global_packs.toml",
-    "sha256": "178e3fef8193112e50c18b18c09952a7d5c4931587be78c770320b8b9802d3ec",
+    "sha256": "925b10f7993008cdaf1a448ead4476b4bb0d82c53c88df8c086d6348f2fba9c0",
     "reason": "requested fix, kept through pack updates (resource pack locks): enable_builtin names every pack launcher/resourcepacks-default.txt names, and nothing else. Global Packs gives each match (required, TOP, fixedPosition), so the screen offers neither a tick nor a drag handle; a pack in the order and not here is put back every launch and still draggable in between, which is what three of them were - Eternal Starlight's 3D mace, Gray's Mob Compatibility and the Serilum translations. This file is the one that survives an update, so an edit made only to config/global_packs.toml is undone by the next run: that already happened once, when c6fcb2fd locked the Serilum pack and the update in cef11acc unlocked it again. tools/check_pack_locks.py holds the two lists equal and this pin honest."
    },
   {

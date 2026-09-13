@@ -1,15 +1,15 @@
 {
   "category": "ars_nouveau:armor",
   "icon": "ars_nouveau:arcanist_hood",
-  "name": "Улучшение доспехов",
+  "name": "ars_nouveau.page.armor_upgrading",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Доспехи можно улучшить, применив специальные ритуалы для повышения их эффективности."
+      "text": "ars_nouveau.page1.armor_upgrading"
     },
     {
       "type": "patchouli:text",
-      "text": "Улучшения доступны в трёх уровнях, каждый уровень даёт дополнительные бонусы.",
+      "text": "ars_nouveau.page2.armor_upgrading",
       "title": "Уровни улучшений"
     },
     {

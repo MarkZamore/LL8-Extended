@@ -29,6 +29,8 @@
 | Russian Delight 1.0 (LL8 gap subset) | nazarbatrider | MIT | https://modrinth.com/resourcepack/russian-delight |
 | Starcatcher-RU 2.3.5.1 (LL8 gap subset) | Worvib | MIT | https://modrinth.com/resourcepack/starcatcher-ru |
 | Upstream Russian - Mekanism, MI, Chest Tracker (LL8 gap subset) | xGronox (Mekanism PR #8565); команда Modern Industrialization (2.5.8); переводчики Chest Tracker на Crowdin | MIT; LGPL-3.0-only (Chest Tracker) | https://github.com/mekanism/Mekanism/pull/8565, https://modrinth.com/mod/modern-industrialization, https://github.com/JackFred2/ChestTracker |
+| Occultism Russian by Heimdallr-1 (LL8 gap subset) | Heimdallr-1 | MIT (прислан в репозиторий Occultism) | https://github.com/klikli-dev/occultism/pull/1473 |
+| Draconic Evolution Russian by Ocle42 (LL8 gap subset) | Ocle42 | «Don't Be a Jerk» (CoFH), модпаки разрешены | https://github.com/Draconic-Inc/Draconic-Evolution/pull/1914 |
 
 RTF Extension содержит переводы **RTF** © Exelerium, MIT —
 https://modrinth.com/resourcepack/rtf
@@ -78,6 +80,20 @@ Connected 13) убраны и теперь приходят из выжимок.
 заменяет. Когда Mekanism, Modern Industrialization или Chest Tracker выпустят
 эти строки сами, выжимку «Upstream Russian» надо урезать заново, иначе она
 перекроет перевод мода.
+
+Ещё две выжимки из закрытых и открытых PR к самим модам: 1323 строки Occultism от
+Heimdallr-1 (PR #1473 закрыт, потому что русский переехал на Crowdin, но в
+Occultism 1.224.4 так и лежат английские копии) и 10 строк Draconic Evolution от
+Ocle42 (PR #1914). Из Occultism не взяты четыре списка ритуалов под старый набор,
+вступление эссенции марида со ссылкой на африта и строки, у которых ссылки или
+подстановки расходятся с установленным английским.
+
+**Книги Patchouli, где страница состоит из ключей.** Многие книги (Ars Nouveau,
+Mystical Agriculture, Psi, Touhou Little Maid и другие) пишут на странице не
+текст, а ключ перевода, и русский приходит из `ru_ru.json` самого мода. Страница
+в LL8 Russian заменяет английскую целиком, поэтому 530 наших страниц были пустым
+повтором английских, а в четырёх страницах Ars Nouveau 94 поля стояли своим
+текстом поверх перевода мода. Эти поля возвращены к ключам, повторы удалены.
 
 ## Чего здесь нет
 
