@@ -571,8 +571,8 @@
    {
     "source": "tools/overlay/resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
     "target": "resourcepacks/tnp_resources/assets/immersivepetroleum/lang/ru_ru.json",
-    "sha256": "ee975f80b346cb92ee41c01561f2f18a46ae1cca222d8e891beef1d326c8f95b",
-    "reason": "two commas missing (lines 227 and 293) and one too many (line 305): 229 lines of Russian. The log names only the first, because that is where the parser stops"
+    "sha256": "64c16a0b7893ec83d7e208dd3a475042af36809558ab1a79dd532d1c553a4a07",
+    "reason": "two commas missing (lines 227 and 293) and one too many (line 305): 229 lines of Russian. The log names only the first, because that is where the parser stops Six more lines removed: they were the English text of keys LL8 Russian translates, and sitting above it they hid that Russian."
    },
    {
     "source": "tools/overlay/resourcepacks/tnp_resources/assets/eccentrictome/lang/en_us.json",
