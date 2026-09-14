@@ -1,0 +1,9 @@
+{
+  "message.moresnifferflowers.bonmeel.has_mixed_crops": "В этой области произрастают разные культуры или посторонние блоки",
+  "message.moresnifferflowers.bonmeel.no_space": "Недостаточно пустого пространства сверху",
+  "message.moresnifferflowers.bonmeel.not_grown": "Некоторые культуры ещё не полностью выросли",
+  "moresnifferflowers.configuration.torchflower_conversion": "Преобразование Torchflower",
+  "moresnifferflowers.configuration.torchflower_conversion.tooltip": "Позволяет Torchflower преобразоваться в горящий Torchflower при прямом солнечном свете",
+  "sound.moresnifferflowers.bobling_battle": "Бой Боблинга",
+  "tooltip.dyespria.shift": "(Удерживайте Shift для развёртывания)"
+}
