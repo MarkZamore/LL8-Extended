@@ -6,11 +6,7 @@
   "attribute.grotesque_steve.hub_guy": "Парень-хаб",
   "attribute.grotesque_steve.jump": "Прыжок",
   "attribute.grotesque_steve.primeattack_2": "Атака Прайма",
-  "biome.grotesque_steve.nullbiome": "Nullbiome",
   "effect.grotesque_steve.eat": "Поедание",
-  "gui.grotesque_steve.info.label_jakobyyyy": "Jakobyyyy",
-  "gui.grotesque_steve.info.label_mdestudio": "MDEStudio",
-  "gui.grotesque_steve.info.label_peter_gripp": "Peter Gripp",
   "gui.grotesque_steve.info.tooltip_creator_for_ru_voicelines_helpe": "Автор русских голосовых линий (помощник)",
   "gui.grotesque_steve.manual_3.label_hes_dangerous": "он опасен!",
   "gui.grotesque_steve.manual_3.label_so_beware_of_his_jumps": "берегись его прыжков",
@@ -38,6 +34,5 @@
   "subtitles.retro": "ретро",
   "subtitles.retro_song": "ретро-песня",
   "subtitles.slxughter_pride": "гордость резни",
-  "subtitles.smile_butterfly": "Smile - Butterfly",
   "subtitles.stomach_hell": "желудочный ад"
 }

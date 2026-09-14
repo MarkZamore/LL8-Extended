@@ -1,7 +1,6 @@
 {
   "biome.stellaris.space": "Космос",
   "biome.stellaris.venus": "Венерианское пространство",
-  "categorie.stellaris_blocks.main": "Stellaris Blocks",
   "config.stellaris.enableCannedFoodSystem": "Включить систему консервированной пищи",
   "config.stellaris.enableCannedFoodSystem.desc": "Если включено, в космосе можно будет есть только консервированную пищу. Отключите эту опцию, если хотите есть любую пищу в космосе.",
   "config.stellaris.enableOxygenSystem": "Включить систему кислорода",

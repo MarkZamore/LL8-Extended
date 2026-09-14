@@ -20,6 +20,5 @@
   "lambdynlights.option.light_sources.glowing_effect": "Эффект «Свечение»",
   "lambdynlights.option.light_sources.glowing_effect.tooltip": "Включает динамическое освещение для сущностей с эффектом «Свечение».",
   "lambdynlights.option.light_sources.sonic_boom": "Ультразвуковой удар Хранителя",
-  "lambdynlights.option.light_sources.sonic_boom.tooltip": "Включает динамическое освещение для частиц ультразвукового удара Хранителя.",
-  "modmenu.bluesky": "Bluesky"
+  "lambdynlights.option.light_sources.sonic_boom.tooltip": "Включает динамическое освещение для частиц ультразвукового удара Хранителя."
 }

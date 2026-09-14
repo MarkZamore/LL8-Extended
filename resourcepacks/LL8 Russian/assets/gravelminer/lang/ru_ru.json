@@ -15,6 +15,5 @@
   "gravelminer.configuration.common.triggerOnGravel.tooltip": "Если включено, мод будет срабатывать и при добыче самого гравия, а не только при добыче негравийного блока под ним.",
   "gravelminer.toggleOff": "GravelMiner: ВЫКЛ",
   "gravelminer.toggleOn": "GravelMiner: ВКЛ",
-  "key.categories.gravelminer": "GravelMiner",
   "key.gravelminer.toggle": "Включить/выключить GravelMiner"
 }

@@ -108,7 +108,6 @@
   "gui.wildex.trait.weak_smite": "Уязвим к Небесной каре",
   "gui.wildex.unit.blocks": "Бл.",
   "gui.wildex.variants.loading": "Сканирование вариантов…",
-  "key.categories.wildex": "Wildex",
   "key.wildex.open": "Открыть Wildex",
   "message.wildex.analyzer.already_discovered": "Анализ завершён: запись уже обнаружена, предмет возвращён.",
   "message.wildex.analyzer.discovered": "Анализ завершён: обнаружено %s.",

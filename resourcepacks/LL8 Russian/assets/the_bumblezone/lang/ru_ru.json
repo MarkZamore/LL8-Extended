@@ -1,16 +1,3 @@
 {
-  "advancements.the_bumblezone.wiki.description": "www.github.com/TelepathicGrunt/Bumblezone/wiki",
-  "container.the_bumblezone.crystalline_flower.search": "Поиск…",
-  "jukebox_song.the_bumblezone.a_last_first_last": "Punpudle - A Last First Last",
-  "jukebox_song.the_bumblezone.bee_laxing_with_the_hom_bees": "LudoCrypt - Bee-laxing with the Hom-bees",
-  "jukebox_song.the_bumblezone.bee_ware_of_the_temple": "LudoCrypt - Bee-ware of the Temple",
-  "jukebox_song.the_bumblezone.beenna_box": "Punpudle - Beenna Box",
-  "jukebox_song.the_bumblezone.drowning_in_despair": "Punpudle - Drowning in Despair",
-  "jukebox_song.the_bumblezone.honey_bee_rat_faced_boy": "Rat Faced Boy - Honey Bee",
-  "jukebox_song.the_bumblezone.knowing_renren": "RenRen - Knowing",
-  "jukebox_song.the_bumblezone.la_bee_da_loca": "LudoCrypt - La Bee-da Loca",
-  "jukebox_song.the_bumblezone.life_renren": "RenRen - Life",
-  "jukebox_song.the_bumblezone.radiance_renren": "RenRen - Radiance",
-  "jukebox_song.the_bumblezone.rivers_of_honey_moserao": "Moserao - Rivers of Honey",
-  "system.the_bumblezone.missing_dimension_link": "https://bugs.mojang.com/browse/MC-195468"
+  "container.the_bumblezone.crystalline_flower.search": "Поиск…"
 }

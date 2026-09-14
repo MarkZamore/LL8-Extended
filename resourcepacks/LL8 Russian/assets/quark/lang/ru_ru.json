@@ -4,7 +4,5 @@
   "config.jade.plugin_quark.oretoise_eating_cooldown": "Перезарядка питания Oretoise",
   "quark.jade.eating_cooldown": "Перезарядка питания: %ds",
   "quark.misc.totem_darksouls": "Вы почувствовали зловещее предчувствие — предыдущий Тотем хранения разбился",
-  "____comment": "Цвета в #RRGGBB формате",
-  "quark.jei.hint.preamble": "[Quark]\n",
-  "quark.subtitles.yung": "YUNG's Better Tater"
+  "____comment": "Цвета в #RRGGBB формате"
 }

@@ -30,8 +30,6 @@
   "config.mechtrowel.wandUpgradeEnabled": "Улучшение жезла",
   "config.mechtrowel.wandUpgradeEnabled.tooltip": "Включить крафт и работу улучшения жезла",
   "gui.mechtrowel.upgrade.rs": "Хранилище RS",
-  "key.categories.mechtrowel": "MechTrowel",
-  "key.category.mechtrowel.mechtrowel": "MechTrowel",
   "mechtrowel.configuration.ae2UpgradeEnabled": "Улучшение AE2",
   "mechtrowel.configuration.ae2UpgradeEnabled.tooltip": "Включить связь с ME-хранилищем AE2",
   "mechtrowel.configuration.chippedConversionUpgradeEnabled": "Улучшение вариантов",

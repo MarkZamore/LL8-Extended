@@ -77,7 +77,6 @@
   "commands.enderdrives.tape.unpin.success": "Лента %s откреплена.",
   "commands.enderdrives.team.none": "Вы не состоите ни в одной команде FTB Teams.",
   "commands.enderdrives.team.unavailable": "FTB Teams недоступен, поэтому командное хранилище нельзя открыть.",
-  "key.categories.enderdrives": "EnderDrives",
   "tooltip.enderdrives.disabled": "§cЭтот предмет отключён на сервере.",
   "tooltip.enderdrives.disk.duplicate_sleep": "Неактивен: в этой ME-сети уже работает другой эндер-диск с такой же частотой и областью.",
   "tooltip.enderdrives.enderdisk.disabled": "§cЭтот Эндер-диск отключён на сервере.",

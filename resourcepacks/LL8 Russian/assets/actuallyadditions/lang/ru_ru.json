@@ -3,7 +3,5 @@
   "misc.actuallyadditions.power_long": "%s/%s Кристаллический флюкс",
   "misc.actuallyadditions.power_single": "%s Кристаллический флюкс",
   "misc.actuallyadditions.power_double": "%s / %s Кристаллический флюкс",
-  "misc.actuallyadditions.power_name_long": "Кристаллический флюкс",
-  "container.actuallyadditions.inputter": "ESD",
-  "tooltip.actuallyadditions.nbt.desc": "NBT"
+  "misc.actuallyadditions.power_name_long": "Кристаллический флюкс"
 }

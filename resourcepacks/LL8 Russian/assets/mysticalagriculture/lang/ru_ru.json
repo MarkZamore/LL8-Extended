@@ -122,6 +122,5 @@
   "tooltip.mysticalagriculture.machine_scan_fuel_usage": "Расход топлива на сканирование: %s",
   "tooltip.mysticalagriculture.machine_spawn_radius": "Радиус появления: %s",
   "tooltip.mysticalagriculture.missing_essences": "Не хватает эссенций",
-  "tooltip.mysticalagriculture.mst_id": "MST ID: %s",
   "tooltip.mysticalagriculture.requires_effective_farmland": "Требуемая почва: %s"
 }

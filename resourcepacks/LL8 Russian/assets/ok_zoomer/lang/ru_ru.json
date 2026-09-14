@@ -142,6 +142,5 @@
   "config.ok_zoomer.presets.preset.spyglass.tooltip": "Сбросить к пресету, имитирующему приближение подзорной трубы.",
   "config.ok_zoomer.presets.apply_preset": "Применить пресет",
   "config.ok_zoomer.presets.apply_preset.tooltip": "Сбрасывает настройки к выбранному пресету.",
-  "config.ok_zoomer.discard_changes": "Отменить изменения",
-  "config.ok_zoomer.presets.preset.zoominator": "Zoominator"
+  "config.ok_zoomer.discard_changes": "Отменить изменения"
 }

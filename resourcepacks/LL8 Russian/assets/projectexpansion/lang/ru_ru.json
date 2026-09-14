@@ -186,7 +186,6 @@
   "command.projectexpansion.book.remove.player_success": "Эта локация успешно удалена из точек телепортации %s.",
   "command.projectexpansion.book.remove.player_success_self": "Эта локация успешно удалена из ваших точек телепортации.",
   "command.projectexpansion.console": "Консоль",
-  "command.projectexpansion.dumpfuelmap.emc": "EMC",
   "command.projectexpansion.dumpfuelmap.fuel": "Топливо",
   "command.projectexpansion.dumpfuelmap.index": "Индекс",
   "command.projectexpansion.emc.add.notification": "Вам дано %s EMC от %s, теперь у вас есть %s",

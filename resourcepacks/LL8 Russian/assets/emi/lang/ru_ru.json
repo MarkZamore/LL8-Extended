@@ -47,8 +47,5 @@
   "tag.item.c.tools.bows": "Луки",
   "tag.item.c.tools.crossbows": "Арбалеты",
   "tag.item.c.tools.fishing_rods": "Удочки",
-  "tag.item.c.tools.shields": "Щиты",
-  "key.keyboard.alt": "Alt",
-  "key.keyboard.control": "Ctrl",
-  "key.keyboard.shift": "Shift"
+  "tag.item.c.tools.shields": "Щиты"
 }

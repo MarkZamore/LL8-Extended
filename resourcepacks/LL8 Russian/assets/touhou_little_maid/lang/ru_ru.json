@@ -1,27 +1,8 @@
 {
   "ai.touhou_little_maid.chat.download_url": "Адрес: ",
   "ai.touhou_little_maid.chat.llm.deepseek_secret_key_missing": "Ключ API DeepSeek не настроен. Перейдите по ссылке ниже, чтобы зарегистрировать учётную запись и приобрести услугу, затем заполните Secret Key в настройках сайта LLM.",
-  "ai.touhou_little_maid.chat.site.aliyun.name": "Aliyun",
-  "ai.touhou_little_maid.chat.site.deepseek.name": "DeepSeek",
-  "ai.touhou_little_maid.chat.site.doubao.name": "Doubao",
-  "ai.touhou_little_maid.chat.site.fish-audio.name": "Fish Audio",
-  "ai.touhou_little_maid.chat.site.gemini.name": "Gemini",
-  "ai.touhou_little_maid.chat.site.gpt-sovits.name": "GPT-SoVITS",
-  "ai.touhou_little_maid.chat.site.grok.name": "Grok",
-  "ai.touhou_little_maid.chat.site.kimi.name": "Kimi",
-  "ai.touhou_little_maid.chat.site.minimax.name": "MiniMax",
   "ai.touhou_little_maid.chat.site.none.name": "Нет",
-  "ai.touhou_little_maid.chat.site.openai.name": "OpenAI",
-  "ai.touhou_little_maid.chat.site.siliconflow.name": "Silicon Flow",
   "ai.touhou_little_maid.chat.site.system.name": "Система",
-  "ai.touhou_little_maid.chat.site.tencent.name": "Tencent Cloud",
-  "ai.touhou_little_maid.chat.site.zhipu.name": "ZHIPU AI",
-  "ai.touhou_little_maid.chat.summary.llm": "LLM: %s",
-  "ai.touhou_little_maid.chat.summary.tts": "TTS: %s / %s",
-  "commands.touhou_little_maid.ai_chat.skill.entry.knowledge": "§b- §9[knowledge] %s§r: %s",
   "config.touhou_little_maid.global_ai.maid_history_compress_token_limit": "Лимит сжатия истории чата горничной (K)",
-  "config.touhou_little_maid.global_ai.maid_history_compress_token_limit.tooltip": "Когда предыдущий запрос чата AI горничной достигнет этого использования токенов, сожмите контекст перед следующим сообщением чата игрока. Единица: K токенов, 1K = 1024 токенов",
-  "gui.touhou_little_maid.resources_download.hot_search_key": "Klee, Stelle, Lamu, Arisu, Suzuran, Nahida, Frieren, Nagato, Elaina, Cheshire, Honkai, Nyaruko, Fate",
-  "message.touhou_little_maid.missing_patchouli.title": "[TLM]",
-  "message.touhou_little_maid.missing_patchouli.url": "https://www.curseforge.com/minecraft/mc-mods/patchouli"
+  "config.touhou_little_maid.global_ai.maid_history_compress_token_limit.tooltip": "Когда предыдущий запрос чата AI горничной достигнет этого использования токенов, сожмите контекст перед следующим сообщением чата игрока. Единица: K токенов, 1K = 1024 токенов"
 }

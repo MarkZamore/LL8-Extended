@@ -32,18 +32,5 @@
   "fancymenu.resources.source_type.location": "Ресурс Minecraft",
   "fancymenu.widgetified_screens.title_screen.logo": "Логотип Minecraft",
   "fancymenu.overlay.debug.memory": "§lПамять:§r %1$s (%2$s)",
-  "fancymenu.placeholders.pi": "§opi §r(Матем.)",
-  "fancymenu.editor.shortcuts.copy": "Ctrl + C",
-  "fancymenu.editor.shortcuts.cut": "Ctrl + U",
-  "fancymenu.editor.shortcuts.grid": "Ctrl + G",
-  "fancymenu.editor.shortcuts.paste": "Ctrl + V",
-  "fancymenu.editor.shortcuts.redo": "Ctrl + Y",
-  "fancymenu.editor.shortcuts.save": "Ctrl + S",
-  "fancymenu.editor.shortcuts.select_all": "Ctrl + A",
-  "fancymenu.editor.shortcuts.undo": "Ctrl + Z",
-  "fancymenu.elements.text.markdown": "Markdown",
-  "fancymenu.overlay.debug.fps": "§lFPS:§r %s",
-  "fancymenu.overlay.debug.toggle.shortcut": "CTRL + ALT + D",
-  "fancymenu.overlay.menu_bar.customization.hide_overlay.shortcut": "CTRL + ALT + C",
-  "fancymenu.overlay.menu_bar.customization.reload_fancymenu.shortcut": "CTRL + ALT + R"
+  "fancymenu.placeholders.pi": "§opi §r(Матем.)"
 }

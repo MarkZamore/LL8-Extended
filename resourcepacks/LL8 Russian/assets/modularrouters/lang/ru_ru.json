@@ -1,5 +1,4 @@
 {
-  "modularrouters._comment": "JEI text",
   "modularrouters.chatText.misc.badCamoBlock": "Неподходящий блок для камуфляжа!",
   "modularrouters.chatText.misc.inventoryMerged": "Объединено %d предмет(ов) в %s",
   "modularrouters.chatText.misc.targetSet": "Цель установлена: ",
@@ -9,7 +8,6 @@
   "modularrouters.chatText.security.full": "В улучшении безопасности больше нет места!",
   "modularrouters.chatText.security.not_present": "Игрока [%s] нет в этом улучшении!",
   "modularrouters.chatText.security.removed": "Игрок [%s] удалён",
-  "modularrouters.chatText.subtitle.thud": "*THUD*",
   "modularrouters.chatText.targetValidation.bad_dimension": "✘ Измерение в чёрном списке",
   "modularrouters.chatText.targetValidation.not_inventory": "✘ Нет инвентаря",
   "modularrouters.chatText.targetValidation.not_loaded": "✘ Не загружено",

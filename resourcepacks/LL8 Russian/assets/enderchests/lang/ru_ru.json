@@ -11,7 +11,6 @@
   "enderchests.configuration.convert_to_personal.tooltip": "Предметы, которые делают сундук личным",
   "enderchests.configuration.convert_to_team": "Превращение в командный сундук",
   "enderchests.configuration.convert_to_team.tooltip": "Предметы, которые делают сундук командным",
-  "enderchests.configuration.curios_trinkets": "Curios/Trinkets",
   "enderchests.configuration.curios_trinkets.tooltip": "Эндер-мешки работают, находясь в слоте Curio (NeoForge)/Trinket (Fabric)",
   "enderchests.configuration.ender_chest": "Эндер-сундук",
   "enderchests.configuration.ender_pouch": "Разрешить эндер-мешок",

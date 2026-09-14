@@ -1,5 +1,4 @@
 {
-  "chesttracker.config.compatibility.litematica": "Litematica",
   "chesttracker.config.compatibility.litematica.countEnderChestMaterials.description": "Добавлять ли материалы из вашего эндер-сундука в расчёты материалов Litematica.",
   "chesttracker.config.compatibility.wthit.description": "Позволяет использовать текущий банк памяти для отображения подсветки в WTHIT. Дополнительные настройки находятся в менеджере плагинов WTHIT.",
   "chesttracker.config.gui": "Интерфейс",

@@ -6,9 +6,5 @@
   "text.betterf3.line.negative_x": "-X",
   "text.betterf3.line.positive_x": "+X",
   "text.betterf3.line.slime_chunk.true": "истина",
-  "text.betterf3.line.slime_chunk.false": "ложь",
-  "format.betterf3.fps": "%s fps / %s fps %s",
-  "text.betterf3.line.fps_tps": "FPS / TPS (Alt+F3)",
-  "text.betterf3.line.minecraft": "Minecraft",
-  "text.betterf3.module.minecraft": "Minecraft"
+  "text.betterf3.line.slime_chunk.false": "ложь"
 }
