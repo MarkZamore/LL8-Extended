@@ -40,5 +40,6 @@
   "sodium-extra.option.wayland_fullscreen_resolution.confirm.keep": "Сохранить",
   "sodium-extra.option.wayland_fullscreen_resolution.confirm.keep_countdown": "Сохранить (%sс)",
   "sodium-extra.option.wayland_fullscreen_resolution.confirm.revert": "Отменить сейчас",
-  "sodium-extra.units.blocks": "%s блок(и)"
+  "sodium-extra.units.blocks": "%s блок(и)",
+  "sodium-extra.overlay.fps": "%s FPS"
 }

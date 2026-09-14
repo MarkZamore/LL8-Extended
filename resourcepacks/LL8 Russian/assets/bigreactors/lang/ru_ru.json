@@ -22,5 +22,9 @@
   "multiblock.validation.energizer.invalid_block_for_interior": "%1$s не подходит для внутренней части энергизатора",
   "multiblock.validation.energizer.invalid_frame_block": "В каркасе энергизатора можно использовать только блоки корпуса",
   "multiblock.validation.energizer.invalid_part_for_interior": "Эту часть энергизатора нельзя размещать внутри энергизатора",
-  "multiblock.validation.energizer.too_few_controllers": "Недостаточно контроллеров. Энергизатору нужен хотя бы один"
+  "multiblock.validation.energizer.too_few_controllers": "Недостаточно контроллеров. Энергизатору нужен хотя бы один",
+  "part.bigreactors.energizer.chargingportfe": "Зарядный порт (FE)",
+  "part.bigreactors.energizer.controller": "Контроллер",
+  "part.bigreactors.energizer.powerportfe": "Пассивный энерговыход FE",
+  "part.bigreactors.energizer.powerportfe_active": "Активный энерговыход FE"
 }

@@ -19,6 +19,7 @@
   "jei.reliquary.description.mob_charm": "Заставляет %s игнорировать игрока, даже если его ударить.",
   "jei.reliquary.description.mob_charm_fragment": "%s Charm Fragment — компонент создания %s Charm",
   "jei.reliquary.recipe.infernal_tear": "Адская слеза",
+  "keybind.reliquary.category": "Reliquary",
   "potion.potency.10": "XI",
   "reliquary.configuration.absorbWhenCreated": "Поглощение при создании",
   "reliquary.configuration.alkahestryTome": "Книга Алкагестии",
@@ -209,7 +210,11 @@
   "reliquary.configuration.voidTear": "Слеза пустоты",
   "reliquary.configuration.waila_shift_for_info": "Красться для подробностей",
   "tooltip.reliquary.hold_for_more_info": "Удерживайте <%s> для большей информации",
+  "tooltip.reliquary.shift": "Shift",
+  "waila.reliquary.pedestal.redstone_powered": "Редстоун",
+  "waila.reliquary.pedestal.remote_at": "Удалённо: %d, %d, %d",
   "waila.reliquary.pedestal.state": "Состояние: %s",
   "waila.reliquary.pedestal.state.off": "ВЫКЛ",
-  "waila.reliquary.pedestal.state.on": "ВКЛ"
+  "waila.reliquary.pedestal.state.on": "ВКЛ",
+  "waila.reliquary.pedestal.switched_on": "Включено"
 }

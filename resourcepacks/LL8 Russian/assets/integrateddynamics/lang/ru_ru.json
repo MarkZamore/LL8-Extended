@@ -1,6 +1,8 @@
 {
   "aspect.aspecttypes.integrateddynamics.integer.pulse_length": "Длительность импульса",
   "aspect.aspecttypes.integrateddynamics.integer.pulse_length.info": "Длительность импульса в тиках.",
+  "aspect.integrateddynamics.read.double.extradimensional.tps": "TPS",
+  "aspect.integrateddynamics.read.double.world.tps": "TPS",
   "aspect.integrateddynamics.read.integer.audio.instrument.creeper": "Нота крипера",
   "aspect.integrateddynamics.read.integer.audio.instrument.creeper.info": "Читает ноту крипера, ожидаемый диапазон [0, 24]",
   "aspect.integrateddynamics.read.integer.audio.instrument.custom_head": "Нота головы",
@@ -32,5 +34,11 @@
   "gui.integrateddynamics.aspectsettings.slot.message.invalidtype": "Эта настройка ожидает значение типа %s, но было передано значение типа %s",
   "gui.integrateddynamics.aspectsettings.slot.message.invalidvalue": "Значение этой переменной недопустимо для этой настройки",
   "gui.integrateddynamics.aspectsettings.variable.driven": "Эта настройка определяется переменной в этом слоте",
-  "itemGroup.integrateddynamics": "Интегрированная динамика"
+  "info_book.integrateddynamics.manual.logic.value_types.nbt": "NBT",
+  "info_book.integrateddynamics.tutorials.nbt": "NBT",
+  "itemGroup.integrateddynamics": "Интегрированная динамика",
+  "key.categories.integrateddynamics": "Integrated Dynamics",
+  "operator.integrateddynamics.nbt": "NBT",
+  "operator.integrateddynamics.nbt.basename": "NBT %s",
+  "valuetype.integrateddynamics.nbt": "NBT"
 }

@@ -37,6 +37,7 @@
   "info.dynamiducts.filter.modSorting": "Мод предмета",
   "info.dynamiducts.filter.modSorting.off": "Учитывать мод предмета",
   "info.dynamiducts.filter.modSorting.on": "Игнорировать мод предмета",
+  "info.dynamiducts.filter.nbt": "NBT",
   "info.dynamiducts.filter.options": "Параметры фильтра",
   "info.dynamiducts.filter.oreDict": "Словарь руд",
   "info.dynamiducts.filter.routeType.0": "Сначала ближайший",

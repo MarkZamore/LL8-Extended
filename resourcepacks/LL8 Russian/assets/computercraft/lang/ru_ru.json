@@ -8,6 +8,7 @@
   "gui.computercraft.config.disabled_generic_methods": "Отключённые общие методы",
   "gui.computercraft.config.disabled_generic_methods.tooltip": "Список общих методов или их источников, которые нужно отключить. Общие методы —\nэто методы, добавляемые блоку или блок-сущности, когда у них нет собственного\nпоставщика периферийного устройства. Сюда входят методы инвентаря (например,\ninventory.getItemDetail, inventory.pushItems), а на Forge — ещё методы fluid_storage\nи energy_storage.\nВ этом списке можно указывать как целую группу методов (computercraft:inventory),\nтак и отдельный метод (computercraft:inventory#pushItems).\n",
   "gui.computercraft.config.execution.max_main_computer_time": "Лимит времени компьютеров на серверный тик",
+  "gui.computercraft.config.http.proxy": "Прокси",
   "gui.computercraft.config.http.tooltip": "Управление HTTP API",
   "gui.computercraft.config.maximum_open_files.tooltip": "Сколько файлов компьютер может держать открытыми одновременно. 0 — без ограничений.",
   "gui.computercraft.config.monitor_distance": "Дальность мониторов",

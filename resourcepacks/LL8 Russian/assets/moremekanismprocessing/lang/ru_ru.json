@@ -1,7 +1,14 @@
 {
+  "materialType.moremekanismprocessing._comment1": "===== Тип материала =====",
   "materialType.moremekanismprocessing.antimony": "Сурьмы",
   "materialType.moremekanismprocessing.boron": "Бора",
   "materialType.moremekanismprocessing.magnesium": "Магния",
   "materialType.moremekanismprocessing.palladium": "Палладия",
-  "materialType.moremekanismprocessing.thorium": "Тория"
+  "materialType.moremekanismprocessing.thorium": "Тория",
+  "statedMaterial.moremekanismprocessing._comment1": "===== Правило =====",
+  "statedMaterial.moremekanismprocessing._comment3": "%s — тип материала (например Cobalt, Silver)",
+  "statedMaterial.moremekanismprocessing._comment4": "    из materialType.xxxxx",
+  "statedMaterial.moremekanismprocessing._comment6": "Предметы могут переопределить это правило, объявив перевод этого предмета",
+  "statedMaterial.moremekanismprocessing._comment7": "    например: 'item.moremekanismprocessing.cobalt_ingot' : 'Blue Metal'",
+  "statedMaterial.moremekanismprocessing._comment8": "То же самое для суспензии"
 }

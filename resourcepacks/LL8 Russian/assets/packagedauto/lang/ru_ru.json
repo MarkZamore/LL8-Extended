@@ -1,0 +1,22 @@
+{
+  "gui.packagedauto.item_amount_specifying": "Количество предметов",
+  "gui.packagedauto.volume_amount_specifying": "Объём в mB",
+  "jei.category.packagedauto.fluid_package_contents": "Содержимое жидкостного пакета",
+  "jei.category.packagedauto.fluid_package_filling": "Заполнение жидкостного пакета",
+  "jei.category.packagedauto.package_contents": "Содержимое пакета",
+  "jei.category.packagedauto.package_processing": "Обработка пакета",
+  "jei.category.packagedauto.package_recipe": "Рецепт пакета",
+  "jei.category.packagedauto.packaging": "Упаковка",
+  "misc.packagedauto.dimension": "Размерность: %s",
+  "misc.packagedauto.direction": "Направление: %s",
+  "misc.packagedauto.down": "Вниз",
+  "misc.packagedauto.east": "Восток",
+  "misc.packagedauto.north": "Север",
+  "misc.packagedauto.position": "Позиция: %s",
+  "misc.packagedauto.set": "Установить",
+  "misc.packagedauto.south": "Юг",
+  "misc.packagedauto.west": "Запад",
+  "recipe.packagedauto.positioned_processing": "Расположенная обработка",
+  "recipe.packagedauto.positioned_processing.short": "Расположенная",
+  "volume.packagedauto.minecraft.fluid": "Жидкость"
+}

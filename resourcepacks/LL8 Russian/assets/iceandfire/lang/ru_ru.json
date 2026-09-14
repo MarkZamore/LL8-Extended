@@ -1,4 +1,7 @@
 {
+  "advancements.iceandfire.dragon_forge_brick.title": "Ещё кирпич в стене",
+  "advancements.iceandfire.kill_ghost.description": "Убейте привидение.",
+  "advancements.iceandfire.kill_ghost.title": "Кого вы будете звать?",
   "attribute.name.generic.dragon_forge_speed": "Скорость драконьей кузницы",
   "bestiary_gui": "Бестиарий",
   "config.iceandfire.amphithere.attackDamage": "Урон атаки",
@@ -205,6 +208,8 @@
   "jei.iceandfire.dragon_forge_fire": "Кузница огненного дракона",
   "jei.iceandfire.dragon_forge_ice": "Кузница ледяного дракона",
   "jei.iceandfire.dragon_forge_lightning": "Кузница грозового дракона",
+  "material.weezer": "Weezer",
+  "modifier.surf_wax_america": "Surf Wax America",
   "resourcePack.iceandfire.legacy.description": "Текстуры до IAF-CE 2.0",
   "resourcePack.iceandfire.legacy.name": "Старые текстуры Ice And Fire",
   "screen.iceandfire.client.title": "Клиентские настройки Ice And Fire",

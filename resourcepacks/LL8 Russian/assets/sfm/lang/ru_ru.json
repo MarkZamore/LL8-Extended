@@ -1,6 +1,7 @@
 {
   "chat.sfm.manager.cable_network_rebuild.failed_fallback": "Не удалось перестроить сетку кабелей менеджера %s; все сетки кабелей очищены",
   "chat.sfm.manager.cable_network_rebuild.success": "Сетка кабелей менеджера %s перестроена",
+  "gui.sfm.manager.button.discord": "Discord",
   "gui.sfm.text_editor.v1.title": "Редактор текста",
   "gui.sfm.text_editor.v2.title": "Редактор текста",
   "key.sfm.label_gun.open_gui": "Открыть GUI пистолета меток",

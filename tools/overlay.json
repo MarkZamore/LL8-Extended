@@ -253,7 +253,7 @@
   {
    "source": "tools/overlay/packs/Assorted ready Russian (LL8 gap subset).zip",
    "target": "resourcepacks/Assorted ready Russian (LL8 gap subset).zip",
-   "sha256": "a4fcf81ca4d69c84765d24a082d58a9b85e7349a10247e920fbc8c84b0c110fb",
+   "sha256": "5223dbf6b5922eb4e34a8c852900024dedf8d7b4952f6f2c672d7e85e23e16e6",
    "reason": "requested addition, kept through pack updates: 24 Russian lines from seven small ready translations (MPLOCmods v40.1, RushanM, Cobblemon 1.8.0, Refined Storage 2, Horrors Russified, RTC, ERP) that nothing else in this build answers. Cut to those keys and unedited; each source's licence is inside, see LL8-MODIFICATION.txt and TRANSLATIONS-RU.md."
   },
   {

@@ -11,5 +11,14 @@
   "psimisc.locked_piece": "Ошибка импорта: элемент %s заблокирован.",
   "psi.book.page.ebonyIvory.4": "Безумие тьмы. Путь Ворона",
   "psi.book.subsec.circleBullet.6": "Синхронизация кругов",
-  "psi.book.subsec.circleBullet.8": "20-битная башня"
+  "psi.book.subsec.circleBullet.8": "20-битная башня",
+  "psi.book.page.exosuit.11": "while(true) {}",
+  "psi.spellpiece.operator_acos.desc": "acos(A)",
+  "psi.spellpiece.operator_asin.desc": "asin(A)",
+  "psi.spellpiece.operator_cos.desc": "cos(A)",
+  "psi.spellpiece.operator_sin.desc": "sin(A)",
+  "psi.spellpiece.operator_square_root.desc": "sqrt(A)",
+  "psi.statlabel.is_last": "isLast",
+  "psimisc.ctrl_mac": "Cmd",
+  "psimisc.ctrl_windows": "Ctrl"
 }

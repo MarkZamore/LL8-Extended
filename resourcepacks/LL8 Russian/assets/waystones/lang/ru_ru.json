@@ -60,6 +60,7 @@
   "gui.waystones.waystone_settings.personal_settings": "Личные настройки",
   "gui.waystones.waystone_settings.visibility.sharestones": "Видна связующим камням",
   "gui.waystones.waystone_settings.visibility.team": "Видна команде",
+  "waystones.configuration.blueMap": "BlueMap",
   "waystones.configuration.compatibility.fixVanillaTeleportBug": "Исправить ошибку телепортации Vanilla",
   "waystones.configuration.compatibility.fixVanillaTeleportBug.tooltip": "Установите значение true, чтобы применить исправление пакета телепортации сущности от мода Waystones ко всем телепортациям сущности, включая ванильные и другие моды.",
   "waystones.configuration.general.allowEveryoneToManageGlobalWaystones": "Разрешить всем управлять глобальными путеводными камнями",

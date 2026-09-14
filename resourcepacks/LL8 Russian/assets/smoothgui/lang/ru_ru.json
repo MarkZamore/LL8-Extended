@@ -26,5 +26,15 @@
     "smoothgui.config.configMode": "Режим конфига",
     "smoothgui.config.configMode.tooltip": "Включите режим конфига, чтобы выбирать, какие экраны должны иметь анимацию.",
     "smoothgui.config.enum.AnimationDirection.UP": "Вверх",
-    "smoothgui.config.enum.AnimationDirection.DOWN": "Вниз"
+    "smoothgui.config.enum.AnimationDirection.DOWN": "Вниз",
+    "smoothgui.config.enum.EasingStyle.BACK": "Откат",
+    "smoothgui.config.enum.EasingStyle.CIRC": "Круг",
+    "smoothgui.config.enum.EasingStyle.CUBIC": "Кубический",
+    "smoothgui.config.enum.EasingStyle.ELASTIC": "Упругий",
+    "smoothgui.config.enum.EasingStyle.EXPO": "Экспоненциальный",
+    "smoothgui.config.enum.EasingStyle.FLAT": "Плоский",
+    "smoothgui.config.enum.EasingStyle.QUAD": "Квадратичный",
+    "smoothgui.config.enum.EasingStyle.QUART": "Четвёртой степени",
+    "smoothgui.config.enum.EasingStyle.QUINT": "Пятой степени",
+    "smoothgui.config.enum.EasingStyle.SINE": "Синусоидальный"
 }

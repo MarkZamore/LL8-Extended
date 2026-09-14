@@ -31,7 +31,7 @@
 | Upstream Russian - Mekanism, MI, Chest Tracker (LL8 gap subset) | xGronox (Mekanism PR #8565); команда Modern Industrialization (2.5.8); переводчики Chest Tracker на Crowdin | MIT; LGPL-3.0-only (Chest Tracker) | https://github.com/mekanism/Mekanism/pull/8565, https://modrinth.com/mod/modern-industrialization, https://github.com/JackFred2/ChestTracker |
 | Occultism Russian by Heimdallr-1 (LL8 gap subset) | Heimdallr-1 | MIT (прислан в репозиторий Occultism) | https://github.com/klikli-dev/occultism/pull/1473 |
 | Draconic Evolution Russian by Ocle42 (LL8 gap subset) | Ocle42 | «Don't Be a Jerk» (CoFH), модпаки разрешены | https://github.com/Draconic-Inc/Draconic-Evolution/pull/1914 |
-| Assorted ready Russian (LL8 gap subset) | Slava_vas (MPLOCmods v40.1); RushanM; The Cobblemon Team (Cobblemon 1.8.0); Refined Mods (Refined Storage 2); G0ludo (Horrors Russified); KlimeGM (RTC 4.0); xaxilin (ERP) | у каждого файла своя: CC BY-NC-SA 4.0; MIT; MPL-2.0; MIT; CC BY-SA 4.0; MIT; Apache-2.0 | см. `LL8-MODIFICATION.txt` внутри |
+| Assorted ready Russian (LL8 gap subset) | Slava_vas (MPLOCmods v40.1); RushanM; Refined Mods (Refined Storage 2); G0ludo (Horrors Russified); KlimeGM (RTC 4.0); xaxilin (ERP); CrychicTeam (Champions-Unofficial); GinDoyr (Draconic Evolution PR #1735); Povstalec (Stargate Journey); Hidoni (Transmog) | у каждого файла своя: CC BY-NC-SA 4.0; MIT; MIT; CC BY-SA 4.0; MIT; Apache-2.0; LGPL-3.0; «Don't Be a Jerk»; CC BY-NC-SA 4.0; MIT | см. `LL8-MODIFICATION.txt` внутри |
 
 RTF Extension содержит переводы **RTF** © Exelerium, MIT —
 https://modrinth.com/resourcepack/rtf
@@ -99,8 +99,10 @@ Mystical Agriculture, Psi, Touhou Little Maid и другие) пишут на �
 **Сверка перед своим переводом.** Перед тем как переводить остаток самим,
 всё, что лежало на машине (скачанные русификаторы, распакованные моды,
 история LL8 Russian), сверено с очередью, а каждый найденный источник
-проверен на лицензию, версию и качество. Кроме уже названных, взяты 24 строки
-из семи мелких источников (выжимка «Assorted ready Russian»). Не взяты
+проверен на лицензию, версию и качество, а для модов с немногими строками
+отдельно просмотрены их репозитории, pull request'ы и свежие релизы. Кроме уже
+названных, взяты 29 строк из десяти мелких источников (выжимка «Assorted ready
+Russian»). Не взяты
 машинные и чужие по лицензии: Life in the Village 4 RUS, русификатор Lee's
 Zombie Apocalypse, Immersive Engineering RU, Liminal Industries, VINREY'S
 Translate, Contained Opolis RU, «Творить». Из очереди убраны строки, которые

@@ -6,5 +6,6 @@
   "tooltip.sgjourney.interface.energy_slot.description": "Вмещает предметы, дающие энергию",
   "tooltip.sgjourney.liquidizer.energy_slot.description": "Вмещает предметы, дающие энергию",
   "screen.sgjourney.transceiver.symbol.toggle_frequency": "ч",
-  "screen.sgjourney.gdo.symbol.toggle_frequency": "ч"
+  "screen.sgjourney.gdo.symbol.toggle_frequency": "ч",
+  "advancements.sgjourney.technology.obtain_classic_stargate_block.title": "Корабль SG"
 }

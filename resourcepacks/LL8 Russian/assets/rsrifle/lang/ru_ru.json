@@ -4,5 +4,6 @@
   "death.attack.hole_hit.2": "%1$s не имел шансов",
   "death.attack.hole_hit.attacker_0": "%1$s был разобран на атомы %2$s",
   "death.attack.hole_hit.attacker_1": "%1$s стал частью чёрной дыры %2$s",
-  "death.attack.hole_hit.attacker_2": "%1$s не имел шансов перед чёрной дырой %2$s"
+  "death.attack.hole_hit.attacker_2": "%1$s не имел шансов перед чёрной дырой %2$s",
+  "rsrifle.creativetab.tab": "Reinforced Singularity Rifle"
 }

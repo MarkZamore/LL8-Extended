@@ -77,7 +77,12 @@
   "commands.enderdrives.tape.unpin.success": "Лента %s откреплена.",
   "commands.enderdrives.team.none": "Вы не состоите ни в одной команде FTB Teams.",
   "commands.enderdrives.team.unavailable": "FTB Teams недоступен, поэтому командное хранилище нельзя открыть.",
+  "key.categories.enderdrives": "EnderDrives",
+  "tooltip.enderdrives.disabled": "§cЭтот предмет отключён на сервере.",
   "tooltip.enderdrives.disk.duplicate_sleep": "Неактивен: в этой ME-сети уже работает другой эндер-диск с такой же частотой и областью.",
+  "tooltip.enderdrives.enderdisk.disabled": "§cЭтот Эндер-диск отключён на сервере.",
+  "tooltip.enderdrives.fluid_types": "%s§7 из §9%s§7 типов жидкости",
+  "tooltip.enderdrives.fluidenderdisk.disabled": "§cЭтот диск жидкостного Эндера отключён на сервере.",
   "tooltip.enderdrives.partitioned_fluid": "§7Ограничено: §f%s жидкость%s",
   "tooltip.enderdrives.partitioned_item": "§7Ограничено: §f%s предмет%s",
   "tooltip.enderdrives.tape.duplicate_sleep": "Неактивен: в этой ME-сети уже работает другая копия этого ленточного диска."

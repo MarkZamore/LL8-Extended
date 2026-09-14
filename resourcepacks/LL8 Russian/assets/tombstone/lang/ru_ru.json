@@ -14,5 +14,6 @@
   "tombstone.message.unknown_narrative": "Неизвестный рассказ: %s",
   "tombstone.message.watcher_knowledge_4.find_nights_of_nour": "Вам нужно найти все части Nights of Nour",
   "tombstone.message.watcher_knowledge_4.unlocked": "Ashkar наконец свободен и оставляет вам летающий ковёр в знак благодарности",
-  "tombstone.message.rip": "Покойся с миром"
+  "tombstone.message.rip": "Покойся с миром",
+  "tombstone.perk.memento_mori": "Memento Mori"
 }

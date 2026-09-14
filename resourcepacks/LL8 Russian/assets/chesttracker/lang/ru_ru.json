@@ -1,0 +1,19 @@
+{
+  "chesttracker.config.compatibility.litematica": "Litematica",
+  "chesttracker.config.compatibility.litematica.countEnderChestMaterials.description": "Добавлять ли материалы из вашего эндер-сундука в расчёты материалов Litematica.",
+  "chesttracker.config.compatibility.wthit.description": "Позволяет использовать текущий банк памяти для отображения подсветки в WTHIT. Дополнительные настройки находятся в менеджере плагинов WTHIT.",
+  "chesttracker.config.gui": "Интерфейс",
+  "chesttracker.config.gui.autofocusSearchBar.description": "Автоматически фокусировать строку поиска при открытии интерфейса.",
+  "chesttracker.config.gui.hideMemoryBankIds.description": "Скрыть ID банка памяти в интерфейсах редактирования, например если вы хотите скрыть IP.",
+  "chesttracker.config.gui.itemListTextScale.description": "Масштаб интерфейса для отображения текста в списке предметов. Полезно, если число предметов растягивается на другие слоты.",
+  "chesttracker.config.rendering.displayContainerNames.description": "Показывать ли имена контейнеров в мире. Можно переопределить отдельно для каждого банка памяти в разделе «Совместимость».",
+  "chesttracker.config.storage.storageBackend.description.json": "Хранит все банки памяти как JSON-файлы в папке «chesttracker» вашей игры. Читаемо, но занимает больше дискового пространства.",
+  "chesttracker.config.storage.storageBackend.description.memoryLossOnReboot": "Внимание: все банки памяти, сохранённые таким образом, теряются при закрытии игры.",
+  "chesttracker.config.storage.storageBackend.description.nbt": "Хранит все банки памяти как NBT-файлы в папке «chesttracker» вашей игры. Компактнее, но не читаются без внешней программы. Рекомендуемый вариант.",
+  "chesttracker.gui.editMemoryBank.integrity.blockBreak.tooltip": "Удалять ли память при разрушении блока в этой позиции.",
+  "chesttracker.gui.editMemoryBank.integrity.memoryLifetime.tooltip": "Как долго память не должна быть использована, прежде чем она считается устаревшей и удаляется.",
+  "chesttracker.gui.editMemoryBank.integrity.periodicCheck.tooltip": "Периодически проверять близлежащие воспоминания, чтобы убедиться, что их контейнеры больше не существуют, на случай если что-то их сломало.",
+  "chesttracker.gui.editMemoryBank.integrity.preserveNamed.tooltip": "Исключать ли именованные воспоминания из проверки срока жизни памяти.",
+  "chesttracker.gui.editMemoryBank.search.itemListRange.tooltip": "Максимальное расстояние в блоках, на котором список предметов будет отображать воспоминания.",
+  "chesttracker.gui.editMemoryBank.search.stackMergeMode.tooltip": "Как различные стопки предметов в контейнерах объединяются и отображаются в списке предметов."
+}

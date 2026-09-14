@@ -1,4 +1,5 @@
 {
+  "chat.subtle_effects.prefix": "[Subtle Effects]:",
   "config.subtle_effects.entities.burning.overrideDyedFlamesEffects": "Переопределить эффекты Dyed Flames",
   "config.subtle_effects.entities.burning.overrideDyedFlamesEffects.desc": "Отключает эффекты лавовых искр, создаваемые Dyed Flames\n\n§6Примечание:§r\nТребуется установленный мод Dyed Flames"
 }

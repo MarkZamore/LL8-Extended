@@ -1,4 +1,7 @@
 {
+  "inventoryprofiles.common.gui.config.false": "§4false",
+  "inventoryprofiles.common.gui.config.modifier_key": "Ctrl/Alt/Shift",
+  "inventoryprofiles.common.gui.config.true": "§2true",
   "inventoryprofiles.config.category.accumulated_count": "Параметры сортировки по количеству",
   "inventoryprofiles.config.category.features": "Возможности",
   "inventoryprofiles.config.description.enable_sorting_and_moving": "Включает или отключает улучшения сортировки и перемещения предметов.",
@@ -33,6 +36,9 @@
   "inventoryprofiles.config.name.quick_slot_7_profile": "Имя быстрого профиля 7",
   "inventoryprofiles.config.name.quick_slot_8_profile": "Имя быстрого профиля 8",
   "inventoryprofiles.config.name.quick_slot_9_profile": "Имя быстрого профиля 9",
+  "inventoryprofiles.config.notification.tool_replace_ping.ipn": "IPN ",
   "inventoryprofiles.gui.config.Features": "Возможности",
-  "inventoryprofiles.gui.config.SortSettings": "Настройки сортировки"
+  "inventoryprofiles.gui.config.SortSettings": "Настройки сортировки",
+  "inventoryprofiles.gui.config.button.open_config_folder": "config/inventoryprofilesnext",
+  "inventoryprofiles.tooltip.fast_rename": "Массовое переименование"
 }

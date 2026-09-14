@@ -12,6 +12,8 @@
   "gui.appliede.toggle_storage": "Нажмите для переключения в режим хранения.",
   "gui.appliede.toggle_transmutation": "Нажмите для переключения в режим трансмутации.",
   "gui.appliede.unlearned": "Не изучено!",
+  "key.appliede.emc": "EMC",
+  "key.appliede.emc_tiered": "EMC^%s",
   "tooltip.appliede.not_installed": "%s не установлен.",
   "tooltip.appliede.owner": "Владелец: %s",
   "tooltip.appliede.transmutable": "Можно получить из EMC (Shift+ЛКМ/Прокрутка)"

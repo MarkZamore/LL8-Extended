@@ -8,5 +8,6 @@
   "hostilenetworks.gui.mode.training.desc": "Симуляции набирают данные модели,",
   "hostilenetworks.gui.mode.training.desc2": "но не дают выдачи",
   "itemGroup.hostilenetworks": "Враждебные нейронные сети",
-  "hostilenetworks.color_text.hud": "интерфейс"
+  "hostilenetworks.color_text.hud": "интерфейс",
+  "text.hostilenetworks.shift": "[shift]"
 }

@@ -1,0 +1,8 @@
+{
+  "advancements.energizedpowerfd.electric_stove.description": "Более быстрое приготовление с электричеством.",
+  "advancements.energizedpowerfd.induction_stove.description": "Ещё более быстрое приготовление с индукцией.",
+  "book.energizedpowerfd.page.electric_stoves.1": "Электрические плиты быстрее, чем плита из Farmer's Delight.",
+  "book.energizedpowerfd.page.electric_stoves.2": "Electric Stove (в 2 раза быстрее)",
+  "book.energizedpowerfd.page.electric_stoves.3": "Induction Stove (в 3 раза быстрее)",
+  "tooltip.energizedpowerfd.stoves.txt.shift.1": "%s в %d раз быстрее, чем плита из Farmer's Delight."
+}

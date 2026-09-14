@@ -6,5 +6,6 @@
   "twilight_lootr.configuration.decay_time.tooltip": "Время (в тиках) от появления сундука Boss Chest до его распада.",
   "twilight_lootr.configuration.enable_decay": "Включить распад",
   "twilight_lootr.configuration.enable_decay.tooltip": "При включении сундуки Boss Chest начнут распадаться сразу же после появления. После истечения времени распада они будут уничтожены.",
-  "twilight_lootr.configuration.general": "Общие"
+  "twilight_lootr.configuration.general": "Общие",
+  "twilight_lootr.configuration.title": "Twilight Lootr"
 }
