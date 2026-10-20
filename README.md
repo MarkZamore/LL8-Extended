@@ -233,3 +233,8 @@ overworld). По умолчанию — dry-run; подробности в ег�
   пака маркерный файл `portable-pack-source.json` (см. выше). По этому маркеру
   лаунчер понимает, откуда обновлять пак. Файл существует только на клиенте —
   в репозиторий и в манифест он не попадает.
+
+
+## Launcher library
+
+`library/content.json` owns the player-facing description, stable identity, additional library IDs and curated addon relationships; `library/preview.jpg` is the original menu background resized for cards and the detail banner. `tools/pack_library.py` reads the actual shipped jars and builds a deterministic, content-addressed library bundle. The optional `library` field of `pack-manifest.json` names its size, SHA-256 and revision. It is published before the manifest, separately from installed game files, and ignored by older launchers.
